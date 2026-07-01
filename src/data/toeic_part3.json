@@ -1,0 +1,1868 @@
+[
+  {
+    "id": "p3_0001",
+    "title": "新規ITシステムの導入についての会話",
+    "dialogue": [
+      {
+        "speaker": "Man",
+        "text": "Hi everyone, I wanted to discuss the implementation of the new ERP system and how we will manage user logins."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That sounds great, but I’m a bit confused about the login process. Can you explain how it will work?"
+      },
+      {
+        "speaker": "Man",
+        "text": "Sure! Each employee will receive a unique ID and password to access the system. We will send that information out next week."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "When is the training session scheduled? I want to make sure I understand everything before we go live."
+      },
+      {
+        "speaker": "Man",
+        "text": "The training sessions are planned for the end of next month. We’ll have a few options to choose from."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "What if I can't make it to the training session?"
+      },
+      {
+        "speaker": "Man",
+        "text": "That's not a problem. We will provide recorded sessions that you can watch later."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Perfect! That really helps ease my worries about missing it."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男性",
+        "text": "皆さん、こんにちは。新しいERPシステムの導入とユーザーログインの管理について話したいと思います。"
+      },
+      {
+        "speaker": "女性1",
+        "text": "それは素晴らしいですが、ログインプロセスについて少し混乱しています。どう機能するのか説明していただけますか？"
+      },
+      {
+        "speaker": "男性",
+        "text": "もちろんです！各従業員にはシステムにアクセスするためのユニークなIDとパスワードが配布されます。その情報は来週お送りします。"
+      },
+      {
+        "speaker": "女性2",
+        "text": "トレーニングセッションはいつ予定されていますか？ライブにする前にすべてを理解したいです。"
+      },
+      {
+        "speaker": "男性",
+        "text": "トレーニングセッションは来月の終わりに予定されています。いくつかの選択肢があります。"
+      },
+      {
+        "speaker": "女性1",
+        "text": "トレーニングセッションに参加できない場合はどうすればいいですか？"
+      },
+      {
+        "speaker": "男性",
+        "text": "問題ありません。後で視聴できる録画されたセッションを提供します。"
+      },
+      {
+        "speaker": "女性2",
+        "text": "完璧です！それで欠席することへの不安が和らぎます。"
+      }
+    ],
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What will each employee receive to access the new ERP system?",
+        "options": [
+          "A unique username and password",
+          "A training schedule",
+          "A manual",
+          "An access card"
+        ],
+        "answer": "A unique username and password",
+        "translation": "各従業員は新しいERPシステムにアクセスするために何を受け取ることになりますか？",
+        "options_translation": [
+          "ユニークなユーザー名とパスワード",
+          "トレーニングスケジュール",
+          "マニュアル",
+          "アクセスカード"
+        ],
+        "explanation": "正解は「ユニークなユーザー名とパスワード」です。男性が「各従業員にはシステムにアクセスするためのユニークなIDとパスワードが配布されます」と言っている部分が根拠です。これは、ログインプロセスに関する明確な説明です。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What does the man imply when he says, 'That's not a problem. We will provide recorded sessions that you can watch later.'?",
+        "options": [
+          "Employees can learn at their own pace.",
+          "Training sessions are mandatory.",
+          "All training will be done in person.",
+          "Recording training is not allowed."
+        ],
+        "answer": "Employees can learn at their own pace.",
+        "translation": "男性が「問題ありません。後で視聴できる録画されたセッションを提供します」と言ったとき、彼は何を暗示していますか？",
+        "options_translation": [
+          "従業員は自分のペースで学ぶことができます。",
+          "トレーニングセッションは必須です。",
+          "すべてのトレーニングは対面で行われます。",
+          "トレーニングの録画は許可されていません。"
+        ],
+        "explanation": "正解は「従業員は自分のペースで学ぶことができます」です。男性の発言は、参加できない場合でも後で学ぶことが可能であることを示唆しています。これは、女性1の懸念に対する解決策としても機能しており、従業員の学習の柔軟性を暗示しています。",
+        "question_type": "Intent",
+        "target_score": 600,
+        "quote_text": "That's not a problem. We will provide recorded sessions that you can watch later."
+      },
+      {
+        "id": 3,
+        "question_text": "When are the training sessions planned?",
+        "options": [
+          "Next week",
+          "At the end of next month",
+          "This week",
+          "In two weeks"
+        ],
+        "answer": "At the end of next month",
+        "translation": "トレーニングセッションはいつ予定されていますか？",
+        "options_translation": [
+          "来週",
+          "来月の終わり",
+          "今週",
+          "二週間後"
+        ],
+        "explanation": "正解は「来月の終わり」です。男性が「トレーニングセッションは来月の終わりに予定されています」と明言していることが根拠になっています。これは他の選択肢とは異なり、明確な日付が示されています。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0001.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p3_0002",
+    "title": "製品の配送遅延に関する会話",
+    "dialogue": [
+      {
+        "speaker": "Man",
+        "text": "Hello, this is David from Customer Service. I am calling regarding your recent order."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Hi David, yes, I was expecting the delivery yesterday."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Has there been a delay with my shipment?"
+      },
+      {
+        "speaker": "Man",
+        "text": "Yes, unfortunately, there has been an unexpected delay due to some supply chain issues."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That's quite frustrating. Can you tell me when I can expect it?"
+      },
+      {
+        "speaker": "Man",
+        "text": "We are working to resolve this quickly. You should receive your order by the end of this week."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "I appreciate the update. Will you be offering any compensation for this delay?"
+      },
+      {
+        "speaker": "Man",
+        "text": "Yes, we would like to offer you a 20% discount on your next purchase as an apology."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男性",
+        "text": "こんにちは、カスタマーサービスのデイビッドです。最近のご注文についてお電話しています。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "はい、デイビッド、昨日配達されるはずでした。"
+      },
+      {
+        "speaker": "女性 2",
+        "text": "私の配送に遅れは出ているのでしょうか？"
+      },
+      {
+        "speaker": "男性",
+        "text": "はい、残念ながら、サプライチェーンの問題で予想外の遅れが生じています。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "それはかなり不満です。いつ頃届くか教えてもらえますか？"
+      },
+      {
+        "speaker": "男性",
+        "text": "私たちは迅速に解決に取り組んでいます。今週末までにはご注文が届くはずです。"
+      },
+      {
+        "speaker": "女性 2",
+        "text": "更新ありがとうございます。この遅延に対して何らかの補償はありますか？"
+      },
+      {
+        "speaker": "男性",
+        "text": "はい、遅延のお詫びとして、次回の購入に20％の割引を提供したいと思います。"
+      }
+    ],
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the reason for the delay in the shipment?",
+        "options": [
+          "Supply chain problems",
+          "Weather issues",
+          "Employee strike",
+          "Technical difficulties"
+        ],
+        "answer": "Supply chain problems",
+        "translation": "配送の遅延の理由は何ですか？",
+        "options_translation": [
+          "サプライチェーンの問題",
+          "天候の問題",
+          "従業員のストライキ",
+          "技術的な問題"
+        ],
+        "explanation": "発話の中で、男性が『サプライチェーンの問題で予想外の遅れが生じています』と言っていることから、正解は「サプライチェーンの問題」です。その他の選択肢は会話には言及されていません。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What does the man imply by saying, 'We would like to offer you a 20% discount on your next purchase as an apology'?",
+        "options": [
+          "They acknowledge their mistake and want to make it up to the customers.",
+          "They are excited about future sales.",
+          "They want to avoid further complaints.",
+          "They do not take the issue seriously."
+        ],
+        "answer": "They acknowledge their mistake and want to make it up to the customers.",
+        "translation": "男性が「次回の購入に20％の割引を提供したいと思います」と言うことで何を暗示していますか？",
+        "options_translation": [
+          "彼らは自分たちの過ちを認め、顧客に償おうとしている。",
+          "彼らは将来の売上に興奮している。",
+          "彼らはさらなる苦情を避けたい。",
+          "彼らは問題を真剣に受け止めていない。"
+        ],
+        "explanation": "男性は顧客への謝罪として20％の割引を提供すると述べています。この発言は、過ちを認め、顧客に対して償おうとしていることを意味しています。",
+        "question_type": "Intent",
+        "target_score": 730,
+        "quote_text": "We would like to offer you a 20% discount on your next purchase as an apology."
+      },
+      {
+        "id": 3,
+        "question_text": "When can the customer expect to receive her order?",
+        "options": [
+          "By the end of this week",
+          "Tomorrow",
+          "Next week",
+          "It has already been delivered"
+        ],
+        "answer": "By the end of this week",
+        "translation": "顧客はいつご注文が届くと期待できますか？",
+        "options_translation": [
+          "今週末まで",
+          "明日",
+          "来週",
+          "すでに配達済み"
+        ],
+        "explanation": "男性は『今週末までにはご注文が届くはずです』と言っており、これが答えの根拠です。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0002.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p3_0003",
+    "title": "工場での安全基準マニュアルの改定と全社員向けの研修実施",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "I believe we need to revisit the safety manual to incorporate the latest regulations."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Absolutely! It's crucial that all employees are informed about any changes."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "When are we planning to hold the training sessions for everyone?"
+      },
+      {
+        "speaker": "Man 1",
+        "text": "We should schedule them for next month, ideally during the first week."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That works for me. How long do you expect each session to last?"
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "I think we should allocate at least two hours per session to cover everything thoroughly."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "I agree, and we should also prepare handouts for the participants."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Definitely! It'll help them remember the key points."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男",
+        "text": "安全マニュアルを見直して最新の規制を取り入れるべきだと思います。"
+      },
+      {
+        "speaker": "女 1",
+        "text": "その通りです！全社員が変更について知らされることが重要です。"
+      },
+      {
+        "speaker": "女 2",
+        "text": "全社員向けの研修はいつ開催する予定ですか？"
+      },
+      {
+        "speaker": "男",
+        "text": "来月の第一週に予定を組むべきです。"
+      },
+      {
+        "speaker": "女 1",
+        "text": "それは私にとっても大丈夫です。各セッションにはどのくらいの時間がかかると予想していますか？"
+      },
+      {
+        "speaker": "女 2",
+        "text": "すべてをしっかりカバーするために、各セッションに少なくとも2時間は割り当てるべきだと思います。"
+      },
+      {
+        "speaker": "男",
+        "text": "同意します。また、参加者のために配布資料も用意しましょう。"
+      },
+      {
+        "speaker": "女 1",
+        "text": "絶対に！それが重要なポイントを記憶する助けになります。"
+      }
+    ],
+    "visual_url": "https://unsplash.com/photos/2z7Wz6uS0WU",
+    "visual_title": "安全基準マニュアル改定研修スケジュール",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the main purpose of the discussion?",
+        "options": [
+          "To plan for an upcoming training on safety standards.",
+          "To evaluate the current production lines.",
+          "To discuss employee performance reviews.",
+          "To organize a company-wide meeting."
+        ],
+        "answer": "To plan for an upcoming training on safety standards.",
+        "translation": "この議論の主な目的は何ですか？",
+        "options_translation": [
+          "安全基準に関する今後の研修を計画すること。",
+          "現在の生産ラインを評価すること。",
+          "従業員のパフォーマンスレビューについて話し合うこと。",
+          "全社的な会議を組織すること。"
+        ],
+        "explanation": "会話の目的は、安全基準に関する研修を計画することです。この要点はMan 1が安全マニュアルの見直しを提案した部分に基づいています。",
+        "question_type": "Overview",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "How long will each training session last?",
+        "options": [
+          "One hour.",
+          "Two hours.",
+          "Three hours.",
+          "Four hours."
+        ],
+        "answer": "Two hours.",
+        "translation": "各研修セッションはどのくらいの長さになりますか？",
+        "options_translation": [
+          "1時間。",
+          "2時間。",
+          "3時間。",
+          "4時間。"
+        ],
+        "explanation": "会話の中でWoman 2が「各セッションに少なくとも2時間を割り当てるべき」と言っていることから、この答えが導かれます。",
+        "question_type": "Detail",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "According to the schedule in the graphic, when will the training sessions be held?",
+        "options": [
+          "In the first week of June.",
+          "In the first week of July.",
+          "In the last week of May.",
+          "In the last week of June."
+        ],
+        "answer": "In the first week of July.",
+        "translation": "図のスケジュールによると、研修セッションはいつ行われますか？",
+        "options_translation": [
+          "6月の第一週。",
+          "7月の第一週。",
+          "5月の最終週。",
+          "6月の最終週。"
+        ],
+        "explanation": "グラフィックのスケジュールでは、研修セッションが7月の第一週に予定されていることを示しています。この情報は会話の中で予定を組む話がされている部分と一致します。",
+        "question_type": "Graphic",
+        "target_score": 860,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0003.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p3_0004",
+    "title": "社内食堂のメニュー改定とアンケート調査",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "Hello everyone, I wanted to discuss the changes to our cafeteria menu based on the recent survey results."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That sounds great! I hope the feedback will lead to healthier options."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Yes, and I'm curious about the specific items that will be added or removed."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "According to the survey, many employees requested more vegetarian dishes and less fried foods."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "I completely agree. It's essential to have nutritious meals available."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "When will these changes take effect?"
+      },
+      {
+        "speaker": "Man 1",
+        "text": "The new menu will launch next Monday, and we'll also adjust the hours to accommodate lunch rush."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That's perfect! I look forward to trying the new dishes."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男性 1",
+        "text": "皆さん、こんにちは。最近の調査結果に基づいて、社内食堂のメニューの変更について議論したいと思います。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "それは素晴らしいですね！フィードバックが健康的な選択肢をもたらすことを願っています。"
+      },
+      {
+        "speaker": "女性 2",
+        "text": "はい、具体的にどのアイテムが追加されたり削除されたりするのか気になります。"
+      },
+      {
+        "speaker": "男性 1",
+        "text": "調査によると、多くの従業員がより多くのベジタリアン料理と揚げ物を減らすことを求めていました。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "全く同感です。栄養価の高い食事を提供するのは重要です。"
+      },
+      {
+        "speaker": "女性 2",
+        "text": "これらの変更はいつ実施されますか？"
+      },
+      {
+        "speaker": "男性 1",
+        "text": "新しいメニューは来週の月曜日に開始され、昼食ラッシュに対応するために営業時間も調整します。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "それは完璧ですね！新しい料理を試すのが楽しみです。"
+      }
+    ],
+    "visual_url": "https://source.unsplash.com/random/800x600",
+    "visual_title": "社内食堂の新メニュー表",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What change did many employees request for the cafeteria menu?",
+        "options": [
+          "More vegetarian options and fewer fried foods.",
+          "To include more desserts and beverages.",
+          "To make the prices lower for all items.",
+          "To offer more international cuisine."
+        ],
+        "answer": "More vegetarian options and fewer fried foods.",
+        "translation": "多くの従業員が食堂のメニューに求めた変更は何ですか？",
+        "options_translation": [
+          "より多くのベジタリアン料理と少ない揚げ物。",
+          "より多くのデザートや飲み物を含めること。",
+          "すべてのアイテムの価格を下げること。",
+          "より多くの国際料理を提供すること。"
+        ],
+        "explanation": "会話の中で、男性1が「多くの従業員がより多くのベジタリアン料理と揚げ物を減らすことを求めていました」と言っています。この表現が選択肢の正解「より多くのベジタリアン料理と少ない揚げ物。」に変えて表現されています。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "When will the new cafeteria menu take effect?",
+        "options": [
+          "Next Monday.",
+          "At the end of this week.",
+          "In two weeks.",
+          "Next month."
+        ],
+        "answer": "Next Monday.",
+        "translation": "新しい食堂のメニューはいつ実施されますか？",
+        "options_translation": [
+          "来週の月曜日。",
+          "今週の終わり。",
+          "2週間後。",
+          "来月。"
+        ],
+        "explanation": "男性1が「新しいメニューは来週の月曜日に開始される」と述べており、これが正解の根拠です。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "According to the chart, which type of dish will become more available?",
+        "options": [
+          "Vegetarian dishes.",
+          "Fried dishes.",
+          "Desserts.",
+          "Meat dishes."
+        ],
+        "answer": "Vegetarian dishes.",
+        "translation": "チャートによれば、どの種類の料理がより多く提供されることになりますか？",
+        "options_translation": [
+          "ベジタリアン料理。",
+          "揚げ物。",
+          "デザート。",
+          "肉料理。"
+        ],
+        "explanation": "会話の中で男性1が「多くの従業員がより多くのベジタリアン料理を求めていました」と言っており、それに基づいて示された図表でベジタリアン料理が増えることが示されています。これが正解の理由です。",
+        "question_type": "Graphic",
+        "target_score": 990,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0004.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p3_0005",
+    "title": "新規顧客向けプロダクト提案とその価格・納期に関する交渉",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "Hello, everyone. I appreciate you both joining me today to discuss our proposal for the new product for our prospective clients."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Thank you for having us. I believe this product could really meet their needs."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Absolutely. But first, let's clarify our pricing structure before we proceed."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "Right, I think we should consider the feedback we received from our last meeting. They were concerned about the initial costs."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Indeed. We should propose a flexible payment plan to ease their budget constraints."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "And how soon can we deliver after they sign the agreement?"
+      },
+      {
+        "speaker": "Man 1",
+        "text": "If everything goes smoothly, we can have the product ready within three weeks."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That sounds reasonable. Let's make sure to highlight that in our pitch."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男性",
+        "text": "こんにちは、皆さん。新しいプロダクトの提案についてお話しするために、今日はお二人とも参加してくれてありがとうございます。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "招待していただきありがとうございます。このプロダクトは本当に彼らのニーズに応えられると思います。"
+      },
+      {
+        "speaker": "女性 2",
+        "text": "絶対にそうですね。でもまず、進める前に私たちの価格構造を明確にしましょう。"
+      },
+      {
+        "speaker": "男性",
+        "text": "そうですね、前回の会議で受け取ったフィードバックを考慮する必要があります。彼らは初期コストについて懸念していました。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "確かに。私たちは彼らの予算の制約を和らげるために柔軟な支払いプランを提案するべきです。"
+      },
+      {
+        "speaker": "女性 2",
+        "text": "契約にサインしてから、どれくらいで納品できますか？"
+      },
+      {
+        "speaker": "男性",
+        "text": "すべてがうまくいけば、商品を3週間以内に準備できます。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "それは合理的ですね。それを私たちの提案に強調しておきましょう。"
+      }
+    ],
+    "visual_url": "https://source.unsplash.com/random/?schedule",
+    "visual_title": "納品スケジュール",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What should the team consider according to the previous meeting's feedback?",
+        "options": [
+          "The initial costs were too high.",
+          "The product features need improvement.",
+          "The delivery time is too long.",
+          "A flexible payment plan is necessary."
+        ],
+        "answer": "A flexible payment plan is necessary.",
+        "translation": "前回の会議のフィードバックに基づいて、チームは何を考慮すべきですか？",
+        "options_translation": [
+          "初期コストが高すぎた。",
+          "製品の機能が改善が必要。",
+          "納期が長すぎる。",
+          "柔軟な支払いプランが必要。"
+        ],
+        "explanation": "この質問は、会話の中で女性1が述べた「私たちは彼らの予算の制約を和らげるために柔軟な支払いプランを提案するべきです」という発言から派生しています。この発言は、前回の会議で顧客が初期コストを懸念していたという内容を踏まえた上にあるため、正解は選択肢「柔軟な支払いプランが必要」です。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What does the statement 'They were concerned about the initial costs' imply about the client's expectations?",
+        "options": [
+          "They prefer high-quality products only.",
+          "They have budget constraints.",
+          "They are looking for more features.",
+          "They need immediate delivery."
+        ],
+        "answer": "They have budget constraints.",
+        "translation": "「彼らは初期コストについて懸念していました」という発言は、顧客の期待について何を示唆していますか？",
+        "options_translation": [
+          "彼らは高品質な製品だけを好む。",
+          "彼らには予算の制約がある。",
+          "彼らはより多くの機能を求めている。",
+          "彼らは即時の納品が必要。"
+        ],
+        "explanation": "この質問は、男性が言った「彼らは初期コストについて懸念していました」という発言が前提となっています。この発言から、顧客が予算に関して懸念していることが明らかになりますので、正解は「彼らには予算の制約がある」です。",
+        "question_type": "Intent",
+        "target_score": 600,
+        "quote_text": "They were concerned about the initial costs."
+      },
+      {
+        "id": 3,
+        "question_text": "According to the schedule provided, how long will it take to deliver the product after the agreement is signed?",
+        "options": [
+          "Two weeks",
+          "Three weeks",
+          "One month",
+          "Immediately"
+        ],
+        "answer": "Three weeks",
+        "translation": "提示された納品スケジュールによると、契約にサインしてから商品を納品するまでにどれくらいかかりますか？",
+        "options_translation": [
+          "2週間",
+          "3週間",
+          "1ヶ月",
+          "直ちに"
+        ],
+        "explanation": "この質問は、男性が述べた「商品を3週間以内に準備できます」という発言に基づいています。この発言をもとに、納品にかかる時間を選択肢と照らし合わせると、正解は「3週間」です。",
+        "question_type": "Graphic",
+        "target_score": 600,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0005.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p3_0006",
+    "title": "オフィスの改装計画に伴う従業員への案内",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "Hey team, as you know, we are planning to rearrange the office layout due to the renovation. I want to go over the new seating arrangement."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Right. When will the changes take effect?"
+      },
+      {
+        "speaker": "Man 1",
+        "text": "The modifications will start next Monday. We need everyone to move to their new desks by the end of this week."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Do we have a map of the new layout? It would really help with the transition."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "Yes, I've attached a layout map to the email I sent out this morning. Please refer to it for your new locations."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Great! Is there a specific time for the move?"
+      },
+      {
+        "speaker": "Man 1",
+        "text": "We recommend moving during the lunch hour to minimize disruption."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "That sounds reasonable. Thank you for organizing this."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男1",
+        "text": "皆さん、知っての通り、改装のためにオフィスのレイアウトを再配置する予定です。新しい席の配置について確認したいと思います。"
+      },
+      {
+        "speaker": "女1",
+        "text": "そうですね。変更はいつから始まりますか？"
+      },
+      {
+        "speaker": "男1",
+        "text": "変更は来週の月曜日から始まります。今週の終わりまでに新しいデスクに移動してもらう必要があります。"
+      },
+      {
+        "speaker": "女2",
+        "text": "新しいレイアウトの地図はありますか？移行に役立つでしょうね。"
+      },
+      {
+        "speaker": "男1",
+        "text": "はい、今朝送ったメールにレイアウトの地図を添付しました。新しい位置についてはそれを参照してください。"
+      },
+      {
+        "speaker": "女1",
+        "text": "素晴らしい！移動の具体的な時間はありますか？"
+      },
+      {
+        "speaker": "男1",
+        "text": "混乱を最小限に抑えるために、昼休み中に移動することをお勧めします。"
+      },
+      {
+        "speaker": "女2",
+        "text": "それは合理的ですね。この計画を整理してくれてありがとうございます。"
+      }
+    ],
+    "visual_url": "https://source.unsplash.com/random?office+layout",
+    "visual_title": "オフィスの新しいレイアウト",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "When will the office layout changes begin?",
+        "options": [
+          "Next Monday",
+          "At the end of the week",
+          "Next Friday",
+          "This morning"
+        ],
+        "answer": "Next Monday",
+        "translation": "オフィスのレイアウト変更はいつ始まりますか？",
+        "options_translation": [
+          "来週の月曜日",
+          "今週の終わり",
+          "来週の金曜日",
+          "今朝"
+        ],
+        "explanation": "男1が 'The modifications will start next Monday.' と述べていることから、正解は「来週の月曜日」となります。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What does the team need to do by the end of this week?",
+        "options": [
+          "Move to their new desks",
+          "Review the new layout",
+          "Attend a meeting",
+          "Submit a report"
+        ],
+        "answer": "Move to their new desks",
+        "translation": "今週の終わりまでにチームは何をする必要がありますか？",
+        "options_translation": [
+          "新しいデスクに移動する",
+          "新しいレイアウトを確認する",
+          "会議に出席する",
+          "報告書を提出する"
+        ],
+        "explanation": "男1が 'we need everyone to move to their new desks by the end of this week.' と言っているため、正解は「新しいデスクに移動する」となります。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "According to the layout map, where will the finance department be located?",
+        "options": [
+          "In the northeast corner",
+          "Next to the marketing team",
+          "Near the entrance",
+          "On the second floor"
+        ],
+        "answer": "In the northeast corner",
+        "translation": "レイアウト図によると、財務部はどこに位置していますか？",
+        "options_translation": [
+          "北東のコーナー",
+          "マーケティングチームの隣",
+          "入り口の近く",
+          "2階"
+        ],
+        "explanation": "図表の新しいレイアウト地図から、財務部は北東のコーナーに位置していることが確認できるため、正解は「北東のコーナー」となります。",
+        "question_type": "Graphic",
+        "target_score": 730,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0006.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p3_0007",
+    "title": "優秀な成績を収めた社員の退職・送別会の案内",
+    "dialogue": [
+      {
+        "speaker": "Woman",
+        "text": "Hi team, I want to announce a farewell party for Tom this Friday at 5 PM."
+      },
+      {
+        "speaker": "Man",
+        "text": "That sounds great! What do we need to prepare for it?"
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "I can arrange for some snacks and drinks. Should we also get a cake?"
+      },
+      {
+        "speaker": "Man",
+        "text": "Absolutely! It would be nice to have a cake to celebrate his achievements."
+      },
+      {
+        "speaker": "Woman",
+        "text": "I’ll make a sign-up sheet for everyone to contribute. Please make sure to sign up by tomorrow."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Is there a theme for the party?"
+      },
+      {
+        "speaker": "Man",
+        "text": "Let’s keep it simple with a casual theme. Just a nice gathering to say goodbye."
+      },
+      {
+        "speaker": "Woman",
+        "text": "Also, I've prepared a card for everyone to write their messages. We can present it to him during the party."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "女性",
+        "text": "皆さん、今週の金曜日の午後5時にトムの送別会を開こうと思います。"
+      },
+      {
+        "speaker": "男性",
+        "text": "それは素晴らしいですね！何を準備する必要がありますか？"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "軽食と飲み物を手配できます。ケーキも必要ですか？"
+      },
+      {
+        "speaker": "男性",
+        "text": "ぜひとも！彼の業績を祝うためにケーキがあるといいですね。"
+      },
+      {
+        "speaker": "女性",
+        "text": "皆に参加するためのサインアップシートを作ります。明日までにサインアップしてください。"
+      },
+      {
+        "speaker": "女性 1",
+        "text": "パーティーのテーマはありますか？"
+      },
+      {
+        "speaker": "男性",
+        "text": "カジュアルなテーマでシンプルにしましょう。ただの集まりでさよならを言うのです。"
+      },
+      {
+        "speaker": "女性",
+        "text": "皆がメッセージを書くためのカードも用意しました。パーティーの時に彼に渡しましょう。"
+      }
+    ],
+    "visual_url": "https://unsplash.com/photos/xi4Q7pR6wYI",
+    "visual_title": "送別会のスケジュール",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "When is the farewell party for Tom?",
+        "options": [
+          "This Saturday at 5 PM",
+          "This Friday at 5 PM",
+          "Next Friday at 5 PM",
+          "This Friday at 6 PM"
+        ],
+        "answer": "This Friday at 5 PM",
+        "translation": "トムの送別会はいつですか？",
+        "options_translation": [
+          "今週の土曜日の午後5時",
+          "今週の金曜日の午後5時",
+          "来週の金曜日の午後5時",
+          "今週の金曜日の午後6時"
+        ],
+        "explanation": "会話の中で女性が金曜日の午後5時に送別会を開くと明言しています。",
+        "question_type": "Detail",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What will be included in the farewell party according to the conversation?",
+        "options": [
+          "A game corner",
+          "A sign-up sheet for contributions",
+          "A dance floor",
+          "A photo booth"
+        ],
+        "answer": "A sign-up sheet for contributions",
+        "translation": "会話の内容によれば、送別会に何が含まれますか？",
+        "options_translation": [
+          "ゲームコーナー",
+          "貢献のためのサインアップシート",
+          "ダンスフロア",
+          "フォトブース"
+        ],
+        "explanation": "女性が皆に参加するためのサインアップシートを作ると述べています。",
+        "question_type": "Detail",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "What is the theme of the farewell party?",
+        "options": [
+          "Formal dress code",
+          "No specific theme",
+          "Beach theme",
+          "Casual gathering"
+        ],
+        "answer": "Casual gathering",
+        "translation": "送別会のテーマは何ですか？",
+        "options_translation": [
+          "フォーマルな服装",
+          "特にテーマはなし",
+          "ビーチテーマ",
+          "カジュアルな集まり"
+        ],
+        "explanation": "男性がシンプルなカジュアルテーマで行きましょうと言っています。会話の内容と図表の情報を照らし合わせると、参加者たちがリラックスした雰囲気で集まることが明確になります。",
+        "question_type": "Graphic",
+        "target_score": 860,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0007.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p3_0008",
+    "title": "最新の市場調査レポートの共有",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "Have you both had a chance to review the latest market research report? It highlights some interesting trends regarding our competitors."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Yes, I went through it. I found the section about their new product launches particularly insightful."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "I agree. It seems like they are focusing more on eco-friendly products to attract younger consumers."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "Exactly. Their strategy appears to align with the growing demand for sustainable options."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Also, the report mentioned that they have increased their marketing budget significantly this year."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "That's a major shift. Do you think we should reconsider our advertising approach in light of this?"
+      },
+      {
+        "speaker": "Man 1",
+        "text": "I believe we need to innovate rather than just react. If we stick to our current strategy, we might fall behind."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That's a valid point. Maybe we should brainstorm some new ideas next week."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男1",
+        "text": "二人とも最新の市場調査レポートを確認する機会はありましたか？競合他社についての興味深い傾向が示されています。"
+      },
+      {
+        "speaker": "女1",
+        "text": "はい、読みました。新製品の発表に関する部分が特に洞察に富んでいると思いました。"
+      },
+      {
+        "speaker": "女2",
+        "text": "同意します。彼らは若い消費者を引き付けるために、よりエコフレンドリーな商品に焦点を当てているようです。"
+      },
+      {
+        "speaker": "男1",
+        "text": "その通りです。彼らの戦略は、持続可能な選択肢に対する需要の高まりに一致しているようです。"
+      },
+      {
+        "speaker": "女1",
+        "text": "また、レポートによると、今年のマーケティング予算が大幅に増加したそうです。"
+      },
+      {
+        "speaker": "女2",
+        "text": "それは大きな変化ですね。このことを踏まえて、広告アプローチを見直すべきだと思いますか？"
+      },
+      {
+        "speaker": "男1",
+        "text": "反応するだけではなく、革新が必要だと思います。現在の戦略を維持していては、後れを取るかもしれません。"
+      },
+      {
+        "speaker": "女1",
+        "text": "それはもっともな意見です。来週新しいアイデアを考えるべきかもしれません。"
+      }
+    ],
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What does the report suggest about the competitors' marketing strategy?",
+        "options": [
+          "They are focusing on digital marketing.",
+          "They have reduced their budget.",
+          "They are targeting older consumers.",
+          "They are emphasizing eco-friendly products."
+        ],
+        "answer": "They are emphasizing eco-friendly products.",
+        "translation": "レポートは競合他社のマーケティング戦略について何を示唆していますか？",
+        "options_translation": [
+          "彼らはデジタルマーケティングに焦点を当てている。",
+          "彼らは予算を削減した。",
+          "彼らは高齢者をターゲットにしている。",
+          "彼らはエコフレンドリーな製品を強調している。"
+        ],
+        "explanation": "正解の選択肢は『エコフレンドリーな製品を強調している』です。この内容は、女2の『若い消費者を引き付けるために、よりエコフレンドリーな商品に焦点を当てているようです。』という発言から推測できます。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What does the speaker imply when he says, 'If we stick to our current strategy, we might fall behind.'?",
+        "options": [
+          "They should continue their current plan.",
+          "They need to change their strategy to stay competitive.",
+          "They are satisfied with their current performance.",
+          "They are unaware of the competition."
+        ],
+        "answer": "They need to change their strategy to stay competitive.",
+        "translation": "彼が「現在の戦略を維持していたら、後れを取るかもしれません。」と言ったとき、話し手は何を暗示していますか？",
+        "options_translation": [
+          "彼らは現在の計画を続けるべきである。",
+          "彼らは競争に勝つために戦略を変える必要がある。",
+          "彼らは現在のパフォーマンスに満足している。",
+          "彼らは競争を認識していない。"
+        ],
+        "explanation": "正解の選択肢は『競争に勝つために戦略を変える必要がある』です。男1の発言は、現在の戦略では足りず、変革が必要であるという意図を持っています。特に、意図を示す発言『If we stick to our current strategy, we might fall behind.』がその根拠です。",
+        "question_type": "Intent",
+        "target_score": 990,
+        "quote_text": "If we stick to our current strategy, we might fall behind."
+      },
+      {
+        "id": 3,
+        "question_text": "What action does Woman 1 suggest taking next week?",
+        "options": [
+          "Review the competitors' reports.",
+          "Brainstorm new ideas.",
+          "Adjust the marketing budget.",
+          "Meet with the product team."
+        ],
+        "answer": "Brainstorm new ideas.",
+        "translation": "女1は来週何の行動を提案していますか？",
+        "options_translation": [
+          "競合他社のレポートを確認する。",
+          "新しいアイデアを考える。",
+          "マーケティング予算を調整する。",
+          "製品チームと会う。"
+        ],
+        "explanation": "正解の選択肢は『新しいアイデアを考える』です。女1は最後の発言で『来週新しいアイデアを考えるべきかもしれません。』と提案しており、これが正解の根拠となります。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0008.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p3_0009",
+    "title": "サプライヤーからの見積もり変更と価格交渉",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "Good morning, everyone. I wanted to discuss the recent quote we received from our supplier."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Yes, I noticed that the price has increased significantly since the last estimate."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "That’s correct. We need to negotiate this new pricing to find a more reasonable deal."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "Absolutely. What was the reason for the price hike they mentioned?"
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "They cited increased material costs as a factor."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "I think we should also consider asking for bulk discounts to reduce the overall cost."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "That’s a good idea. Let’s prepare a counteroffer that reflects that."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "I can handle the communication with them regarding this negotiation."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男性1",
+        "text": "おはようございます、皆さん。この前に受け取ったサプライヤーからの見積もりについて話したいと思います。"
+      },
+      {
+        "speaker": "女性1",
+        "text": "はい、前回の見積もりに比べて価格が大幅に上がっていることに気づきました。"
+      },
+      {
+        "speaker": "女性2",
+        "text": "その通りです。この新しい価格について交渉する必要があります。"
+      },
+      {
+        "speaker": "男性1",
+        "text": "確かに。彼らの言及した価格上昇の理由は何でしたか？"
+      },
+      {
+        "speaker": "女性1",
+        "text": "彼らは材料費の増加を要因として挙げていました。"
+      },
+      {
+        "speaker": "女性2",
+        "text": "全体のコストを減らすために、まとめ買い割引を求めることも考えるべきだと思います。"
+      },
+      {
+        "speaker": "男性1",
+        "text": "それは良いアイデアですね。それを反映した対案を用意しましょう。"
+      },
+      {
+        "speaker": "女性1",
+        "text": "この交渉については私が彼らとの連絡を担当します。"
+      }
+    ],
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the main topic of the discussion?",
+        "options": [
+          "Negotiation of supplier pricing",
+          "Quality control procedures",
+          "Delivery schedules",
+          "Supplier selection process"
+        ],
+        "answer": "Negotiation of supplier pricing",
+        "translation": "議論の主なトピックは何ですか？",
+        "options_translation": [
+          "サプライヤーの価格交渉",
+          "品質管理手順",
+          "納品スケジュール",
+          "サプライヤー選定プロセス"
+        ],
+        "explanation": "会話の最初に、男性1がサプライヤーからの見積もりについて話したいと述べています。これにより、議論の主題が価格交渉であることが明確に示されています。",
+        "question_type": "Overview",
+        "target_score": 600,
+        "quote_text": "I think we should also consider asking for bulk discounts to reduce the overall cost."
+      },
+      {
+        "id": 2,
+        "question_text": "What does Woman 2 imply by suggesting bulk discounts?",
+        "options": [
+          "They want to increase the order quantity.",
+          "They believe it will lower costs.",
+          "They are dissatisfied with the supplier.",
+          "They need to negotiate less frequently."
+        ],
+        "answer": "They believe it will lower costs.",
+        "translation": "女性2がまとめ買い割引を提案することによって何を暗示していますか？",
+        "options_translation": [
+          "彼らは注文量を増やしたい。",
+          "彼らはコストが下がると信じている。",
+          "彼らはサプライヤーに不満を持っている。",
+          "彼らはあまり頻繁に交渉する必要がある。"
+        ],
+        "explanation": "女性2は、全体のコストを減らすためにまとめ買い割引を提案しています。これにより、彼女の真意はコスト削減の可能性を信じているということが示されています。",
+        "question_type": "Intent",
+        "target_score": 600,
+        "quote_text": "I think we should also consider asking for bulk discounts to reduce the overall cost."
+      },
+      {
+        "id": 3,
+        "question_text": "Who will be responsible for communicating with the supplier?",
+        "options": [
+          "Woman 1",
+          "Woman 2",
+          "Man 1",
+          "None of them"
+        ],
+        "answer": "Woman 1",
+        "translation": "誰がサプライヤーとの連絡を担当しますか？",
+        "options_translation": [
+          "女性1",
+          "女性2",
+          "男性1",
+          "誰でもない"
+        ],
+        "explanation": "最後の発言で、女性1が交渉のためにコミュニケーションを担当すると明言しています。この発言が正解の根拠です。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0009.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p3_0010",
+    "title": "新規顧客向けプロダクト提案に関する交渉",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "Hello everyone, thank you for joining the call today. I’d like to discuss our new product proposal and how we can align it with your requirements."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Thanks for having us. We're eager to hear what you have in mind and how it can benefit our business."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Yes, I am particularly interested in the pricing options and the expected delivery timeline."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "Absolutely. We believe our product can increase your efficiency. Regarding pricing, we’re looking at a base cost of $20,000."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That’s a bit higher than we initially anticipated. Can we explore a more flexible pricing model?"
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "And what about the timeline? How long would it take to deliver?"
+      },
+      {
+        "speaker": "Man 1",
+        "text": "If we proceed quickly, we can have the first batch ready in about eight weeks."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Eight weeks sounds reasonable, but we need to know if there are any additional costs involved if we decide to scale up later."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男性1",
+        "text": "皆さんこんにちは、今日はお集まりいただきありがとうございます。新しいプロダクト提案についてお話ししたいと思います。また、皆様のご要望にどのように合わせられるかも考えたいです。"
+      },
+      {
+        "speaker": "女性1",
+        "text": "お招きいただきありがとうございます。お話を聞けるのを楽しみにしていますし、私たちのビジネスにどのように役立つのかも興味があります。"
+      },
+      {
+        "speaker": "女性2",
+        "text": "はい、私は特に価格オプションと期待される納期に関心があります。"
+      },
+      {
+        "speaker": "男性1",
+        "text": "もちろんです。当社のプロダクトは効率を向上させると信じています。価格については、基本コストが20,000ドルを予定しています。"
+      },
+      {
+        "speaker": "女性1",
+        "text": "それは私たちが最初に予想していたよりも高いですね。もっと柔軟な価格モデルについて検討できますか？"
+      },
+      {
+        "speaker": "女性2",
+        "text": "納期についてはどうですか？どのくらいで納品できるのでしょうか？"
+      },
+      {
+        "speaker": "男性1",
+        "text": "迅速に進めば、最初のバッチは約８週間で準備できます。"
+      },
+      {
+        "speaker": "女性1",
+        "text": "８週間は妥当に聞こえますが、後でスケールアップすることになった場合、追加費用が発生するかどうかも知りたいです。"
+      }
+    ],
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the primary reason the speakers are discussing the product proposal?",
+        "options": [
+          "To finalize a contract",
+          "To explore pricing options",
+          "To discuss marketing strategies",
+          "To evaluate competitor products"
+        ],
+        "answer": "To explore pricing options",
+        "translation": "話者たちがプロダクト提案について話し合っている主な理由は何ですか？",
+        "options_translation": [
+          "契約を確定するため",
+          "価格オプションを検討するため",
+          "マーケティング戦略について話し合うため",
+          "競合製品を評価するため"
+        ],
+        "explanation": "会話の中で、女性1が価格についての柔軟なモデルを求めています。これにより、価格オプションを探求していることが明らかです。次の選択肢はあいまいで、会話の目的には直接つながっていません。",
+        "question_type": "Overview",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What does Woman 2 imply by asking about the timeline?",
+        "options": [
+          "She is concerned about delivery speed.",
+          "She wants to negotiate a lower price.",
+          "She is not interested in the product.",
+          "She is unsure about the quality of the product."
+        ],
+        "answer": "She is concerned about delivery speed.",
+        "translation": "女性2が納期について尋ねることで何を示唆していますか？",
+        "options_translation": [
+          "彼女は納品の迅速さを気にかけている。",
+          "彼女は価格を下げたい。",
+          "彼女はその製品に興味がない。",
+          "彼女は製品の品質について不確かである。"
+        ],
+        "explanation": "女性2が納期について質問した時、彼女は「納期がどうなっているのか」を聞いています。これは、納品のスピードを気にかけていることを示しています。",
+        "question_type": "Intent",
+        "target_score": 730,
+        "quote_text": "How long would it take to deliver?"
+      },
+      {
+        "id": 3,
+        "question_text": "What concern does Woman 1 express about the pricing model?",
+        "options": [
+          "It is higher than expected.",
+          "It is too complicated.",
+          "It is beneficial for their company.",
+          "It does not include maintenance."
+        ],
+        "answer": "It is higher than expected.",
+        "translation": "女性1は価格モデルについてどのような懸念を示していますか？",
+        "options_translation": [
+          "予想よりも高い。",
+          "複雑すぎる。",
+          "彼らの会社にとって有益である。",
+          "メンテナンスが含まれていない。"
+        ],
+        "explanation": "女性1は、最初に予想していたよりも高いと述べています。これは、価格に対する懸念を示しています。正解は「予想よりも高い」です。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0010.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p3_0011",
+    "title": "新規顧客向けプロダクト提案",
+    "dialogue": [
+      {
+        "speaker": "Man",
+        "text": "Good morning, everyone. I'm excited to present our new product proposal aiming at attracting new customers."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That sounds great! Can you give us an overview of the key features?"
+      },
+      {
+        "speaker": "Man",
+        "text": "Absolutely! The product includes features like enhanced connectivity and user-friendly interfaces."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "What about the pricing? Are we able to negotiate on that?"
+      },
+      {
+        "speaker": "Man",
+        "text": "Yes, we can definitely discuss pricing. I believe offering a flexible pricing model could attract more customers."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "That would be beneficial. When can we finalize the proposal and start the implementation?"
+      },
+      {
+        "speaker": "Man",
+        "text": "If we can agree on the terms, I believe we could have everything set up by next month."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Perfect! I think our new clients will appreciate this timely launch."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男",
+        "text": "おはようございます、皆さん。新しい顧客を惹きつけることを目指した新製品の提案をするのが楽しみです。"
+      },
+      {
+        "speaker": "女1",
+        "text": "それは素晴らしいですね！主要な機能の概要を教えていただけますか？"
+      },
+      {
+        "speaker": "男",
+        "text": "もちろんです！この製品には、接続性の向上やユーザーフレンドリーなインターフェースなどの特徴があります。"
+      },
+      {
+        "speaker": "女2",
+        "text": "価格についてはどうですか？交渉可能ですか？"
+      },
+      {
+        "speaker": "男",
+        "text": "はい、価格についてはもちろん話し合えます。柔軟な価格モデルを提供することで、もっと多くの顧客を惹きつけられると思います。"
+      },
+      {
+        "speaker": "女1",
+        "text": "それは有益です。提案をいつまとめて実施に入れられますか？"
+      },
+      {
+        "speaker": "男",
+        "text": "条件に合意できれば、来月にはすべてを整えられると思います。"
+      },
+      {
+        "speaker": "女2",
+        "text": "完璧です！新しいお客様は、このタイムリーな立ち上げを喜んでくれると思います。"
+      }
+    ],
+    "visual_url": "https://unsplash.com/photos/LA0X6o5jWJ0",
+    "visual_title": "プロダクト導入スケジュール",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What features are highlighted in the proposal?",
+        "options": [
+          "Improved connectivity and ease of use",
+          "Cost-effective solutions for businesses",
+          "Advanced security measures for data protection",
+          "Multiple design options for customization"
+        ],
+        "answer": "Improved connectivity and ease of use",
+        "translation": "提案書で強調されている機能は何ですか？",
+        "options_translation": [
+          "接続性の向上と使いやすさ",
+          "企業向けのコスト効率の良いソリューション",
+          "データ保護のための高度なセキュリティ対策",
+          "カスタマイズのための複数のデザインオプション"
+        ],
+        "explanation": "会話の中で、男が「この製品には接続性の向上やユーザーフレンドリーなインターフェースなどの特徴があります」と述べています。これが正解の根拠です。",
+        "question_type": "Detail",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "When does the speaker expect to finalize the implementation?",
+        "options": [
+          "In two months",
+          "By the end of this month",
+          "Next month",
+          "At the beginning of next year"
+        ],
+        "answer": "Next month",
+        "translation": "スピーカーはいつ実施を最終的にまとめることを期待していますか？",
+        "options_translation": [
+          "2か月後",
+          "今月の終わりまで",
+          "来月",
+          "来年の初めに"
+        ],
+        "explanation": "男が「条件に合意できれば、来月にはすべてを整えられると思います」と言っています。これが正解の根拠です。",
+        "question_type": "Detail",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "According to the schedule, when will the product launch take place?",
+        "options": [
+          "At the beginning of next month",
+          "In the middle of next year",
+          "By the end of next month",
+          "After two months from now"
+        ],
+        "answer": "At the beginning of next month",
+        "translation": "スケジュールによると、製品の発表はいつ行われますか？",
+        "options_translation": [
+          "来月の初めに",
+          "来年の真ん中に",
+          "来月の終わりに",
+          "今から2か月後に"
+        ],
+        "explanation": "図表の情報と会話の内容から、男が来月にすべてを整えられると言っていることから、製品発表は来月の初めであると推測できます。これが正解の根拠です。",
+        "question_type": "Graphic",
+        "target_score": 860,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0011.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p3_0012",
+    "title": "工場での安全基準マニュアルの改定と全社員向けの研修実施",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "I think we need to revise the safety standards manual to ensure all employees are aware of the latest regulations."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Absolutely. It's crucial that everyone understands the updates, especially after the last incident."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "How about we schedule a training session to go over the changes? It should be mandatory for all staff."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "That's a good idea. We can also include a Q&A segment to address any concerns."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "I can help prepare the training materials to make sure they are comprehensive."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "And perhaps we can set a deadline for everyone to complete it so that we stay compliant."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "Yes, let's aim for the end of the month to have everything finalized."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Sounds like a solid plan. I’ll coordinate with HR to get the invitations sent out."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男 1",
+        "text": "全社員が最新の規則を認識できるように、安全基準マニュアルを改定する必要があります。"
+      },
+      {
+        "speaker": "女 1",
+        "text": "絶対にそうですね。特に前回の事故の後、全員がその変更を理解することが重要です。"
+      },
+      {
+        "speaker": "女 2",
+        "text": "変更を確認するために研修セッションを予定しましょう。全スタッフ必須としたいです。"
+      },
+      {
+        "speaker": "男 1",
+        "text": "それは良いアイデアです。懸念事項に対処するためにQ&Aセグメントを含めることもできます。"
+      },
+      {
+        "speaker": "女 1",
+        "text": "包括的な研修資料を準備するのを手伝います。"
+      },
+      {
+        "speaker": "女 2",
+        "text": "全員が完了する期限を設けて、コンプライアンスを維持しましょう。"
+      },
+      {
+        "speaker": "男 1",
+        "text": "はい、今月末には全てを最終化することを目指しましょう。"
+      },
+      {
+        "speaker": "女 1",
+        "text": "しっかりした計画ですね。HRと調整して招待状を送ります。"
+      }
+    ],
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the main purpose of revising the safety standards manual?",
+        "options": [
+          "To inform employees about the latest regulations.",
+          "To create new safety equipment.",
+          "To reduce production costs.",
+          "To improve employee benefits."
+        ],
+        "answer": "To inform employees about the latest regulations.",
+        "translation": "安全基準マニュアルを改定する主な目的は何ですか？",
+        "options_translation": [
+          "最新の規則について従業員に知らせるため。",
+          "新しい安全設備を作るため。",
+          "生産コストを削減するため。",
+          "従業員の福利厚生を改善するため。"
+        ],
+        "explanation": "会話の中で男 1が【最新の規則を認識できるように、安全基準マニュアルを改定する必要がある】と言っているため、この選択肢が正解です。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What suggestion does Woman 2 make regarding the training?",
+        "options": [
+          "It should be compulsory for all employees.",
+          "It should be optional for team leaders.",
+          "It should be held off until next year.",
+          "It should include a physical demonstration."
+        ],
+        "answer": "It should be compulsory for all employees.",
+        "translation": "女 2は研修についてどのような提案をしていますか？",
+        "options_translation": [
+          "全社員にとって必須であるべきです。",
+          "チームリーダーにとってオプションであるべきです。",
+          "来年まで保留すべきです。",
+          "実演を含むべきです。"
+        ],
+        "explanation": "女 2が【全スタッフ必須としたい】と言っているため、この選択肢が正解です。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "When does Man 1 propose to have everything finalized?",
+        "options": [
+          "At the end of the month.",
+          "By next week.",
+          "Before the next incident.",
+          "During the training session."
+        ],
+        "answer": "At the end of the month.",
+        "translation": "男 1はいつ全てを最終化することを提案していますか？",
+        "options_translation": [
+          "今月の終わりに。",
+          "来週までに。",
+          "次の事故の前に。",
+          "研修セッション中に。"
+        ],
+        "explanation": "男 1が【今月末には全てを最終化することを目指しましょう】と言っているため、この選択肢が正解です。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0012.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p3_0013",
+    "title": "ホテルの予約確認とチェックイン時間の変更手続き",
+    "dialogue": [
+      {
+        "speaker": "Man 1",
+        "text": "Hello, I'm calling to confirm my hotel reservation for this weekend."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Sure! Can I have your name and the reservation number, please?"
+      },
+      {
+        "speaker": "Man 1",
+        "text": "It's John Smith, and the reservation number is 123456."
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Thank you, Mr. Smith. I see your reservation here. It starts from Friday evening."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Hi, I just wanted to add that our check-in time is usually after 3 PM."
+      },
+      {
+        "speaker": "Man 1",
+        "text": "Actually, I would like to arrive earlier if possible. Can I check in at 1 PM?"
+      },
+      {
+        "speaker": "Woman 1",
+        "text": "Let me check that for you. It might depend on room availability."
+      },
+      {
+        "speaker": "Woman 2",
+        "text": "Yes, but we will do our best to accommodate your request."
+      }
+    ],
+    "translation_dialogue": [
+      {
+        "speaker": "男1",
+        "text": "こんにちは、今週末のホテル予約を確認するために電話しています。"
+      },
+      {
+        "speaker": "女1",
+        "text": "もちろん！お名前と予約番号を教えていただけますか？"
+      },
+      {
+        "speaker": "男1",
+        "text": "ジョン・スミスです。予約番号は123456です。"
+      },
+      {
+        "speaker": "女1",
+        "text": "ありがとうございます、スミス様。こちらに予約内容が確認できます。金曜日の夜からスタートですね。"
+      },
+      {
+        "speaker": "女2",
+        "text": "こんにちは、私も言いたいのですが、チェックイン時間は通常午後3時以降です。"
+      },
+      {
+        "speaker": "男1",
+        "text": "実は、早く到着したいのですが、午後1時にチェックインできますか？"
+      },
+      {
+        "speaker": "女1",
+        "text": "それについて確認しますね。部屋の空き状況によるかもしれません。"
+      },
+      {
+        "speaker": "女2",
+        "text": "はい、ですがご要望にお応えできるよう最善を尽くします。"
+      }
+    ],
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the purpose of the man's call?",
+        "options": [
+          "To make a new reservation",
+          "To cancel his reservation",
+          "To confirm his reservation"
+        ],
+        "answer": "To confirm his reservation",
+        "translation": "男性の電話の目的は何ですか？",
+        "options_translation": [
+          "新しい予約をするため",
+          "予約をキャンセルするため",
+          "予約を確認するため"
+        ],
+        "explanation": "男性は最初の発話で、今週末のホテル予約を確認するために電話していると言っているため、正解は「予約を確認するため」である。これは、男性の発言から直接的に言い換えられている。",
+        "question_type": "Overview",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What time is the usual check-in time?",
+        "options": [
+          "12 PM",
+          "3 PM",
+          "4 PM"
+        ],
+        "answer": "3 PM",
+        "translation": "通常のチェックイン時間は何時ですか？",
+        "options_translation": [
+          "午後12時",
+          "午後3時",
+          "午後4時"
+        ],
+        "explanation": "女2は「チェックイン時間は通常午後3時以降です」と明確に述べているため、正解は「午後3時」である。これは、女の発言を通じて直接的に確認できる。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "What request does the man make regarding his check-in time?",
+        "options": [
+          "To check in two hours early",
+          "To check in at the usual time",
+          "To check out late"
+        ],
+        "answer": "To check in two hours early",
+        "translation": "男性はチェックイン時間についてどのようなリクエストをしましたか？",
+        "options_translation": [
+          "2時間早くチェックインするため",
+          "通常の時間にチェックインするため",
+          "遅くチェックアウトするため"
+        ],
+        "explanation": "男性は「午後1時にチェックインできるか」と言っており、通常の時間よりも2時間早いチェックインを希望しているため、正解は「2時間早くチェックインするため」である。このリクエストは、男性の発言から明確に言い換えられている。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p3_0013.mp3",
+    "voice": "onyx"
+  }
+]

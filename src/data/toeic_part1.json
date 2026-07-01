@@ -1,0 +1,347 @@
+[
+  {
+    "id": "p1_0001",
+    "image_url": "https://images.unsplash.com/photo-1602684587402-0e7c29d7b45f?auto=format&fit=crop&w=800&q=80",
+    "description": "倉庫でフォークリフトや荷物の仕分けをしている様子を捉えた写真です。",
+    "options": [
+      "A. A forklift is being operated to sort boxes.",
+      "B. The man is wearing a safety vest while working.",
+      "C. A large box is being moved by the employee.",
+      "D. The workers are taking a break in the warehouse."
+    ],
+    "answer": "A. A forklift is being operated to sort boxes.",
+    "translation": [
+      "A. フォークリフトが運転されて箱を仕分けています。",
+      "B. 男性は作業中に安全ベストを着ています。",
+      "C. 大きな箱が従業員によって運ばれています。",
+      "D. 労働者たちは倉庫で休憩を取っています。"
+    ],
+    "explanation": "選択肢Aは、フォークリフトが運転されている様子を正しく表現しており、今回の写真の内容と一致します。進行形受動態の文（be being + 過去分詞）は用いられていないため、動作主が明確です。選択肢Bは、ただ作業中の状態を示しているだけで、フォークリフトや荷物の仕分けには関係がありません。選択肢Cは受動態ですが、写真には大きな箱が移動している様子が映っているかどうかが不明で、動作主が不在です。選択肢Dは作業中の状況に適していないため、不正解です。",
+    "question_type": "人物主体 (People)",
+    "target_score": 600,
+    "audio_file": "audio/p1_0001.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p1_0002",
+    "image_url": "https://images.unsplash.com/photo-1598104953139-4d76171a7fe5?auto=format&fit=crop&w=800&q=80",
+    "description": "並木道に駐輪された自転車がいくつか写っている風景の写真。",
+    "options": [
+      "Several bicycles are parked along the path.",
+      "A person is riding a bicycle on the path.",
+      "Bicycles are being repaired at a shop.",
+      "A person is putting on a helmet."
+    ],
+    "answer": "Several bicycles are parked along the path.",
+    "translation": [
+      "並木道に自転車が何台か駐輪されています。",
+      "人が道を自転車に乗って走っています。",
+      "自転車が店で修理されています。",
+      "人がヘルメットをかぶっています。"
+    ],
+    "explanation": "正解は「Several bicycles are parked along the path.」です。この文は写真の内容を正確に表現しており、特に「parked」という過去分詞が駐輪の状態を示しています。他の選択肢は次のように誤解を招く要素になっています。1つ目の選択肢は現在進行形でないため、不正解です。2つ目の選択肢は進行形受動態で動作主が不在のため、誤った状況を提示しています。また、4つ目の選択肢は「put on」が動作を示すのに対し、実際の内容とは関係がありません。したがって、正しい選択肢を選ぶことが重要です。",
+    "question_type": "風景・物主体 (Object/Scene)",
+    "target_score": 730,
+    "audio_file": "audio/p1_0002.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p1_0003",
+    "image_url": "https://images.unsplash.com/photo-1520100301584-0b5f862d697e?auto=format&fit=crop&w=800&q=80",
+    "description": "カフェのテラス席で飲み物を前に談笑している人々の写真です。",
+    "options": [
+      "A. They are sitting at a table with drinks in front of them.",
+      "B. They are waiting for their orders to be taken.",
+      "C. They have worn jackets because it is cold outside.",
+      "D. They are looking at their phones."
+    ],
+    "answer": "A. They are sitting at a table with drinks in front of them.",
+    "translation": [
+      "A. 彼らは飲み物の前にテーブルに座っています。",
+      "B. 彼らは注文を取られるのを待っています。",
+      "C. 彼らは外が寒いのでジャケットを着ています。",
+      "D. 彼らは携帯電話を見ています。"
+    ],
+    "explanation": "正解はAです。写真には、飲み物を前にしてテーブルに座って談笑している人々が写っています。Bは注文を待っているという内容ですが、写真からはその様子は見えません。Cはwearの状態を示していますが、写真には人々が着ている様子は示されていないため不正解です。また、「have worn」という表現は現在完了形での状態を示しますが、正しい選択肢ではありません。Dは携帯電話を見ていると指摘していますが、写真にはその様子は確認できません。したがって、正しい選択肢はAとなります。",
+    "question_type": "人物主体 (People)",
+    "target_score": 860,
+    "audio_file": "audio/p1_0003.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p1_0004",
+    "image_url": "https://images.unsplash.com/photo-1603462601723-18b944bffb95?auto=format&fit=crop&w=800&q=80",
+    "description": "並木道に自転車が駐輪されている写真",
+    "options": [
+      "Several bicycles are parked along the path.",
+      "Some bicycles are being ridden on the path.",
+      "A group of bicycles is being repaired.",
+      "Many bicycles are worn out and left unattended."
+    ],
+    "answer": "Several bicycles are parked along the path.",
+    "translation": [
+      "いくつかの自転車が道に駐輪されています。",
+      "いくつかの自転車が道の上を走行中です。",
+      "自転車のグループが修理されています。",
+      "多くの自転車が使い古されて放置されています。"
+    ],
+    "explanation": "正解は「Several bicycles are parked along the path.」です。この選択肢は、写真に写っている内容を正確に表現しています。写真には、自転車が道に並んで駐輪されています。この表現の「parked」は、駐輪されている状態を示しています。他の選択肢について、\"Some bicycles are being ridden on the path.\"は、現在進行形受動態を使っているため、写真の内容と合致しません。自転車がライダーによって走行中であることを示唆していますが、実際には駐輪されています。\"A group of bicycles is being repaired.\"も同様に、現在進行形受動態で記述されており、写真には修理中の自転車が写っていません。最後に、\"Many bicycles are worn out and left unattended.\"は、状態を示す「worn out」が使われていますが、写真に写っている自転車は無造作に放置されているのではなく、整然と並んで駐輪されています。これらの理由から、他の選択肢は不正解です。",
+    "question_type": "風景・物主体 (Object/Scene)",
+    "target_score": 990,
+    "audio_file": "audio/p1_0004.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p1_0005",
+    "image_url": "https://images.unsplash.com/photo-1596324322334-62f61f0f0036?auto=format&fit=crop&w=800&q=80",
+    "description": "建設現場でヘルメットを着用し、作業員が資材を運んでいるシーン。",
+    "options": [
+      "The workers are wearing hard hats and moving materials.",
+      "The workers are sitting down and taking a break.",
+      "The workers are lifting heavy equipment silently.",
+      "The workers have put on their gloves and are starting to work."
+    ],
+    "answer": "The workers are wearing hard hats and moving materials.",
+    "translation": [
+      "作業員はヘルメットを着用し、資材を運んでいる。",
+      "作業員は座って休憩している。",
+      "作業員は重い機材を静かに持ち上げている。",
+      "作業員は手袋をはめ、作業を始めようとしている。"
+    ],
+    "explanation": "正解は「作業員はヘルメットを着用し、資材を運んでいる。」です。この選択肢は写真の内容と一致しています。一方、他の選択肢は次のように不正解です。<br>・「作業員は座って休憩している。」：この選択肢は作業員が作業をしていない状況を示しており、写真とは異なります。<br>・「作業員は重い機材を静かに持ち上げている。」：この文は現在進行形受動態を用いていますが、作業員の動作が不明確で、写真のシーンを表していません。<br>・「作業員は手袋をはめ、作業を始めようとしている。」：これは「put on」が使われており、実際に「作業している」という状態ではなく、作業を開始する前の行動を指しているため不正解です。",
+    "question_type": "人物主体 (People)",
+    "target_score": 600,
+    "audio_file": "audio/p1_0005.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p1_0006",
+    "image_url": "https://images.unsplash.com/photo-1584697964162-f2b8bfa3f3ed?auto=format&fit=crop&w=800&q=80",
+    "description": "店員が店舗で顧客に商品を提示しているシーン。",
+    "options": [
+      "A customer is receiving a package.",
+      "A clerk is presenting an item to a customer.",
+      "A customer is putting on a hat.",
+      "A clerk is being asked about the products."
+    ],
+    "answer": "B",
+    "translation": [
+      "顧客は荷物を受け取っています。",
+      "店員が顧客に商品を提示しています。",
+      "顧客が帽子をかぶっています。",
+      "店員が商品について質問されています。"
+    ],
+    "explanation": "選択肢Bが正解です。店員が顧客に商品を提示している状況を正確に表しています。他の選択肢を見ていきましょう。\n- 選択肢Aは「顧客は荷物を受け取っています」と述べていますが、写真の内容は荷物を受け取る行為ではなく、商品を提示する行為です。\n- 選択肢Cは「顧客が帽子をかぶっています」と言っていますが、この写真では帽子をかぶる動作は行われていません。\n- 選択肢Dは「店員が商品について質問されています」と述べていますが、現在進行形受動態（be being ...）を用いており、動作主が不在の表現となっているため、特定の行動が写真には写っていません。",
+    "question_type": "人物主体 (People)",
+    "target_score": 730,
+    "audio_file": "audio/p1_0006.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p1_0007",
+    "image_url": "https://images.unsplash.com/photo-1532497544174-3b5e66fe60f4?auto=format&fit=crop&w=800&q=80",
+    "description": "建設現場でヘルメットを着用し、作業員が資材を運んでいる様子が描かれています。",
+    "options": [
+      "The workers are carrying materials on the construction site.",
+      "The workers are putting on their hard hats before starting work.",
+      "The workers are being trained for safety procedures.",
+      "The workers are wearing jackets in the cold weather."
+    ],
+    "answer": "The workers are carrying materials on the construction site.",
+    "translation": [
+      "作業員たちは建設現場で資材を運んでいます。",
+      "作業員たちは仕事を始める前にヘルメットをかぶっています。",
+      "作業員たちは安全手順のために訓練を受けています。",
+      "作業員たちは寒い天候の中、ジャケットを着ています。"
+    ],
+    "explanation": "正解は「The workers are carrying materials on the construction site.」です。この文は、写真の内容を正しく描写しています。作業員が資材を運んでいる様子が見られます。\n\n他の選択肢について説明します。2番目の選択肢「The workers are putting on their hard hats before starting work.」は、ヘルメットをかぶっている状態を述べていますが、写真では作業員がすでにヘルメットを着用しているため不正解です。3番目の選択肢「The workers are being trained for safety procedures.」は、進行形受動態を用いており、訓練を受けている状況を示していますが、写真にはそのような様子は見られません。4番目の選択肢「The workers are wearing jackets in the cold weather.」は、天候に関する情報を含んでいますが、写真にはジャケットを着ている作業員が写っていないため不正解です。これらの理由から、正解の選択肢と他の選択肢の違いが明確になります。",
+    "question_type": "人物主体 (People)",
+    "target_score": 860,
+    "audio_file": "audio/p1_0007.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p1_0008",
+    "image_url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d2?auto=format&fit=crop&w=800&q=80",
+    "description": "研究所で白衣を着た科学者が顕微鏡を覗いている写真。",
+    "options": [
+      "A. The scientist is analyzing samples with a microscope.",
+      "B. The scientist was looking for data on the computer.",
+      "C. The scientist is being examined for the results.",
+      "D. The scientist wears a lab coat and safety goggles."
+    ],
+    "answer": "A. The scientist is analyzing samples with a microscope.",
+    "translation": [
+      "A. 科学者は顕微鏡でサンプルを分析している。",
+      "B. 科学者はコンピュータでデータを探していた。",
+      "C. 科学者は結果について調べられている。",
+      "D. 科学者は白衣と安全ゴーグルを着用している。"
+    ],
+    "explanation": "選択肢Aは、写真に写っている科学者が実際に行っている行動（顕微鏡でサンプルを分析している）を正確に表現しています。選択肢Bは、コンピュータでデータを探しているという行動を示していますが、写真にはそのような場面は写っていません。選択肢Cは現在進行形受動態（being examined）を使っていますが、写真には動作の主体が写っていないため不正解です。選択肢Dはwearを使って状態を表していますが、科学者が白衣を着ている状態が写されていますが、顕微鏡を使う行動に関連していないため不正解です。",
+    "question_type": "人物主体 (People)",
+    "target_score": 990,
+    "audio_file": "audio/p1_0008.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p1_0009",
+    "image_url": "https://images.unsplash.com/photo-1591004230573-1d4abc03e713?auto=format&fit=crop&w=800&q=80",
+    "description": "建設現場で作業員が資材を運びながらヘルメットを着用している写真。",
+    "options": [
+      "The workers are moving materials at the construction site.",
+      "The workers are wearing hats while they sit.",
+      "The workers were being watched by their manager.",
+      "The workers put on their helmets before starting."
+    ],
+    "answer": "The workers are moving materials at the construction site.",
+    "translation": [
+      "作業員は建設現場で資材を運んでいる。",
+      "作業員は座っている間に帽子をかぶっている。",
+      "作業員はマネージャーに見守られていた。",
+      "作業員は始める前にヘルメットをかぶった。"
+    ],
+    "explanation": "正解は 'The workers are moving materials at the construction site.' で、これは写真の内容を直接表現しています。\n\n他の選択肢の解説は次の通りです：\n- 'The workers are wearing hats while they sit.' では、作業員が座っているとは写真からは確認できません。また、ヘルメットではなく、帽子をかぶっていると述べています。\n- 'The workers were being watched by their manager.' では、受動態が使われており、誰が見ているのかが明記されていません。写真にはマネージャーが写っていないため、不正解です。\n- 'The workers put on their helmets before starting.' では、動作（put on）が進行形で使われておらず、写真のように「現在進行形」での行動を示すべきです。さらに、作業員はすでにヘルメットを着用しているため、この選択肢も不正解です。",
+    "question_type": "人物主体 (People)",
+    "target_score": 600,
+    "audio_file": "audio/p1_0009.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p1_0010",
+    "image_url": "https://images.unsplash.com/photo-1506709646620-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+    "description": "並木道に自転車が何台か駐輪されている様子",
+    "options": [
+      "Several bicycles are parked in a row along the path.",
+      "A person is riding a bicycle quickly.",
+      "Some trees are being trimmed beside the path.",
+      "People are wearing helmets while cycling."
+    ],
+    "answer": "Several bicycles are parked in a row along the path.",
+    "translation": [
+      "並木道に自転車が何台か駐輪されている。",
+      "人が自転車を速く走らせている。",
+      "道の横でいくつかの木が剪定されている。",
+      "人々が自転車に乗る際にヘルメットを着用している。"
+    ],
+    "explanation": "正解は「Several bicycles are parked in a row along the path.」です。この選択肢は写真の内容を正確に描写しており、自転車が並んで駐輪されている状態を表しています。\n\n不正解の選択肢については以下の通りです。\n1. 「A person is riding a bicycle quickly.」は、写真に人が自転車に乗っている様子が写っていないため不正解です。\n2. 「Some trees are being trimmed beside the path.」も、剪定作業をしている様子が写真に写っていないため不正解です。進行形受動態を用いることで、動作主が不在でより抽象的な表現をしているため混乱を招きます。\n3. 「People are wearing helmets while cycling.」も、写真に人々が写っていないため不正解です。wearとput onの混同が見られる選択肢です。実際にはヘルメットを着用している様子は描写されていません。",
+    "question_type": "風景・物主体 (Object/Scene)",
+    "target_score": 730,
+    "audio_file": "audio/p1_0010.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p1_0011",
+    "image_url": "https://images.unsplash.com/photo-1604006801969-3fae98b40489?auto=format&fit=crop&w=800&q=80",
+    "description": "カフェのテラス席で談笑している2人の男女が映っています。",
+    "options": [
+      "A. They are sitting at a table with drinks.",
+      "B. They are walking in the park.",
+      "C. She is wearing a blue dress.",
+      "D. He is being served coffee."
+    ],
+    "answer": "A. They are sitting at a table with drinks.",
+    "translation": [
+      "A. 彼らは飲み物を前にテーブルに座っています。",
+      "B. 彼らは公園を歩いています。",
+      "C. 彼女は青いドレスを着ています。",
+      "D. 彼はコーヒーを提供されています。"
+    ],
+    "explanation": "この質問での正解は選択肢Aです。写真に写っているのは、テラス席に座り、飲み物を前に談笑している2人の男女です。選択肢Bは人々が公園を歩いているという状況を示していますが、これは写真の内容とは異なります。\n選択肢Cの「彼女は青いドレスを着ています」という文は、服装の状態を述べていますが、写真においてはこの情報は確認できません。また、選択肢Dの「彼はコーヒーを提供されています」は受動態を使用しており、写真の状況（談笑していること）とは無関係です。したがって、Aが唯一の正解であり、他の選択肢は写真と一致しません。",
+    "question_type": "人物主体 (People)",
+    "target_score": 860,
+    "audio_file": "audio/p1_0011.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p1_0012",
+    "image_url": "https://images.unsplash.com/photo-1601995126774-1fdc6fdc03de?auto=format&fit=crop&w=800&q=80",
+    "description": "店舗で店員が顧客に商品を提示している様子。",
+    "options": [
+      "A customer is selecting an item.",
+      "The clerk is presenting a product to a customer.",
+      "The store is closing for the day.",
+      "The employee is wearing a uniform."
+    ],
+    "answer": "The clerk is presenting a product to a customer.",
+    "translation": [
+      "顧客が商品を選んでいる。",
+      "店員が顧客に商品を提示している。",
+      "店舗は閉店準備をしている。",
+      "従業員は制服を着ている。"
+    ],
+    "explanation": "正解は「店員が顧客に商品を提示している。」です。これは写真の内容を正確に表しています。他の選択肢は写真の状況に合致していないため不正解です。選択肢Aの「顧客が商品を選んでいる。」は店員が提示している行動の逆の状況を述べており、選択肢Cの「店舗は閉店準備をしている。」は写真の内容とは無関係です。選択肢Dの「従業員は制服を着ている。」は状態を表す文で、現在進行形の動作を示す写真に対して不適切です。",
+    "question_type": "人物主体 (People)",
+    "target_score": 990,
+    "audio_file": "audio/p1_0012.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p1_0013",
+    "image_url": "https://images.unsplash.com/photo-1571171218320-5c09de5d041f?auto=format&fit=crop&w=800&q=80",
+    "description": "倉庫でフォークリフトを操作し、荷物の仕分けを行っている作業員の写真です。",
+    "options": [
+      "The worker is sorting boxes.",
+      "The worker is being helped with the machinery.",
+      "The worker is wearing a safety vest.",
+      "The worker is putting away the documents."
+    ],
+    "answer": "The worker is sorting boxes.",
+    "translation": [
+      "作業員は荷物を仕分けています。",
+      "作業員は機械の手助けを受けています。",
+      "作業員は安全ベストを着ています。",
+      "作業員は書類を片付けています。"
+    ],
+    "explanation": "正解は「The worker is sorting boxes.」です。この文は現在進行形で、作業員が荷物を仕分けている動作を示しています。他の選択肢について以下のように解説します。\n\n- 「The worker is being helped with the machinery.」: 受動態の表現で、作業員が機械の手助けを受けている状態を示していますが、写真にはそのような動作は写っていません。\n- 「The worker is wearing a safety vest.」: 作業員が安全ベストを「着ている」という状態を示していますが、実際にそのような状況は確認できません。現在進行形と状態の混同によるひっかけです。\n- 「The worker is putting away the documents.」: 作業員が書類を「片付けている」という動作も実際には行われておらず、写真に写っていない名詞の提示による誤解を招く選択肢です。",
+    "question_type": "人物主体 (People)",
+    "target_score": 600,
+    "audio_file": "audio/p1_0013.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p1_0014",
+    "image_url": "https://images.unsplash.com/photo-1518161360123-2a7a0f9dfb93?auto=format&fit=crop&w=800&q=80",
+    "description": "カフェのテーブルの上に皿やコップが並んでいる風景の写真です。",
+    "options": [
+      "The table is set with dishes and cups.",
+      "The table is being cleaned by a staff member.",
+      "The chairs are arranged neatly around the table.",
+      "The coffee is being served in a cup."
+    ],
+    "answer": "The table is set with dishes and cups.",
+    "translation": [
+      "テーブルには皿やコップが並んでいる。",
+      "テーブルはスタッフによって掃除されている。",
+      "椅子はテーブルの周りにきちんと並べられている。",
+      "コーヒーはカップに注がれている。"
+    ],
+    "explanation": "正解は「The table is set with dishes and cups.」です。この選択肢は、写真に描写された内容を正確に表しています。他の選択肢は次のように誤りです：\n\n- 「The table is being cleaned by a staff member.」は、現在進行形の受動態を用いていますが、写真にはスタッフが掃除をしている様子は写っていません。\n- 「The chairs are arranged neatly around the table.」は椅子の配置についての記述ですが、写真には椅子は写っていないため誤りです。\n- 「The coffee is being served in a cup.」も同様に進行形を用いていますが、コーヒーが注がれている状態は写真には見られません。",
+    "question_type": "風景・物主体 (Object/Scene)",
+    "target_score": 730,
+    "audio_file": "audio/p1_0014.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p1_0015",
+    "image_url": "https://images.unsplash.com/photo-1554443601-10b40c847d08?auto=format&fit=crop&w=800&q=80",
+    "description": "倉庫でフォークリフトを操作しながら荷物を仕分けしている作業員が描かれた画像です。",
+    "options": [
+      "A. The worker is putting on a safety helmet.",
+      "B. The boxes are being sorted by the worker.",
+      "C. The forklift is moving the items to another location.",
+      "D. The machinery is being repaired by the staff."
+    ],
+    "answer": "B. The boxes are being sorted by the worker.",
+    "translation": [
+      "A. 作業員は安全ヘルメットをかぶっている。",
+      "B. 箱は作業員によって仕分けされている。",
+      "C. フォークリフトはアイテムを別の場所に移動させている。",
+      "D. 機械はスタッフによって修理されている。"
+    ],
+    "explanation": "正解はBです。この選択肢は現在進行形の受動態を使用しており、写真の内容（荷物の仕分け）を正確に表しています。Aは現在分詞を使った状態を述べていますが、写真には安全ヘルメットをかぶっている作業員は映っていません。Cは動作を述べていますが、フォークリフトが移動しているという描写は写真には見られません。Dは満たす条件が不足しており、作業員が修理している場面は描写されていません。",
+    "question_type": "人物主体 (People)",
+    "target_score": 860,
+    "audio_file": "audio/p1_0015.mp3",
+    "voice": "alloy"
+  }
+]

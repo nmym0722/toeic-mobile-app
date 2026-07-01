@@ -1,0 +1,1036 @@
+[
+  {
+    "id": "p7_0001",
+    "title": "市場調査レポートの社内共有とチームチャットに関する問題",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Market Research Report Email",
+        "content": "Subject: Market Research Analysis\nDate: October 15, 2023\nFrom: Sarah Johnson <sarah.johnson@company.com>\nTo: Marketing Team <marketing@company.com><br><br>Dear Team,<br><br>I am writing to share the findings from our recent market research regarding our main competitors. One important point is that Brand X is currently out of stock on several key products, which presents a great opportunity for us to capture their market share during this period. As we discussed in our last meeting, we need to strategize on how we can make up for their shortages and appeal to potential customers looking for alternatives.<br><br>Additionally, the survey results indicate that our pricing strategy is perceived as more favorable compared to Brand Y. Let's continue to monitor the situation and revise our tactics if necessary.<br><br>Best regards,<br>Sarah<br>"
+      },
+      {
+        "label": "Document 2: Team Chat Discussion",
+        "content": "[10:05 AM] John: Hey team, did you see the email about Brand X's product shortages?<br>[10:06 AM] Lisa: Yes, it could really benefit our sales if we act quickly.<br>[10:07 AM] Rebecca: We should brainstorm ideas to capitalize on this. What do you think?<br>[10:08 AM] John: I agree. We need to make sure our promotion takes full advantage of the situation. They are out of stock, so we need to emphasize our available products in our advertising."
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What opportunity does Sarah mention regarding Brand X's products?",
+        "options": [
+          "Brand X is expanding their product line.",
+          "Brand X is out of stock on key products.",
+          "Brand X is lowering their prices.",
+          "Brand X is improving their advertising."
+        ],
+        "answer": "Brand X is out of stock on key products.",
+        "translation": "サラが述べているブランドXの製品に関する機会は何ですか？",
+        "explanation": "正解はメールで述べられている「Brand X is out of stock on key products（ブランドXの主要製品が在庫切れである）」です。これは、同社が市場シェアを獲得する大きな機会であることを示唆しています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "According to the chat discussion, what should the team do in response to Brand X's situation?",
+        "options": [
+          "Ignore the competition for now.",
+          "Launch a campaign to highlight their own products.",
+          "Wait for Brand X to restock their items.",
+          "Increase prices to generate more revenue."
+        ],
+        "answer": "Launch a campaign to highlight their own products.",
+        "translation": "チャットの議論によれば、チームはブランドXの状況に対して何をすべきですか？",
+        "explanation": "ジョンとリサによって構成されるチームは、ブランドXの在庫問題を利用するために自社の入手可能な製品を宣伝する必要性について議論しています。したがって、正解は「Launch a campaign to highlight their own products.（自社の製品を強調するキャンペーンを開始する）」です。",
+        "question_type": "Inference Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "How can the team make up for Brand X’s shortcomings according to Sarah’s email?",
+        "options": [
+          "By lowering their prices below Brand Y.",
+          "By increasing the number of promotions.",
+          "By emphasizing the availability of their products.",
+          "By introducing new product lines."
+        ],
+        "answer": "By emphasizing the availability of their products.",
+        "translation": "サラのメールによれば、チームはブランドXの不足をどのように補填することができますか？",
+        "explanation": "サラは、代替品を探している顧客をターゲットにすることでブランドXの不足を補う必要性に言及しており、これは自社製品の入手可能性を強調することを意味します。したがって、正解は「By emphasizing the availability of their products.（自社製品の入手可能性を強調することによって）」です。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0002",
+    "title": "ビジネスセミナーに関する広告及び参加申込について",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Business Seminar Advertisement",
+        "content": "<b>Join Us for the Upcoming Business Innovation Seminar!</b><br><br>Dear Professionals,<br><br>We are excited to announce an engaging Business Innovation Seminar that will take place on March 15, 2023, at the Grand Conference Center.<br>Our event features renowned speakers, insightful workshops, and unparalleled networking opportunities.<br><br>**Key Highlights:**<br>- Expert panels<br>- Workshops covering the latest trends<br>- Lunch provided<br><br>Registration is now open! Don't miss your chance to learn from industry leaders! Please note that the venue is currently <i>under construction</i>, but will be completed before the seminar date.<br><br>Early bird registration is available until February 15, 2023, at a discounted rate of $150. After that, the price will increase to $200.<br><br>Best regards,<br>Event Coordinator<br>Business Association<br>contact@businessassociation.org<br>+1 (800) 555-0199"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is one of the main features of the Business Innovation Seminar?",
+        "options": [
+          "Discounted registration fees for early attendees.",
+          "Workshops on outdated industry practices.",
+          "Free transportation to the venue.",
+          "Opportunities to meet with competitors."
+        ],
+        "answer": "Discounted registration fees for early attendees.",
+        "translation": "ビジネスイノベーションセミナーの主な特徴の一つは何ですか？",
+        "explanation": "広告では、2月15日以降に料金が上がるため、早期登録によって費用を節約できることが強調されています。この選択肢は、割引登録料に言及している内容を直接反映しています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "By what date must attendees register to receive the early bird rate?",
+        "options": [
+          "March 15, 2023",
+          "January 1, 2023",
+          "February 15, 2023",
+          "April 1, 2023"
+        ],
+        "answer": "February 15, 2023",
+        "translation": "参加者が早期割引料金を受け取るためには、いつまでに登録しなければなりませんか？",
+        "explanation": "本文は、早期登録が2023年2月15日まで利用可能であると述べており、これは割引を希望する参加者にとって必要な重要情報です。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "How can the construction of the venue affect attendees before the seminar?",
+        "options": [
+          "Attendees might need to find alternate locations.",
+          "It provides an opportunity for attendees to see renovations.",
+          "The construction will be completed ahead of time.",
+          "Workshops might be canceled due to noise."
+        ],
+        "answer": "The construction will be completed ahead of time.",
+        "translation": "会場の工事はセミナー前に出席者にどのように影響しますか？",
+        "explanation": "広告は、会場が「工事中（under construction）」である言及していますが、セミナーの日程までに完了することを保証しており、出席やスケジュールへの悪影響がないことを示しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0003",
+    "title": "製品リコールに関するお知らせとお詫び",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Product Recall Notice",
+        "content": "<b>To: Valued Customers</b><br><br>Dear Customers,<br><br>We regret to inform you that a defect has been discovered in the latest batch of our XYZ model. This defect could potentially cause safety hazards, and as a result, we are issuing a recall for all units sold after January 1st, 2023.<br><br>Our team has been assigned to manage this recall process efficiently. We sincerely apologize for any inconvenience this may cause and are committed to making up for this issue.<br><br>Please return the defective units to your nearest store to receive a full refund or exchange. We appreciate your understanding as we work to resolve this matter swiftly.<br><br>For further assistance, please contact our customer service team. Thank you for your continued support.<br><br>Sincerely,<br>The XYZ Company Team"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What should customers do with the defective units?",
+        "options": [
+          "Keep them for future use",
+          "Return them for a full refund or exchange",
+          "Discard them immediately",
+          "Contact the manufacturer for repair"
+        ],
+        "answer": "Return them for a full refund or exchange",
+        "translation": "顧客は不具合のあるユニットをどうすべきですか？",
+        "explanation": "リコール通知には、顧客が不具合のあるユニットを最寄りの店舗に返却して全額返金または交換を受けるべきであることが明確に記載されており、これは書簡の中で直接言及されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "What is the primary reason for the recall?",
+        "options": [
+          "New product launch",
+          "Customer complaints",
+          "Defect discovered posing safety hazards",
+          "Change in company policy"
+        ],
+        "answer": "Defect discovered posing safety hazards",
+        "translation": "回収の主な理由は何ですか？",
+        "explanation": "書簡には、安全上の危険を引き起こす可能性のある欠陥が発見されたと記載されており、リコールの理由が直接示されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "How is the recall process being managed?",
+        "options": [
+          "Through customer complaints only",
+          "By a team assigned to handle the recall efficiently",
+          "By individual stores without a centralized plan",
+          "By limiting returns to specific customers"
+        ],
+        "answer": "By a team assigned to handle the recall efficiently",
+        "translation": "リコールプロセスはどのように管理されていますか？",
+        "explanation": "書簡には、リコールプロセスを効率的に管理するためのチームが任命されたと記載されており、会社がこの問題にどのように取り組んでいるかを理解する上で重要なポイントとなっています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0004",
+    "title": "オフィス移転と工事に関する通知",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Office Relocation Notice",
+        "content": "<b>Company Name: ABC Corp</b><br><b>Date: March 15, 2023</b><br><b>To: All Employees</b><br><br>Dear Team,<br><br>We are excited to announce that our office will be relocating to a new building starting April 1, 2023. The new location is designed to provide a better work environment, and it will also feature improved parking facilities.<br><br>Please note that the relocation is ahead of schedule and all team members will be subject to new floor layout guidelines. We kindly ask that you familiarize yourselves with the proposed changes to your workspace.<br><br>If you have any questions or concerns regarding the upcoming move or construction of the elevators and parking areas, please do not hesitate to reach out to the facilities department.<br><br>Thank you for your cooperation.<br><br>Sincerely,<br>John Doe<br>Facilities Manager"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What will employees need to follow at the new office?",
+        "options": [
+          "New office layout rules",
+          "Old office policies",
+          "Previous parking arrangements",
+          "Company vacation schedules"
+        ],
+        "answer": "New office layout rules",
+        "translation": "従業員は新しいオフィスで何に従う必要がありますか？",
+        "explanation": "通知には、すべてのチームメンバーが新しいフロアレイアウトガイドラインの対象となることが明確に記載されており、新しいオフィスでこれらの規則を遵守しなければならないことを示しています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "Which of the following is true about the relocation?",
+        "options": [
+          "It is happening on schedule.",
+          "It will occur in a month.",
+          "It is ahead of schedule.",
+          "It was originally planned for next year."
+        ],
+        "answer": "It is ahead of schedule.",
+        "translation": "移転について次のうち正しいのはどれですか？",
+        "explanation": "通知には移転が予定より前倒し（ahead of schedule）であると言及されており、予定よりも早く行われることが確認できます。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "How should employees address concerns about the elevator construction?",
+        "options": [
+          "Contact the facilities department.",
+          "Refer to the old guidelines.",
+          "Talk to their supervisors.",
+          "Ignore the announcements."
+        ],
+        "answer": "Contact the facilities department.",
+        "translation": "従業員はエレベーター工事に関する懸念をどのように対処すべきですか？",
+        "explanation": "書簡は、従業員に対して質問や懸念がある場合はファシリティ部門に連絡するようアドバイスしており、エレベーター工事に関する問題の適切な連絡先であることを示しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0005",
+    "title": "サプライヤーへの納期遅延に関する抗議と提案",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Email",
+        "content": "<b>Subject:</b> Delay in Delivery Date<br><br>Dear Mr. Thompson,<br><br>I hope this message finds you well. I am writing to express our concerns regarding the delay in the delivery of the materials we ordered last month. As our project timeline is quite tight, we are subject to significant disruptions due to this situation.<br><br>To mitigate any further delays, we would like to discuss alternative solutions. One option could be that you expedite the shipping process to ensure we receive the items as soon as possible. Additionally, if your team can partially fulfill the order, that would also help us maintain our project schedule.<br><br>Moreover, we need to reconsider the pricing in light of the inconvenience caused. We believe a reduction in costs might be appropriate given the circumstances. Please let us know your thoughts on this matter.<br><br>Best regards,<br><br>Jane Smith<br>Procurement Manager<br>XYZ Corporation"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the main concern expressed by Jane Smith in the email?",
+        "options": [
+          "The materials were delivered on time.",
+          "There is a delay in delivery affecting the project timeline.",
+          "The prices of the materials are too high.",
+          "The supplier has not responded to earlier emails."
+        ],
+        "answer": "There is a delay in delivery affecting the project timeline.",
+        "translation": "このメールでジェーン・スミスが表現している主な懸念は何ですか？",
+        "explanation": "ジェーンは納期の遅れについて懸念を表明しており、それがプロジェクトのスケジュールを混乱させていることを示しています。これがメールの中心的な課題です。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "Which option does Jane propose to alleviate the delay?",
+        "options": [
+          "Cancel the order completely.",
+          "Expedite the shipping process or fulfill the order partially.",
+          "Increase the order quantity.",
+          "Change the delivery address."
+        ],
+        "answer": "Expedite the shipping process or fulfill the order partially.",
+        "translation": "ジェーンは遅延を緩和するためにどのオプションを提案していますか？",
+        "explanation": "メールの中でジェーンは、プロジェクトのスケジュールに合わせるために、サプライヤーが発送を早めるか、または注文を部分的に履行することを提案しており、これが質問の直接的な回答になります。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "What does Jane suggest regarding the pricing of the materials?",
+        "options": [
+          "The prices should be increased due to demand.",
+          "A discount may be warranted due to the inconvenience.",
+          "There is no need to change the prices.",
+          "The prices should be compared with other suppliers."
+        ],
+        "answer": "A discount may be warranted due to the inconvenience.",
+        "translation": "ジェーンは材料の価格について何を提案していますか？",
+        "explanation": "ジェーンは、納期の遅れによって生じた不便さを考慮すると、コストの削減（値引き）が適切である可能性に言及しており、メールの中で自身の立場を明確に示しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0006",
+    "title": "サプライヤーとのやり取りに関する問題セット",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Email",
+        "content": "Subject: Urgent: Delay in Shipment<br><br>Dear Supplier,<br><br>We hope this message finds you well. We would like to express our concern regarding the recent delays in the delivery of our order number 4589. The expected delivery date was March 15, and as of today, we have yet to receive the shipment.<br><br>As we have a project launch scheduled for March 20, these delays put us at a significant disadvantage. We also noticed that certain items, particularly the new model of the widgets, are currently <b>out of stock</b>. If the shipment is not delivered by March 18, we will have to consider alternative suppliers to ensure that our project timeline remains intact.<br><br>We would appreciate your prompt attention to this matter and a confirmation regarding the status of our order. Additionally, could you please confirm if we are <b>eligible for</b> any compensation due to this delay?<br><br>Thank you for your understanding.<br><br>Sincerely,<br>John Doe<br>Project Manager<br>ABC Corporation"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the primary reason for John Doe's concern in the email?",
+        "options": [
+          "Late shipment of order number 4589",
+          "High price of widgets",
+          "Out of stock items in the inventory",
+          "Unsatisfactory customer service"
+        ],
+        "answer": "Late shipment of order number 4589",
+        "translation": "ジョン・ドーがメールで懸念している主な理由は何ですか？",
+        "explanation": "ジョン・ドーが表明している主な懸念は、プロジェクトのスケジュールに影響を及ぼしている注文番号4589の発送遅延についてです。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "Which item mentioned in the email is currently unavailable?",
+        "options": [
+          "The delivery schedule",
+          "The new model of the widgets",
+          "The order number",
+          "The compensation policy"
+        ],
+        "answer": "The new model of the widgets",
+        "translation": "メールに記載されている、現在入手できないアイテムはどれですか？",
+        "explanation": "ジョン・ドーは、新型モデルのウィジェットが現在在庫切れ（out of stock）であると言及しており、入手不可能であることを示しています。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "What does John Doe suggest might happen if the shipment doesn't arrive by March 18?",
+        "options": [
+          "They will accept the delayed shipment.",
+          "They will choose another supplier.",
+          "They will cancel the order.",
+          "They will ask for a discount."
+        ],
+        "answer": "They will choose another supplier.",
+        "translation": "ジョン・ドーは、3月18日までに納品が届かない場合、何が起こると示唆していますか？",
+        "explanation": "メールの中でジョン・ドーは、3月18日までに出荷品が届かない場合、プロジェクトのスケジュールを維持するために代替サプライヤーを検討する必要があることを示しており、別のサプライヤーを選択する選択肢を指しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0007",
+    "title": "ビジネスセミナーと参加申込に関する問題セット",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Seminar Advertisement",
+        "content": "<b>Join Us for the Annual Business Innovations Seminar!</b><br>Dear Business Professionals,<br><br>We are excited to announce that our Annual Business Innovations Seminar will be held on March 15, 2023. This seminar will feature renowned speakers from various industries who will share insights on the latest trends and technologies that are shaping the business landscape.<br><br>Registration is now open, but please note that space is limited. If you register before February 28, you can save 20% on the admission fee! Don't miss the opportunity to network with industry leaders and gain valuable knowledge.<br><br>Also, be aware that certain materials will be provided for the seminar. For those who missed the earlier sessions, we will make up for their absence with special breakout discussions.<br><br>For inquiries, contact us at info@bizseminar.com.<br>Warm regards,<br>Jane Doe<br>Event Coordinator"
+      },
+      {
+        "label": "Document 2: Seminar Registration Confirmation",
+        "content": "<b>Registration Confirmation</b><br>Date: February 20, 2023<br><br>Dear Attendee,<br><br>Thank you for registering for the Annual Business Innovations Seminar. We have successfully reserved your seat for the event on March 15, 2023. Your registration details are as follows:<br>Name: John Smith<br>Email: john.smith@example.com<br>Admission Fee: $250<br><br>Please note, the conference materials are available for a limited time, and certain items may be out of stock. We encourage you to arrive early to secure your materials.<br><br>If you have any questions, feel free to reach out!<br><br>Best,<br>Mary Johnson<br>Customer Support"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What benefit does registering before February 28 provide?",
+        "options": [
+          "A discount on the admission fee",
+          "Access to exclusive speakers",
+          "A free lunch during the seminar",
+          "An invitation to the after-party"
+        ],
+        "answer": "A discount on the admission fee",
+        "translation": "2月28日までに登録するとどのような特典がありますか？",
+        "explanation": "2月28日より前に登録すると、入場料が20%割引になります。これはセミナーの広告に記載されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "What should attendees do to ensure they receive the conference materials?",
+        "options": [
+          "Arrive early at the event",
+          "Contact support beforehand",
+          "Register online only",
+          "Bring extra payment"
+        ],
+        "answer": "Arrive early at the event",
+        "translation": "参加者は会議資料を確実に受け取るために何をすべきですか？",
+        "explanation": "確認メールには、資料が在庫切れになる可能性があるため、資料を確保するためには早めに到着するべきであると記載されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "Which statement correctly summarizes the materials situation according to both documents?",
+        "options": [
+          "All materials will be provided at the seminar.",
+          "Latecomers will not receive any materials.",
+          "Some materials are out of stock, but others will be available.",
+          "There will be no materials available for participants."
+        ],
+        "answer": "Some materials are out of stock, but others will be available.",
+        "translation": "両方の文書に基づいて資料の状況を正しく要約しているのはどの文ですか？",
+        "explanation": "セミナー広告では、資料が提供され、以前のセッションを逃した人々のために特別な分科会で補うことが述べられている一方、確認メールでは一部の資料が在庫切れになる可能性があると注意を促しています。これは、一部のアイテムが利用できない可能性があるものの、他の資料は提供されることを示しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0008",
+    "title": "サプライヤーへの抗議のEメール",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Email",
+        "content": "Subject: Urgent: Delay in Shipment<br><br>Dear Mr. Johnson,<br><br>I hope this message finds you well. I am writing to express my concern regarding the recent delays in the shipment of our recent order, which was due on October 15. Our company, Greentech Solutions, has been depending on this delivery to meet our production timeline.<br><br>Could you please provide an update on when we can expect the order to be dispatched? Additionally, I would like to discuss alternative solutions available at this stage, as we cannot afford any more delays. Our team is prepared to discuss any options you may have.<br><br>Furthermore, I would appreciate it if you could confirm the availability of specific parts in stock so that we can meet our project deadlines effectively.<br><br>Thank you for your attention to this matter. I look forward to your prompt response.<br><br>Sincerely,<br>Emily Carter<br>Purchasing Manager<br>Greentech Solutions"
+      },
+      {
+        "label": "Document 2: Response Email",
+        "content": "Subject: RE: Urgent: Delay in Shipment<br><br>Dear Ms. Carter,<br><br>Thank you for your email. I sincerely apologize for the delay regarding your order. Unfortunately, we encountered unexpected supply chain issues that have affected our delivery schedule.<br><br>We are currently working hard to resolve these issues, and I can assure you that we are trying to expedite your shipment. While I cannot give you an exact date for the delivery, I expect to have an update by next week.<br><br>In the meantime, I would be happy to explore alternative options to ensure your project remains on track. Please let me know how we can assist you further.<br><br>Best regards,<br>Mark Johnson<br>Supplier Manager<br>QuickSupply Corp."
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the main purpose of Emily Carter's email?",
+        "options": [
+          "To propose a new project",
+          "To complain about a delay in shipment",
+          "To request a discount on future orders",
+          "To confirm an order has been received"
+        ],
+        "answer": "To complain about a delay in shipment",
+        "translation": "エミリー・カーターのメールの主な目的は何ですか？",
+        "explanation": "エミリー・カーターからのメールには発送遅延に関する懸念が明確に述べられており、彼女の主な目的がこの不満を表明することであるのは明らかです。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "How does Mark Johnson respond to Emily's concerns?",
+        "options": [
+          "He ignores her email.",
+          "He offers an exact delivery date.",
+          "He apologizes and promises to resolve the issue.",
+          "He states that the items are not in stock."
+        ],
+        "answer": "He apologizes and promises to resolve the issue.",
+        "translation": "マーク・ジョンソンはエミリーの懸念にどう対応しましたか？",
+        "explanation": "マーク・ジョンソンは遅延について謝罪し、問題を解決するために積極的に取り組んでいることを示し、エミリーの懸念に直接応えています。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "What alternative does Emily mention in her email regarding the shipment delay?",
+        "options": [
+          "Using alternative suppliers",
+          "Offering a discount on future purchases",
+          "Discussing alternative solutions",
+          "Increasing the order quantity"
+        ],
+        "answer": "Discussing alternative solutions",
+        "translation": "エミリーは納期遅延に関して、どんな代替案をメールの中で言及していますか？",
+        "explanation": "エミリーは、発送遅延の影響を軽減するために代替の解決策を話し合いたいとメールの中で言及しており、柔軟で積極的なアプローチを示しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0009",
+    "title": "ビジネスセミナー参加申込と確認通知",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Seminar Advertisement",
+        "content": "<b>Join the Upcoming Business Seminar!</b><br><br>We are excited to announce our next business seminar taking place on April 15th at the Grand Conference Center. This event will feature industry leaders who will share valuable insights on market trends and strategies.<br><br>Registration is now open and will close on April 1st. Early registrants will enjoy a 20% discount! Don’t miss this opportunity if you are qualified for advancing your career and taking over new challenges in your field. For more information, please contact us at events@businessseminar.com."
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What date will the seminar take place?",
+        "options": [
+          "April 1st",
+          "April 15th",
+          "April 30th",
+          "May 1st"
+        ],
+        "answer": "April 15th",
+        "translation": "セミナーはいつ開催されますか？",
+        "explanation": "正解は、セミナーの日程として具体的に言及されている広告内の「April 15th（4月15日）」です。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "What is required to receive the early registration discount?",
+        "options": [
+          "Register before April 1st",
+          "Attend another seminar",
+          "Refer a friend",
+          "Sign up for a newsletter"
+        ],
+        "answer": "Register before April 1st",
+        "translation": "早期登録割引を受けるために必要なことは何ですか？",
+        "explanation": "早期登録割引を受けるためには、広告の詳細に従って「4月1日までに登録する（register before April 1st）」必要があります。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "According to the advertisement, why should one attend the seminar?",
+        "options": [
+          "To take over responsibilities at work",
+          "To learn about market trends and strategies",
+          "To meet with friends and colleagues",
+          "To register for further courses"
+        ],
+        "answer": "To learn about market trends and strategies",
+        "translation": "広告によれば、なぜこのセミナーに参加すべきですか？",
+        "explanation": "広告には、セミナーで業界のリーダーたちが市場動向や戦略に関する貴重な知見を共有することが記載されているため、「市場動向や戦略について学ぶ（to learn about market trends and strategies）」が正しい選択肢となります。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0010",
+    "title": "市場調査レポートの社内共有",
+    "passage_type": "Single Passage",
+    "passages": [
+      {
+        "label": "Document 1: Email",
+        "content": "<b>Subject:</b> Market Research Findings<br><br>Dear Team,<br><br>I hope this email finds you well. I have completed the market research report on our competitors. The findings indicate that we need to improve our outreach strategies. Current metrics show a drop in market share that we must address. We can <b>make up for</b> the loss by enhancing our product offerings and adjusting our pricing.<br><br>Please review the attached report for more details. In our meeting next week, I would like to discuss how we can effectively implement these changes and who will <b>take over</b> the responsibilities of the updates.<br><br>Best regards,<br>John Doe<br>Market Research Analyst"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the main objective of John Doe's email?",
+        "options": [
+          "To request feedback on the report.",
+          "To inform the team of research findings.",
+          "To announce a new product launch.",
+          "To schedule a meeting with the marketing team."
+        ],
+        "answer": "To inform the team of research findings.",
+        "translation": "ジョン・ドーのメールの主な目的は何ですか？",
+        "explanation": "メールの主な目的は市場調査の結果を共有することであり、調査結果に基づいた改善の必要性を示しています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "According to the email, what should be improved to regain market share?",
+        "options": [
+          "Customer service options.",
+          "Product offerings and pricing.",
+          "Marketing strategies only.",
+          "Sales team performance."
+        ],
+        "answer": "Product offerings and pricing.",
+        "translation": "メールによると、市場シェアを取り戻すために何を改善する必要がありますか？",
+        "explanation": "メールでは、市場シェアを取り戻すために製品ラインナップの強化と価格調整が必要な対策として明確に言及されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "What will be discussed in the upcoming meeting mentioned in the email?",
+        "options": [
+          "The new marketing campaign.",
+          "How to implement changes and assign responsibilities.",
+          "The results of a recent sales initiative.",
+          "A new hiring strategy for the team."
+        ],
+        "answer": "How to implement changes and assign responsibilities.",
+        "translation": "メールで言及されている今後の会議では何が話し合われる予定ですか？",
+        "explanation": "メールには、ジョン・ドーが変更の実施方法や、その責任を引き継ぐ人（take over）について話し合いたいと記載されており、レポートの結果と関連しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0011",
+    "title": "新任マネージャーの着任と評価制度についてのお知らせ",
+    "passage_type": "Double Passage",
+    "passages": [
+      {
+        "label": "Document 1: Internal Memo",
+        "content": "<b>To: All Employees</b><br><b>From: HR Department</b><br><b>Date: November 10, 2023</b><br><b>Subject: Announcement of New Manager</b><br><br>We are pleased to announce that Ms. Clara Johnson will be joining our team as the new Project Manager starting November 20, 2023. Her extensive experience in project management will significantly contribute to our department's success. It is important to note that all team members will be subject to the new evaluation system, which aims to enhance performance and accountability. If you have any questions regarding this transition, feel free to contact the HR department.<br><br>Best regards,<br>HR Team"
+      },
+      {
+        "label": "Document 2: Email from Clara Johnson",
+        "content": "<b>To: Team Members</b><br><b>From: Clara Johnson</b><br><b>Date: November 10, 2023</b><br><b>Subject: Looking Forward to Working Together!</b><br><br>Hello Team,<br><br>I am excited to introduce myself as your new Project Manager. I look forward to collaborating with you all to achieve our goals and make great progress. Going forward, I plan to implement some strategies that will help us make up for lost time due to recent changes within the team. We will have our first meeting on November 22 to discuss our objectives. Let’s work together to ensure a smooth transition during this time.<br><br>Sincerely,<br>Clara Johnson"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the primary purpose of Clara Johnson's email?",
+        "options": [
+          "To introduce herself as the new manager.",
+          "To discuss the evaluation system.",
+          "To inform about the performance accountability.",
+          "To ask for feedback on recent projects."
+        ],
+        "answer": "To introduce herself as the new manager.",
+        "translation": "クララ・ジョンソンのメールの主な目的は何ですか？",
+        "explanation": "クララ・ジョンソンのメールは、新しいプロジェクトマネージャーとしてチームに自己紹介することに焦点を当てており、メッセージの中で直接言及されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "Which new policy will affect all team members?",
+        "options": [
+          "A new project deadline.",
+          "A new evaluation system.",
+          "Changes in project management.",
+          "A temporary leave policy."
+        ],
+        "answer": "A new evaluation system.",
+        "translation": "すべてのチームメンバーに影響を与える新しいポリシーは何ですか？",
+        "explanation": "人事メモには、すべてのチームメンバーが新しい評価制度の対象となると具体的に記載されており、その重要性が強調されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "How does Clara Johnson plan to address the delays experienced by the team?",
+        "options": [
+          "By reducing project scope.",
+          "By implementing new strategies.",
+          "By providing additional training.",
+          "By increasing team meetings."
+        ],
+        "answer": "By implementing new strategies.",
+        "translation": "クララ・ジョンソンは、チームが経験した遅れにどのように対処する計画ですか？",
+        "explanation": "メールの中でクララは、遅れを取り戻す（make up for）ための戦略を実施する意図を述べており、チームの進捗の遅れに対処しようとしています。",
+        "question_type": "Detail Information Question",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "question_text": "According to the HR memo, how does the new evaluation system impact employees?",
+        "options": [
+          "It is optional for employees.",
+          "All employees are required to follow it.",
+          "It will not affect management.",
+          "It is only for new hires."
+        ],
+        "answer": "All employees are required to follow it.",
+        "translation": "HRメモによれば、新しい評価制度は従業員にどのような影響を与えますか？",
+        "explanation": "人事メモには、すべてのチームメンバーが新しい評価制度の対象となると明確に記載されており、全員にとって必須であることを示しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p7_0012",
+    "title": "サプライヤーに対する納期遅延への抗議と代替案の提案",
+    "passage_type": "Double Passage",
+    "passages": [
+      {
+        "label": "Document 1: Email from Customer",
+        "content": "<b>Subject:</b> Urgent: Late Delivery of Supplies<br><br>Dear Mr. Smith,<br><br>I hope this message finds you well. I am writing to express my concern regarding the recent delay in the delivery of our supplies that were scheduled for last week. This situation has caused significant disruption to our operations.<br><br>In order to make up for this inconvenience, we would like to propose a revised delivery date of next Monday, if possible. We truly appreciate your cooperation and understanding in this matter.<br><br>Looking forward to your prompt reply.<br><br>Sincerely,<br>John Doe<br>Purchasing Manager"
+      },
+      {
+        "label": "Document 2: Reply from Supplier",
+        "content": "<b>Subject:</b> Re: Urgent: Late Delivery of Supplies<br><br>Dear John,<br><br>Thank you for bringing this to our attention. I sincerely apologize for the delay; it was due to unforeseen circumstances in our production line.<br><br>We understand your position and are committed to ensuring you are qualified for continued efficiency. The earliest we can fulfill the order is by Wednesday. Please let us know if this new date is acceptable.<br><br>Thank you for your understanding.<br><br>Best regards,<br>Emily White<br>Sales Director"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the main reason for John's email to Mr. Smith?",
+        "options": [
+          "To propose a new supplier",
+          "To complain about the delay of supplies",
+          "To inquire about future orders",
+          "To request a price reduction"
+        ],
+        "answer": "To complain about the delay of supplies",
+        "translation": "ジョンがスミス氏に送ったメールの主な理由は何ですか？",
+        "explanation": "文書1で、ジョンは納期の遅れに関する懸念を表明するために書いていると明確に述べており、主な理由が遅延に対する不満であることが示されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "What alternative delivery date does John propose in his email?",
+        "options": [
+          "Next Tuesday",
+          "Next Friday",
+          "Next Monday",
+          "This Wednesday"
+        ],
+        "answer": "Next Monday",
+        "translation": "ジョンは彼のメールで代替の納品日として何を提案していますか？",
+        "explanation": "ジョンは文書1で、改定された納品日として来週の月曜日を提案したいと明記しているため、これが正しい選択肢となります。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "What assurance does Emily give to John regarding their service?",
+        "options": [
+          "They will offer a discount",
+          "They will meet the delivery date",
+          "They will change the product specifications",
+          "They will improve customer service"
+        ],
+        "answer": "They will meet the delivery date",
+        "translation": "エミリーはジョンに対してどのようなサービスの保証を提供していますか？",
+        "explanation": "文書2で、エミリーは遅延について謝罪し、注文をできるだけ早く履行することをジョンに保証しており、納品日を守る約束をしています。",
+        "question_type": "Detail Information Question",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "question_text": "Which expression indicates that John expects compensation for the delay?",
+        "options": [
+          "Make up for",
+          "Be qualified for",
+          "Come up with",
+          "Get back to"
+        ],
+        "answer": "Make up for",
+        "translation": "どの表現がジョンが遅れに対する補償を期待していることを示していますか？",
+        "explanation": "文書1で、ジョンは遅延によって生じた不便さに対する補償への期待を表すために「make up for（〜の埋め合わせをする）」というフレーズを使用しており、この選択肢が正解となります。",
+        "question_type": "Cross-reference Question",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p7_0013",
+    "title": "オフィス移転に関する通知とお問い合わせ",
+    "passage_type": "Triple Passage",
+    "passages": [
+      {
+        "label": "Document 1: Office Relocation Notice",
+        "content": "<b>To all employees,</b><br><br>We are pleased to announce that the office relocation is ahead of schedule. The new address will be 15 Technology Way, Suite 200.<br><br>Please note that the move will take place next Friday, March 10th. All employees are requested to pack their belongings and prepare for the transition. The IT department will assist with setting up workstations in the new office.<br><br>We thank you for your cooperation during this process. If you have any questions or concerns, please contact the HR department.<br><br>Best regards,<br>John Smith,<br>Facilities Manager<br><br>"
+      },
+      {
+        "label": "Document 2: Renovation Update",
+        "content": "<b>Dear tenants,</b><br><br>This is to inform you that the renovation of the fifth floor is currently under construction. As planned, the work is expected to finish by the end of this month. We apologize for any inconvenience this may cause.<br><br>For parking access during this period, please follow the signs directing you to the temporary parking lot located on the basement level.<br><br>Thank you for your understanding and patience.<br><br>Sincerely,<br>Susan Lee,<br>Building Manager<br><br>"
+      },
+      {
+        "label": "Document 3: Inquiry Email",
+        "content": "<b>Subject: Inquiry about Move Schedule</b><br><br>Dear Facilities Team,<br><br>I would like to confirm the details regarding the upcoming office move. Is there any specific timing I should be aware of? Additionally, will there be any disruptions to elevator services this week?<br><br>Thank you for your assistance.<br><br>Best wishes,<br>Michael Johnson<br><br>"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the new office address announced in Document 1?",
+        "options": [
+          "15 Technology Way, Suite 200",
+          "15 Tech Avenue, Suite 200",
+          "Technology Way, Suite 150",
+          "45 Technology Way, Suite 100"
+        ],
+        "answer": "15 Technology Way, Suite 200",
+        "translation": "文書1で発表された新しいオフィスの住所は何ですか？",
+        "explanation": "文書1には、新しい住所が「15 Technology Way, Suite 200」になることが明確に記載されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "When will the office relocation occur according to Document 1?",
+        "options": [
+          "March 5th",
+          "March 10th",
+          "March 15th",
+          "March 20th"
+        ],
+        "answer": "March 10th",
+        "translation": "文書1によると、オフィス移転はいつ行われますか？",
+        "explanation": "文書1に記載されているように、オフィスの移転は3月10日に予定されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 3,
+        "question_text": "What is currently happening on the fifth floor as mentioned in Document 2?",
+        "options": [
+          "The office is moving.",
+          "It is under construction.",
+          "It is being decorated.",
+          "It is closed permanently."
+        ],
+        "answer": "It is under construction.",
+        "translation": "文書2で述べられているように、5階で現在何が起こっていますか？",
+        "explanation": "文書2には、5階が工事中（under construction）であることが明確に記載されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 4,
+        "question_text": "Which document contains information about parking access during renovations?",
+        "options": [
+          "Document 1",
+          "Document 2",
+          "Document 3",
+          "All documents"
+        ],
+        "answer": "Document 2",
+        "translation": "どの文書が改装中の駐車場のアクセスに関する情報を含んでいますか？",
+        "explanation": "文書2は、5階の改装工事中における一時的な駐車場へのアクセスについて具体的に言及しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 730
+      },
+      {
+        "id": 5,
+        "question_text": "What action is requested from employees in Document 1?",
+        "options": [
+          "To stop using the elevators.",
+          "To pack their belongings.",
+          "To avoid using the parking lot.",
+          "To attend a meeting."
+        ],
+        "answer": "To pack their belongings.",
+        "translation": "文書1では、従業員にどのような行動が求められていますか？",
+        "explanation": "文書1は、すべての従業員に対してオフィスの移転準備として荷物を梱包するよう求めています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p7_0014",
+    "title": "オフィス移転に関する文書に基づく問題セット",
+    "passage_type": "Triple Passage",
+    "passages": [
+      {
+        "label": "Document 1: Office Relocation Notice",
+        "content": "<b>Office Relocation Notice</b><br><br>Dear Employees,<br><br>We are pleased to announce that our office will be relocating to a new space starting next month. The new address is 125 Corporate Blvd, Suite 300. Please ensure that you update your records accordingly.<br><br>The transition will take place over the weekend, and there may be some changes in parking arrangements. For those who usually use the garage, please note that the parking will be out of stock during the moving weekend. We apologize for any inconvenience this may cause and appreciate your understanding.<br><br>Best regards,<br>John Smith<br>Facilities Manager<br>"
+      },
+      {
+        "label": "Document 2: Elevator Maintenance Announcement",
+        "content": "<b>Elevator Maintenance Announcement</b><br><br>To all tenants,<br><br>This is to inform you that the elevators in our building will undergo maintenance starting on Monday, next week, and will last for two weeks. We will do our best to minimize inconvenience, but we kindly ask for your patience during this period.<br><br>Should you require any further assistance or have questions regarding the maintenance, please feel free to reach out to our office.<br><br>Thank you,<br>Emily Johnson<br>Building Manager<br>"
+      },
+      {
+        "label": "Document 3: Parking Inquiry Email",
+        "content": "<b>Email</b><br><br>Subject: Inquiry About Parking<br><br>Dear Building Management,<br><br>I hope this message finds you well. I am writing to inquire about the current parking situation as we prepare for the office relocation. Are there alternative parking options available for employees during this time? Additionally, can you confirm if employees will still be qualified for the same parking spaces after the move? Your prompt response would be appreciated.<br><br>Best,<br>Michael Taylor<br>HR Department<br>"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the new address of the office after the relocation?",
+        "options": [
+          "125 Corporate Blvd, Suite 300",
+          "Corporate Blvd 125, Office 300",
+          "125 Suite 300, Corporate Blvd",
+          "125 Corporate Suite, Blvd 300"
+        ],
+        "answer": "125 Corporate Blvd, Suite 300",
+        "translation": "オフィス移転後の新しい住所は何ですか？",
+        "explanation": "新しい住所が明記されている文書1の記述を正しく反映している選択肢が正解です。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "How long will the elevator maintenance last?",
+        "options": [
+          "One week",
+          "Two weeks",
+          "Three weeks",
+          "Four weeks"
+        ],
+        "answer": "Two weeks",
+        "translation": "エレベーターのメンテナンスはどのくらい続く予定ですか？",
+        "explanation": "文書2には、メンテナンスが2週間（two weeks）続くと記載されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 3,
+        "question_text": "What issue might arise during the moving weekend regarding parking?",
+        "options": [
+          "Parking will be available as usual",
+          "Parking will be at full capacity",
+          "Parking will be out of stock",
+          "Parking fees will increase"
+        ],
+        "answer": "Parking will be out of stock",
+        "translation": "移転の週末に駐車場に関してどの問題が起こる可能性がありますか？",
+        "explanation": "この情報は文書1から直接引用されており、移転の週末は駐車場が利用不可（out of stock）になると記載されています。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 4,
+        "question_text": "What should Michael Taylor confirm with building management?",
+        "options": [
+          "Parking will remain the same after the move",
+          "Moving dates have been changed",
+          "Elevators will be fixed earlier",
+          "Office supplies will be accessible"
+        ],
+        "answer": "Parking will remain the same after the move",
+        "translation": "マイケル・テイラーはビル管理者に何を確認すべきですか？",
+        "explanation": "この問い合わせは文書3に記載されており、マイケルは従業員が移転後も同じ駐車スペースを利用する権利があるか（qualified for）を尋ねています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      },
+      {
+        "id": 5,
+        "question_text": "What is the purpose of the office relocation notice?",
+        "options": [
+          "To inform about an office staff meeting",
+          "To announce changes in office supplies",
+          "To notify employees of a new office location",
+          "To explain the parking fee increase"
+        ],
+        "answer": "To notify employees of a new office location",
+        "translation": "オフィス移転通知の目的は何ですか？",
+        "explanation": "文書1の通知の主な目的は、従業員に新しいオフィスの場所を知らせることです。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      }
+    ]
+  },
+  {
+    "id": "p7_0015",
+    "title": "人事異動と新しい評価制度のお知らせ",
+    "passage_type": "Triple Passage",
+    "passages": [
+      {
+        "label": "Document 1: Announcement",
+        "content": "<b>Subject: New Manager Appointment</b><br><br>Dear Team,<br><br>We are pleased to announce that Ms. Jessica Brown has been appointed as the new Operations Manager, effective next Monday. Jessica brings with her over ten years of experience in management and has successfully led multiple teams in the past. We believe her leadership will be instrumental in guiding our operations.<br><br>Please join us for a welcoming meeting on Wednesday at 3 PM in the main conference room.<br><br>Best regards,<br><br>Peter Smith<br>HR Director"
+      },
+      {
+        "label": "Document 2: Email Update",
+        "content": "<b>Subject: Changes to Vacation Policy</b><br><br>Dear All,<br><br>As part of our ongoing efforts to improve employee satisfaction, we are implementing a new vacation policy effective next quarter. Employees will now be able to carry over unused vacation days from this year. We hope this change will <b>make up for</b> the time lost during the busy project seasons.<br><br>Furthermore, our office is still <b>under construction</b>, so we appreciate your patience during this transition phase.<br><br>Regards,<br>Emily Chen<br>Operations Coordinator"
+      },
+      {
+        "label": "Document 3: Team Chat",
+        "content": "<b>Chat Summary: Monthly Check-in</b><br><br>[10:30 AM] Mike: How is the project management going with the new structure?<br>[10:31 AM] Jessica: It's going well, but we need to address some concerns regarding the upcoming evaluation process.<br>[10:32 AM] Sarah: I heard about the changes in vacation policy. Can we discuss how that will impact our planning?<br>[10:35 AM] Mike: Absolutely! Let's make sure everyone is informed before the new rules take effect."
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the effective date for Ms. Jessica Brown's appointment as Operations Manager?",
+        "options": [
+          "Next Monday",
+          "This Friday",
+          "Tomorrow",
+          "Next Wednesday"
+        ],
+        "answer": "Next Monday",
+        "translation": "ジャシカ・ブラウンがオペレーションマネージャーに就任する有効日付はいつですか？",
+        "explanation": "文書1にジェシカがその日から業務を開始すると記載されている通り、正解は「来週の月曜日（Next Monday）」です。",
+        "question_type": "Detail Information Question",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "question_text": "What change is being implemented in the vacation policy?",
+        "options": [
+          "Unused days can be carried over",
+          "More holidays will be added",
+          "Vacations will be reduced",
+          "All vacations are now mandatory"
+        ],
+        "answer": "Unused days can be carried over",
+        "translation": "休暇制度にどんな変更が実施されようとしていますか？",
+        "explanation": "正解は、文書2で新しい休暇制度の一部として言及されている「未使用の休暇日を繰り越すことができる（Unused days can be carried over）」です。",
+        "question_type": "Detail Information Question",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "question_text": "What is the main purpose of the welcoming meeting mentioned in the announcement?",
+        "options": [
+          "To discuss the new vacation policy",
+          "To introduce Ms. Jessica Brown",
+          "To evaluate team performance",
+          "To address construction updates"
+        ],
+        "answer": "To introduce Ms. Jessica Brown",
+        "translation": "お知らせに記載されている歓迎ミーティングの主な目的は何ですか？",
+        "explanation": "主な目的は、文書1に記載されているように、チームにジェシカ・ブラウンを紹介することです。",
+        "question_type": "Detail Information Question",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "question_text": "According to the chat, what concern do the team members want to address?",
+        "options": [
+          "The new manager's qualifications",
+          "The vacation planning with the new policy",
+          "The ongoing construction",
+          "The performance evaluation process"
+        ],
+        "answer": "The vacation planning with the new policy",
+        "translation": "チャットによると、チームメンバーが対処したい懸念は何ですか？",
+        "explanation": "文書3で、サラは新しい休暇制度が彼らの計画にどのように影響するかを話し合いたいと具体的に言及しています。",
+        "question_type": "Cross-reference Question",
+        "target_score": 730
+      },
+      {
+        "id": 5,
+        "question_text": "What should employees keep in mind regarding the office according to the email update?",
+        "options": [
+          "It is under construction",
+          "It is fully operational",
+          "It will be relocated",
+          "It has been remodeled"
+        ],
+        "answer": "It is under construction",
+        "translation": "メールのアップデートによれば、従業員はオフィスについて何に注意すべきですか？",
+        "explanation": "文書2には「オフィスはまだ工事中である（our office is still under construction）」と明確に記載されており、この期間中に従業員が留意すべき重要な情報です。",
+        "question_type": "Cross-reference Question",
+        "target_score": 860
+      }
+    ]
+  }
+]

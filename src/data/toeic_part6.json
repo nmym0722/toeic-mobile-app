@@ -1,0 +1,962 @@
+[
+  {
+    "id": "p6_0001",
+    "title": "ホテルの宿泊予約の確認",
+    "passage_template": "Dear Ms. Tanaka,\n\nThank you for choosing our hotel for your upcoming stay. We would like to remind you that your check-in time has been modified to <b>[1]</b>. In compliance with our hotel's policy, we kindly ask you to arrive on the designated check-in date. If you have any concerns about your reservation, please feel free to contact us.\n\nAdditionally, if you have specific requests or need to make changes prior to <b>[2]</b> your arrival, do not hesitate to inform us.\n\nWe look forward to welcoming you soon.\n\nBest regards,\nThe Hotel Team\n\n",
+    "translation_full": "田中様\n\n当ホテルをご利用いただきありがとうございます。ご宿泊に関して、チェックイン時間が<b>[1] に変更</b>されたことをお知らせいたします。ホテルのポリシーに準拠して、指定されたチェックイン日には到着するようお願い申し上げます。予約に関するご不明点がございましたら、どうぞお気軽にお知らせください。\n\nまた、到着<b>[2] より前に</b>特別なリクエストや変更が必要な場合は、ご遠慮なくお知らせください。\n\n皆様をお迎えできるのを楽しみにしております。\n\n敬具\nホテルチーム",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "arrival",
+          "arriving",
+          "arrives",
+          "arrive"
+        ],
+        "answer": "arrive",
+        "sentence_translation": "チェックイン時間が変更されたことをお知らせいたします。あなたは指定されたチェックイン日に<b>[1] 訳</b>ことをお願い申し上げます。",
+        "explanation": "正解の「arrive」は動詞の原形で、指定された時間に来ることを表します。他の選択肢は動詞の形が不適切であるため不正解です。",
+        "question_type": "語彙問題",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "stay",
+          "stayed",
+          "staying",
+          "to stay"
+        ],
+        "answer": "to stay",
+        "sentence_translation": "到着<b>[2] 訳</b>特別なリクエストや変更が必要な場合はご遠慮なくお知らせください。",
+        "explanation": "正解の「to stay」は不定詞で、到着する前に行動を表すのに適しています。他の選択肢は不定詞を必要とする文脈で不正確です。",
+        "question_type": "語彙問題",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "with",
+          "into",
+          "at",
+          "on"
+        ],
+        "answer": "on",
+        "sentence_translation": "そのポリシーに<b>[3] 訳</b>、私たちはあなたに到着の際の指定されたチェックイン日を守るようお願い申し上げます。",
+        "explanation": "正解の「on」は前置詞で、日時を示す時に適切です。他の選択肢は日付を示す際に不適切な使用となります。",
+        "question_type": "語彙問題",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "If you arrive earlier, we can arrange for breakfast.",
+          "Please confirm your booking at least one week in advance.",
+          "Do let us know if you need anything during your stay.",
+          "We hope you have a pleasant trip."
+        ],
+        "answer": "Please confirm your booking at least one week in advance.",
+        "sentence_translation": "到着<b>[4] 訳</b>特別なリクエストや変更が必要な場合はご遠慮なくお知らせください。",
+        "explanation": "正解の文は、到着前の予約確認を求めており、文の流れに適合します。他の選択肢はそれぞれ異なる文脈であり、自然な流れを損ないます。",
+        "question_type": "文挿入問題",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0002",
+    "title": "宿泊予約の確認に関するメール",
+    "passage_template": "Dear Mr. Tanaka,<br><br>Thank you for choosing our hotel for your upcoming stay. I would like to confirm your reservation for October 20th and to <b>[1]</b> the check-in time. If you would like to make any adjustments, please let us know <b>[2]</b> your arrival. We recommend arriving by 3 PM for smooth processing. Should you require further assistance, feel free to reach out.<br><br>Best regards,<br>Hotel Management",
+    "translation_full": "田中様、<br><br>当ホテルをご利用いただきありがとうございます。10月20日のご予約を確認したいと考えています。チェックイン時間を<b>[1] 設定</b>するためにも、何かご調整があればご連絡ください。ご到着の<b>[2] および</b>、スムーズな手続きのために、午後3時までのご到着をお勧めします。さらなるご要望がございましたら、お気軽にご連絡ください。<br><br>よろしくお願いいたします。<br>ホテルマネージメント",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "determine",
+          "remove",
+          "designate",
+          "calculate"
+        ],
+        "answer": "designate",
+        "sentence_translation": "チェックイン時間を<b>[1] 設定</b>するためにも、",
+        "explanation": "この文では、チェックイン時間を指定する（designate）ための行動を指しています。他の選択肢（determine, remove, calculate）はこの文脈には適さず、正解はdesignateです。",
+        "question_type": "文法（動詞の選択）",
+        "target_score": 730
+      },
+      {
+        "id": 2,
+        "options": [
+          "during",
+          "prior to",
+          "after",
+          "around"
+        ],
+        "answer": "prior to",
+        "sentence_translation": "何かご調整があればご連絡ください。ご到着の<b>[2] および</b>",
+        "explanation": "この文の文脈では、到着の時間についての調整が記載されています。prior to（〜より前に）が正しい前置詞であり、他の選択肢はこの文意に合致しません。",
+        "question_type": "文法（前置詞の選択）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "prepare",
+          "accept",
+          "encourage",
+          "noted"
+        ],
+        "answer": "prepare",
+        "sentence_translation": "スムーズな手続きのために、午後3時までのご到着を<b>[3] 準備</b>をお勧めします。",
+        "explanation": "この文では、何をすることが推奨されているのかが重要です。prepare（準備する）が適切な動詞であり、他の選択肢はこの文の論理に一致しません。",
+        "question_type": "文法（動詞の選択）",
+        "target_score": 600
+      },
+      {
+        "id": 4,
+        "options": [
+          "If you have special requests, please inform us in advance.",
+          "Please confirm your attendance by email.",
+          "You can check out any time between 11 AM and 12 PM.",
+          "The hotel offers a complimentary breakfast service."
+        ],
+        "answer": "If you have special requests, please inform us in advance.",
+        "sentence_translation": "さらなるご要望がございましたら、<b>[4] ご連絡</b>ください。",
+        "explanation": "この部分では、顧客がさらに要望がある場合にどうすべきかを記述する必要があります。特別なリクエストがある場合は事前に知らせてください、という選択肢が自然に文脈に適しています。",
+        "question_type": "文挿入問題",
+        "target_score": 860
+      }
+    ]
+  },
+  {
+    "id": "p6_0003",
+    "title": "Renovation Notice to Employees",
+    "passage_template": "Subject: Update on Office Renovation\n\nDear Employees,\n\nAs part of our ongoing efforts to improve the workplace environment, we are currently undergoing renovations in the main office area. During this period, we ask all employees to keep their workstations organized and ___[1]___ to the temporary layout changes.\n\nAll workstations should be relocated ___[2]___ the start of the renovations. Make sure to follow the new signage placed around the office so that everyone can navigate the area safely and comfortably. We appreciate your cooperation and understanding as we make these improvements to our office space.\n\nIf you have any questions, please feel free to reach out to the facilities management team. Thank you for your continued support during this time.\n\nBest regards,\n\nOffice Management Team\n\n---\n",
+    "translation_full": "件名: オフィス改装に関するお知らせ\n\n従業員の皆様へ、\n\n職場環境の改善を目的とした取り組みの一環として、主なオフィス区域で改装を行っています。この期間中、全従業員には作業スペースを整理し、<b>[1] 従来のレイアウト変更に準拠して</b>いただくようお願い申し上げます。\n\nすべての作業スペースは<b>[2] 改装の開始より早く</b>移動させる必要があります。新しいサインに従って、皆様が安全かつ快適にエリアを移動できるようにしてください。オフィススペースの改善に際し、皆様のご協力とご理解を感謝いたします。\n\nご不明な点がありましたら、施設管理チームまでお知らせください。この通りでの皆様の引き続きのサポートを感謝申し上げます。\n\n敬具\n\nオフィスマネジメントチーム",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "comply",
+          "in compliance with",
+          "compliance",
+          "complied"
+        ],
+        "answer": "in compliance with",
+        "sentence_translation": "従来のレイアウト変更に<b>[1] 従来のレイアウト変更に準拠して</b>いただくようお願い申し上げます。",
+        "explanation": "正解は'in compliance with'です。このフレーズは、ルールや方針に従った行動を示す時に使われます。他の選択肢は文法的、または意味的に不適切です。",
+        "question_type": "文法（語彙）",
+        "target_score": 860
+      },
+      {
+        "id": 2,
+        "options": [
+          "ahead of",
+          "behind of",
+          "in front of",
+          "at the back of"
+        ],
+        "answer": "ahead of",
+        "sentence_translation": "<b>[2] 改装の開始より早く</b>移動させる必要があります。",
+        "explanation": "正解は'ahead of'です。この表現は、何かが他の事象よりも早く行われることを示します。他の選択肢は不正確であるか、文脈に合いません。",
+        "question_type": "文法（語彙）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "navigate",
+          "navigating",
+          "navigation",
+          "navigational"
+        ],
+        "answer": "navigation",
+        "sentence_translation": "新しいサインに従って、皆様が安全かつ快適に<b>[3] エリアを移動できるように</b>してください。",
+        "explanation": "正解は'navigation'です。この名詞は、特に道を見つけることを表します。他の選択肢は必要な文法的構造を持っていないため不正解です。",
+        "question_type": "文法（語彙）",
+        "target_score": 600
+      },
+      {
+        "id": 4,
+        "options": [
+          "For further inquiries, please direct any questions to the HR department.",
+          "Please keep your workspaces clean and organized during the temporary layout changes.",
+          "We encourage feedback from all employees on the new layout once the renovations are complete.",
+          "Kindly remember to take necessary precautions when navigating through the construction zone."
+        ],
+        "answer": "Please keep your workspaces clean and organized during the temporary layout changes.",
+        "sentence_translation": "空欄の場所の前に<b>[4] 一時的なレイアウト変更中は作業スペースを清潔に整頓してください。</b>",
+        "explanation": "正解は'Please keep your workspaces clean and organized during the temporary layout changes.'です。この文は、作業スペースを清潔に保つことが求められている状況と合致しています。他の選択肢はこの内容と文脈が合いません。",
+        "question_type": "文挿入",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0004",
+    "title": "Temporary Office Layout Change Notice",
+    "passage_template": "Dear employees,\n\nWe appreciate your cooperation as we commence the office renovation this coming Monday. During this period, there will be a temporary change in the office layout to ensure safety and comfort. <b>[1]</b> all employees are advised to follow the new seating arrangement, which has been designed in compliance with fire safety regulations. <b>[2]</b> the new layout will allow for easier movement of contractors and will minimize disruption to your work environment.\n\nPlease remember that as per the company policy, you should not relocate any equipment or personal items without prior approval. <b>[3]</b> any questions regarding the new arrangements can be directed to your supervisor. We understand this may cause some inconvenience and appreciate your understanding and flexibility during this transition.<b>[4]</b> Thank you for your patience as we work towards a better office space for everyone.\n\nBest regards,\nThe Management Team",
+    "translation_full": "従業員各位、\n\n今週の月曜日から始まるオフィスの改装に際し、ご協力いただきありがとうございます。この期間中は安全と快適さを確保するために、オフィスのレイアウトが一時的に変更されることになります。<b>[1]すべての従業員は、新しい席の配置に従うようにアドバイスされています。</b>これは、消防安全規則に準拠して設計されています。<b>[2]新しいレイアウトにより、作業員の移動が容易になり、皆様の作業環境への影響を最小限に抑えることができます。</b>\n\n会社の方針に従い、事前の承認なしに機器や個人のアイテムを移動しないようにしてください。<b>[3]新しい配置についての質問は、あなたの上司に聞いてください。</b>この移行がご迷惑をおかけするかもしれないことを理解しており、この過渡期における理解と柔軟性に感謝しています。<b>[4]皆様のためにより良いオフィススペースを作るために努力している間、忍耐をありがとうございます。</b>\n\nよろしくお願いいたします。\n管理チーム",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "Regarding",
+          "As",
+          "By",
+          "In"
+        ],
+        "answer": "In",
+        "sentence_translation": " <b>[1]すべての従業員は、新しい席の配置に従うようにアドバイスされています。</b>",
+        "explanation": "ここでは、接続詞「In」が適切である理由は、文が新しい席の配置に従うことを指示する文脈だからです。他の選択肢は、文の流れに自然にフィットしません。",
+        "question_type": "文法（前置詞の選択）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "With",
+          "For",
+          "Under",
+          "At"
+        ],
+        "answer": "In compliance with",
+        "sentence_translation": " <b>[2]新しいレイアウトにより、作業員の移動が容易になり、皆様の作業環境への影響を最小限に抑えることができます。</b>",
+        "explanation": "「In compliance with」は、規則や基準に従うという意味で、この文の意味と明確に一致しており適切です。他の選択肢は関連性がありません。",
+        "question_type": "語彙（イディオムの選択）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "Please inform",
+          "Please do not inform",
+          "You are asked",
+          "The management will inform"
+        ],
+        "answer": "You are asked",
+        "sentence_translation": " <b>[3]新しい配置についての質問は、あなたの上司に聞いてください。</b>",
+        "explanation": "この文の文法的構造から、新しい配置についての質問を促している形から「You are asked」が最も自然です。他の選択肢は、指示に対して不自然になります。",
+        "question_type": "文法（文脈に合った動詞の形）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "This change is temporary.",
+          "The color of the furniture will change.",
+          "You must follow all safety protocols.",
+          "Renovation will take about a month."
+        ],
+        "answer": "This change is temporary.",
+        "sentence_translation": "<b>[4]皆様のためにより良いオフィススペースを作るために努力している間、忍耐をありがとうございます。</b>",
+        "explanation": "この選択肢は、オフィスの改装という文脈において自然な流れを提供します。他の選択肢は、文全体の論旨にそぐわない内容です。",
+        "question_type": "文挿入（論理の流れを理解）",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0005",
+    "title": "新しい出張規定の施行についてのお知らせ",
+    "passage_template": "Subject: New Business Travel Policy Implementation\n\nDear Team,\n\nWe are pleased to announce that the new business travel policy will be implemented starting next month. All employees are required to follow the guidelines set forth in this policy when planning their travels. <b>[1]</b> all travel requests must be submitted through the designated forms. This will ensure that we process all expenses in a timely manner and comply with our company standards. Furthermore, it is important that all receipts are kept and attached to the expense report <b>[2]</b> the reimbursement process.\n\nIf you have any questions regarding the new policy, please refer to the employee handbook or contact the HR department. We appreciate your cooperation and look forward to enhanced travel management <b>[3]</b>. Thank you for your attention.\n\nBest regards,\n\nJohn Doe\nFinance Manager\n\n<b>[4]</b>",
+    "translation_full": "件名: 新しい出張規定の施行について\n\nチームの皆様へ、\n\n来月から新しい出張規定が施行されることをお知らせいたします。全ての従業員は、旅行の計画を立てる際にこの規定に従う必要があります。<b>[1] 旅行請求は指定のフォームを通して提出する必要があります。</b> これにより、私たちは全ての経費を<b>[2] 迅速に処理し、会社の基準に従うことができます。</b> さらに、すべての領収書を保持し、経費精算書に添付することが重要です。新しい規定に関する質問がある場合は、従業員ハンドブックを参照するか、人事部に連絡してください。皆様のご協力に感謝し、出張管理がより一層向上することを期待しています。<b>[3] ご注意いただき、ありがとうございます。</b>\n\nよろしくお願いいたします。\n\nジョン・ドー\n財務マネージャー\n\n<b>[4] </b>",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "as per",
+          "in accordance with",
+          "according to",
+          "in line with"
+        ],
+        "answer": "as per",
+        "sentence_translation": "全ての旅行請求は<b>[1] 旅行請求は指定のフォームを通して提出する必要があります。</b>なるべく早く正確に可決されるために、",
+        "explanation": "正解の選択肢「as per」は、他の選択肢と比較して、規定に従うことを示す表現として自然であるため正解です。他の選択肢も似た意味を持ちますが、「as per」の方がこの文脈では立場的です。",
+        "question_type": "文法（前置詞）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "to start with",
+          "to finish with",
+          "to deal with",
+          "to go with"
+        ],
+        "answer": "to deal with",
+        "sentence_translation": "経費を<b>[2] 迅速に処理し、会社の基準に従うことができます。</b>",
+        "explanation": "「to deal with」は、経費を処理するという行動と意味が合致しています。他の選択肢は文脈に合わないため不正解です。",
+        "question_type": "文法（動詞）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "and expect",
+          "thus",
+          "but",
+          "or"
+        ],
+        "answer": "and expect",
+        "sentence_translation": "出張管理が<b>[3] より一層向上することを期待しています。</b>",
+        "explanation": "この文脈では、出張管理が向上する期待を示すために「and expect」が最適です。他の選択肢は文脈的に不自然なので不正解です。",
+        "question_type": "文法（接続詞）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "We expect everyone to adhere to the new guidelines.",
+          "We will have a question and answer session next week.",
+          "Please submit your feedback on the current travel policy.",
+          "The new policy is designed to improve travel efficiency."
+        ],
+        "answer": "We expect everyone to adhere to the new guidelines.",
+        "sentence_translation": "皆様には新しい規定を守っていただくことを期待しています。",
+        "explanation": "この文は、出張規定の施行に関する内容に適しており、前の文との繋がりを持たせることで論理の流れを自然なものにしています。他の選択肢はこの文脈において適しておらず、不正解とされます。",
+        "question_type": "文挿入，（接続整合性）",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0006",
+    "title": "メニュー改定と満足度アンケート",
+    "passage_template": "Subject: Update on Cafeteria Menu\n\nDear Employees,\n\nWe are excited to inform you that the cafeteria menu will be updated next month.<b>[1]</b> This change aims to enhance your dining experience and accommodate your preferences. We would also like to invite you to participate in a satisfaction survey that will help us tailor our offerings.<b>[2]</b> Your feedback is important as we strive to provide meals that align with your expectations, in compliance with dietary guidelines.\n\nPlease make sure to complete the survey ahead of the deadline next week. Your responses will directly influence our future menu selections.<b>[3]</b> Thank you for your cooperation and your ongoing support!\n\nBest Regards,\nCafeteria Management Team\n\nP.S. For any questions about the new menu items, feel free to reach out!\n\n<b>[4]</b>",
+    "translation_full": "件名: 食堂のメニューに関するお知らせ\n\n従業員の皆様へ、\n\n来月、食堂のメニューが<b>[1] 更新されることをお知らせできることを嬉しく思います。</b>この変更は、皆様の食事体験を向上させ、好みに合うようにすることを目的としています。また、満足度調査へのご参加をお誘いします。それは私たちの提供を調整するのに役立ちます。<b>[2] あなたのフィードバックは重要で、私たちが期待に沿った食事を提供するために、栄養ガイドラインに<b>準拠した</b>ものとするのです。</b>\n\n締切の来週までに忘れずに調査を完了させてください。あなたの回答は、今後のメニュー選択に直接影響します。<b>[3] ご協力ありがとうございます。</b>あなたの継続的な支援にも感謝します。\n\n敬具、\n食堂管理チーム\n\nP.S. 新しいメニューアイテムについて質問がある場合は、お気軽にお問い合わせください！\n\n<b>[4] </b>",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "happy",
+          "important",
+          "exciting",
+          "happy to announce"
+        ],
+        "answer": "exciting",
+        "sentence_translation": "来月、食堂のメニューが<b>[1] 更新されることをお知らせできることを嬉しく思います。",
+        "explanation": "'exciting' は形容詞で、主語 'We' について述べている文に適しています。他の選択肢は適切な意味を持たず、文脈に合いません。",
+        "question_type": "語彙問題",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "important",
+          "unless",
+          "because",
+          "while"
+        ],
+        "answer": "because",
+        "sentence_translation": "満足度調査への参加をお誘いします。<b>[2] あなたのフィードバックは重要で、私たちが期待に沿った食事を提供するために、栄養ガイドラインに準拠したものとするのです。</b>",
+        "explanation": "'because' は理由を示す接続詞で、前の文と論理的に結びつけるのに適しています。その他の選択肢は不適切です。",
+        "question_type": "接続詞問題",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "undoubtedly",
+          "farther",
+          "stealthily",
+          "earnestly"
+        ],
+        "answer": "earnestly",
+        "sentence_translation": "あなたの回答は、今後のメニュー選択に直接影響します。<b>[3] ご協力ありがとうございます。</b>",
+        "explanation": "'earnestly' は副詞で、感謝の気持ちを表すのに適しています。他の選択肢はこの文に合いません。",
+        "question_type": "文法問題",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "We appreciate your feedback and look forward to hearing from you soon.",
+          "Please inform us of any suggestions you may have.",
+          "Our team is always here to assist you with any queries.",
+          "We are happy to provide a list of new menu items."
+        ],
+        "answer": "We appreciate your feedback and look forward to hearing from you soon.",
+        "sentence_translation": "来週までに忘れずに調査を完了させてください。<b>[4] あなたのフィードバックには感謝し、すぐにお聞きするのを楽しみにしています。</b>",
+        "explanation": "この文は従業員にフィードバックを求めるため、感謝の気持ちを強調しつつ、今後の関係を築くことを目的としています。その他の選択肢は文脈上不適切です。",
+        "question_type": "文挿入問題",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0007",
+    "title": "人事ポリシーに関する社内通知",
+    "passage_template": "To all employees, we would like to announce a change in our human resources policy. Starting next month, we will be implementing a new performance evaluation system that aims to provide clearer feedback and support for your growth. It is important that you familiarize yourself with the changes \u001cprior to\u001d the official rollout. Additionally, we will also be extending the vacation policy to allow for more flexibility in taking time off. We encourage you to discuss your concerns with your manager, who will be able to clarify the new guidelines as we now designate certain periods as peak and non-peak times. Thank you for your cooperation during this transition. Your feedback is invaluable as we move forward.",
+    "translation_full": "全社員へ、私たちは人事ポリシーの変更をお知らせいたします。来月から、私たちは新しいパフォーマンス評価制度を導入し、より明確なフィードバックを提供し、あなたの成長をサポートすることを目的としています。この変更について、正式な展開の<b>[1]</b>前に慣れておくことが重要です。また、休暇規定も拡張され、休暇を取得する際の柔軟性が高まります。マネージャーとあなたの懸念を話し合い、この新しいガイドラインについて明確な説明を受けることをお勧めします。私たちは今、ピーク時期と非ピーク時期として特定の期間を<b>[2]</b>指定することにしました。この移行期間中のご協力に感謝いたします。私たちは前へ進むにあたり、あなたのフィードバックが非常に貴重です。",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "before",
+          "prior",
+          "after",
+          "during"
+        ],
+        "answer": "prior",
+        "sentence_translation": "公式な展開の<b>[1]</b>前に慣れておくことが重要です。",
+        "explanation": "正しい選択肢は「prior」です。これは「〜より前に」という意味の前置詞で、文の文脈に合っています。他の選択肢は意味が異なるため、不適切です。",
+        "question_type": "文法（前置詞）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "clarify",
+          "designate",
+          "allow",
+          "improve"
+        ],
+        "answer": "designate",
+        "sentence_translation": "特定の期間を<b>[2]</b>指定することにしました。",
+        "explanation": "「designate」は「指定する」という意味の動詞で、文脈に合っており、正解です。他の選択肢は文の意味を成立させません。",
+        "question_type": "語彙（動詞）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "encouraging",
+          "encouraged",
+          "encourages",
+          "encourage"
+        ],
+        "answer": "encourage",
+        "sentence_translation": "懸念を話し合い、あなたのマネージャー<b>[3]</b>をお勧めします。",
+        "explanation": "正しい選択肢は「encourage」です。「マネージャーがあなたの懸念を話し合うことをお勧めする」という文の構成において、動詞の原形が必要です。",
+        "question_type": "文法（動詞の形）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "We will designate certain periods as peak and non-peak times.",
+          "This announcement is intended to improve staff morale.",
+          "We are planning to evaluate performance annually.",
+          "Please contact HR for more details."
+        ],
+        "answer": "We will designate certain periods as peak and non-peak times.",
+        "sentence_translation": "私たちは今、ピーク時期と非ピーク時期として特定の期間を<b>[4]</b>指定することにしました。",
+        "explanation": "最も適切な選択肢は「We will designate certain periods as peak and non-peak times.」です。これはすでに本文中で示された内容を補完し、論理の流れに合致しています。他の選択肢は文脈に関連しないため不適切です。",
+        "question_type": "文挿入（文の流れ）",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0008",
+    "title": "Factory Safety Manual Update",
+    "passage_template": "Subject: Implementation of New Safety Standards\n\nDear Team,\n\nWe are pleased to announce that we have developed a new safety manual that outlines updated procedures and practices for our factory environment. This manual has been created <b>[1]</b> the latest industry guidelines and will be distributed to all employees during the upcoming safety training sessions. \n\nAs part of our commitment to employee safety, we will conduct mandatory training sessions on the new standards. These sessions will take place next month, and attendance is required <b>[2]</b> ensuring everyone understands the changes made to our safety protocols.\n\nPlease familiarize yourself with the manual prior to the training. <b>[3]</b> your feedback is crucial, as we want to ensure that the procedure is clear and practical for daily operations. Let us work together to enhance our workplace safety.\n\nThank you for your cooperation, and we look forward to seeing everyone at the training sessions.\n\nBest regards,\n[Your Name]  \nSafety Manager  \n[Company Name]",
+    "translation_full": "件名: 新しい安全基準の実施\n\nチームの皆さま,\n\n私たちは、工場環境のための手順と実践を更新した新しい安全マニュアルを策定したことを発表できることを嬉しく思います。このマニュアルは、最新の業界ガイドラインに基づいて<b>[1] 訳</b>作成され、すべての従業員に配布される予定です。今後の安全研修時にお渡しします。\n\n従業員の安全へのコミットメントの一環として、新しい基準に関する必須の研修を来月実施します。全員が安全プロトコルに加えられた変更を理解することを<b>[2] 訳</b>するため、出席が求められます。\n\n研修に先立ち、マニュアルに目を通しておいてください。私たちの業務手続きが明確で実用的であることを確認するために、<b>[3] 訳</b>のご意見は重要です。職場の安全を向上させるために、一緒に取り組んでいきましょう。\n\nご協力に感謝し、研修で皆さんにお会いできることを楽しみにしています。\n\n敬具、\n[あなたの名前]  \n安全マネージャー  \n[会社名]",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "in compliance with",
+          "in accordance to",
+          "with agreement to",
+          "complying to"
+        ],
+        "answer": "in compliance with",
+        "sentence_translation": "業界ガイドラインに<b>[1] 訳</b>作成され、すべての従業員に配布される予定です。",
+        "explanation": "本文では、業界ガイドラインに「準拠して（in compliance with）」マニュアルを作成した旨が述べられています。「in compliance with」は、～に準拠して、という意味を持ち、後に続く名詞句とともに使うのが一般的です。他の選択肢は文法的に不正確です。",
+        "question_type": "文法（前置詞）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "to",
+          "by",
+          "for",
+          "in"
+        ],
+        "answer": "for",
+        "sentence_translation": "全員が安全プロトコルに加えられた変更を<b>[2] 訳</b>するため、出席が求められます。",
+        "explanation": "本文での「for」は、目的を示す前置詞として適切です。出席する理由が明確であるため、「for」が正解です。他の選択肢は適切に目的を示せません。",
+        "question_type": "文法（前置詞）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "Since",
+          "Although",
+          "Unless",
+          "As"
+        ],
+        "answer": "As",
+        "sentence_translation": "私たちの業務手続きが明確で実用的であることを確認するために、<b>[3] 訳</b>のご意見は重要です。",
+        "explanation": "この文では理由や条件を表す接続詞として「As」が適切です。「As」は～であるため、という意味で、文脈に合致します。他の選択肢は意図が異なるため不適切です。",
+        "question_type": "文法（接続詞）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "Please send your comments to your supervisor.",
+          "We encourage you to take part in this discussion.",
+          "Make sure to test your equipment before use.",
+          "Ensure you follow the previous safety protocols."
+        ],
+        "answer": "We encourage you to take part in this discussion.",
+        "sentence_translation": "私たちの業務手続きが明確で実用的であることを確認するために、<b>[4] 訳</b>のご意見は重要です。",
+        "explanation": "この文の論理的な流れから、一番適切な文章は「私たちはこの議論に参加することを奨励します」です。この選択肢は意見を求める文脈と一致し、他の選択肢は関連性が低いため不適当です。",
+        "question_type": "文挿入（文の論理的流れ）",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0009",
+    "title": "人事ポリシーの変更に関する通知",
+    "passage_template": "Subject: Update on HR Policies\n\nDear Team,\n\nWe are writing to inform you about the recent changes to our HR policies. As of today, we will be implementing a new performance review system that will allow managers to evaluate their teams more effectively. All evaluations must be completed <b>[1]</b> to ensure that feedback is provided in a timely manner. Furthermore, the current vacation policy will also be updated, where employees can take leave without prior approval <b>[2]</b> our new guidelines are finalized. Please note that these changes are essential to promote a more productive work environment.\n\nTo help everyone transition smoothly, we will be conducting training sessions next week. Attendance is mandatory for all staff members <b>[3]</b>. We appreciate your cooperation during this transition period.</b>[4]</b>\n\nThank you for your understanding.\n\nBest regards,\nHR Department",
+    "translation_full": "件名: 人事ポリシーの更新について\n\n親愛なるチーム,\n\n私たちは、最近の人事ポリシーの変更についてお知らせするために、このメールをお送りしています。本日より、マネージャーがチームをより効果的に評価するための新しいパフォーマンスレビュー制度を導入します。すべての評価は<b>[1] 迅速に</b>完了する必要がありますので、フィードバックが提供されるようにしてください。さらに、現在の休暇ポリシーも更新され、従業員は新しいガイドラインが確定する<b>[2] 追って通知があるまで</b>、事前の承認なしで休暇を取ることができます。これらの変更は、より生産的な職場環境を促進するために不可欠であることにご注意ください。\n\nスムーズに移行できるように、来週トレーニングセッションを実施します。全スタッフの参加が<b>[3] 必須です</b>。この移行期間中のご協力に感謝いたします。\n\nご理解いただきありがとうございます。\n\nよろしくお願いします。\n人事部",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "quickly",
+          "timely",
+          "slowly",
+          "randomly"
+        ],
+        "answer": "timely",
+        "sentence_translation": "フィードバックが提供されるようにしなければならない。",
+        "explanation": "この文は 'be provided in a timely manner' という表現に基づいています。ここで本来求められているのは、評価が 'timely' に行われることだと文脈から理解できます。したがって、'timely' が適切な選択肢です。他の選択肢は意味的に適合しません。",
+        "question_type": "文法（名詞・形容詞の使い方）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "if",
+          "until",
+          "unless",
+          "when"
+        ],
+        "answer": "until",
+        "sentence_translation": "承認なしで休暇を取ることができます。",
+        "explanation": "文脈では休暇ポリシーが更新されるまでの期間を示していますので、'until' が適切です。'when' や 'if' は条件を示しますが、整合性がありません。「事前の承認なしで休暇を取る」という意味で他の選択肢は不適当です。",
+        "question_type": "前置詞の使い方",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "optional",
+          "compulsory",
+          "unnecessary",
+          "random"
+        ],
+        "answer": "compulsory",
+        "sentence_translation": "全スタッフの参加が必須です。",
+        "explanation": "この文は 'Attendance is mandatory for all staff members.' に由来するもので、参加が 'mandatory' つまり 'compulsory' であることから、ここでの答えは 'compulsory' でなければなりません。他の選択肢は意味的に不正確です。",
+        "question_type": "語彙問題（意味の選択）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "We believe these updates will help our organization evolve.",
+          "The training sessions will cover the new guidelines extensively.",
+          "All employees are encouraged to share their thoughts on the changes.",
+          "After these updates, employee satisfaction is expected to improve."
+        ],
+        "answer": "We believe these updates will help our organization evolve.",
+        "sentence_translation": "私たちは、この更新が組織の進化に役立つと信じています。",
+        "explanation": "この文を挿入することで、文章全体の論理と流れがスムーズになります。全体として、人事ポリシー変更の意義を強調する必要があります。残りの選択肢は位置的に合わないか、文の流れを妨げるか、不適切です。",
+        "question_type": "文挿入（文の流れを考慮）",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0010",
+    "title": "社員の退職と送別イベント案内",
+    "passage_template": "Dear Team,<br><br>It is with a heavy heart that we announce the retirement of our esteemed colleague, Daniel Hughes. Daniel has always gone <b>[1]</b> everyone else to achieve his goals, consistently exceeding expectations in his role. His dedication and hard work are truly admirable. We will be holding a farewell event in his honor on Friday at 3 PM in the main hall. Please ensure your attendance, as we want to give him a warm send-off that he deserves.<br>In <b>[2]</b> with our company policy, all employees are encouraged to share their memories and messages for Daniel during this event.<br>We hope you can join us in celebrating his remarkable years with us.<br><br>Best regards,<br>The HR Department<br>",
+    "translation_full": "チームの皆様へ、<br><br>私たちの敬愛する同僚、ダニエル・ヒューズの退職をお知らせします。ダニエルは常に<b>[1] 他の全員よりも早く</b>目標を達成し、役割において期待を常に超えています。彼の献身と努力は本当に賞賛に値します。私たちは、金曜日の午後3時に本ホールで彼のための送別イベントを開催します。皆様の出席を必ずお願いいたします。ダニエルに相応しい温かな送り出しをしたいと考えています。<br><b>[2] 会社の方針に準拠して</b>、イベント中にダニエルへの思い出やメッセージを共有することを全従業員に奨励します。<br>彼との素晴らしい年月を称えて、ぜひ参加してください。<br><br>よろしく、<br>人事部",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "ahead of",
+          "after",
+          "behind",
+          "at"
+        ],
+        "answer": "ahead of",
+        "sentence_translation": "彼の目標達成は他の全員よりも早く行われます。",
+        "explanation": "この空欄には、比喩的な表現である「ahead of」が最も適切です。このフレーズは競争や成果の迅速さを示唆しており、他の選択肢ではこの意味を伝えることができません。",
+        "question_type": "語彙（前置詞）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "compliant with",
+          "in compliance with",
+          "in accordance with",
+          "on compliance with"
+        ],
+        "answer": "in compliance with",
+        "sentence_translation": "イベント中にダニエルへの思い出やメッセージを共有することを全従業員に奨励します。",
+        "explanation": "ここでの正しいフレーズは「in compliance with」です。この表現は「準拠して」という意味を持ち、この文脈において適切です。他の選択肢は文法的または意味上の誤りを含んでいます。",
+        "question_type": "語彙（前置詞）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "are",
+          "is",
+          "was",
+          "be"
+        ],
+        "answer": "are",
+        "sentence_translation": "全従業員は、イベント中に思い出を共有することが求められています。",
+        "explanation": "この文では主語が「employees」にあたるため、正しい動詞の形は「are」です。他の選択肢はこの主語に合致せず、不正確です。",
+        "question_type": "文法（動詞の一致）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "We will miss him greatly.",
+          "He is leaving immediately.",
+          "He will continue his studies.",
+          "He won't be attending."
+        ],
+        "answer": "We will miss him greatly.",
+        "sentence_translation": "彼を大いに恋しく思うことでしょう。",
+        "explanation": "この選択肢は送別イベントの文脈で最も論理的です。他の選択肢は退職の状況に合わず、イベントの目的とは関連がありません。",
+        "question_type": "文挿入（流れの理解）",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0011",
+    "title": "Market Research Report Summary",
+    "passage_template": "Subject: Summary of Market Research Report\n\nDear Team,\n\nI would like to provide you with an overview of the latest market research report on our competitors. According to the findings, Company A has recently launched a new product line that has gained significant traction among consumers. Our team must respond <b>[1]</b> to this trend to maintain our competitive edge.\n\nFurthermore, it is essential that all developments are conducted <b>[2]</b> the industry standards to ensure compliance with regulations. In addition, the report suggests that exploring partnerships could enhance our market presence. Specifically, these partnerships should be formed <b>[3]</b> a solid strategy to reach a wider audience.\n\nFinally, I recommend scheduling a meeting next week to discuss these insights in detail and formulate a plan for moving forward. Attached, please find the full report for your reference.<b>[4]</b>\n\nBest regards,\n\n[Your Name]",
+    "translation_full": "件名：市場調査レポートの概要\n\nチームの皆さんへ、\n\n競合他社に関する最新の市場調査レポートの概要をご提供いたします。調査結果によると、A社は最近新しい製品ラインを発表し、消費者の間で大きな反響を得ています。このトレンドに迅速に <b>[1] 対応する</b> 必要があります。\n\nさらに、すべての開発が業界の基準に <b>[2] 準拠して</b> 行われることが不可欠で、規制に従うことを保証します。加えて、レポートでは、パートナーシップの探求が我々の市場での存在感を高める可能性があることを示唆しています。具体的には、これらのパートナーシップはより広いオーディエンスにリーチするためのしっかりとした戦略を持って形成されるべきです。<b>[3] 形成されるべきです。</b>\n\n最後に、これらの洞察を詳細に議論し、前進するための計画を策定するための会議を来週スケジュールすることをお勧めします。参考のために、フルレポートを添付しました。<b>[4] </b>\n\n宜しくお願いします。\n\n[あなたの名前]",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "quickly",
+          "slowly",
+          "strategically",
+          "carefully"
+        ],
+        "answer": "quickly",
+        "sentence_translation": "このトレンドに<b>[1]迅速に</b>対応する必要があります。",
+        "explanation": "「迅速に」という意味を持つ単語は、ここで最も適切です。他の選択肢は文脈に合わないためか不適切です。",
+        "question_type": "文法問題",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "in compliance with",
+          "under",
+          "without",
+          "against"
+        ],
+        "answer": "in compliance with",
+        "sentence_translation": "すべての開発が業界の基準に<b>[2]準拠して</b>行われることが不可欠です。",
+        "explanation": "「準拠する」という意味合いで使われているので、本選択肢が正解です。その他の選択肢はその意味を異にし、適切ではありません。",
+        "question_type": "文法問題",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "with",
+          "for",
+          "without",
+          "after"
+        ],
+        "answer": "with",
+        "sentence_translation": "これらのパートナーシップはより広いオーディエンスにリーチするためのしっかりとした戦略を持って<b>[3]形成されるべきです。</b>",
+        "explanation": "ここでは「持つ」という意味で最適な前置詞が必要なので「with」が正しいです。他の選択肢は異なる文意になるため不正解です。",
+        "question_type": "文法問題",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "This conclusion is drawn from extensive research.",
+          "We should ignore the competition.",
+          "There is no need for any changes.",
+          "Our position in the market will not change."
+        ],
+        "answer": "This conclusion is drawn from extensive research.",
+        "sentence_translation": "報告書では、これらの洞察を詳細に議論し、前進するための計画を策定するための会議を来週スケジュールすることをお勧めします。<b>[4] この結論は広範な調査に基づいています。</b>",
+        "explanation": "この文章は、前の文の内容を補足・説明し、会議での議題に関連性を持っています。他の選択肢は文脈に合わず、論理の流れを持たないため不正解です。",
+        "question_type": "文挿入問題",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0012",
+    "title": "Farewell Event Announcement for an Outstanding Employee",
+    "passage_template": "Subject: Farewell Event for John Smith<br><br>Dear Team,<br><br>It is with mixed emotions that we announce the resignation of our esteemed colleague, John Smith, who has decided to pursue new opportunities. John has been an integral part of our team and has contributed significantly to our success in various projects. His dedication and hard work have not gone unnoticed, and we will surely miss his presence in the office.<br><br>In order to give everyone a chance to say their goodbyes and express their gratitude, we will be hosting a farewell event on Friday at 3 PM in the main conference room. Please make sure to join us in a timely manner, as we want everyone to have the opportunity to share their memories and well wishes.<br><br>A farewell card will be available at the reception for those who would like to write a personal message to John. He will be leaving on Monday, and we want this card to be collected before that date, **until further notice**.<br><br>Thank you all for your support, and we hope to see you there!<br><br>Sincerely,<br>Management Team",
+    "translation_full": "件名: ジョン・スミスの送別会のお知らせ<br><br>チームの皆様、<br><br>我々の尊敬する同僚、ジョン・スミスが新しい機会を追求することを決定したため、彼の辞職をお知らせすることになりました。ジョンは私たちのチームの重要な一員であり、さまざまなプロジェクトでの成功に大きく貢献してきました。彼の献身と努力は決して見過ごされることはなく、オフィスでの彼の存在が恋しくなるでしょう。<br><br>皆さんにお別れを言い、感謝の気持ちを伝える機会を持っていただくため、金曜日の午後3時にメイン会議室で送別会を開催します。皆さんが思い出やお祝いの言葉を共有する機会があるように、**迅速に**ご参加ください。<br><br>ジョンに個人的なメッセージを書きたい方のために、レセプションに送別カードを用意します。彼は月曜日に退社する予定であり、このカードはその日までに回収したいと思っていますので、**追って通知があるまで**お待ちください。<br><br>皆さんのご支援に感謝し、そこでお会いできることを願っています！<br><br>敬具、<br>経営チーム",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "return",
+          "communicate",
+          "show",
+          "give"
+        ],
+        "answer": "communicate",
+        "sentence_translation": "(中略)感謝の気持ちを伝える機会を持っていただくため、~~社内でお別れを**知らせる**~~、金曜日の午後3時にメイン会議室で送別会を開催します。",
+        "explanation": "ここでは、感謝の気持ちを伝えるという行為が必要です。\"communicate\"は「伝える」という意味で、適切な動詞です。他の選択肢は文脈に合わず、文を成立させません。",
+        "question_type": "文法（動詞の選択）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "very",
+          "not",
+          "so",
+          "too"
+        ],
+        "answer": "so",
+        "sentence_translation": "皆さんが思い出やお祝いの言葉を共有する機会があるように、(中略)参加してください。",
+        "explanation": "この文では、形容詞\"so\"が「それに十分な」という意味で使われています。この場合、\"so\"が文を正しく構成し、その文脈をサポートします。他の選択肢は不適切です。",
+        "question_type": "文法（形容詞の選択）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "which",
+          "who",
+          "that",
+          "where"
+        ],
+        "answer": "who",
+        "sentence_translation": "彼は私たちのチームの重要な一員であり、さまざまなプロジェクトでの成功に大きく貢献してきました。彼の献身と努力は決して見過ごされることがありませんでしたが、~~彼は私たちのチームに残ります。~~",
+        "explanation": "ここでは、\"who\"が親指のように使われており、ジョンに関する追加情報を提供します。他の選択肢は適切ではなく、文法的に誤ります。",
+        "question_type": "文法（関係代名詞の選択）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "Our farewell event will take place on Saturday instead, due to scheduling conflicts.",
+          "Please remember to bring a gift for John on departure day.",
+          "We hope to see everyone at the event to celebrate John's achievements.",
+          "Let's avoid unnecessary delays during the farewell event preparation."
+        ],
+        "answer": "We hope to see everyone at the event to celebrate John's achievements.",
+        "sentence_translation": "皆さんが思い出やお祝いの言葉を共有する機会があるように、(中略)参加してください。",
+        "explanation": "この文は送別会に対する期待を表現しており、他の選択肢よりも内容が一致します。文脈が流れるようになり、全体の文章が正しく理解されます。",
+        "question_type": "文挿入（文全体の選択）",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0013",
+    "title": "社内食堂のメニュー改定について",
+    "passage_template": "Subject: Cafeteria Menu Update\n\nDear Team,\n\nWe are excited to announce that we will be updating the cafeteria menu, effective immediately. We aim to provide more diverse and healthier options to enhance your dining experience. As a part of this initiative, we kindly ask you to participate in a satisfaction survey which will run until further notice. Your feedback is vital for us to understand your preferences and improve our offerings.\n\nThe survey link can be accessed <b>[1]</b> the company intranet. Please take a few minutes to fill it out, as your responses will help us make informed decisions about the new menu.\n\nFor any inquiries, please feel free to reach out to me. Thank you for your cooperation, as per our commitment to your satisfaction.\n\nBest regards,\n\nJohn Doe  \nCafeteria Manager",
+    "translation_full": "件名: 食堂メニューの改定\n\nチームの皆様へ、\n\n私たちは、食堂のメニューを即時に改定することをお知らせできることを嬉しく思います。私たちは、食事体験を向上させるために、より多様で健康的な選択肢を提供することを目指しています。この取り組みの一環として、皆様に満足度調査への参加をお願いしたいと思います。この調査は<b>[1] 調査リンク</b> から会社イントラネットにアクセスすることができます。数分のお時間を取ってご記入ください。皆様のご意見は、新しいメニューについての情報に基づいた意思決定を行う上で重要です。\n\nご質問がある場合は、お気軽に私にご連絡ください。皆様の満足に対する私たちの約束の通り、協力していただきありがとうございます。\n\nよろしくお願い致します。\n\nジョン・ドー  \n食堂長",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "between",
+          "across",
+          "on",
+          "through"
+        ],
+        "answer": "on",
+        "sentence_translation": "調査リンクは<b>[1] 調査リンク</b> 会社イントラネットの<b>[1] 訳</b>からアクセスできます。",
+        "explanation": "この文脈では 'on' が正しい前置詞です。'on the company intranet' は、オンラインに存在するという意味を持つため、選択肢の中で最も適切です。他の選択肢は文脈に合わないため不正解です。",
+        "question_type": "文法（前置詞）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "suggest",
+          "suggested",
+          "suggesting",
+          "suggests"
+        ],
+        "answer": "suggests",
+        "sentence_translation": "私たちは、食事体験を向上させるために、より多様で健康的な選択肢を提供することを<b>[2] 訳</b>。",
+        "explanation": "ここでは主語 'we' に対して現在形の動詞 'suggests' が適切です。文の内容から、提案する意図を表すためには現在形が必要です。他の選択肢は文法的に不正確です。",
+        "question_type": "文法（時制）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "and",
+          "but",
+          "or",
+          "however"
+        ],
+        "answer": "and",
+        "sentence_translation": "皆様に満足度調査への参加を<b>[3] 訳</b>。",
+        "explanation": "この空欄には接続詞が必要です。'and' は前の文の内容と接続し、論理的に続けるために適切です。他の選択肢は意味が合いません。",
+        "question_type": "文法（接続詞）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "This initiative will help improve our food quality.",
+          "We appreciate your help with this task.",
+          "Please share your honest thoughts with us.",
+          "The changes will take place next month."
+        ],
+        "answer": "This initiative will help improve our food quality.",
+        "sentence_translation": "この取り組みが私たちの食品の質を向上させる助けになります。",
+        "explanation": "文全体の流れに合致する選択肢は 'This initiative will help improve our food quality.' です。この選択肢は、調査の目的と方向性を明確にするものであり、他の選択肢は質問の意図から外れているため不正解です。",
+        "question_type": "文挿入（文脈に合う文章を選ぶ）",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0014",
+    "title": "Send-off for an Outstanding Employee",
+    "passage_template": "Dear Team, <b>[1]</b> is writing to inform you that Mr. Tanaka, one of our most distinguished employees, has decided to retire at the end of this month. In compliance with company policy, we will be holding a send-off party to celebrate his numerous contributions to the team. Please join us on Friday at 3 PM in the main conference room, where we will also designate a few words of appreciation from his colleagues. <b>[2]</b> your presence will mean a lot to him, and we hope to see everyone there. Kind regards, <b>[3]</b> The HR Team <b>[4]</b>.",
+    "translation_full": "チームの皆様、<b>[1]お知らせします。</b> 田中さんが、当社で最も優れた社員の一人として、今月末をもって退職されることになりました。<b>[2]出席いただくことは、彼にとって大変意義のあることでしょう。</b> 皆さんのご参加をお待ちしています。よろしくお願いします。<b>[3]人事部</b>。<b>[4]定義してください。</b>",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "I am",
+          "This notice",
+          "We have",
+          "I am glad"
+        ],
+        "answer": "This notice",
+        "sentence_translation": "このお知らせは",
+        "explanation": "正解は「This notice」です。この文はお知らせを始める形で、他の選択肢は文の構造に合いません。",
+        "question_type": "文法（前置詞）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "Confirming",
+          "Thinking",
+          "Knowing",
+          "Assist"
+        ],
+        "answer": "Confirming",
+        "sentence_translation": "あなたの出席を",
+        "explanation": "正解は「Confirming」です。「出席を確認する」という意味で、他の選択肢はそれぞれ異なる意味を持ちながらこの文の流れには適しません。",
+        "question_type": "語彙",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "will be",
+          "is going",
+          "are",
+          "was"
+        ],
+        "answer": "will be",
+        "sentence_translation": "お祝いの言葉が",
+        "explanation": "正解は「will be」です。この文の未来の出来事について述べているため、未来形が必要です。",
+        "question_type": "時制",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "Let us know what you will bring",
+          "Please confirm your attendance",
+          "Please arrive early to help set up",
+          "We hope to see you all soon"
+        ],
+        "answer": "We hope to see you all soon",
+        "sentence_translation": "皆さんお会いできるのを楽しみにしています。",
+        "explanation": "正解は「We hope to see you all soon」です。この文章は送別会の締めくくりとして自然であり、他の選択肢は場にそぐわない内容です。",
+        "question_type": "文挿入",
+        "target_score": 990
+      }
+    ]
+  },
+  {
+    "id": "p6_0015",
+    "title": "Cafeteria Menu Revamp and Employee Survey",
+    "passage_template": "Dear Team,\\n\\nWe are excited to announce that our cafeteria will undergo a revamp to better serve you. <b>[1]</b> this change, we would like to ask for your input.  We have created a satisfaction survey to gather your thoughts on our current menu items and how we can improve them. Your feedback is crucial as we want to make sure the new offerings align with your preferences.  Please take a few moments to complete the survey by next Friday, <b>[2]</b> the new menu will be implemented the following week.  The survey link is provided in this email, and your responses will remain anonymous. Thank you in advance for your cooperation!\\n\\nBest regards,\\nCafeteria Management\\n\\n---",
+    "translation_full": "親愛なるチーム、\\n\\n私たちは、皆さんにより良いサービスを提供するために、食堂のメニューを改定することになりました。<b>[1] この変更に際して、</b> 私たちは皆さんの意見を伺いたいと思います。現在のメニュー項目に対する皆さんの考えや、それをどのように改善できるかを集めるために満足度アンケートを作成しました。新しいメニューが皆さんの好みに合うようにするために、あなたのフィードバックは非常に重要です。来週金曜日までにアンケートにご協力いただけると幸いです。<b>[2] 新しいメニューは翌週に実施される予定です。</b> アンケートのリンクはこのメールに記載されており、皆さんの回答は匿名で行われます。ご協力いただきありがとうございます！\\n\\nよろしくお願いします。\\n食堂管理者",
+    "questions": [
+      {
+        "id": 1,
+        "options": [
+          "before",
+          "prior to",
+          "after",
+          "afterwards"
+        ],
+        "answer": "prior to",
+        "sentence_translation": "<b>[1] この変更に際して、</b>",
+        "explanation": "正解は「prior to」です。「prior to」は「〜より前に」という意味で、文の主旨に合った前置詞です。他の選択肢である「before」も同様に使えますが、ここでは形式上の一致が求められます。文脈的に「after」や「afterwards」は不適切です。",
+        "question_type": "文法（前置詞）",
+        "target_score": 600
+      },
+      {
+        "id": 2,
+        "options": [
+          "once",
+          "when",
+          "by",
+          "until"
+        ],
+        "answer": "by",
+        "sentence_translation": "<b>[2] 新しいメニューは翌週に実施される予定です。</b>",
+        "explanation": "正解は「by」です。「by」は「〜までに」という意味で、期限を表すのに適しています。ここでは、アンケートの締切に関連しているため、最も適切です。「once」や「when」は、特定の時間の範囲を示さず不適切です。「until」は、期限前の状態を維持していることを意味するため、この文脈には合いません。",
+        "question_type": "文法（前置詞）",
+        "target_score": 730
+      },
+      {
+        "id": 3,
+        "options": [
+          "provide",
+          "providing",
+          "provided",
+          "provision"
+        ],
+        "answer": "providing",
+        "sentence_translation": "<b>[3] アンケートのリンクはこのメールに記載されており、</b>",
+        "explanation": "正解は「providing」です。ここでの「providing」は現在分詞で、前の文と結びついた条件文のように機能します。他の選択肢は文法的に不適切で、形式が合わないため不正解となります。特に「provide」は通常、主語が必要です。",
+        "question_type": "文法（動詞の形）",
+        "target_score": 860
+      },
+      {
+        "id": 4,
+        "options": [
+          "We believe this will significantly improve employee satisfaction.",
+          "We encourage you to share any additional comments.",
+          "The changes aim to reduce food waste in the cafeteria.",
+          "Your participation is appreciated and valued."
+        ],
+        "answer": "We believe this will significantly improve employee satisfaction.",
+        "sentence_translation": "<b>[4] そのため、</b>",
+        "explanation": "正解は「We believe this will significantly improve employee satisfaction.」です。この文は食堂の改定によって従業員満足度が向上することを強調する内容であり、前の文との論理的なつながりを持っています。その他の選択肢も正しいですが、コンテキストによりフィットしているのはこの文です。",
+        "question_type": "文挿入問題",
+        "target_score": 990
+      }
+    ]
+  }
+]

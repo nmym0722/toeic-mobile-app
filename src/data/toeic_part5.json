@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "p5_0001",
+    "question": "The commercial lease agreement specifies that all payments must be made on time to avoid penalties. It is crucial to ensure that the _____ is followed by both parties involved to maintain a positive working relationship.",
+    "options": [
+      "contract",
+      "contracted",
+      "contracting",
+      "contracts"
+    ],
+    "answer": "contract",
+    "meaning": "商業賃貸契約は、罰則を避けるためにすべての支払いが時間通りに行われるべきであると規定しています。両当事者による _____ の遵守は、良好な業務関係を維持するために重要です。",
+    "explanation": "この文では、「contract」が正しい選択肢です。文中の主語は「the ______」で、これは名詞として「契約」を意味し、文脈から、契約に基づく義務を守ることが重要であることを示唆しています。<br>1. **contract (名詞)** - 正解。賃貸契約は法的拘束力を持つ合意を指し、タイムリーな支払いの遵守に関する要求に対して核心的な言葉です。<br>2. **contracted (動詞過去形/過去分詞)** - 誤り。意味が異なり、契約を締結する行為を示しますが、文中では名詞が必要です。<br>3. **contracting (動名詞)** - 誤り。同じく「契約する」という行為を示唆する動詞形で、文脈に合いません。<br>4. **contracts (名詞複数形)** - 誤り。複数形の「契約」を指しており、文の主語には合いません。「the _____」の前の冠詞「the」は単数を要求します。従って、文脈に合った正しい形は「contract」です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0002",
+    "question": "The implementation of the new safety guidelines will greatly enhance the workers' ___ in the factory.",
+    "options": [
+      "safety",
+      "safeness",
+      "safely",
+      "safeguard"
+    ],
+    "answer": "safety",
+    "meaning": "新しい安全基準の実施は工場内の労働者の安全を大いに向上させるだろう。",
+    "explanation": "この文の主語は「The implementation of the new safety guidelines」（新しい安全基準の実施）で、述語動詞は「will enhance」（向上させる）です。この文の目的語は空欄に入る語であり、名詞が必要です。選択肢の中で「safety」が正解で、工場内での労働者の安全性を意味します。\n\n他の選択肢について考えると、「safeness」は確かに名詞ですが、より一般的な単語「safety」が使われるため、文脈的に不適切です。「safely」は副詞であり、文中の名詞を修飾する役割を果たせないため誤りです。「safeguard」は名詞ですが、意味的には「保護措置」を意味し、文の文脈では「workers' safety（労働者の安全）」が必要なため、適切な選択肢ではありません。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0003",
+    "question": "The city council has decided to postpone the infrastructure project ____ residents express their concerns about traffic disruptions during the construction.",
+    "options": [
+      "because",
+      "although",
+      "provided that",
+      "unless"
+    ],
+    "answer": "unless",
+    "meaning": "市議会は、住民が工事中の交通混雑について懸念を表明しない限り、インフラプロジェクトを延期することを決定しました。",
+    "explanation": "この文は接続詞を必要とする構造ですが、選択肢の中で正解となるのは「unless」です。これは「〜しない限り」という条件を示す接続詞であり、文脈に合っています。\n\n1. \"because\"は「〜のために」という意味となり、理由を示すと解釈されますが、この文では延期の理由を伝えるのではなく、条件を示す必要があります。したがって、正解ではありません。\n2. \"although\"は「〜だけれども」という意味ですが、これは対比を示し、延期に関して対照的な状況を伝えるものではないため、誤りです。\n3. \"provided that\"は「〜である限り」という条件を示しますが、文の流れとして「住民が懸念を表明することが条件」となるため、あまり自然ではありません。正解の「unless」の方がスムーズです。\n\nしたがって、正しい選択肢は「unless」であり、これは必要な条件構造を満たしています。",
+    "question_type": "接続詞問題 (Conjunction)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0004",
+    "question": "The construction company __________ all necessary safety regulations since last year to ensure compliance with local authorities.",
+    "options": [
+      "complies",
+      "complied",
+      "complying",
+      "compliance"
+    ],
+    "answer": "complies",
+    "meaning": "この問題は、建設会社が地元当局の基準に従っていることを示しています。",
+    "explanation": "問題文では「since last year」というフレーズがあるため、動詞は現在形である必要があります。選択肢の中で「complies」が正しい答えです。これは、会社が現在も継続的に安全基準を守っていることを示しています。他の選択肢を見てみると、'complied'は過去形であり、何かが既に完了したことを示すため、文脈には合いません。'complying'は現在分詞ですが、ここでは主語に対する適切な形式ではないため不正解です。そして、'compliance'は名詞であり、動詞が必要なこの文の構造には合いません。従って、正解は'complies'です。",
+    "question_type": "動詞問題 (Verb - Tense/Voice)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0005",
+    "question": "The law firm requires all employees to maintain _______ regarding client information to ensure confidentiality and compliance with legal regulations.",
+    "options": [
+      "constraint",
+      "contract",
+      "clause",
+      "conduct"
+    ],
+    "answer": "constraint",
+    "meaning": "法律事務所は、クライアント情報に関する守秘義務を確保し、法的規制に準拠するために、すべての従業員が______を維持することを求めています。",
+    "explanation": "正解は \"constraint\" です。この文では、従業員が守秘義務を維持するための「制約」を指しています。\"constraint\" は、法律や規則に従って行動することを強制する要因を意味します。<br><br>選択肢 \"contract\"（契約）は、法的拘束力のある合意を指し、文脈には合いません。従業員の行動基準を示す言葉として使用するには不適切です。<br>\"clause\"（条項）は契約書の中の特定の部分を指しますが、ここでは守秘義務に関する全体的な指針を示すには適していません。<br>\"conduct\"（行動）は、従業員の行動そのものを示しますが、守秘義務を維持するための「制約」とは意味が異なります。したがって、最も適切なのは \"constraint\" です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0006",
+    "question": "The new safety manual includes guidelines for the _____ of all employees to ensure their well-being in the factory.",
+    "options": [
+      "training",
+      "trained",
+      "trainer",
+      "trainable"
+    ],
+    "answer": "training",
+    "meaning": "新しい安全マニュアルは、工場内での作業者の安全を確保するために、すべての従業員への_____に関するガイドラインを含んでいる。",
+    "explanation": "この文では空欄に入る単語が名詞である必要があります。「training」は名詞であり、意味は「訓練」です。文の構造では、「includes guidelines for the _____」の部分で「for」は前置詞で、その後には名詞が来る必要があります。他の選択肢は次のように誤りです：\n\n- 「trained」は過去分詞であり、ここには合わない。名詞でなければならない。\n- 「trainer」は「訓練を行う人」という意味の名詞で、文脈上適切ではない（この文は訓練内容を指している）。\n- 「trainable」は形容詞であり、「訓練可能である」という意味だが、この文コンテキストでは名詞が必要。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0007",
+    "question": "The flight has been delayed due to severe weather, ____ we will arrange for a substitute flight and hotel accommodations for you.",
+    "options": [
+      "although",
+      "because",
+      "unless",
+      "while"
+    ],
+    "answer": "because",
+    "meaning": "その便は悪天候のために遅延しており、そのために代替便とホテルの手配をします。",
+    "explanation": "この文では、'the flight has been delayed'（その便は遅延している）に理由を付け加える接続詞を必要とします。選択肢の中で'because'（なぜなら）は原因を示す正しい接続詞です。文全体は、悪天候が便の遅延の理由であり、それに伴って代替便や宿泊所の手配も行うという因果関係を説明しています。\\n\\n他の選択肢について:\\n- 'although'（しかし）は逆接を示す接続詞で、前の文の後に付け加えると論理が逆転し、意味が不適切になります。\\n- 'unless'（～しない限り）は条件を示す接続詞であり、ここでは使用できません。遅延している場合に代替便を提供しないという意味を持つため、誤った文になります。\\n- 'while'（～する間に）は対比を表す接続詞であり、同時に起こる2つの事象を示すものであって、原因を説明する文脈にはフィットしません。したがって、'because'が正解となります。",
+    "question_type": "接続詞問題 (Conjunction)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0008",
+    "question": "We sincerely apologize for the delay ____ your recent order, and we will send you a discount coupon ____ your next purchase.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "in",
+    "meaning": "最近のご注文の遅延に心からお詫び申し上げます。次回の購入に対して割引クーポンをお送りいたします。",
+    "explanation": "この文では、空欄には前置詞が必要であり、'delay'の後に名詞'order'が続きます。'in'は、遅延が特定の注文に関連していることを示すのに適切な前置詞です。'on'は通常、日付や表面を表すのに使われ、'at'は特定の場所を指し、'with'は関係を示すためこれらの選択肢はこの文脈では不適切です。また、空欄の後の'coupon'に対しても、'for'など他の前置詞と異なり、'for your next purchase'の形がよく使われるため、正解は'in'です。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0009",
+    "question": "The latest market research report indicates that our competitors are ____ increasing their advertising budgets to attract more customers.",
+    "options": [
+      "significantly",
+      "significant",
+      "signify",
+      "significantlyly"
+    ],
+    "answer": "significantly",
+    "meaning": "最新の市場調査レポートは、我々の競合他社がより多くの顧客を引き付けるために広告予算を大幅に増やしていることを示しています。",
+    "explanation": "この文では'____ increasing'という表現があるため、空欄には副詞が必要です。正解の'**significantly**'は'増加している'という動詞'increasing'を修飾し、その程度が'大幅に'であることを示しています。他の選択肢を見ていきましょう。\n\n- '**significant**'は形容詞で、名詞を修飾するため、ここには適していません。\n- '**signify**'は動詞であり、文の文脈で適用できません。\n- '**significantlyly**'は不適切な形で、英語には存在しません。したがって、正答は'**significantly**'と決定します。",
+    "question_type": "副詞問題 (Adverb)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0010",
+    "question": "Our advertising agency is eager to receive approval _____ the marketing budget for the new product launch next quarter.",
+    "options": [
+      "with",
+      "in",
+      "for",
+      "at"
+    ],
+    "answer": "for",
+    "meaning": "当社の広告代理店は、次の四半期の新製品ローンチのためのマーケティング予算の承認を受けることを熱望しています。",
+    "explanation": "ここでの空欄には前置詞 'for' が適しています。これは「～のために」という意味になり、特定の目的、つまり新製品ローンチのための予算承認に関しての文脈が求められています。誤答となる選択肢は次の通りです：1. 'with' は「～と共に」といった意味合いで、ここでの文意には合致しません。2. 'in' は「～の中で」と捉えられ、状態や位置を示すものであり、承認の目的を表す適切な前置詞ではありません。3. 'at' は特定の地点や時間を示すものであり、承認の目的との関連が無いため誤りです。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0011",
+    "question": "The city council has decided to ____ the upcoming infrastructure improvement plans at the next public meeting to ensure resident participation and gather feedback.",
+    "options": [
+      "outline",
+      "oversee",
+      "undermine",
+      "direct"
+    ],
+    "answer": "outline",
+    "meaning": "市議会は次の市民説明会で、住民の参加を確保し、意見を集めるために近々のインフラ改修計画を____することを決定しました。",
+    "explanation": "この文では、‘outline’が正しい選択肢です。‘outline’は「計画や方針を概説する」という意味があり、ここではインフラ改善計画を説明することを指します。‘oversee’は「監視する」といった意味で、計画を説明する場面にはそぐわないため誤りです。‘undermine’は「弱体化させる」という意味があり、計画の意図とは逆の行動を示唆するため、文脈に適しません。‘direct’は「指示する」といった意味を持ちますが、会議での概説とは異なり、一般的に指示的なニュアンスを含むため、こちらも適切とは言えません。したがって、正しい文脈の中で‘outline’が最も適切なのです。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0012",
+    "question": "We received a notification ____ the revised pricing for the materials that we ordered last month.",
+    "options": [
+      "at",
+      "on",
+      "from",
+      "with"
+    ],
+    "answer": "from",
+    "meaning": "先月注文した材料の改定価格に関する通知を受け取りました。",
+    "explanation": "この文では、受信した通知の発信源を示す必要があります。正解の「from」は、通知がどこから来たのかを示す前置詞です。「from」と一緒に名詞が来る構造は一般的です。 \n他の選択肢について:\n- 「at」は、位置や特定の時点を示す前置詞であり、この文脈には適していません。\n- 「on」は、表面の接触を示す前置詞ですが、通知の出所を示す際には不適切です。\n- 「with」は、手段や同伴を示しますが、通知が発信される方を表す場合には誤りです。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0013",
+    "question": "The office copier is out of order, and we need to ______ a technician to repair it as soon as possible.",
+    "options": [
+      "dispatch",
+      "disperse",
+      "deposit",
+      "defer"
+    ],
+    "answer": "dispatch",
+    "meaning": "オフィスのコピー機が故障しており、できるだけ早く技術者を派遣する必要がある。",
+    "explanation": "この文では、主語は「we（私たち）」で、動詞は「need（必要があります）」、目的語が「to repair it（それを修理するために）」という構造です。ここで空欄に最も適切なのは「dispatch（派遣する）」です。\\n\\n他の選択肢について説明します。\\n- 'disperse（散らす、分散させる）' は、技術者を派遣する文脈には適していません。\\n- 'deposit（預ける、入金する）' は、物理的なものを預けたりお金を預けたりすることに関連しており、ここでの技術者の派遣とは無関係です。\\n- 'defer（延期する）' は、行動を遅らせることを意味し、故障したコピー機をすぐに修理するという必要性に反します。\\n\\nこの文脈では、技術者をすぐに必要とするため、正しい答えは 'dispatch' です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0014",
+    "question": "We will adjust your check-in time carefully to ensure everything is ready for your arrival. Please let us know if you need to change it ____ .",
+    "options": [
+      "promptly",
+      "temporary",
+      "temperature",
+      "interesting"
+    ],
+    "answer": "promptly",
+    "meaning": "私たちは、あなたの到着のためにすべてが準備できていることを確実にするために、あなたのチェックイン時間を注意深く調整します。変更が必要な場合は、すぐにお知らせください。",
+    "explanation": "この文では、チェックイン時間の変更を促すために副詞を選択する必要があります。正解の選択肢「promptly」は、「すぐに」を意味し、変更を求めるタイミングを適切に表現しています。他の選択肢については、\"temporary\"が「一時的な」という形容詞であり、\"temperature\"が「温度」という名詞、\"interesting\"が「興味深い」という形容詞であり、副詞として適切ではありません。したがって、他の3つは文の文脈に合わないため誤りです。",
+    "question_type": "副詞問題 (Adverb)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0015",
+    "question": "In order to secure approval _____ the marketing budget for our new product campaign, we need to provide detailed data and analytics to the management team.",
+    "options": [
+      "at",
+      "with",
+      "in",
+      "for"
+    ],
+    "answer": "for",
+    "meaning": "新製品キャンペーンのためのマーケティング予算の承認を得るために、詳細なデータと分析を経営陣に提供する必要があります。",
+    "explanation": "この文では、'approval'（承認）という名詞の後に前置詞が必要です。'for'は特定の目的を示す前置詞であり、この場合、「マーケティング予算の承認を得るために」という意味を表現します。他の選択肢を見てみましょう。'at'は特定の場所や状況で使われる前置詞なので、文の内容に合いません。'with'は通常、何かと一緒にあることや手段を示しますが、この場合には適切ではありません。'in'は内部にあることを示す前置詞ですが、'approval in the marketing budget'という表現は自然ではありません。したがって、正しい選択は'for'です。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0016",
+    "question": "The commercial real estate agent completed the lease agreement ___ the terms outlined during the negotiation process.",
+    "options": [
+      "from",
+      "with",
+      "in",
+      "at"
+    ],
+    "answer": "with",
+    "meaning": "その不動産業者は交渉過程で示された条件に従って賃貸契約を完了しました。",
+    "explanation": "この文の主語は「the commercial real estate agent」（不動産業者）で、動詞は「completed」（完了した）です。文の目的語は「the lease agreement」（賃貸契約）で、選択肢の中で最も適切な前置詞は「with」です。「complete something with」とは、ある条件や要素に基づいて何かを完成させることを意味します。他の選択肢を考察すると、「from」は出所を示す前置詞であり、この文脈には不適切です。「in」は場所や時間の中に存在することを表し、ここでは意味を成しません。「at」は特定の位置や時点を示すため、この文では不適切です。したがって、正解は「with」となります。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0017",
+    "question": "The agent explained that the lease agreement for the office space would _____ by the end of the week.",
+    "options": [
+      "amend",
+      "persuade",
+      "yield",
+      "signify"
+    ],
+    "answer": "amend",
+    "meaning": "その商業物件の賃貸契約が週末までに修正されることを示している。",
+    "explanation": "この文で求められているのは、賃貸契約の内容が調整されることに関連した動詞です。'amend'は法律的文脈において何かを修正することを意味します。この場合、賃貸契約に何か変更があることを示唆しています。\n\n他の選択肢について:\n1. 'persuade'（説得する）は、契約に関する内容の変更や修正を示すものではなく、誰かを納得させる行為を指します。\n2. 'yield'（生産する/譲る）は、通常結果や利益をもたらすことを指し、賃貸契約の修正とは直接関係しません。\n3. 'signify'（意味する）は、何かの存在や状態を示すことを指しますが、契約が実際にどのように変わるかには言及していません。そのため、文脈上適切な動詞は'amend'となります。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0018",
+    "question": "We have just received a notice from the supplier regarding a change in the estimated price of raw materials, and we need to __________ this adjustment in our budget.",
+    "options": [
+      "accommodate",
+      "facilitate",
+      "collaborate",
+      "regulate"
+    ],
+    "answer": "accommodate",
+    "meaning": "私たちは、サプライヤーから原材料の見積もり価格の変更に関する通知を受け取り、この調整を予算に対応させる必要があります。",
+    "explanation": "この文では、サプライヤーからの価格変更を予算にどう対応するかという文脈があります。\\n\\n- \"accommodate\" は、価格の調整に対して計画や予算を適応させる意味で正解です。\\n- \"facilitate\" は、物事を容易にするという意味ですが、ここでは予算への適応を示していないため誤りです。\\n- \"collaborate\" は、他者と共同作業をすることを意味しますが、この文ではそのような行動は求められていません。\\n- \"regulate\" は、何かを管理または統制することを意味し、価格変更の適応においては直接的な関係がないため不適切です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0019",
+    "question": "Currently, our cafeteria ___ a survey to assess employee satisfaction with the new menu items introduced last month.",
+    "options": [
+      "conduct",
+      "conducts",
+      "conducted",
+      "conducting"
+    ],
+    "answer": "conducts",
+    "meaning": "現在、私たちの食堂は、先月導入した新しいメニューアイテムに対する従業員満足度を評価するための調査を行っている。",
+    "explanation": "この文では、現在進行中の行動を示すために、動詞 'conduct' の三単現形 'conducts' が必要です。主語 'our cafeteria' は単数ですので、三単現形を使用することが文法的に正しいです。他の選択肢を見てみましょう:\\n- 'conduct' は動詞の原形ではありますが、主語が単数のため適切ではありません。\\n- 'conducted' は過去形であり、現在の状況を表す文に合致しません。\\n- 'conducting' は現在分詞で、文において動詞の役割を果たしていないため適切ではありません。したがって、正しい答えは 'conducts' です。",
+    "question_type": "動詞問題 (Verb - Tense/Voice)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0020",
+    "question": "To ensure a smooth check-in process, please confirm your reservation details and any _______ regarding the time of your arrival.",
+    "options": [
+      "object",
+      "subject",
+      "project",
+      "reject"
+    ],
+    "answer": "subject",
+    "meaning": "チェックインプロセスを円滑に進めるために、予約内容と到着時間に関する______を確認してください。",
+    "explanation": "文中の空白を埋めるためには、\"subject\"が必要です。この場合、\"subject\"は「件名」、「主題」を意味し、到着時間に関する重要な詳細や要点を指しています。他の選択肢について解説します。\n\n- \"object\"（目的物）：これは通常物体を指す名詞であり、文脈には合いません。目的物について話しているため不適切です。\n- \"project\"（計画）：この単語は特定の計画やプロジェクトを指しますが、チェックイン時に必要な情報には該当しません。\n- \"reject\"（拒絶する）：動詞であり、何かを拒否する行為を示しますが、文脈には合わず、必要な情報を提供する役割を果たしません。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0021",
+    "question": "The commercial property manager explained that the _____ of the lease required the tenant to pay for all repairs and maintenance costs.",
+    "options": [
+      "burden",
+      "burdened",
+      "burdensome",
+      "burdens"
+    ],
+    "answer": "burden",
+    "meaning": "その商業用不動産管理者は、賃貸契約の_____が借り手にすべての修理およびメンテナンス費用を支払うことを要求していると説明した。",
+    "explanation": "この問題では、文脈に合った語を選ぶ必要があります。正しい選択肢 'burden' は名詞で「負担」を意味し、ここで借り手に求められる義務を表しています。 \"the burden of the lease\" はこの文の主語として機能し、修理やメンテナンスに関連する責任を指しています。\n\n他の選択肢は次のように誤りです：\n- 'burdened'（負担を負った）は動詞の過去形であり、文脈に合わない。 \n- 'burdensome'（負担となる）は形容詞であり、名詞として使うべき部分には不適当です。\n- 'burdens'（負担）は複数形の名詞ですが、ここでは賃貸契約の具体的な条件ではなく、一般的な負担を指すため適切ではありません。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0022",
+    "question": "In order to comply with the new safety regulations, the construction company had to provide detailed ________ before the start of the office building project.",
+    "options": [
+      "proposal",
+      "exposition",
+      "position",
+      "situation"
+    ],
+    "answer": "proposal",
+    "meaning": "新しい安全規定に準拠するために、建設会社はオフィスビルプロジェクト開始前に詳細な______を提出する必要があった。",
+    "explanation": "正解の選択肢「proposal」は、ビジネスの文脈において、提案書を意味し、ある計画やプロジェクトが実施される前に必要とされるものである。この文脈において、建設会社は安全規定に従うために、何かしらの提案（提案書）を提出することが求められています。\n\n他の選択肢の解説:\n- 「exposition」は、説明や展覧という意味であり、文脈上「詳細な説明」のようにも用いられうるが、正式なプロジェクトの開始に関する具体的な計画や提案書というニュアンスには合致しない。\n- 「position」は、立場や職業、または状況を指すが、この文においてはプロジェクトの安全基準遵守のための必要条件としては不適切である。\n- 「situation」は、状況や立場を意味し、具体的な計画や提案とは関連性が薄いため、この文脈には合わない。\n\nしたがって、ビジネスにおける具体的な要求に対して適切な回答は「proposal」であり、他の選択肢はその文脈での明確さを欠いています。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0023",
+    "question": "The city council organized a community meeting _____ discussing the planned infrastructure improvements and their impact on local traffic.",
+    "options": [
+      "in",
+      "for",
+      "on",
+      "about"
+    ],
+    "answer": "for",
+    "meaning": "市の議会は、計画されているインフラ改善とそれが地域交通に与える影響についての市民説明会を組織した。",
+    "explanation": "正解は 'for' です。ここで 'for discussing' は目的を表しており、説明会が行われる理由や目的を示しています。 'on' は一般的に位置やテーマに使われますが、目的を明示する場合には 'for' が適切です。 'in' は場所や状態を示すため、ここでは不適切です。そして 'about' は話題を示す前置詞ですが、目的を強調する 'for' に対して少し弱いニュアンスがあるため、最も適切ではありません。したがって、この文脈において 'for' がベストな選択肢です。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0024",
+    "question": "In considering the new office lease, the real estate agent emphasized the importance of the building's long-term ____ to ensure it meets the needs of prospective tenants.",
+    "options": [
+      "appreciation",
+      "depreciation",
+      "complication",
+      "application"
+    ],
+    "answer": "appreciation",
+    "meaning": "新しいオフィスの賃貸契約を考慮する際、不動産業者は将来のテナントのニーズに合うようにビルの長期的な価値の重要性を強調した。",
+    "explanation": "この文脈では、「appreciation」（価値の上昇）が正しい選択肢です。これは、ビルの価値が将来的に上がれば、テナントにとって有利な条件になる可能性があることを示しています。他の選択肢について考えてみましょう：\n\n- 「depreciation」（価値の下落）は、テナントにとって好ましくない状況を意味し、ここでの文脈には合いません。\n- 「complication」（複雑さ）は、賃貸契約における問題や障害を示唆しますが、この文脈では適切ではありません。\n- 「application」（適用）も意味的に適切ではなく、文全体が意図している価値の評価とは無関係です。\n\nしたがって、文の意図に最も合致し、正解は「appreciation」となります。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0025",
+    "question": "To celebrate James's retirement, the company organized a farewell party ____ his honor next Friday evening.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": "in",
+    "meaning": "ジェームスの退職を祝うため、会社は来週の金曜日の夜に彼の栄誉を称えた送別会を企画した。",
+    "explanation": "この文では、‘in honor of’というフレーズが必要です。これは、誰かを称えるために行われる行動を示します。正しい前置詞'in'は、特定の目的のために何かをするという意味で使われます。他の選択肢については、'at'は場所に焦点を当て、'on'は時間に関連し、'for'は目的を表しますが、文脈的に適切ではありません。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0026",
+    "question": "The company will notify all employees about the temporary layout change, ____ the renovation will take place next month.",
+    "options": [
+      "while",
+      "because",
+      "unless",
+      "despite"
+    ],
+    "answer": "because",
+    "meaning": "会社はすべての従業員に一時的なレイアウト変更について通知します。なぜなら、その改装は来月行われるからです。",
+    "explanation": "この文の空欄には接続詞が必要で、主語と動詞の節が続きます。正解の 'because' は、前節と後節を因果関係で結ぶ適切な接続詞です。一方、他の選択肢は以下の理由で不適切です。\n\n- 'while' は対比や同時進行を示す接続詞であり、意味が合わない。\n- 'unless' は条件を示す接続詞ですが、この文では条件ではなく理由を求められている。\n- 'despite' は前置詞であり、接続詞を必要とするこの構文には適合しません。",
+    "question_type": "接続詞問題 (Conjunction)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0027",
+    "question": "The city council is looking for an innovative approach to ____ the construction delays reported by residents during the community meetings.",
+    "options": [
+      "mitigate",
+      "mediate",
+      "estimate",
+      "substantiate"
+    ],
+    "answer": "mitigate",
+    "meaning": "市議会は地域住民によって報告された建設の遅延を和らげるための革新的なアプローチを模索しています。",
+    "explanation": "文中の主語は 'The city council' で、動詞 'is looking' が 'an innovative approach' を修飾します。ここで 'mitigate'（軽減する）は、遅延の影響を軽くする、または和らげるという意味で、文脈に合致します。他の選択肢は以下の通りです。\n\n1. 'mediate'（仲介する）: これはトラブルや対立を解決するために介入することですが、文脈上適切ではありません。\n2. 'estimate'（見積もる）: これはコストや時間を見積もることを意味し、遅延に対処するという意味合いにはなりません。\n3. 'substantiate'（実証する）: 証拠をもって支持することを意味しますが、遅延を和らげるのではなく、むしろその存在を裏付ける行為です。 \n\nこのように、選択肢 'mitigate' だけが文脈において正答になります。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0028",
+    "question": "The tenants are very pleased with the apartment, and John has assured them that ____ will handle all of the necessary paperwork for the lease agreement.",
+    "options": [
+      "he",
+      "his",
+      "him",
+      "himself"
+    ],
+    "answer": "he",
+    "meaning": "入居者たちはアパートに非常に満足している。そして、ジョンは彼らに、契約書類の必要な手続きを______が行うことを保証した。",
+    "explanation": "この文の主語は 'John' であり、彼が行動の主となるため、主格の代名詞 'he' が正解です。'his' は所有格で、所有を示すだけであり、他の選択肢 'him'（目的格）や 'himself'（再帰代名詞）はここでは適切ではありません。'him' は目的語に使われ、動作の主語に当たる用法にはなりませんし、'himself' は再帰的な行動を暗示するため、この文脈でも合いません。したがって、正しく使われているのは 'he' です。",
+    "question_type": "代名詞問題 (Pronoun - Case)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0029",
+    "question": "The editor requested a change in the ________ of the publication schedule to better accommodate the author's revisions.",
+    "options": [
+      "form",
+      "order",
+      "draft",
+      "line"
+    ],
+    "answer": "order",
+    "meaning": "編集者は著者の修正により、出版スケジュールの______を変更するよう求めました。",
+    "explanation": "この文の主語は「The editor」で、動詞は「requested」となっています。文脈から、出版スケジュールに関する変更が求められていることが示されています。選択肢の中で変化を示し、正しい文脈に合うのは「order」であり、これは「順序」や「配置」を意味します。 \n\n1. **form**: 形や形式を意味しますが、出版スケジュールの「形式」は文脈に合わないため間違いです。 \n2. **order**: 正解。ここでは出版スケジュールの「順序」を意味し、適切な変更を示します。 \n3. **draft**: 草稿を意味し、スケジュールに関連する文脈では不適切です。 \n4. **line**: 直線や段階を意味しますが、ここではスケジュールの文脈にはそぐわないため誤りです。 \n\nしたがって、正解は「order」です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0030",
+    "question": "In order to protect sensitive information, clients must sign a(n) ____ that ensures confidentiality throughout the duration of the contract.",
+    "options": [
+      "agreement",
+      "statement",
+      "notification",
+      "declaration"
+    ],
+    "answer": "agreement",
+    "meaning": "クライアントは契約期間中の機密性を確保するために、敏感な情報を保護する合意に署名する必要があります。",
+    "explanation": "この文では、特に契約に関連してクライアントが敏感な情報を保護することについて述べています。この文脈において正解は「agreement」であり、これは「合意」を意味します。契約の一部として署名される文書であり、法的に拘束力があります。 \n\n他の選択肢について説明します：\n- 「statement」は、「声明」または「発表」の意味で、法的に拘束力のある合意とは異なります。\n- 「notification」は、「通知」を意味し、一般的に情報の伝達に使われ、守秘義務に関して署名されるものではありません。\n- 「declaration」は、「宣言」を指しますが、これも合意としての法的効力は持たないため、この文においては不適切です。\n\nしたがって、文脈から見ても正しく、他の選択肢についても誤りであることが明確です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0031",
+    "question": "The recent market research report indicates that our leading competitor has opted to ____ its prices to attract more customers, which could significantly impact our sales strategy.",
+    "options": [
+      "raise",
+      "make",
+      "lower",
+      "place"
+    ],
+    "answer": "lower",
+    "meaning": "最近の市場調査レポートによると、私たちの主要な競合他社は、より多くの顧客を引き付けるために価格を下げることを選択したため、これは私たちの販売戦略に大きな影響を及ぼす可能性がある。",
+    "explanation": "この文は、競合他社が価格設定の戦略を変更したことに基づいています。「lower」は、価格を減少させることを意味し、この文脈に最も適しています。他の選択肢を考察するには、まず「raise」を見てみましょう。これは価格を引き上げることを意味しますが、文の文脈には合致しません。「make」は「作る」という意味ですが、ここでは適切な動作を表していないため不正解です。「place」は「置く」という意味ですが、価格に関しては不適切です。したがって、正解は「lower」となります。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0032",
+    "question": "The publishing company _____ the final manuscript for the upcoming book to the author next month after several revisions.",
+    "options": [
+      "send",
+      "sends",
+      "sent",
+      "sending"
+    ],
+    "answer": "sends",
+    "meaning": "その出版社は、何度も改訂を行った後、来月に著者に対して新しい本の最終原稿を送る予定です。",
+    "explanation": "この文の主語は「the publishing company」であり、これは単数形です。したがって、動詞は三単現の形である「sends」を使用する必要があります。「send」は原形であり主語と一致せず、「sent」は過去形で文脈に合わず、「sending」は現在分詞で適切ではないため、正解は「sends」です。",
+    "question_type": "動詞問題 (Verb - Tense/Voice)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0033",
+    "question": "We have noted that the recent __________ of competitor X has significantly impacted our sales figures, suggesting a need for strategic adjustments in our marketing efforts.",
+    "options": [
+      "analysis",
+      "analytical",
+      "analyze",
+      "analyzed"
+    ],
+    "answer": "analysis",
+    "meaning": "競合他社Xの最近の分析が私たちの売上に大きな影響を与えていることを私たちは把握しています。",
+    "explanation": "この文では空欄の前に冠詞 'the' がありますので、その後に来る名詞が必要です。選択肢の中で 'analysis'（名詞）は正しいです。同じ語幹が含まれる他の選択肢を見てみましょう。 'analytical'（形容詞）は不適切で、'analyze'（動詞）や'analyzed'（過去分詞形）も文の構造に合致しません。そのため、'analysis'が唯一適切な選択肢となります。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0034",
+    "question": "The negotiations with local farmers for direct sourcing of produce have been progressing __________, ensuring that we secure the best quality ingredients for our stores.",
+    "options": [
+      "promptly",
+      "prompt",
+      "prompting",
+      "prompts"
+    ],
+    "answer": "promptly",
+    "meaning": "地域の農家との直接調達交渉が進行中であり、私たちの店舗に最良の品質の食材を確保することを確実にしている。",
+    "explanation": "この文では、「進行中である」という状況を表すために副詞が必要です。正解の'promptly'は「迅速に」という意味の副詞で、交渉がスムーズに、または迅速に進行している様子を表現しています。他の選択肢は以下の通りです：\n- 'prompt'は形容詞であり、事柄の状態を示すのに使われるため、文中の動詞（進行中）を修飾できません。\n- 'prompting'は動名詞で、行動の進行形を示しているため、この文の構造には適していません。\n- 'prompts'は動詞の現在形ですが、主語がないためこの文には合いません。正しい選択は文全体に一貫性を持たせる副詞'promptly'です。",
+    "question_type": "副詞問題 (Adverb)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0035",
+    "question": "Due to unforeseen weather conditions, many flights have been ___ and passengers are advised to contact customer service for rebooking options.",
+    "options": [
+      "disrupted",
+      "interrupted",
+      "impeded",
+      "obstructed"
+    ],
+    "answer": "disrupted",
+    "meaning": "予期しない天候条件により、多くのフライトが___されており、乗客は再予約オプションのために顧客サービスに連絡するように勧告されています。",
+    "explanation": "選択肢 'disrupted' は、フライトが予期せぬ事情で計画通りに実行されない状態を表すビジネス用語として適切です。他の選択肢について見てみましょう。\n- 'interrupted': これは一時的に中断することを意味し、フライト全体が影響を受けた場合には不適切です。\n- 'impeded': これは何かの進行を妨げることを指し、文脈ではあまり使われない表現です。フライトが妨害されたとは一般には言わないため、適切ではありません。\n- 'obstructed': これは物理的な障害を示し、フライトが干渉を受けている場合に使う表現です。しかし、フライトキャンセルは通常、天候による影響であって、具体的な物理的障害と結びつくことは少ないため、これも適切ではありません。したがって、正しい答えは 'disrupted' です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0036",
+    "question": "To ensure compliance with safety standards, the construction team must ___ all necessary documents before the project can proceed.",
+    "options": [
+      "submit",
+      "withhold",
+      "propose",
+      "compose"
+    ],
+    "answer": "submit",
+    "meaning": "安全基準を遵守するために、建設チームはプロジェクトが進行する前に必要な書類を '提出しなければならない' 。",
+    "explanation": "文中の主要な動詞は 'must' であり、これは義務を示します。したがって、ここでは必要な書類を 'submit'（提出する）という動作が求められています。選択肢の中で 'submit' だけが、必要な書類を提出するというビジネス文脈において正しい意味を持つ動詞です。 \n\n- 'withhold'（保留する）は、書類を出さないことを意味し、文脈に合いません。\n- 'propose'（提案する）は、何かを提案する行為を指し、書類の提出とはまったく異なる動作です。\n- 'compose'（構成する）は、何かを作り上げることを意味しますが、書類の提出とは無関係です。\n\nこのように、文脈全体と語彙の意味から考えると、正解は 'submit' です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0037",
+    "question": "The advertising agency proposed a new marketing campaign that would effectively _____ the benefits of the product to potential customers.",
+    "options": [
+      "expose",
+      "dispose",
+      "compose",
+      "propose"
+    ],
+    "answer": "expose",
+    "meaning": "広告代理店は、新製品の利点を潜在的な顧客に効果的に「提示する」マーケティングキャンペーンを提案した。",
+    "explanation": "文中の動詞 '_____ the benefits' に入る適切な単語を選ぶ必要があります。正解は 'expose' です。この場合、'expose' は「（情報や内容を）示す、明らかにする」という意味で、製品の利点を顧客に示すという文脈において最も適切です。<br>他の選択肢は次の通りです：<br>1. 'dispose' は「処分する」という意味で、この文脈では不適切です。<br>2. 'compose' は「構成する」という意味であり、製品の利点を「構成する」ことは文脈上意味を成しません。<br>3. 'propose' は「提案する」という意味であり、実際に利点を提示する行為を示すには不適切です。この場合、動作の主語は広告代理店自身であり、製品の利点を提示する行為を表すには 'expose' が最も適切です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0038",
+    "question": "To ensure a smooth transition during the office ___, the management has scheduled a meeting to inform all employees.",
+    "options": [
+      "renovation",
+      "renovative",
+      "renovator",
+      "renovated"
+    ],
+    "answer": "renovation",
+    "meaning": "オフィスの改装作業がスムーズに進むよう、経営陣は全従業員に知らせるための会議を予定しています。",
+    "explanation": "この文における空欄には名詞が必要です。'renovation'はオフィスの改装を意味する名詞で、文中では名詞として機能しています。\n\n選択肢の分析:\n1. 'renovation' (正解): 名詞であり、改装という行為を指しているため、この文脈に適しています。\n2. 'renovative' (誤り): 形容詞であり、名詞として使うことはできません。\n3. 'renovator' (誤り): 名詞ですが、改装を行う人を指し、この文では不要です。\n4. 'renovated' (誤り): 過去分詞であり、名詞が求められる位置には適合しません。名詞を必要とするこの文脈では、'renovation'のみが正しい選択となります。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0039",
+    "question": "We sincerely apologize for the unexpected delay in the shipment of your order, and we appreciate your __________ as we resolve this matter.",
+    "options": [
+      "patiently",
+      "patience",
+      "patience's",
+      "patienceful"
+    ],
+    "answer": "patience",
+    "meaning": "あなたのご理解を感謝いたします。",
+    "explanation": "文頭の「We sincerely apologize for the unexpected delay in the shipment of your order」は謝罪する内容で、空欄には感謝の意を表す名詞が必要です。この文では、'patience'が適切な名詞であり、顧客の忍耐を感謝する場面にふさわしいです。\n\n- 'patiently'は副詞ですが、空欄には名詞が必要なので不正解です。\n- 'patience’s'は所有格ですが、元の文の構造では不適切です。\n- 'patienceful'は英語として間違っており、正しい単語ではありません。 \nしたがって正解は'patience'です。これによって文は、顧客の忍耐に対する感謝が適切に表現されます。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0040",
+    "question": "As part of the requirements for the office building construction project, the company must _______ safety standards as mandated by the local authorities.",
+    "options": [
+      "adhere",
+      "adapt",
+      "advocate",
+      "analyze"
+    ],
+    "answer": "adhere",
+    "meaning": "オフィスビル建設プロジェクトの一環として、会社は地元当局によって義務付けられた安全基準を______しなければならない。",
+    "explanation": "文中の動詞 'must' は義務を示しており、空欄には安全基準を守るという意味の語が必要です。'adhere' は '厳守する' という意味で文脈に合致します。 'adapt' は '適応する' と訳され、基準の変更を指すことが多いので不適切です。 'advocate' は '支持する' や '提唱する' という意味で、基準を守るという意味にはなりません。 'analyze' は '分析する' という意味で、基準を守る行動とは無関係です。従って、正しい答えは 'adhere' です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0041",
+    "question": "During the recent audit, the accountant advised the team to carefully __________ the financial reports to identify any discrepancies.",
+    "options": [
+      "examine",
+      "execute",
+      "estimate",
+      "exaggerate"
+    ],
+    "answer": "examine",
+    "meaning": "最近の監査の中で、会計士はチームに財務報告書を注意深く__________し、いかなる不一致を特定するように助言した。",
+    "explanation": "この文の主語は「the accountant」で、動詞「advised」が使われています。重要なポイントは、会計士が報告書を注意深く「何をするべきか」という指示の動作を表す動詞を選ぶ必要があることです。正解は「examine」で、これは「詳しく調べる」という意味です。誤った選択肢を見てみましょう。\n\n1. **execute** (実行する): これは計画やタスクを実行することを指し、財務報告書の不一致を確認するという文脈には合いません。\n2. **estimate** (見積もる): これは予測や推測をすることを意味し、報告書の詳細を確認する行為には適していません。\n3. **exaggerate** (誇張する): これは能力や状況などを過大に表現することを指し、監査の文脈において相応しくありません。 \n\nこのように、正解である「examine」は報告書の詳細を調べ、不一致を確認する目的にぴったりです。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0042",
+    "question": "The new safety manual outlines several procedures that employees must ___ to ensure compliance with the updated regulations.",
+    "options": [
+      "adhere",
+      "adapt",
+      "aggregate",
+      "advocate"
+    ],
+    "answer": "adhere",
+    "meaning": "新しい安全マニュアルは、従業員が更新された規制に準拠するために、いくつかの手順に従わなければならないことを示しています。",
+    "explanation": "文の主語は「employees」で、動詞は「must」です。これは義務を示す表現で、続く動詞は不定詞の形となり、その目的は「procedures」となっています。\n\n1. **adhere**: 「従う、固守する」という意味で、文脈上、手順に従うことが求められているため正解です。\n2. **adapt**: 変化させる、適応するという意味で、手順に「従う」という行動ではなく、内容を変えることを示唆しているため不正解です。\n3. **aggregate**: 集める、総計するという意味で、手順に従うという文脈には合わないため不正解です。\n4. **advocate**: 支持することを示す単語であり、要求されているのは手順に従う行動であって、支持することではないため不正解です。したがって、選択肢の中で「adhere」が唯一の正しい答えです。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0043",
+    "question": "The office copier has experienced a malfunction, and we need to find a reliable _____ to fix it.",
+    "options": [
+      "repair",
+      "repairs",
+      "repairing",
+      "repaired"
+    ],
+    "answer": "repair",
+    "meaning": "オフィスのコピー機が故障し、修理を依頼する必要があることを表す文で、空欄には名詞が必要である。",
+    "explanation": "この文には主語「The office copier」と動詞「has experienced」が含まれており、空欄の前に「a」という不定冠詞があります。したがって、空欄には名詞が入ることが求められます。<br>選択肢の中で、「repair」は名詞であり、「修理」という意味になりますので、文脈に合っており正解です。<br>他の選択肢について説明します。<br>1. \"repairs\" は名詞の複数形ですが、「a」ではなく「some」や「the」が必要な文脈です。<br>2. \"repairing\" は動名詞であり、名詞ではなく動作を示すため文法的に不適切です。<br>3. \"repaired\" は過去分詞で、「修理された」という形容詞的な役割を果たしますが、ここでは名詞が要求されているため不正解です。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0044",
+    "question": "The management team __________ with local farmers since the beginning of the year to negotiate better prices for their produce.",
+    "options": [
+      "negotiate",
+      "negotiated",
+      "negotiating",
+      "negotiates"
+    ],
+    "answer": "has negotiated",
+    "meaning": "管理チームは今年の初めから地元の農家と交渉を行っている。",
+    "explanation": "この文では、時制の手がかりとして「since the beginning of the year」が示されています。このフレーズは現在完了形の使用を示唆しており、過去から現在までの間に継続して行われている動作を表しています。選択肢の中で「has negotiated」が現在完了形であり、正しい文脈に合っているため、これが正解です。\n\n1. **negotiate**（動詞の原形）は、文の時制に合わず、現在形や過去形の表現が求められています。\n2. **negotiated**（過去形）は、過去に完了した動作を表すものであり、「since」との組み合わせで用いることはできません。\n3. **negotiating**（現在分詞）は、進行形を示しますが、ここでは完了時制が求められています。\n\nしたがって、正解は「has negotiated」です。",
+    "question_type": "動詞問題 (Verb - Tense/Voice)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0045",
+    "question": "The office layout ______ during the renovation process, and employees will be notified about the changes next week.",
+    "options": [
+      "is modified",
+      "modifies",
+      "modified",
+      "modifying"
+    ],
+    "answer": "is modified",
+    "meaning": "オフィスのレイアウトが改装過程で変更され、従業員には来週その変更について通知されます。",
+    "explanation": "正解は「is modified」です。この文は受動態であり、主語「the office layout」が受ける動作を示しています。受動態の構造は \"be動詞 + 過去分詞\" となります。ここでは未来の出来事に言及しているため、現在形の「is modified」が最適です。 \n\n選択肢「modifies」は現在形の能動態で主語が動作を行う形ですが、文脈から見ると適切ではありません。 \n選択肢「modified」は過去形であり、すでに起こったことを示すため不適です。また、「modifying」は現在分詞ですが、文が進行形でないため不正確です。",
+    "question_type": "動詞問題 (Verb - Tense/Voice)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0046",
+    "question": "The new commercial property is highly _______ for businesses looking to expand their operations in the area.",
+    "options": [
+      "expandable",
+      "expansion",
+      "expansive",
+      "expanded"
+    ],
+    "answer": "expansive",
+    "meaning": "新しい商業物件は、そのエリアで事業を拡大しようとする企業にとって非常に_______です。",
+    "explanation": "この文では、空欄には「形容詞」が必要です。主語は「The new commercial property」で、述語は「is」であるため、主要な形容詞が適切な選択肢になります。\"expansive\"（広大な、広がりのある）は意味的に正確で、企業が拡大するのに適した物件を表現しています。他の選択肢は次のとおりです：\n1. \"expandable\"（拡張可能な）は形容詞ですが、文脈では不適切です。物件自体が広がっているでなく、可能性に関する表現です。\n2. \"expansion\"（拡大）は名詞であり、主語に合わず文法的に不適切です。\n3. \"expanded\"（拡張された）は過去分詞であり、文中では意味が合いません。物件の特性を示す際には動詞的なニュアンスが必要ないためです。したがって、正解は \"expansive\" です。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0047",
+    "question": "The farewell party will be held this Friday ____ John has decided to resign as he has received a better job offer.",
+    "options": [
+      "provided that",
+      "although",
+      "because",
+      "unless"
+    ],
+    "answer": "because",
+    "meaning": "ジョンがより良い仕事のオファーを受けたため、彼が辞職を決定したので、送別会は今週金曜日に開催される。",
+    "explanation": "この問題文では、'the farewell party will be held this Friday'と'John has decided to resign'の関係を考慮する必要があります。正解の選択肢は'because'です。この接続詞は、因果関係を示すものであり、後の節が前の節の理由を述べています。したがって、正しい文は「送別会は今週金曜日に開催されるのが、ジョンが辞職を決定した理由だ」となります。 \n\n他の選択肢を見てみましょう。\n- 'provided that'は「〜という条件で」という意味であり、条件文に使われますが、この文脈では適切ではありません。\n- 'although'は「〜だが」という対比を示す接続詞で、送別会の開催理由としては使えません。\n- 'unless'は「〜しなければ」という意味の接続詞で、文脈に合わない条件を示すものなので、この場合は不適切です。 \n\nしたがって、正しい接続詞は'because'で、他の選択肢は文脈に合致しないため誤りです。",
+    "question_type": "接続詞問題 (Conjunction)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0048",
+    "question": "The recent audit revealed that the firm's __________ of expenses was significantly less than the company had initially forecasted.",
+    "options": [
+      "efficiently",
+      "efficiency",
+      "inefficient",
+      "efficient"
+    ],
+    "answer": "efficiency",
+    "meaning": "最近の監査は、会社の経費の効率性が当初予測されていたものよりも著しく低いことを明らかにした。",
+    "explanation": "この文の主語は「recent audit」で、述語動詞は「revealed」となっています。空欄の前には「the firm's」がありますので、文脈としては「firm's」の後に続く名詞が必要です。選択肢の中で唯一名詞である「efficiency」が正解です。この名詞は監査に関連する文脈に置いて意味が合います。他の選択肢の解説は以下の通りです：\n- \"efficiently\"（副詞）は、動詞を修飾するために使うもので、この文では名詞が必要な位置です。\n- \"inefficient\"（形容詞）は、「効率が悪い」という意味ですが、名詞が必要なため誤りです。\n- \"efficient\"（形容詞）は、「効率的な」という意味ですが、これも名詞ではないため文脈に合いません。したがって、正解は「efficiency」である。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0049",
+    "question": "The cafeteria will introduce new meal options ___ employee feedback collected last month.",
+    "options": [
+      "from",
+      "at",
+      "about",
+      "with"
+    ],
+    "answer": "from",
+    "meaning": "社内食堂は、先月集めた従業員のフィードバックに基づいて新しい食事オプションを導入する予定です。",
+    "explanation": "この文において、”___ employee feedback collected last month.”という文構造は、前置詞「from」が適切です。「from」は「出所」「元」を示す前置詞であり、フィードバックの出所が「従業員」であることを示します。したがって、\"from employee feedback\"が正解です。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0050",
+    "question": "The attorney emphasized the importance of a comprehensive _____ to ensure all client information remains secure during the audit process.",
+    "options": [
+      "contract",
+      "clause",
+      "document",
+      "article"
+    ],
+    "answer": "clause",
+    "meaning": "弁護士は、監査過程においてすべてのクライアント情報が安全に保たれるよう、包括的な「条項」の重要性を強調しました。",
+    "explanation": "文中の空欄に入る言葉は「条項(clause)」です。法律事務所の文脈では、契約書や守秘義務に関する文書内の特定の条文を指すため、「条項」はこの文脈で最も適切な言葉です。「契約(contract)」は全体の合意を意味し、この文の特定の文脈には合いません。「文書(document)」は一般的すぎて、具体的な意味を持ちません。「条項(article)」は類似しますが、通常は契約書の構造内の特定のセクションを示し、ここでは適切な選択肢ではありません。したがって、正しい答えは「clause」です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0051",
+    "question": "The company is seeking to ____ contracts with local farmers to supply fresh produce directly to its stores.",
+    "options": [
+      "produce",
+      "production",
+      "productive",
+      "productively"
+    ],
+    "answer": "produce",
+    "meaning": "企業は、地元の農家と契約を結び、店舗に新鮮な農産物を直接供給しようとしています。",
+    "explanation": "この文では、空欄に入るのは動詞である必要があります。'seeking to'の後には動詞の原形が必要なため、正解は'produce'です。'production'は名詞であり、ここでは使えません。'productive'は形容詞であり、動詞の役割を果たせません。'productively'は副詞であり、文中の他の要素と合っていないため、不適切です。したがって、正解は'produce'です。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0052",
+    "question": "In our recent negotiations with local farmers, we made sure to clearly ____ the parameters of our sourcing agreement to avoid any misunderstandings.",
+    "options": [
+      "articulate",
+      "interrogate",
+      "subordinate",
+      "dedicate"
+    ],
+    "answer": "articulate",
+    "meaning": "私たちの最近の地元農家との交渉では、誤解を避けるために調達契約の条件を明確に' ____ 'することを確実にしました。",
+    "explanation": "この文では、'____'に必要なのは、契約の条件を明確にするという意味です。正解の' articulate 'は『明確にする、はっきり述べる』という意味です。一方、'interrogate'（尋問する）は、質問を通して情報を引き出すという意味であり、交渉の文脈には不適切です。'subordinate'（下に置く）は、主従関係にあることを示し、ここでは文脈から外れています。'dedicate'（専念する）は、何かに情熱を注ぐことを意味し、条件を示す場面には不適当です。つまり、'articulate'がこの文脈に最も適しているため、正解とされます。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0053",
+    "question": "The cafeteria menu has been improved, and we hope that the changes will be received __________ by the employees in the upcoming satisfaction survey.",
+    "options": [
+      "promptly",
+      "significantly",
+      "happily",
+      "deliberately"
+    ],
+    "answer": "significantly",
+    "meaning": "社内食堂のメニューが改善され、今後の満足度アンケートで従業員にその変更が「大きく」受け入れられることを期待しています。",
+    "explanation": "この文の主語は「the changes」で、動詞は「will be received」です。「received」の修飾語として適切な副詞が必要です。選択肢の中で「significantly」は「大きく、顕著にという意味」なので文脈に合い、正解です。<br>他の選択肢について考えると、<br>1.「promptly」は「迅速に」という意味で、受け入れられる様子には該当しません。<br>2.「happily」は「幸せに」という意味で、受け入れられるという結果を示すには不適切です。<br>3.「deliberately」は「意図的に」という意味で、変更を受け入れる様子を示していません。これらの理由により、正しい選択肢は「significantly」です。",
+    "question_type": "副詞問題 (Adverb)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0054",
+    "question": "The accountant prepared a detailed report to thoroughly ____(analyze) the company's spending over the last fiscal year.",
+    "options": [
+      "analysis",
+      "analyzed",
+      "analytical",
+      "analyzing"
+    ],
+    "answer": "analysis",
+    "meaning": "会計士は、昨年度の会社の支出を徹底的に分析するための詳細な報告を準備しました。",
+    "explanation": "本文では、動詞 'to analyze' の後に名詞が必要です。このため、正解となる 'analysis' は 'analyze' から派生した名詞です。他の選択肢を見てみましょう。 'analyzed' は過去形の動詞であり、文脈にマッチしません。 'analytical' は形容詞ですが、この文の構造からは名詞が必要です。 'analyzing' は現在分詞であり、名詞としては機能しません。従って、正しい選択肢は 'analysis' です。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0055",
+    "question": "To accommodate the needs of the renovation project, all employees are requested to __________ their workstations temporarily to ensure a smooth transition during this period.",
+    "options": [
+      "adapt",
+      "adopt",
+      "accept",
+      "except"
+    ],
+    "answer": "adapt",
+    "meaning": "改装プロジェクトのニーズに応じて、すべての従業員に、一時的に作業スペースを変更するよう要請されています。この期間中のスムーズな移行を確保するためのものです。",
+    "explanation": "この文では、従業員が作業スペースを一時的に変更することが求められています。この場合、正しい選択肢は 'adapt' です。'adapt' は「適応する、調整する」という意味であり、状況に応じた行動を示しています。選択肢のその他の単語は誤りです。\\n- 'adopt' は「採用する、受け入れる」という意味で、文脈では作業スペースを変更することには直接関係しません。\\n- 'accept' は「受け入れる」という意味ですが、作業スペースの変更についての活動ではなく、他者の提案に対する反応を示します。\\n- 'except' は「除外する」という意味であり、ここでは全く逆の行動を示すため、不適切です。このような理由から、正解は 'adapt' となります。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0056",
+    "question": "During the check-in process, the receptionist asked if Mr. Johnson had confirmed ___ reservation for his stay, as they noted that there was a discrepancy in their system.",
+    "options": [
+      "his",
+      "he",
+      "them",
+      "their"
+    ],
+    "answer": "his",
+    "meaning": "チェックインプロセス中、受付係はジョンソン氏が滞在のための予約を___確認したかどうか尋ねました。彼らはシステムに相違点があることに気付きました。",
+    "explanation": "この文では、主語が「Mr. Johnson」であり、文脈上、空欄には彼自身の予約を指す代名詞が必要です。選択肢の中で「his」が正しいのは、「his reservation」が「彼の予約」を意味する所有格だからです。「he」は主格代名詞で適切ではなく、「them」は目的格で、予約に対する適切な格ではありません。「their」は複数主語の所有格であり、ここでは単数の「Mr. Johnson」を指しているため誤りです。",
+    "question_type": "代名詞問題 (Pronoun - Case)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0057",
+    "question": "The attorney reminded his client that all __________ information must be protected under the terms of their agreement.",
+    "options": [
+      "confidential",
+      "confidant",
+      "confide",
+      "confident"
+    ],
+    "answer": "confidential",
+    "meaning": "弁護士は、クライアントに対し、すべての守秘義務が契約の条件に基づき保護されるべきであることを思い出させた。",
+    "explanation": "選択肢の中で「confidential」が正解です。この文では「守秘情報」という意味合いの名詞を修飾する形容詞が必要です。「confidential」は「秘密の」「守秘義務の」という意味で、法律や契約の文脈において特に使われます。\n\n他の選択肢は次の通りです:\n1.「confidant」は「信任を受けた人」または「腹心」を意味する名詞であり、文脈に合いません。\n2.「confide」は「打ち明ける」という動詞であり、ここでは名詞を修飾すべき文脈で正しくありません。\n3.「confident」は「自信がある」という形容詞ですが、ここでは「守秘情報」を修飾する形容詞が求められているため、適当ではありません。文全体の構造は、主語（the attorney）が動詞（reminded）と目的語（his client）によって形成されており、続いて補語として「confidential information」が求められています。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0058",
+    "question": "Due to the severe weather conditions, the flight has been __________, and passengers may choose to either receive a refund or rebook at no extra charge.  ____",
+    "options": [
+      "cancellation",
+      "canceling",
+      "canceled",
+      "cancelling"
+    ],
+    "answer": "cancellation",
+    "meaning": "厳しい天候条件により、フライトが____、乗客は返金を受けるか、追加料金なしで再予約することができます。",
+    "explanation": "文の構造は「the flight has been __________」なので、空欄には名詞が必要です。この場合、正解の選択肢である「cancellation」は動詞「cancel」が名詞化されており、フライトの中止やキャンセルを指します。 他の選択肢について見てみましょう：\n- 「canceling」および「cancelling」は動詞の現在分詞形で、ここでは必要ありません。\n- 「canceled」は過去分詞ですが、同じく名詞形ではないため文脈に合いません。 したがって、正解は「cancellation」となります。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0059",
+    "question": "Before signing the lease agreement, it is essential to conduct a thorough __________ of the commercial property to identify any potential issues.",
+    "options": [
+      "inspect",
+      "inspected",
+      "inspection",
+      "inspecting"
+    ],
+    "answer": "inspection",
+    "meaning": "リース契約に署名する前に、商業物件の徹底的な検査を実施することが重要です。",
+    "explanation": "この文の空欄には名詞が入る必要があります。主語「it」と述語動詞「is」に挟まれているため、空欄には名詞が配置されなければなりません。この場合、「inspection」が正解です。\n\n1. **inspect** - これは動詞形であり、文脈上、名詞が必要なところに動詞を置くことはできません。\n2. **inspected** - これは過去分詞形で、名詞を必要とする文脈には不適当です。\n3. **inspection** - この言葉は名詞であり、文脈における「検査」または「調査」という意味で適切です。\n4. **inspecting** - これは動名詞形または現在分詞形であり、名詞が必要な文に用いるのは不適切です。\n\nしたがって、正しい選択肢は「inspection」であり、他の選択肢はすべて誤りです。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0060",
+    "question": "Since the printer has been malfunctioning for several days, we need to ______ a technician to address the issue promptly.",
+    "options": [
+      "summon",
+      "convince",
+      "assure",
+      "compile"
+    ],
+    "answer": "summon",
+    "meaning": "プリンターが数日間故障しているため、問題に迅速に対処するために技術者を派遣する必要があります。",
+    "explanation": "正解の「summon」は、誰かを呼ぶまたは召喚するという意味があり、技術者を緊急に呼び寄せるという文脈に非常に適しています。他の選択肢について見てみましょう。\n\n- 「convince」は「説得する」という意味であり、技術者を呼ぶ際ではなく、彼らに来てもらう理由を説得することに関連します。文の意味に合致しないため不正解です。\n- 「assure」は「安心させる」という意味ですが、これは技術者を呼ぶこととは直接的な関係がなく、代わりにクライアントや従業員に対して安心を提供することに関する単語です。\n- 「compile」は「まとめる」という意味で、必要な情報やデータを集めることに使用されますが、技術者を呼ぶ行動には関連しません。\n\nこのように、文脈を考慮すると「summon」が最も適切な選択肢であり、他の3つはその目的には適さないため不正解となります。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0061",
+    "question": "After reviewing the financial statements, the auditor concluded that the company's expenses were _____ increasing due to unmonitored transactions.",
+    "options": [
+      "significantly",
+      "significant",
+      "significance",
+      "signifying"
+    ],
+    "answer": "significantly",
+    "meaning": "財務諸表を見直した後、監査人は企業の経費が監視されていない取引によって著しく増加していると結論付けました。",
+    "explanation": "この文の主語は 'the auditor' 、動詞は 'concluded' です。文中の動詞 'concluded' は副詞によって修飾され、 'how'（どのように）会社の経費が増加しているかを説明しています。選択肢の中で副詞として正しいのは 'significantly' です。これは、増加の程度を強調するために必要な副詞です。他の選択肢は次の通りです: 'significant' は形容詞であり、名詞を修飾するのに適していますが、副詞としては使えません。'significance' は名詞で、文中で必要とされる品詞ではありません。'signifying' は現在分詞で、副詞としては正しく使用されないため不適切です。このため、正しい答えは 'significantly' です。",
+    "question_type": "副詞問題 (Adverb)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0062",
+    "question": "In order to protect client confidentiality, it is crucial that all employees ______ the terms of the non-disclosure agreement they signed at the beginning of their employment.",
+    "options": [
+      "enforce",
+      "retain",
+      "validate",
+      "construe"
+    ],
+    "answer": "construe",
+    "meaning": "クライアントの機密を守るためには、すべての従業員が雇用開始時に署名した守秘義務契約の条項を正しく解釈することが重要です。",
+    "explanation": "この文の主語は「all employees」で、述語は「must ______ the terms」となっています。「construe」は「解釈する」という意味であり、契約の内容を正しく理解することが重要であるという文脈に合っています。その他の選択肢について、まず「enforce」は「施行する」という意味であり、契約の内容を実行することを指します。これでは意味が異なるため不適切です。「retain」は「保持する」という意味で、契約の内容を持ち続けることですが、文脈には合いません。「validate」は「妥当性を確認する」という意味ですが、契約条項を理解することとは異なります。したがって、正しい答えは「construe」です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0063",
+    "question": "The city officials decided to adjust the schedule for the road construction project ___ to minimize disruption during rush hour.",
+    "options": [
+      "temporarily",
+      "temporary",
+      "temporal",
+      "temporarilyly"
+    ],
+    "answer": "temporarily",
+    "meaning": "市の職員は、ラッシュアワーの間の混乱を最小限に抑えるために、道路工事のスケジュールを‘一時的に’調整することを決定しました。",
+    "explanation": "この文では、文脈に合った副詞が必要です。正しい選択肢は「temporarily」で、これは「一時的に」という意味を持ち、動詞「adjust」に対して適切に修飾します。名詞「temporary」は誤った選択肢です。なぜなら、名詞は動詞を修飾することができないからです。「temporal」も誤りであり、通常は時間に関連する形容詞として使われるため、文脈に合いません。「temporarilyly」は存在しない単語で、正しい副詞の形ではありません。したがって、正解は「temporarily」になります。",
+    "question_type": "副詞問題 (Adverb)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0064",
+    "question": "The city council has decided to _______ the infrastructure improvement project in order to meet the upcoming deadlines for road construction and citizen briefings.",
+    "options": [
+      "accelerate",
+      "allocate",
+      "evaluate",
+      "contemplate"
+    ],
+    "answer": "accelerate",
+    "meaning": "市議会は、道路工事と市民説明会の締切を守るために、インフラ改善プロジェクトを加速させることに決定したという状況を表す文です。",
+    "explanation": "この文では、'_______'に入る適切な語は、プロジェクトを進行させる行動を示す動詞です。'accelerate'（加速する）は、スケジュールなしで進行するという意味で適切です。一方、'allocate'（割り当てる）はリソースを配置することを表し、プロジェクトのスピードには関係がありません。また、'evaluate'（評価する）は進行中のプロジェクトの評価を指し、これも状況には合いません。最後に、'contemplate'（考慮する）は考えることを意味し、実際の行動を示す上で不適切です。このように、文脈と行動に基づいて'欠落した単語'を導き出すことが重要です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0065",
+    "question": "In order to uphold the principles of privacy, all parties involved in the contract must agree to the terms of confidentiality and any ______________ regarding the audit process.",
+    "options": [
+      "provision",
+      "derivation",
+      "concession",
+      "convention"
+    ],
+    "answer": "provision",
+    "meaning": "契約において、守秘義務と法的監査手続きに関するすべての当事者が同意しなければならない条件が必要です。",
+    "explanation": "ここでの主語は「all parties involved in the contract」で、動詞は「must agree」です。文の流れは、守秘義務を維持するために必要な条件を示しています。正解は 'provision' で、これは「契約条件」を意味し、まさにここで求められているものです。 \n1. 'derivation' は、何かがどのように生じたかを示す過程を指すので、文脈には合いません。\n2. 'concession' は「譲歩」であり、契約の条件としては不適切です。\n3. 'convention' は「慣習」や「協定」を意味しますが、ここでは具体的な契約条件を指す必要があるため不適切です。したがって、他の選択肢は文脈に合いません。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0066",
+    "question": "The construction company submitted its plans for the new office building to the local authorities, ensuring that all __________ of safety and compliance were thoroughly addressed before commencing work.",
+    "options": [
+      "aspects",
+      "inspects",
+      "prospects",
+      "suspects"
+    ],
+    "answer": "aspects",
+    "meaning": "建設会社は、新しいオフィスビルの計画を地元当局に提出し、すべての安全性と遵守の要素が作業を開始する前に徹底的に対応されていることを確認した。",
+    "explanation": "文においては、主語は「The construction company」で、動詞は「submitted」となります。「all __________ of safety and compliance」の部分は名詞が入るため、選択肢はすべて名詞でなければなりません。ここで、‘aspects’（側面）は安全性と遵守の要点を指す適切な言葉となります。\n\n他の選択肢の考察：\n- ‘inspects’（検査）は動詞であり文法的に不適切です。\n- ‘prospects’（見込み、可能性）は主に将来の展望を表し、安全や遵守の観点には適しません。\n- ‘suspects’（容疑者）は名詞として使われるものの、この文脈では安全性と遵守に関する話題とは無関係です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0067",
+    "question": "The firm's ability to ____ confidential information is essential for maintaining client trust and complying with legal standards.",
+    "options": [
+      "retain",
+      "detain",
+      "maintain",
+      "attain"
+    ],
+    "answer": "retain",
+    "meaning": "その事務所の機密情報を（保持することが）クライアントの信頼を維持し、法律基準に従うために不可欠です。",
+    "explanation": "正解の選択肢は「retain」で、これは「保持する、維持する」という意味で、文脈において機密情報を保持する重要性を強調しています。「detain」は「拘束する」という意味であり、機密情報の文脈には合致しません。「maintain」は「維持する」という意味であり、一見合いそうですが、文中の流れを考えると、機密情報そのものを「保持する」ことに対する焦点が優先されるべきです。「attain」は「達成する」という意味で、全く異なる状況を示すため、文脈に合いません。このように、他の選択肢は異なる意味を持っており、正解は質的に唯一無二として文脈に適合します。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0068",
+    "question": "The marketing team will proceed with the campaign proposal ____ the budget is approved by the management.",
+    "options": [
+      "because",
+      "provided that",
+      "despite",
+      "although"
+    ],
+    "answer": "provided that",
+    "meaning": "マーケティングチームは、予算がマネジメントによって承認されると、キャンペーン提案を進めます。",
+    "explanation": "この文で正しい選択肢は「provided that」です。「provided that」は条件を示し、「～の場合に」という意味で使われます。この場合、マーケティングチームがキャンペーン提案を進められるのは、予算が承認される場合に限られることを示しています。\n\n他の選択肢を見ていきましょう。\n- **because**：これは理由を示す接続詞であり、「予算が承認されるから進める」という内容になり、ニュアンスが異なります。\n- **despite**：これは「～にもかかわらず」という意味ですが、文脈からは「予算が承認されない場合でも進める」という真逆の意味になってしまうため不適切です。\n- **although**：これは「～だけれども」という逆接の接続詞ですが、予算が承認されるかどうかにかかわらず進めるという意味になるため、この場合も誤りです。",
+    "question_type": "接続詞問題 (Conjunction)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0069",
+    "question": "The construction company must provide detailed documentation to ensure the __________ of the building project aligns with local safety regulations.",
+    "options": [
+      "compliance",
+      "comply",
+      "complicated",
+      "complying"
+    ],
+    "answer": "compliance",
+    "meaning": "建設会社は、プロジェクトが地元の安全基準に適合することを確実にするために、詳細な文書を提出しなければなりません。",
+    "explanation": "この文では「ensure the __________ of the building project」とあり、空欄には名詞が求められています。正解の「compliance」は名詞であり、文脈に適合します。他の選択肢は以下の理由により不正解です。 \n- 「comply」は動詞であり、名詞が必要な位置には適合しません。\n- 「complicated」は形容詞であり、ここでは名詞が求められているため不適切です。\n- 「complying」は現在分詞で、動詞としては文中での名詞的な役割は果たせません。そのため、空欄には名詞が必要であり、正解は「compliance」である必要があります。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0070",
+    "question": "In order to improve the quality of our cafeteria menu, we are conducting a survey to gauge employee _______ with the current offerings.",
+    "options": [
+      "satisfaction",
+      "ratification",
+      "evaluation",
+      "verification"
+    ],
+    "answer": "satisfaction",
+    "meaning": "私たちの社内食堂のメニューの質を向上させるため、現在の提供内容に対する従業員の____を測る調査を行っています。",
+    "explanation": "この文では、従業員が社内食堂のメニューにどれだけ満足しているかを測定するための調査を行うことが述べられています。正しい選択肢の「satisfaction」は、「満足感」や「満足度」を意味し、文脈に合っています。他の選択肢は以下のように異なる意味を持っています。 1. 「ratification」→これは「承認」や「認可」を意味し、食堂のメニューに関連する文脈では不適切です。 2. 「evaluation」→この語は「評価」という意味ですが、満足度を測るのではなく内容を評価する行為に関連します。 3. 「verification」→この単語は「確認」や「検証」を意味し、従業員の意見に基づく調査には適していません。このように、正しい文脈で正しい語彙を選ぶことが重要です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0071",
+    "question": "In our latest market research report, we found that the ______________ of our main competitor has significantly increased in the last quarter, which could potentially affect our sales performance.",
+    "options": [
+      "traction",
+      "distraction",
+      "enaction",
+      "extraction"
+    ],
+    "answer": "traction",
+    "meaning": "私たちの最新の市場調査レポートでは、主要な競合他社の______________が前四半期に大幅に増加したことが分かり、私たちの販売パフォーマンスに影響を及ぼす可能性があります。",
+    "explanation": "この文では、競合他社の売上や顧客の支持の増加を示すために、‘traction’という語が適切です。‘traction’は、特にビジネスの文脈において、製品や企業が市場でどれくらい支持を得ているかという意味で使われます。\\n\\n一方、‘distraction’は注意をそらすものを意味し、ここでの文脈とは関係がなく誤りです。‘enaction’は行動を実行することを意味し、競合他社の動向を示す文脈には適していません。‘extraction’は物質を取り出すことを指しますが、ビジネスの売上や支持の増加を示す場合には不適切な語です。したがって、正解は‘traction’です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0072",
+    "question": "To ensure compliance with the new safety standards, each employee must read ____ manual before the training begins.",
+    "options": [
+      "they",
+      "their",
+      "them",
+      "themselves"
+    ],
+    "answer": "their",
+    "meaning": "新しい安全基準を遵守するためには、各従業員が研修が始まる前に____マニュアルを読む必要があります。",
+    "explanation": "この文の構造は、主語（each employee）と動詞（must read）の後に所有形容詞（their）が続く必要があります。\"their\"は\"each employee\"（単数）に対する所有を示すために使われます。選択肢の\"they\"（主格）は誤りで、主語として使われるべきです。\"them\"（目的格）も誤りで、動詞の目的語にはならないためです。また、\"themselves\"（再帰代名詞）は自己を指すもので、本文の文脈には適していません。したがって、正しい答えは\"their\"です。",
+    "question_type": "代名詞問題 (Pronoun - Case)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0073",
+    "question": "The office layout will be adjusted for renovations, ____ all employees are informed about the changes in advance.",
+    "options": [
+      "unless",
+      "because",
+      "although",
+      "provided that"
+    ],
+    "answer": "provided that",
+    "meaning": "オフィスのレイアウトは改装のために調整されますが、すべての従業員が変更について事前に知らされる限り、",
+    "explanation": "正解は「provided that」です。この文は条件を示しており、主語と動詞が続く接続詞が必要です。「provided that」は、「～する限り」という意味で、従業員が変更について知らされることがその条件であることを示しています。文全体は「オフィスのレイアウトが調整されるためには、従業員が事前に知らされなければならない。」という意味になります。 \n\n他の選択肢を見てみましょう。 \n- 「unless」は「～でなければ」という意味で、ネガティブな条件を示しますが、文意が合いません。 \n- 「because」は因果関係を示す接続詞で「なぜなら」の意味になりますが、この場合には適していません。 \n- 「although」は対照の意味で、「～にもかかわらず」と訳されますが、この文脈では適さないため、正しくないです。 \n\nしたがって、正解は「provided that」であり、従業員が知っていることが条件として文の意味に合致します。",
+    "question_type": "接続詞問題 (Conjunction)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0074",
+    "question": "In the recent financial audit report, the accountant emphasized the need to ____ spending as part of the new budget strategy.",
+    "options": [
+      "mitigate",
+      "mediate",
+      "motivate",
+      "migrate"
+    ],
+    "answer": "mitigate",
+    "meaning": "最近の財務監査報告書では、会計士が新しい予算戦略の一環として支出を軽減する必要性を強調しました。",
+    "explanation": "この文では、動詞 'mitigate'（軽減する）が正解であり、これは経費削減の文脈に最も適しています。具体的には、'mitigate spending'（支出を軽減する）というフレーズが、新たな予算戦略の実行可能な目標として意味を持ちます。\n\n他の選択肢について考えると、'mediate'（調停する）は、別のコンテキストでの対立を解決する行為を示し、この場面には不適切です。'motivate'（動機付ける）は、人々を行動に駆り立てるという意味を持つため、ここでは不適当です。最後に、'migrate'（移行する）は物理的または概念的な移動を意味し、経費削減という文脈には合致しません。したがって、'mitigate'が最も適した選択肢となります。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0075",
+    "question": "The cafeteria will introduce a new menu ____ response to the feedback from employees regarding their dining experience.",
+    "options": [
+      "in",
+      "at",
+      "with",
+      "on"
+    ],
+    "answer": "in",
+    "meaning": "カフェテリアは従業員からの食事体験に関するフィードバックに応じて新しいメニューを導入します。",
+    "explanation": "この文では、「新しいメニューが従業員のフィードバックに応じて導入される」という意味が示されています。'in response to'は「～に応じて」という表現であり、フィードバックに対して行動を取ることを表しています。選択肢の中で、'in'がこの表現に正しく合致しています。 '\n\n他の選択肢は以下のような理由で誤りです。'at'は特定の地点を示す前置詞であり、ここでは適切ではありません。'with'は何かを持っている場合や同伴する場合によく使われますが、この文脈には合っていません。'on'は一般的に時間や表面を示す際に使われるため、この文の意味合いにはそぐわないです。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0076",
+    "question": "In the recent audit report, it was noted that the increase in operational expenses has significantly affected ____ profitability, which requires immediate attention from the management to address the discrepancies.",
+    "options": [
+      "their",
+      "them",
+      "they",
+      "themselves"
+    ],
+    "answer": "their",
+    "meaning": "最近の監査報告では、運営費の増加が______の収益性に大きな影響を与えたことが指摘されており、それには管理者が不整合を解決するために迅速に対応する必要がある。",
+    "explanation": "この文では、空欄の前に「the increase in operational expenses has significantly affected」があり、これは「の収益性」という名詞に影響を与えることを示しています。このため、所有格の「their」が正しい選択肢です。「their」は「収益性」を持つ「彼らの」という意味であり、文法的にも適合します。<br><br>他の選択肢は以下の理由で不正解です: <br>1. 「them」は目的格の代名詞であり、名詞に修飾される形で使うことができません。<br>2. 「they」は主格の代名詞であり、ここでは名詞としての役割が必要です。<br>3. 「themselves」は再帰代名詞であり、この文脈では「彼ら自身の」という意味で従う主語が必要ですが、それが不足しています。",
+    "question_type": "代名詞問題 (Pronoun - Case)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0077",
+    "question": "We are pleased to confirm your reservation for the conference room, but we need to _____ the check-in time to 3 PM instead of 2 PM.",
+    "options": [
+      "change",
+      "changing",
+      "changed",
+      "changeable"
+    ],
+    "answer": "change",
+    "meaning": "私たちはあなたの会議室の予約を確認できたことを嬉しく思いますが、チェックインの時間を午後2時ではなく午後3時に_____する必要があります。",
+    "explanation": "文の主語は「We」で、動詞「confirm」に続いています。この文では、時間を「～に変更する」という意味で使われているので、動詞の原形「change」が必要です。他の選択肢は次のように誤りです: 'changing'（現在分詞）や 'changed'（過去分詞）は、動詞の役割を果たさず、文における正しい形としては不適切です。'changeable'（形容詞）は、名詞を修飾する形ですが、文の構造上必要な動詞ではありません。したがって、正しい回答は 'change' です。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0078",
+    "question": "The hotel manager informed us that we could check in earlier than planned, but she also needed to confirm _____ reservation details before making any changes.",
+    "options": [
+      "their",
+      "them",
+      "they",
+      "themselves"
+    ],
+    "answer": "their",
+    "meaning": "ホテルのマネージャーは、私たちが予定より早くチェックインできることを知らせてくれましたが、変更を行う前に_____予約の詳細を確認する必要があるとも言っていました。",
+    "explanation": "この文では、空欄に入る代名詞が宿泊予約を指す文脈から「所有格」が必要です。正しい選択肢である「their」は、所有格の人称代名詞で、予約の詳細が誰のものかを示しています。一方で、他の選択肢については次のように説明できます：\n\n1. **them** - 目的格の代名詞であり、動詞と併用することが主な用法です。この文では、主語が必要なため正しくありません。\n2. **they** - 主格の代名詞ですが、この文では名詞の所有を示す必要があります。主格は文の主語として使われ、空欄には適していません。\n3. **themselves** - 再帰代名詞であり、自分自身を指す時に使います。この文の文脈においては、「予約の詳細」が自分自身を持っているという考え方が成り立たないため、適切ではありません。",
+    "question_type": "代名詞問題 (Pronoun - Case)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0079",
+    "question": "The management team has been discussing the possibility of expanding the grocery chain's presence in the local market since last year, and they believe that the new partnership with local farmers will greatly _____ the quality of their products.",
+    "options": [
+      "improves",
+      "improve",
+      "improved",
+      "improving"
+    ],
+    "answer": "improve",
+    "meaning": "経営陣は昨年から地元市場での食料品チェーンの拡大の可能性について話し合っており、新しいパートナーシップが製品の品質を大いに向上させるだろうと信じています。",
+    "explanation": "この文では、「the management team」という主語が単数であるため、動詞は三人称単数形である必要があります。ただし、文脈から見て、「has been discussing」という現在完了進行形が使われているため、次に続く動詞はその後の文脈において一般動詞形である必要があります。この場合、主語「the management team」が「the quality of their products」を「improve（向上させる）」という意味で使っているため、正答は原形の「improve」です。他の選択肢は、以下の理由で誤りです: \n1. \"improves\" - 三人称単数形ではあるが、文の構文上不適切です。\n2. \"improved\" - 過去形で、文の時制に合わないため不適切です。\n3. \"improving\" - 現在分詞形であり、文全体の構文には合致しません。",
+    "question_type": "動詞問題 (Verb - Tense/Voice)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0080",
+    "question": "We would like to confirm your check-in time ______ the upcoming weekend.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "from"
+    ],
+    "answer": "on",
+    "meaning": "私たちはあなたのチェックイン時間を確認したいと思っています。近日中の週末に。",
+    "explanation": "正しい答えは「on」です。「on」は特定の日や週末といった具体的な時点を示す前置詞で、ここでは「the upcoming weekend」という表現がその対象になります。'at'は位置や具体的な時刻に適用され、'in'は期間や場所を示す際に使われるため、文脈上適当ではありません。'from'は起点を示す前置詞であり、これも文脈には合致しません。したがって、正しい前置詞は「on」が最適です。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0081",
+    "question": "The publisher has decided to ___ the schedule for the book release due to unforeseen circumstances involving the author's availability.",
+    "options": [
+      "modify",
+      "mobilize",
+      "modernize",
+      "meditate"
+    ],
+    "answer": "modify",
+    "meaning": "出版社は、著者の都合に関する予期しない事情により、書籍のリリーススケジュールを___することに決めました。",
+    "explanation": "正解の \"modify\" は、予定や計画を変更することを意味します。この文脈においては、出版社が著者の状況に応じてスケジュールを変更しなければならないため、最も適切です。\\n\\n他の選択肢については、\\n- \"mobilize\" （動員する）は、リソースを配備するという意味ですが、スケジュールの変更には使えません。\\n- \"modernize\" （近代化する）は、何かを最新の状態にすることを意味し、スケジュールの変更には関連がありません。\\n- \"meditate\" （瞑想する）は、思索や内省を行うことであり、本文のビジネスコンテキストにはそぐわない言葉です。\\n\\nしたがって、文脈に合致するのは「modify」だけです。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0082",
+    "question": "At the meeting, the manager emphasized the importance of maintaining a strong ___ for workplace safety, urging all employees to adhere to the new guidelines.",
+    "options": [
+      "protocol",
+      "template",
+      "vision",
+      "model"
+    ],
+    "answer": "protocol",
+    "meaning": "会議で、マネージャーは職場の安全性を維持するための強固な___の重要性を強調し、新しいガイドラインに従うよう全従業員に促した。",
+    "explanation": "この文脈では、マネージャーは新しい安全マニュアルに従った業務を確立するために必要な手順または規則を強調しています。ここでの「protocol」は業務を行う上で従うべき慣例やルールを指します。選択肢の説明は次の通りです。\n\n1. **protocol** - 正解。この語は、ビジネス環境において従うべき原則や手続きを表し、安全管理におけるガイドラインと一致します。\n2. **template** - 誤答。この単語は雛形や様式を意味し、具体的な手順や行動指針としての文脈には適しません。\n3. **vision** - 誤答。この語は未来の目標や計画を示す抽象的な概念で、安全基準に関する具体的なルールを指していないため文脈に合いません。\n4. **model** - 誤答。「model」は模範または設計図を指しますが、安全手順という意味では不十分です。安全プロトコルとは異なり、具体的な行動基準としては使われません。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0083",
+    "question": "We regret to inform you that your check-in time has been ____, but we can accommodate a later arrival without any issues.",
+    "options": [
+      "acceptable",
+      "accepted",
+      "acceptance",
+      "accepting"
+    ],
+    "answer": "accepted",
+    "meaning": "ご連絡申し上げますが、チェックイン時間が____ことをお知らせいたします。ただし、遅い到着には問題なく対応できます。",
+    "explanation": "空欄には過去分詞が必要であり、主語の \"your check-in time\" に対する動詞の形が求められています。正解は \"accepted\" で、これは過去分詞として機能し、\"your check-in time has been\" の後に続いて、受動態を形成します。誤った選択肢の解析は次の通りです。1. \"acceptable\" は形容詞であり、状況や物事の状態を表しますが、ここでは動作を示す必要があるため誤りです。2. \"acceptance\" は名詞であり、承認や受理を意味しますが、この文では動詞が必要です。3. \"accepting\" は動名詞または進行形として使われますが、主語の動作を示さないため不適切です。文法的に正しい選択肢は \"accepted\" のみです。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0084",
+    "question": "To celebrate the retirement of our most __________ employee, we are arranging a special farewell event next week.",
+    "options": [
+      "performing",
+      "performance",
+      "performer",
+      "performed"
+    ],
+    "answer": "performer",
+    "meaning": "私たちの最も優秀な従業員の退職を祝うために、来週特別な送別イベントを企画しています。",
+    "explanation": "この文の主語は 'employee' であり、人物を表す名詞が必要です。この場合、空欄には名詞が適切です。選択肢 'performer' は 'perform' の名詞形で、業績を出している従業員を指します。\n\n- **performing** (動名詞/現在分詞): これは動詞の進行形であるため、文の空欄には適合しません。\n- **performance** (名詞): 行為や結果を表す名詞ですが、職業や人物を直接表すものではないため、文脈に合いません。\n- **performed** (過去分詞): これは完成した動作を示す形ですが、名詞として使用することはできず、不適切です。\n\n従って、正解は 'performer' です。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0085",
+    "question": "Please confirm your reservation at the hotel. If your planned ___ time changes, please let us know immediately.",
+    "options": [
+      "arrival",
+      "reveal",
+      "withdraw",
+      "appeal"
+    ],
+    "answer": "arrival",
+    "meaning": "予約の確認をお願いします。もし予定している到着時間が変更する場合は、すぐにお知らせください。",
+    "explanation": "正しい選択肢は 'arrival' で、文脈的に '到着時間'を意味します。他の選択肢を見てみましょう。\n\n1. 'reveal' は '明らかにする' の意味で、時間の変更と関係のない動詞です。\n2. 'withdraw' は '引き出す' または '撤回する' という意味ですが、これもチェックインにおける時間を示す文脈とは一致しません。\n3. 'appeal' は '訴える' という意味ですが、文脈では不適切です。これらの選択肢はすべて 'arrival' のように時間に関連する動詞ではなく、文脈に合わないため正解にはなりません。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0086",
+    "question": "The construction company has submitted its plans to the local authorities to ensure that the new office building meets both environmental and safety ______ before commencement of the project.",
+    "options": [
+      "standards",
+      "criteria",
+      "parameters",
+      "guidelines"
+    ],
+    "answer": "standards",
+    "meaning": "この文は、建設会社が新しいオフィスビルが環境および安全基準を満たしているかを確認するために、地元当局に計画を提出したことを言及しています。",
+    "explanation": "この文の主語は「the construction company」で、動詞は「has submitted」です。文脈から、地元当局に提出された計画が環境および安全の基準を満たす必要があることが明らかです。「standards」という語は、これらの基準を指し、最も適切な選択肢です。 \n\n1. **standards**: 環境と安全に関連した「基準」を示す言葉で、この文脈に最も合致しています。プロジェクト開始前に満たすべき条件として適切です。 \n\n2. **criteria**: こちらも基準という意味ですが、通常は特定の評価や選抜に関連するため、文の具体的な内容に対してやや抽象的です。 \n\n3. **parameters**: これは「 параметри」を指しますが、通常は設定や限界を示します。この文脈では不正確です。 \n\n4. **guidelines**: これは「指針」を示しますが、基準というよりも推奨事項や方向性を与えるものであり、法的な必要条件の文脈には適しません。 \n\nしたがって、なぜ「standards」が正解であり、他の選択肢が不正解であるかを理解できる重要なポイントは、文脈的に必要な基準が具体的であることから来ています。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0087",
+    "question": "The manager's recent decision to directly ______ raw materials from local farmers will not only reduce costs but also support the community. (A) purchase (B) purchasing (C) purchased (D) purchases",
+    "options": [
+      "purchase",
+      "purchasing",
+      "purchased",
+      "purchases"
+    ],
+    "answer": "purchase",
+    "meaning": "マネージャーの最近の決定が、地元の農家から原材料を直接____することは、コストを削減するだけでなく、地域社会を支援することになる。",
+    "explanation": "空欄には動詞が必要です。この文はマネージャーが行う具体的な行動を示しているため、動詞の原型が最適です。\n\n- 選択肢 (A) 'purchase' は動詞の原型で、文の主語である 'manager's decision' と連携しています。この使用は文法的に正しいです。\n- 選択肢 (B) 'purchasing' は現在分詞で名詞的な役割を持つ場合もありますが、この文では動作を示す必要があるため不適切です。\n- 選択肢 (C) 'purchased' は過去形または過去分詞で、過去の出来事を表すため、ここでは動作の現在形が求められています。\n- 選択肢 (D) 'purchases' は三人称単数形であり、主語が 'decision' という単数名詞であるため、直接的に動作を示す動詞としては使えません。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0088",
+    "question": "We are all looking forward to celebrating Anna's achievements ____ a farewell party next Friday.",
+    "options": [
+      "at",
+      "in",
+      "with",
+      "for"
+    ],
+    "answer": "at",
+    "meaning": "私たちは皆、来週の金曜日にアナの業績を祝う送り出しのパーティーを楽しみにしています。",
+    "explanation": "この文の文脈では、'celebrating'の後に前置詞が必要で、具体的にはある特定の場所か時間を示す前置詞が適当です。'at'はイベントが行われる物理的な場所を示しているため、最も適切です。'in'は通常、地点や内部を示すのに使われるため不適切です。'with'は相手や物との関連を示すため、文の構造に合いません。'for'は目的を示すため、文脈に合致しません。このため、'at'が正解になります。",
+    "question_type": "前置詞問題 (Preposition)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0089",
+    "question": "The author is __________ with the publisher to revise the contract for the upcoming book edition due to the delays in the publication schedule.",
+    "options": [
+      "agreeing",
+      "agreed",
+      "agreement",
+      "disagreeing"
+    ],
+    "answer": "agreeing",
+    "meaning": "著者は出版スケジュールの遅延に対処するために、出版社と契約を見直すことに合意している。",
+    "explanation": "この文では、主語は「the author」で、動詞は「is」で、後に続く動詞の形を考慮しなければなりません。正解は「agreeing」で、現在進行形で契約の見直しに合意していることを示しています。他の選択肢を見ると、\"agreed\"は過去形であり、過去の状態を示すため文脈に合いません。\"agreement\"は名詞であり、動詞の形式が必要な文には合いません。\"disagreeing\"は否定的な意味を持ち、契約の修正とは矛盾するため不正解です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0090",
+    "question": "Due to unforeseen circumstances, the publisher must ______ the release date of the new book to accommodate the author's request for more edits.",
+    "options": [
+      "postpone",
+      "propose",
+      "dispose",
+      "impose"
+    ],
+    "answer": "postpone",
+    "meaning": "予期しない事情のため、出版社は著者のさらなる編集リクエストに応じて新しい本のリリース日を延期しなければなりません。",
+    "explanation": "この文では、出版社が新しい本のリリース日を著者のリクエストに応じて変更する必要があることが述べられています。「postpone」は「延期する」という意味で、この文の内容に合います。他の選択肢はそれぞれ異なる意味を持ちます。\n- 「propose」は「提案する」であり、リリースを変更する場合の適切な動詞ではありません。\n- 「dispose」は「処分する」意味で、まったく文脈に合いません。\n- 「impose」は「課す」や「押し付ける」という意味ですが、文脈的には不適切です。よって、正解は「postpone」です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0091",
+    "question": "The city council is preparing for a major infrastructure upgrade, ____ the public is informed about the necessary road closures beforehand.",
+    "options": [
+      "because",
+      "although",
+      "unless",
+      "while"
+    ],
+    "answer": "unless",
+    "meaning": "市議会は重要なインフラアップグレードの準備を進めているが、市民が必要な道路閉鎖について事前に知らされない場合は。",
+    "explanation": "この文では、'unless'が正しい選択肢です。'unless'は条件を示し、「～でない限り」を意味します。この場合、'市民が事前に必要な道路閉鎖について知らされる'という条件が成立しないならば、市議会はインフラのアップグレードを行っているという文脈が成り立ちません。<br><br>選択肢の'because'は理由を示しますが、文の流れには合致しません。'although'は対比を示すため、条件を述べる文には不適切です。最後に'while'は二つのことが同時に行われることを示しますが、文全体の意味には合いません。したがって、'unless'が唯一の正しい選択肢です。",
+    "question_type": "接続詞問題 (Conjunction)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0092",
+    "question": "The city officials conducted a detailed analysis to determine the best ___ for the infrastructure improvement plan, ensuring that all necessary permits were secured in a timely manner.",
+    "options": [
+      "strategy",
+      "stratagem",
+      "stratum",
+      "stratification"
+    ],
+    "answer": "strategy",
+    "meaning": "市の職員がインフラ改修計画のために、すべての必要な許可が適切に取得されることを確保しながら、最適な戦略を決定するために詳細な分析を行った。",
+    "explanation": "正解は \"strategy\" であり、文脈から考えて \"infrastructure improvement plan\" に基づく最適な行動計画を指します。\n\n\"stratagem\" は策や策略を意味するため、戦略そのものを表す文脈には不適切です。\n\n\"stratum\" は層を指し、地質学的な文脈や社会階層に使われる用語で、ここでは全く関連性がありません。\n\n\"stratification\" は分層・階層化を意味し、状態の構造や分類に関する用語ですが、文脈では具体的な行動計画を必要としています。したがって、誤解を招く可能性がある他の選択肢とは異なり、\"strategy\" だけがこの文脈で必要な意味と役割を果たしています。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0093",
+    "question": "The legal team emphasized the importance of maintaining ______ in all client communications to ensure compliance with confidentiality agreements.",
+    "options": [
+      "discretion",
+      "disruption",
+      "description",
+      "direction"
+    ],
+    "answer": "discretion",
+    "meaning": "法務チームは、全てのクライアントとのコミュニケーションにおいて、守秘義務を確保するために、配慮の重要性を強調しました。",
+    "explanation": "ここでの正解は「discretion」です。この文では、法務チームがクライアントとのコミュニケーションにおいて「守秘義務を守るための配慮」が必要だと述べています。「discretion」は、個人情報や機密情報を扱う際に必要な慎重さや配慮を意味し、法律やビジネスの文脈でよく使われる語です。 \n\n他の選択肢に関しては、次の通りです：\n\n- 「disruption」は混乱や中断を意味し文脈に合いません。\n- 「description」は説明や記述を意味し、法務や契約の文脈には不適切です。\n- 「direction」は方向性や指示を意味しますが、同様にこの文の意図には合いません。 \n\nしたがって、正しい選択肢は「discretion」であることが明確です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0094",
+    "question": "In order to verify the _____ of your reservation, we will need your booking reference number and the correct spelling of your name.",
+    "options": [
+      "confirmation",
+      "conflict",
+      "concession",
+      "conformation"
+    ],
+    "answer": "confirmation",
+    "meaning": "あなたの予約の_____を確認するために、私たちはあなたの予約番号と正しい名前の綴りを必要とします。",
+    "explanation": "この文の主語は「we」（私たち）で、動詞は「will need」（必要とする）です。「confirmation」は名詞であり、「予約の確認」という文脈において最も適切な単語です。他の選択肢は次の通りです。\n- 「conflict」（対立）は、ビジネス上の状況では予約に関する問題を指すが、ここでは不適切です。\n- 「concession」（譲歩）は通常、妥協や譲渡を意味し、予約の確認には関係ありません。\n- 「conformation」（形状または適合性）は予約の確認とは異なる意味で使用されるため、正解ではありません。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0095",
+    "question": "We deeply apologize for the delay in the shipment of your order, and as a gesture of goodwill, we will send you a _____ to use on your next purchase.",
+    "options": [
+      "discount",
+      "discounted",
+      "discounting",
+      "discounts"
+    ],
+    "answer": "discount",
+    "meaning": "あなたの注文の配送遅延について深くお詫び申し上げます。善意の証として、次回の購入に使用できる_____をお送りいたします。",
+    "explanation": "この文は、動詞 'send' の目的語として名詞が必要です。選択肢の中で、'discount' は名詞であり、正解となります。'discounted' は形容詞で製品やサービスを修飾するため使われるが、文中で必要とされる品詞ではありません。'discounting' は動名詞であり、動作を表すにもかかわらず、文の構造的に動詞の目的語にはなれません。'discounts' は複数形の名詞ですが、この文脈では単数の 'discount' が適切であり、発行されるのは一枚のクーポンが普通です。したがって、正しい選択肢は 'discount' です。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0096",
+    "question": "As part of our office renovation project, we need to ______ the current layout to ensure better collaboration among team members.",
+    "options": [
+      "alter",
+      "assure",
+      "advance",
+      "attain"
+    ],
+    "answer": "alter",
+    "meaning": "オフィスの改装プロジェクトの一環として、チームメンバー間のさらなるコラボレーションを確保するために、現在のレイアウトを____しなければなりません。",
+    "explanation": "文の主語は「we」で、動詞は「need to」であり、補語として「the current layout」が続いています。文脈から、必要としているのは「レイアウトを変更する」という意味であり、最も適切な語は「alter」です。他の選択肢は次のように誤りです：\n\n1. **assure** - 「確信させる」や「保証する」という意味で、ここでは適切な動詞ではありません。\n2. **advance** - 「前進する」や「進展させる」という意味ですが、レイアウトに対して使う際には合いません。\n3. **attain** - 「達成する」という意味で、物理的な変更を示唆するものではなく、文脈において不適切です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  },
+  {
+    "id": "p5_0097",
+    "question": "The property manager informed the tenants that the lease agreement would include several __________ concerning the maintenance of the building.",
+    "options": [
+      "clauses",
+      "causes",
+      "claws",
+      "clashes"
+    ],
+    "answer": "clauses",
+    "meaning": "物件管理者はテナントに対し、賃貸契約には建物の維持管理に関するいくつかの条項が含まれることを通知しました。",
+    "explanation": "この文での正解は 'clauses' です。文の主語は 'The property manager'、動詞は 'informed' であり、'the lease agreement' が目的語となります。そして、'would include' に続くのは名詞です。'clauses' は法的または契約における条項を指し、ここで最も適切な意味を持ちます。他の選択肢は次の通りです：\n\n- 'causes' は物事の原因を表しますが、文脈では適切ではありません。\n- 'claws' は動物の爪を意味し、ここでは全く関係のない単語です。\n- 'clashes' は衝突または対立を意味しますが、契約の条項に関しては不適切です。\n\nしたがって、'clauses' が最も適切な選択肢です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 600
+  },
+  {
+    "id": "p5_0098",
+    "question": "Due to severe weather conditions, all flights to New York have been __________. We apologize for the inconvenience and will arrange for alternative flights and hotel accommodations for affected passengers.",
+    "options": [
+      "cancelled",
+      "cancellation",
+      "cancelling",
+      "cancels"
+    ],
+    "answer": "cancelled",
+    "meaning": "ひどい天候のため、全てのニューヨーク行きのフライトがキャンセルされています。ご不便をおかけし、お詫び申し上げます。影響を受けた乗客のために、代替のフライトとホテルの手配を行います。",
+    "explanation": "この文は、すでに起こった事象を述べているため、過去分詞形の 'cancelled'（キャンセルされた）が必要です。選択肢 'cancellation' は名詞であり、文法的に正しくなく、空欄に収まることはできません。 'cancelling' は進行形の動名詞であり、現在進行中のキャンセルを示唆するため、文脈に合いません。また、 'cancels' は三人称単数の現在形ですが、過去の出来事について述べているため不適切です。正解の 'cancelled' は、フライトがすでにキャンセルされたことを示しています。",
+    "question_type": "品詞問題 (Part of Speech)",
+    "target_score": 730
+  },
+  {
+    "id": "p5_0099",
+    "question": "Due to the unexpected delay of your flight caused by severe weather, we recommend that you check with ___ about your alternative flight and accommodation options.",
+    "options": [
+      "them",
+      "they",
+      "their",
+      "theirs"
+    ],
+    "answer": "them",
+    "meaning": "お客様のフライトが悪天候により遅延したため、代替便と宿泊オプションについて ___ に問い合わせることをお勧めします。",
+    "explanation": "この文では、空欄には目的格の代名詞が必要です。“check with”という表現は、誰かに問い合わせることを意味し、その目的語として人称代名詞の目的格である「them」が適切です。「they」は主格で、「their」は所有格、「theirs」は所有代名詞であり、いずれも文の意味と合致しません。従って、「them」が正解となります。",
+    "question_type": "代名詞問題 (Pronoun - Case)",
+    "target_score": 860
+  },
+  {
+    "id": "p5_0100",
+    "question": "During the recent negotiations with local farmers, the grocery chain has decided to __________ the terms of collaboration to ensure mutual benefit and sustainability.",
+    "options": [
+      "restructure",
+      "instruct",
+      "construct",
+      "detect"
+    ],
+    "answer": "restructure",
+    "meaning": "最近の地元農家との交渉において、食料品チェーンは相互の利益と持続可能性を確保するために協力の条件を再構築することに決めました。",
+    "explanation": "この文の主語は「the grocery chain」で、動詞は「has decided」です。空欄に入る動詞は「restructure」であり、これは『再構築する』という意味があります。この文脈では、条件の再構築が双方に利益をもたらすことを暗示しています。\n\n他の選択肢についての説明は以下の通りです：\n- 「instruct」は『指示する』という意味であり、条件を指示するという文脈には不適切です。\n- 「construct」は『構築する』という意味がありますが、協力の既存の条件を再構築するという文脈には合いません。\n- 「detect」は『発見する』という意味であり、ここでは条件を交渉するという行動とは一致しません。つまり、正しい選択肢である「restructure」はこのビジネスシーンにおいて、調整や再評価を行う最適な動詞です。",
+    "question_type": "語彙問題 (Vocabulary)",
+    "target_score": 990
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "short_name": "TOEIC App",
+  "name": "TOEIC Mobile App",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F3EFE6",
+  "theme_color": "#93C1C1",
+  "display": "standalone",
+  "orientation": "portrait"
+}

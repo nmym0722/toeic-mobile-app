@@ -1,0 +1,782 @@
+[
+  {
+    "id": "p4_0001",
+    "title": "新しいITシステムの導入について",
+    "talk": "Hello everyone. I’d like to inform you about the introduction of our new IT system, which includes an ERP and a time management tool. Starting next week, you will be able to log in using your employee ID and password. Remember that we have scheduled training sessions on Monday and Wednesday at 10 AM. It's important that you attend one of these sessions to understand the new features. Thank you!",
+    "translation_talk": "皆さん、こんにちは。新しいITシステムの導入についてお知らせします。このシステムにはERPと勤怠管理ツールが含まれています。来週から、従業員IDとパスワードを使用してログインできるようになります。重要なことは、月曜日と水曜日の午前10時にトレーニングセッションが予定されているので、どちらかのセッションに参加することが大切です。ありがとうございます！",
+    "visual_url": "https://source.unsplash.com/random/400x300?schedule",
+    "visual_title": "トレーニングスケジュール",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What will employees use to log in to the new IT system?",
+        "options": [
+          "A username and access code",
+          "Their employee ID and password",
+          "A personal identification number",
+          "An email and a password"
+        ],
+        "answer": "Their employee ID and password",
+        "translation": "従業員は新しいITシステムにログインするために何を使用しますか？",
+        "options_translation": [
+          "ユーザー名とアクセスコード",
+          "従業員IDとパスワード",
+          "個人識別番号",
+          "メールアドレスとパスワード"
+        ],
+        "explanation": "正解は『従業員IDとパスワード』で、トークの中で\"you will be able to log in using your employee ID and password\"と述べられています。ここで、表現がそのまま使われていないため、説明文に従った言い換えになっています。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "When is the training scheduled?",
+        "options": [
+          "On the weekend",
+          "Next Tuesday",
+          "Monday and Wednesday at 10 AM",
+          "Every day next week"
+        ],
+        "answer": "Monday and Wednesday at 10 AM",
+        "translation": "トレーニングはいつ予定されていますか？",
+        "options_translation": [
+          "週末",
+          "来週の火曜日",
+          "月曜日と水曜日の午前10時",
+          "来週毎日"
+        ],
+        "explanation": "正解は『月曜日と水曜日の午前10時』で、トークの中で\"scheduled training sessions on Monday and Wednesday at 10 AM\"と説明されています。この表現を別の形に言い換えています。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "Refer to the training schedule image. Which session should an employee attend to learn about the new IT system?",
+        "options": [
+          "Monday at 9 AM",
+          "Monday at 10 AM",
+          "Wednesday at 10 AM",
+          "Both sessions"
+        ],
+        "answer": "Both sessions",
+        "translation": "トレーニングスケジュール画像を参照してください。従業員は新しいITシステムについて学ぶためにどのセッションに参加するべきですか？",
+        "options_translation": [
+          "月曜日の午前9時",
+          "月曜日の午前10時",
+          "水曜日の午前10時",
+          "両方のセッション"
+        ],
+        "explanation": "正解は『両方のセッション』です。トークでは\"It's important that you attend one of these sessions\"と言われており、画像には月曜日と水曜日にトレーニングがあることが示されています。これにより、両方のセッションに参加する重要性が強調されています。",
+        "question_type": "Graphic",
+        "target_score": 600,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0001.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p4_0002",
+    "title": "サプライヤーからの見積もり変更と価格交渉について",
+    "talk": "Good afternoon, everyone. Today, I want to talk about the recent updates we received from our supplier regarding the quotations for the parts we ordered. The pricing has changed due to various factors including material costs and shipping delays. It's important that we discuss these new quotes and negotiate the best possible prices to ensure our budget remains within limits. Please take a look at the updated figures I have shared with you, and let's plan to meet later this week to finalize our decisions.",
+    "translation_talk": "皆さん、こんにちは。今日は、私たちが注文した部品に関するサプライヤーからの最近の見積もりの変更についてお話ししたいと思います。価格は、材料費や輸送の遅延などのさまざまな要因により変更されました。新しい見積もりについて議論し、予算を抑えるために最良の価格を交渉することが重要です。共有した最新の数字を確認し、今週後半に最終的な決定をするために会合を計画しましょう。",
+    "visual_url": "https://source.unsplash.com/featured/?schedule",
+    "visual_title": "更新された見積もりスケジュール",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What factors contributed to the changes in pricing?",
+        "options": [
+          "Changes in supplier management.",
+          "Increased material costs and shipping delays.",
+          "New contracts with manufacturers.",
+          "Adjustments in production schedules."
+        ],
+        "answer": "Increased material costs and shipping delays.",
+        "translation": "価格変更の要因は何ですか？",
+        "options_translation": [
+          "サプライヤー管理の変更。",
+          "材料費の増加と輸送の遅延。",
+          "製造業者との新しい契約。",
+          "生産スケジュールの調整。"
+        ],
+        "explanation": "正解は「材料費の増加と輸送の遅延」です。この情報はトークの中で、価格がさまざまな要因、特に材料費と輸送の遅延によって変更されたと説明されている部分から得られています。言い換えとしては、「様々な要因」に代わって「材料費の増加と輸送の遅延」を使っています。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What is the speaker's main focus during the meeting?",
+        "options": [
+          "Discussing employee performance.",
+          "Finalizing decisions on new suppliers.",
+          "Negotiating the best prices for parts.",
+          "Reviewing the company's budget plan."
+        ],
+        "answer": "Negotiating the best prices for parts.",
+        "translation": "スピーカーの会議中の主な焦点は何ですか？",
+        "options_translation": [
+          "従業員のパフォーマンスについて議論すること。",
+          "新しいサプライヤーに関する決定を最終化すること。",
+          "部品のための最良の価格を交渉すること。",
+          "会社の予算計画を見直すこと。"
+        ],
+        "explanation": "正解は「部品のための最良の価格を交渉すること」です。これは、トークでスピーカーが「新しい見積もりを議論し、最良の価格を交渉する」ことに重要性を置いていると述べている部分に基づいています。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "According to the updated figures, what should the team consider before the meeting?",
+        "options": [
+          "The overall performance metrics of the supplier.",
+          "The impact of material costs on the budget.",
+          "The time required for shipping.",
+          "The previous contracts signed with manufacturers."
+        ],
+        "answer": "The impact of material costs on the budget.",
+        "translation": "更新された数字によれば、チームは会議前に何を考慮すべきですか？",
+        "options_translation": [
+          "サプライヤーの全体的なパフォーマンス指標。",
+          "予算に対する材料費の影響。",
+          "輸送に必要な時間。",
+          "製造業者との以前の契約。"
+        ],
+        "explanation": "正解は「予算に対する材料費の影響」です。トークの中でスピーカーは、価格の変更が予算にどのように影響するかを考慮することが重要だと指摘しているため、この情報を図表の数字と照合することで確認できます。特に、更新された見積もりの情報は、予算に影響を与える可能性のある材料費の変動に関連している点からの根拠です。",
+        "question_type": "Graphic",
+        "target_score": 730,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0002.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p4_0003",
+    "title": "ホテルの予約確認とチェックイン手続き",
+    "talk": "Hello, and welcome to CityView Hotel. This is a reminder regarding your upcoming stay with us. Your reservation is confirmed for this weekend. Please remember that the check-in time is at 3 PM. However, if you need to change this time, you can contact our front desk at any time before your arrival. We will be happy to assist you with any adjustments. Have a pleasant day!",
+    "translation_talk": "こんにちは、シティビュー・ホテルへようこそ。お客様の今後のご宿泊に関するリマインダーです。今週末にご予約が確認されています。チェックイン時間は午後3時であることをお忘れなく。ただし、この時間を変更する必要がある場合は、到着前にいつでもフロントデスクにご連絡ください。喜んで調整をお手伝いさせていただきます。良い一日を！",
+    "visual_url": "https://images.unsplash.com/photo-1496402465807-e0aeb60b3b02",
+    "visual_title": "ホテルのスケジュール",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the check-in time at CityView Hotel?",
+        "options": [
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM"
+        ],
+        "answer": "3 PM",
+        "translation": "シティビュー・ホテルのチェックイン時間は何時ですか？",
+        "options_translation": [
+          "午後2時",
+          "午後3時",
+          "午後4時",
+          "午後5時"
+        ],
+        "explanation": "トークの中で『チェックイン時間は午後3時です』という部分が正解の根拠になっています。ここから、チェックイン時間が「午後3時」であることを理解できます。",
+        "question_type": "Detail",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "How can guests change their check-in time?",
+        "options": [
+          "By visiting the hotel",
+          "By calling the front desk",
+          "Through the hotel website",
+          "By emailing the hotel"
+        ],
+        "answer": "By calling the front desk",
+        "translation": "ゲストはどのようにチェックイン時間を変更できますか？",
+        "options_translation": [
+          "ホテルを訪問することによって",
+          "フロントデスクに電話することによって",
+          "ホテルのウェブサイトを通じて",
+          "ホテルにメールすることによって"
+        ],
+        "explanation": "トークの中で『フロントデスクにご連絡ください』という部分が正解の根拠になっています。この文から、チェックイン時間の変更はフロントデスクに電話することで行えることがわかります。",
+        "question_type": "Detail",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "According to the schedule, what time do guests need to check in?",
+        "options": [
+          "Before 2 PM",
+          "At 3 PM",
+          "After 3 PM",
+          "Any time before 5 PM"
+        ],
+        "answer": "At 3 PM",
+        "translation": "スケジュールによると、ゲストは何時にチェックインする必要がありますか？",
+        "options_translation": [
+          "午後2時前",
+          "午後3時",
+          "午後3時以降",
+          "午後5時前ならいつでも"
+        ],
+        "explanation": "スケジュールはトークの内容を基に設計されており、チェックイン時間は『午後3時』であることを示しています。トーク内の情報とスケジュールが一致しているため、この選択肢が正しいと確認できます。",
+        "question_type": "Graphic",
+        "target_score": 860,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0003.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p4_0004",
+    "title": "国際会議参加費用について",
+    "talk": "Welcome to our annual International Business Conference. We are excited to offer early registration discounts for those who sign up before the end of this month. The standard registration fee is $500, but if you register early, you will receive a discount of $100, bringing your total to just $400. This special price applies to all attendees but must be completed by March 31. Don’t miss this opportunity to save on your conference experience!",
+    "translation_talk": "私たちの年次国際ビジネス会議へようこそ。今月末までに登録した方には早期登録割引を提供できることを嬉しく思います。通常の登録費用は500ドルですが、早期に登録すると100ドルの割引が適用されて400ドルにになります。この特別価格はすべての参加者に適用されますが、3月31日までに手続きを完了する必要があります。この機会をお見逃しなく！",
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the standard registration fee for the conference?",
+        "options": [
+          "$400",
+          "$500",
+          "$600",
+          "$300"
+        ],
+        "answer": "$500",
+        "translation": "この会議の通常の登録費用はいくらですか？",
+        "options_translation": [
+          "400ドル",
+          "500ドル",
+          "600ドル",
+          "300ドル"
+        ],
+        "explanation": "トークの中で言及されている標準登録費用が500ドルであるため、正解はBの$500です。これは文中に直接的に表現されています。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "How much can attendees save with early registration?",
+        "options": [
+          "$100",
+          "$200",
+          "$50",
+          "$150"
+        ],
+        "answer": "$100",
+        "translation": "参加者は早期登録でいくら節約できますか？",
+        "options_translation": [
+          "100ドル",
+          "200ドル",
+          "50ドル",
+          "150ドル"
+        ],
+        "explanation": "早期登録を行うと100ドルの割引を受けることができるとトーク内に明確に述べられているため、正解はAの$100です。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "What is the deadline for early registration discounts?",
+        "options": [
+          "March 31",
+          "April 30",
+          "February 28",
+          "March 15"
+        ],
+        "answer": "March 31",
+        "translation": "早期登録割引の締切はいつですか？",
+        "options_translation": [
+          "3月31日",
+          "4月30日",
+          "2月28日",
+          "3月15日"
+        ],
+        "explanation": "早期登録割引は3月31日までが締切であるとトークで明記されているため、正解はAのMarch 31です。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0004.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p4_0005",
+    "title": "新製品提案に関するお知らせ",
+    "talk": "Hello everyone, thank you for joining us today. I'm excited to present our new product, which offers innovative features that can enhance your business operations. The pricing starts at $299, and we can ensure delivery within four weeks after your order. I believe this solution will greatly benefit your organization. If you have any questions or would like to discuss further, feel free to reach out to me after this announcement. Thank you for your time!",
+    "translation_talk": "皆さん、こんにちは。本日はお集まりいただきありがとうございます。新製品の提案をできることを嬉しく思います。この製品は、ビジネス運営を向上させる革新的な機能を提供します。価格は299ドルから始まり、注文から4週間以内に納品が可能です。このソリューションが貴社に大きな利益をもたらすと信じています。ご質問があれば、お知らせください。",
+    "visual_url": "https://source.unsplash.com/random/400x300?schedule",
+    "visual_title": "納期スケジュール",
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the starting price of the new product?",
+        "options": [
+          "$199",
+          "$299",
+          "$399",
+          "$499"
+        ],
+        "answer": "$299",
+        "translation": "新製品の始まり価格はいくらですか？",
+        "options_translation": [
+          "199ドル",
+          "299ドル",
+          "399ドル",
+          "499ドル"
+        ],
+        "explanation": "トーク内で新製品の価格が299ドルから始まると明言されています。そのため正解は$299です。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What does the speaker likely mean by saying, \"This solution will greatly benefit your organization\"?",
+        "options": [
+          "It will require additional costs.",
+          "It may not be effective.",
+          "It will provide significant advantages.",
+          "It will not meet your needs."
+        ],
+        "answer": "It will provide significant advantages.",
+        "translation": "話者が「このソリューションが貴社に大きな利益をもたらす」と言うとき、何を意味している可能性が高いですか？",
+        "options_translation": [
+          "追加コストがかかるでしょう。",
+          "効果がないかもしれません。",
+          "重要な利点を提供します。",
+          "ニーズを満たさないでしょう。"
+        ],
+        "explanation": "話者がこの言葉を使った意図は、新製品の利点を強調することであり、ビジネスに与える影響をポジティブに伝えています。正解は \"重要な利点を提供します\" です。",
+        "question_type": "Intent",
+        "target_score": 600,
+        "quote_text": "This solution will greatly benefit your organization."
+      },
+      {
+        "id": 3,
+        "question_text": "According to the delivery schedule shown, what is the expected delivery time after ordering?",
+        "options": [
+          "One week",
+          "Two weeks",
+          "Three weeks",
+          "Four weeks"
+        ],
+        "answer": "Four weeks",
+        "translation": "この納期スケジュールによると、注文後の期待される納期はいつですか？",
+        "options_translation": [
+          "1週間",
+          "2週間",
+          "3週間",
+          "4週間"
+        ],
+        "explanation": "トーク内で話者は「注文から4週間以内に納品が可能」と述べています。したがって、正解は \"4週間\" です。納期スケジュールと話者の発言を照合すると、正しい情報が確認できます。",
+        "question_type": "Graphic",
+        "target_score": 600,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0005.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p4_0006",
+    "title": "社内食堂のメニュー改定",
+    "talk": "Good morning, everyone. Today, I would like to inform you about some exciting changes coming to our cafeteria menu. Starting next week, we will be introducing several new healthy options, based on your feedback from our recent survey. You will now find items like quinoa salads, grilled chicken wraps, and gluten-free pasta. We hope these additions will improve your dining experience. Please keep an eye out for the new menu, and don’t forget to share your thoughts after trying the new dishes!",
+    "translation_talk": "おはようございます、皆さん。今日は、私たちの食堂メニューに関するいくつかのエキサイティングな変更についてお伝えしたいと思います。来週から、最近のアンケートに基づいていくつかの新しいヘルシーなオプションを導入します。これからは、キヌアサラダ、グリルチキンラップ、グルテンフリーパスタなどが見つかるでしょう。これらの新しいメニューが皆さんの食事体験を向上させることを願っています。新メニューに目を光らせた上で、新しい料理を試した後に感想を共有することを忘れないでください！",
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What new options will be available in the cafeteria?",
+        "options": [
+          "Healthy meal choices",
+          "Dessert specials",
+          "International cuisine",
+          "Fast food options"
+        ],
+        "answer": "Healthy meal choices",
+        "translation": "食堂にはどんな新しいオプションが提供されますか？",
+        "options_translation": [
+          "ヘルシーな食事の選択肢",
+          "デザートの特別メニュー",
+          "国際的な料理",
+          "ファーストフードのオプション"
+        ],
+        "explanation": "トークでは、アンケートのフィードバックに基づいて新しいヘルシーなオプションが導入されることについて触れています。したがって、正解は「Healthy meal choices」であり、これは「ヘルシーな食事の選択肢」と訳されます。特に「quinoa salads」「grilled chicken wraps」「gluten-free pasta」がその例として挙げられています。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "When will the new items be introduced?",
+        "options": [
+          "Next month",
+          "Next week",
+          "Tomorrow",
+          "This weekend"
+        ],
+        "answer": "Next week",
+        "translation": "新メニューはいつ導入されますか？",
+        "options_translation": [
+          "来月",
+          "来週",
+          "明日",
+          "今週末"
+        ],
+        "explanation": "トークの中で「Starting next week」と明記されているため、正解は「Next week」であり、「来週」と訳されます。これは具体的な日程に関する質問です。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "What should employees do after trying the new dishes?",
+        "options": [
+          "Keep their opinions to themselves",
+          "Provide feedback",
+          "Suggest more options",
+          "Visit the cafeteria more often"
+        ],
+        "answer": "Provide feedback",
+        "translation": "従業員は新しい料理を試した後、何をすべきですか？",
+        "options_translation": [
+          "意見を自分だけに留める",
+          "フィードバックを提供する",
+          "さらに多くのオプションを提案する",
+          "もっと頻繁に食堂を訪れる"
+        ],
+        "explanation": "トーク内で「don’t forget to share your thoughts after trying the new dishes!」と述べられていることから、正解は「Provide feedback」であり、「フィードバックを提供する」と訳されます。これは新メニューに対する反応を求めていることを示しています。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0006.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p4_0007",
+    "title": "製品の配送遅延に関するお詫びとクーポンの案内",
+    "talk": "Hello everyone. I would like to address an important issue regarding the recent delays in our product deliveries. We deeply apologize for any inconvenience this may have caused you. As a token of our appreciation for your understanding, we are sending out discount coupons to all affected customers. Please check your email for further details on how to redeem your coupon. Thank you for your continued support and patience.",
+    "translation_talk": "皆さん、こんにちは。最近の製品配送の遅延に関する重要な問題についてお話ししたいと思います。このことでご不便をおかけしましたことを深くお詫び申し上げます。お客様のご理解に感謝の印として、影響を受けたお客様全員に割引クーポンをお送りいたします。クーポンの引き換え方法についての詳細は、メールをチェックしてください。引き続きのご支援とご理解に感謝いたします。",
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the main reason for the speaker's announcement?",
+        "options": [
+          "To inform customers about a new product",
+          "To apologize for delivery delays",
+          "To promote a new service",
+          "To announce store hours changes"
+        ],
+        "answer": "To apologize for delivery delays",
+        "translation": "スピーカーの発表の主な理由は何ですか？",
+        "options_translation": [
+          "新しい製品について顧客に通知するため",
+          "配送遅延について謝罪するため",
+          "新しいサービスを宣伝するため",
+          "店舗の営業時間の変更を発表するため"
+        ],
+        "explanation": "スピーカーは製品の配送遅延について謝罪しているので、正解は「配送遅延について謝罪するため」です。これはトークの冒頭部分で明言されています。正解以外の選択肢は話の内容に一致しません。",
+        "question_type": "Overview",
+        "target_score": 860,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What does the speaker mean by \"As a token of our appreciation for your understanding\"?",
+        "options": [
+          "We are grateful for your patience",
+          "We will offer a new service",
+          "We are changing our policies",
+          "We will provide more products"
+        ],
+        "answer": "We are grateful for your patience",
+        "translation": "スピーカーが「お客様のご理解に感謝の印として」という表現で意味していることは何ですか？",
+        "options_translation": [
+          "お客様の忍耐に感謝しています",
+          "新しいサービスを提供します",
+          "私たちの方針を変更します",
+          "より多くの製品を提供します"
+        ],
+        "explanation": "スピーカーの発言は顧客に対する感謝の意を示しており、正解は「お客様の忍耐に感謝しています」です。この部分はトークの中で直接的に感謝の意を表しています。他の選択肢は発表内容とは関係がありません。",
+        "question_type": "Intent",
+        "target_score": 860,
+        "quote_text": "As a token of our appreciation for your understanding"
+      },
+      {
+        "id": 3,
+        "question_text": "What should customers do to receive their discount coupon?",
+        "options": [
+          "Visit the store",
+          "Call customer service",
+          "Check their email",
+          "Submit a form online"
+        ],
+        "answer": "Check their email",
+        "translation": "お客様は割引クーポンを受け取るために何をすれば良いですか？",
+        "options_translation": [
+          "店舗を訪れる",
+          "カスタマーサービスに電話する",
+          "メールをチェックする",
+          "オンラインでフォームを提出する"
+        ],
+        "explanation": "スピーカーは「メールをチェックしてください」と言っているため、正解は「メールをチェックする」です。他の選択肢はトークの内容に触れていません。",
+        "question_type": "Detail",
+        "target_score": 860,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0007.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p4_0008",
+    "title": "最新の市場調査レポートの共有",
+    "talk": "Good afternoon, everyone. Today, I want to share some key findings from our latest market research report concerning our competitors. It shows that Company A has recently increased their market share by 15%, primarily due to their innovative product line. Meanwhile, Company B has enhanced their customer service, which has led to a 10% rise in customer satisfaction ratings. We need to take these developments into consideration as we strategize for the upcoming quarter.",
+    "translation_talk": "皆さん、こんにちは。今日は、最近の市場調査レポートから競合他社に関する重要な発見を共有したいと思います。このレポートによれば、A社は革新的な製品ラインのおかげで最近市場シェアを15％増加させました。一方、B社は顧客サービスを強化し、顧客満足度が10％向上しました。これらの動向を考慮しながら、次の四半期の戦略を策定する必要があります。",
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What recent change has Company A made that impacted its market share?",
+        "options": [
+          "They launched a new advertising campaign.",
+          "They increased their market share due to a new product line.",
+          "They reduced their prices significantly.",
+          "They improved their distribution channels."
+        ],
+        "answer": "They increased their market share due to a new product line.",
+        "translation": "A社が市場シェアに影響を与えた最近の変更は何ですか？",
+        "options_translation": [
+          "新しい広告キャンペーンを開始しました。",
+          "新しい製品ラインのおかげで市場シェアを増加させました。",
+          "価格を大幅に引き下げました。",
+          "流通チャネルを改善しました。"
+        ],
+        "explanation": "正解は「新しい製品ラインのおかげで市場シェアを増加させました。」で、トークの中で「Company A has recently increased their market share by 15%, primarily due to their innovative product line.」と述べられており、言い換えが行われています。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What improvement has Company B made recently?",
+        "options": [
+          "They launched a new product.",
+          "They enhanced their customer service.",
+          "They expanded their market reach.",
+          "They raised their prices."
+        ],
+        "answer": "They enhanced their customer service.",
+        "translation": "B社が最近行った改善は何ですか？",
+        "options_translation": [
+          "新製品を発売しました。",
+          "顧客サービスを強化しました。",
+          "市場の範囲を拡大しました。",
+          "価格を上げました。"
+        ],
+        "explanation": "正解は「顧客サービスを強化しました。」で、これはトークの中で「Company B has enhanced their customer service」と直接的に言い換えられています。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "How much did Company B's customer satisfaction ratings improve?",
+        "options": [
+          "By 5%",
+          "By 10%",
+          "By 15%",
+          "By 20%"
+        ],
+        "answer": "By 10%",
+        "translation": "B社の顧客満足度はどれだけ向上しましたか？",
+        "options_translation": [
+          "5％増加しました",
+          "10％増加しました",
+          "15％増加しました",
+          "20％増加しました"
+        ],
+        "explanation": "正解は「10％増加しました」で、トーク内に「which has led to a 10% rise in customer satisfaction ratings」と記載されており、ボキャブラリーが言い換えられています。",
+        "question_type": "Detail",
+        "target_score": 990,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0008.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p4_0009",
+    "title": "国際会議の参加費用について",
+    "talk": "Welcome to our annual business conference. This year, we are offering an early bird discount for those who register by the end of this month. The standard fee for attending is $500, but if you register early, you will only pay $350. This discount applies to all professionals who sign up before the deadline. Don't miss this chance to save money and gain valuable insights from our expert speakers!",
+    "translation_talk": "私たちの年次ビジネス会議へようこそ。今年は、今月末までに登録する方々に早期割引を提供しています。参加の標準料金は500ドルですが、早期登録をした場合、350ドルのみです。この割引は、締切前にサインアップしたすべての専門家に適用されます。このお得な機会を逃さず、私たちの専門家スピーカーから貴重な洞察を得てください！",
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the early bird registration fee for the conference?",
+        "options": [
+          "$500",
+          "$350",
+          "$450",
+          "$300"
+        ],
+        "answer": "$350",
+        "translation": "この会議の早期登録料金はいくらですか？",
+        "options_translation": [
+          "$500",
+          "$350",
+          "$450",
+          "$300"
+        ],
+        "explanation": "トークの中では、早期登録をした場合の参加費用が350ドルであると明言されています。この情報を基に、正解は選択肢の中で$350です。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "Who can avail the early bird discount?",
+        "options": [
+          "Only members",
+          "All professionals",
+          "Students only",
+          "No one"
+        ],
+        "answer": "All professionals",
+        "translation": "早期割引を利用できるのは誰ですか？",
+        "options_translation": [
+          "会員のみ",
+          "すべての専門家",
+          "学生のみ",
+          "誰も"
+        ],
+        "explanation": "トークでは、締切前に登録するすべての専門家に対して早期割引が適用されると述べています。したがって、正解は「すべての専門家」です。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "When is the deadline for the early bird registration?",
+        "options": [
+          "End of this month",
+          "End of next month",
+          "Tomorrow",
+          "No deadline"
+        ],
+        "answer": "End of this month",
+        "translation": "早期登録の締切はいつですか？",
+        "options_translation": [
+          "今月の末",
+          "来月の末",
+          "明日",
+          "締切なし"
+        ],
+        "explanation": "トークでは、今月の末までに登録する場合に早期割引が適用されると明言しています。したがって、正解は「今月の末」です。",
+        "question_type": "Detail",
+        "target_score": 600,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0009.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p4_0010",
+    "title": "製品の配送遅延と顧客への謝罪",
+    "talk": "Hello everyone. We want to sincerely apologize for the delay in the delivery of your recent orders. Due to unforeseen circumstances, shipments have been held up. As a token of our appreciation for your patience, we are offering a discount coupon for your next purchase. Please check your email for the details on how to redeem this offer. Thank you for your understanding.",
+    "translation_talk": "皆さんこんにちは。最近のご注文の配送遅延について、心からお詫び申し上げます。予期しない事情により、出荷が遅れています。お待ちいただいたお礼として、次回の購入に使える割引クーポンをご用意しています。詳細については、クーポンの利用方法を記載したメールをご確認ください。ご理解いただきありがとうございます。",
+    "visual_url": null,
+    "visual_title": null,
+    "questions": [
+      {
+        "id": 1,
+        "question_text": "What is the speaker apologizing for?",
+        "options": [
+          "The delay in deliveries",
+          "The quality of the products",
+          "The customer service response",
+          "The lack of stock"
+        ],
+        "answer": "The delay in deliveries",
+        "translation": "話者は何に対して謝罪していますか？",
+        "options_translation": [
+          "配送の遅延",
+          "商品の品質",
+          "顧客サービスの対応",
+          "在庫不足"
+        ],
+        "explanation": "話者は「配送の遅延について謝罪しています」と明確に述べています。正解である「The delay in deliveries」は、トークの中で直接的に触れられています。その他の選択肢はトークの内容に直接関連しません。次に、選択肢の言い換えとして「The quality of the products」や「The customer service response」は、まったく異なる内容ですので、正しくありません。次回の選択肢についても、正解を支持する根拠はトークからも明確です。次の設問に進みます。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 2,
+        "question_text": "What incentive is offered to customers?",
+        "options": [
+          "A free product",
+          "A discount coupon",
+          "A gift card",
+          "A refund"
+        ],
+        "answer": "A discount coupon",
+        "translation": "顧客に提供されるインセンティブは何ですか？",
+        "options_translation": [
+          "無料の商品",
+          "割引クーポン",
+          "ギフトカード",
+          "返金"
+        ],
+        "explanation": "トークの中で「次回の購入に使える割引クーポン」を提供すると述べています。この部分を言い換えた「A discount coupon」は、正解となります。その他の選択肢はトークに含まれていない情報であるため、不正解です。次の設問に進みます。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      },
+      {
+        "id": 3,
+        "question_text": "How should customers find more information about the coupon?",
+        "options": [
+          "By visiting the store",
+          "Through a phone call",
+          "In their email",
+          "Via the website"
+        ],
+        "answer": "In their email",
+        "translation": "顧客はクーポンに関する詳細情報をどのように見つけるべきですか？",
+        "options_translation": [
+          "店舗を訪れて",
+          "電話をかけて",
+          "メールで",
+          "ウェブサイトを通じて"
+        ],
+        "explanation": "話者は、顧客に「メールで詳細を確認する」ように指示しています。このため「In their email」が正解です。他の選択肢はトークの内容に基づいていないため不正解です。正解はトークのポイントを元に明確に導き出せます。次の設問に進みます。",
+        "question_type": "Detail",
+        "target_score": 730,
+        "quote_text": null
+      }
+    ],
+    "audio_file": "audio/p4_0010.mp3",
+    "voice": "onyx"
+  }
+]

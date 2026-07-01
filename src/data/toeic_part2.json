@@ -1,0 +1,527 @@
+[
+  {
+    "id": "p2_0001",
+    "question": "You haven't received the updated quote from our supplier, have you?",
+    "options": [
+      "No, I have not received it yet.",
+      "Yes, I already received it.",
+      "No, I did receive it."
+    ],
+    "answer": "No, I have not received it yet.",
+    "question_translation": "あなたは私たちのサプライヤーから更新された見積もりを受け取っていませんね？",
+    "options_translation": [
+      "いいえ、まだ受け取っていません。",
+      "はい、すでに受け取りました。",
+      "いいえ、受け取りました。"
+    ],
+    "explanation": "この質問は、最新の見積もりを受け取っていないかどうかの確認をしています。正解は「いいえ、まだ受け取っていません。」で、これは質問に対する直接的な回答です。一方、他の選択肢は誤答であり、特に「いいえ、受け取りました。」は、質問の内容を否定しながらも「受け取った」という同じ単語を使用しているため、引っかけとなります。また、「はい、すでに受け取りました。」は、質問の否定文に対する肯定的な応答であり、意味が通らないため誤りです。これらの誤答は質問の内容に反しており、意味が合いません。正しい答えは、受け取っていないことを示すもので、文脈に沿った自然な応答です。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 600,
+    "audio_file": "audio/p2_0001.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0002",
+    "question": "Isn't it too late to change my check-in time?",
+    "options": [
+      "Yes, you can still change it later.",
+      "No, that is not possible.",
+      "Please check with the front desk."
+    ],
+    "answer": "Please check with the front desk.",
+    "question_translation": "チェックイン時間を変更するには遅すぎませんか？",
+    "options_translation": [
+      "はい、まだ後で変更できます。",
+      "いいえ、それは不可能です。",
+      "フロントデスクに確認してください。"
+    ],
+    "explanation": "この質問は、チェックイン時間の変更が可能かどうかを尋ねています。正しい応答である「フロントデスクに確認してください」は、直接的な答えを避けており、質問者に次のステップを提案しています。一方、誤答選択肢の「はい、まだ後で変更できます」は、質問の条件に対して正しくないが、同じ「変更」という単語を使っているため、音の罠として機能します。同様に「いいえ、それは不可能です」も過剰な否定を含んでおり、質問の意図から外れています。したがって、混乱を招く選択肢を提供することで、受験者の理解を試す設計となっています。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 730,
+    "audio_file": "audio/p2_0002.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0003",
+    "question": "When is the farewell party for the outstanding employee?",
+    "options": [
+      "It's scheduled to be at 5 PM.",
+      "I think it was sold out.",
+      "Please check with the organizer."
+    ],
+    "answer": "Please check with the organizer.",
+    "question_translation": "優秀な社員の送別会はいつですか？",
+    "options_translation": [
+      "午後5時に予定されています。",
+      "売り切れだったと思います。",
+      "主催者に確認してください。"
+    ],
+    "explanation": "この質問は、優秀な社員の送別会の日程について尋ねています。正解である「主催者に確認してください。」は、明確な日付を示さず、間接的に回答しています。これに対して、誤答選択肢の「午後5時に予定されています。」は具体的な時間を提供しており、質問の意図から外れた答えとなります。また、「売り切れだったと思います。」は送別会に関する文脈には合わない情報を含んでおり、音の罠ともいえます。正解の選択肢は、質問の内容に対する正しい理解を示し、適切な間接的回答を提供しているため、最も適切です。",
+    "question_type": "WH疑問文 (WH-Question)",
+    "target_score": 860,
+    "audio_file": "audio/p2_0003.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0004",
+    "question": "Have you updated the cafeteria menu for the week?",
+    "options": [
+      "Yes, I will check with the manager.",
+      "No, I don't think the order is right yet.",
+      "Yes, it's already been decided."
+    ],
+    "answer": "Yes, I will check with the manager.",
+    "question_translation": "今週のカフェテリアのメニューは更新されましたか？",
+    "options_translation": [
+      "はい、マネージャーに聞いてみます。",
+      "いいえ、まだその注文が正しいとは思いません。",
+      "はい、すでに決まっています。"
+    ],
+    "explanation": "この質問は、社内食堂のメニューが更新されたかどうかを尋ねています。正解の選択肢「はい、マネージャーに聞いてみます。」は、直接的な「はい/いいえ」での回答を避け、間接的に「担当者に確認する」という行動を示しています。誤答選択肢の「いいえ、まだその注文が正しいとは思いません。」は、質問の文中の「updated」（更新された）という単語の意味を正しく理解していないため、誤解を生じさせます。また、もう一つの誤答「はい、すでに決まっています。」は、質問のニュアンスを誤解し、出来事がすでに完了したとするものであり、実際に確認するという行為を軽視しているため、誤答となります。",
+    "question_type": "Yes/No疑問文 (Yes/No-Question)",
+    "target_score": 990,
+    "audio_file": "audio/p2_0004.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0005",
+    "question": "The latest market research report doesn't show any significant changes, does it?",
+    "options": [
+      "No, it shows some improvements.",
+      "Yes, it does show some changes.",
+      "No, it doesn’t show anything at all."
+    ],
+    "answer": "No, it doesn’t show anything at all.",
+    "question_translation": "最新の市場調査レポートには重要な変化が見られませんね？",
+    "options_translation": [
+      "いいえ、いくつかの改善点が見られます。",
+      "はい、変化がいくつかあります。",
+      "いいえ、何も見られません。"
+    ],
+    "explanation": "この質問は、最新の市場調査レポートの内容について、変化があったかどうかを確認するものです。正解は「いいえ、何も見られません。」で、これはレポートに変化がないことを強調する答えです。他の選択肢は誤解を招く音の罠が含まれており、特に「改善点」という単語が質問文の「変化」とは異なる意味を持つため、注意が必要です。このように、誤答の選択肢は、質問の内容と同じ単語を使いつつも異なるニュアンスを持たせているため、受験者を混乱させる可能性があります。正解の選択肢は質問が求めている情報に対して適切に応答しています。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 600,
+    "audio_file": "audio/p2_0005.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0006",
+    "question": "You won't forget to send the discount coupon, will you?",
+    "options": [
+      "Of course, I'll send it right away.",
+      "I didn't forget the delivery.",
+      "The coupon is expired."
+    ],
+    "answer": "Of course, I'll send it right away.",
+    "question_translation": "割引クーポンを送るのを忘れないですよね？",
+    "options_translation": [
+      "もちろん、すぐに送ります。",
+      "私は配送を忘れませんでした。",
+      "クーポンは期限切れです。"
+    ],
+    "explanation": "この質問は、割引クーポンを送ることを忘れないかどうかの確認をしています。正解の選択肢は「もちろん、すぐに送ります。」であり、これは質問に対する肯定的な応答です。誤答の「私は配送を忘れませんでした。」は、質問の内容に直接関係がなく、配送について言及していますが、クーポン送付に関する質問には答えていません。もう一つの誤答「クーポンは期限切れです。」は、内容が全く異なり、質問の前提を無視しています。したがって、正解は明確です。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 730,
+    "audio_file": "audio/p2_0006.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0007",
+    "question": "Are we going to change the office layout this week?",
+    "options": [
+      "Yes, the plans are already done.",
+      "No, I just joined the team.",
+      "Please check with the manager."
+    ],
+    "answer": "Please check with the manager.",
+    "question_translation": "今週オフィスのレイアウトを変更しますか？",
+    "options_translation": [
+      "はい、計画はすでに完了しています。",
+      "いいえ、私はチームに加わったばかりです。",
+      "マネージャーに確認してください。"
+    ],
+    "explanation": "この質問は、オフィスのレイアウト変更が今週行われるかどうかを尋ねています。正しい応答である「マネージャーに確認してください」は、具体的な答えを与えず、状況を確認するよう促す間接的な応答です。これに対し誤答選択肢の「はい、計画はすでに完了しています。」は、質問に対する直接的な返答であり、実際には変更がまだ行われていない可能性があるため不適切です。また、「いいえ、私はチームに加わったばかりです。」は、質問に対する文脈として無関係であるため、誤りです。声の罠（音の罠）としては、「plans（計画）」という単語が含まれていますが、文脈から外れた意味を持ち、混乱を招く要素です。従って、正しい選択肢は「Please check with the manager.」です。",
+    "question_type": "Yes/No疑問文 (Yes/No-Question)",
+    "target_score": 860,
+    "audio_file": "audio/p2_0007.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0008",
+    "question": "Who should I contact about the broken copier?",
+    "options": [
+      "You should ask the receptionist.",
+      "I will fix it myself.",
+      "The copier is out of order."
+    ],
+    "answer": "You should ask the receptionist.",
+    "question_translation": "壊れたコピー機については誰に連絡すればいいですか？",
+    "options_translation": [
+      "受付の人に聞いてください。",
+      "私が自分で修理します。",
+      "コピー機は故障中です。"
+    ],
+    "explanation": "この質問は、壊れたコピー機について誰に連絡すべきかを尋ねています。正解の「受付の人に聞いてください」という回答は、具体的な指示を含んでおり、質問者が適切な担当者に連絡を取るための情報を提供しています。一方、「私が自分で修理します」という選択肢は、修理に関する直接的な答えを提供しており、質問の趣旨とはずれています。また、「コピー機は故障中です」は過去の状況についての情報であり、問いへの直接的な答えにはなっていません。したがって、正しい選択肢は間接的な応答を求めるルールに従っています。",
+    "question_type": "WH疑問文 (WH-Question)",
+    "target_score": 990,
+    "audio_file": "audio/p2_0008.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0009",
+    "question": "Didn’t we need to discuss the latest market research report before the meeting?",
+    "options": [
+      "We can ask the department manager about it.",
+      "I believe it is overdue.",
+      "It was scheduled for last week."
+    ],
+    "answer": "We can ask the department manager about it.",
+    "question_translation": "会議の前に最新の市場調査レポートについて話し合う必要がありませんでしたか？",
+    "options_translation": [
+      "そのことについて担当マネージャーに聞いてみましょう。",
+      "それは過ぎていると思います。",
+      "それは先週の予定でした。"
+    ],
+    "explanation": "この質問は、会議の前に最新の市場調査レポートを話し合う必要があったかどうかを尋ねています。正解は「We can ask the department manager about it.」で、これは直接的な返答を避け、次に取るべき行動を示しています。誤答の「I believe it is overdue.」は、質問で触れられている「必要性」に関連しつつも、単に遅れについて言及しているため、実際の質問に対する有効な回答ではありません。また、「It was scheduled for last week.」も、質問の主旨から外れた情報を提供しているため誤答となります。これらは、質問文で使われている単語や類似した単語を含むため、音の罠として機能しています。正しい応答は、質問の意図を理解し、適切な行動を提案するものであるため、適切な選択となります。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 600,
+    "audio_file": "audio/p2_0009.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0010",
+    "question": "Don't we have an early bird discount for the conference?",
+    "options": [
+      "Yes, please check with the reception desk.",
+      "No, the discount is not available now.",
+      "Yes, I will register at a later time."
+    ],
+    "answer": "Yes, please check with the reception desk.",
+    "question_translation": "国際会議の早期割引はありませんか？",
+    "options_translation": [
+      "はい、受付で確認してください。",
+      "いいえ、その割引は現在ご利用できません。",
+      "はい、後で登録します。"
+    ],
+    "explanation": "この質問は、早期割引の有無についての確認を求めています。正解の「はい、受付で確認してください。」は、直接的な回答を避けつつ、情報を確認する必要があることを示しています。\n\n誤答の選択肢について、\"No, the discount is not available now.\"は、割引が現在利用できないと直接的に答えてしまっており、質問の意図に反しています。また、\"Yes, I will register at a later time.\"は、登録についての言及であり、質問に対する適切な応答ではありません。これらは、質問内容に関して不適切な回答を示すことで、受験者が誤った選択をしてしまう可能性があります。三つの選択肢の中で、正解の選択肢のみが質問に対して間接的な応答を提供しています。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 730,
+    "audio_file": "audio/p2_0010.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0011",
+    "question": "Do you have any information about the pricing and delivery schedule for the new product proposal?",
+    "options": [
+      "Yes, I can provide that information now.",
+      "Let me check with our supplier first.",
+      "I believe the prices have been updated recently."
+    ],
+    "answer": "Let me check with our supplier first.",
+    "question_translation": "新しい製品提案の価格と納期に関する情報はありますか？",
+    "options_translation": [
+      "はい、その情報を今すぐお伝えできます。",
+      "まず、サプライヤーに確認してみます。",
+      "価格は最近更新されたと思います。"
+    ],
+    "explanation": "この質問は、新規プロダクト提案の価格と納期に関する情報を尋ねています。正解は「まず、サプライヤーに確認してみます。」であり、これは質問に対する間接的な応答です。この回答は、情報を持っていないことを示しつつ、次のステップを提案しています。一方、他の選択肢は誤答です。特に「はい、その情報を今すぐお伝えできます。」は直接的すぎて間接的な反応ではなく、誤解を招く可能性があります。また、「価格は最近更新されたと思います。」は質問の回答になっていないため、混乱を招く音の罠となります。これにより、正解の選択肢は間接的な応答の基準に合致しています。",
+    "question_type": "Yes/No疑問文 (Yes/No-Question)",
+    "target_score": 860,
+    "audio_file": "audio/p2_0011.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0012",
+    "question": "What safety regulations are being updated in the manual?",
+    "options": [
+      "The safety manual is still under review.",
+      "The training will take place next week.",
+      "The procedure for handling hazardous materials."
+    ],
+    "answer": "The procedure for handling hazardous materials.",
+    "question_translation": "マニュアルのどの安全規則が改定されていますか？",
+    "options_translation": [
+      "安全マニュアルはまだ見直し中です。",
+      "研修は来週行われます。",
+      "危険物の取り扱い手順です。"
+    ],
+    "explanation": "この質問は、マニュアルのどの安全規則が改定されているかを尋ねています。正解は「危険物の取り扱い手順」であり、これは具体的な安全規則を示しています。一方、誤答選択肢の「安全マニュアルはまだ見直し中です」は、実際の規則が何であるかを答えておらず、ひっかけとして使われています。「研修は来週行われます」も同様に、実施されることを述べていますが、マニュアルの改定内容には直接関係ありません。これらはすべてマニュアルの改定に関連する用語を含んでいますが、質問に対する正確な答えにはなっていません。",
+    "question_type": "WH疑問文 (WH-Question)",
+    "target_score": 990,
+    "audio_file": "audio/p2_0012.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0013",
+    "question": "The safety manual has been revised, hasn't it?",
+    "options": [
+      "Yes, it has been revised.",
+      "No, it hasn't been revised.",
+      "Yes, it has been reviewed."
+    ],
+    "answer": "Yes, it has been revised.",
+    "question_translation": "安全基準マニュアルは改定されましたね？",
+    "options_translation": [
+      "はい、改定されました。",
+      "いいえ、改定されていません。",
+      "はい、見直されました。"
+    ],
+    "explanation": "この質問は、工場の安全基準マニュアルの改定確認を求めています。正解は「はい、改定されました。」（Yes, it has been revised.）であり、質問に対して直接的で論理的な回答です。誤答選択肢の「いいえ、改定されていません。」は質問の内容に対する否定ですが、正しい情報を伝えていないため誤りです。もう一つの誤答「はい、見直されました。」は「見直される」（reviewed）という意味で似た音の単語を使用していますが、マニュアルが改定されたという直接的な確認にはなっていないため、こちらも正解とはなりません。これらの選択肢は質問の意図を理解するための注意を要するひっかけです。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 600,
+    "audio_file": "audio/p2_0013.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0014",
+    "question": "Isn't the copier still broken?",
+    "options": [
+      "Yes, I believe it's still under warranty.",
+      "No, the repair person will come tomorrow.",
+      "Yes, I already ordered some new supplies."
+    ],
+    "answer": "No, the repair person will come tomorrow.",
+    "question_translation": "コピー機はまだ壊れていますか？",
+    "options_translation": [
+      "はい、まだ保証期間内だと思います。",
+      "いいえ、修理業者が明日来る予定です。",
+      "はい、私は既に新しい用紙を注文しました。"
+    ],
+    "explanation": "この質問は、コピー機の状態について尋ねています。正しい応答は、\"修理業者が明日来る予定です\" です。この応答は問題の状況に対して間接的であり、コピー機の修理日についての情報を提供しています。誤答の選択肢の1つには「保証」が含まれていますが、これはコピー機の故障の状況に関する具体的な情報ではないため、関連性が薄いです。また、もう1つの選択肢である「新しい用紙」は、コピー機の問題とは関係がありません。これは言葉のひっかけにより、誤解を招くよう設計されています。したがって、正しい選択肢は修理のスケジュールに関するものであり、それ以外は状況に即していないか、誤解を招く情報です。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 730,
+    "audio_file": "audio/p2_0014.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0015",
+    "question": "What are the requirements for getting the early bird discount for the conference?",
+    "options": [
+      "You need to register before the deadline.",
+      "The venue is located downtown.",
+      "I will check with the organizer."
+    ],
+    "answer": "I will check with the organizer.",
+    "question_translation": "会議の早期割引を受けるための条件は何ですか？",
+    "options_translation": [
+      "締切前に登録する必要があります。",
+      "会場はダウンタウンにあります。",
+      "主催者に確認します。"
+    ],
+    "explanation": "この質問は、早期割引を受けるための条件について尋ねています。正解の選択肢「主催者に確認します」は、直接的な回答を避けており、相手に確認を促す内容です。一方、誤答「締切前に登録する必要があります」は、質問文に含まれる「早期割引」に関連する用語を使っているため、一見正しいように思えますが、それは質問の要求を直接的に満たしたものではありません。また、「会場はダウンタウンにあります」は、会議の場所に関する情報であり、質問のテーマとは無関係です。このように、正解は間接的な応答を示し、誤答は関係ないが似た言葉を用いているためひっかけとなっています。",
+    "question_type": "WH疑問文 (WH-Question)",
+    "target_score": 860,
+    "audio_file": "audio/p2_0015.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0016",
+    "question": "Are you available to work at the new store opening next week?",
+    "options": [
+      "Yes, I am available.",
+      "No, I am busy.",
+      "Yes, I am busy."
+    ],
+    "answer": "Yes, I am available.",
+    "question_translation": "来週の新店舗オープニングで働くことは可能ですか？",
+    "options_translation": [
+      "はい、私は働くことができます。",
+      "いいえ、私は忙しいです。",
+      "はい、私は忙しいです。"
+    ],
+    "explanation": "この質問は、新店舗のオープンに関してスタッフとしての出勤可能性を尋ねています。正解は「はい、私は働くことができます。」であり、これは新店舗のオープニングに出勤できるという肯定的な返答です。一方、誤答選択肢の「いいえ、私は忙しいです。」は、出勤できないことを示しており、質問の目的とは反します。「はい、私は忙しいです。」も意味が通りませんが、言葉の使い方には同じ単語 'busy' が含まれており、ひっかけになっています。正しい答えは新店舗のオープンに対する積極的な回答でなければならず、誤答はスタッフとしての役割に対する無関心を示しています。したがって、正解は「はい、私は働くことができます。」です。",
+    "question_type": "Yes/No疑問文 (Yes/No-Question)",
+    "target_score": 990,
+    "audio_file": "audio/p2_0016.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0017",
+    "question": "When will the office renovation start?",
+    "options": [
+      "I checked the schedule.",
+      "It's happening next week.",
+      "The renovation will be quick."
+    ],
+    "answer": "I checked the schedule.",
+    "question_translation": "オフィスの改装はいつ始まりますか？",
+    "options_translation": [
+      "スケジュールを確認しました。",
+      "来週始まります。",
+      "改装は短期間で終わります。"
+    ],
+    "explanation": "この質問はオフィスの改装の開始時期を尋ねています。正解の「I checked the schedule.」（スケジュールを確認しました。）は、間接的に答えを提供するもので、具体的な日時は示していませんが、実際にはスケジュールを確認する必要があることを示唆しています。このような間接的な回答は、相手に必要な情報を尋ねることを促す役割があります。一方、他の選択肢 \"It's happening next week.\"（来週始まります。）は具体的な日付を直接示す答えであり、正解ではありません。また、\"The renovation will be quick.\"（改装は短期間で終わります。）も改装の内容を述べていますが、開始時期には触れていません。これらは質問文で求められている答えではないため、ひっかけの例となります。正解の選択肢は間接的な応答形式を満たしています。",
+    "question_type": "WH疑問文 (WH-Question)",
+    "target_score": 600,
+    "audio_file": "audio/p2_0017.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0018",
+    "question": "Will you attend the farewell party for our outstanding employee?",
+    "options": [
+      "Yes, I'll be there.",
+      "No, I can't go.",
+      "Yes, I plan to attend."
+    ],
+    "answer": "Yes, I'll be there.",
+    "question_translation": "私たちの優秀な社員の送別会に参加しますか？",
+    "options_translation": [
+      "はい、行きます。",
+      "いいえ、行けません。",
+      "はい、出席する予定です。"
+    ],
+    "explanation": "質問は、優秀な社員の送別会に参加するかどうかを尋ねています。正解は「はい、行きます。」で、参加の意志を示しています。一方、「いいえ、行けません。」は参加しないことを示す誤答ですが、質問の内容に関連しています。「はい、出席する予定です。」も正しい内容に見えますが、自然な会話では「出席する」と「行く」が同等に使われず、より強い確約が求められる場合には「行きます」が好まれるため、微妙にニュアンスが異なります。従って、正解は最初の選択肢です。どの選択肢も質問の単語を使っていますが、意味の矛盾があるか、自然さに欠けるかで、正解を特定できるように設計されています。",
+    "question_type": "Yes/No疑問文 (Yes/No-Question)",
+    "target_score": 730,
+    "audio_file": "audio/p2_0018.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0019",
+    "question": "We will hold a farewell party for Mr. Tanaka next Friday at the office.",
+    "options": [
+      "Mr. Tanaka is leaving.",
+      "Next Friday is a holiday.",
+      "The office is closed on Friday."
+    ],
+    "answer": "Mr. Tanaka is leaving.",
+    "question_translation": "私たちは来週の金曜日に田中さんの送別会をオフィスで開きます。",
+    "options_translation": [
+      "田中さんは退職します。",
+      "来週の金曜日は祝日です。",
+      "オフィスは金曜日は閉まっています。"
+    ],
+    "explanation": "この質問は、送別会が開催される理由（田中さんが退職すること）を尋ねています。正解の選択肢「田中さんは退職します」は、送別会の理由として適切であり、論理的な応答です。一方、誤答の選択肢「来週の金曜日は祝日です。」は「金曜日」に関する情報を含んでいますが、送別会の理由にはなりません。また、「オフィスは金曜日は閉まっています。」も同様に、送別会が開けない理由を述べていますが、質問には関連がない情報です。これらの誤答選択肢は、同じ単語の「金曜日」や似た音の「閉まっています」の使用によるひっかけとなっています。",
+    "question_type": "平叙文 (Statement)",
+    "target_score": 860,
+    "audio_file": "audio/p2_0019.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0020",
+    "question": "Is the early bird discount applicable for the seminar fees?",
+    "options": [
+      "You should ask the coordinator about that.",
+      "I will check my schedule.",
+      "It's already sold out."
+    ],
+    "answer": "You should ask the coordinator about that.",
+    "question_translation": "セミナーの参加費用に早期割引は適用されますか？",
+    "options_translation": [
+      "それについてはコーディネーターに聞いてみるべきです。",
+      "スケジュールをチェックします。",
+      "既に売り切れました。"
+    ],
+    "explanation": "この質問は、セミナーの参加費用に関する早期割引の適用条件を尋ねています。正解の選択肢である「それについてはコーディネーターに聞いてみるべきです」は、直接の答えを避けており、間接的に情報を得る方法を示しています。一方、誤答の「スケジュールをチェックします」は、本来の質問とは無関係な情報に焦点を合わせており、質問の文に含まれる「セミナー」という単語は含まれていますが、内容は無関係であるため、ひっかけとして機能しています。また、「既に売り切れました」は、早期割引に関する具体的な情報を提供せず、逆に参加が不可能であることを示唆しており、これも質問の主旨とは無関係な内容です。従って、間接的に回答を示す正解は、リスナーに必要な行動を指し示すため、正当性があります。",
+    "question_type": "Yes/No疑問文 (Yes/No-Question)",
+    "target_score": 990,
+    "audio_file": "audio/p2_0020.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0021",
+    "question": "We’re looking for employees for our new branch, aren’t we?",
+    "options": [
+      "Yes, we are looking for employees.",
+      "No, we are not looking for visitors.",
+      "Yes, we are having a sale."
+    ],
+    "answer": "Yes, we are looking for employees.",
+    "question_translation": "私たちは新しい支店のための従業員を探しているのですよね？",
+    "options_translation": [
+      "はい、私たちは従業員を探しています。",
+      "いいえ、私たちは訪問者を探していません。",
+      "はい、私たちはセールをしています。"
+    ],
+    "explanation": "この質問は、新しい支店のための従業員を探しているという確認を求めています。正しい応答は、従業員を探していることを肯定するものであるため、\"Yes, we are looking for employees.\" が適切です。誤答の\"No, we are not looking for visitors.\"は、誤解を招く表現で「訪問者を探していない」と言っているため、文脈に合いません。また、\"Yes, we are having a sale.\"は同じ単語 \"are\" を含むものの、全く異なる意味の文であるため、ひっかけとして機能します。これにより、正解を導くための文脈をしっかりと理解することが求められます。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 600,
+    "audio_file": "audio/p2_0021.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0022",
+    "question": "Hasn't the training schedule for the new ERP system been sent out yet?",
+    "options": [
+      "It was sent out last week.",
+      "I haven't received it yet, let me check.",
+      "No, I have already completed the training."
+    ],
+    "answer": "I haven't received it yet, let me check.",
+    "question_translation": "新しいERPシステムのトレーニングスケジュールはまだ送信されていませんか？",
+    "options_translation": [
+      "先週送信されました。",
+      "まだ受け取っていませんので、確認します。",
+      "いいえ、私はすでにトレーニングを終えました。"
+    ],
+    "explanation": "この質問は、新しいERPシステムに関するトレーニングスケジュールが送信されているかどうかを尋ねています。正解の「まだ受け取っていませんので、確認します。」は、具体的な受領状況を示さず、間接的に相手に応答する形式となっています。誤答の「先週送信されました。」は、質問の内容と異なる情報を提供しており、送信されたかどうかに正しく答えていません。「いいえ、私はすでにトレーニングを終えました。」も同様に、質問の焦点とはずれた情報を提供しており、関係のない内容による音の罠になっています。これにより、受験者は正しい応答を選ぶために注意深く聴く必要があります。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 730,
+    "audio_file": "audio/p2_0022.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0023",
+    "question": "The revised safety standards manual has been distributed to all employees at the factory.",
+    "options": [
+      "It's important to follow the standards.",
+      "They are in a meeting right now.",
+      "The factory is closing for renovations."
+    ],
+    "answer": "It's important to follow the standards.",
+    "question_translation": "改定された安全基準マニュアルが工場の全従業員に配布されました。",
+    "options_translation": [
+      "基準に従うことが重要です。",
+      "彼らは現在会議中です。",
+      "工場は改装のために閉鎖しています。"
+    ],
+    "explanation": "この質問は、改定された安全基準マニュアルの配布についての情報を共有しています。正解は「基準に従うことが重要です。」であり、これは安全基準を遵守することの重要性を強調しています。一方、「彼らは現在会議中です。」は質問での内容に関連しないため、ひっかけとして使われています。「工場は改装のために閉鎖しています。」も話の筋から外れた情報であり、関係のない選択肢です。これらの誤答は、情報の文脈とは無関係な話題を持ち出すことで混乱を招くため、ひっかけ要素となっています。",
+    "question_type": "平叙文 (Statement)",
+    "target_score": 860,
+    "audio_file": "audio/p2_0023.mp3",
+    "voice": "onyx"
+  },
+  {
+    "id": "p2_0024",
+    "question": "The project proposal is going to be delivered next week.",
+    "options": [
+      "I really appreciate your proposal.",
+      "The delivery will take a week.",
+      "I can meet with you next week."
+    ],
+    "answer": "The delivery will take a week.",
+    "question_translation": "プロジェクト提案は来週配達される予定です。",
+    "options_translation": [
+      "私はあなたの提案に本当に感謝しています。",
+      "配達には一週間かかります。",
+      "来週お会いできます。"
+    ],
+    "explanation": "この質問は、プロジェクト提案の納期に関する情報を伝えており、正しい回答は「配達には一週間かかります。」です。この選択肢は、質問文の内容に直接関連しているため、論理的な回答となります。一方で、他の選択肢は誤答です。「私はあなたの提案に本当に感謝しています。」は内容としては関連が薄く、感謝の意を表しているだけです。「来週お会いできます。」は似た発音の単語を含むため、引っかけとして使われていますが、提案の納期には触れていません。従って、正解は「配達には一週間かかります。」です。",
+    "question_type": "平叙文 (Statement)",
+    "target_score": 990,
+    "audio_file": "audio/p2_0024.mp3",
+    "voice": "alloy"
+  },
+  {
+    "id": "p2_0025",
+    "question": "We will send you a discount coupon for the delay, won't we?",
+    "options": [
+      "Yes, we will send it immediately.",
+      "No, we are sorry for the delay.",
+      "Yes, we are happy to offer it."
+    ],
+    "answer": "Yes, we will send it immediately.",
+    "question_translation": "配送の遅延に対して、割引クーポンをお送りいたしますよね？",
+    "options_translation": [
+      "はい、すぐにお送りいたします。",
+      "いいえ、遅延についてお詫び申し上げます。",
+      "はい、お送りできて嬉しいです。"
+    ],
+    "explanation": "この質問は、配送の遅延に対して割引クーポンを送るという提案を確認するもので、\"won't we?\"という付加疑問文が特徴です。正解は「はい、すぐにお送りいたします。」であり、これは配送遅延に対する適切な対応を示しています。誤答の「いいえ、遅延についてお詫び申し上げます。」は謝罪の内容であり、クーポンを送ることに対する反応ではないため不適切です。また、「はい、お送りできて嬉しいです。」は文脈上不自然で、クーポン送付の意図を知る前の応答として使われることは少ないため、こちらも誤答となります。従って、正しい応答は実際の行動（クーポンを送ること）を反映したものであり、ビジネスシーンでの適切な返答といえます。",
+    "question_type": "否定・付加・選択疑問文 (Negative/Tag/Alternative-Question)",
+    "target_score": 600,
+    "audio_file": "audio/p2_0025.mp3",
+    "voice": "onyx"
+  }
+]
