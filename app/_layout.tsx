@@ -8,10 +8,19 @@ import {
   StatusBar,
 } from 'react-native';
 import { Stack } from 'expo-router';
+import { useFonts } from 'expo-font';
+import { DMSans_400Regular, DMSans_700Bold } from '@expo-google-fonts/dm-sans';
 import { supabase } from '../src/services/supabase';
 import NeoButton from '../src/components/NeoButton';
 
 export default function RootLayout() {
+  const [fontsLoaded, fontError] = useFonts({
+    'MonaSans-Regular': require('../assets/fonts/MonaSans-Regular.ttf'),
+    'MonaSans-Bold': require('../assets/fonts/MonaSans-Bold.ttf'),
+    'DMSans-Regular': DMSans_400Regular,
+    'DMSans-Bold': DMSans_700Bold,
+  });
+
   const [screen, setScreen] = useState('check_connection'); // 'check_connection' | 'main'
   const [connectionStatus, setConnectionStatus] = useState('checking'); // 'checking' | 'success' | 'failed'
   const [errorMessage, setErrorMessage] = useState('');
@@ -47,6 +56,17 @@ export default function RootLayout() {
   useEffect(() => {
     checkConnection();
   }, []);
+
+  if (!fontsLoaded && !fontError) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <StatusBar barStyle="dark-content" />
+        <View style={styles.mainCentered}>
+          <ActivityIndicator size="large" color="#93C1C1" />
+        </View>
+      </SafeAreaView>
+    );
+  }
 
   if (screen === 'check_connection') {
     return (

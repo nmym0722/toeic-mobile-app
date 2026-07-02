@@ -650,6 +650,7 @@ const styles = StyleSheet.create({
     fontWeight: '900',
     color: '#1C1C1E',
     letterSpacing: -0.5,
+    fontFamily: 'MonaSans-Bold',
   },
   headerBadge: {
     fontSize: 10,
@@ -660,6 +661,7 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
     borderRadius: 12,
     textTransform: 'uppercase',
+    fontFamily: 'DMSans-Bold',
   },
   headerRowSpace: {
     flexDirection: 'row',
@@ -683,11 +685,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginBottom: 6,
+    fontFamily: 'MonaSans-Bold',
   },
   sectionSubtitle: {
     fontSize: 12,
     color: '#7C756B',
     lineHeight: 18,
+    fontFamily: 'DMSans-Regular',
   },
   btnGroup: {
     gap: 12,
@@ -714,6 +718,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   btnTag: {
     fontSize: 9,
@@ -724,11 +729,13 @@ const styles = StyleSheet.create({
     paddingVertical: 2,
     borderRadius: 8,
     overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
   btnCount: {
     fontSize: 12,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'DMSans-Regular',
   },
   closeFooterWrapper: {
     paddingVertical: 12,
@@ -747,6 +754,7 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   /* スワイプ画面用 */
   progressHeader: {
@@ -765,6 +773,7 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontWeight: 'bold',
     fontSize: 13,
+    fontFamily: 'MonaSans-Bold',
   },
   testBadge: {
     fontSize: 11,
@@ -792,6 +801,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
   cardArea: {
     flex: 1,
@@ -840,10 +850,11 @@ const styles = StyleSheet.create({
     fontWeight: '900',
     color: '#1C1C1E',
     textAlign: 'center',
+    fontFamily: 'MonaSans-Bold',
   },
   phoneticText: {
     fontSize: 14,
-    fontFamily: 'monospace',
+    fontFamily: 'DMSans-Regular',
     color: '#7C756B',
     marginTop: -8,
   },
@@ -890,6 +901,7 @@ const styles = StyleSheet.create({
     fontWeight: '900',
     color: '#1C1C1E',
     textAlign: 'center',
+    fontFamily: 'DMSans-Regular',
   },
   exampleContainer: {
     width: '100%',
@@ -904,6 +916,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#1C1C1E',
     lineHeight: 16,
+    fontFamily: 'DMSans-Regular',
   },
   translationText: {
     fontSize: 10,
@@ -912,6 +925,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 0.5,
     borderTopColor: '#DFD8CC',
     paddingTop: 6,
+    fontFamily: 'DMSans-Regular',
   },
   cardActions: {
     flexDirection: 'row',
@@ -940,11 +954,13 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 18,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   actionBtnTextKnow: {
     color: '#FFFFFF',
     fontSize: 18,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   /* イントロ画面 */
   introCard: {
@@ -969,6 +985,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginBottom: 12,
+    fontFamily: 'MonaSans-Bold',
   },
   introDesc: {
     fontSize: 14,
@@ -976,6 +993,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 22,
     marginBottom: 24,
+    fontFamily: 'DMSans-Regular',
   },
   introStartBtn: {
     backgroundColor: '#93C1C1',
@@ -989,6 +1007,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   /* テスト画面 */
   questionCard: {
@@ -1009,6 +1028,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1C1C1E',
     textAlign: 'center',
+    fontFamily: 'MonaSans-Bold',
   },
   optionsList: {
     gap: 12,
@@ -1024,6 +1044,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: '#1C1C1E',
     fontWeight: '600',
+    fontFamily: 'DMSans-Regular',
   },
   optSelected: {
     backgroundColor: '#EBE5D8',
@@ -1065,6 +1086,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   /* 結果画面 */
   resultCard: {
@@ -1084,6 +1106,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginBottom: 16,
+    fontFamily: 'MonaSans-Bold',
   },
   scoreCircle: {
     width: 100,
@@ -1100,23 +1123,27 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   scoreLabel: {
     fontSize: 14,
     color: '#1C1C1E',
     fontWeight: 'bold',
     marginLeft: 2,
+    fontFamily: 'MonaSans-Bold',
   },
   resultSummary: {
     fontSize: 14,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'DMSans-Regular',
   },
   listHeader: {
     fontSize: 16,
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginVertical: 12,
+    fontFamily: 'MonaSans-Bold',
   },
   listContainer: {
     gap: 12,
@@ -1137,11 +1164,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   resultItemMeaning: {
     fontSize: 12,
     color: '#7C756B',
     marginTop: 4,
+    fontFamily: 'DMSans-Regular',
   },
   resultItemRight: {
     flexDirection: 'row',
@@ -1188,5 +1217,6 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
 });

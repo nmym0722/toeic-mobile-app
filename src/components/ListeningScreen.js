@@ -843,6 +843,7 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   scrollContent: {
     paddingTop: 16,
@@ -859,18 +860,21 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     textTransform: 'uppercase',
     letterSpacing: 1,
+    fontFamily: 'MonaSans-Bold',
   },
   menuTitle: {
     fontSize: 24,
     fontWeight: '900',
     color: '#1C1C1E',
     marginTop: 4,
+    fontFamily: 'MonaSans-Bold',
   },
   menuDesc: {
     fontSize: 12,
     color: '#7C756B',
     marginTop: 6,
     lineHeight: 18,
+    fontFamily: 'DMSans-Regular',
   },
   menuGrid: {
     gap: 12,
@@ -898,6 +902,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   menuBtnBadge: {
     fontSize: 9,
@@ -908,12 +913,14 @@ const styles = StyleSheet.create({
     paddingVertical: 3,
     borderRadius: 6,
     overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
   menuBtnDesc: {
     fontSize: 11,
     color: '#7C756B',
     lineHeight: 16,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
 
   /* Quiz Layout Styles */
@@ -933,11 +940,13 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
     borderRadius: 8,
     textTransform: 'uppercase',
+    fontFamily: 'DMSans-Bold',
   },
   progressText: {
     fontSize: 12,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
   progressBarBg: {
     height: 6,
@@ -981,6 +990,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   audioProgressContainer: {
     flex: 1,
@@ -1004,6 +1014,7 @@ const styles = StyleSheet.create({
     fontSize: 9,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'DMSans-Regular',
   },
   speedBtn: {
     backgroundColor: '#EBE5D8',
@@ -1017,6 +1028,7 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
 
   /* Media Card */
@@ -1039,6 +1051,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#7C756B',
     textAlign: 'center',
+    fontFamily: 'DMSans-Regular',
   },
   listeningIcon: {
     fontSize: 40,
@@ -1049,6 +1062,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   listeningSubPrompt: {
     fontSize: 11,
@@ -1058,6 +1072,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingBottom: 24,
     marginTop: 8,
+    fontFamily: 'DMSans-Regular',
   },
   visualTitleBadge: {
     fontSize: 10,
@@ -1069,6 +1084,7 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     marginVertical: 12,
     overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
   part3Image: {
     width: '90%',
@@ -1092,6 +1108,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     letterSpacing: 1,
     marginBottom: 4,
+    fontFamily: 'MonaSans-Bold',
   },
   questionText: {
     fontSize: 15,
@@ -1100,6 +1117,7 @@ const styles = StyleSheet.create({
     lineHeight: 22,
     marginBottom: 16,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
   optionsContainer: {
     gap: 12,
@@ -1123,6 +1141,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     flex: 1,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
   optLabelBg: {
     width: 24,
@@ -1136,6 +1155,7 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
   /* Option States */
   optSelected: {
@@ -1196,6 +1216,7 @@ const styles = StyleSheet.create({
     color: '#1C1C1E',
     marginBottom: 12,
     textTransform: 'uppercase',
+    fontFamily: 'MonaSans-Bold',
   },
   expScriptBox: {
     backgroundColor: '#F3EFE6',
@@ -1209,23 +1230,27 @@ const styles = StyleSheet.create({
     fontSize: 10,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
   scriptTextEnglish: {
     fontSize: 13,
     color: '#1C1C1E',
     lineHeight: 18,
     fontWeight: '600',
+    fontFamily: 'DMSans-Regular',
   },
   scriptTextEnglishCorrect: {
     fontSize: 13,
     color: '#93C1C1',
     lineHeight: 18,
     fontWeight: 'bold',
+    fontFamily: 'DMSans-Regular',
   },
   scriptTextJapanese: {
     fontSize: 12,
     color: '#7C756B',
     lineHeight: 16,
+    fontFamily: 'DMSans-Regular',
   },
   scriptDivider: {
     height: 0.5,
@@ -1241,16 +1266,19 @@ const styles = StyleSheet.create({
     color: '#1C1C1E',
     lineHeight: 16,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
   speakerText: {
     fontWeight: 'bold',
     color: '#378F8F',
+    fontFamily: 'DMSans-Regular',
   },
   dialogueJapanese: {
     fontSize: 11,
     color: '#7C756B',
     lineHeight: 15,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
   expDividerLine: {
     height: 0.5,
@@ -1261,6 +1289,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: '#7C756B',
     lineHeight: 20,
+    fontFamily: 'DMSans-Regular',
   },
   multiExplanations: {
     gap: 12,
@@ -1277,6 +1306,7 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
 
   footer: {
@@ -1295,6 +1325,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
 
   /* Results Card */
@@ -1312,6 +1343,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginBottom: 16,
+    fontFamily: 'MonaSans-Bold',
   },
   scoreCircle: {
     width: 96,
@@ -1328,18 +1360,21 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   scoreLabel: {
     fontSize: 14,
     color: '#1C1C1E',
     fontWeight: 'bold',
     marginLeft: 2,
+    fontFamily: 'MonaSans-Bold',
   },
   evaluationTitle: {
     fontSize: 22,
     fontWeight: '900',
     color: '#1C1C1E',
     marginBottom: 8,
+    fontFamily: 'MonaSans-Bold',
   },
   evaluationSub: {
     fontSize: 12,
@@ -1347,6 +1382,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 18,
     paddingHorizontal: 8,
+    fontFamily: 'DMSans-Regular',
   },
   statsRow: {
     flexDirection: 'row',
@@ -1368,11 +1404,13 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     textTransform: 'uppercase',
     marginBottom: 4,
+    fontFamily: 'MonaSans-Bold',
   },
   statsValue: {
     fontSize: 20,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   statsValueCorrect: {
     color: '#378F8F',
@@ -1382,6 +1420,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginVertical: 12,
+    fontFamily: 'MonaSans-Bold',
   },
   reviewList: {
     gap: 16,
@@ -1409,11 +1448,13 @@ const styles = StyleSheet.create({
     paddingVertical: 3,
     borderRadius: 6,
     overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
   reviewTypeBadge: {
     fontSize: 9,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'DMSans-Bold',
   },
   part1ReviewImageContainer: {
     gap: 8,
@@ -1430,6 +1471,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#7C756B',
     fontWeight: '600',
+    fontFamily: 'DMSans-Regular',
   },
   reviewPart2Box: {
     gap: 6,
@@ -1439,6 +1481,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'DMSans-Regular',
   },
   reviewDivider: {
     height: 0.5,
@@ -1451,12 +1494,14 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     textTransform: 'uppercase',
     marginBottom: 6,
+    fontFamily: 'MonaSans-Bold',
   },
   reviewExpText: {
     fontSize: 12,
     color: '#7C756B',
     lineHeight: 18,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
   multiSetReviews: {
     gap: 16,
@@ -1481,6 +1526,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: '#7C756B',
     fontWeight: 'bold',
+    fontFamily: 'DMSans-Regular',
   },
   resultActions: {
     gap: 12,
@@ -1495,6 +1541,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   secondaryActionBtn: {
     backgroundColor: '#EBE5D8',
@@ -1506,6 +1553,7 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 15,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   backButton: {
     paddingVertical: 6,
@@ -1514,5 +1562,6 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
 });

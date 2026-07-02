@@ -344,6 +344,7 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   scrollContent: {
     paddingTop: 16,
@@ -368,11 +369,13 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
     borderRadius: 8,
     textTransform: 'uppercase',
+    fontFamily: 'DMSans-Bold',
   },
   progressText: {
     fontSize: 12,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
   progressBarBg: {
     height: 6,
@@ -401,11 +404,13 @@ const styles = StyleSheet.create({
     fontWeight: '900',
     color: '#1C1C1E',
     lineHeight: 24,
+    fontFamily: 'MonaSans-Bold',
   },
   passageSource: {
     fontSize: 11,
     color: '#7C756B',
     marginTop: 4,
+    fontFamily: 'DMSans-Regular',
   },
   passageDivider: {
     height: 0.5,
@@ -425,12 +430,14 @@ const styles = StyleSheet.create({
     borderBottomWidth: 0.5,
     borderBottomColor: '#DFD8CC',
     paddingBottom: 4,
+    fontFamily: 'MonaSans-Bold',
   },
   docContentText: {
     fontSize: 14,
     color: '#1C1C1E',
     lineHeight: 22,
     fontWeight: '500',
+    fontFamily: 'DMSans-Regular',
   },
   /* Question Card */
   questionCard: {
@@ -454,6 +461,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     letterSpacing: 1,
     marginBottom: 4,
+    fontFamily: 'MonaSans-Bold',
   },
   questionText: {
     fontSize: 15,
@@ -461,6 +469,7 @@ const styles = StyleSheet.create({
     color: '#1C1C1E',
     lineHeight: 22,
     marginBottom: 8,
+    fontFamily: 'DMSans-Regular',
   },
   resultBadge: {
     fontSize: 9,
@@ -471,6 +480,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     alignSelf: 'flex-start',
     marginTop: 4,
+    fontFamily: 'DMSans-Bold',
   },
   resultBadgeCorrect: {
     backgroundColor: '#378F8F',
@@ -502,6 +512,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     flex: 1,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
   optLabelBg: {
     width: 28,
@@ -515,6 +526,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
   /* Option State Styles */
   optSelected: {
@@ -570,11 +582,13 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     textTransform: 'uppercase',
     marginBottom: 6,
+    fontFamily: 'MonaSans-Bold',
   },
   expText: {
     fontSize: 12,
     color: '#1C1C1E',
     lineHeight: 18,
+    fontFamily: 'DMSans-Regular',
   },
   footer: {
     paddingVertical: 16,
@@ -592,6 +606,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   /* Results Screen */
   resultCard: {
@@ -608,6 +623,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginBottom: 16,
+    fontFamily: 'MonaSans-Bold',
   },
   scoreCircle: {
     width: 96,
@@ -624,18 +640,21 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   scoreLabel: {
     fontSize: 14,
     color: '#1C1C1E',
     fontWeight: 'bold',
     marginLeft: 2,
+    fontFamily: 'MonaSans-Bold',
   },
   evaluationTitle: {
     fontSize: 22,
     fontWeight: '900',
     color: '#1C1C1E',
     marginBottom: 8,
+    fontFamily: 'MonaSans-Bold',
   },
   evaluationSub: {
     fontSize: 12,
@@ -643,12 +662,14 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 18,
     paddingHorizontal: 8,
+    fontFamily: 'DMSans-Regular',
   },
   reviewHeader: {
     fontSize: 16,
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginVertical: 12,
+    fontFamily: 'MonaSans-Bold',
   },
   reviewList: {
     gap: 16,
@@ -676,6 +697,7 @@ const styles = StyleSheet.create({
     paddingVertical: 3,
     borderRadius: 6,
     overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
   reviewTypeBadge: {
     fontSize: 9,
@@ -686,6 +708,7 @@ const styles = StyleSheet.create({
     paddingVertical: 2,
     borderRadius: 4,
     overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
   reviewQuestionText: {
     fontSize: 14,
@@ -693,6 +716,7 @@ const styles = StyleSheet.create({
     color: '#1C1C1E',
     lineHeight: 20,
     marginBottom: 12,
+    fontFamily: 'DMSans-Regular',
   },
   reviewAnswersContainer: {
     backgroundColor: '#F3EFE6',
@@ -706,6 +730,7 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontWeight: '600',
     marginBottom: 4,
+    fontFamily: 'DMSans-Regular',
   },
   textWrong: {
     color: '#CC2534',
@@ -726,11 +751,13 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     textTransform: 'uppercase',
     marginBottom: 6,
+    fontFamily: 'MonaSans-Bold',
   },
   reviewExpText: {
     fontSize: 12,
     color: '#7C756B',
     lineHeight: 18,
+    fontFamily: 'DMSans-Regular',
   },
   resultActions: {
     gap: 12,
@@ -745,6 +772,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   secondaryActionBtn: {
     backgroundColor: '#EBE5D8',
@@ -756,6 +784,7 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 15,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   backButton: {
     paddingVertical: 6,
@@ -764,5 +793,6 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
 });

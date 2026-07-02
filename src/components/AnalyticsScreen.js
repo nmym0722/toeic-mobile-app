@@ -369,6 +369,7 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
   scrollContent: {
     paddingTop: 16,
@@ -388,17 +389,20 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     alignSelf: 'flex-start',
     textTransform: 'uppercase',
+    fontFamily: 'DMSans-Bold',
   },
   headerTitle: {
     fontSize: 22,
     fontWeight: '900',
     color: '#1C1C1E',
     marginTop: 6,
+    fontFamily: 'MonaSans-Bold',
   },
   headerDesc: {
     fontSize: 12,
     color: '#7C756B',
     marginTop: 4,
+    fontFamily: 'DMSans-Regular',
   },
 
   /* Card Layout */
@@ -417,6 +421,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     marginBottom: 12,
     textAlign: 'left',
+    fontFamily: 'MonaSans-Bold',
   },
   targetRow: {
     flexDirection: 'row',
@@ -440,6 +445,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
   targetBtnTextActive: {
     color: '#FFFFFF',
@@ -466,6 +472,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     marginBottom: 6,
     textAlign: 'left',
+    fontFamily: 'MonaSans-Bold',
   },
   metricValueRow: {
     flexDirection: 'row',
@@ -476,18 +483,21 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '900',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   metricUnit: {
     fontSize: 12,
     fontWeight: 'bold',
     color: '#1C1C1E',
     marginLeft: 2,
+    fontFamily: 'MonaSans-Bold',
   },
   metricSub: {
     fontSize: 9,
     fontWeight: 'bold',
     color: '#7C756B',
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
 
   /* Section Balance */
@@ -496,6 +506,7 @@ const styles = StyleSheet.create({
     fontWeight: '900',
     color: '#1C1C1E',
     textAlign: 'left',
+    fontFamily: 'MonaSans-Bold',
   },
   cardDesc: {
     fontSize: 11,
@@ -503,6 +514,7 @@ const styles = StyleSheet.create({
     marginTop: 2,
     marginBottom: 16,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
   balanceContainer: {
     gap: 16,
@@ -519,11 +531,13 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'DMSans-Regular',
   },
   progressValueText: {
     fontSize: 12,
     fontWeight: '900',
     color: '#378F8F',
+    fontFamily: 'MonaSans-Bold',
   },
   progressBarBg: {
     height: 10,
@@ -550,12 +564,14 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: 'bold',
     color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
   },
   adviceText: {
     fontSize: 12,
     color: '#7C756B',
     lineHeight: 18,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
 
   /* Table Style */
@@ -574,6 +590,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#7C756B',
     textTransform: 'uppercase',
+    fontFamily: 'MonaSans-Bold',
   },
   tableRow: {
     flexDirection: 'row',
@@ -587,10 +604,12 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1C1C1E',
     textAlign: 'left',
+    fontFamily: 'MonaSans-Bold',
   },
   tableCell: {
     flex: 1,
     fontSize: 12,
+    fontFamily: 'DMSans-Regular',
   },
   tableBadge: {
     fontSize: 9,
@@ -599,6 +618,7 @@ const styles = StyleSheet.create({
     paddingVertical: 3,
     borderRadius: 6,
     overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
   badgeGood: {
     backgroundColor: '#93C1C1',
@@ -655,10 +675,12 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: 'bold',
     color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
   timelineDiff: {
     fontSize: 9,
     fontWeight: 'bold',
+    fontFamily: 'DMSans-Regular',
   },
   diffGood: {
     color: '#378F8F',
@@ -671,17 +693,20 @@ const styles = StyleSheet.create({
     color: '#1C1C1E',
     marginTop: 2,
     textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
   timelineScoreNumber: {
     fontSize: 16,
     fontWeight: '900',
     color: '#378F8F',
+    fontFamily: 'MonaSans-Bold',
   },
   emptyTimelineText: {
     fontSize: 12,
     color: '#7C756B',
     textAlign: 'center',
     paddingVertical: 12,
+    fontFamily: 'DMSans-Regular',
   },
 
   secondaryActionBtn: {
@@ -694,5 +719,6 @@ const styles = StyleSheet.create({
     color: '#7C756B',
     fontSize: 15,
     fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
 });
