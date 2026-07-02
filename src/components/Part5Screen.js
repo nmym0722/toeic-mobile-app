@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   StyleSheet,
   Text,
@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import rawPart5Data from '../data/toeic_part5.json';
 import NeoButton from './NeoButton';
+import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
 
 // 問題タイプの定義
 const QUESTION_TYPES = [
@@ -24,6 +25,7 @@ const QUESTION_TYPES = [
 ];
 
 export default function Part5Screen({ onBackPortal }) {
+  const quizStartTimeRef = useRef(null);
   const [questions, setQuestions] = useState([]);
   const [phase, setPhase] = useState('select_type'); // select_type | select_count | quiz | result
   const [selectedType, setSelectedType] = useState('all');
@@ -48,6 +50,7 @@ export default function Part5Screen({ onBackPortal }) {
       setSelectedOption(null);
       setIsSubmitted(false);
       setQuizResults([]);
+      quizStartTimeRef.current = Date.now();
     }
   }, [phase, selectedType, selectedCount]);
 
@@ -70,8 +73,23 @@ export default function Part5Screen({ onBackPortal }) {
     ]);
   };
 
+  const savePart5Results = async (results) => {
+    try {
+      const correctCount = results.filter((r) => r.correct).length;
+      const elapsedSec = quizStartTimeRef.current ? Math.round((Date.now() - quizStartTimeRef.current) / 1000) : 0;
+      const stats = await loadUserStats();
+      const typeLabel = QUESTION_TYPES.find((t) => t.key === selectedType)?.label || 'すべて';
+      const testName = `Part 5 (${typeLabel} ${results.length}問)`;
+      const updated = updatePartStats(stats, 'part5', correctCount, results.length, elapsedSec, testName);
+      await saveUserStats(updated);
+    } catch (e) {
+      console.error('Failed to save Part 5 stats:', e);
+    }
+  };
+
   const handleNextQuestion = () => {
     if (currentIndex + 1 >= questions.length) {
+      savePart5Results(quizResults);
       setPhase('result');
     } else {
       setCurrentIndex((prev) => prev + 1);

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   StyleSheet,
   Text,
@@ -10,8 +10,10 @@ import {
 } from 'react-native';
 import rawPart6Data from '../data/toeic_part6.json';
 import NeoButton from './NeoButton';
+import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
 
 export default function Part6Screen({ onBackPortal }) {
+  const quizStartTimeRef = useRef(null);
   const [passage, setPassage] = useState(null);
   const [activeBlank, setActiveBlank] = useState('1'); // 現在アクティブな空所ID ("1"〜"4")
   const [answers, setAnswers] = useState({}); // { "1": "選択肢", ... }
@@ -25,6 +27,7 @@ export default function Part6Screen({ onBackPortal }) {
     setAnswers({});
     setSubmittedBlanks({});
     setPhase('quiz');
+    quizStartTimeRef.current = Date.now();
   };
 
   useEffect(() => {
@@ -37,6 +40,25 @@ export default function Part6Screen({ onBackPortal }) {
     setSubmittedBlanks((prev) => ({ ...prev, [activeBlank]: true }));
   };
 
+  const savePart6Results = async () => {
+    if (!passage) return;
+    try {
+      let correctCount = 0;
+      passage.questions.forEach((q) => {
+        if (answers[q.id] === q.answer) {
+          correctCount++;
+        }
+      });
+      const elapsedSec = quizStartTimeRef.current ? Math.round((Date.now() - quizStartTimeRef.current) / 1000) : 0;
+      const stats = await loadUserStats();
+      const testName = `Part 6 長文穴埋め (${passage.questions.length}問)`;
+      const updated = updatePartStats(stats, 'part6', correctCount, passage.questions.length, elapsedSec, testName);
+      await saveUserStats(updated);
+    } catch (e) {
+      console.error('Failed to save Part 6 stats:', e);
+    }
+  };
+
   const handleNextBlank = () => {
     const nextId = String(Number(activeBlank) + 1);
     if (Number(nextId) <= passage.questions.length) {
@@ -44,12 +66,14 @@ export default function Part6Screen({ onBackPortal }) {
     } else {
       const allDone = passage.questions.every((q) => submittedBlanks[String(q.id)]);
       if (allDone) {
+        savePart6Results();
         setPhase('result');
       } else {
         const uncompleted = passage.questions.find((q) => !submittedBlanks[String(q.id)]);
         if (uncompleted) {
           setActiveBlank(String(uncompleted.id));
         } else {
+          savePart6Results();
           setPhase('result');
         }
       }

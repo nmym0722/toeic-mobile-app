@@ -1,232 +1,177 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   StyleSheet,
   Text,
   View,
   ScrollView,
-  ActivityIndicator,
   SafeAreaView,
   Platform,
 } from 'react-native';
-import { useIsFocused } from '@react-navigation/native';
-
-import {
-  loadUserStats,
-  saveUserStats,
-  calculateEstimatedScore,
-  calculateWordMastery,
-  calculateTotalTimeMinutes,
-  calculateTotalQuestions,
-} from '../../src/utils/statsHandler';
+import { useRouter } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
 import NeoButton from '../../src/components/NeoButton';
 
-export default function HomeDashboardScreen() {
-  const [stats, setStats] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
-  const isFocused = useIsFocused();
-
-  // 今日目標のチェックボックス状態 (絵文字を排除)
-  const [todoList, setTodoList] = useState([
-    { id: 1, text: '単語テストを1回解く (10単語)', completed: false },
-    { id: 2, text: 'Part 5 短文穴埋めを10問解く', completed: false },
-    { id: 3, text: 'リスニング問題に5問挑戦する', completed: false },
-  ]);
-
-  const toggleTodo = (id: number) => {
-    setTodoList(prev =>
-      prev.map(todo =>
-        todo.id === id ? { ...todo, completed: !todo.completed } : todo
-      )
-    );
-  };
-
-  const fetchStats = async () => {
-    setLoading(true);
-    const data = await loadUserStats();
-    setStats(data);
-    setLoading(false);
-  };
-
-  useEffect(() => {
-    if (isFocused) {
-      fetchStats();
-    }
-  }, [isFocused]);
-
-  const handleTargetScoreChange = async (score: number) => {
-    if (!stats) return;
-    const updated = { ...stats, targetScore: score };
-    setStats(updated);
-    await saveUserStats(updated);
-  };
-
-  if (loading || !stats) {
-    return (
-      <View style={styles.containerCentered}>
-        <ActivityIndicator size="large" color="#93C1C1" />
-        <Text style={styles.loadingText}>Loading Dashboard...</Text>
-      </View>
-    );
-  }
-
-  // 推定スコア計算
-  const estimated = calculateEstimatedScore(stats);
-  const totalMinutes = calculateTotalTimeMinutes(stats);
-  const totalQuestions = calculateTotalQuestions(stats);
-  const wordMastery = calculateWordMastery(stats);
-
-  // L / R 正答率
-  const getListeningRate = () => {
-    let correct = 0;
-    let total = 0;
-    for (let i = 1; i <= 4; i++) {
-      const p = stats.partStats[`part${i}`];
-      if (p) {
-        correct += p.correct;
-        total += p.total;
-      }
-    }
-    return total === 0 ? 0 : Math.round((correct / total) * 100);
-  };
-
-  const getReadingRate = () => {
-    let correct = 0;
-    let total = 0;
-    for (let i = 5; i <= 7; i++) {
-      const p = stats.partStats[`part${i}`];
-      if (p) {
-        correct += p.correct;
-        total += p.total;
-      }
-    }
-    return total === 0 ? 0 : Math.round((correct / total) * 100);
-  };
-
-  const listeningRate = getListeningRate();
-  const readingRate = getReadingRate();
+export default function StudyMenuScreen() {
+  const router = useRouter();
 
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
-          {/* Header */}
-          <View style={styles.header}>
-            <Text style={styles.headerBadge}>Dashboard</Text>
-            <Text style={styles.headerTitle}>Home Dashboard</Text>
-            <Text style={styles.headerDesc}>あなたの毎日の学習成果と今日の目標</Text>
+        {/* Header */}
+        <View style={styles.header}>
+          <Text style={styles.headerBadge}>Study Portal</Text>
+          <View style={styles.headerTitleRow}>
+            <Ionicons name="school" size={24} color="#7C756B" style={{ marginRight: 6 }} />
+            <Text style={styles.headerTitle}>学習メニュー</Text>
           </View>
+          <Text style={styles.headerDesc}>TOEIC® 各セクションの演習トレーニング</Text>
+        </View>
 
-          {/* 今日の目標 (Todo List) */}
-          <View style={styles.card}>
-            <Text style={styles.cardLabel}>今日の学習目標</Text>
-            <View style={styles.todoContainer}>
-              {todoList.map(todo => (
-                <NeoButton
-                  key={todo.id}
-                  onPress={() => toggleTodo(todo.id)}
-                  btnStyle={[
-                    styles.todoItem,
-                    todo.completed && styles.todoItemCompleted,
-                  ]}
-                  shadowColor={todo.completed ? '#DFD8CC' : '#1C1C1E'}
-                  borderRadius={12}
-                >
-                  <View style={styles.todoContent}>
-                    <Text style={[styles.todoCheckbox, todo.completed && styles.todoCheckboxCompleted]}>
-                      {todo.completed ? '✓' : ' '}
-                    </Text>
-                    <Text style={[styles.todoText, todo.completed && styles.todoTextCompleted]}>
-                      {todo.text}
-                    </Text>
-                  </View>
-                </NeoButton>
-              ))}
+        {/* --- LISTENING SECTION --- */}
+        <View style={styles.sectionHeader}>
+          <View style={styles.sectionTitleRow}>
+            <Ionicons name="headset" size={18} color="#7C756B" style={{ marginRight: 6 }} />
+            <Text style={styles.sectionTitle}>LISTENING (Part 1 - 4)</Text>
+          </View>
+        </View>
+
+        {/* Part 1 */}
+        <NeoButton
+          onPress={() => router.push('/listening?part=1')}
+          btnStyle={styles.menuBtn}
+        >
+          <View style={styles.menuBtnContent}>
+            <View style={styles.menuLeft}>
+              <Ionicons name="camera-outline" size={32} color="#7C756B" />
             </View>
-          </View>
-
-          {/* Set Target Score */}
-          <View style={styles.card}>
-            <Text style={styles.cardLabel}>Set Target Score (目標スコア)</Text>
-            <View style={styles.targetRow}>
-              {[600, 730, 860, 990].map((score) => {
-                const active = stats.targetScore === score;
-                return (
-                  <View key={score} style={styles.targetBtnWrapper}>
-                    <NeoButton
-                      onPress={() => handleTargetScoreChange(score)}
-                      btnStyle={[
-                        styles.targetBtnFront,
-                        active && styles.targetBtnActive,
-                      ]}
-                      shadowColor={active ? '#378F8F' : '#1C1C1E'}
-                      borderRadius={12}
-                    >
-                      <Text style={[styles.targetBtnText, active && styles.targetBtnTextActive]}>
-                        {score} pts
-                      </Text>
-                    </NeoButton>
-                  </View>
-                );
-              })}
-            </View>
-          </View>
-
-          {/* Summary Metrics */}
-          <View style={styles.metricsGrid}>
-            <View style={styles.metricBox}>
-              <Text style={styles.metricLabel}>Estimated Score (推定スコア)</Text>
-              <View style={styles.metricValueRow}>
-                <Text style={styles.metricValue}>{estimated.total}</Text>
-                <Text style={styles.metricUnit}>pts</Text>
-              </View>
-              <Text style={styles.metricSub}>
-                L: {estimated.listening} / R: {estimated.reading}
+            <View style={styles.menuRight}>
+              <Text style={styles.menuTitle}>Photographs (Part 1)</Text>
+              <Text style={styles.menuDesc}>
+                写真描写問題。提示された1枚の写真の内容を最も適切に描写している選択肢を選びます。
               </Text>
             </View>
+          </View>
+        </NeoButton>
 
-            <View style={styles.metricBox}>
-              <Text style={styles.metricLabel}>Daily Streak (継続日数)</Text>
-              <View style={styles.metricValueRow}>
-                <Text style={styles.metricValue}>{stats.streak}</Text>
-                <Text style={styles.metricUnit}>Days</Text>
-              </View>
-              <Text style={styles.metricSub}>Last: {stats.lastStudyDate || 'Today'}</Text>
+        {/* Part 2 */}
+        <NeoButton
+          onPress={() => router.push('/listening?part=2')}
+          btnStyle={styles.menuBtn}
+        >
+          <View style={styles.menuBtnContent}>
+            <View style={styles.menuLeft}>
+              <Ionicons name="chatbubbles-outline" size={32} color="#7C756B" />
+            </View>
+            <View style={styles.menuRight}>
+              <Text style={styles.menuTitle}>Question-Response (Part 2)</Text>
+              <Text style={styles.menuDesc}>
+                応答問題。短い質問や発言に対する最も適切な返答を3つの選択肢から選びます。
+              </Text>
             </View>
           </View>
+        </NeoButton>
 
-          {/* Detail Stats */}
-          <View style={styles.card}>
-            <Text style={styles.cardLabel}>Correct Rate (セクション正答率)</Text>
-            <View style={styles.rateRow}>
-              <View style={styles.rateBox}>
-                <Text style={styles.rateLabel}>Listening (Part 1 - 4)</Text>
-                <Text style={[styles.rateValue, styles.rateValueL]}>{listeningRate}%</Text>
-              </View>
-              <View style={styles.rateBox}>
-                <Text style={styles.rateLabel}>Reading (Part 5 - 7)</Text>
-                <Text style={[styles.rateValue, styles.rateValueR]}>{readingRate}%</Text>
-              </View>
+        {/* Part 3 */}
+        <NeoButton
+          onPress={() => router.push('/listening?part=3')}
+          btnStyle={styles.menuBtn}
+        >
+          <View style={styles.menuBtnContent}>
+            <View style={styles.menuLeft}>
+              <Ionicons name="people-outline" size={32} color="#7C756B" />
+            </View>
+            <View style={styles.menuRight}>
+              <Text style={styles.menuTitle}>Conversations (Part 3)</Text>
+              <Text style={styles.menuDesc}>
+                会話問題。2人または3人の人物による会話を聞き、印刷された質問に対する適切な解答を選びます。
+              </Text>
             </View>
           </View>
+        </NeoButton>
 
-          {/* Summary Stats */}
-          <View style={styles.card}>
-            <Text style={styles.cardLabel}>Total Progress (累計学習)</Text>
-            <View style={styles.statsOverview}>
-              <View style={styles.statLine}>
-                <Text style={styles.statLabel}>回答済問題数</Text>
-                <Text style={styles.statValue}>{totalQuestions} 問</Text>
-              </View>
-              <View style={styles.statLine}>
-                <Text style={styles.statLabel}>累計学習時間</Text>
-                <Text style={styles.statValue}>{totalMinutes} 分</Text>
-              </View>
-              <View style={styles.statLine}>
-                <Text style={styles.statLabel}>習得単語数</Text>
-                <Text style={styles.statValue}>{wordMastery} 単語</Text>
-              </View>
+        {/* Part 4 */}
+        <NeoButton
+          onPress={() => router.push('/listening?part=4')}
+          btnStyle={styles.menuBtn}
+        >
+          <View style={styles.menuBtnContent}>
+            <View style={styles.menuLeft}>
+              <Ionicons name="megaphone-outline" size={32} color="#7C756B" />
+            </View>
+            <View style={styles.menuRight}>
+              <Text style={styles.menuTitle}>Talks (Part 4)</Text>
+              <Text style={styles.menuDesc}>
+                説明文問題。アナウンスやナレーションなどの短い説明文を聞き、質問に解答します。
+              </Text>
             </View>
           </View>
-        </ScrollView>
+        </NeoButton>
+
+        {/* --- READING SECTION --- */}
+        <View style={styles.sectionHeader}>
+          <View style={styles.sectionTitleRow}>
+            <Ionicons name="document-text" size={18} color="#7C756B" style={{ marginRight: 6 }} />
+            <Text style={styles.sectionTitle}>READING (Part 5 - 7)</Text>
+          </View>
+        </View>
+
+        {/* Part 5 */}
+        <NeoButton
+          onPress={() => router.push('/reading/part5')}
+          btnStyle={styles.menuBtn}
+          shadowColor="#1C1C1E"
+        >
+          <View style={styles.menuBtnContent}>
+            <View style={styles.menuLeft}>
+              <Ionicons name="create-outline" size={32} color="#7C756B" />
+            </View>
+            <View style={styles.menuRight}>
+              <Text style={styles.menuTitle}>Sentence Completion (Part 5)</Text>
+              <Text style={styles.menuDesc}>
+                短文穴埋め問題。語彙や品詞、文法ルールなど問題タイプ別またはランダムで練習します。
+              </Text>
+            </View>
+          </View>
+        </NeoButton>
+
+        {/* Part 6 */}
+        <NeoButton
+          onPress={() => router.push('/reading/part6')}
+          btnStyle={styles.menuBtn}
+          shadowColor="#1C1C1E"
+        >
+          <View style={styles.menuBtnContent}>
+            <View style={styles.menuLeft}>
+              <Ionicons name="document-text-outline" size={32} color="#7C756B" />
+            </View>
+            <View style={styles.menuRight}>
+              <Text style={styles.menuTitle}>Text Completion (Part 6)</Text>
+              <Text style={styles.menuDesc}>
+                長文穴埋め問題。文章の流れを理解し、適切な語句やセンテンスを挿入する練習をします。
+              </Text>
+            </View>
+          </View>
+        </NeoButton>
+
+        {/* Part 7 */}
+        <NeoButton
+          onPress={() => router.push('/reading/part7')}
+          btnStyle={styles.menuBtn}
+          shadowColor="#1C1C1E"
+        >
+          <View style={styles.menuBtnContent}>
+            <View style={styles.menuLeft}>
+              <Ionicons name="book-outline" size={32} color="#7C756B" />
+            </View>
+            <View style={styles.menuRight}>
+              <Text style={styles.menuTitle}>Reading Comprehension (Part 7)</Text>
+              <Text style={styles.menuDesc}>
+                長文読解問題。ビジネス文書やEメール、マルチパッセージの読解スピードと正確性を鍛えます。
+              </Text>
+            </View>
+          </View>
+        </NeoButton>
+      </ScrollView>
     </SafeAreaView>
   );
 }
@@ -236,30 +181,13 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F3EFE6',
   },
-  containerCentered: {
-    flex: 1,
-    backgroundColor: '#F3EFE6',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  loadingText: {
-    marginTop: 12,
-    color: '#7C756B',
-    fontSize: 14,
-    fontWeight: 'bold',
-  },
-  scrollContent: {
-    paddingHorizontal: 24,
-    paddingTop: 16,
-    gap: 20,
-    paddingBottom: 40,
-  },
   header: {
     paddingHorizontal: 8,
-    paddingTop: Platform.OS === 'ios' ? 24 : 16, // リーディング基準の上部安全余白に統一
+    paddingTop: Platform.OS === 'ios' ? 16 : 8,
+    paddingBottom: 12,
     borderBottomWidth: 1,
     borderBottomColor: '#DFD8CC',
-    paddingBottom: 16,
+    marginBottom: 8,
   },
   headerBadge: {
     fontSize: 10,
@@ -271,198 +199,83 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     alignSelf: 'flex-start',
     textTransform: 'uppercase',
+    fontFamily: 'DMSans-Bold',
   },
-  headerTitle: {
-    fontSize: 24,
-    fontWeight: '900',
-    color: '#1C1C1E',
+  headerTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
     marginTop: 8,
   },
-  headerDesc: {
-    fontSize: 13,
-    color: '#7C756B',
-    marginTop: 4,
-    fontWeight: '600',
-  },
-  card: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 24,
-    padding: 20,
-    borderWidth: 2,
-    borderColor: '#1C1C1E',
-  },
-  cardLabel: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    color: '#7C756B',
-    marginBottom: 16,
-    textTransform: 'uppercase',
-  },
-  targetRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    gap: 8,
-  },
-  targetBtnWrapper: {
-    flex: 1,
-  },
-  targetBtnFront: {
-    backgroundColor: '#FFFFFF',
-    borderWidth: 2,
-    borderColor: '#1C1C1E',
-    paddingVertical: 12,
-    width: '100%',
-  },
-  targetBtnActive: {
-    backgroundColor: '#93C1C1',
-    borderColor: '#1C1C1E',
-  },
-  targetBtnText: {
-    fontSize: 12,
-    fontWeight: 'bold',
-    color: '#1C1C1E',
-    textAlign: 'center',
-  },
-  targetBtnTextActive: {
-    color: '#FFFFFF',
-  },
-  metricsGrid: {
-    flexDirection: 'row',
-    gap: 12,
-  },
-  metricBox: {
-    flex: 1,
-    backgroundColor: '#FFFFFF',
-    borderRadius: 20,
-    padding: 16,
-    borderWidth: 2,
-    borderColor: '#1C1C1E',
-  },
-  metricLabel: {
-    fontSize: 10,
-    fontWeight: 'bold',
-    color: '#7C756B',
-    marginBottom: 8,
-  },
-  metricValueRow: {
-    flexDirection: 'row',
-    alignItems: 'baseline',
-    marginBottom: 4,
-  },
-  metricValue: {
-    fontSize: 24,
-    fontWeight: '900',
-    color: '#1C1C1E',
-  },
-  metricUnit: {
-    fontSize: 11,
-    fontWeight: 'bold',
-    color: '#7C756B',
-    marginLeft: 2,
-  },
-  metricSub: {
-    fontSize: 11,
-    color: '#7C756B',
-    fontWeight: '600',
-  },
-  rateRow: {
-    flexDirection: 'row',
-    gap: 12,
-  },
-  rateBox: {
-    flex: 1,
-    backgroundColor: '#F3EFE6',
-    borderRadius: 16,
-    padding: 14,
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: '#DFD8CC',
-  },
-  rateLabel: {
-    fontSize: 11,
-    fontWeight: 'bold',
-    color: '#7C756B',
-    marginBottom: 6,
-  },
-  rateValue: {
+  headerTitle: {
     fontSize: 22,
     fontWeight: '900',
-  },
-  rateValueL: {
-    color: '#378F8F',
-  },
-  rateValueR: {
-    color: '#93C1C1',
-  },
-  statsOverview: {
-    gap: 12,
-  },
-  statLine: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    borderBottomWidth: 0.5,
-    borderBottomColor: '#DFD8CC',
-    paddingBottom: 8,
-  },
-  statLabel: {
-    fontSize: 13,
     color: '#1C1C1E',
-    fontWeight: '600',
+    fontFamily: 'MonaSans-Bold',
   },
-  statValue: {
+  headerDesc: {
+    fontSize: 12,
+    color: '#7C756B',
+    marginTop: 4,
+    fontFamily: 'DMSans-Regular',
+  },
+  scrollContent: {
+    paddingHorizontal: 20,
+    paddingTop: 16,
+    gap: 16,
+    paddingBottom: 40,
+  },
+  sectionHeader: {
+    marginTop: 8,
+    marginBottom: 2,
+    paddingHorizontal: 4,
+  },
+  sectionTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  sectionTitle: {
+    fontSize: 14,
+    fontWeight: '900',
+    color: '#7C756B',
+    textTransform: 'uppercase',
+    fontFamily: 'MonaSans-Bold',
+  },
+  menuBtn: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    padding: 16,
+    width: '100%',
+  },
+  menuBtnContent: {
+    flexDirection: 'row',
+    gap: 16,
+    width: '100%',
+    alignItems: 'center',
+  },
+  menuLeft: {
+    justifyContent: 'center',
+    width: 40,
+    alignItems: 'center',
+  },
+  menuRight: {
+    flex: 1,
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+  },
+  menuTitle: {
     fontSize: 15,
     fontWeight: 'bold',
     color: '#1C1C1E',
-  },
-  todoContainer: {
-    gap: 12,
-  },
-  todoItem: {
-    backgroundColor: '#FFFFFF',
-    borderWidth: 2,
-    borderColor: '#1C1C1E',
-    paddingVertical: 14,
-    paddingHorizontal: 12,
-    width: '100%',
-  },
-  todoItemCompleted: {
-    backgroundColor: '#F3EFE6',
-    borderColor: '#DFD8CC',
-    opacity: 0.8,
-  },
-  todoContent: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 12,
-    width: '100%',
-  },
-  todoCheckbox: {
-    width: 24,
-    height: 24,
-    borderWidth: 2,
-    borderColor: '#1C1C1E',
-    borderRadius: 6,
-    textAlign: 'center',
-    lineHeight: 20,
-    fontSize: 14,
-    fontWeight: 'bold',
-    backgroundColor: '#FFFFFF',
-  },
-  todoCheckboxCompleted: {
-    borderColor: '#378F8F',
-    backgroundColor: '#93C1C1',
-    color: '#FFFFFF',
-  },
-  todoText: {
-    fontSize: 13,
-    fontWeight: 'bold',
-    color: '#1C1C1E',
-    flex: 1,
+    marginBottom: 4,
     textAlign: 'left',
+    fontFamily: 'MonaSans-Bold',
   },
-  todoTextCompleted: {
-    textDecorationLine: 'line-through',
+  menuDesc: {
+    fontSize: 11,
     color: '#7C756B',
+    lineHeight: 16,
+    textAlign: 'left',
+    fontFamily: 'DMSans-Regular',
   },
 });

@@ -26,9 +26,9 @@ export default function TabLayout() {
       <MaterialTopTabs.Screen
         name="index"
         options={{
-          title: 'ホーム',
+          title: '学習',
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? "home" : "home-outline"} size={22} color={color} />
+            <Ionicons name={focused ? "school" : "school-outline"} size={22} color={color} />
           ),
         }}
       />
@@ -38,24 +38,6 @@ export default function TabLayout() {
           title: '単語',
           tabBarIcon: ({ color, focused }) => (
             <Ionicons name={focused ? "book" : "book-outline"} size={22} color={color} />
-          ),
-        }}
-      />
-      <MaterialTopTabs.Screen
-        name="listening"
-        options={{
-          title: 'リスニング',
-          tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? "headset" : "headset-outline"} size={22} color={color} />
-          ),
-        }}
-      />
-      <MaterialTopTabs.Screen
-        name="reading"
-        options={{
-          title: 'リーディング',
-          tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? "document-text" : "document-text-outline"} size={22} color={color} />
           ),
         }}
       />

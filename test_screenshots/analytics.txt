@@ -1,0 +1,86 @@
+Study Portal
+
+学習メニュー
+TOEIC® 各セクションの演習トレーニング
+
+LISTENING (Part 1 - 4)
+
+Photographs (Part 1)
+写真描写問題。提示された1枚の写真の内容を最も適切に描写している選択肢を選びます。
+
+Question-Response (Part 2)
+応答問題。短い質問や発言に対する最も適切な返答を3つの選択肢から選びます。
+
+Conversations (Part 3)
+会話問題。2人または3人の人物による会話を聞き、印刷された質問に対する適切な解答を選びます。
+
+Talks (Part 4)
+説明文問題。アナウンスやナレーションなどの短い説明文を聞き、質問に解答します。
+
+READING (Part 5 - 7)
+
+Sentence Completion (Part 5)
+短文穴埋め問題。語彙や品詞、文法ルールなど問題タイプ別またはランダムで練習します。
+
+Text Completion (Part 6)
+長文穴埋め問題。文章の流れを理解し、適切な語句やセンテンスを挿入する練習をします。
+
+Reading Comprehension (Part 7)
+長文読解問題。ビジネス文書やEメール、マルチパッセージの読解スピードと正確性を鍛えます。
+
+
+学習
+学習
+
+
+単語
+単語
+
+
+マイページ
+マイページ
+Part 5 ・ Sentence Completion
+問題タイプを選択
+すべて (All)
+100
+問
+語彙問題 (Vocabulary)
+45
+問
+品詞問題 (Part of Speech)
+19
+問
+動詞・時制問題 (Verb / Tense)
+6
+問
+接続詞問題 (Conjunction)
+7
+問
+前置詞問題 (Preposition)
+11
+問
+副詞問題 (Adverb)
+6
+問
+代名詞問題 (Pronoun)
+6
+問
+ダッシュボードに戻る
+.__expo_fast_refresh {  
+  position: fixed;
+  pointer-events: none;
+  bottom: 8px;
+  left: 8px;
+  z-index: 9999;
+  display: flex;
+  background-color: #1B1D1E;
+  border: 1px solid #4D5155;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 150ms;
+  opacity: 0; 
+  filter: blur(4px); 
+  transform: translateY(20%);
+}
+
+.__expo_fast_refresh_show { opacity: 1; filter: blur(0); transform: scale(1); }

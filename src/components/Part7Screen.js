@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   StyleSheet,
   Text,
@@ -10,8 +10,10 @@ import {
 } from 'react-native';
 import rawPart7Data from '../data/toeic_part7.json';
 import NeoButton from './NeoButton';
+import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
 
 export default function Part7Screen({ onBackPortal }) {
+  const quizStartTimeRef = useRef(null);
   const [passage, setPassage] = useState(null);
   const [phase, setPhase] = useState('quiz'); // quiz | result
   const [currentQIndex, setCurrentQIndex] = useState(0);
@@ -27,6 +29,7 @@ export default function Part7Screen({ onBackPortal }) {
     setIsSubmitted(false);
     setQuizResults([]);
     setPhase('quiz');
+    quizStartTimeRef.current = Date.now();
   };
 
   useEffect(() => {
@@ -52,8 +55,23 @@ export default function Part7Screen({ onBackPortal }) {
     ]);
   };
 
+  const savePart7Results = async (results) => {
+    if (!passage) return;
+    try {
+      const correctCount = results.filter((r) => r.correct).length;
+      const elapsedSec = quizStartTimeRef.current ? Math.round((Date.now() - quizStartTimeRef.current) / 1000) : 0;
+      const stats = await loadUserStats();
+      const testName = `Part 7 長文読解 (${passage.passage_type || 'シングル'} ${results.length}問)`;
+      const updated = updatePartStats(stats, 'part7', correctCount, results.length, elapsedSec, testName);
+      await saveUserStats(updated);
+    } catch (e) {
+      console.error('Failed to save Part 7 stats:', e);
+    }
+  };
+
   const handleNextQuestion = () => {
     if (currentQIndex + 1 >= passage.questions.length) {
+      savePart7Results(quizResults);
       setPhase('result');
     } else {
       setCurrentQIndex((prev) => prev + 1);

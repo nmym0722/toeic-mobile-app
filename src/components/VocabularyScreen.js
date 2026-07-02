@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   StyleSheet,
   Text,
@@ -12,7 +12,7 @@ import {
 import { Audio } from 'expo-av';
 import * as Linking from 'expo-linking';
 import { Ionicons } from '@expo/vector-icons';
-import { getShuffledWords, levelMeta } from '../data/words';
+import { getShuffledWords, getWeightedWords, levelMeta } from '../data/words';
 import NeoButton from './NeoButton';
 import { useNavigation } from '@react-navigation/native';
 
@@ -152,6 +152,7 @@ function SwipeCard({ wordData, isFlipped, setIsFlipped, autoPlay }) {
    VocabularyScreen メインコンポーネント
    ========================================== */
 export default function VocabularyScreen({ onBackPortal }) {
+  const quizStartTimeRef = useRef(null);
   const navigation = useNavigation();
   const [level, setLevel] = useState(null);
   const [questionCount, setQuestionCount] = useState(10);
@@ -178,15 +179,41 @@ export default function VocabularyScreen({ onBackPortal }) {
 
   // 単語データのロード
   useEffect(() => {
+    let active = true;
     if (level !== null && phase === 'swipe') {
-      const rawWords = getShuffledWords(level, questionCount);
-      setWords(rawWords);
-      setSwipeIndex(0);
-      setQuizIndex(0);
-      setSwipeResults({});
-      setQuizResults([]);
-      setIsFlipped(false);
+      const loadAndSelectWords = async () => {
+        try {
+          const { loadUserStats } = require('../utils/statsHandler');
+          const stats = await loadUserStats();
+          if (!active) return;
+          
+          const rawWords = getWeightedWords(level, questionCount, stats.wordProgress || {});
+          setWords(rawWords);
+          setSwipeIndex(0);
+          setQuizIndex(0);
+          setSwipeResults({});
+          setQuizResults([]);
+          setIsFlipped(false);
+        } catch (e) {
+          console.error('Failed to load words with weights:', e);
+          if (active) {
+            // エラー時のフォールバックとして従来のシャッフルを使用
+            const rawWords = getShuffledWords(level, questionCount);
+            setWords(rawWords);
+            setSwipeIndex(0);
+            setQuizIndex(0);
+            setSwipeResults({});
+            setQuizResults([]);
+            setIsFlipped(false);
+          }
+        }
+      };
+
+      loadAndSelectWords();
     }
+    return () => {
+      active = false;
+    };
   }, [level, phase, questionCount]);
 
   // 4択テストの選択肢生成
@@ -253,8 +280,32 @@ export default function VocabularyScreen({ onBackPortal }) {
     ]);
   };
 
+  const saveVocabularyResults = async (results) => {
+    try {
+      const { loadUserStats, saveUserStats, updateWordProgressBatch } = require('../utils/statsHandler');
+      const elapsedSec = quizStartTimeRef.current ? Math.round((Date.now() - quizStartTimeRef.current) / 1000) : 0;
+      
+      const batchResults = results.map((r, index) => {
+        const wordData = words[index];
+        return {
+          wordId: wordData.id,
+          isCorrect: r.correct,
+          isLearnSwiped: r.isLearnSwiped
+        };
+      });
+
+      const levelLabel = levelMeta[level]?.label || `${level}点目標`;
+      const stats = await loadUserStats();
+      const updated = updateWordProgressBatch(stats, batchResults, elapsedSec, levelLabel);
+      await saveUserStats(updated);
+    } catch (e) {
+      console.error('Failed to save vocabulary stats:', e);
+    }
+  };
+
   const handleNextQuestion = () => {
     if (quizIndex + 1 >= words.length) {
+      saveVocabularyResults(quizResults);
       setPhase('result');
     } else {
       setQuizIndex((prev) => prev + 1);
@@ -436,7 +487,10 @@ export default function VocabularyScreen({ onBackPortal }) {
           </Text>
           
           <NeoButton
-            onPress={() => setPhase('test')}
+            onPress={() => {
+              quizStartTimeRef.current = Date.now();
+              setPhase('test');
+            }}
             btnStyle={styles.introStartBtn}
             style={{ width: '100%' }}
           >

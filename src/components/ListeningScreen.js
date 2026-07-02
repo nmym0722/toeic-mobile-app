@@ -43,11 +43,18 @@ const getAudioBaseUrl = () => {
   }
 };
 
-export default function ListeningScreen({ onBackPortal }) {
+export default function ListeningScreen({ onBackPortal, initialPartId }) {
   const navigation = useNavigation();
   const [partId, setPartId] = useState(null); // null (menu) | 1 | 2 | 3 | 4
   const [questions, setQuestions] = useState([]);
   const [phase, setPhase] = useState('menu'); // menu | quiz | result
+
+  // マウント時または initialPartId 変更時に即時クイズを開始する
+  useEffect(() => {
+    if (initialPartId !== undefined && initialPartId !== null) {
+      startPartQuiz(initialPartId);
+    }
+  }, [initialPartId]);
 
   // スワイプタブ切り替えの動的制御
   useEffect(() => {
@@ -198,7 +205,7 @@ export default function ListeningScreen({ onBackPortal }) {
       // 統計データの非同期更新
       try {
         const stats = await loadUserStats();
-        const updated = updatePartStats(stats, `part${partId}`, isCorrect ? 1 : 0, 1, elapsedSec);
+        const updated = updatePartStats(stats, `part${partId}`, isCorrect ? 1 : 0, 1, elapsedSec, `Part ${partId} クイズ`);
         await saveUserStats(updated);
       } catch (err) {
         console.log('Failed to save stats:', err);
@@ -246,7 +253,7 @@ export default function ListeningScreen({ onBackPortal }) {
       // 統計データの非同期更新
       try {
         const stats = await loadUserStats();
-        const updated = updatePartStats(stats, `part${partId}`, correctCount, 3, elapsedSec);
+        const updated = updatePartStats(stats, `part${partId}`, correctCount, 3, elapsedSec, `Part ${partId} 大問形式(3問)`);
         await saveUserStats(updated);
       } catch (err) {
         console.log('Failed to save stats:', err);
@@ -336,7 +343,7 @@ export default function ListeningScreen({ onBackPortal }) {
             <TouchableOpacity
               onPress={() => {
                 unloadAudio();
-                setPhase('menu');
+                onBackPortal();
               }}
               style={styles.backButton}
             >
@@ -808,10 +815,10 @@ export default function ListeningScreen({ onBackPortal }) {
           </NeoButton>
 
           <NeoButton
-            onPress={() => setPhase('menu')}
+            onPress={() => onBackPortal()}
             btnStyle={styles.secondaryActionBtn}
           >
-            <Text style={styles.secondaryActionBtnText}>Back to Parts</Text>
+            <Text style={styles.secondaryActionBtnText}>Back to Menu</Text>
           </NeoButton>
         </View>
       </ScrollView>

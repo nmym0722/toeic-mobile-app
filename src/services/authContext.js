@@ -7,6 +7,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [isGuest, setIsGuest] = useState(false);
 
   useEffect(() => {
     if (!supabase) {
@@ -53,10 +54,15 @@ export const AuthProvider = ({ children }) => {
     if (!supabase) throw new Error('Supabase is not initialized');
     const { error } = await supabase.auth.signOut();
     if (error) throw error;
+    setIsGuest(false);
+  };
+
+  const continueAsGuest = () => {
+    setIsGuest(true);
   };
 
   return (
-    <AuthContext.Provider value={{ user, session, loading, signUp, signIn, signOut }}>
+    <AuthContext.Provider value={{ user, session, loading, isGuest, signUp, signIn, signOut, continueAsGuest }}>
       {children}
     </AuthContext.Provider>
   );

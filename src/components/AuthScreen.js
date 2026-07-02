@@ -14,7 +14,7 @@ import { syncStatsOnLogin } from '../utils/statsHandler';
 import NeoButton from './NeoButton';
 
 export default function AuthScreen() {
-  const { signIn, signUp } = useAuth();
+  const { signIn, signUp, continueAsGuest } = useAuth();
 
   const [isLoginTab, setIsLoginTab] = useState(true);
   const [email, setEmail] = useState('');
@@ -145,6 +145,25 @@ export default function AuthScreen() {
               )}
             </NeoButton>
           </View>
+        </View>
+
+        {/* ゲストとして続けるボタン */}
+        <View style={styles.guestSection}>
+          <View style={styles.guestDivider}>
+            <View style={styles.dividerLine} />
+            <Text style={styles.dividerText}>または</Text>
+            <View style={styles.dividerLine} />
+          </View>
+          <NeoButton
+            onPress={continueAsGuest}
+            btnStyle={styles.guestButton}
+            borderRadius={16}
+          >
+            <Text style={styles.guestButtonText}>ゲストとして続ける（登録なし）</Text>
+          </NeoButton>
+          <Text style={styles.guestNote}>
+            ゲストモードでは学習データはこの端末にのみ保存されます。クラウド同期はできません。
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -284,5 +303,43 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 13,
     fontWeight: 'bold',
+  },
+  guestSection: {
+    gap: 12,
+    paddingBottom: 8,
+  },
+  guestDivider: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  dividerLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: '#DFD8CC',
+  },
+  dividerText: {
+    fontSize: 12,
+    color: '#7C756B',
+    fontWeight: 'bold',
+  },
+  guestButton: {
+    backgroundColor: '#EBE5D8',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    paddingVertical: 14,
+    width: '100%',
+  },
+  guestButtonText: {
+    color: '#7C756B',
+    fontSize: 14,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  guestNote: {
+    fontSize: 11,
+    color: '#7C756B',
+    textAlign: 'center',
+    lineHeight: 16,
   },
 });

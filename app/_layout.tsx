@@ -24,7 +24,7 @@ export default function RootLayout() {
 }
 
 function RootLayoutContent() {
-  const { user, loading: authLoading } = useAuth();
+  const { user, loading: authLoading, isGuest } = useAuth();
   
   const [fontsLoaded, fontError] = useFonts({
     'MonaSans-Regular': require('../assets/fonts/MonaSans-Regular.ttf'),
@@ -146,7 +146,7 @@ function RootLayoutContent() {
     );
   }
 
-  // 接続チェック完了後の認証ガード（オンライン時のみ）
+  // 接続チェック完了後の認証ガード（オンライン時のみ、ゲストモードでない場合）
   if (connectionStatus === 'success') {
     if (authLoading) {
       return (
@@ -159,7 +159,7 @@ function RootLayoutContent() {
       );
     }
 
-    if (!user) {
+    if (!user && !isGuest) {
       return <AuthScreen />;
     }
   }
