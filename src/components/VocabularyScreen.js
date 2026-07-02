@@ -351,17 +351,7 @@ export default function VocabularyScreen({ onBackPortal }) {
             </View>
           </ScrollView>
         )}
-
-        {/* CLOSE BUTTON */}
-        <View style={styles.closeFooterWrapper}>
-          <NeoButton
-            onPress={onBackPortal}
-            btnStyle={styles.closeFooterBtn}
-          >
-            <Text style={styles.closeFooterText}>Back to Dashboard</Text>
-          </NeoButton>
-        </View>
-        </View>
+      </View>
     );
   }
 
@@ -602,12 +592,14 @@ export default function VocabularyScreen({ onBackPortal }) {
           </View>
 
           {/* FINISH BUTTON */}
-          <NeoButton
-            onPress={() => setPhase('select')}
-            btnStyle={styles.resultFinishBtn}
-          >
-            <Text style={styles.resultFinishBtnText}>Finish</Text>
-          </NeoButton>
+          <View style={{ marginTop: 12, marginBottom: 24 }}>
+            <NeoButton
+              onPress={() => setPhase('select')}
+              btnStyle={styles.resultFinishBtn}
+            >
+              <Text style={styles.resultFinishBtnText}>Finish</Text>
+            </NeoButton>
+          </View>
         </ScrollView>
       </View>
     );
@@ -1208,10 +1200,9 @@ const styles = StyleSheet.create({
   },
   resultFinishBtn: {
     backgroundColor: '#93C1C1',
-    paddingVertical: 18,
-    borderRadius: 16,
-    alignItems: 'center',
-    marginVertical: 12,
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    width: '100%',
   },
   resultFinishBtnText: {
     color: '#FFFFFF',

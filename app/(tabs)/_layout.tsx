@@ -59,6 +59,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <MaterialTopTabs.Screen
+        name="profile"
+        options={{
+          title: 'マイページ',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? "person" : "person-outline"} size={22} color={color} />
+          ),
+        }}
+      />
     </MaterialTopTabs>
   );
 }

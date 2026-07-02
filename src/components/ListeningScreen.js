@@ -315,13 +315,6 @@ export default function ListeningScreen({ onBackPortal }) {
               </NeoButton>
             ))}
           </View>
-
-          <NeoButton
-            onPress={onBackPortal}
-            btnStyle={styles.secondaryActionBtn}
-          >
-            <Text style={styles.secondaryActionBtnText}>Back to Dashboard</Text>
-          </NeoButton>
         </ScrollView>
         </View>
     );

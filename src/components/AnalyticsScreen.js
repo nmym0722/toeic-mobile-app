@@ -339,14 +339,6 @@ export default function AnalyticsScreen({ onBackPortal }) {
             )}
           </View>
         </View>
-
-        {/* Back Action */}
-        <NeoButton
-          onPress={onBackPortal}
-          btnStyle={styles.secondaryActionBtn}
-        >
-          <Text style={styles.secondaryActionBtnText}>Back to Dashboard</Text>
-        </NeoButton>
       </ScrollView>
     </View>
   );

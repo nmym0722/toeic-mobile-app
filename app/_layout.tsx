@@ -12,8 +12,20 @@ import { useFonts } from 'expo-font';
 import { DMSans_400Regular, DMSans_700Bold } from '@expo-google-fonts/dm-sans';
 import { supabase } from '../src/services/supabase';
 import NeoButton from '../src/components/NeoButton';
+import { AuthProvider, useAuth } from '../src/services/authContext';
+import AuthScreen from '../src/components/AuthScreen';
 
 export default function RootLayout() {
+  return (
+    <AuthProvider>
+      <RootLayoutContent />
+    </AuthProvider>
+  );
+}
+
+function RootLayoutContent() {
+  const { user, loading: authLoading } = useAuth();
+  
   const [fontsLoaded, fontError] = useFonts({
     'MonaSans-Regular': require('../assets/fonts/MonaSans-Regular.ttf'),
     'MonaSans-Bold': require('../assets/fonts/MonaSans-Bold.ttf'),
@@ -132,6 +144,24 @@ export default function RootLayout() {
         </View>
       </SafeAreaView>
     );
+  }
+
+  // 接続チェック完了後の認証ガード（オンライン時のみ）
+  if (connectionStatus === 'success') {
+    if (authLoading) {
+      return (
+        <SafeAreaView style={styles.container}>
+          <StatusBar barStyle="dark-content" />
+          <View style={styles.mainCentered}>
+            <ActivityIndicator size="large" color="#93C1C1" />
+          </View>
+        </SafeAreaView>
+      );
+    }
+
+    if (!user) {
+      return <AuthScreen />;
+    }
   }
 
   return <Stack screenOptions={{ headerShown: false }} />;

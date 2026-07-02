@@ -347,13 +347,6 @@ export default function Part6Screen({ onBackPortal }) {
           >
             <Text style={styles.primaryActionBtnText}>Next Passage</Text>
           </NeoButton>
-
-          <NeoButton
-            onPress={onBackPortal}
-            btnStyle={styles.secondaryActionBtn}
-          >
-            <Text style={styles.secondaryActionBtnText}>Back to Dashboard</Text>
-          </NeoButton>
         </View>
       </ScrollView>
     </View>

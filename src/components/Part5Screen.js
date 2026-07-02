@@ -431,13 +431,6 @@ export default function Part5Screen({ onBackPortal }) {
           >
             <Text style={styles.secondaryActionBtnText}>別のタイプを選ぶ</Text>
           </NeoButton>
-
-          <NeoButton
-            onPress={onBackPortal}
-            btnStyle={styles.secondaryActionBtn}
-          >
-            <Text style={styles.secondaryActionBtnText}>Back to Dashboard</Text>
-          </NeoButton>
         </View>
       </ScrollView>
     </View>

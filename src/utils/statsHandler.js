@@ -1,7 +1,14 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import toeicWords from '../data/toeic_words.json';
+import { supabase } from '../services/supabase';
 
 const LOCAL_STORAGE_KEY = 'toeic_user_stats';
+
+async function getUserId() {
+  if (!supabase) return null;
+  const { data: { session } } = await supabase.auth.getSession();
+  return session?.user?.id || null;
+}
 
 function getPastDateString(daysAgo) {
   const date = new Date();
@@ -46,38 +53,119 @@ export function generateInitialStats() {
 }
 
 /**
- * AsyncStorageからユーザー統計を読み込む (非同期)
+ * ユーザー統計を読み込む (ログイン時はSupabase、未ログイン時はAsyncStorage)
  */
 export async function loadUserStats() {
   try {
+    const userId = await getUserId();
+    if (userId) {
+      const { data, error } = await supabase
+        .from('user_stats')
+        .select('stats')
+        .eq('user_id', userId)
+        .single();
+      
+      if (error) {
+        if (error.code === 'PGRST116') {
+          const localData = await AsyncStorage.getItem(LOCAL_STORAGE_KEY);
+          const stats = localData ? JSON.parse(localData) : generateInitialStats();
+          await supabase.from('user_stats').upsert({ user_id: userId, stats });
+          await AsyncStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(stats));
+          return stats;
+        }
+        throw error;
+      }
+      
+      if (data && data.stats) {
+        const stats = data.stats;
+        if (!stats.partStats || !stats.scoreHistory || !stats.wordProgress) {
+          const initial = generateInitialStats();
+          await supabase.from('user_stats').upsert({ user_id: userId, stats: initial });
+          await AsyncStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(initial));
+          return initial;
+        }
+        await AsyncStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(stats));
+        return stats;
+      }
+    }
+
     const data = await AsyncStorage.getItem(LOCAL_STORAGE_KEY);
     if (!data) {
       const initial = generateInitialStats();
-      await saveUserStats(initial);
+      await AsyncStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(initial));
       return initial;
     }
     const stats = JSON.parse(data);
-    // 壊れたデータ対策
     if (!stats.partStats || !stats.scoreHistory || !stats.wordProgress) {
       const initial = generateInitialStats();
-      await saveUserStats(initial);
+      await AsyncStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(initial));
       return initial;
     }
     return stats;
   } catch (error) {
-    console.error('Failed to load user stats from AsyncStorage:', error);
-    return generateInitialStats();
+    console.error('Failed to load user stats:', error);
+    try {
+      const data = await AsyncStorage.getItem(LOCAL_STORAGE_KEY);
+      return data ? JSON.parse(data) : generateInitialStats();
+    } catch {
+      return generateInitialStats();
+    }
   }
 }
 
 /**
- * AsyncStorageにユーザー統計を保存する (非同期)
+ * ユーザー統計を保存する (ローカルに保存しつつ、ログイン時はSupabaseにも保存)
  */
 export async function saveUserStats(stats) {
   try {
     await AsyncStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(stats));
+    
+    const userId = await getUserId();
+    if (userId) {
+      const { error } = await supabase
+        .from('user_stats')
+        .upsert({
+          user_id: userId,
+          stats,
+          updated_at: new Date().toISOString()
+        });
+      if (error) {
+        console.error('Failed to save user stats to Supabase:', error);
+      }
+    }
   } catch (error) {
-    console.error('Failed to save user stats to AsyncStorage:', error);
+    console.error('Failed to save user stats:', error);
+  }
+}
+
+/**
+ * ログイン時にローカルデータとクラウドデータを同期する
+ */
+export async function syncStatsOnLogin() {
+  try {
+    const userId = await getUserId();
+    if (!userId) return;
+
+    const localDataStr = await AsyncStorage.getItem(LOCAL_STORAGE_KEY);
+    const localStats = localDataStr ? JSON.parse(localDataStr) : null;
+
+    const { data, error } = await supabase
+      .from('user_stats')
+      .select('stats')
+      .eq('user_id', userId)
+      .single();
+
+    if (error && error.code === 'PGRST116') {
+      const statsToUpload = localStats || generateInitialStats();
+      await supabase.from('user_stats').upsert({ user_id: userId, stats: statsToUpload });
+      await AsyncStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(statsToUpload));
+      console.log('Synced local stats to Supabase successfully');
+    } else if (data && data.stats) {
+      await AsyncStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(data.stats));
+      console.log('Synced Supabase stats to local successfully');
+    }
+  } catch (error) {
+    console.error('Failed to sync stats on login:', error);
   }
 }
 
