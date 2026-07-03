@@ -15,6 +15,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
 import NeoButton from './NeoButton';
 import { useNavigation } from '@react-navigation/native';
+import ErrorReportModal from './ErrorReportModal';
 
 // ローカルJSONのロード
 import rawPart1Data from '../data/toeic_part1.json';
@@ -48,6 +49,10 @@ export default function ListeningScreen({ onBackPortal, initialPartId }) {
   const [partId, setPartId] = useState(null); // null (menu) | 1 | 2 | 3 | 4
   const [questions, setQuestions] = useState([]);
   const [phase, setPhase] = useState('menu'); // menu | quiz | result
+
+  // 問題報告用ステート
+  const [reportModalVisible, setReportModalVisible] = useState(false);
+  const [reportData, setReportData] = useState(null);
 
   // マウント時または initialPartId 変更時に即時クイズを開始する
   useEffect(() => {
@@ -349,6 +354,21 @@ export default function ListeningScreen({ onBackPortal, initialPartId }) {
             >
               <Text style={styles.backButtonText}>← Menu</Text>
             </TouchableOpacity>
+
+            <TouchableOpacity
+              onPress={() => {
+                setReportData({
+                  questionId: currentItem.id,
+                  questionType: `Part ${partId}`,
+                  questionText: `【音声ファイル】: ${currentItem.audio_file || 'No Audio'}\n【問題文】: ${currentItem.question || currentItem.script || 'N/A'}\n【和訳】: ${currentItem.meaning || 'N/A'}`,
+                });
+                setReportModalVisible(true);
+              }}
+              style={styles.reportIconButton}
+            >
+              <Ionicons name="alert-circle-outline" size={24} color="#CC2534" />
+            </TouchableOpacity>
+
             <View style={{ alignItems: 'flex-end' }}>
               <Text style={styles.headerBadge}>Part {partId} ・ Listening</Text>
               <Text style={styles.progressText}>
@@ -364,6 +384,9 @@ export default function ListeningScreen({ onBackPortal, initialPartId }) {
 
           {/* Custom Audio Player */}
           <View style={styles.audioPlayerCard}>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+              <Text style={styles.idBadge}>問題ID: {currentItem.id}</Text>
+            </View>
             <View style={styles.audioPlayerRow}>
               <TouchableOpacity style={styles.playBtn} onPress={togglePlay} activeOpacity={0.8}>
                 <Ionicons name={isPlaying ? "pause" : "play"} size={18} color="#FFFFFF" />
@@ -670,6 +693,11 @@ export default function ListeningScreen({ onBackPortal, initialPartId }) {
             )
           )}
         </View>
+        <ErrorReportModal
+          isVisible={reportModalVisible}
+          onClose={() => setReportModalVisible(false)}
+          questionData={reportData}
+        />
       </View>
     );
   }
@@ -1563,5 +1591,25 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     fontFamily: 'MonaSans-Bold',
+  },
+  reportIconButton: {
+    padding: 6,
+    borderRadius: 8,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  idBadge: {
+    fontSize: 9,
+    fontWeight: 'bold',
+    backgroundColor: '#EBE5D8',
+    color: '#7C756B',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 6,
+    overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
 });

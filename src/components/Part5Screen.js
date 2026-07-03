@@ -8,9 +8,11 @@ import {
   ActivityIndicator,
   Platform,
 } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import rawPart5Data from '../data/toeic_part5.json';
 import NeoButton from './NeoButton';
 import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
+import ErrorReportModal from './ErrorReportModal';
 
 // 問題タイプの定義
 const QUESTION_TYPES = [
@@ -34,6 +36,10 @@ export default function Part5Screen({ onBackPortal }) {
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [quizResults, setQuizResults] = useState([]);
+
+  // 問題報告用ステート
+  const [reportModalVisible, setReportModalVisible] = useState(false);
+  const [reportData, setReportData] = useState(null);
 
   // 問題数選択肢の動的取得
   // 指定されたタイプと問題数でランダム抽出
@@ -225,6 +231,21 @@ export default function Part5Screen({ onBackPortal }) {
             >
               <Text style={styles.backButtonText}>← Menu</Text>
             </TouchableOpacity>
+            
+            <TouchableOpacity
+              onPress={() => {
+                setReportData({
+                  questionId: currentQuestion.id,
+                  questionType: 'Part 5',
+                  questionText: currentQuestion.question,
+                });
+                setReportModalVisible(true);
+              }}
+              style={styles.reportIconButton}
+            >
+              <Ionicons name="alert-circle-outline" size={24} color="#CC2534" />
+            </TouchableOpacity>
+
             <View style={{ alignItems: 'flex-end' }}>
               <Text style={styles.headerBadge}>Part 5 ・ Sentence Completion</Text>
               <Text style={styles.progressText}>
@@ -241,11 +262,16 @@ export default function Part5Screen({ onBackPortal }) {
           {/* Question Card */}
           <View style={styles.questionCard}>
             <View style={styles.cardHeader}>
-              {currentQuestion.question_type && (
-                <Text style={styles.typeBadge}>
-                  {currentQuestion.question_type}
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                {currentQuestion.question_type && (
+                  <Text style={styles.typeBadge}>
+                    {currentQuestion.question_type}
+                  </Text>
+                )}
+                <Text style={styles.idBadge}>
+                  ID: {currentQuestion.id}
                 </Text>
-              )}
+              </View>
               {isSubmitted && (
                 <Text
                   style={[
@@ -345,6 +371,11 @@ export default function Part5Screen({ onBackPortal }) {
             </NeoButton>
           )}
         </View>
+        <ErrorReportModal
+          isVisible={reportModalVisible}
+          onClose={() => setReportModalVisible(false)}
+          questionData={reportData}
+        />
       </View>
     );
   }
@@ -1022,5 +1053,25 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     fontFamily: 'MonaSans-Bold',
+  },
+  reportIconButton: {
+    padding: 6,
+    borderRadius: 8,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  idBadge: {
+    fontSize: 9,
+    fontWeight: 'bold',
+    backgroundColor: '#EBE5D8',
+    color: '#7C756B',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 6,
+    overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
 });

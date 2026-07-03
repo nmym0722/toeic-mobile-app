@@ -54,7 +54,7 @@ export default function AuthScreen() {
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.header}>
           <Text style={styles.headerBadge}>Welcome</Text>
-          <Text style={styles.headerTitle}>TOEIC Mobile App</Text>
+          <Text style={styles.headerTitle}>ToEasy</Text>
           <Text style={styles.headerDesc}>
             アプリを利用するには、ログインまたはアカウント登録が必要です。
             登録すると学習履歴がクラウドに保存され、どの端末からでも同じ進捗で学習を再開・アナリティクスを確認できます。

@@ -8,9 +8,11 @@ import {
   ActivityIndicator,
   Platform,
 } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import rawPart7Data from '../data/toeic_part7.json';
 import NeoButton from './NeoButton';
 import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
+import ErrorReportModal from './ErrorReportModal';
 
 export default function Part7Screen({ onBackPortal }) {
   const quizStartTimeRef = useRef(null);
@@ -20,6 +22,10 @@ export default function Part7Screen({ onBackPortal }) {
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [quizResults, setQuizResults] = useState([]);
+
+  // 問題報告用ステート
+  const [reportModalVisible, setReportModalVisible] = useState(false);
+  const [reportData, setReportData] = useState(null);
 
   const loadPassage = () => {
     const randomPassage = rawPart7Data[Math.floor(Math.random() * rawPart7Data.length)];
@@ -119,6 +125,21 @@ export default function Part7Screen({ onBackPortal }) {
             >
               <Text style={styles.backButtonText}>← Menu</Text>
             </TouchableOpacity>
+
+            <TouchableOpacity
+              onPress={() => {
+                setReportData({
+                  questionId: `${passage.id}_q_${currentQuestion.id}`,
+                  questionType: 'Part 7',
+                  questionText: `【タイトル】: ${passage.title || 'No Title'}\n【設問】: ${currentQuestion.question_text || 'N/A'}\n【長文本文】: ${passage.passages?.map(p => p.content)?.join('\n')}`,
+                });
+                setReportModalVisible(true);
+              }}
+              style={styles.reportIconButton}
+            >
+              <Ionicons name="alert-circle-outline" size={24} color="#CC2534" />
+            </TouchableOpacity>
+
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
               <View style={styles.headerBadgeContainer}>
                 <Text style={styles.headerBadge}>
@@ -138,7 +159,10 @@ export default function Part7Screen({ onBackPortal }) {
 
           {/* Passage Card */}
           <View style={styles.passageCard}>
-            <Text style={styles.passageTitle}>{passage.title || 'Reading Comprehension'}</Text>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+              <Text style={styles.passageTitle}>{passage.title || 'Reading Comprehension'}</Text>
+              <Text style={styles.idBadge}>長文ID: {passage.id}</Text>
+            </View>
             {passage.source && (
               <Text style={styles.passageSource}>
                 {passage.source} {passage.date ? `· ${passage.date}` : ''}
@@ -161,7 +185,10 @@ export default function Part7Screen({ onBackPortal }) {
           {/* Question Options Card */}
           <View style={styles.questionCard}>
             <View style={styles.questionHeader}>
-              <Text style={styles.questionLabel}>Question {currentQIndex + 1}</Text>
+              <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginBottom: 6 }}>
+                <Text style={styles.questionLabel}>Question {currentQIndex + 1}</Text>
+                <Text style={styles.idBadge}>設問ID: {passage.id}_q_{currentQuestion.id}</Text>
+              </View>
               <Text style={styles.questionText}>{currentQuestion.question_text}</Text>
               
               {isSubmitted && (
@@ -255,6 +282,11 @@ export default function Part7Screen({ onBackPortal }) {
             </NeoButton>
           )}
         </View>
+        <ErrorReportModal
+          isVisible={reportModalVisible}
+          onClose={() => setReportModalVisible(false)}
+          questionData={reportData}
+        />
       </View>
     );
   }
@@ -805,5 +837,25 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     fontFamily: 'MonaSans-Bold',
+  },
+  reportIconButton: {
+    padding: 6,
+    borderRadius: 8,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  idBadge: {
+    fontSize: 9,
+    fontWeight: 'bold',
+    backgroundColor: '#EBE5D8',
+    color: '#7C756B',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 6,
+    overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
 });

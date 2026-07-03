@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "toeic-mobile-app",
-    "slug": "toeic-mobile-app",
+    "name": "ToEasy",
+    "slug": "to-easy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "toeic-mobile-app",
+    "scheme": "to-easy",
     "plugins": [
       "expo-router",
       "expo-font"

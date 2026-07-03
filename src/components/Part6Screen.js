@@ -8,9 +8,11 @@ import {
   ActivityIndicator,
   Platform,
 } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import rawPart6Data from '../data/toeic_part6.json';
 import NeoButton from './NeoButton';
 import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
+import ErrorReportModal from './ErrorReportModal';
 
 export default function Part6Screen({ onBackPortal }) {
   const quizStartTimeRef = useRef(null);
@@ -19,6 +21,10 @@ export default function Part6Screen({ onBackPortal }) {
   const [answers, setAnswers] = useState({}); // { "1": "選択肢", ... }
   const [submittedBlanks, setSubmittedBlanks] = useState({}); // { "1": true, ... }
   const [phase, setPhase] = useState('quiz'); // quiz | result
+
+  // 問題報告用ステート
+  const [reportModalVisible, setReportModalVisible] = useState(false);
+  const [reportData, setReportData] = useState(null);
 
   const loadPassage = () => {
     const randomPassage = rawPart6Data[Math.floor(Math.random() * rawPart6Data.length)];
@@ -181,6 +187,21 @@ export default function Part6Screen({ onBackPortal }) {
               >
                 <Text style={styles.backButtonText}>← Menu</Text>
               </TouchableOpacity>
+
+              <TouchableOpacity
+                onPress={() => {
+                  setReportData({
+                    questionId: `${passage.id}_blank_${activeBlank}`,
+                    questionType: 'Part 6',
+                    questionText: `【本文タイトル】: ${passage.title || 'No Title'}\n【空所番号】: [${activeBlank}]\n【問題文】: ${activeQuestion.question || 'N/A'}`,
+                  });
+                  setReportModalVisible(true);
+                }}
+                style={styles.reportIconButton}
+              >
+                <Ionicons name="alert-circle-outline" size={24} color="#CC2534" />
+              </TouchableOpacity>
+
               <Text style={styles.headerBadge}>Part 6 ・ Text Completion</Text>
             </View>
             <Text style={styles.headerTitle}>{passage.title || 'Passage'}</Text>
@@ -188,9 +209,15 @@ export default function Part6Screen({ onBackPortal }) {
 
           {/* Passage Card */}
           <View style={styles.passageCard}>
-            <Text style={styles.passageHeader}>
-              Read the passage and select the most appropriate option for blanks [1] to [4].
-            </Text>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+              <Text style={styles.passageHeader}>
+                Read the passage and select the most appropriate option for blanks [1] to [4].
+              </Text>
+            </View>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+              <Text style={styles.idBadge}>長文ID: {passage.id}</Text>
+              <Text style={styles.idBadge}>設問ID: {passage.id}_blank_{activeBlank}</Text>
+            </View>
             <View style={styles.passageDivider} />
             {renderPassage()}
           </View>
@@ -293,6 +320,11 @@ export default function Part6Screen({ onBackPortal }) {
             </NeoButton>
           </View>
         )}
+        <ErrorReportModal
+          isVisible={reportModalVisible}
+          onClose={() => setReportModalVisible(false)}
+          questionData={reportData}
+        />
       </View>
     );
   }
@@ -844,5 +876,25 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     fontFamily: 'MonaSans-Bold',
+  },
+  reportIconButton: {
+    padding: 6,
+    borderRadius: 8,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  idBadge: {
+    fontSize: 9,
+    fontWeight: 'bold',
+    backgroundColor: '#EBE5D8',
+    color: '#7C756B',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 6,
+    overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
 });

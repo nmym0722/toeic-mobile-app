@@ -15,6 +15,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { getShuffledWords, getWeightedWords, levelMeta } from '../data/words';
 import NeoButton from './NeoButton';
 import { useNavigation } from '@react-navigation/native';
+import ErrorReportModal from './ErrorReportModal';
 
 const { width } = Dimensions.get('window');
 
@@ -86,9 +87,12 @@ function SwipeCard({ wordData, isFlipped, setIsFlipped, autoPlay }) {
         {!isFlipped ? (
           /* ==================== 表面 (FRONT) ==================== */
           <View style={styles.cardSide}>
-            <Text style={styles.cardBadge}>
-              {wordData.part_of_speech || 'Vocabulary'}
-            </Text>
+            <View style={{ flexDirection: 'row', gap: 6, alignItems: 'center', marginBottom: 8 }}>
+              <Text style={styles.cardBadge}>
+                {wordData.part_of_speech || 'Vocabulary'}
+              </Text>
+              <Text style={styles.idBadge}>ID: {wordData.id}</Text>
+            </View>
             <Text style={styles.wordText}>{wordData.word}</Text>
             {wordData.phonetic && (
               <Text style={styles.phoneticText}>{wordData.phonetic}</Text>
@@ -110,9 +114,12 @@ function SwipeCard({ wordData, isFlipped, setIsFlipped, autoPlay }) {
         ) : (
           /* ==================== 裏面 (BACK) ==================== */
           <View style={styles.cardSide}>
-            <Text style={styles.cardBadgeSuccess}>
-              {wordData.part_of_speech || 'Vocabulary'} (意味)
-            </Text>
+            <View style={{ flexDirection: 'row', gap: 6, alignItems: 'center', marginBottom: 8 }}>
+              <Text style={styles.cardBadgeSuccess}>
+                {wordData.part_of_speech || 'Vocabulary'} (意味)
+              </Text>
+              <Text style={styles.idBadge}>ID: {wordData.id}</Text>
+            </View>
             <Text style={styles.meaningText}>{wordData.meaning}</Text>
 
             {/* 例文と日本語訳 */}
@@ -158,6 +165,10 @@ export default function VocabularyScreen({ onBackPortal }) {
   const [questionCount, setQuestionCount] = useState(10);
   const [phase, setPhase] = useState('select'); // select | swipe | test_intro | test | result
   const [selectStep, setSelectStep] = useState(1); // 1: レベル選択 | 2: 問題数選択
+
+  // 問題報告用ステート
+  const [reportModalVisible, setReportModalVisible] = useState(false);
+  const [reportData, setReportData] = useState(null);
 
   // スワイプタブ切り替えの動的制御（カードスワイプ等のジェスチャー干渉対策）
   useEffect(() => {
@@ -436,6 +447,21 @@ export default function VocabularyScreen({ onBackPortal }) {
               style={[styles.progressBarFill, { width: `${progress}%` }]}
             />
           </View>
+
+          <TouchableOpacity
+            onPress={() => {
+              setReportData({
+                questionId: currentWord.id,
+                questionType: 'Vocabulary (Swipe)',
+                questionText: `【単語】: ${currentWord.word}\n【意味】: ${currentWord.meaning}\n【例文】: ${currentWord.example_sentence || 'N/A'}`,
+              });
+              setReportModalVisible(true);
+            }}
+            style={[styles.reportIconButton, { marginRight: 8 }]}
+          >
+            <Ionicons name="alert-circle-outline" size={20} color="#CC2534" />
+          </TouchableOpacity>
+
           <Text style={styles.progressPercentage}>{progress}%</Text>
         </View>
 
@@ -469,6 +495,12 @@ export default function VocabularyScreen({ onBackPortal }) {
             </NeoButton>
           </View>
         </View>
+
+        <ErrorReportModal
+          isVisible={reportModalVisible}
+          onClose={() => setReportModalVisible(false)}
+          questionData={reportData}
+        />
       </View>
     );
   }
@@ -525,6 +557,21 @@ export default function VocabularyScreen({ onBackPortal }) {
               style={[styles.progressBarFill, { width: `${progress}%` }]}
             />
           </View>
+
+          <TouchableOpacity
+            onPress={() => {
+              setReportData({
+                questionId: currentWord.id,
+                questionType: 'Vocabulary (Test)',
+                questionText: `【単語】: ${currentWord.word}\n【正解】: ${currentWord.options[0]}\n【例文】: ${currentWord.example_sentence || 'N/A'}`,
+              });
+              setReportModalVisible(true);
+            }}
+            style={[styles.reportIconButton, { marginRight: 8 }]}
+          >
+            <Ionicons name="alert-circle-outline" size={20} color="#CC2534" />
+          </TouchableOpacity>
+
           <Text style={styles.progressPercentage}>
             {quizIndex + 1}/{words.length}
           </Text>
@@ -532,6 +579,9 @@ export default function VocabularyScreen({ onBackPortal }) {
 
         {/* QUESTION CARD */}
         <View style={styles.questionCard}>
+          <View style={{ position: 'absolute', top: 12, right: 16 }}>
+            <Text style={styles.idBadge}>ID: {currentWord.id}</Text>
+          </View>
           <Text style={styles.questionWord}>{currentWord.word}</Text>
           <TouchableOpacity
             style={styles.audioButtonSmallCenter}
@@ -596,6 +646,12 @@ export default function VocabularyScreen({ onBackPortal }) {
             </NeoButton>
           )}
         </View>
+
+        <ErrorReportModal
+          isVisible={reportModalVisible}
+          onClose={() => setReportModalVisible(false)}
+          questionData={reportData}
+        />
       </View>
     );
   }
@@ -1263,5 +1319,25 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     fontFamily: 'MonaSans-Bold',
+  },
+  reportIconButton: {
+    padding: 6,
+    borderRadius: 8,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  idBadge: {
+    fontSize: 9,
+    fontWeight: 'bold',
+    backgroundColor: '#EBE5D8',
+    color: '#7C756B',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 6,
+    overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
   },
 });
