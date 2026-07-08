@@ -17,21 +17,29 @@ import NeoButton from '../../src/components/NeoButton';
 import AnalyticsScreen from '../../src/components/AnalyticsScreen';
 import { resetAllStats } from '../../src/utils/statsHandler';
 import { getErrorReports, generateObsidianMarkdown, clearErrorReports } from '../../src/services/errorReportService';
+import { getBookmarks, removeBookmark } from '../../src/services/bookmarkService';
 
 export default function ProfileScreen() {
   const { user, loading, signOut } = useAuth();
   const router = useRouter();
   const [refreshKey, setRefreshKey] = useState(0);
   const [reports, setReports] = useState([]);
+  const [bookmarks, setBookmarks] = useState([]);
 
   const loadReports = async () => {
     const data = await getErrorReports();
     setReports(data);
   };
 
+  const loadBookmarks = async () => {
+    const data = await getBookmarks();
+    setBookmarks(data);
+  };
+
   useFocusEffect(
     useCallback(() => {
       loadReports();
+      loadBookmarks();
     }, [])
   );
 
@@ -169,6 +177,31 @@ export default function ProfileScreen() {
     loadReports();
   };
 
+  const renderBookmarksSection = () => {
+    return (
+      <View style={styles.bookmarksSection}>
+        <TouchableOpacity
+          onPress={() => router.push('/bookmarks')}
+          style={styles.bookmarkMenuBtn}
+          activeOpacity={0.7}
+        >
+          <View style={styles.bookmarkMenuContent}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+              <View style={styles.bookmarkMenuIconBg}>
+                <Ionicons name="bookmark" size={18} color="#378F8F" />
+              </View>
+              <Text style={styles.bookmarkMenuText}>ブックマークした問題</Text>
+            </View>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+              <Text style={styles.bookmarkMenuCount}>{bookmarks.length}件</Text>
+              <Ionicons name="chevron-forward" size={16} color="#7C756B" />
+            </View>
+          </View>
+        </TouchableOpacity>
+      </View>
+    );
+  };
+
   const renderReportsSection = () => {
     if (reports.length === 0) return null;
 
@@ -277,6 +310,7 @@ export default function ProfileScreen() {
             </NeoButton>
           </View>
         </View>
+        {renderBookmarksSection()}
         {renderReportsSection()}
       </View>
     );
@@ -312,6 +346,7 @@ export default function ProfileScreen() {
           </NeoButton>
         </View>
       </View>
+      {renderBookmarksSection()}
       {renderReportsSection()}
     </View>
   );
@@ -530,5 +565,42 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     textAlign: 'center',
+  },
+  bookmarksSection: {
+    marginTop: 8,
+    marginBottom: 8,
+  },
+  bookmarkMenuBtn: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 20,
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    overflow: 'hidden',
+  },
+  bookmarkMenuContent: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 18,
+  },
+  bookmarkMenuIconBg: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: 'rgba(55, 143, 143, 0.15)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  bookmarkMenuText: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
+  },
+  bookmarkMenuCount: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
   },
 });

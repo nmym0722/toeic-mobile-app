@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "p5_700_051",
+    "target_level": 700,
+    "sentence": "The executive board decided to (     ) a new security policy starting from the next fiscal quarter.",
+    "options": {
+      "A": "implement",
+      "B": "implementation",
+      "C": "implementing",
+      "D": "implements"
+    },
+    "correct_answer": "A",
+    "explanation": "動詞 decide の目的語となる不定詞 to + 動詞の原形（原形動詞）を選ぶ問題です。「決定する」という動詞 decide to do の形になります。",
+    "options_explanations": {
+      "A": "implement は動詞の原形（「実行する、導入する」）であり、to の後ろに続いて正しい不定詞の形を作るため正解です。",
+      "B": "implementation は名詞（「実行、導入」）であり、to の後ろに直接置くことはできません。",
+      "C": "implementing は現在分詞または動名詞であり、to の後ろに置いて不定詞を形成することはできません（decide to -ing という語法はありません）。",
+      "D": "implements は動詞の三人称単数現在形または名詞の複数形であり、to 不定詞の後に置くことはできません。"
+    },
+    "meaning": "執行役員会は、次の会計四半期から新しいセキュリティポリシーを導入することを決定しました。"
+  },
+  {
+    "id": "p5_700_052",
+    "target_level": 700,
+    "sentence": "After reviewing several proposals, the management committee selected the plan (     ) by the marketing department.",
+    "options": {
+      "A": "propose",
+      "B": "proposing",
+      "C": "proposed",
+      "D": "proposal"
+    },
+    "correct_answer": "C",
+    "explanation": "名詞 the plan を後ろから修飾する（後置修飾）過去分詞を選ぶ問題です。文脈上「マーケティング部によって提案された計画」という受動の関係になるため、過去分詞が適切です。",
+    "options_explanations": {
+      "A": "propose は動詞の原形であり、すでに selected という本動詞があるため、この位置に別の動詞を置くことはできません。",
+      "B": "proposing は現在分詞（「提案している」）であり、plan との関係が能動的になってしまい、また後ろの by とも調和しないため不適切です。",
+      "C": "proposed は過去分詞であり、名詞 plan を後ろから修飾して「提案された計画」という正しい受動関係を示すため正解です。",
+      "D": "proposal は名詞（「提案」）であり、先行する名詞 the plan と並べて置くことはできません。"
+    },
+    "meaning": "いくつかの提案書をレビューした後、管理委員会はマーケティング部門によって提出された計画を選択しました。"
+  },
+  {
+    "id": "p5_700_053",
+    "target_level": 700,
+    "sentence": "Employees (     ) wish to sign up for the professional training course must contact human resources today.",
+    "options": {
+      "A": "who",
+      "B": "whose",
+      "C": "whom",
+      "D": "which"
+    },
+    "correct_answer": "A",
+    "explanation": "先行詞 Employees（従業員、人）を修飾し、関係代名詞節内で主語の役割を果たす主格の関係代名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "who は人を先行詞とする主格の関係代名詞であり、直後に動詞 wish が続いているため文法的に正解です。",
+      "B": "whose は所有格の関係代名詞であり、直後に所有される名詞が続く必要があるため不適切です。",
+      "C": "whom は目的格の関係代名詞であり、関係代名詞節の中で目的語の役割を果たすべき（後ろに主語+動詞が続く）なので、直後に動詞がある本問では使えません。",
+      "D": "which は物や動物を先行詞とする関係代名詞であるため、人である Employees には使えません。"
+    },
+    "meaning": "専門的なトレーニングコースへの申し込みを希望する従業員は、本日中に人事部に連絡しなければなりません。"
+  },
+  {
+    "id": "p5_700_054",
+    "target_level": 700,
+    "sentence": "The research and development team is currently focusing on (     ) more sustainable packaging for company products.",
+    "options": {
+      "A": "develop",
+      "B": "development",
+      "C": "developing",
+      "D": "developed"
+    },
+    "correct_answer": "C",
+    "explanation": "前置詞 on の目的語となる適切な品詞を選ぶ問題です。空欄の後ろに more sustainable packaging という目的語（名詞句）を伴っているため、目的語を取ることができる動名詞（-ing）が適切です。",
+    "options_explanations": {
+      "A": "develop は動詞の原形であり、前置詞 on の直後に直接置くことはできません。",
+      "B": "development は名詞ですが、直後に別の目的語（more sustainable packaging）を直接伴うことができないため不適切です（名詞なら後ろに of 等が必要です）。",
+      "C": "developing は動名詞であり、前置詞の目的語になりつつ、後ろに目的語を伴うことができるため正解です。",
+      "D": "developed は過去分詞または過去形であり、前置詞 on の直後に単独で置くことはできません。"
+    },
+    "meaning": "研究開発チームは現在、同社製品のためのより持続可能な包装の開発に注力しています。"
+  },
+  {
+    "id": "p5_700_055",
+    "target_level": 700,
+    "sentence": "The new software system, (     ) was designed to simplify billing processes, will be launched next Monday.",
+    "options": {
+      "A": "who",
+      "B": "which",
+      "C": "what",
+      "D": "that"
+    },
+    "correct_answer": "B",
+    "explanation": "先行詞 The new software system（物）を修飾する、カンマに挟まれた非制限用法（継続用法）の関係代名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "who は人を先行詞とする関係代名詞であるため、システムを表す The new software system には使えません。",
+      "B": "which は物を先行詞とする主格の関係代名詞であり、カンマの後の非制限用法で使用できるため正解です。",
+      "C": "what は先行詞を内に含む関係代名詞（「〜するもの」）であり、すでに The new software system という先行詞があるため使えません。",
+      "D": "that は関係代名詞ですが、カンマを伴う非制限用法（継続用法）では使用できないという文法規則があるため不適切です。"
+    },
+    "meaning": "請求プロセスを簡素化するために設計された新しいソフトウェアシステムが、来週の月曜日に稼働します。"
+  },
+  {
+    "id": "p5_700_056",
+    "target_level": 700,
+    "sentence": "Since the budget was limited, the committee chose to (     ) the promotional event rather than cancel it.",
+    "options": {
+      "A": "modify",
+      "B": "modification",
+      "C": "modifying",
+      "D": "modified"
+    },
+    "correct_answer": "A",
+    "explanation": "動詞 chose（choose の過去形）に続く to 不定詞の動詞の原形を選ぶ問題です。「〜を修正する、変更する」という他動詞が入ります。",
+    "options_explanations": {
+      "A": "modify は動詞の原形（「修正する」）であり、chose to に続いて「イベントを修正することを選んだ」という正しい文を作るため正解です。",
+      "B": "modification は名詞（「修正」）であり、to の後ろに直接置いて不定詞を構成することはできません。",
+      "C": "modifying は動名詞または現在分詞であり、chose to の後ろで不定詞を作ることはできません。",
+      "D": "modified は過去形または過去分詞であり、不定詞を構成する to の後ろには置けません。"
+    },
+    "meaning": "予算が限られていたため、委員会はプロモーションイベントを中止するのではなく、延期することを選択しました。"
+  },
+  {
+    "id": "p5_700_057",
+    "target_level": 700,
+    "sentence": "The conference room (     ) for the international board meeting has been equipped with advanced video technology.",
+    "options": {
+      "A": "reserve",
+      "B": "reserving",
+      "C": "reserved",
+      "D": "reservation"
+    },
+    "correct_answer": "C",
+    "explanation": "名詞 The conference room（会議室）を後ろから修飾する適切な過去分詞を選ぶ問題です。会議室は予約「される」側なので、受動の意味を持つ過去分詞が適切です。",
+    "options_explanations": {
+      "A": "reserve は動詞の原形であり、すでに has been equipped という本動詞が存在するため、この位置に単独で置くことはできません。",
+      "B": "reserving は現在分詞であり、修飾される「会議室」が自ら何かを予約するという能動の意味になってしまうため不適切です。",
+      "C": "reserved は過去分詞であり、「予約された会議室」という正しい受動の関係で後置修飾できるため正解です。",
+      "D": "reservation は名詞（「予約」）であり、先行する The conference room と並んで文法的に意味の通る修飾関係を作れません。"
+    },
+    "meaning": "国際取締役会のために予約された会議室には、高度なビデオ技術が備え付けられています。"
+  },
+  {
+    "id": "p5_700_058",
+    "target_level": 700,
+    "sentence": "Senior managers are actively (     ) with local organizations to promote community development and environmental sustainability.",
+    "options": {
+      "A": "collaborate",
+      "B": "collaborating",
+      "C": "collaboration",
+      "D": "collaborative"
+    },
+    "correct_answer": "B",
+    "explanation": "be動詞 are の後ろに置く、文脈に適した動詞の形を選ぶ問題です。副詞 actively（積極的に）に修飾され、直後に with が続いていることから、現在進行形（are + -ing）を形成する現在分詞が適切です。",
+    "options_explanations": {
+      "A": "collaborate は動詞の原形であり、助動詞のない平叙文で are の直後に直接置くことはできません。",
+      "B": "collaborating は現在分詞であり、are と組み合わさって現在進行形「積極的に協力している（are actively collaborating）」を形成するため正解です。",
+      "C": "collaboration は名詞（「協力」）であり、are の補語として置くと「経営陣＝協力そのもの」という不自然な意味になります。",
+      "D": "collaborative は形容詞（「協力的な」）であり、文法的には置けますが、actively と組み合わせて「協力しているという動作・プロセス」を強調する文脈では collaborating の方が自然です。"
+    },
+    "meaning": "上級管理職は、地域社会の発展と環境の持続可能性を促進するために、地元の組織と積極的に協力しています。"
+  },
+  {
+    "id": "p5_700_059",
+    "target_level": 700,
+    "sentence": "The annual performance reviews are (     ) to evaluate employee contributions and determine structural salary increases.",
+    "options": {
+      "A": "design",
+      "B": "designing",
+      "C": "designed",
+      "D": "designer"
+    },
+    "correct_answer": "C",
+    "explanation": "be動詞 are の後ろで、主語 The annual performance reviews（年に1度の業績評価）を説明する受動態（be + 過去分詞）を作る問題です。評価は設計「される」ものなので、過去分詞が適しています。",
+    "options_explanations": {
+      "A": "design は動詞の原形であり、are の直後にそのまま置くことはできません。",
+      "B": "designing は現在分詞（「設計している」）であり、主語である「業績評価」が自ら何かを設計しているという能動の意味になってしまい不適切です。",
+      "C": "designed は過去分詞であり、be designed to で「〜するように設計されている（意図されている）」という正しい受動表現を作るため正解です。",
+      "D": "designer は名詞（「設計者」）であり、複数形の主語 reviews と are を介して同格として結ぶことは意味が通らないため不適切です。"
+    },
+    "meaning": "年次業績評価は、従業員の貢献度を評価し、基本給の昇給を決定するために実施されます。"
+  },
+  {
+    "id": "p5_700_060",
+    "target_level": 700,
+    "sentence": "Anyone (     ) assistance with the new database system should consult the technical support desk immediately.",
+    "options": {
+      "A": "require",
+      "B": "requiring",
+      "C": "required",
+      "D": "requirement"
+    },
+    "correct_answer": "B",
+    "explanation": "代名詞 Anyone を後ろから修飾する現在分詞を選ぶ問題です。空欄の後に assistance（支援、名詞）という目的語を伴っているため、「支援を必要としている人（能動関係）」を表す現在分詞（-ing）が適切です。",
+    "options_explanations": {
+      "A": "require は動詞の原形であり、すでに should consult という本動詞があるため、この位置に別の述語動詞を置くことはできません。",
+      "B": "requiring は現在分詞であり、「〜を必要としている（人）」という能動修飾を行い、直後に目的語 assistance を伴うことができるため正解です。",
+      "C": "required は過去分詞ですが、「要求された誰か」となり、後ろに目的語 assistance が続く文脈とも受動の意味とも合致しません。",
+      "D": "requirement は名詞（「要件」）であり、代名詞 Anyone と並べて置くことは文法的に不自然です。"
+    },
+    "meaning": "新しいデータベースシステムに関する支援を必要とする人は誰でも、すぐに技術サポートデスクに相談してください。"
+  },
+  {
+    "id": "p5_700_061",
+    "target_level": 700,
+    "sentence": "The company's main headquarters, (     ) is located in downtown Chicago, will undergo extensive renovations this spring.",
+    "options": {
+      "A": "which",
+      "B": "that",
+      "C": "where",
+      "D": "who"
+    },
+    "correct_answer": "A",
+    "explanation": "先行詞 The company's main headquarters（本社、物・場所）に関する追加情報をカンマの後ろで説明する、非制限用法の関係代名詞を選ぶ問題です。空欄の直後に is located（動詞）が続いているため、主格の役割を果たす関係代名詞が必要です。",
+    "options_explanations": {
+      "A": "which は物を先行詞とし、カンマの後の非制限用法で主格として使えるため正解です。",
+      "B": "that は関係代名詞ですが、カンマを伴う非制限用法（継続用法）では絶対に使用できないルールがあるため不適切です。",
+      "C": "where は関係副詞であり、後ろに完全な文（主語 + 動詞）が続く必要があるため、直後に is がある本問では使えません。",
+      "D": "who は人を先行詞とする関係代名詞であるため、headquarters に対する修飾としては不適切です。"
+    },
+    "meaning": "シカゴのダウンタウンに位置する会社の本社は、この春に大規模な改修が行われる予定です。"
+  },
+  {
+    "id": "p5_700_062",
+    "target_level": 700,
+    "sentence": "The marketing strategy (     ) by the agency resulted in a significant increase in online customer engagement.",
+    "options": {
+      "A": "develop",
+      "B": "developing",
+      "C": "developed",
+      "D": "development"
+    },
+    "correct_answer": "C",
+    "explanation": "主語の名詞句 The marketing strategy を後ろから修飾する適切な過去分詞を選ぶ問題です。戦略は代理店によって開発「された」ものであるため、受動の過去分詞が適切です。",
+    "options_explanations": {
+      "A": "develop は動詞の原形であり、すでに resulted in という本動詞が存在するため、この位置に別の動詞を置くことはできません。",
+      "B": "developing は現在分詞であり、戦略が自ら「開発している」という不自然な能動関係になるため不適切です。",
+      "C": "developed は過去分詞であり、「（代理店によって）開発された（マーケティング戦略）」という正しい受動関係の修飾を作るため正解です。",
+      "D": "development は名詞（「開発」）であり、先行する名詞 strategy と並べて同格にするのは意味が通りません。"
+    },
+    "meaning": "代理店によって提案されたマーケティング戦略は、オンラインでの顧客エンゲージメントの著しい増加をもたらしました。"
+  },
+  {
+    "id": "p5_700_063",
+    "target_level": 700,
+    "sentence": "The logistics department was able to (     ) its goals because of the strong cooperation among all members.",
+    "options": {
+      "A": "achieve",
+      "B": "achievement",
+      "C": "achieving",
+      "D": "achieved"
+    },
+    "correct_answer": "A",
+    "explanation": "助動詞表現 was able to の後に続く動詞の原形を選ぶ問題です。「目標を達成することができた」という意味になります。",
+    "options_explanations": {
+      "A": "achieve は動詞の原形（「達成する」）であり、was able to の後に置く正しい形であるため正解です。",
+      "B": "achievement は名詞（「達成」）であり、to の後ろに直接置くことはできません。",
+      "C": "achieving は動名詞または現在分詞であり、was able to の直後に置くことはできません。",
+      "D": "achieved は過去形または過去分詞であり、to 不定詞を形成する to の後ろには置けません。"
+    },
+    "meaning": "物流部門は、すべてのメンバー間の強力な協力のおかげで、目標を達成することができました。"
+  },
+  {
+    "id": "p5_700_064",
+    "target_level": 700,
+    "sentence": "The legal team is reviewing the terms of the agreement to ensure that all parties are (     ).",
+    "options": {
+      "A": "protect",
+      "B": "protecting",
+      "C": "protected",
+      "D": "protection"
+    },
+    "correct_answer": "C",
+    "explanation": "that節内の主語 all parties（すべての当事者）に続く、be動詞 are の後ろにふさわしい受動態（be + 過去分詞）を作る問題です。当事者は契約によって保護「される」側になります。",
+    "options_explanations": {
+      "A": "protect は動詞の原形であり、be動詞 are の後ろにそのまま置くことはできません。",
+      "B": "protecting は現在分詞（「保護している」）であり、当事者が他の何かを「保護している」という能動の意味になってしまい、文脈に合わないため不適切です。",
+      "C": "protected は過去分詞であり、are protected で「保護されている、守られている」という受動態を構成するため正解です。",
+      "D": "protection は名詞（「保護」）であり、are の補語として置くと「当事者＝保護そのもの」となり意味が通りません。"
+    },
+    "meaning": "法務チームは、すべての当事者が規則に従っていることを確認するために、合意の条件をレビューしています。"
+  },
+  {
+    "id": "p5_700_065",
+    "target_level": 700,
+    "sentence": "Technological advances have (     ) the communication between regional offices and the main headquarters in New York.",
+    "options": {
+      "A": "facilitate",
+      "B": "facilitated",
+      "C": "facilitating",
+      "D": "facilitation"
+    },
+    "correct_answer": "B",
+    "explanation": "助動詞 have の後ろに置いて現在完了形（have + 過去分詞）を構成する適切な動詞の形を選ぶ問題です。「〜を容易にした、促進した」という意味になります。",
+    "options_explanations": {
+      "A": "facilitate は動詞の原形であり、have の後ろで現在完了形を作ることはできません。",
+      "B": "facilitated は過去分詞（「促進した」）であり、have と結びついて「意思疎通を容易にした」という現在完了形を正しく構成するため正解です。",
+      "C": "facilitating は現在分詞であり、have の直後に置いて適切な完了制を形成することはできません。",
+      "D": "facilitation は名詞（「促進、円滑化」）であり、have の後ろに目的語なしで直接置くことはできません。"
+    },
+    "meaning": "技術の進歩は、地方オフィスとニューヨークにある本社との間のコミュニケーションを促進しました。"
+  },
+  {
+    "id": "p5_700_066",
+    "target_level": 700,
+    "sentence": "Candidates (     ) possess previous experience in financial analysis will be given priority during the interview process.",
+    "options": {
+      "A": "who",
+      "B": "whom",
+      "C": "whose",
+      "D": "which"
+    },
+    "correct_answer": "A",
+    "explanation": "先行詞 Candidates（候補者、人）を修飾し、空欄の後ろの動詞 possess（所有する）の主語となる、主格の関係代名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "who は人を先行詞とする主格の関係代名詞であり、直後に動詞 possess が続いているため文法的に正解です。",
+      "B": "whom は目的格の関係代名詞であり、動詞の主語として用いることはできません。",
+      "C": "whose は所有格の関係代名詞であり、直後に所有の対象となる名詞を必要とするため不適切です。",
+      "D": "which は物・動物を先行詞とする関係代名詞であり、人である Candidates には使用できません。"
+    },
+    "meaning": "財務分析における以前の実績を持つ候補者は、面接プロセスの間に優先されます。"
+  },
+  {
+    "id": "p5_700_067",
+    "target_level": 700,
+    "sentence": "The promotional materials (     ) yesterday will be distributed to all retail stores across the country next week.",
+    "options": {
+      "A": "print",
+      "B": "printing",
+      "C": "printed",
+      "D": "printer"
+    },
+    "correct_answer": "C",
+    "explanation": "名詞 The promotional materials（販促資料）を後ろから修飾する、過去の出来事を示す語（yesterday）を伴った適切な準動詞（過去分詞）を選ぶ問題です。資料は印刷「される」ものなので受動関係の過去分詞が適しています。",
+    "options_explanations": {
+      "A": "print は動詞の原形（または現在形）であり、すでに will be distributed という助動詞を伴った本動詞があるため、動詞の原形を置くことはできません。",
+      "B": "printing は現在分詞であり、資料が自分で「印刷している」という不自然な能動関係になるため不適切です。",
+      "C": "printed は過去分詞であり、「昨日印刷された販促資料」という正しい受動関係の修飾を作るため正解です。",
+      "D": "printer は名詞（「プリンター、印刷業者」）であり、直前の materials と並べて置くことは文脈上不自然です。"
+    },
+    "meaning": "昨日承認されたプロモーション資料は、来週、全国のすべての小売店に配布されます。"
+  },
+  {
+    "id": "p5_700_068",
+    "target_level": 700,
+    "sentence": "The executive director suggested (     ) a task force to address the growing concerns about workplace efficiency.",
+    "options": {
+      "A": "establish",
+      "B": "establishing",
+      "C": "established",
+      "D": "establishment"
+    },
+    "correct_answer": "B",
+    "explanation": "動詞 suggest（〜を提案する）の直接の目的語として適切な準動詞の形を選ぶ問題です。suggest は動名詞（-ing）のみを目的語に取る動詞（to不定詞は不可）です。",
+    "options_explanations": {
+      "A": "establish は動詞の原形であり、他動詞 suggested の目的語として直接置くことはできません。",
+      "B": "establishing は動名詞であり、suggested の目的語（「タスクフォースを立ち上げること」）として正しい文法構造を作るため正解です。",
+      "C": "established は過去形または過去分詞であり、目的語の位置に単独で置くことはできません。",
+      "D": "establishment は名詞（「設立、創設」）ですが、後ろに直接目的語（a task force）を伴うことができない（名詞なら of が必要）ため不適切です。"
+    },
+    "meaning": "専務取締役は、職場の効率性に関する懸念の高まりに対処するためのタスクフォースの設立を提案しました。"
+  },
+  {
+    "id": "p5_700_069",
+    "target_level": 700,
+    "sentence": "A newly (     ) system will allow our customer service representatives to respond to inquiries much faster.",
+    "options": {
+      "A": "develop",
+      "B": "developing",
+      "C": "developed",
+      "D": "development"
+    },
+    "correct_answer": "C",
+    "explanation": "冠詞 A と、副詞 newly、名詞 system に挟まれた位置で、名詞を前置修飾する適切な過去分詞を選ぶ問題です。「新しく開発されたシステム」という受動の意味になります。",
+    "options_explanations": {
+      "A": "develop は動詞の原形であり、副詞 newly の後ろで名詞を修飾することはできません。",
+      "B": "developing は現在分詞であり、「（システム自体が）発達している」という意味になり、「新しく開発された（開発が完了した受動的な）」システムという文脈には合致しません。",
+      "C": "developed は過去分詞であり、副詞 newly に修飾されて「新しく開発された（システム）」という正しい修飾構造を作るため正解です。",
+      "D": "development は名詞（「開発」）であり、副詞 newly で直接修飾して system の前に置くことはできません。"
+    },
+    "meaning": "新しく実施されたシステムにより、カスタマーサービス担当者は問い合わせに対してはるかに迅速に対応できるようになります。"
+  },
+  {
+    "id": "p5_700_070",
+    "target_level": 700,
+    "sentence": "The board members (     ) met to discuss the acquisition were extremely pleased with the financial projections.",
+    "options": {
+      "A": "who",
+      "B": "which",
+      "C": "whom",
+      "D": "whose"
+    },
+    "correct_answer": "A",
+    "explanation": "先行詞 The board members（取締役、人）を修飾し、関係代名詞節内で動詞 met の主語として機能する主格の関係代名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "who は人を先行詞とする主格の関係代名詞であり、直後に過去動詞 met が続いているため正解です。",
+      "B": "which は物・動物を先行詞とする関係代名詞であるため、 board members を修飾することはできません。",
+      "C": "whom は目的格の関係代名詞であり、動詞 met の主語にはなれません。",
+      "D": "whose は所有格の関係代名詞であり、直後に所有対象の名詞を伴う必要があるため不適切です。"
+    },
+    "meaning": "買収について話し合うために臨時で集まった取締役会メンバーは、財務予測に非常に満足していました。"
+  },
+  {
+    "id": "p5_700_071",
+    "target_level": 700,
+    "sentence": "The corporation strives to (     ) a positive working environment where innovation and personal growth are highly valued.",
+    "options": {
+      "A": "create",
+      "B": "creation",
+      "C": "creating",
+      "D": "created"
+    },
+    "correct_answer": "A",
+    "explanation": "動詞 strive（〜しようと努力する）に続く to 不定詞の動詞の原形を選ぶ問題です。「前向きな労働環境を作り出すよう努めている」という意味になります。",
+    "options_explanations": {
+      "A": "create は動詞の原形であり、strives to の後ろで正しい不定詞を形成するため正解です。",
+      "B": "creation は名詞（「創造、創作」）であり、to の後ろに直接置くことはできません。",
+      "C": "creating は現在分詞または動名詞であり、strives to の後ろで不定詞を構成することはできません（strive to doing の形はありません）。",
+      "D": "created は過去形または過去分詞であり、to 不定詞を形成する to の後ろには置けません。"
+    },
+    "meaning": "企業は、イノベーションと個人の成長が非常に重視される、前向きな職場環境を作るよう努めています。"
+  },
+  {
+    "id": "p5_700_072",
+    "target_level": 700,
+    "sentence": "The production schedule was (     ) to accommodate the sudden increase in customer demands for the new model.",
+    "options": {
+      "A": "adjust",
+      "B": "adjusting",
+      "C": "adjusted",
+      "D": "adjustment"
+    },
+    "correct_answer": "C",
+    "explanation": "be動詞 was の後ろで、主語 The production schedule（生産計画）に関する受動態（be + 過去分詞）を構成する適切な形を選ぶ問題です。計画は調整「される」ものであるため、過去分詞が適しています。",
+    "options_explanations": {
+      "A": "adjust は動詞の原形であり、was の後ろにそのまま置くことはできません。",
+      "B": "adjusting は現在分詞であり、生産計画が自ら何かを「調整している」という能動の意味になってしまうため不適切です。",
+      "C": "adjusted は過去分詞であり、was adjusted で「（計画が）調整された」という正しい受動表現を作るため正解です。",
+      "D": "adjustment は名詞（「調整」）であり、was の補語として同格に結ぶことは意味上できません。"
+    },
+    "meaning": "新モデルに対する顧客の需要の急激な増加に対応するため、生産スケジュールが調整されました。"
+  },
+  {
+    "id": "p5_700_073",
+    "target_level": 700,
+    "sentence": "Before (     ) the final contract, the legal representatives of both companies decided to hold one more meeting.",
+    "options": {
+      "A": "sign",
+      "B": "signing",
+      "C": "signed",
+      "D": "signature"
+    },
+    "correct_answer": "B",
+    "explanation": "前置詞（または接続詞）Before の後ろで、目的語 the final contract を伴う適切な品詞を選ぶ問題です。目的語を取ることができる動名詞（-ing）または現在分詞が適切です。",
+    "options_explanations": {
+      "A": "sign は動詞の原形であり、前置詞 Before の後ろに直接置くことはできません。",
+      "B": "signing は動名詞であり、Before の後ろで「契約に署名する前に」という名詞句の塊を正しく作るため正解です（分詞構文の現在分詞と考えることもできます）。",
+      "C": "signed は過去形または過去分詞であり、後ろに目的語（the final contract）を伴って Before の後ろに置くことはできません。",
+      "D": "signature は名詞（「署名」）ですが、直後に別の名詞（the final contract）を目的語として直接伴うことができないため不適切です。"
+    },
+    "meaning": "最終契約に署名する前に、両社の法的代表者はもう一度会議を開くことを決定しました。"
+  },
+  {
+    "id": "p5_700_074",
+    "target_level": 700,
+    "sentence": "The regional manager is responsible for (     ) the activities of several branches located in the northern territory.",
+    "options": {
+      "A": "supervise",
+      "B": "supervising",
+      "C": "supervised",
+      "D": "supervision"
+    },
+    "correct_answer": "B",
+    "explanation": "形容詞表現 be responsible for（〜に責任がある）の前置詞 for の目的語を選ぶ問題です。後ろに the activities という目的語を直接伴うため、動名詞（-ing）が適切です。",
+    "options_explanations": {
+      "A": "supervise は動詞の原形であり、前置詞 for の直後に直接置くことはできません。",
+      "B": "supervising は動名詞（「監督すること」）であり、前置詞の目的語になりつつ、後ろに目的語を続けることができるため正解です。",
+      "C": "supervised は過去形または過去分詞であり、前置詞の直後に単独で置くことはできません。",
+      "D": "supervision は名詞（「監督、管理」）ですが、後ろに直接目的語（the activities）を置くことができない（名詞なら of が必要）ため不適切です。"
+    },
+    "meaning": "地域マネージャーは、北部地域に位置するいくつかの支店の活動を監督する責任があります。"
+  },
+  {
+    "id": "p5_700_075",
+    "target_level": 700,
+    "sentence": "A professional consultant was hired to (     ) the efficiency of the manufacturing plant and suggest improvements.",
+    "options": {
+      "A": "evaluate",
+      "B": "evaluation",
+      "C": "evaluating",
+      "D": "evaluated"
+    },
+    "correct_answer": "A",
+    "explanation": "不定詞（to + 動詞の原形）を形成する適切な動詞の形を選ぶ問題です。「〜を評価するために雇われた（目的）」という意味を構成します。",
+    "options_explanations": {
+      "A": "evaluate は動詞の原形（「評価する」）であり、to に続いて正しい目的の不定詞（to evaluate）を構成するため正解です。",
+      "B": "evaluation は名詞（「評価」）であり、to の後ろに直接置くことはできません。",
+      "C": "evaluating は現在分詞または動名詞であり、to の後ろに置いて副詞的用法の不定詞を作ることはできません。",
+      "D": "evaluated は過去形または過去分詞であり、不定詞を形成する to の後ろには置けません。"
+    },
+    "meaning": "製造工場の効率性を評価し、改善策を提案するために、専門のコンサルタントが雇用されました。"
+  },
+  {
+    "id": "p5_700_076",
+    "target_level": 700,
+    "sentence": "The system upgrade (     ) last night has successfully resolved the security issues reported by several users.",
+    "options": {
+      "A": "install",
+      "B": "installing",
+      "C": "installed",
+      "D": "installation"
+    },
+    "correct_answer": "C",
+    "explanation": "主語の名詞 The system upgrade（システムのアップグレード）を後ろから修飾する、過去の時間（last night）を伴った適切な準動詞を選ぶ問題です。アップグレードはインストール「される」ものなので、受動の関係を表す過去分詞が適切です。",
+    "options_explanations": {
+      "A": "install は動詞の原形であり、すでに has successfully resolved という本動詞があるため、この位置に別の動詞を置くことはできません。",
+      "B": "installing は現在分詞であり、アップグレードが自ら何かをインストールしているという不自然な能動関係になるため不適切です。",
+      "C": "installed は過去分詞であり、「昨夜インストールされたシステムアップグレード」という正しい受動関係の修飾を構成するため正解です。",
+      "D": "installation は名詞（「設置、導入」）であり、先行する名詞 upgrade と並べて置くことは文法的に不自然です。"
+    },
+    "meaning": "昨夜実行されたシステムアップグレードにより、複数のユーザーから報告されていたセキュリティ問題が正常に解決されました。"
+  },
+  {
+    "id": "p5_700_077",
+    "target_level": 700,
+    "sentence": "The management will focus on (     ) customer service capabilities to remain competitive in the global market.",
+    "options": {
+      "A": "improve",
+      "B": "improving",
+      "C": "improved",
+      "D": "improvement"
+    },
+    "correct_answer": "B",
+    "explanation": "熟語表現 focus on（〜に集中する）の前置詞 on の目的語として適切な形を選ぶ問題です。空欄の後ろに customer service capabilities（顧客サービス能力、名詞句）という目的語があるため、動名詞（-ing）が適切です。",
+    "options_explanations": {
+      "A": "improve は動詞の原形であり、前置詞 on の直後にそのまま置くことはできません。",
+      "B": "improving は動名詞（「向上させること」）であり、前置詞の目的語として機能しつつ、直後に目的語を直接伴うことができるため正解です。",
+      "C": "improved は過去分詞または過去形であり、前置詞の目的語として単独で置くことはできません。",
+      "D": "improvement は名詞（「向上、改善」）ですが、直後に別の目的語を直接伴うことができない（名詞なら of が必要）ため不適切です。"
+    },
+    "meaning": "管理職は、グローバル市場で競争力を維持するために、顧客サービス能力を強化することに集中します。"
+  },
+  {
+    "id": "p5_700_078",
+    "target_level": 700,
+    "sentence": "The marketing campaign (     ) by the creative director was highly successful in attracting younger consumers.",
+    "options": {
+      "A": "design",
+      "B": "designing",
+      "C": "designed",
+      "D": "designer"
+    },
+    "correct_answer": "C",
+    "explanation": "主語の名詞 The marketing campaign（マーケティングキャンペーン）を後ろから修飾する（後置修飾）過去分詞を選ぶ問題です。キャンペーンはクリエイティブディレクターによって設計「された」という受動の関係になります。",
+    "options_explanations": {
+      "A": "design は動詞の原形であり、すでに was という本動詞が存在するため、動詞の原形を置くことはできません。",
+      "B": "designing は現在分詞であり、キャンペーンが自ら「設計している」という能動の意味になってしまうため不適切です。",
+      "C": "designed は過去分詞であり、「（クリエイティブディレクターによって）設計された」という正しい受動関係の後置修飾を作るため正解です。",
+      "D": "designer は名詞（「設計者」）であり、先行する名詞 campaign と直接並べることはできません。"
+    },
+    "meaning": "クリエイティブディレクターによって開始されたマーケティングキャンペーンは、若い消費者を惹きつけることに大成功しました。"
+  },
+  {
+    "id": "p5_700_079",
+    "target_level": 700,
+    "sentence": "Supervisors must support employees (     ) are struggling to adapt to the new digital communication tools.",
+    "options": {
+      "A": "who",
+      "B": "whom",
+      "C": "whose",
+      "D": "which"
+    },
+    "correct_answer": "A",
+    "explanation": "先行詞 employees（従業員、人）を修飾し、後ろに続く are（動詞）の主語の役割を果たす主格の関係代名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "who は人を先行詞とする主格の関係代名詞であり、動詞 are struggling の主語として適切に機能するため正解です。",
+      "B": "whom は目的格の関係代名詞であり、関係代名詞節の中で動詞の主語になることはできません。",
+      "C": "whose は所有格の関係代名詞であり、直後に名詞を必要とするため不適切です。",
+      "D": "which は物・動物を先行詞とする関係代名詞であり、人である employees には使用できません。"
+    },
+    "meaning": "管理者は、新しいデジタルコミュニケーションツールへの適応に苦労している従業員をサポートしなければなりません。"
+  },
+  {
+    "id": "p5_700_080",
+    "target_level": 700,
+    "sentence": "The budget proposal (     ) by the finance department was rejected because of its high projected operational costs.",
+    "options": {
+      "A": "submit",
+      "B": "submitting",
+      "C": "submitted",
+      "D": "submission"
+    },
+    "correct_answer": "C",
+    "explanation": "主語 The budget proposal（予算案）を後ろから修飾する適切な過去分詞を選ぶ問題です。予算案は財務部によって提出「された」という受動の関係になります。",
+    "options_explanations": {
+      "A": "submit は動詞の原形であり、すでに was rejected という本動詞があるため、動詞の原形をそのまま置くことはできません。",
+      "B": "submitting は現在分詞であり、予算案が自ら「提出している」という能動の意味になってしまい不自然なため不適切です。",
+      "C": "submitted は過去分詞であり、「（財務部によって）提出された（予算案）」という正しい受動の修飾を構成するため正解です。",
+      "D": "submission は名詞（「提出、提出物」）であり、先行する proposal と並べて置くことは文脈上意味が通りません。"
+    },
+    "meaning": "財務部門によって提出された予算案は、予想される高い運営コストのために却下されました。"
+  },
+  {
+    "id": "p5_700_081",
+    "target_level": 700,
+    "sentence": "The workshop on digital security was (     ) by more than fifty employees from various administrative departments.",
+    "options": {
+      "A": "attend",
+      "B": "attending",
+      "C": "attended",
+      "D": "attendance"
+    },
+    "correct_answer": "C",
+    "explanation": "be動詞 was に続けて、受動態（was + 過去分詞）を作る問題です。「ワークショップが従業員によって出席された（参加された）」という文脈になります。",
+    "options_explanations": {
+      "A": "attend は動詞の原形であり、was の後ろにそのまま置くことはできません。",
+      "B": "attending は現在分詞であり、進行形（was attending）になりますが、主語であるワークショップ（物）が出席するという能動関係になってしまい意味が通りません。",
+      "C": "attended は過去分詞であり、was attended by で「〜によって出席された（多くの人が参加した）」という正しい受動表現を作るため正解です。",
+      "D": "attendance は名詞（「出席、出席者数」）であり、was の補語として置くには意味が不適切です。"
+    },
+    "meaning": "デジタルセキュリティに関するワークショップには、さまざまな管理部門から50人以上の従業員が参加しました。"
+  },
+  {
+    "id": "p5_700_082",
+    "target_level": 700,
+    "sentence": "Managers must ensure that all (     ) documents are stored securely in the company's private cloud network.",
+    "options": {
+      "A": "confidence",
+      "B": "confidential",
+      "C": "confidentially",
+      "D": "confide"
+    },
+    "correct_answer": "B",
+    "explanation": "名詞 documents（書類）を前から修飾して「機密書類」という名詞句を作る、最も適切な形容詞を選ぶ品詞判別問題です。",
+    "options_explanations": {
+      "A": "confidence は名詞（「信頼、自信」）であり、documents を修飾して「機密の」という意味を表すことはできません。",
+      "B": "confidential は形容詞（「機密の、秘密の」）であり、名詞 documents を直接修飾して「機密書類（confidential documents）」を構成するため正解です。",
+      "C": "confidentially は副詞（「秘密裏に、内密に」）であり、名詞 documents を直接修飾することはできません。",
+      "D": "confide は動詞（「信用して打ち明ける」）であり、名詞 documents の直前に置いて修飾することはできません。"
+    },
+    "meaning": "マネージャーは、すべての機密文書が会社のプライベートクラウドネットワークに安全に保存されていることを確認しなければなりません。"
+  },
+  {
+    "id": "p5_700_083",
+    "target_level": 700,
+    "sentence": "The corporate training program is designed to (     ) leadership skills among mid-level management staff.",
+    "options": {
+      "A": "develop",
+      "B": "development",
+      "C": "developing",
+      "D": "developed"
+    },
+    "correct_answer": "A",
+    "explanation": "不定詞の to の後ろに置いて、目的語 leadership skills（リーダーシップスキル）を伴う動詞の原形を選ぶ問題です。「指導力を向上させる・育成する」という意味になります。",
+    "options_explanations": {
+      "A": "develop は動詞の原形（「育てる、向上させる」）であり、to 不定詞の一部として「指導力を高めるために（to develop...）」を正しく構成するため正解です。",
+      "B": "development は名詞（「開発、育成」）であり、to の後ろに直接置いて目的語を伴うことはできません。",
+      "C": "developing は現在分詞または動名詞であり、to の後ろに置いて不定詞を形成することはできません。",
+      "D": "developed は過去形または過去分詞であり、to 不定詞の to の後ろに置くことはできません。"
+    },
+    "meaning": "企業研修プログラムは、中間管理職スタッフのリーダーシップスキルを育成するように設計されています。"
+  },
+  {
+    "id": "p5_700_084",
+    "target_level": 700,
+    "sentence": "Customers (     ) bought company products within the last thirty days are eligible for a full refund.",
+    "options": {
+      "A": "who",
+      "B": "whose",
+      "C": "whom",
+      "D": "which"
+    },
+    "correct_answer": "A",
+    "explanation": "先行詞 Customers（顧客、人）を修飾し、関係代名詞節内で過去動詞 bought（購入した）の主語となる、主格の関係代名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "who は人を先行詞とする主格の関係代名詞であり、直後に動詞 bought が続いているため正解です。",
+      "B": "whose は所有格の関係代名詞であり、直後に名詞を必要とするため不適切です。",
+      "C": "whom は目的格の関係代名詞であり、動詞 bought の主語として機能することはできません。",
+      "D": "which は物・動物を先行詞とする関係代名詞であり、人である Customers には使えません。"
+    },
+    "meaning": "過去30日以内に会社の製品を購入した顧客は、全額返金の対象となります。"
+  },
+  {
+    "id": "p5_700_085",
+    "target_level": 700,
+    "sentence": "After carefully (     ) the market trends, the executive team decided to expand retail operations into Asia.",
+    "options": {
+      "A": "analyze",
+      "B": "analyzing",
+      "C": "analyzed",
+      "D": "analysis"
+    },
+    "correct_answer": "B",
+    "explanation": "前置詞（または接続詞）After の後ろで、副詞 carefully に修飾されつつ、目的語 the market trends を伴う適切な形（動名詞または分詞構文の現在分詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "analyze は動詞の原形であり、After の直後に置いて動詞の原形で文を構成することはできません。",
+      "B": "analyzing は動名詞（または現在分詞）であり、副詞に修飾され、かつ目的語を伴って「市場の動向を慎重に分析した後に」という正しい句を構成するため正解です。",
+      "C": "analyzed は過去形または過去分詞であり、副詞に修飾されながら目的語を直接伴う After の直後としては文法的に不適切です。",
+      "D": "analysis は名詞（「分析」）ですが、carefully という副詞による修飾（名詞なら形容詞 careful が必要）や、直後の目的語 trends を伴うことが直接できないため不適切です。"
+    },
+    "meaning": "市場の動向を注意深く分析した後、エグゼクティブチームは小売事業をアジアへと拡大することを決定しました。"
+  },
+  {
+    "id": "p5_700_086",
+    "target_level": 700,
+    "sentence": "The newly hired technician has already (     ) several key issues with the primary server infrastructure today.",
+    "options": {
+      "A": "resolve",
+      "B": "resolving",
+      "C": "resolved",
+      "D": "resolution"
+    },
+    "correct_answer": "C",
+    "explanation": "助動詞 has および副詞 already の後ろに続いて、現在完了形（has + 過去分詞）を構成する適切な動詞の形を選ぶ問題です。「すでにいくつかの重要な問題を解決した」という意味になります。",
+    "options_explanations": {
+      "A": "resolve は動詞の原形であり、has already の後ろで現在完了形を作ることはできません。",
+      "B": "resolving は現在分詞であり、has been resolving などの形でない限り、has already の直後に置いて適切な時制を構成できません。",
+      "C": "resolved は過去分詞であり、has already と結びついて「解決し終えた」という現在完了形を正しく構成するため正解です。",
+      "D": "resolution は名詞（「解決、決議」）であり、has already の後ろに直接置いて完了動詞として機能させることはできません。"
+    },
+    "meaning": "新しく採用された技術者は、本日すでに主要なサーバーインフラストラクチャにおけるいくつかの重要課題を特定しました。"
+  },
+  {
+    "id": "p5_700_087",
+    "target_level": 700,
+    "sentence": "Standard safety regulations must be (     ) observed by all laboratory personnel to prevent accidental chemical exposure.",
+    "options": {
+      "A": "strict",
+      "B": "strictly",
+      "C": "strictness",
+      "D": "stricter"
+    },
+    "correct_answer": "B",
+    "explanation": "助動詞表現 must be と過去分詞（動詞）observed の間に置いて、動詞（過去分詞）を修飾する最も適切な副詞を選ぶ品詞判別問題です。",
+    "options_explanations": {
+      "A": "strict は形容詞（「厳しい」）であり、過去分詞（動詞句）である observed を修飾することはできません。",
+      "B": "strictly は副詞（「厳格に、厳重に」）であり、後ろの動詞 observed を修飾して「厳重に遵守されなければならない」という文を正しく作るため正解です。",
+      "C": "strictness は名詞（「厳格さ」）であり、動詞を修飾するこの位置に置くことはできません。",
+      "D": "stricter は形容詞の比較級（「より厳しい」）であり、動詞修飾を行うこの位置には置けません。"
+    },
+    "meaning": "偶発的な化学物質への暴露を防ぐために、すべての研究所職員は標準的な安全規則を厳密に遵守しなければなりません。"
+  },
+  {
+    "id": "p5_700_088",
+    "target_level": 700,
+    "sentence": "The new employee lounge, (     ) was completed last week, has already become a popular spot for breaks.",
+    "options": {
+      "A": "which",
+      "B": "that",
+      "C": "who",
+      "D": "where"
+    },
+    "correct_answer": "A",
+    "explanation": "先行詞 The new employee lounge（ラウンジ、物・場所）を修飾し、カンマに挟まれた非制限用法で、関係代名詞節内の動詞 was completed の主語となる主格の関係代名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "which は物を先行詞とし、カンマの後の非制限用法（継続用法）で主格として機能できるため正解です。",
+      "B": "that は関係代名詞ですが、カンマを伴う非制限用法（継続用法）では絶対に使用できないルールがあるため不適切です。",
+      "C": "who は人を先行詞とする関係代名詞であるため、lounge（ラウンジ）には適しません。",
+      "D": "where は関係副詞であり、後ろに完全な文（主語 + 動詞）が必要であるため、直後に動詞 was がある本問では主格として使えません。"
+    },
+    "meaning": "先週完成した新しい従業員ラウンジは、すでに休憩場所として人気のスポットになっています。"
+  },
+  {
+    "id": "p5_700_089",
+    "target_level": 700,
+    "sentence": "The committee is currently (     ) the feasibility of establishing a new branch in the northern region.",
+    "options": {
+      "A": "consider",
+      "B": "considering",
+      "C": "considered",
+      "D": "consideration"
+    },
+    "correct_answer": "B",
+    "explanation": "be動詞 is と副詞 currently の後ろに続いて、現在進行形（is + -ing）を形成する現在分詞を選ぶ問題です。後ろに the feasibility（実現可能性、目的語）が続いていることから、能動の進行形が適切です。",
+    "options_explanations": {
+      "A": "consider は動詞の原形（または現在形）であり、is の直後に直接置くことはできません。",
+      "B": "considering は現在分詞であり、is と結びついて「現在検討している（is currently considering）」という能動の進行形を構成するため正解です。",
+      "C": "considered は過去分詞であり、is considered とすると受動態（「検討されている」）になりますが、後ろに目的語（the feasibility）が直接続いているため文法的に不適切です。",
+      "D": "consideration は名詞（「検討、考慮」）であり、is の直後に置いて進行形を構成することはできません。"
+    },
+    "meaning": "委員会は現在、北部地域に新しい支店を開設する実現可能性を評価しています。"
+  },
+  {
+    "id": "p5_700_090",
+    "target_level": 700,
+    "sentence": "High-performing sales representatives will be (     ) with bonuses at the end of the fiscal year.",
+    "options": {
+      "A": "reward",
+      "B": "rewarding",
+      "C": "rewarded",
+      "D": "rewardable"
+    },
+    "correct_answer": "C",
+    "explanation": "助動詞 will be に続けて、主語 sales representatives（営業担当者）がボーナスで報い「られる」という受動態（be + 過去分詞）を作る問題です。reward A with B（AにBを報いる・与える）の受動表現になります。",
+    "options_explanations": {
+      "A": "reward は動詞の原形であり、will be の後ろに原形のまま置くことはできません。",
+      "B": "rewarding は現在分詞または形容詞（「やりがいのある」）であり、営業担当者自体が誰かに「報いている」という意味、または「担当者＝やりがいがある」となってしまい、後ろの with bonuses とも繋がらず不適切です。",
+      "C": "rewarded は過去分詞であり、will be rewarded with で「〜を（報酬として）与えられる、報いられる」という正しい受動表現を作るため正解です。",
+      "D": "rewardable は形容詞（「報いる価値のある」）であり、主語の状態を不自然に表すことになるため、受動態の動作を表す文脈には適しません。"
+    },
+    "meaning": "優秀な営業担当者は、会計年度の終わりにボーナスで報われます。"
+  },
+  {
+    "id": "p5_700_091",
+    "target_level": 700,
+    "sentence": "The executive committee is planning to (     ) a series of measures to reduce annual energy consumption.",
+    "options": {
+      "A": "introduce",
+      "B": "introduction",
+      "C": "introducing",
+      "D": "introduced"
+    },
+    "correct_answer": "A",
+    "explanation": "動詞 plan の目的語である to 不定詞の to の後ろに、動詞の原形を置く問題です。「一連の対策を導入することを計画している」という意味になります。",
+    "options_explanations": {
+      "A": "introduce は動詞の原形（「導入する」）であり、to の後ろで正しい不定詞を形成するため正解です。",
+      "B": "introduction は名詞（「導入、紹介」）であり、to 不定詞の to の後ろに置くことはできません。",
+      "C": "introducing は動名詞または現在分詞であり、planning to の後ろで不定詞を構成することはできません（plan to doing の形はありません）。",
+      "D": "introduced は過去形または過去分詞であり、to 不定詞を形成する to の後ろには置けません。"
+    },
+    "meaning": "執行委員会は、年間のエネルギー消費を削減するための一連の対策を講じることを計画しています。"
+  },
+  {
+    "id": "p5_700_092",
+    "target_level": 700,
+    "sentence": "Staff members (     ) require additional office supplies should submit a request form to the administrative department.",
+    "options": {
+      "A": "who",
+      "B": "whom",
+      "C": "whose",
+      "D": "which"
+    },
+    "correct_answer": "A",
+    "explanation": "先行詞 Staff members（職員、人）を修飾し、関係代名詞節内の動詞 require の主語として機能する、主格の関係代名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "who は人を先行詞とする主格の関係代名詞であり、直後に動詞 require が続いているため正解です。",
+      "B": "whom は目的格の関係代名詞であり、関係代名詞節内で動詞 require の主語として用いることはできません。",
+      "C": "whose は所有格の関係代名詞であり、直後に名詞が続く必要があるため不適切です。",
+      "D": "which は物・動物を先行詞とする関係代名詞であり、人である Staff members には使用できません。"
+    },
+    "meaning": "追加のオフィス用品を必要とするスタッフメンバーは、管理部門に申請書を提出する必要があります。"
+  },
+  {
+    "id": "p5_700_093",
+    "target_level": 700,
+    "sentence": "The software developer is working on a program (     ) to automate the inventory management process completely.",
+    "options": {
+      "A": "design",
+      "B": "designing",
+      "C": "designed",
+      "D": "designer"
+    },
+    "correct_answer": "C",
+    "explanation": "名詞 a program を後ろから修飾（後置修飾）する、適切な過去分詞を選ぶ問題です。プログラムは自動化のために設計「された」ものであるため、受動の意味を持つ過去分詞が適しています。",
+    "options_explanations": {
+      "A": "design は動詞の原形であり、すでに is working という本動詞が存在するため、この位置に別の動詞を置くことはできません。",
+      "B": "designing は現在分詞であり、プログラム自体が自ら「設計している」という不自然な能動関係になるため不適切です。",
+      "C": "designed は過去分詞であり、「（プロセスを自動化するために）設計された（プログラム）」という正しい受動の後置修飾を作るため正解です。",
+      "D": "designer は名詞（「設計者」）であり、先行する名詞 program と並べて置くことはできません。"
+    },
+    "meaning": "ソフトウェア開発者は、在庫管理プロセスを完全に自動化することを目的としたプログラムの作成に取り組んでいます。"
+  },
+  {
+    "id": "p5_700_094",
+    "target_level": 700,
+    "sentence": "The administrative team is responsible for (     ) all international travel arrangements for company executive members.",
+    "options": {
+      "A": "coordinate",
+      "B": "coordinating",
+      "C": "coordinated",
+      "D": "coordination"
+    },
+    "correct_answer": "B",
+    "explanation": "熟語表現 be responsible for（〜に責任がある）の前置詞 for の後ろで、目的語 travel arrangements を伴う適切な動名詞（-ing）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "coordinate は動詞 of の原形であり、前置詞 for の後ろに直接置くことはできません。",
+      "B": "coordinating は動名詞（「調整すること、手配すること」）であり、前置詞の目的語となりながら、直後に目的語を直接伴うことができるため正解です。",
+      "C": "coordinated は過去形または過去分詞であり、前置詞 for の直後に置いて名詞句を形成することはできません。",
+      "D": "coordination は名詞（「調整、協調」）ですが、後ろに直接目的語（arrangements）を置くことができない（名詞なら of が必要）ため不適切です。"
+    },
+    "meaning": "管理チームは、会社の役員メンバーのためのすべての海外旅行の手配を管理する責任があります。"
+  },
+  {
+    "id": "p5_700_095",
+    "target_level": 700,
+    "sentence": "Several critical errors in the financial report (     ) discovered during the routine internal audit yesterday afternoon.",
+    "options": {
+      "A": "was",
+      "B": "were",
+      "C": "are",
+      "D": "been"
+    },
+    "correct_answer": "B",
+    "explanation": "過去の出来事（yesterday afternoon）に関する受動態（be + 過去分詞 discovered）の助動詞（be動詞の過去形）を選ぶ問題です。主語は Several critical errors（複数形）です。",
+    "options_explanations": {
+      "A": "was は三人称単数形の過去be動詞であり、複数形の主語 errors に対する動詞としては不適切です。",
+      "B": "were は複数形の過去be動詞であり、昨日起きた受動態の出来事を表す文の述語として、主語 errors とも一致するため正解です。",
+      "C": "are は複数形・現在のbe動詞であり、昨日という過去の出来事を示す時間表現（yesterday afternoon）と一致しないため不適切です。",
+      "D": "been はbe動詞の過去分詞であり、have などの助動詞を伴わない単独の形では、この位置で述語動詞になることはできません。"
+    },
+    "meaning": "昨日の午後、定期的な内部監査の間に、財務報告書におけるいくつかの重大な誤りが発見されました。"
+  },
+  {
+    "id": "p5_700_096",
+    "target_level": 700,
+    "sentence": "Employees are required to obtain (     ) approval from their direct supervisors before purchasing any office equipment.",
+    "options": {
+      "A": "write",
+      "B": "writing",
+      "C": "written",
+      "D": "writer"
+    },
+    "correct_answer": "C",
+    "explanation": "名詞 approval（承認、認可）を前から修飾し、「書面による承認（written approval）」というビジネスコロケーションを形成する、形容詞的な過去分詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "write は動詞の原形であり、名詞 approval の直前に置いて形容詞的に修飾することはできません。",
+      "B": "writing は現在分詞または名詞（「書くこと、執筆」）であり、承認自体が何かを「書いている」という能動修飾になり、また「書面の」という意味を正しくなさないため不適切です。",
+      "C": "written は過去分詞であり、「書かれた（書面による）」という意味で名詞 approval を修飾して「書面による承認」という正しい語彙を構成するため正解です。",
+      "D": "writer は名詞（「作家、筆者」）であり、名詞 approval の前で修飾語として機能することはできません。"
+    },
+    "meaning": "従業員は、オフィス機器を購入する前に、直属の管理者から事前の承認を得る必要があります。"
+  },
+  {
+    "id": "p5_700_097",
+    "target_level": 700,
+    "sentence": "The technical manual (     ) by the engineering team provides clear instructions on operating the heavy machinery.",
+    "options": {
+      "A": "prepare",
+      "B": "preparing",
+      "C": "prepared",
+      "D": "preparation"
+    },
+    "correct_answer": "C",
+    "explanation": "主語の名詞 The technical manual（技術マニュアル）を後ろから修飾する、適切な過去分詞を選ぶ問題です。マニュアルはエンジニアリングチームによって準備「された」ものであるため、受動の意味を持つ過去分詞が適しています。",
+    "options_explanations": {
+      "A": "prepare は動詞の原形であり、すでに provides という本動詞があるため、この位置に別の動詞を置くことはできません。",
+      "B": "preparing は現在分詞であり、マニュアルが自ら何かを「準備している」という能動関係になるため不適切です。",
+      "C": "prepared は過去分詞であり、「（チームによって）準備された」という正しい受動の後置修飾を作るため正解です。",
+      "D": "preparation は名詞（「準備、用意」）であり、先行する名詞 manual と並べて置くことはできません。"
+    },
+    "meaning": "エンジニアリングチームによって作成された技術マニュアルは、重機の操作に関する明確な指示を提供しています。"
+  },
+  {
+    "id": "p5_700_098",
+    "target_level": 700,
+    "sentence": "The company is currently looking for a (     ) candidate to fill the position of senior financial analyst.",
+    "options": {
+      "A": "qualify",
+      "B": "qualifying",
+      "C": "qualified",
+      "D": "qualification"
+    },
+    "correct_answer": "C",
+    "explanation": "冠詞 a と名詞 candidate の間に置いて、名詞を修飾して「適格な、十分な資質のある候補者（a qualified candidate）」という表現を作る、形容詞としての過去分詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "qualify は動詞の原形（「資格を与える、適格とする」）であり、名詞 candidate の前で直接修飾語として機能させることはできません。",
+      "B": "qualifying は現在分詞（「予選の、資格を与える」）であり、候補者自体が他者に「資格を与えている」という意味になり不適切です。",
+      "C": "qualified は過去分詞（形容詞的に用いられ「資質のある、適任の」）であり、candidate を修飾して「適任の候補者」という正しい表現を構成するため正解です。",
+      "D": "qualification は名詞（「資格、資質」）であり、後ろの名詞 candidate を直接修飾することはできません。"
+    },
+    "meaning": "同社は現在、シニア財務アナリストの職を満たすための適切な候補者を探しています。"
+  },
+  {
+    "id": "p5_700_099",
+    "target_level": 700,
+    "sentence": "The marketing department is launching a campaign (     ) at increasing brand awareness among young adults.",
+    "options": {
+      "A": "aim",
+      "B": "aiming",
+      "C": "aimed",
+      "D": "aims"
+    },
+    "correct_answer": "C",
+    "explanation": "名詞 a campaign（キャンペーン）を後ろから修飾する、慣用表現 be aimed at（〜を標的とする、〜を狙いとする）に由来する適切な分詞を選ぶ問題です。「若者の間でブランド認知度を高めることを目指したキャンペーン」という意味になります。",
+    "options_explanations": {
+      "A": "aim は動詞の原形であり、すでに is launching という本動詞があるため、この位置に別の述語動詞を置くことはできません。",
+      "B": "aiming は現在分詞であり、aim at を能動で用いて campaign を修飾することも文法的には考えられますが、通常キャンペーンのような事物が「狙いを定められている、企図されている」という目的を示す場合は、慣用的に過去分詞の aimed at を用いるため不適切です。",
+      "C": "aimed は過去分詞であり、aimed at で「〜を狙いとした（キャンペーン）」という正しい受動関係の修飾関係を構成するため正解です。",
+      "D": "aims は動詞の三人称単数現在形または名詞の複数形であり、この位置で campaign を修飾する役割を果たすことはできません。"
+    },
+    "meaning": "マーケティング部門は、若年層の間でブランド認知度を高めることを目的としたキャンペーンを開始しています。"
+  },
+  {
+    "id": "p5_700_100",
+    "target_level": 700,
+    "sentence": "Security personnel (     ) the facility noticed that one of the rear exit doors had been left open.",
+    "options": {
+      "A": "patrol",
+      "B": "patrolling",
+      "C": "patrolled",
+      "D": "patrols"
+    },
+    "correct_answer": "B",
+    "explanation": "主語の名詞 Security personnel（警備員）を後ろから修飾し、空欄の後ろにある目的語 the facility（施設）を伴う、適切な現在分詞を選ぶ問題です。警備員が自らパトロール「している」という能動関係になります。",
+    "options_explanations": {
+      "A": "patrol は動詞の原形であり、すでに noticed という本動詞があるため、この位置に別の述語動詞を置くことはできません。",
+      "B": "patrolling は現在分詞であり、「（施設を）巡回している（警備員）」という能動の後置修飾を正しく構成するため正解です。",
+      "C": "patrolled は過去分詞ですが、警備員が「巡回される」という不自然な受動の意味になり、また目的語 the facility が続く構造とも不一致なため不適切です。",
+      "D": "patrols は動詞の三人称単数現在形（または名詞の複数形）であり、直後に別の目的語 the facility を伴って修飾を行うことはできません。"
+    },
+    "meaning": "施設をパトロールしていたセキュリティ職員は、裏の非常口ドアの1つが開いたままになっていることに気づきました。"
+  }
+]

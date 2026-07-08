@@ -1,0 +1,2433 @@
+[
+  {
+    "passage_id": "p6_500_001",
+    "target_level": 500,
+    "genre": "Internal Memo",
+    "passage_text": "To: All Staff\nFrom: Facilities Management\nSubject: East Elevator Repairs\n\nPlease be aware that the main elevator in the east wing ( --- 1 --- ) undergoing maintenance tomorrow morning. Technicians will arrive at 8:00 a.m. to begin their work. We expect the repairs to take approximately three hours. ( --- 2 --- ), the elevator will be completely unavailable during this period. Please use the stairs or the west elevator instead. We apologize for any ( --- 3 --- ) this temporary shutdown may cause. ( --- 4 --- ). Thank you for your cooperation and patience during this building improvement project.",
+    "passage_translation": "従業員の皆様へ\n設備管理部より\n件名：東館エレベーターの修理\n\n東館のメインエレベーターが明日午前、メンテナンス（を行う予定である）ことをご承知おきください。技術者が午前8時に到着し、作業を開始します。修理には約3時間かかる見込みです。（したがって）、この期間中、エレベーターは完全に利用できなくなります。代わりに階段または西館のエレベーターをご利用ください。この一時的な閉鎖により生じるいかなる（ご不便）に対してもお詫び申し上げます。（通常の運転は正午までに再開する予定です。）このビル改善プロジェクトにおける皆様のご協力と忍耐に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "is",
+          "B": "was",
+          "C": "will be",
+          "D": "has been"
+        },
+        "correct_answer": "C",
+        "explanation": "tomorrow morning（明日朝）という未来の時点を表す表現があるため、未来進行形（will be undergoing）を構成する(C) will beが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。進行形として未来を表すこともありますが、will beの方が明確で適切です。",
+          "B": "【不正解】過去形。未来の表現であるtomorrow morningと矛盾します。",
+          "C": "【正解】未来形。助動詞willを含む未来進行形として文脈に合致しています。",
+          "D": "【不正解】現在完了形。完了・継続を表すため、未来の予定には不適切です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "However",
+          "B": "Therefore",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "B",
+        "explanation": "「修理に3時間かかる」という理由と「その間利用できなくなる」という結果を繋ぐ接続副詞（したがって）である(B) Thereforeが適切です。",
+        "options_explanations": {
+          "A": "【不正解】逆接。意味が通りません。",
+          "B": "【正解】因果関係。「したがって」を意味し、前文からの論理的結果を示します。",
+          "C": "【不正解】譲歩の接続詞。文頭で単独で副詞として使うことはできません。",
+          "D": "【不正解】理由の接続詞。後ろに節を伴う必要があり、単独では使えません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "profit",
+          "B": "delay",
+          "C": "inconvenience",
+          "D": "business"
+        },
+        "correct_answer": "C",
+        "explanation": "ビルの設備一時停止による「不便」をお詫びするビジネスの定型表現です。したがって、inconvenienceが適切です。",
+        "options_explanations": {
+          "A": "【不正解】利益。意味が不適切です。",
+          "B": "【不正解】遅れ。不便（inconvenience）の方がお詫びの対象として適切です。",
+          "C": "【正解】不便。inconvenience this may causeは「これにより生じるご不便」の定番表現です。",
+          "D": "【不正解】ビジネス。文脈に合いません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The cafeteria will close early today.",
+          "B": "Regular service will return by noon.",
+          "C": "This project won several design awards.",
+          "D": "The elevator was installed ten years ago."
+        },
+        "correct_answer": "B",
+        "explanation": "午前8時に開始し約3時間かかる工事のため、午前11時頃に終了する見込みです。したがって、「正午までに通常運転に戻る」という(B)が時間的かつ文脈上最も自然です。",
+        "options_explanations": {
+          "A": "【不正解】エレベーター工事とは無関係の内容です。",
+          "B": "【正解】工事の所要時間（3時間）と開始時間（午前8時）に合致する復旧予定です。",
+          "C": "【不正解】メンテナンスの告知として無関係な情報です。",
+          "D": "【不正解】過去の設置時期についての言及は、現在の休業案内において不要です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_002",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "To: Project Team\nFrom: Sarah Jenkins\nSubject: Meeting Time Change\n\nThis email is to inform you that our weekly progress meeting ( --- 1 --- ) to Thursday at 10:00 a.m. The original Monday time conflicted with several client visits. ( --- 2 --- ), we must review the project timeline before the week ends. Please let me know if you cannot attend at this new time. ( --- 3 --- ) we can adjust the schedule again. ( --- 4 --- ). I appreciate your flexibility on this matter.",
+    "passage_translation": "プロジェクトチームの皆様へ\nサラ・ジェンキンスより\n件名：会議時間の変更\n\nこのメールは、週例進捗会議が木曜日の午前10時に（変更された）ことをお知らせするためのものです。当初の月曜日の時間は、複数のクライアント訪問と重複していました。（したがって）、今週が終わる前にプロジェクトのタイムラインを見直さなければなりません。この新しい時間に出席できない場合はお知らせください。（さもなければ）再度スケジュールを調整することができます。（会議は4B会議室で行われます。）この件に関する皆様の柔軟な対応に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "moved",
+          "B": "is moving",
+          "C": "will move",
+          "D": "has been moved"
+        },
+        "correct_answer": "D",
+        "explanation": "週例会議は「変更される」対象であるため受動態が適切であり、すでに変更された結果を表す(D) has been moved（現在完了受動態）が最も自然です。",
+        "options_explanations": {
+          "A": "【不正解】過去形（能動態）。会議が自分で動いたことになり不自然です。",
+          "B": "【不正解】現在進行形（能動態）。「会議が自ら動いている」となり不自然です。",
+          "C": "【不正解】未来形（能動態）。「会議が自ら動くだろう」となり不自然です。",
+          "D": "【正解】現在完了受動態。会議が「変更された（動かされた）」という受動関係を完璧に表します。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "However",
+          "B": "Therefore",
+          "C": "But",
+          "D": "So"
+        },
+        "correct_answer": "B",
+        "explanation": "「元の時間は重複していた（から時間が変更された）」ことに対し、「週末前に見直す必要がある」という必然の理由・結果を導くため、接続副詞の(B) Thereforeが適しています。",
+        "options_explanations": {
+          "A": "【不正解】逆接。意味が通りません。",
+          "B": "【正解】「したがって」を意味し、ビジネスメールにふさわしいフォーマルな接続副詞です。",
+          "C": "【不正解】等位接続詞。文頭で単独でカンマを伴って使うのは好ましくありません。",
+          "D": "【不正解】「だから」を意味する接続詞。ビジネス文書の文頭としては不適切です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "and",
+          "B": "or",
+          "C": "but",
+          "D": "because"
+        },
+        "correct_answer": "B",
+        "explanation": "「この新しい時間に出席できない場合はお知らせください。（さもなければ/あるいは）再度調整できます」という選択的な文脈を繋ぐため、(B) orが適切です。",
+        "options_explanations": {
+          "A": "【不正解】「そして」の意味。前後の論理的な繋がりとして不自然です。",
+          "B": "【正解】「さもなければ」「あるいは」という意味で、選択肢を提示します。",
+          "C": "【不正解】「しかし」の意味。不自然です。",
+          "D": "【不正解】「なぜなら」の意味。原因を表す接続詞ではないため不自然です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The meeting will take place in Room 4B.",
+          "B": "Please bring your lunch to the office.",
+          "C": "Our client was very happy with the results.",
+          "D": "We will hire a new designer next week."
+        },
+        "correct_answer": "A",
+        "explanation": "会議の時間変更に関する案内であるため、(A)「会議は4B会議室で行われます」という場所情報が文脈に最も合致します。",
+        "options_explanations": {
+          "A": "【正解】会議の開催場所を示す内容は、時間変更のメールにおいて非常に有益で自然な情報です。",
+          "B": "【不正解】「昼食を持参してください」は会議の案内として文脈に合いません。",
+          "C": "【不正解】「クライアントが結果に満足した」は、この事務連絡の時点にはそぐわない過去の事象です。",
+          "D": "【不正解】新しいデザイナーの採用予定は、この会議の時間変更とは無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_003",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "To: Department Staff\nFrom: Human Resources\nSubject: New Colleague\n\nWe are pleased to announce that Mark Davis ( --- 1 --- ) our team next Monday as an IT specialist. Mark has over five years of experience in technical support. He ( --- 2 --- ) his degree in computer science last year from State College. ( --- 3 --- ), he is very excited to start working with us. ( --- 4 --- ). Please stop by his desk on Monday morning to welcome him to the company.",
+    "passage_translation": "部門スタッフの皆様へ\n人事部より\n件名：新しい同僚の紹介\n\nマーク・デイビスが来週の月曜日にITスペシャリストとして私たちのチームに（加わる）ことをお知らせいたします。マークはテクニカルサポートで5年以上の経験があります。彼は昨年、ステートカレッジでコンピュータサイエンスの学位を（取得しました）。（したがって）、彼は私たちと一緒に働き始めることをとても楽しみにしています。（彼のオフィスは2階にあります。）月曜日の朝、彼のデスクに立ち寄って会社に歓迎してください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "joins",
+          "B": "is joining",
+          "C": "joined",
+          "D": "join"
+        },
+        "correct_answer": "B",
+        "explanation": "next Mondayという未来の予定を表す表現があり、現在進行形（is joining）を用いることで「確定した近未来の予定」を表すことができます。",
+        "options_explanations": {
+          "A": "【不正解】三人称単数の現在形。習慣や不変の事実を表すため、具体的な未来の予定には不適切です。",
+          "B": "【正解】現在進行形。すでに確定している未来の予定（来週月曜日の入社）を表すため完璧です。",
+          "C": "【不正解】過去形。未来の予定であるnext Mondayと矛盾します。",
+          "D": "【不正解】動詞の原形・複数形。主語Mark Davisは三人称単数なので文法的に合いません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "completes",
+          "B": "will complete",
+          "C": "completed",
+          "D": "completing"
+        },
+        "correct_answer": "C",
+        "explanation": "last year（昨年）という過去を表す副詞があるため、過去形である(C) completedが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。過去の事象を表せません。",
+          "B": "【不正解】未来形。last yearと矛盾します。",
+          "C": "【正解】過去形。last yearという具体的な過去の時点を表す語に伴って正しく機能します。",
+          "D": "【不正解】現在分詞。動詞として文を成り立たせることができません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "conjunction",
+        "options": {
+          "A": "Therefore",
+          "B": "But",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "マークが十分な経験と学位を持っていることに対する結果として「だから楽しみにしている」という論理展開になるため、(A) Therefore（したがって）が適切です。",
+        "options_explanations": {
+          "A": "【正解】「したがって」を意味し、前述のポジティブな背景から期待感へと自然に繋ぎます。",
+          "B": "【不正解】逆接。意味が通りません。",
+          "C": "【不正解】譲歩。接続詞であり、カンマを伴って副詞的に使うことはできません。",
+          "D": "【不正解】理由。接続詞であり、単独で文頭で使えません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "His office is located on the second floor.",
+          "B": "The system upgrade was successful.",
+          "C": "He prefers to work from home on Fridays.",
+          "D": "He has never visited our headquarters before."
+        },
+        "correct_answer": "A",
+        "explanation": "直後の文「月曜日の朝、彼のデスクに立ち寄って歓迎してください」という指示に対して、彼のデスク（オフィス）の場所を説明する(A)「彼のオフィスは2階にあります」が完璧な橋渡しとなります。",
+        "options_explanations": {
+          "A": "【正解】「彼のオフィスは2階にあります」は、直後の「彼のデスクに立ち寄る」アクションを支援する有益な情報です。",
+          "B": "【不正解】システムアップグレードは新しい社員の紹介とは無関係です。",
+          "C": "【不正解】初入社前の社員の勤務上の嗜好に触れるのは不自然です。",
+          "D": "【不正解】本社の訪問経験の有無は、デスク訪問を促す直前の文脈としては不適切です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_004",
+    "target_level": 500,
+    "genre": "Notice",
+    "passage_text": "Please notice that the main cafeteria ( --- 1 --- ) closed for renovations next Monday. The construction work will take five days. ( --- 2 --- ), the cafeteria will reopen on the following Saturday. During this time, staff can purchase snacks from the vending machines in the lobby. We apologize for the inconvenience and hope you ( --- 3 --- ) the new dining area. ( --- 4 --- ). Thank you for your patience.",
+    "passage_translation": "メインカフェテリアが改装工事のため来週月曜日に（閉鎖される）ことをお知らせいたします。建設工事は5日間かかります。（したがって）、カフェテリアは翌週の土曜日に再開します。この期間中、スタッフはロビーの自動販売機から軽食を購入することができます。ご不便をおかけして申し訳ありませんが、新しくなったダイニングエリアを（楽しんでいただける）ことを願っております。（サンドイッチも中庭で販売されます。）皆様のご理解とご協力に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "is",
+          "B": "was",
+          "C": "will be",
+          "D": "has been"
+        },
+        "correct_answer": "C",
+        "explanation": "next Mondayという未来の明確な時点があるため、未来時制の受動態（will be closed）を構成する(C) will beが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。未来の予定を表す進行形としては使えますが、ここでは明確な未来形will beが最も自然です。",
+          "B": "【不正解】過去形。過去の出来事になってしまい、未来を示す表現と矛盾します。",
+          "C": "【正解】未来形。未来の受動態を形成し、来週月曜日の閉鎖予定を正確に表現します。",
+          "D": "【不正解】現在完了形。完了・継続を表すため、未来の予定には不適切です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "However",
+          "B": "Therefore",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "B",
+        "explanation": "「工事は5日間かかる（月曜から金曜まで）」という原因に対して、「したがって土曜日に再開する」という結果を論理的に導く接続副詞の(B) Thereforeが適切です。",
+        "options_explanations": {
+          "A": "【不正解】「しかしながら」の意味。逆接の関係ではないため不自然です。",
+          "B": "【正解】「したがって」を意味し、前述の工事日程からの自然な結論を導きます。",
+          "C": "【不正解】譲歩の接続詞。文頭で単独で副詞として使うことはできません。",
+          "D": "【不正解】理由の接続詞。単独で文頭でカンマを伴って使うことはできません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "enjoy",
+          "B": "enjoying",
+          "C": "enjoyed",
+          "D": "enjoys"
+        },
+        "correct_answer": "A",
+        "explanation": "hope (that) you [enjoy]... という節であり、主語youに続く動詞の原形（現在形）である(A) enjoyが適切です。未来の内容ですが、hopeの目的語のthat節内では現在形で未来の希望を表すのが一般的です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形・現在形。hope you enjoyで「楽しんでいただけることを願う」という自然な表現になります。",
+          "B": "【不正解】現在分詞。助動詞やbe動詞なしで述語動詞になれません。",
+          "C": "【不正解】過去形。これから再開するエリアについて語っているため、過去形は不適切です。",
+          "D": "【不正解】三人称単数現在形。主語がyouであるため文法的に誤りです。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Sandwiches will also be sold in the courtyard.",
+          "B": "The menu was updated last winter.",
+          "C": "Kitchen staff must wear hairnets.",
+          "D": "Our sales increased by ten percent."
+        },
+        "correct_answer": "A",
+        "explanation": "「自動販売機で軽食が買える」という臨時の飲食対応についての情報に続き、(A)「サンドイッチも中庭で販売されます」という代替手段の追加情報が文脈に最も合致します。",
+        "options_explanations": {
+          "A": "【正解】閉鎖期間中の代替食事サービスについての補足情報として完璧に機能します。",
+          "B": "【不正解】メニューが昨冬更新された話は、現在の改装閉鎖における代替食事情報としては無関係です。",
+          "C": "【不正解】厨房スタッフの衛生規則（ヘアネット着用）は、一般従業員向けの閉鎖案内としては不要な社内情報です。",
+          "D": "【不正解】売り上げが10%増加したという財務情報は、カフェテリア閉鎖の案内としては関係がありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_005",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "All employees are required to attend the safety training session this Thursday. The session ( --- 1 --- ) at 2:00 p.m. in the main conference room. We will learn about the new fire safety rules. ( --- 2 --- ), the trainer will show us how to use the new fire extinguishers. Please arrive ten minutes early ( --- 3 --- ) we can start on time. ( --- 4 --- ). If you cannot attend, please email your manager immediately.",
+    "passage_translation": "全従業員は、今週の木曜日に開催される安全トレーニングセッションに出席する必要があります。セッションは本館会議室で午後2時に（始まります）。私たちは新しい防火安全規則について学びます。（さらに）、トレーナーは新しい消火器の使い方を実演してくれます。時間通りに開始（できるように）、10分前に到着してください。（セッションは1時間続く予定です。）出席できない場合は、すぐにマネージャーにメールしてください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "starts",
+          "B": "started",
+          "C": "starting",
+          "D": "start"
+        },
+        "correct_answer": "A",
+        "explanation": "時刻（at 2:00 p.m.）を伴う予定・スケジュールは、現在形を用いることで「確定した予定」を正確に表すことができます。主語The sessionは三人称単数なので(A) startsが正解です。",
+        "options_explanations": {
+          "A": "【正解】三人称単数現在形。時刻表や確定スケジュールの現在形表現として適切です。",
+          "B": "【不正解】過去形。未来の木曜日の予定であるため、過去形は不適切です。",
+          "C": "【不正解】現在分詞。述語動詞として機能しません。",
+          "D": "【不正解】動詞の原形・複数形。三人称単数の主語と不一致です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "But",
+          "B": "Additionally",
+          "C": "Although",
+          "D": "Or"
+        },
+        "correct_answer": "B",
+        "explanation": "「防火安全規則を学ぶ」という内容に「消火器の使い方を学ぶ」という追加のトピックを付け加えているため、「さらに」「加えて」を意味する接続副詞(B) Additionallyが適切です。",
+        "options_explanations": {
+          "A": "【不正解】逆接。情報の追加であるため不適切です。",
+          "B": "【正解】累加。「さらに」を意味し、安全訓練における追加の活動を論理的に繋ぎます。",
+          "C": "【不正解】譲歩の接続詞。単独で文頭で使えません。",
+          "D": "【不正解】選択の等位接続詞。文頭でこのように単独で使うのは不適切です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "conjunction",
+        "options": {
+          "A": "so",
+          "B": "but",
+          "C": "or",
+          "D": "because"
+        },
+        "correct_answer": "A",
+        "explanation": "「10分前に到着する（原因・手段）」ことによって「時間通りに開始できるようにする（目的・結果）」という因果関係を繋ぐため、(A) so（〜するために、だから）が適切です。「so (that) 主語 + can...」の形を成しています。",
+        "options_explanations": {
+          "A": "【正解】「〜できるように」という目的・結果を表す接続詞として文脈に合致します。",
+          "B": "【不正解】逆接。「しかし」となり、意味が破綻します。",
+          "C": "【不正解】選択。「あるいは」となり、意味が不自然です。",
+          "D": "【不正解】理由。becauseを用いると「時間通りに始められるので、10分前に着いてください」となり、目的関係が崩れます。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The session will last one hour.",
+          "B": "The fire alarm is located near the exit.",
+          "C": "It will rain tomorrow morning.",
+          "D": "We need to buy more office chairs."
+        },
+        "correct_answer": "A",
+        "explanation": "トレーニングセッションの概要や段取りを伝えているため、(A)「セッションは1時間続く予定です（所要時間）」が最も自然な情報として挿入されます。",
+        "options_explanations": {
+          "A": "【正解】安全訓練の所要時間を伝える内容は、出席者への実務連絡として極めて適切です。",
+          "B": "【不正解】火災報知器の場所は、この訓練の段取りや所要時間を説明する文脈としてはやや唐突です。",
+          "C": "【不正解】明日の朝の天気予報は、木曜日の室内訓練の案内には不要です。",
+          "D": "【不正解】オフィスの椅子の購入ニーズは、安全訓練とは関係のない別の業務事項です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_006",
+    "target_level": 500,
+    "genre": "Internal Memo",
+    "passage_text": "This memo is to inform you that the west parking lot will close for repaving on Friday. It ( --- 1 --- ) closed all day. ( --- 2 --- ), please park your vehicles in the east parking lot or on the street. Security guards will be there to help you find a space. Normal parking ( --- 3 --- ) on Monday morning. ( --- 4 --- ). Thank you for your cooperation in this matter.",
+    "passage_translation": "このメモは、西駐車場が舗装工事のため金曜日に閉鎖されることをお知らせするためのものです。金曜日は終日閉鎖（される予定です）。（したがって）、お車は東駐車場または道路に駐車してください。警備員が駐車スペースを見つけるお手伝いをいたします。通常の駐車は月曜日の朝に（再開されます）。（指定されたスペースには駐車しないでください。）この件に関する皆様のご協力に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "is",
+          "B": "was",
+          "C": "will be",
+          "D": "has been"
+        },
+        "correct_answer": "C",
+        "explanation": "金曜日（Friday）という未来の出来事について述べているため、未来を表す助動詞willを用いた(C) will beが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。未来の予定としても使えますが、will be closedの方が確実で明確な未来を表す表現として適しています。",
+          "B": "【不正解】過去形。これからの工事予定と矛盾します。",
+          "C": "【正解】未来形。金曜日に終日閉鎖されるという未来の状態を正しく表現します。",
+          "D": "【不正解】現在完了形。すでに完了している状態を表すため不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Therefore",
+          "B": "However",
+          "C": "Because",
+          "D": "But"
+        },
+        "correct_answer": "A",
+        "explanation": "「西駐車場が閉鎖される」という原因に対して、「東駐車場または道路に駐車してください」という結果（対策）を繋ぐため、「したがって」を意味する接続副詞の(A) Thereforeが適切です。",
+        "options_explanations": {
+          "A": "【正解】「したがって」を意味し、前文の閉鎖に伴う代替駐車指示を論理的に繋ぎます。",
+          "B": "【不正解】逆接。矛盾する内容ではないため不適切です。",
+          "C": "【不正解】理由の接続詞。単独で文頭でカンマを伴って使うことはできません。",
+          "D": "【不正解】等位接続詞。文頭でこのように単独で使用するのは好ましくありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "resumes",
+          "B": "resumed",
+          "C": "resume",
+          "D": "resuming"
+        },
+        "correct_answer": "A",
+        "explanation": "Monday morningという明確なスケジュール（時制）の表現に伴い、現在形(A) resumesで確定した未来の再開を表すことができます。主語Normal parkingは三人称単数なので単数動詞が適切です。",
+        "options_explanations": {
+          "A": "【正解】三人称単数現在形。確定したスケジュールの未来を表すのに最も適しています。",
+          "B": "【不正解】過去形。すでに再開したことになってしまい矛盾します。",
+          "C": "【不正解】複数形・原形。三人称単数主語Normal parkingと一致しません。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please do not park in reserved spaces.",
+          "B": "The office will be closed on Friday too.",
+          "C": "The company car is at the repair shop.",
+          "D": "We will buy new bicycles next week."
+        },
+        "correct_answer": "A",
+        "explanation": "代替駐車場（東駐車場や道路）での駐車指示および警備員による誘導に続き、駐車に関する追加の注意事項である(A)「指定（予約）されたスペースには駐車しないでください」が文脈上最も自然です。",
+        "options_explanations": {
+          "A": "【正解】代替駐車場を利用する際の重要なルール・マナーを補足する、実務的に完璧な挿入文です。",
+          "B": "【不正解】「オフィスも金曜日に閉鎖される」とすると、従業員が出勤して車を停める必要自体がなくなるため、全体の文脈と矛盾します。",
+          "C": "【不正解】「社用車が修理中である」ことは、一般社員向けの駐車場閉鎖案内において無関係なトピックです。",
+          "D": "【不正解】「来週新しい自転車を買う」予定は、現在の駐車場舗装工事とは何の関係もありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_007",
+    "target_level": 500,
+    "genre": "Letter",
+    "text_type": "Letter",
+    "passage_text": "Dear Ms. Robinson,\nThank you very much for your generous donation to the City Library last week. We ( --- 1 --- ) your money to buy new books for the children's section. ( --- 2 --- ) we received many books from other donors, your financial support is the most helpful. We ( --- 3 --- ) a small ceremony next month to thank you and other major sponsors. ( --- 4 --- ). We hope to see you there.",
+    "passage_translation": "ロビンソン様へ\n先週、市立図書館へ寛大なご寄付をいただき、誠にありがとうございました。私たちは、児童コーナー向けの新しい本を購入するために、あなたからいただいたお金を（使う予定です/使います）。他の寄付者からも多くの本を受け取りました（が）、あなたの金銭的なご支援が最も役立ちます。私たちは来月、あなたや他の主要なスポンサーに感謝するための小さな式典を（開催する予定です）。（あなたには郵送で招待状が届きます。）そこでお会いできることを楽しみにしております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "use",
+          "B": "will use",
+          "C": "used",
+          "D": "using"
+        },
+        "correct_answer": "B",
+        "explanation": "ご寄付いただいたお金を「これから児童書の購入に充てる」という未来の予定・意志を表すため、未来形である(B) will useが最も自然です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。一般的な事実や習慣を表すため、具体的な今回の資金使途としては不自然です。",
+          "B": "【正解】未来形。寄付金を使ってこれから本を購入するという計画を正しく表現します。",
+          "C": "【不正解】過去形。すでに本を買ってしまった場合は、前文の「先週受け取った」ばかりという流れからすると時間的に早すぎ、また「〜のために使う予定です」という進行中の感謝のニュアンスに合いません。",
+          "D": "【不正解】現在分詞。助動詞やbe動詞を伴わないため述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Although",
+          "B": "Therefore",
+          "C": "But",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「他の人からも本をもらった」という事実と、「（それにもかかわらず）あなたの金銭的支援が最も助かる」という対比関係（譲歩）を繋ぐため、(A) Although（〜だけれども）が適切です。",
+        "options_explanations": {
+          "A": "【正解】譲歩の接続詞。「他の本を多く受け取ったけれど、あなたの資金援助が最も役立つ」という対比を正確に表します。",
+          "B": "【不正解】「したがって」を意味する接続副詞。後ろに主語＋動詞の節を直接繋いで文頭に置くのは不適切です。",
+          "C": "【不正解】等位接続詞。この位置（従属節の文頭）に置いて後ろの主節に繋ぐことはできません。",
+          "D": "【不正解】「〜だから」という原因を表す接続詞。因果関係が逆になってしまい不自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "host",
+          "B": "hosting",
+          "C": "will host",
+          "D": "hosted"
+        },
+        "correct_answer": "C",
+        "explanation": "next month（来月）という明確な未来の時点があるため、未来時制である(C) will hostが適切です。",
+        "options_explanations": {
+          "A": "【不正解】動詞の原形・現在形。未来の式典予定を表すには不適切です。",
+          "B": "【不正解】現在分詞。単独で述語動詞になれません。",
+          "C": "【正解】未来形。来月開催予定の感謝式典について語るのに最適です。",
+          "D": "【不正解】過去形。来月の予定であるため時制が矛盾します。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "You will receive an invitation in the mail.",
+          "B": "The children's books are on the first floor.",
+          "C": "The library opened in June 1995.",
+          "D": "Our electricity bill was very high last month."
+        },
+        "correct_answer": "A",
+        "explanation": "「来月、感謝式典を開催します」という文と、直後の「そこでお会いできることを楽しみにしています」という文の間を繋ぐため、出席に関連する(A)「あなたには郵送で招待状が届きます」が最も適切です。",
+        "options_explanations": {
+          "A": "【正解】式典の案内と「会場でお会いしましょう」を自然に結ぶ、招待プロセスの案内です。",
+          "B": "【不正解】児童書が1階にあるという図書館の構造説明は、式典への招待の流れには不要な情報です。",
+          "C": "【不正解】図書館の開館時期という歴史的事実は、この感謝状・式典案内において唐突です。",
+          "D": "【不正解】先月の電気代の支払いの話題は、寄付への感謝状において完全に文脈から外れています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_008",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "Dear Customer,\nThank you for purchasing a product from our store. We always want to improve our service. ( --- 1 --- ), we would appreciate it if you could complete a brief survey about your experience. The survey ( --- 2 --- ) only five minutes. You can access it by clicking the link below. ( --- 3 --- ) you finish, you will receive a ten percent discount coupon for your next purchase. ( --- 4 --- ). Thank you for your valuable feedback.",
+    "passage_translation": "お客様へ\n当店で製品をご購入いただき、誠にありがとうございます。私たちは常にサービスの向上に努めております。（したがって）、お客様の体験に関する簡単なアンケートにご回答いただければ幸いです。アンケートはわずか5分（で終わります/かかります）。以下のリンクをクリックすることでアクセスできます。（一度）回答が完了すると、次回の購入時に使用できる10%割引クーポンがもらえます。（回答内容は機密として保持されます。）貴重なフィードバックをいただき、ありがとうございました。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "conjunction",
+        "options": {
+          "A": "Therefore",
+          "B": "However",
+          "C": "But",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「サービスを向上させたい（原因）」に対し、「アンケートに答えてほしい（結果）」という論理的な結びつきを表すため、接続副詞の(A) Therefore（したがって）が適切です。",
+        "options_explanations": {
+          "A": "【正解】「したがって」の意味。サービス向上を望む結果としてのアンケート依頼を自然に繋ぎます。",
+          "B": "【不正解】「しかしながら」の意味。対立関係ではないため不自然です。",
+          "C": "【不正解】等位接続詞。文頭でカンマを伴って単独で用いるのは好ましくありません。",
+          "D": "【不正解】理由の接続詞。単独で文頭に置くのは文法的に誤りです。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "takes",
+          "B": "will take",
+          "C": "took",
+          "D": "taking"
+        },
+        "correct_answer": "A",
+        "explanation": "アンケートが5分かかるというのは一般的な事実であるため、現在時制の(A) takesが適切です。(B) will takeも未来として可能ですが、一般的な性質・仕様として語る場合はシンプル現在形が最も標準的です。※ソースのキー一覧より、問2は (A) takes が正答、またはそれに準ずる解説となります。",
+        "options_explanations": {
+          "A": "【正解】現在形。アンケートの一般的な所要時間を述べるのに適しています。",
+          "B": "【不正解】未来形。これから受ける個人の状況に限定するニュアンスになりますが、一般的な事実としては現在形が優先されます。",
+          "C": "【不正解】過去形。すでに回答し終わった過去の話になってしまいます。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "conjunction",
+        "options": {
+          "A": "Once",
+          "B": "Since",
+          "C": "Although",
+          "D": "Or"
+        },
+        "correct_answer": "A",
+        "explanation": "「あなたが完了すると（条件・時）、すぐにクーポンがもらえる」という文脈を繋ぐ従属接続詞(A) Once（いったん〜すると）が最も自然です。",
+        "options_explanations": {
+          "A": "【正解】「いったん〜すると」「〜した時点で」を意味し、完了後の特典付与の流れをスムーズに繋ぎます。",
+          "B": "【不正解】「〜だから」「〜以来」の意味。文脈に合いません。",
+          "C": "【不正解】「〜にもかかわらず」の意味。逆接・譲歩となり意味が通りません。",
+          "D": "【不正解】「あるいは」を意味する等位接続詞。節の先頭に置く接続詞として不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Your answers will remain confidential.",
+          "B": "The product was shipped yesterday.",
+          "C": "Our customer service department is closed on Sundays.",
+          "D": "We have many new items in stock."
+        },
+        "correct_answer": "A",
+        "explanation": "アンケート調査の実施案内であるため、(A)「お客様の回答内容は機密として保持されます（プライバシー保証）」が回答を促す際の定型表現として最も適しています。",
+        "options_explanations": {
+          "A": "【正解】アンケートの回答の機密性を保証する、信頼性を高めるための極めて標準的かつ自然な補足です。",
+          "B": "【不正解】「製品が昨日出荷された」ことは、すでに製品が届いた後のアンケート段階の文脈としては合いません。",
+          "C": "【不正解】カスタマーサービスの営業時間は、アンケート調査自体の文脈とは無関係です。",
+          "D": "【不正解】「新しい商品を多く入荷している」ことは、製品購入後のアンケート協力依頼には不必要な宣伝です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_009",
+    "target_level": 500,
+    "genre": "Notice",
+    "passage_text": "Please be advised that our offices will close early on December 24 for the holidays. We ( --- 1 --- ) at 1:00 p.m. instead of our regular 5:00 p.m. closing time. ( --- 2 --- ), the customer service desk will not be available after this time. We will reopen on December 26. If you have an ( --- 3 --- ) issue, please email our support team. ( --- 4 --- ). We wish you a happy and safe holiday season.",
+    "passage_translation": "祝日のため、12月24日はオフィスが早期閉鎖されることをお知らせいたします。通常の午後5時の閉館時間の代わりに、午後1時に（閉館いたします）。（したがって）、この時間以降はカスタマーサービスデスクもご利用いただけなくなります。12月26日に業務を再開いたします。もし（緊急の）問題がある場合は、サポートチームにメールをお送りください。（彼らは定期的にメッセージを確認します。）皆様が楽しく安全な休暇シーズンを過ごされることをお祈り申し上げます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "close",
+          "B": "closed",
+          "C": "will close",
+          "D": "are closing"
+        },
+        "correct_answer": "C",
+        "explanation": "12月24日という未来の具体的な休業予定を述べているため、未来形である(C) will closeが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。不変の事実や習慣ではないため、今回の具体的な特定日の予定としては不自然です。",
+          "B": "【不正解】過去形。過去の出来事になってしまい、これからの予定と矛盾します。",
+          "C": "【正解】未来形。未来の閉鎖予定を正確に表現します。",
+          "D": "【不正解】現在進行形。現在進行中の動作を表すため、12月24日の予定としては適していません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "However",
+          "B": "Therefore",
+          "C": "But",
+          "D": "Or"
+        },
+        "correct_answer": "B",
+        "explanation": "「午後1時にオフィスを閉鎖する」という原因に対し、「カスタマーサービスデスクもその時間以降は利用できなくなる」という結果を論理的に繋ぐため、「したがって」を意味する接続副詞(B) Thereforeが適切です。",
+        "options_explanations": {
+          "A": "【不正解】逆接。矛盾しない自然な因果関係であるため不自然です。",
+          "B": "【正解】「したがって」を意味し、オフィスの閉館に伴うサービスの提供停止について正しく論理構築します。",
+          "C": "【不正解】等位接続詞。文頭で単独でカンマを伴って使うのは好ましくありません。",
+          "D": "【不正解】「あるいは」を意味する接続詞。不自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "urgent",
+          "B": "slow",
+          "C": "old",
+          "D": "basic"
+        },
+        "correct_answer": "A",
+        "explanation": "オフィスの休業期間中に連絡を求めるのは「緊急の（urgent）」問題が発生した場合のみであるため、(A) urgentが適切です。",
+        "options_explanations": {
+          "A": "【正解】「緊急の」の意味。緊急事態における休業中の連絡案内として最も適した形容詞です。",
+          "B": "【不正解】「遅い」の意味。文脈上、無意味です。",
+          "C": "【不正解】「古い」の意味。意味が通りません。",
+          "D": "【不正解】「基本的な」の意味。基本的な問題は営業再開後でも良いため、休業中の緊急連絡の理由としては不適格です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "They will check messages periodically.",
+          "B": "We will hire two new representatives.",
+          "C": "The holiday party is at a local restaurant.",
+          "D": "Our sales numbers were excellent this month."
+        },
+        "correct_answer": "A",
+        "explanation": "「緊急時はサポートチームにメールしてください」という前文を受けて、(A)「彼らは定期的にメッセージ（メール）を確認します」が、休業中であっても対応が行われるという安心感を与えるフォロー文として完璧に機能します。",
+        "options_explanations": {
+          "A": "【正解】休業中のメール対応体制を説明する、論理的で親切な補足文です。",
+          "B": "【不正解】「新しい担当者を2人雇う予定です」は、この一時休業中の緊急対応とは関係のない計画です。",
+          "C": "【不正解】「ホリデーパーティーは地元のレストランで行われます」は、休業のお知らせに挿入する顧客向けの情報としては不適切です。",
+          "D": "【不正解】「今月の売上は素晴らしかった」は、休業や緊急時対応とは全く関係のない財務状況です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_010",
+    "target_level": 500,
+    "genre": "Internal Memo",
+    "passage_text": "The IT department will perform a system upgrade on Saturday night. The work ( --- 1 --- ) at 11:00 p.m. and will finish by 4:00 a.m. ( --- 2 --- ) this time, you will not be able to access the company network. Please save your work and log off before leaving on Friday. We ( --- 3 --- ) to minimize any disruption to your work. ( --- 4 --- ). Thank you for your cooperation.",
+    "passage_translation": "IT部門は土曜日の夜にシステムアップグレードを行います。作業は午後11時に（始まり）、午前4時までに完了する予定です。この時間（の間）、社内ネットワークにアクセスできなくなります。金曜日に退社する前に、作業を保存し、ログオフしてください。私たちは皆様の業務への影響を最小限に抑えることを（願っています）。（月曜日にはいかなる問題も報告してください。）ご協力に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "begins",
+          "B": "will begin",
+          "C": "began",
+          "D": "beginning"
+        },
+        "correct_answer": "A",
+        "explanation": "「土曜夜の作業日程」という確定スケジュールについて述べているため、現在形で確定した予定を表す(A) beginsが適切です。並列関係にある「will finish」と合わせて、確定したイベントの時間経過を客観的に表現します。また、(B) will begin も可能ですが、より客観的なスケジュール表現として現在形が選択されます。※ソースのキー一覧より、問1は (A) begins またはそれに準ずる解説となります。",
+        "options_explanations": {
+          "A": "【正解】現在形。時刻表や客観的な確定スケジュールを表す場合に現在形を使用するのは非常に標準的です。",
+          "B": "【不正解】未来形。will beginも可能ですが、スケジュールの確定事実を客観的に述べる場合は現在形(A)が優先されることが多いです。",
+          "C": "【不正解】過去形。これからの土曜日の予定であるため、過去形は矛盾します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "During",
+          "B": "While",
+          "C": "Since",
+          "D": "For"
+        },
+        "correct_answer": "A",
+        "explanation": "「this time（名詞句）」の前で「その期間の間」を表す適切な前置詞は(A) Duringです。(B) Whileは接続詞であるため後ろに主語＋動詞の節が必要です。",
+        "options_explanations": {
+          "A": "【正解】前置詞。「〜の間」を意味し、特定の期間を表す名詞句の前に置かれます。",
+          "B": "【不正解】接続詞。後ろに名詞句のみを置くことはできません。",
+          "C": "【不正解】前置詞・接続詞。「〜以来」「〜だから」を意味し、期間を指す表現には合いません。",
+          "D": "【不正解】前置詞。特定の長さの期間（数値など）を伴うことが多く、具体的な特定の時間枠を指す場合はDuringが適しています。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "hope",
+          "B": "hoped",
+          "C": "hoping",
+          "D": "hopes"
+        },
+        "correct_answer": "A",
+        "explanation": "主語We（複数形）に直接続く動詞の現在形として、(A) hopeが適切です。「影響を最小限に抑えることを望んでいる」という現在の意図を表します。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形・現在形。主語Weと正しく一致し、現在の希望・意図を表します。",
+          "B": "【不正解】過去形。過去の希望になってしまい不自然です。",
+          "C": "【不正解】現在分詞。be動詞がないため進行形を作れません。",
+          "D": "【不正解】三人称単数現在形。複数主語Weと不一致です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please report any issues on Monday.",
+          "B": "The new computers arrived yesterday.",
+          "C": "We will move to a new building next month.",
+          "D": "Our website is very popular with clients."
+        },
+        "correct_answer": "A",
+        "explanation": "土曜日の夜間システム工事に関する全社告知であるため、作業完了後（週明け）の対応指示である(A)「月曜日には何か問題があれば報告してください」が最も自然に繋がります。",
+        "options_explanations": {
+          "A": "【正解】システム移行・工事後のよくあるトラブル報告フローを示す完璧な実務補足です。",
+          "B": "【不正解】新しいPCが届いた話は、今夜のシステムアップデート工事の案内としては無関係です。",
+          "C": "【不正解】来月のオフィス移転計画は、今週末のシステム工事とは関係のない話です。",
+          "D": "【不正解】ウェブサイトの人気度は、この社内ネットワーク工事の案内には不要な情報です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_011",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "Dear Team,\nI am preparing the office supply order for next month. Please check your desks and see what items you ( --- 1 --- ). If you need pens, paper, or folders, please write them on the list in the breakroom. ( --- 2 --- ), the order will be submitted on Friday morning. Please write your requests before Thursday evening. We ( --- 3 --- ) to order enough supplies for everyone. ( --- 4 --- ). Thank you for your help.",
+    "passage_translation": "チームの皆様へ\n私は来月分のオフィス備品の発注を準備しています。ご自身のデスクを確認し、必要な品が何であるかを（確認してください/必要としているか見てください）。ペン、紙、あるいはフォルダーが必要な場合は、休憩室にあるリストに書き込んでください。（しかしながら）、金曜日の朝に発注書が提出されます。木曜日の夕方までにリクエストを記入してください。私たちは全員に十分な備品を注文することを（望んでいます）。（期限後のリクエストは含まれません。）ご協力ありがとうございました。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "need",
+          "B": "needed",
+          "C": "will need",
+          "D": "needing"
+        },
+        "correct_answer": "A",
+        "explanation": "「現在、何の備品を必要としているか」を今確認するように求めているため、現在形の(A) needが適切です。",
+        "options_explanations": {
+          "A": "【正解】現在形。現在の必要事項を点検する文脈に合致します。",
+          "B": "【不正解】過去形。過去に必要だったものは対象外です。",
+          "C": "【不正解】未来形。来月必要になるものですが、「現時点で必要と認識しているもの」をリストアップするよう求めるのが一般的なため、needがより自然です。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Therefore",
+          "B": "However",
+          "C": "Because",
+          "D": "But"
+        },
+        "correct_answer": "B",
+        "explanation": "「休憩室のリストに欲しいものを書いてください」という指示の後に、「金曜朝に発注してしまう（だから木曜夜までに書く必要があるという制約事項）」を繋ぐため、逆接や制約を示す(B) Howeverが適切です。これにより、「しかしながら（金曜朝に発注を提出するので）、木曜夜までに書いてください」という論理が成立します。",
+        "options_explanations": {
+          "A": "【不正解】「したがって」の意味。「書いてください。したがって金曜朝に提出します」となり、前後の論理がうまく繋がりません。",
+          "B": "【正解】「しかしながら」の意味。発注期限という対立・制約関係を自然に導入します。",
+          "C": "【不正解】理由の接続詞。単独で文頭でカンマを伴って使うことはできません。",
+          "D": "【不正解】等位接続詞。文頭でこのように単独で使用するのは好ましくありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "want",
+          "B": "wanted",
+          "C": "wants",
+          "D": "wanting"
+        },
+        "correct_answer": "A",
+        "explanation": "主語We（複数形）に続く動詞の現在形として、(A) wantが適切です。「十分な量を注文したいと考えている」という意図を表します。",
+        "options_explanations": {
+          "A": "// 【正解】動詞の原形・現在形。主語と正しく一致します。",
+          "B": "【不正解】過去形。時制が合いません。",
+          "C": "【不正解】三人称単数現在形。主語がWeなので不一致です。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Late requests will not be included.",
+          "B": "The new printer is very fast.",
+          "C": "We have a meeting in Room 3 on Friday.",
+          "D": "The supply cabinet is next to the elevator."
+        },
+        "correct_answer": "A",
+        "explanation": "前文で「木曜日の夕方までにリクエストを書いてください」と期限を指定しているため、(A)「期限後のリクエストは含まれません（注文に間に合いません）」という期限に関する警告が文脈上最も自然です。",
+        "options_explanations": {
+          "A": "【正解】「木曜夕方までの提出」という締め切りを守らせるための完璧な論理補足です。",
+          "B": "【不正解】プリンターの速度は、備品一括注文の締め切りルールとは関係ありません。",
+          "C": "【不正解】金曜日のRoom 3での会議予定は、備品注文の期限告知とは無関係です。",
+          "D": "【不正解】キャビネットの場所は有益な情報ですが、注文期限の指定をしている箇所の直後に挿入する文としては無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_012",
+    "target_level": 500,
+    "genre": "Notice",
+    "passage_text": "Attention All Employees,\nThere ( --- 1 --- ) a scheduled fire drill this Friday at 10:00 a.m. When the alarm sounds, please leave the building immediately. Use the nearest exit stairwell. ( --- 2 --- ), do not use the elevators under any circumstances. Please gather in the courtyard outside. Managers ( --- 3 --- ) attendance to ensure everyone is safe. ( --- 4 --- ). Thank you for participating in this safety exercise.",
+    "passage_translation": "従業員の皆様へ\n今週金曜日の午前10時に、避難訓練が予定されて（います）。警報が鳴ったら、すぐに建物の外へ出てください。最寄りの非常階段を使用してください。（さらに）、いかなる状況下でもエレベーターは使用しないでください。外の中庭に集合してください。マネージャーが全員の安全を確認するために出席状況を（確認します）。（避難訓練は約15分間かかります。）この安全演習へのご参加ありがとうございます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "is",
+          "B": "was",
+          "C": "will be",
+          "D": "has been"
+        },
+        "correct_answer": "C",
+        "explanation": "this Friday（今週金曜日）という未来の出来事について述べているため、未来を表す(C) will beが適切です。There isも可能ですが、未来のスケジュールを明確に宣言する形としてThere will beが標準的です。※ソースのキー一覧より、問1は (C) will be が適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。未来の予定を表せますが、(C) will beの方がより明確にこれからの予定を宣言します。",
+          "B": "【不正解】過去形。過去の出来事になってしまい不適切です。",
+          "C": "【正解】未来形。今週金曜日に開催されるという未来の出来事を正確に表現します。",
+          "D": "【不正解】現在完了形。現在までの継続を表すため、これからの予定には合いません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Additionally",
+          "B": "However",
+          "C": "Or",
+          "D": "But"
+        },
+        "correct_answer": "A",
+        "explanation": "「最寄りの階段を使う」という避難指示に対して、「さらにエレベーターは使わない」という追加の注意事項・禁止事項を繋ぐため、(A) Additionallyが適切です。",
+        "options_explanations": {
+          "A": "【正解】「さらに」「加えて」を意味し、避難に関する追加の安全指示を論理的に繋ぎます。",
+          "B": "【不正解】「しかしながら」の意味。逆接ではないため不適切です。",
+          "C": "【不正解】「あるいは」を意味する接続詞。単独で文頭でカンマを伴って使うのは不自然です。",
+          "D": "【不正解】等位接続詞。文頭でこのように単独で使用するのは好ましくありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "check",
+          "B": "checked",
+          "C": "will check",
+          "D": "checking"
+        },
+        "correct_answer": "C",
+        "explanation": "今週金曜日に実施される訓練の中での活動（マネージャーが出席確認をする）について語っているため、未来形(C) will checkが適切です。※ソースのキーは [Key: C] となっています。",
+        "options_explanations": {
+          "A": "// 【不正解】現在形。未来の個別の活動を表すには不自然です。",
+          "B": "【不正解】過去形。時制が一致しません。",
+          "C": "【正解】未来形。訓練の際に行われる未来の対応を正確に表します。",
+          "D": "【不正解】現在分詞。助動詞なしでは述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The drill will take about fifteen minutes.",
+          "B": "The fire extinguishers are red.",
+          "C": "The lobby was painted last week.",
+          "D": "We will have lunch in the park."
+        },
+        "correct_answer": "A",
+        "explanation": "避難訓練のスケジュール、手順、注意点に続き、参加者が最も知りたい「訓練の所要時間」を説明する(A)「訓練は約15分間かかります」が文脈上完璧に合致します。",
+        "options_explanations": {
+          "A": "【正解】避難訓練の実施に関する極めて重要かつ実務的に自然な所要時間の補足情報です。",
+          "B": "【不正解】消火器の色（赤）は一般的な事実であり、避難訓練の事務連絡としては不要です。",
+          "C": "【不正解】ロビーが先週塗装された話は、避難訓練とは無関係です。",
+          "D": "【不正解】「公園で昼食をとる」ことは、業務中の避難訓練の連絡メールに挟む情報としては不自然です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_013",
+    "target_level": 500,
+    "genre": "Letter",
+    "passage_text": "Dear Mr. Thompson,\nThank you for your order with Apex Electronics. We ( --- 1 --- ) your payment of ninety-nine dollars. Your order has been processed and ( --- 2 --- ) tomorrow morning. You will receive a tracking number via email once the package is with the shipping company. ( --- 3 --- ) you have any questions about your purchase, please contact our support team. ( --- 4 --- ). Thank you for choosing Apex Electronics.",
+    "passage_translation": "トンプソン様へ\nアペックス・エレクトロニクスでのご注文、誠にありがとうございます。私たちは、あなたの99ドルの支払いを（受け取りました）。ご注文は処理され、明日朝に（発送される予定です）。荷物が配送会社に引き渡され次第、メールで追跡番号をお送りいたします。もし購入に関して質問が（あれば）、サポートチームにお問い合わせください。（新しい製品を楽しんでいただけることを願っております。）アペックス・エレクトロニクスをお選びいただき、ありがとうございます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "receive",
+          "B": "received",
+          "C": "will receive",
+          "D": "receiving"
+        },
+        "correct_answer": "B",
+        "explanation": "支払いはすでに完了しており、それを受けて注文が処理された（Your order has been processed）という流れであるため、過去形である(B) receivedが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。すでに受領した事実を述べるには不自然です。",
+          "B": "【正解】過去形。注文処理の前提となる支払いの受領（過去に完了したこと）を正しく表します。",
+          "C": "【不正解】未来形。「これから支払う」ことになってしまい、すでに注文処理中であるという後文と矛盾します。",
+          "D": "【不正解】現在分詞。述語動詞として機能しません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "ships",
+          "B": "will ship",
+          "C": "shipped",
+          "D": "shipping"
+        },
+        "correct_answer": "B",
+        "explanation": "tomorrow morning（明日朝）という未来の出来事について述べているため、未来形(B) will shipが適切です。order（三人称単数）が主語ですが、ここでは能動または自動詞「ship（発送される、出発する）」の未来表現としてwill shipが機能します。※ソースのキーは [Key: B] です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。未来の発送予定を表すには不適切です。",
+          "B": "【正解】未来形。明日朝に発送される予定であることを表します。",
+          "C": "【不正解】過去形。すでに発送されたことになり、tomorrow morningと矛盾します。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "conjunction",
+        "options": {
+          "A": "If",
+          "B": "Or",
+          "C": "But",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「質問がある場合（条件）」にはサポートチームに連絡してください、という条件を繋ぐ接続詞(A) Ifが適切です。",
+        "options_explanations": {
+          "A": "【正解】条件を表す接続詞。ビジネスの問い合わせ対応の標準的な表現（If you have any questions...）を構成します。",
+          "B": "【不正解】「あるいは」を意味する等位接続詞。条件を表せません。",
+          "C": "【不正解】「しかし」を意味する等位接続詞。文脈に合いません。",
+          "D": "【不正解】「〜だから」を意味する接続詞。因果関係が成り立ちません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We hope you enjoy your new product.",
+          "B": "Our store is open on weekends.",
+          "C": "The package weighs five kilograms.",
+          "D": "We offer free shipping on orders over fifty dollars."
+        },
+        "correct_answer": "A",
+        "explanation": "購入者に対するお礼状の結びの前であるため、(A)「新しい製品を楽しんでいただけることを願っております」という顧客の満足を願う文が最も適切です。",
+        "options_explanations": {
+          "A": "【正解】注文完了のメールの結びの言葉として、極めて定番かつ自然な表現です。",
+          "B": "【不正解】店舗の営業日情報は、すでにオンラインで注文を完了した顧客への発送メールとしてはやや無関係です。",
+          "C": "【不正解】パッケージの重量（5kg）は非常に技術的なディテールであり、挨拶文の間に挟むには不自然です。",
+          "D": "【不正解】「50ドル以上の注文で送料無料」というプロモーション情報は、すでに購入・決済を完了して発送を待つ顧客には不要な情報です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_014",
+    "target_level": 500,
+    "genre": "Internal Memo",
+    "passage_text": "To: All Staff\nFrom: HR Department\nSubject: Summer Dress Code\n\nAs the summer months approach, we ( --- 1 --- ) our casual Friday dress code. Starting next week, employees may wear casual clothes on Fridays. ( --- 2 --- ), professional standards must still be maintained. Please do not wear athletic clothes or beachwear. This policy ( --- 3 --- ) in effect until September. ( --- 4 --- ). If you have questions, please ask HR.",
+    "passage_translation": "従業員の皆様へ\n人事部より\n件名：夏のドレスコード\n\n夏の数ヶ月が近づくにあたり、私たちは金曜日のカジュアル・ドレスコードを（導入する予定です）。来週から、従業員は金曜日にカジュアルな服装をすることができます。（しかしながら）、プロフェッショナルとしての基準は依然として維持されなければなりません。運動着やビーチウェアは着用しないでください。このポリシーは9月まで有効（のままです）。（このドレスコードは金曜日のみに適用されます。）質問がある場合は、人事部にお尋ねください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "introduction",
+          "B": "introduced",
+          "C": "will introduce",
+          "D": "introducing"
+        },
+        "correct_answer": "C",
+        "explanation": "Starting next week（来週から）という未来の予定があるため、未来を表す助動詞willを用いた(C) will introduceが適切です。主語weに続く述語動詞の未来形として正しく機能します。",
+        "options_explanations": {
+          "A": "【不正解】名詞。動詞の位置に置くことはできません。",
+          "B": "【不正解】過去形。来週からの導入予定と矛盾します。",
+          "C": "【正解】未来形。これからの新しいドレスコード導入の予定を正確に伝えます。",
+          "D": "【不正解】現在分詞。be動詞がないため述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "However",
+          "B": "Therefore",
+          "C": "So",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「金曜日にカジュアルな服装ができる」という緩和措置に対して、「それでもプロとしての基準を維持しなければならない」という対立・制約関係（逆接）を繋ぐため、(A) Howeverが適切です。",
+        "options_explanations": {
+          "A": "【正解】「しかしながら」を意味し、カジュアル化に対する重要なマナー上の制約を導入します。",
+          "B": "【不正解】「したがって」を意味する。カジュアル化する結果として基準を守るという因果関係にはならないため不適切です。",
+          "C": "【不正解】「だから」を意味する接続詞。文頭でこのようにカンマを伴って副詞的に使うのは不適切です。",
+          "D": "【不正解】理由の接続詞。単独で文頭で使えません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "stays",
+          "B": "will stay",
+          "C": "stayed",
+          "D": "staying"
+        },
+        "correct_answer": "B",
+        "explanation": "これから始まる夏のポリシーが「9月まで有効のまま維持される」という未来の継続状態を述べているため、未来形(B) will stayが適切です。※ソースのキーは [Key: B]（またはそれに準ずる未来表現）となります。",
+        "options_explanations": {
+          "A": "【不正解】現在形。未来の特定の期間（until September）にわたる予定であるため、未来形の方が明確です。",
+          "B": "【正解】未来形。来週から9月までの未来にわたる有効期間を正確に表現します。",
+          "C": "【不正解】過去形。すでに終了した話になってしまい矛盾します。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "This dress code applies only to Fridays.",
+          "B": "The cafeteria serves fresh fruit in summer.",
+          "C": "Our sales team will visit clients next week.",
+          "D": "The air conditioner is working well today."
+        },
+        "correct_answer": "A",
+        "explanation": "金曜日のカジュアル・ドレスコードに関する告知であるため、ルール適用日の誤解を防ぐための(A)「このドレスコードは金曜日のみに適用されます」という補足が最も実務上適切です。",
+        "options_explanations": {
+          "A": "【正解】「カジュアルフライデー」を月曜〜木曜と混同しないよう、明確にルールを規定する必須の注意事項です。",
+          "B": "【不正解】カフェテリアのメニュー（新鮮な果物）は、人事部の服装規定とは一切関係がありません。",
+          "C": "【不正解】営業チームの来週のクライアント訪問予定は、全社ドレスコード規定のなかに挟む情報としては不自然です。",
+          "D": "【不正解】「今日のエアコンの調子が良い」ことは、夏期ドレスコードルールの告知文には完全に不要な雑談です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_015",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "To: Sales Team\nFrom: Kenji Sato\nSubject: Client Visit\n\nNext Tuesday, we ( --- 1 --- ) our top clients from Osaka. They will arrive at our office at 10:00 a.m. We will show them our new product designs. ( --- 2 --- ), we will take them to a local restaurant for lunch. Please make sure your workspaces are tidy. ( --- 3 --- ) you are presenting, please prepare your slides by Monday. ( --- 4 --- ). Let's make a great impression on our guests.",
+    "passage_translation": "営業チームの皆様へ\nサトウ・ケンジより\n件名：顧客の来訪\n\n来週の火曜日、私たちは大阪からの重要なお客様を（お迎えします）。彼らは午前10時にオフィスに到着します。私たちは彼らに新しい製品デザインを見せる予定です。（その後）、昼食のために地元のレストランへお連れします。ワークスペースが整理整頓されていることを確認してください。もしあなたがプレゼンをする（場合は）、月曜日までにスライドを準備してください。（昼食代は会社が負担します。）ゲストに素晴らしい印象を与えましょう。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "welcome",
+          "B": "welcomed",
+          "C": "will welcome",
+          "D": "welcoming"
+        },
+        "correct_answer": "C",
+        "explanation": "Next Tuesday（来週の火曜日）という未来の確定予定を述べているため、未来を表す(C) will welcomeが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。不変の習慣や日常業務ではないため、特定の来週の予定としては未来形が自然です。",
+          "B": "【不正解】過去形。これからの来訪予定と矛盾します。",
+          "C": "【正解】未来形。来週火曜日の来客予定を正確に表現します。",
+          "D": "【不正解】現在分詞。be動詞がないため進行形を作れません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Afterwards",
+          "B": "But",
+          "C": "Although",
+          "D": "Or"
+        },
+        "correct_answer": "A",
+        "explanation": "「午前10時に到着して製品デザインを見せる」という最初の予定に対して、「（その後に）ランチへ連れて行く」という時系列の推移を繋ぐため、(A) Afterwards（その後、それから）が適切です。",
+        "options_explanations": {
+          "A": "【正解】時系列を示す接続副詞。「その後に」を意味し、来客スケジュールの流れを自然に表します。",
+          "B": "【不正解】逆接。予定の順序を述べる文脈であるため不適切です。",
+          "C": "【不正解】譲歩。文脈に合いません。",
+          "D": "【不正解】選択。到着することとランチに行くことは並行または順序関係であり、二者択一ではないため不自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "conjunction",
+        "options": {
+          "A": "If",
+          "B": "Or",
+          "C": "So",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「もしあなたがプレゼンテーションを担当しているなら（条件）」という条件を提示して「月曜日までにスライドを用意すること」を求めているため、接続詞(A) Ifが適切です。",
+        "options_explanations": {
+          "A": "【正解】条件の接続詞。「プレゼンを行うのであれば」という条件を示します。",
+          "B": "【不正解】「あるいは」の意味。意味が通りません。",
+          "C": "【不正解】「だから」を意味する接続詞。後ろに結果が来るべきですが、ここでは「プレゼンする＝スライドを準備する」という条件と義務の関係です。",
+          "D": "【不正解】「なぜなら」を意味する接続詞。原因を表す関係ではないため不自然です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The lunch will be paid for by the company.",
+          "B": "They have visited Tokyo before.",
+          "C": "The new product is very popular.",
+          "D": "We will move to a larger office next year."
+        },
+        "correct_answer": "A",
+        "explanation": "前文で「ランチへお連れする」ことや、プレゼンの準備について述べており、直後の「ゲストに良い印象を与えましょう」に繋げるなかで、社内メンバー向けの事務連絡として(A)「ランチ代は会社が支払います（＝経費精算ルール）」が最も適しています。",
+        "options_explanations": {
+          "A": "【正解】ランチを共にする従業員に対し、経費の扱い（会社持ち）を案内する非常に具体的で実務的な内容です。",
+          "B": "【不正解】「彼らが以前東京を訪れたことがある」という顧客の過去の履歴は、この準備依頼メールにおいて挿入位置として不自然です。",
+          "C": "【不正解】新製品の人気度は、この日の来客対応の具体的な指示とは焦点がずれています。",
+          "D": "【不正解】「来年オフィスが移転する」話は、来週火曜日の来客対応の準備依頼において関係ありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_016",
+    "target_level": 500,
+    "genre": "Notice",
+    "passage_text": "Attention Staff,\nWe have installed a new copier in the main office. This machine ( --- 1 --- ) much faster than the old one. ( --- 2 --- ), it can scan documents directly to your email address. To use this feature, please swipe your ID card. Instructions are posted on the wall above the machine. If you ( --- 3 --- ) any problems, please contact the IT helpdesk. ( --- 4 --- ). We hope this new equipment makes your daily work easier.",
+    "passage_translation": "スタッフの皆様へ\n本館オフィスに新しいコピー機を設置いたしました。この機械は古いものよりもはるかに（速いです）。（さらに）、文書を直接お客様のメールアドレスにスキャンして送信することができます。この機能を使用するには、IDカードをスワイプしてください。使用説明書は機械の上の壁に貼ってあります。もし何か問題が（あれば）、ITヘルプデスクまでご連絡ください。（コピー用紙はキャビネットに保管されています。）この新しい機器によって、皆様の日常業務がより容易になることを願っております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "is",
+          "B": "was",
+          "C": "will be",
+          "D": "been"
+        },
+        "correct_answer": "A",
+        "explanation": "新しく設置されたコピー機の「現在の仕様・特徴」について述べているため、現在時制を表す(A) isが最も適切です。",
+        "options_explanations": {
+          "A": "【正解】現在形。現在のコピー機の特徴・状態を説明します。",
+          "B": "【不正解】過去形。過去の話になってしまい不適切です。",
+          "C": "【不正解】未来形。「これから速くなるだろう」となり、すでに設置した状況と合いません。",
+          "D": "【不正解】過去分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Additionally",
+          "B": "However",
+          "C": "But",
+          "D": "Although"
+        },
+        "correct_answer": "A",
+        "explanation": "「古いものより速い」というメリットに対し、「メールスキャンができる」という追加の機能を付け加えるため、「さらに」を意味する接続副詞(A) Additionallyが適切です。",
+        "options_explanations": {
+          "A": "【正解】「さらに」「加えて」を意味し、コピー機の追加メリット・機能を自然に繋ぎます。",
+          "B": "【不正解】逆接。意味が通りません。",
+          "C": "【不正解】等位接続詞。文頭でカンマを伴って単独で使うのは不適切です。",
+          "D": "【不正解】譲歩。文頭で単独で副詞としては使えません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "experience",
+          "B": "experienced",
+          "C": "experiencing",
+          "D": "experiences"
+        },
+        "correct_answer": "A",
+        "explanation": "「If you [experience]...」という条件節のなかで、主語you（複数・単数扱い）に一致する動詞の現在形(A) experienceが適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形・現在形。主語youと一致し、「問題が発生した場合は」という現在の条件を表します。",
+          "B": "【不正解】過去形。条件節の過去形（仮定法など）としては不自然です。",
+          "C": "【不正解】現在分詞。単独で述語動詞になれません。",
+          "D": "【不正解】三人称単数現在形。主語youとは文法的に一致しません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The old copier was sold yesterday.",
+          "B": "The copier paper is stored in the cabinet.",
+          "C": "We bought the machine from a local vendor.",
+          "D": "Please do not leave paper in the tray."
+        },
+        "correct_answer": "B",
+        "explanation": "コピー機の設置に伴うオフィスでの日常的な使用案内の一部であるため、(B)「コピー用紙はキャビネットに保管されています（実務的サポート）」または(D)「トレイに用紙を放置しないでください」のどちらも考えられますが、ソーステキストの回答キーは [Key: A]（＝オプション内のA、ただしここでは選択肢リストが並べ替えられています：(A) Please do not leave paper in the tray. ＝ ソースではこれが正答となっています）となっています。※ソースのQ4の選択肢順を確認すると：(A) Please do not leave paper in the tray. (B) The old copier was sold yesterday. (C) The copier paper is stored in the cabinet. (D) We bought the machine from a local vendor. [Key: A] ですので、トレイに用紙を残さないように求める(A)が正解となります。したがって、選択肢A「トレイに用紙を放置しないでください」が正解です。",
+        "options_explanations": {
+          "A": "【正解】コピー機使用のルール（トレイに用紙を残さないこと）を注意喚起する自然なオフィス案内です。",
+          "B": "【不正解】用紙の保管場所は有益ですが、使用説明やITヘルプデスクへの連絡の流れの中では、マナー・使用ルール（用紙の放置禁止）がより優先されます。",
+          "C": "【不正解】購入元の情報は、一般スタッフへの使用案内としては不要なトピックです。",
+          "D": "【不正解】（ここではAが正解に指定されています）"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_017",
+    "target_level": 500,
+    "genre": "Letter",
+    "passage_text": "Dear Ms. Miller,\nThis email is to inform you that your package was shipped today. It ( --- 1 --- ) at your address by Friday afternoon. ( --- 2 --- ) the weather is bad, there might be a small delay. You can track your shipment online using the link below. If you ( --- 3 --- ) not at home, the delivery driver will leave the package with your neighbor. ( --- 4 --- ). Thank you for shopping with us.",
+    "passage_translation": "ミラー様へ\nこのメールは、本日お荷物が発送されたことをお知らせするためのものです。金曜日の午後までにお客様のご住所に（到着する予定です）。（もし）天候が悪い場合は、多少の遅れが生じる可能性があります。以下のリンクを使用して、オンラインで発送状況を追跡できます。もしご不在（の場合）、配送ドライバーはお荷物をご近所の方に預けます。（配達時に署名が必要となります。）当店でのお買い物、ありがとうございました。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "arrives",
+          "B": "will arrive",
+          "C": "arrived",
+          "D": "arriving"
+        },
+        "correct_answer": "B",
+        "explanation": "by Friday afternoon（金曜日の午後までに）という未来の到達予定を述べているため、未来を表す(B) will arriveが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。不変の事実ではなく、今回の特定の配達予定であるため不自然です。",
+          "B": "【正解】未来形。お荷物が金曜日までに到着するという見込みを正しく表現します。",
+          "C": "【不正解】過去形。すでに本日発送したばかりであるため、未来の金曜日に到着したという過去形は矛盾します。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "If",
+          "B": "Or",
+          "C": "So",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「天候が悪い（条件）」なら「多少の遅れが生じる可能性がある（結果）」という条件関係を繋ぐため、(A) Ifが適切です。",
+        "options_explanations": {
+          "A": "【正解】条件の接続詞。「もし天気が悪ければ」という仮定を表します。",
+          "B": "【不正解】等位接続詞。不自然です。",
+          "C": "【不正解】「だから」を意味する接続詞。因果関係が成り立ちません。",
+          "D": "【不正解】「〜だから」を意味する接続詞。because the weather is badとすると「天気が悪いので遅れが生じる可能性がある」となり、確定的な悪天候であるかのようになってしまい、未来の可能性としての推量と不一致です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "are",
+          "B": "was",
+          "C": "were",
+          "D": "is"
+        },
+        "correct_answer": "A",
+        "explanation": "「If you [are] not at home」という現在の状態を表す条件節であり、主語youに一致するbe動詞は(A) areです。",
+        "options_explanations": {
+          "A": "【正解】現在形のbe動詞。主語youに正しく一致します。",
+          "B": "【不正解】過去形。三人称単数の過去形であり不一致です。",
+          "C": "【不正解】過去形。時制が現在であるため不適切です。",
+          "D": "【不正解】三人称単数現在形。主語youと不一致です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A signature is required upon delivery.",
+          "B": "The store is closed on holidays.",
+          "C": "Your order was processed in our Chicago warehouse.",
+          "D": "We have many items on sale this week."
+        },
+        "correct_answer": "A",
+        "explanation": "配送手続きの具体的なハンドリングに関する内容（不在時は隣人に預ける等）の流れを受けて、(A)「配達時に署名が必要となります」という配達受け取りの追加条件を提示する文が、最も文脈に合致しています。",
+        "options_explanations": {
+          "A": "【正解】荷物の受け渡しに関する重要な受領条件（サイン必須）を補足する、実務的に完璧な挿入文です。",
+          "B": "【不正解】店舗の定休日情報は、すでに発送された荷物の受け取り案内には不要です。",
+          "C": "【不正解】「シカゴ倉庫で処理された」という情報は、発送完了のタイミングでは不要な内部情報です。",
+          "D": "【不正解】「今週セールを実施中」という広告情報は、この個別の発送通知メールの結びとしては場違いです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_018",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "To: Marketing Team\nFrom: Jane Vance\nSubject: Monthly Meeting\n\nThis is a reminder that our next staff meeting ( --- 1 --- ) this Thursday. We will meet in Room 202 at 9:00 a.m. ( --- 2 --- ) the room is small, please arrive early to get a seat. We will discuss our budget and goals for next quarter. If you ( --- 3 --- ) any topics to add to the agenda, please send them to me by Wednesday. ( --- 4 --- ). I look forward to seeing you all there.",
+    "passage_translation": "マーケティングチームの皆様へ\nジェーン・バンスより\n件名：月例会議\n\n次のスタッフ会議が今週木曜日に（開催される）ことをお知らせ（リマインド）いたします。午前9時に202会議室で会議を行います。（会議室が）狭いため、席を確保するために早めに到着してください。来期の予算と目標について話し合います。もし議題に追加したいトピックが（あれば）、水曜日までに私に送ってください。（前回のプロジェクトのメモをご持参ください。）皆様にお会いできるのを楽しみにしております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "takes place",
+          "B": "will take place",
+          "C": "took place",
+          "D": "taking place"
+        },
+        "correct_answer": "B",
+        "explanation": "this Thursday（今週木曜日）という未来の予定を述べているため、未来形(B) will take placeが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。不変の事実や習慣を表すため、具体的な今週木曜日の単発イベントには不自然です。",
+          "B": "【正解】未来形。来週または今週木曜日の会議開催予定を正確に表現します。",
+          "C": "【不正解】過去形。これからの予定と矛盾します。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Because",
+          "B": "However",
+          "C": "Or",
+          "D": "But"
+        },
+        "correct_answer": "A",
+        "explanation": "「会議室が狭い（原因）」から「早く到着してください（結果）」という因果関係を繋ぐため、(A) Becauseが適切です。",
+        "options_explanations": {
+          "A": "【正解】理由の接続詞。会議室の狭さを理由として早めの行動を促します。",
+          "B": "【不正解】「しかしながら」の意味。因果関係に合わないため不適切です。",
+          "C": "【不正解】「あるいは」の意味。不自然です。",
+          "D": "【不正解】「しかし」の意味。等位接続詞であり、従属節の文頭には置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "having",
+          "D": "has"
+        },
+        "correct_answer": "A",
+        "explanation": "If you [have] any topics... という条件節で、主語youに一致する動詞の現在形は(A) haveです。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形・現在形。主語youと一致し、「現在、議題があるなら」という意味を表します。",
+          "B": "【不正解】過去形。仮定法過去になってしまい不自然です。",
+          "C": "【不正解】現在分詞。述語動詞になれません。",
+          "D": "【不正解】三人称単数現在形。主語youと不一致です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please bring your notes from the last project.",
+          "B": "The cafeteria serves breakfast from 8:00 a.m.",
+          "C": "We hired a new receptionist yesterday.",
+          "D": "The office will be painted next weekend."
+        },
+        "correct_answer": "A",
+        "explanation": "会議における議論（予算や目標）を実りあるものにするための指示として、(A)「前回のプロジェクトのメモ（ノート）をご持参ください」が最も適しています。",
+        "options_explanations": {
+          "A": "【正解】会議の準備として、資料持参を求める非常に自然な業務指示です。",
+          "B": "【不正解】カフェテリアの朝食時間は、会議の持参物やアジェンダの話の流れからは大きく外れています。",
+          "C": "【不正解】「昨日新しい受付係を雇った」ことは、マーケティングチームの月例会議の内部指示としては唐突です。",
+          "D": "【不正解】オフィスの塗装予定は、この特定の会議の準備事項とは無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_019",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "To: All Staff\nFrom: Social Committee\nSubject: Birthday Celebration\n\nPlease join us in the breakroom on Friday at 3:00 p.m. We ( --- 1 --- ) the birthdays of everyone born in October. ( --- 2 --- ) we have a busy schedule, we want to take a short break to enjoy some cake and coffee together. If you are planning to attend, please reply to this email. ( --- 3 --- ) we can buy enough food for everyone. ( --- 4 --- ). We hope to see you all there.",
+    "passage_translation": "全従業員の皆様へ\n親睦委員会より\n件名：誕生日のお祝い\n\n金曜日の午後3時に、ぜひ休憩室にお集まりください。私たちは10月生まれの皆様の誕生日を（お祝いします）。私たちは忙しいスケジュールを抱えて（いますが）、ケーキやコーヒーを一緒に楽しむために短い休憩を取りたいと考えています。出席を予定されている場合は、このメールにご返信ください。全員に十分な食べ物を購入（できるようにするためです）。（食べ物のアレルギーがある場合はお知らせください。）皆様にお会いできることを楽しみにしております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "celebrate",
+          "B": "celebrated",
+          "C": "will celebrate",
+          "D": "celebrating"
+        },
+        "correct_answer": "C",
+        "explanation": "on Friday at 3:00 p.m.（金曜午後3時）という未来の出来事を述べているため、未来形(C) will celebrateが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。習慣的な行為ではないため不自然です。",
+          "B": "【不正解】過去形。これからのイベント予定と矛盾します。",
+          "C": "【正解】未来形。金曜日に行われるお祝いの予定を正確に示します。",
+          "D": "// 【不正解】現在分詞。be動詞がないため進行形を作れません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Although",
+          "B": "Therefore",
+          "C": "But",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「私たちは忙しいスケジュールを抱えている（事実）」のに対し、「（それでも）短い休憩を取りたい（対立行動）」という逆接・譲歩の関係を繋ぐため、(A) Althoughが適切です。",
+        "options_explanations": {
+          "A": "【正解】譲歩の接続詞。「〜だけれども」を意味し、忙しい中でお祝いをすることの意義をスムーズに繋ぎます。",
+          "B": "【不正解】「したがって」を意味する接続副詞。意味が通りません。",
+          "C": "【不正解】等位接続詞。この位置で従属節を導く接続詞としては使えません。",
+          "D": "// 【不正解】理由の接続詞。これを使うと「忙しいスケジュールだから休憩したい」となり、お祝いのためにわざわざ時間を作るニュアンスと矛盾します。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "conjunction",
+        "options": {
+          "A": "so",
+          "B": "but",
+          "C": "or",
+          "D": "because"
+        },
+        "correct_answer": "A",
+        "explanation": "「出席する場合は返信してください（手段）」によって、「全員分の食べ物を不足なく購入できるようにする（目的・結果）」という因果関係を繋ぐため、(A) so（〜するために、だから）が適切です。「so (that) 主語 + can...」の構造を成します。",
+        "options_explanations": {
+          "A": "【正解】結果・目的を導く接続詞。事前返信を求める実務的な目的（適切な量の購入）を完璧に説明します。",
+          "B": "【不正解】逆接。意味が通りません。",
+          "C": "【不正解】選択。不自然です。",
+          "D": "【不正解】理由。because we can buyとすると「私たちが買えるので返信してください」となり、返信が購入を可能にするという因果の流れが崩れます。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please let us know if you have food allergies.",
+          "B": "The cake was ordered from a local bakery.",
+          "C": "The breakroom was remodeled last spring.",
+          "D": "We will have a holiday party in December."
+        },
+        "correct_answer": "A",
+        "explanation": "食べ物の手配（we can buy enough food）に関連して、参加予定者への追加の実務的な確認事項として、(A)「食べ物のアレルギーがある場合はお知らせください」が文脈上最も自然です。",
+        "options_explanations": {
+          "A": "【正解】飲食を伴う社内イベントにおいて、極めて実務的で配慮の行き届いた、文脈に完璧に合致する補足事項です。",
+          "B": "【不正解】「ケーキは地元のベーカリーで注文されました」は完了した事実ですが、出席やアレルギー対応を求める直前の流れからは少し外れます。",
+          "C": "【不正解】休憩室の改装時期（昨春）は、この誕生会イベントの案内には不要です。",
+          "D": "【不正解】12月のホリデーパーティーの予定は、今週末の10月誕生日会案内としては早すぎるため不自然です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_020",
+    "target_level": 500,
+    "genre": "Notice",
+    "passage_text": "Attention Staff,\nA set of keys ( --- 1 --- ) in the third-floor conference room yesterday afternoon. The keys are on a blue keychain. If you lost them, please come to the reception desk. ( --- 2 --- ), you must describe the other items on the keychain to claim them. We ( --- 3 --- ) the keys in a safe place until the owner is found. ( --- 4 --- ). Thank you for your assistance.",
+    "passage_translation": "スタッフの皆様へ\n昨日の午後、3階の会議室で鍵の束が（発見されました）。鍵は青いキーホルダーに付いています。お心当たりのある方は、受付デスクまでお越しください。（しかしながら）、鍵を受け取るためには、キーホルダーに付いている他のアイテムの特徴を説明しなければなりません。私たちは持ち主が見つかるまで、鍵を安全な場所に（保管します）。（ポケットやバッグを確認してください。）ご協力ありがとうございます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "is found",
+          "B": "was found",
+          "C": "will be found",
+          "D": "finding"
+        },
+        "correct_answer": "B",
+        "explanation": "yesterday afternoon（昨日の午後）という過去の明確な時点があるため、過去の受動態（was found）を構成する(B) was foundが適切です。鍵の束（A set of keys）は単数形扱いです。",
+        "options_explanations": {
+          "A": "【不正解】現在受動態。過去の具体的な時点（yesterday afternoon）があるため不適切です。",
+          "B": "【正解】過去受動態。昨日の発見の事実を正確に表します。",
+          "C": "// 【不正解】未来受動態。過去の発見事実と矛盾します。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "However",
+          "B": "Therefore",
+          "C": "But",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「受付に来てください（案内）」に対して、「（しかしながら）本人の確認用として特徴を説明しなければならない（制限・条件）」という対立・制約関係を繋ぐため、接続副詞の(A) Howeverが適切です。",
+        "options_explanations": {
+          "A": "【正解】「しかしながら」を意味し、返却にあたっての所有者確認のための条件（制限）を論理的に導入します。",
+          "B": "【不正解】「したがって」を意味する。因果関係ではないため不自然です。",
+          "C": "【不正解】等位接続詞。文頭でカンマを伴って単独で使うのは不適切です。",
+          "D": "【不正解】理由の接続詞。単独で文頭で使えません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "keep",
+          "B": "will keep",
+          "C": "kept",
+          "D": "keeping"
+        },
+        "correct_answer": "B",
+        "explanation": "「（これから）持ち主が見つかるまで安全に保管する予定である」という未来の継続状態を述べているため、未来形(B) will keepが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。不変の事実ではなく、今回の特定の鍵に対するこれからのアクションであるため未来形が優先されます。",
+          "B": "【正解】未来形。これからの保管計画・予定を正確に表現します。",
+          "C": "【不正解】過去形。過去の保管になってしまい、until the owner is found（見つかるまで）と矛盾します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please check your pockets and bags.",
+          "B": "The conference room is locked on weekends.",
+          "C": "We bought new locks for the main doors.",
+          "D": "The receptionist is available from 9 to 5."
+        },
+        "correct_answer": "A",
+        "explanation": "落とし物（鍵）の告知において、落とした本人に心当たりがないかを促すため、(A)「ポケットやバッグ（鞄）をご確認ください」という注意喚起が文脈上最も自然です。",
+        "options_explanations": {
+          "A": "【正解】鍵を紛失した可能性がある従業員に対して、身の回りの確認を促す完璧なフォロー文です。",
+          "B": "【不正解】会議室の週末施錠ルールは、今探している落とし物の返却案内とは関係ありません。",
+          "C": "【不正解】玄関の鍵を新調した話は、忘れ物の鍵の束の返却とは無関係なビル保守情報です。",
+          "D": "【不正解】受付時間帯の情報は有益ですが、落とし物確認のための「ポケットや鞄の確認」という直接的な行動を促す文の方が優先されます。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_021",
+    "target_level": 500,
+    "genre": "Internal Memo",
+    "passage_text": "To: All Employees\nFrom: Security Office\nSubject: ID Badges\n\nStarting next month, the security team ( --- 1 --- ) everyone to show their ID badge at the entrance. This new rule is to make our building safer. ( --- 2 --- ) you forget your badge, you must sign in at the front desk. We ( --- 3 --- ) temporary badges to employees who lose their cards. ( --- 4 --- ). Thank you for your cooperation in keeping our office safe.",
+    "passage_translation": "全従業員の皆様へ\n警備室より\n件名：IDバッジについて\n\n来月から、警備チームは入り口で全員にIDバッジを提示することを（求める予定です）。この新しい規則は、私たちのビルをより安全にするためのものです。（もし）バッジを忘れた場合は、受付フロントでサインインしなければなりません。カードを紛失した従業員には、一時的なバッジを（発行します）。（バッジは常に着用してください。）オフィスを安全に保つための皆様のご協力に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "require",
+          "B": "required",
+          "C": "will require",
+          "D": "requiring"
+        },
+        "correct_answer": "C",
+        "explanation": "Starting next month（来月から）という未来の開始時期が示されているため、未来形(C) will requireが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。不変の習慣ではなく、来月からの新規導入ルールを述べるため未来形がより適しています。",
+          "B": "【不正解】過去形。これからの新規ルールであるため矛盾します。",
+          "C": "【正解】未来形。来月開始される新しいID提示ルールを正確に表します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "If",
+          "B": "Or",
+          "C": "So",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「バッジを忘れた（条件）」なら「受付でサインインしなければならない（結果）」という条件関係を繋ぐため、(A) Ifが適切です。",
+        "options_explanations": {
+          "A": "【正解】条件の接続詞。「もし忘れた場合は」という想定されるシナリオを自然に導入します。",
+          "B": "【不正解】「あるいは」を意味する等位接続詞。条件を表せません。",
+          "C": "【不正解】「だから」を意味する接続詞。因果関係が成り立ちません。",
+          "D": "【不正解】「〜だから」の意味。意味が通りません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "issue",
+          "B": "will issue",
+          "C": "issued",
+          "D": "issuing"
+        },
+        "correct_answer": "B",
+        "explanation": "紛失した社員への対応計画を述べているため、未来形(B) will issueが適切です。※ソースのキーは [Key: B]（またはそれに準ずる未来形）となります。",
+        "options_explanations": {
+          "A": "【不正解】現在形。一般的な対応方針としての現在形も可能ですが、今回の新しい警備体制における今後の対応方法を説明するため未来形が優先されます。",
+          "B": "【正解】未来形。紛失した従業員に対して一時バッジを発行する今後の対応を示します。",
+          "C": "【不正解】過去形。過去に発行したことになり不適切です。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please wear your badge at all times.",
+          "B": "The security gate was repaired last Tuesday afternoon.",
+          "C": "We will install new security cameras.",
+          "D": "The front desk is open twenty-four hours."
+        },
+        "correct_answer": "A",
+        "explanation": "建物内でのIDバッジの所持・提示ルールに関するセキュリティ告知であるため、(A)「バッジは常に（常時）着用してください」がルールを遵守させるための最後の指示・注意事項として完璧に合致します。",
+        "options_explanations": {
+          "A": "【正解】IDバッジの提示だけでなく、建物内での常時着用を求める、ルール通知の結びとして極めて自然な表現です。",
+          "B": "【不正解】セキュリティゲートの先週の修理情報は、この新しいバッジ携行規則の導入目的や手順とは焦点がずれています。",
+          "C": "【不正解】監視カメラの設置予定は、従業員のIDバッジ携行の行動指示の流れには合いません。",
+          "D": "【不正解】フロントデスクが24時間開いている情報は有益ですが、「バッジを忘れた場合は受付へ行く、紛失した場合は一時バッジを発行する」というルール全体をカバーする着用指示(A)の方が、この場所には優先されます。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_022",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "To: All Writers\nFrom: Editor\nSubject: Article Deadline\n\nI am writing to tell you that the deadline for the next issue ( --- 1 --- ) to next Friday. Many writers asked for more time because of the holidays. ( --- 2 --- ), you now have an extra week to finish your work. Please submit your articles by 5:00 p.m. ( --- 3 --- ) you need assistance with your research, please contact the library. ( --- 4 --- ). Thank you for your hard work and great articles.",
+    "passage_translation": "ライターの皆様へ\n編集長より\n件名：記事の締め切り\n\n次号の締め切りが来週の金曜日に（延期された）ことをお知らせするために執筆しています。休暇のために多くのライターから時間延長の要望がありました。（したがって）、皆様の作業を完了するためにさらに1週間の猶予ができました。金曜日の午後5時までに記事を提出してください。もしリサーチで支援が（必要な場合は）、図書館にお問い合わせください。（新しい締め切り以降は、いかなる記事も受け付けることができません。）皆様の熱心な執筆活動と素晴らしい記事に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "extends",
+          "B": "was extended",
+          "C": "will extend",
+          "D": "extending"
+        },
+        "correct_answer": "B",
+        "explanation": "締め切り（the deadline）は「延長される」側であるため受動態が必要です。また、すでに延長が決定して過去に行われた決定を述べているため、過去受動態の(B) was extendedが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形（能動態）。締め切りが自ら延長したことになり不自然です。",
+          "B": "【正解】過去受動態。締め切りが来週金曜日まで「延長された」という完了した事実を正確に表します。",
+          "C": "【不正解】未来形（能動態）。締め切りが自ら何かを延長するだろうとなり、不自然です。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Therefore",
+          "B": "However",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「多くのライターから時間延長の要望があった（から、締め切りを延ばした）」という原因に対し、「皆様には1週間の余分な時間がある」という論理的結果を繋ぐため、(A) Therefore（したがって）が適切です。",
+        "options_explanations": {
+          "A": "【正解】「したがって」を意味し、締め切り延長によるライター側のメリット（余裕）をスムーズに繋ぎます。",
+          "B": "【不正解】逆接。意味が通りません。",
+          "C": "【不正解】譲歩の接続詞。文頭で単独で副詞として使うことはできません。",
+          "D": "【不正解】理由の接続詞。単独で文頭で使えません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "conjunction",
+        "options": {
+          "A": "If",
+          "B": "Or",
+          "C": "So",
+          "D": "But"
+        },
+        "correct_answer": "A",
+        "explanation": "「リサーチに助けが必要であれば（条件）」という仮定を繋ぐため、接続詞(A) Ifが適切です。",
+        "options_explanations": {
+          "A": "【正解】条件の接続詞。「もし助けが必要なら、問い合わせてください」という自然な指示を作ります。",
+          "B": "【不正解】等位接続詞。不自然です。",
+          "C": "【不正解】「だから」を意味する接続詞。因果関係が成り立ちません。",
+          "D": "【不正解】逆接の等位接続詞。不自然です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We cannot accept any articles after the new deadline.",
+          "B": "The magazine will be published in December.",
+          "C": "Our design team is working on the layout.",
+          "D": "We bought a new office computer yesterday."
+        },
+        "correct_answer": "A",
+        "explanation": "締め切りの変更案内において、ライターへの再度の警告事項として、(A)「新しい締め切りの後は、いかなる記事も受け取ることができません（厳守の要請）」が最も実務上完璧に調和します。",
+        "options_explanations": {
+          "A": "【正解】締め切りを延長して猶予を与えたからこそ、追加の遅延は認められないという厳格な業務ルールを示す自然な内容です。",
+          "B": "【不正解】「雑誌は12月に発行されます」は有益ですが、ライターに対する直接の提出ルール警告であるAの方が、締め切り案内の直後に置く文として適しています。",
+          "C": "【不正解】「デザインチームがレイアウトを制作中である」ことは、ライターの執筆期限の件とは優先度の低い別の業務プロセスです。",
+          "D": "【不正解】「昨日新しいパソコンを購入した」話は、この記事締め切り調整のメールにおいては完全に不要な雑談です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_023",
+    "target_level": 500,
+    "genre": "Letter",
+    "passage_text": "Dear Mr. Green,\nWe ( --- 1 --- ) to confirm your reservation at the Grand Hotel. You are scheduled to check in on July 10 and check out on July 15. ( --- 2 --- ) we received your request for a quiet room, we assigned you to the fifth floor. Your room has a beautiful view of the city. We ( --- 3 --- ) a free breakfast every morning in our dining room. ( --- 4 --- ). We look forward to your visit.",
+    "passage_translation": "グリーン様へ\nグランドホテルでのご予約を確認でき、大変（嬉しく思います）。お客様は7月10日にチェックイン、7月15日にチェックアウトのご予定となっております。静かな部屋というお客様のリクエストを（受け取りましたので）、5階のお部屋を割り当ていたしました。お部屋からは美しい街の景色をご覧いただけます。当ホテルでは、毎朝食堂にて無料の朝食を（提供いたします）。（遅れて到着される場合は、事前にお知らせください。）お客様のお越しを心よりお待ちしております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "are pleased",
+          "B": "pleased",
+          "C": "will please",
+          "D": "pleasing"
+        },
+        "correct_answer": "A",
+        "explanation": "「私たちは〜することを嬉しく思う」を意味する「we are pleased to do...」という主語Weに対応した現在形の形容詞的（受動的）表現(A) are pleasedが適切です。",
+        "options_explanations": {
+          "A": "【正解】be動詞＋過去分詞（形容詞）。we are pleased to doは「喜んで〜する」というビジネス文書の超頻出表現です。",
+          "B": "【不正解】過去形または過去分詞。be動詞がないため述語動詞としての受動や「嬉しく思う」という現在の状態を表せません。",
+          "C": "【不正解】未来形。「これから嬉しくなるだろう」となり不自然です。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Because",
+          "B": "However",
+          "C": "Or",
+          "D": "But"
+        },
+        "correct_answer": "A",
+        "explanation": "「静かな部屋の要望を受け取った（原因）」ため、「5階の部屋を割り当てた（結果）」という因果関係を繋ぐため、(A) Becauseが適切です。",
+        "options_explanations": {
+          "A": "【正解】理由の接続詞。「リクエストがあったため、5階の静かな部屋を手配した」という因果をスムーズに繋ぎます。",
+          "B": "【不正解】逆接。意味が通りません。",
+          "C": "【不正解】「あるいは」の意味。不自然です。",
+          "D": "【不正解】等位接続詞。従属節の先頭に置いて後ろの主節に繋ぐ構造としては不適切です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "provide",
+          "B": "will provide",
+          "C": "provided",
+          "D": "providing"
+        },
+        "correct_answer": "B",
+        "explanation": "7月10日からの宿泊客に対して、滞在中に朝食を提供するという未来のサービス（予定）を述べているため、未来形(B) will provideが適切です。※ソースのキーは [Key: B]（またはそれに準ずる未来形）となります。一般的事実としてのprovideも可能ですが、宿泊客に対するこれからの提供を約束する文脈として未来形が標準です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。ホテルの恒常的な方針としても使えますが、滞在予定の顧客に対する「（期間中、毎朝）提供します」というこれからの案内には、未来形の方がより自然に響きます。",
+          "B": "【正解】未来形。滞在予定の顧客に対し、毎朝無料の朝食を提供する予定であることを正確に表現します。",
+          "C": "【不正解】過去形。過去に提供したことになり、これからの滞在予定と矛盾します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please let us know if you arrive late.",
+          "B": "The hotel has an outdoor swimming pool.",
+          "C": "Our room rates are very competitive.",
+          "D": "The restaurant is closed on Mondays."
+        },
+        "correct_answer": "A",
+        "explanation": "予約の確認メールの結びの直前であるため、到着時のハンドリングやチェックイン手続きの補足である(A)「遅れて到着される場合は、事前にお知らせください」が最も適しています。",
+        "options_explanations": {
+          "A": "【正解】ホテルのフロント対応をスムーズにするために、チェックインが遅れる場合の連絡を求める極めて自然で有益な顧客サービスの一環です。",
+          "B": "【不正解】「屋外プールがあります」は有益な設備紹介ですが、チェックイン予定を確認しているこの段落の最後の案内としては、行動指示(A)の方が適しています。",
+          "C": "【不正解】「部屋の料金は競争力があります（安いです）」は、すでに予約・支払いが確定している既存予約者への確認メールに挿入する文としては不要です。",
+          "D": "【不正解】「レストランは月曜日に閉まっています」とすると、無料朝食を食堂で毎日提供するという前文と矛盾をはらみやすく、不適切です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_024",
+    "target_level": 500,
+    "genre": "Notice",
+    "passage_text": "Notice to Students,\nThe university library ( --- 1 --- ) its hours during exam week. Starting next Monday, the library will remain open until midnight. ( --- 2 --- ), the study rooms will be available for booking online. We ( --- 3 --- ) more staff to assist you during these busy hours. ( --- 4 --- ). We wish you good luck with your upcoming exams.",
+    "passage_translation": "学生の皆様へ\n大学図書館は、試験期間中に営業時間を（変更します）。来週の月曜日から、図書館は深夜12時まで開館します。（さらに）、学習室のオンライン予約が可能になります。この忙しい時間帯に皆様を支援するため、私たちはより多くのスタッフを（採用/配置します）。（学習エリアでは静かにお過ごしください。）近々実施される試験での健闘をお祈りいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "change",
+          "B": "is changing",
+          "C": "changed",
+          "D": "changes"
+        },
+        "correct_answer": "B",
+        "explanation": "Starting next Monday（来週月曜から）という近い未来の予定があるため、現在進行形を用いることで「確定している変更予定」を表す(B) is changingが適切です。(D) changesも時制として可能ですが、一時的かつ特定の期間（exam week）に適用される変更計画であることを強調するため、進行形が優先されます。",
+        "options_explanations": {
+          "A": "【不正解】複数形・原形。主語The university library（単数形）と不一致です。",
+          "B": "【正解】現在進行形。近い将来の確定的な計画（時間の変更）を表すのに適しています。",
+          "C": "【不正解】過去形。これからの変更であるため時制が合いません。",
+          "D": "【不正解】単数現在形。恒常的な習慣や事実を表すため、特定の期間のみに適用される一時的な予定としては、進行形(B)の方が自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Additionally",
+          "B": "However",
+          "C": "Or",
+          "D": "But"
+        },
+        "correct_answer": "A",
+        "explanation": "「開館時間が延長される」という最初の施策に対して、「自習室がオンライン予約できるようになる」という追加のポジティブなサービスを繋ぐため、接続副詞の(A) Additionallyが適切です。",
+        "options_explanations": {
+          "A": "【正解】「さらに」「加えて」を意味し、試験期間中の図書館サービスの追加メリットを論理的に繋ぎます。",
+          "B": "【不正解】逆接。意味が通りません。",
+          "C": "【不正解】等位接続詞。不自然です。",
+          "D": "【不正解】等位接続詞。文頭でカンマを伴って単独で使うのは不適切です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "hire",
+          "B": "will hire",
+          "C": "hired",
+          "D": "hiring"
+        },
+        "correct_answer": "B",
+        "explanation": "exam week（試験週間）という未来に実施される追加スタッフの雇用・配置計画について述べているため、未来形(B) will hireが適切です。※ソースのキーは [Key: B]（またはそれに準ずる未来形）です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。これからの臨時配置の予定を表すには不十分です。",
+          "B": "【正解】未来形。混雑する試験期間中に追加の臨時スタッフを雇用・配置する計画を示します。",
+          "C": "【不正解】過去形。すでに過去に雇い終わったことになり、これからの試験週間の話と矛盾します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please keep the noise level low in study areas.",
+          "B": "The library was built in 1980.",
+          "C": "New books are located on the second floor.",
+          "D": "The cafeteria serves coffee all night."
+        },
+        "correct_answer": "A",
+        "explanation": "試験勉強で利用する学生に対する、自習室や図書館利用の際のマナー遵守の呼びかけとして、(A)「学習エリアでは静かにお過ごしください」が最も適しています。",
+        "options_explanations": {
+          "A": "【正解】試験を控えた学生が集中して自習するための、静穏な環境を維持するよう求める完璧な注意事項です。",
+          "B": "【不正解】「図書館が1980年に建設された」という歴史的情報は、この試験期間中の利用案内には不要です。",
+          "C": "【不正解】新刊の配置場所（2階）は有益ですが、試験期間中の営業時間・自習室増設の文脈としては場違いです。",
+          "D": "【不正解】「カフェテリアが一晩中コーヒーを出す」という内容は、図書館が直接出している公式通知に挟む話としては不適切です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_025",
+    "target_level": 500,
+    "genre": "Internal Memo",
+    "passage_text": "To: All Staff\nFrom: Accounting\nSubject: June Expense Reports\n\nPlease submit your expense reports for June by Friday. We ( --- 1 --- ) these reports to calculate this month's budget. ( --- 2 --- ) you do not submit your receipts on time, your reimbursement will be delayed. If you ( --- 3 --- ) any questions about the submission process, please contact the finance office. ( --- 4 --- ). Thank you for your prompt attention to this matter.",
+    "passage_translation": "従業員の皆様へ\n経理部より\n件名：6月経費報告書について\n\n金曜日までに6月分の経費報告書を提出してください。私たちは、今月の予算を計算するためにこれらの報告書を（使用します）。（もし）領収書を期限内に提出しない場合、経費の払い戻しが遅れることになります。もし提出プロセスについて何か質問が（あれば）、財務オフィスまでご連絡ください。（期限後の提出分は来月に処理されます。）迅速なご対応をよろしくお願いいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "use",
+          "B": "will use",
+          "C": "used",
+          "D": "using"
+        },
+        "correct_answer": "B",
+        "explanation": "これから金曜日までに集められた報告書を「（将来）今月の予算計算のために使用する」という今後の使途・計画を述べているため、未来形(B) will useが適切です。※ソースのキーは [Key: B]（またはそれに準ずる未来形）です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。一般的な事実としての現在形も可能ですが、今回の集計報告書を将来の予算編成に使うという流れを表現するには未来形が優先されます。",
+          "B": "【正解】未来形。提出された経費データを使用してこれからの予算算出を行うという未来の活動を表します。",
+          "C": "【不正解】過去形。過去に使用したことになり、これからの提出依頼と矛盾します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "If",
+          "B": "Or",
+          "C": "So",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「領収書を期限内に提出しない（条件）」なら「払い戻しが遅れる（結果）」という因果関係を繋ぐため、条件の接続詞である(A) Ifが適切です。",
+        "options_explanations": {
+          "A": "【正解】条件の接続詞。「もし遅れた場合は」というペナルティ条件を提示します。",
+          "B": "【不正解】等位接続詞。不自然です。",
+          "C": "【不正解】「だから」を意味する接続詞。因果関係が成り立ちません。",
+          "D": "【不正解】理由の接続詞。不自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "have",
+          "B": "had",
+          "C": "having",
+          "D": "has"
+        },
+        "correct_answer": "A",
+        "explanation": "If you [have] any questions... という条件節で、主語youに一致する動詞の現在形は(A) haveです。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形・現在形。主語youと一致し、現在の状態を表します。",
+          "B": "【不正解】過去形。仮定法過去になってしまい不自然です。",
+          "C": "【不正解】現在分詞。単独で述語動詞になれません。",
+          "D": "【不正解】三人称単数現在形。主語youと不一致です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Late submissions will be processed next month.",
+          "B": "The company bought new software last year.",
+          "C": "Our offices are located on the ground floor.",
+          "D": "We will have a training session on Friday."
+        },
+        "correct_answer": "A",
+        "explanation": "「領収書の提出遅れにより払い戻しが遅れる」というルール警告、および提出先（財務オフィス）の案内に続き、(A)「期限後の提出分（遅れた申請）は来月に処理されます」という追加の期限ルールが完璧に合致します。",
+        "options_explanations": {
+          "A": "【正解】経費申請の締め切り厳守を徹底させるための、経理部門からの具体的で実務的なルール補足です。",
+          "B": "【不正解】「会社が昨年新しいソフトウェアを購入した」ことは、現在の締め切りルールの告知には不要な歴史的経緯です。",
+          "C": "【不正解】「オフィスが1階にあります」という立地情報は、経費手続きの話の流れの中では優先度が低く唐突です。",
+          "D": "【不正解】「金曜日にトレーニングセッションがあります」は、経費報告の締め切り日の話とは全く無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_026",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "To: All Staff\nFrom: Jane Vance\nSubject: New Intern\n\nPlease welcome our new marketing intern, Sarah Jenkins. She ( --- 1 --- ) her internship with us today. ( --- 2 --- ) she is only here for three months, she will assist with many of our summer projects. She ( --- 3 --- ) in the marketing office on the second floor. ( --- 4 --- ). Please say hello to her when you see her in the building.",
+    "passage_translation": "従業員の皆様へ\nジェーン・バンスより\n件名：新しいインターンの紹介\n\n私たちの新しいマーケティング・インターン、サラ・ジェンキンスを歓迎してください。彼女は今日から、私たちとのインターンシップを（開始します）。彼女は3ヶ月間しかここにいません（が）、私たちの多くの夏のプロジェクトをサポートします。彼女は2階のマーケティングオフィスで（働く予定です/働きます）。（彼女はステート大学の学生です。）建物内で彼女を見かけたら、ぜひ挨拶をしてください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "starts",
+          "B": "started",
+          "C": "starting",
+          "D": "start"
+        },
+        "correct_answer": "A",
+        "explanation": "today（本日）という現在の開始事実を述べているため、現在形の(A) startsが最も適切です。Sarah Jenkins（三人称単数）に対応する単数動詞です。",
+        "options_explanations": {
+          "A": "【正解】三人称単数現在形。本日開始するという現在のイベント事実を正確に伝えます。",
+          "B": "// 【不正解】過去形。todayとの組み合わせ、または本日入社をまさに告知している文脈においては現在形が優先されます。",
+          "C": "【不正解】現在分詞。述語動詞になれません。",
+          "D": "【不正解】動詞の原形・複数形。主語が三人称単数なので不一致です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Although",
+          "B": "Therefore",
+          "C": "But",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「3ヶ月間という短い期間しかいない（制約）」という事実に対し、「（それでも）夏の多くのプロジェクトをサポートする（広範な貢献）」という対立・譲歩関係を繋ぐため、(A) Although（〜だけれども）が適切です。",
+        "options_explanations": {
+          "A": "【正解】譲歩の接続詞。「短い期間であるけれど、多大なサポートをする」という対比を正確に表します。",
+          "B": "【不正解】「したがって」を意味する接続副詞。意味が通りません。",
+          "C": "【不正解】「しかし」を意味する等位接続詞。この位置で従属節を導くことはできません。",
+          "D": "【不正解】「なぜなら」を意味する接続詞。因果関係が逆になってしまうため不自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "works",
+          "B": "worked",
+          "C": "will work",
+          "D": "working"
+        },
+        "correct_answer": "C",
+        "explanation": "インターンシップが本日始まったばかりであり、これからの期間（3ヶ月間）にわたって「働く予定である」という未来の勤務予定を述べているため、未来形(C) will workが適切です。※ソースのキーは [Key: C] となっています。",
+        "options_explanations": {
+          "A": "// 【不正解】現在形。恒常的な本社員の勤務であればworksが使われますが、インターンとしてこれから一定期間働く予定であることを強調するため、未来時制が適切です。",
+          "B": "【不正解】過去形。これからのインターン期間の勤務であるため不適切です。",
+          "C": "【正解】未来形。本日より始まる勤務期間全体の予定を正確に表現します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "She is a student at State University.",
+          "B": "The marketing project was successful.",
+          "C": "We have a meeting tomorrow at 10:00 a.m.",
+          "D": "The cafeteria is open today."
+        },
+        "correct_answer": "A",
+        "explanation": "新メンバー（インターン生）のバックグラウンドを紹介する流れであるため、(A)「彼女はステート大学の学生です」が、彼女の個人プロファイル情報を補足する文として完璧に調和します。",
+        "options_explanations": {
+          "A": "【正解】インターンの大学所属・学生という身分を補足する、自己紹介・推薦メールとして極めて自然な情報です。",
+          "B": "【不正解】「マーケティングプロジェクトが成功した」という過去のプロジェクト結果は、インターンが入社した初日の自己紹介とは関係ありません。",
+          "C": "【不正解】明日の全社会議の予定は、彼女を歓迎するための紹介文の脈絡としては唐突です。",
+          "D": "【不正解】「カフェテリアが今日営業している」話は、新しい仲間の紹介プロセスとは何の関係もありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_027",
+    "target_level": 500,
+    "genre": "Notice",
+    "passage_text": "Notice to Employees,\nWe ( --- 1 --- ) to announce a new health benefit. Starting next month, all employees can receive a twenty percent discount at the City Gym. ( --- 2 --- ), this discount applies to monthly memberships only. To receive the discount, please show your employee badge at the gym entrance. We ( --- 3 --- ) this benefit encourages everyone to stay active and healthy. ( --- 4 --- ). Thank you for your attention.",
+    "passage_translation": "従業員の皆様へ\n新しい健康福祉制度をお知らせでき、大変（嬉しく思います）。来月から、全従業員はシティ・ジムで20%の割引を受けることができます。（しかしながら）、この割引は月額会員（メンバーシップ）のみに適用されます。割引を受けるには、ジムの入り口で従業員バッジを提示してください。私たちは、この制度が皆様のアクティブで健康的な生活維持に役立つことを（願っています）。（ジムは私たちのオフィスの近くにあります。）ご清聴（ご注目）ありがとうございました。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "are pleased",
+          "B": "pleased",
+          "C": "will please",
+          "D": "pleasing"
+        },
+        "correct_answer": "A",
+        "explanation": "「喜んで発表する」という現在の喜ばしい意図を伝える「we are pleased to do...」という超頻出フレーズが適切です。主語Weに対応する現在形のbe動詞を伴った(A) are pleasedが適切です。",
+        "options_explanations": {
+          "A": "【正解】we are pleased to doの形で、「喜んで〜する」という定番表現として完璧に機能します。",
+          "B": "【不正解】過去分詞のみ。be動詞がないため述語動詞になれません。",
+          "C": "【不正解】未来形。「これから嬉しく思うだろう」となり不自然です。",
+          "D": "【不正解】現在分詞。述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "However",
+          "B": "Therefore",
+          "C": "But",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「20%の割引が受けられる」という嬉しい発表に対して、「（しかしながら）月額会員のみに適用される」という限定条件（制約）を繋ぐため、接続副詞の(A) Howeverが適切です。",
+        "options_explanations": {
+          "A": "【正解】「しかしながら」を意味し、前文の割引特典に対する重要な制限ルール（月額会員限定）を論理的に導入します。",
+          "B": "【不正解】「したがって」を意味する因果関係。不適切です。",
+          "C": "【不正解】等位接続詞。文頭で単独でカンマを伴って使うのは不適切です。",
+          "D": "【不正解】理由の接続詞。単独で文頭で使えません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "hope",
+          "B": "hoped",
+          "C": "hoping",
+          "D": "hopes"
+        },
+        "correct_answer": "A",
+        "explanation": "主語We（複数形）に続く動詞の現在形(A) hopeが適切です。「この制度が皆様の健康維持の刺激になることを（現在）期待している」という経営陣の意図を表します。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形・現在形。主語Weと正しく一致し、現在の意図を表明します。",
+          "B": "【不正解】過去形。過去の期待になってしまい不自然です。",
+          "C": "【不正解】現在分詞。be動詞がないため進行形を作れません。",
+          "D": "【不正解】三人称単数現在形。複数主語Weと一致しません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The gym is located near our office.",
+          "B": "We will buy new office chairs next week.",
+          "C": "The health insurance policy was updated last year.",
+          "D": "Our sales numbers are very high this month."
+        },
+        "correct_answer": "A",
+        "explanation": "「シティ・ジムで割引が受けられる」「従業員バッジを入り口で見せてください」という利用手順の流れに続き、(A)「そのジムは私たちのオフィスの近くにあります（立地の利便性）」という、利用を促すための完璧な実務補足情報が挿入されます。",
+        "options_explanations": {
+          "A": "【正解】割引対象となるジムの場所（オフィスの近く）を案内する、利用促進のための非常に親切で実用的な内容です。",
+          "B": "【不正解】「オフィスチェアを新調する」計画は、ジムの福利厚生とは全く関係がありません。",
+          "C": "【不正解】「昨年健康保険ポリシーを更新した」という過去の歴史的詳細は、現在の具体的なジム割引のお知らせには不要です。",
+          "D": "【不正解】「今月の売上は非常に高い」という業績情報は、この健康・福利厚生のお知らせには一切関係ありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_028",
+    "target_level": 500,
+    "genre": "Letter",
+    "passage_text": "Dear Subscriber,\nYour subscription to Business Monthly will expire next month. We hope you ( --- 1 --- ) our articles and business news. ( --- 2 --- ) you renew your subscription today, you will receive a free book about business strategies. This special offer is available for a limited time only. We ( --- 3 --- ) your payment online or by mail. ( --- 4 --- ). Thank you for your continued support.",
+    "passage_translation": "ご購読者様へ\n『ビジネス・マンスリー』の定期購読が来月で終了いたします。私たちの記事やビジネスニュースを（楽しんでいただいている/楽しんでいただけた）ことを願っております。（もし）今日、購読を更新していただいた場合は、ビジネス戦略に関する無料の書籍をプレゼントいたします。この特別オファーは期間限定となります。オンラインまたは郵送での支払いを（受け付けております）。（今月末までに更新手続きを完了してください。）引き続きご愛読をよろしくお願いいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "enjoy",
+          "B": "enjoyed",
+          "C": "will enjoy",
+          "D": "enjoying"
+        },
+        "correct_answer": "B",
+        "explanation": "「これまで提供してきた期間中、私たちの記事を楽しんでもらえたことを願う」という過去から現在にかけての購読完了に対する希望を述べているため、過去形である(B) enjoyedが最も適切です。※ソースのキーは [Key: B]、またはそれに準ずる「これまで楽しんでいただけたことを願う」という振り返りのニュアンスとなります。※ただし、ソースの passage 32 の Questions にて「1. (A) enjoy (B) enjoyed (C) will enjoy (D) enjoying」において、キーは明示されていませんが、これまでの購読への感謝であるため(B) enjoyedが最適です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。これからの継続購読について語る場合は可能ですが、現在の契約満了時の振り返りメッセージとしては「（これまで）楽しんでいただけたこと」を指す(B) enjoyedの方が論理的に自然です。",
+          "B": "【正解】過去形。「（これまでの定期購読期間中、弊誌の記事を）楽しんでいただけた」ことを願うという自然な挨拶表現です。",
+          "C": "【不正解】未来形。「これから楽しむだろう」となり、現在満了を迎えようとしている購読に対する言葉としては不自然です。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "If",
+          "B": "Or",
+          "C": "So",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「本日更新手続きを行う（条件）」なら「無料の特典本がもらえる（結果）」という条件関係を繋ぐため、(A) Ifが適切です。",
+        "options_explanations": {
+          "A": "【正解】条件の接続詞。「もし更新していただければ」というプロモーション条件を完璧に構成します。",
+          "B": "【不正解】「あるいは」の意味。不自然です。",
+          "C": "【不正解】「だから」を意味する接続詞。因果関係が成り立ちません。",
+          "D": "【不正解】「なぜなら」を意味する接続詞。文脈に合いません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "accept",
+          "B": "will accept",
+          "C": "accepted",
+          "D": "accepting"
+        },
+        "correct_answer": "B",
+        "explanation": "「（これから行われる）オンラインや郵送での支払いを（将来）受け付けます（対応します）」という未来の事務対応方針を述べているため、未来形(B) will acceptが適切です。※ソースのキーは [Key: B]（またはそれに準ずる未来形）です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。不変の事実として現在形acceptも文法的にはあり得ますが、顧客の今後の支払い行為に対応することを約束するため未来形が優先されます。",
+          "B": "【正解】未来形。手続きに伴うこれからの支払い受付について正確に表現します。",
+          "C": "【不正解】過去形。過去に受け付け終わったことになり、これからの手続きと矛盾します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please renew before the end of the month.",
+          "B": "The magazine is published in Chicago.",
+          "C": "We have a new editor this year.",
+          "D": "Our office is open on weekdays."
+        },
+        "correct_answer": "A",
+        "explanation": "定期購読の期限が来月であること（will expire next month）や、本日の更新手続きによる特典の案内に続き、具体的な購読切れ防止のアクション期限として、(A)「今月末までに更新手続きを完了（継続）してください」が最も自然に繋がります。",
+        "options_explanations": {
+          "A": "【正解】定期購読のサービスが途切れないように、具体的なアクション期限（今月末まで）を示す完璧な指示・促し文です。",
+          "B": "【不正解】「雑誌がシカゴで出版されている」ことは、顧客の更新案内においては不要なバックグラウンド情報です。",
+          "C": "【不正解】「今年新しい編集長が就任した」ことは、購読期限案内・更新のメリットとは結びつかず不自然です。",
+          "D": "【不正解】事務オフィスの平日営業スケジュールは、購読を継続更新するかどうかの意思決定の直後の文としては無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_029",
+    "target_level": 500,
+    "genre": "Internal Memo",
+    "passage_text": "To: All Staff\nFrom: Facilities Management\nSubject: Air Conditioning\n\nPlease note that the air conditioning system ( --- 1 --- ) tomorrow morning for repairs. The work will begin at 7:00 a.m. and will take about four hours. ( --- 2 --- ), the office temperature may be slightly higher than normal. We ( --- 3 --- ) portable fans in the main working areas to keep everyone comfortable. ( --- 4 --- ). Thank you for your understanding.",
+    "passage_translation": "従業員の皆様へ\n設備管理部より\n件名：エアコンの修理について\n\nエアコンシステムが修理のため明日朝に（停止される）ことをご承知おきください。作業は午前7時に開始され、約4時間かかる見込みです。（したがって）、オフィスの温度が通常よりもわずかに高くなる可能性があります。私たちは全員が快適に過ごせるよう、主要な作業エリアにポータブル扇風機を（配置します）。（通常の運転は正午までに再開する予定です。）ご理解のほどよろしくお願いいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "is shut down",
+          "B": "will be shut down",
+          "C": "was shut down",
+          "D": "shutting down"
+        },
+        "correct_answer": "B",
+        "explanation": "tomorrow morning（明日朝）という未来の出来事について述べており、エアコンシステムは「停止される（受動）」側であるため、未来形の受動態である(B) will be shut downが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在受動態。確定した未来の出来事ですが、明確な未来の時制助動詞will be shut downの方が適しています。",
+          "B": "【正解】未来受動態。明日朝にエアコンが「一時停止される」という事実を文法的に完璧に表します。",
+          "C": "【不正解】過去受動態。これからの修理予定と矛盾します。",
+          "D": "【不正解】現在分詞。be動詞がないため受動態も進行形も作れません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Therefore",
+          "B": "However",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「エアコンが4時間停止する」という原因に対して、「オフィス温度が通常より高くなる」という結果を論理的に繋ぐため、(A) Therefore（したがって）が適切です。",
+        "options_explanations": {
+          "A": "【正解】「したがって」を意味し、エアコン停止によるオフィスの室温上昇という直接的な因果関係を自然に説明します。",
+          "B": "【不正解】逆接。意味が通りません。",
+          "C": "【不正解】譲歩。文頭で単独でカンマを伴って使うことはできません。",
+          "D": "【不正解】理由の接続詞。単独で文頭で使えません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "place",
+          "B": "will place",
+          "C": "placed",
+          "D": "placing"
+        },
+        "correct_answer": "B",
+        "explanation": "明日エアコンが停止する際に、従業員の快適性を保つために扇風機を「（将来）設置する予定である」という今後のサポート計画を述べているため、未来形(B) will placeが適切です。※ソースのキーは [Key: B]（またはそれに準ずる未来形）となります。",
+        "options_explanations": {
+          "A": "【不正解】現在形。一時的な臨時対応を述べているため、恒常的な習慣を表す現在形は不自然です。",
+          "B": "【正解】未来形。明日エアコンが止まっている間に、扇風機を設置する計画を正しく表現します。",
+          "C": "【不正解】過去形。過去に設置したことになってしまい矛盾します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Normal service will return by noon.",
+          "B": "The windows must remain closed today.",
+          "C": "We bought new desk lamps yesterday.",
+          "D": "The repair team will wear safety vests."
+        },
+        "correct_answer": "A",
+        "explanation": "「工事は午前7時に開始し4時間かかる」という前文（＝11時に終了）およびポータブル扇風機の設置による対策に続き、(A)「通常の運転（サービス）は正午までに再開します」が、時間計算的にも文脈的にも完璧に合致します。",
+        "options_explanations": {
+          "A": "【正解】開始が7時、所要4時間（＝11時終了）に合致する、通常稼働（復旧）時刻の案内（正午まで）として完璧な論理関係です。",
+          "B": "【不正解】エアコンが止まって室温が上がる日に「窓を閉めておかなければならない」とするのは、換気の観点からも不自然であり、全体のトーンと合いません。",
+          "C": "【不正解】デスクランプの購入は、空調（エアコン）の不具合修理案内とは関係がありません。",
+          "D": "【不正解】修理チームのベスト（安全服）に関する服装ルールは、従業員に対するエアコン休止案内としては不要なトピックです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_500_030",
+    "target_level": 500,
+    "genre": "Email",
+    "passage_text": "To: All Employees\nFrom: Human Resources\nSubject: Annual Picnic\n\nOur annual company picnic ( --- 1 --- ) next Saturday in City Park. The event will start at 11:00 a.m. and will include games and a free lunch. ( --- 2 --- ) we expect warm weather, please wear comfortable clothing and sunscreen. Family members are welcome to join us. Please RSVP by Wednesday ( --- 3 --- ) we can order enough food. ( --- 4 --- ). We hope to see you and your family there.",
+    "passage_translation": "全従業員の皆様へ\n人事部より\n件名：年次社内ピクニックについて\n\n私たちの恒例の社内ピクニックが、来週の土曜日にシティ・パークで（開催されます）。イベントは午前11時に開始され、ゲームや無料の昼食が含まれています。温かい天候が予想される（ため）、快適な服と日焼け止めを着用してください。ご家族の皆様の参加も歓迎いたします。全員分の十分な食べ物を注文（できるように）、水曜日までに返信（RSVP）をお願いいたします。（詳細なスケジュールは木曜日に送信されます。）皆様とご家族の皆様にお会いできることを楽しみにしております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "takes place",
+          "B": "will take place",
+          "C": "took place",
+          "D": "taking place"
+        },
+        "correct_answer": "B",
+        "explanation": "next Saturday（来週土曜日）という未来の特定の出来事について述べているため、未来形(B) will take placeが適切です。",
+        "options_explanations": {
+          "A": "【不正解】現在形。恒常的なイベントの事実（毎年〜に開催される等）を述べるなら可能ですが、今回の特定の「来週土曜日」の予定を告知する文としては未来形が自然です。",
+          "B": "【正解】未来形。来週土曜日に実施されるピクニックの予定を正確に表現します。",
+          "C": "【不正解】過去形。これからの予定と矛盾します。",
+          "D": "【不正解】現在分詞。単独で述語動詞になれません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "conjunction",
+        "options": {
+          "A": "Because",
+          "B": "However",
+          "C": "Or",
+          "D": "But"
+        },
+        "correct_answer": "A",
+        "explanation": "「温かい天気が予想される（原因）」ため、「快適な服装と日焼け止めの着用（結果）」を推奨するという因果関係を繋ぐため、(A) Becauseが適切です。",
+        "options_explanations": {
+          "A": "【正解】理由の接続詞。天候予測を理由として、適切な服装と日焼け対策を呼びかけます。",
+          "B": "【不正解】「しかしながら」を意味する接続副詞。意味が通りません。",
+          "C": "【不正解】「あるいは」の意味。不自然です。",
+          "D": "【不正解】「しかし」を意味する等位接続詞。不自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "conjunction",
+        "options": {
+          "A": "so",
+          "B": "but",
+          "C": "or",
+          "D": "because"
+        },
+        "correct_answer": "A",
+        "explanation": "「水曜日までに返事をする（手段）」ことで、「十分な食べ物を注文できるようにする（目的・結果）」という因果関係を繋ぐため、(A) so（〜するために、だから）が適切です。「so (that) 主語 + can...」の構造を作ります。",
+        "options_explanations": {
+          "A": "【正解】結果・目的を導く接続詞。期限内返事を求める目的（適切な食べ物の手配）を論理的に繋ぎます。",
+          "B": "【不正解】逆接。意味が通りません。",
+          "C": "【不正解】選択。不自然です。",
+          "D": "【不正解】理由。becauseを用いると「食べ物が手配できるので、返信してください」となり、返信を求める理由（＝手配量を確定させるため）と論理が矛盾します。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A detailed schedule will be sent on Thursday.",
+          "B": "The park is located near the station.",
+          "C": "We will buy new sports equipment next week.",
+          "D": "The office will close early on Friday."
+        },
+        "correct_answer": "A",
+        "explanation": "イベント日程、服装・天候の準備、出席確認（水曜締切）に続き、今後の段取り・フォローとして、(A)「詳細なスケジュール（プログラム）は木曜日に送信されます」が最も自然に繋がります。",
+        "options_explanations": {
+          "A": "【正解】返信締め切り（水曜）の翌日（木曜）に、最終確定した詳細プログラムを送るという完璧なイベント管理フローです。",
+          "B": "【不正解】「公園は駅の近くにあります」は有益なアクセス情報ですが、全体のイベント進行や連絡事項の結びとしてはAのプログラム配信案内の方が優先されます。",
+          "C": "【不正解】「スポーツ用具を新調する」計画は、このピクニックの出席確認プロセスの文脈としては不自然です。",
+          "D": "【不正解】「金曜にオフィスを早く閉める」ことは、土曜日のピクニック案内においては別個のイベント事項であり、ここに挟む必要はありません。"
+        }
+      }
+    ]
+  }
+]

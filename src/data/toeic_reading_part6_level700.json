@@ -1,0 +1,2402 @@
+[
+  {
+    "passage_id": "p6_700_001",
+    "target_level": 700,
+    "passage_text": "Dear Mr. Carter, \n( --- 1 --- ) your email of April 5 regarding your recent purchase, we would like to apologize for the inconvenience you experienced. Our quality control team prides ( --- 2 --- ) on maintaining high standards, but we clearly made an error. We have already shipped a replacement product to your address, and it should arrive by Friday. ( --- 3 --- ), we have credited a full refund to your account. ( --- 4 --- ). Thank you for your patience and understanding. \nSincerely, \nCustomer Support Team",
+    "passage_translation": "カーター様 \n最近のご購入に関する4月5日のメールについて、ご不便をおかけしたことをお詫び申し上げます。当社の品質管理チームは高い基準を維持することに（自負しております）が、明らかに手違いがございました。すでに代替品をお客様の住所に発送しており、金曜日までに到着する予定です。（さらに）、お客様のアカウントに全額を返金いたしました。（ご返送の際は、プリペイドの返送用ラベルをご利用いただき、破損した商品をご返送ください。）これまでの忍耐とご理解に感謝いたします。 \n敬具 \nカスタマーサポートチーム",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "Regarding",
+          "B": "Regarded",
+          "C": "Regards",
+          "D": "Regard"
+        },
+        "correct_answer": "A",
+        "explanation": "「〜に関して」という前置詞として機能する現在分詞(A) Regardingが適切です。文頭で「4月5日のメールに関して」という修飾語句を形成します。",
+        "options_explanations": {
+          "A": "【正解】現在分詞。「〜に関して、〜について」という意味の前置詞として文頭に置くのが適切です。",
+          "B": "【不正解】過去分詞。受動の意味になり、後ろに目的語(your email)を伴うことができません。",
+          "C": "【不正解】動詞の三人称単数現在形、または名詞の複数形。文頭で後ろの目的語を修飾・接続する役割を果たせません。",
+          "D": "【不正解】動詞の原形、または名詞。命令文以外で文頭に直接置くことはできません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "itself",
+          "B": "ourselves",
+          "C": "themselves",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "主語である「Our quality control team」（三人称単数の名詞句、集合名詞）が自分自身について自負するという文脈なので、再帰代名詞の(A) itselfが適切です。pride oneself on で「〜を自負する、誇りに思う」という重要表現です。",
+        "options_explanations": {
+          "A": "【正解】再帰代名詞（単数）。主語の Our quality control team（単数扱い）に対応する正しい再帰代名詞です。",
+          "B": "【不正解】再帰代名詞（1人称複数）。主語が we でないため不適切です。",
+          "C": "【不正解】再帰代名詞（3人称複数）。teamを複数形として受ける表現ではありません。",
+          "D": "【不正解】再帰代名詞（2人称単数）。主語が you でないため不適切です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "cohesion",
+        "options": {
+          "A": "Additionally",
+          "B": "Instead",
+          "C": "Otherwise",
+          "D": "However"
+        },
+        "correct_answer": "A",
+        "explanation": "前文で「代替品の発送」を述べており、さらに「全額返金」という追加の好意的な対応を説明しているため、追加・累加を表す接続副詞(A) Additionally（さらに、加えて）が最適です。",
+        "options_explanations": {
+          "A": "【正解】「さらに、加えて」。代替品の発送に加え、返金も行うという追加の対応を繋ぐのに最適です。",
+          "B": "【不正解】「代わりに」。発送の代わりに返金をするのではなく、両方行う文脈なので不適切です。",
+          "C": "【不正解】「さもなければ、そうしないと」。条件の反実仮想を表す表現であり、文脈に合いません。",
+          "D": "【不正解】「しかしながら」。逆接の文脈ではないため不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please return the damaged item using the pre-paid label.",
+          "B": "The store will hold a winter sale next week.",
+          "C": "Our offices will be closed for the upcoming holiday.",
+          "D": "We hope you enjoy our new website design."
+        },
+        "correct_answer": "A",
+        "explanation": "商品の誤配または不具合によるお詫び、代替品発送の文脈であるため、「破損した商品を、同封したプリペイドラベルを使って返送してください」と促す(A)が最も自然で、実務的なビジネスの流れに合致します。",
+        "options_explanations": {
+          "A": "【正解】「破損した商品は、料金前払いのラベルを使用してご返送ください」。不具合による代替品対応の流れとして完璧に繋がります。",
+          "B": "【不正解】「当店は来週ウィンターセールを開催します」。お詫びと返金のメールに突然セールの宣伝を入れるのは不自然です。",
+          "C": "【不正解】「弊社のオフィスは来たる祝日のため閉鎖されます」。お詫びの手紙の文脈に全く関係のない休業案内です。",
+          "D": "【不正解】「新しいウェブサイトのデザインを気に入っていただけることを願っています」。購入トラブルの対応とは関係がありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_002",
+    "target_level": 700,
+    "passage_text": "Notice to Customers, \nZenith Electronics is issuing a voluntary recall of its model RX-4 battery pack. We have determined that some of ( --- 1 --- ) may overheat during charging. To ensure the safety of our customers, we are offering free replacements to everyone who purchased this model. Please check the serial number on your device to see if it is affected. ( --- 2 --- ) it is, please stop using it immediately. ( --- 3 --- ) with our support team to arrange a free return and replacement. ( --- 4 --- ). We apologize for this safety concern. \nSincerely, \nZenith Electronics Management",
+    "passage_translation": "お客様へ \nゼニス・エレクトロニクス社は、モデルRX-4バッテリーパックの自主回収を行います。当社は、（それら）の一部が充電中に過熱する可能性があると判断いたしました。お客様の安全を確保するため、このモデルをご購入いただいた全員に無償の代替品を提供いたします。お使いのデバイスのシリアル番号を確認し、対象であるかどうかをご確認ください。もし対象である（場合）は、ただちに使用を中止してください。無料の返品と交換を手配するために、当社のサポートチームと（連絡を取り合ってください）。（代替品は、3営業日以内に発送されます。）この安全上の問題についてお詫び申し上げます。 \n敬具 \nゼニス・エレクトロニクス 経営陣",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "them",
+          "B": "they",
+          "C": "their",
+          "D": "themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "前置詞 of の目的語として、前述の「its model RX-4 battery pack」(複数形 packs と同義で、ここでは製品の個体を指すため複数代名詞 them で受ける)を指す目的格代名詞(A) them が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。前置詞 of の後ろの目的語として正しく機能します。",
+          "B": "【不正解】主格代名詞。前置詞の後ろに主格を置くことはできません。",
+          "C": "【不正解】所有格。名詞を修飾する役割ですが、後ろに名詞がありません。",
+          "D": "【不正解】再帰代名詞。主語(We)と一致しないため、of themselves とする意味的理由がありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "cohesion",
+        "options": {
+          "A": "If",
+          "B": "Or",
+          "C": "So",
+          "D": "But"
+        },
+        "correct_answer": "A",
+        "explanation": "「もし影響を受けている（対象である）ならば」という条件文を形成する従属接続詞(A) If が適切です。文末の is affected との後ろに省略された it is affected を条件節として繋ぎます。",
+        "options_explanations": {
+          "A": "【正解】「もし〜ならば」。対象デバイスだった場合の条件を提示する接続詞として完璧です。",
+          "B": "【不正解】「または」。選択を表す等位接続詞であり、文脈を繋げません。",
+          "C": "【不正解】「だから」。因果関係を接続する等位接続詞であり、条件を提示できません。",
+          "D": "【不正解】「しかし」。逆接の等位接続詞であり、文脈に適合しません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Coordinate",
+          "B": "Collate",
+          "C": "Conduct",
+          "D": "Convince"
+        },
+        "correct_answer": "A",
+        "explanation": "「サポートチームと（連絡を取り合って調整する）」という意味になる動詞(A) Coordinate が適切です。coordinate with で「〜と調整する、連絡を取り合う」というビジネス定番のコロケーションです。",
+        "options_explanations": {
+          "A": "【正解】「調整する、連携する」。support team と協力して手続きを調整するという文脈に最適です。",
+          "B": "【不正解】「照合する、ページ順を揃える」。情報を比較・整理するという意味になり、文脈に合いません。",
+          "C": "【不正解】「実施する、行う」。conduct meeting などのように使いますが、with と結びつきません。",
+          "D": "【不正解】「確信させる、説得する」。人を納得させるという意味の動詞であり、文脈に適合しません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Your replacement will be shipped within three business days.",
+          "B": "The RX-4 model won several design awards last year.",
+          "C": "Our store hours have been extended for the summer.",
+          "D": "Please make sure your device is charged before use."
+        },
+        "correct_answer": "A",
+        "explanation": "自主回収と代替品交換を促す案内なので、その手配（返品・交換手続き）の直後に「代替品は3営業日以内に発送されます」という具体的な配送スケジュールを伝える(A)が最も適切です。",
+        "options_explanations": {
+          "A": "【正解】「代替品は3営業日以内に発送されます」。交換手配を説明する前文からの流れとして極めて実務的で自然です。",
+          "B": "【不正解】「RX-4モデルは昨年いくつかのデザイン賞を受賞しました」。不具合の回収告知の中で自賛する文章を入れるのは不自然です。",
+          "C": "【不正解】「営業時間が夏期のために延長されました」。会社全体の店舗時間案内であり、この自主回収のお知らせに直接の関係はありません。",
+          "D": "【不正解】「使用前にデバイスが充電されているか確認してください」。バッテリーの過熱不具合が起きているため、使用を直ちに中止させる文脈と矛盾します。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_003",
+    "target_level": 700,
+    "passage_text": "Dear Valued Member, \nWe are writing to apologize for the network outage that occurred yesterday. Our technical team resolved ( --- 1 --- ) in under two hours, but we know it caused disruptions. We are committed to ( --- 2 --- ) high reliability for all our digital services. To apologize for this issue, we will automatically credit a five percent discount to your next monthly bill. You do not need to contact us to receive ( --- 3 --- ). ( --- 4 --- ). Thank you for your continued loyalty and understanding. \nSincerely, \nNetwork Operations Team",
+    "passage_translation": "大切なお客様へ \n昨日発生したネットワーク障害についてお詫び申し上げます。技術チームは2時間未満で（それを）解決いたしましたが、混乱を招いてしまったことを認識しております。当社はすべてのデジタルサービスに対して高い信頼性を（維持すること）をお約束いたします。この問題に対するお詫びとして、次回の月額請求に自動的に5％の割引を適用いたします。これを受け取るために当社にご連絡いただく必要はござい（ません）。（将来的な問題を防ぐために、サーバーのアップグレードを行っています。）引き続きのご愛顧とご理解に感謝いたします。 \n敬具 \nネットワーク運用チーム",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "B": "them",
+          "C": "they",
+          "D": "its"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 resolved の目的語として、前単数の「the network outage（ネットワーク障害）」を指す代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞（単数）。the network outageを指す代名詞として適切です。",
+          "B": "【不正解】目的格代名詞（複数）。対象が単数名詞のため不適切です。",
+          "C": "【不正解】主格代名詞。動詞の後ろの目的語としては置けません。",
+          "D": "【不正解】所有格代名詞。後ろに名詞を伴うか、「それのもの」という意味になりますが、ここでは文法的に通りません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "maintaining",
+          "B": "maintain",
+          "C": "maintained",
+          "D": "maintains"
+        },
+        "correct_answer": "A",
+        "explanation": "be committed to の「to」は前置詞であるため、後ろには名詞または動名詞を置く必要があります。「高い信頼性を維持することに尽力する」という意味になる動名詞(A) maintainingが適切です。",
+        "options_explanations": {
+          "A": "【正解】動名詞。前置詞 to の目的語として正しく機能します。",
+          "B": "【不正解】動詞の原形。toを不定詞のtoと誤認させるひっかけですが、前置詞のため原形は置けません。",
+          "C": "【不正解】過去分詞。前置詞の後ろに単独で置くことはできません。",
+          "D": "【不正解】動詞の三人称単数現在形。前置詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "this",
+          "B": "these",
+          "C": "those",
+          "D": "them"
+        },
+        "correct_answer": "A",
+        "explanation": "receive の目的語として、前述の「a five percent discount（5％の割引：単数形）」を指す指示代名詞(A) this が適切です。",
+        "options_explanations": {
+          "A": "【正解】指示代名詞（単数）。前文の a five percent discount を指します。",
+          "B": "【不正解】指示代名詞（複数）。指す対象が単数のため不適切です。",
+          "C": "【不正解】指示代名詞（複数・遠称）。対象が複数形ではないため不適切です。",
+          "D": "【不正解】人称代名詞（複数）。複数形を指すため不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We are upgrading our servers to prevent future issues.",
+          "B": "Our new mobile app is now available for download.",
+          "C": "The office is open from Monday to Friday.",
+          "D": "Please check our website for a list of retail locations."
+        },
+        "correct_answer": "A",
+        "explanation": "ネットワーク障害をお詫びするサービス復旧のお知らせであり、最後のまとめとして「将来の問題を防ぐためのサーバーのアップグレードを行っている（再発防止策）」と伝える(A)が最も誠実で自然な文脈です。",
+        "options_explanations": {
+          "A": "【正解】「将来的な問題を防ぐために、サーバーのアップグレードを行っています」。再発防止に向けた取り組みを説明する文脈として最適です。",
+          "B": "【不正解】「当社の新しいモバイルアプリがダウンロード可能です」。障害のお詫びの文脈の中でアプリの販促をするのは筋が通りません。",
+          "C": "【不正解】「オフィスは月曜日から金曜日まで営業しています」。障害報告メールに突然本社の営業時間を入れるのは不自然です。",
+          "D": "【不正解】「小売店舗のリストはウェブサイトをご覧ください」。店舗の場所の紹介であり、ネットワーク障害とは無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_004",
+    "target_level": 700,
+    "passage_text": "To: All Department Heads \nFrom: Marketing Director \nSubject: Fall Campaign \nWe are ready to launch our new promotional campaign for the fall product line. The creative team has designed unique ads that focus on ( --- 1 --- ) core brand values. To ensure maximum impact, we must ( --- 2 --- ) our efforts across all retail locations. Sales managers are requested to review the promotional materials sent to ( --- 3 --- ) yesterday. ( --- 4 --- ). We expect a significant increase in customer traffic. \nMarketing Department",
+    "passage_translation": "各部門長へ \nマーケティングディレクターより \n件名：秋のキャンペーン \n秋の製品ライン向けの新しいプロモーションキャンペーンを開始する準備が整いました。クリエイティブチームは、当社のコアブランドバリューに焦点を当てたユニークな広告をデザインしました。最大の効果を確実にするために、すべての小売店舗において取り組みを（調整し）なければなりません。営業マネージャーは、昨日（彼ら：各マネージャー）に送付された販促資料を確認するようお願いいたします。（新しい製品機能についてスタッフをトレーニングしてください。）顧客トラフィックの大幅な増加を期待しています。 \nマーケティング部",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "our",
+          "|B": "ours",
+          "C": "us",
+          "D": "ourselves"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞句「core brand values」を修飾する所有格代名詞(A) our（私たちの）が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。後ろの名詞句を修飾するのに最適です。",
+          "B": "【不正解】所有代名詞。「私たちのもの」という意味になり、後ろに名詞を置けません。",
+          "C": "【不正解】目的格代名詞。名詞の前に目的格を直接置くことはできません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾する役割はありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "coordinate",
+          "B": "collaborate",
+          "C": "communicate",
+          "D": "contribute"
+        },
+        "correct_answer": "A",
+        "explanation": "「取り組みを（調整・統制する）」という意味になり、他動詞として後ろの our efforts を目的語に取ることができる(A) coordinate が適切です。",
+        "options_explanations": {
+          "A": "【正解】「〜を調整する」。努力やスケジュールを調整するという他動詞として完璧です。",
+          "B": "【不正解】「協力する」。自動詞（collaborate on/with）として使われるため、直接 our efforts を目的語に置けません。",
+          "C": "【不正解】「伝える、意見を交わす」。自動詞（communicate with）として使われることが多く、努力を伝達するというのは意味が通りません。",
+          "D": "【不正解】「貢献する、寄付する」。自動詞（contribute to）として使われるため、直接目的語を取るのに適しません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "them",
+          "B": "they",
+          "C": "their",
+          "D": "themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "前置詞 to の目的語であり、前述の複数名詞「Sales managers」を指す代名詞として目的格の(A) them が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞（複数）。前文の Sales managers（複数形）を指す適切な形です。",
+          "B": "【不正解】主格代名詞。前置詞の後ろには置けません。",
+          "C": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "D": "【不正解】再帰代名詞。主語(Sales managers)の動作が自分自身に向かう受動関係（sent to them）ではないため不要です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please train your staff on the new product features.",
+          "B": "The company picnic has been scheduled for next Saturday.",
+          "C": "Our budget was approved by the board of directors.",
+          "D": "We will move to a new office building next month."
+        },
+        "correct_answer": "A",
+        "explanation": "秋の新製品ローンチに向けた部門長・営業マネージャーへの指示メールであるため、店舗でのキャンペーン成功に向けて「新しい製品の特徴についてスタッフをトレーニングしてください」と具体的なアクションを促す(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「新しい製品の特徴についてスタッフをトレーニングしてください」。小売店全体でのキャンペーン展開に直接役立つ現場への指示です。",
+          "B": "【不正解】「会社ピクニックは来週の土曜日に予定されています」。新製品キャンペーンの重要メモに私的なピクニック予定を入れるのは不適当です。",
+          "C": "【不正解】「予算は取締役会によって承認されました」。キャンペーン実施直前の準備段階の指示メールにおいて、いまさら予算の承認報告は不要です。",
+          "D": "【不正解】「来月新しいオフィスビルに移転します」。ビル移転は、今回の秋のマーケティング施策とは無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_005",
+    "target_level": 700,
+    "passage_text": "To: All Employees \nFrom: HR Management \nSubject: Updated Work Policy \nWe are introducing a new flexible work policy starting next month. Employees may work remotely up to two days per week, provided ( --- 1 --- ) coordinate with their managers in advance. This change aims to help staff balance ( --- 2 --- ) professional and personal responsibilities. We believe this flexibility will ( --- 3 --- ) employee satisfaction and productivity. ( --- 4 --- ). Please review the full policy document on our intranet. \nHR Department",
+    "passage_translation": "全従業員へ \n人事管理部より \n件名：更新された勤務ポリシー \n来月から新しいフレックスワークポリシーを導入いたします。従業員は、事前にマネージャーと（連絡を調整する）ことを条件に、週に最大2日までリモートワークを行うことができます。この変更は、スタッフが（自分の）仕事と個人の責任（私生活）のバランスを取るのを助けることを目的としています。この柔軟性は、従業員の満足度と生産性を（高める）と信じております。（木曜日に仮想説明会が開催されます。）イントラネット上のポリシー全文をご確認ください。 \n人事部",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "they",
+          "B": "them",
+          "C": "their",
+          "D": "themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "provided（〜という条件で）は接続詞として機能し、後ろに主語と動詞を伴う節を作ります。動詞 coordinate の主語として「Employees（複数名詞）」を指す主格の代名詞(A) they が適切です。",
+        "options_explanations": {
+          "A": "【正解】主格代名詞。provided 節の主語として正しく機能します。",
+          "B": "【不正解】目的格代名詞。主語の位置に置くことはできません。",
+          "C": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "D": "【不正解】再帰代名詞。主語を強調する用途ではなく、節の主語そのものとして置くことはできません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "their",
+          "B": "they",
+          "C": "them",
+          "D": "theirs"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞句「professional and personal responsibilities」を修飾する、複数従業員の「彼らの」に該当する所有格代名詞(A) their が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。後ろの複合名詞句を適切に修飾します。",
+          "B": "【不正解】主格代名詞。名詞の前で修飾する役割はありません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置くことはできません。",
+          "D": "|【不正解】所有代名詞。「彼らのもの」という意味になり名詞句の前に置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "enhance",
+          "B": "enhancing",
+          "C": "enhanced",
+          "D": "penetrates"
+        },
+        "correct_answer": "A",
+        "explanation": "助動詞 will の後ろに置く、動詞の原形が必要です。「従業員の満足度と生産性を（高める、向上させる）」という意味の他動詞(A) enhance が最適です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。「〜を高める」という意味で will の後ろに置くのに適しています。",
+          "B": "【不正解】現在分詞。will の後ろに直接置くことはできません（will be enhancingなら可）。",
+          "C": "【不正解】過去分詞。willの後ろに置いて能動態の文脈を作ることはできません。",
+          "D": "【不正解】動詞の三人称単数現在形。「浸透する、貫通する」という意味で、満足度を高めるという意味に合いません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A virtual information session will be held this Thursday.",
+          "B": "The office cafeteria will begin serving breakfast next week.",
+          "C": "Our IT team upgraded the server last weekend.",
+          "D": "The parking garage will be closed for cleaning on Friday."
+        },
+        "correct_answer": "A",
+        "explanation": "新しいフレックス勤務制度の導入にあたり、従業員からの質問や制度の詳しい説明を行うために「今週の木曜日にオンライン説明会（バーチャルセッション）が開催されます」と周知する(A)が完璧な流れです。",
+        "options_explanations": {
+          "A": "【正解】「オンライン説明会が今週木曜日に開催されます」。新しいポリシーの詳細を補足する説明として実務上非常に自然です。",
+          "B": "【不正解】「オフィスのカフェテリアは来週から朝食の提供を開始します」。勤務制度の変更告知において、突然カフェテリアの案内を入れるのは無関係です。",
+          "C": "【不正解】「ITチームは先週末にサーバーをアップグレードしました」。リモート環境の準備の背景になり得ますが、次の文「ポリシー全文をイントラで確認してください」と直接接続しません。",
+          "D": "【不正解】「駐車場は金曜日に清掃のため閉鎖されます」。勤務ポリシーの変更と駐車場の清掃案内は無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_006",
+    "target_level": 700,
+    "passage_text": "Dear Ms. Higgins, \nThank you for meeting with us last Tuesday to discuss your upcoming project. Our team has prepared a detailed proposal to ( --- 1 --- ) your design needs. We believe our strategy will significantly enhance your brand's market presence. Please review the attached document and let ( --- 2 --- ) know your thoughts. We are eager to ( --- 3 --- ) on this exciting project and achieve your business goals. ( --- 4 --- ). We look forward to hearing from you. \nSincerely, \nRobert Chen \nCreative Director",
+    "passage_translation": "ヒギンズ様 \n近々予定されているプロジェクトについて話し合うため、先週の火曜日に面談のお時間をいただき、誠にありがとうございました。当社のチームは、お客様のデザイン上のニーズに（対応する）ための詳細な提案書を用意いたしました。当社の戦略は、貴社の市場における存在感を大幅に高めると信じております。添付の資料を確認し、（当社に）ご意見をお聞かせください。このエキサイティングなプロジェクトにおいて（協力し）、ビジネス目標を達成することを切望しております。（来週、フォローアップのお電話をさせていただくことができます。）お返事をお待ちしております。 \n敬具 \nロバート・チェン \nクリエイティブ・ディレクター",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "accommodate",
+          "B": "accommodating",
+          "C": "accommodated",
+          "D": "accommodates"
+        },
+        "correct_answer": "A",
+        "explanation": "不定詞の to の後ろに置く動詞の原形が必要です。「〜に対応する、満たす」という意味の動詞(A) accommodate が適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。「（要望・条件などに）応じる、対応する」というビジネスの重要単語です。",
+          "B": "【不正解】現在分詞。to不定詞の後ろには置けません。",
+          "C": "【不正解】過去分詞。to不定詞の後ろには置けません。",
+          "D": "【不正解】動詞の三人称単数現在形。to不定詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "us",
+          "B": "our",
+          "C": "we",
+          "D": "ourselves"
+        },
+        "correct_answer": "A",
+        "explanation": "使役動詞 let + 目的語(O) + 原形不定詞(know) の形を取ります。目的語の位置なので目的格の(A) us が適切です。let us know（私たちに教えてください）は日常・ビジネスを問わず頻出の慣用表現です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。let の目的語として文法的に機能します。",
+          "B": "【不正解】所有格代名詞。後ろに名詞を伴う必要がありますが、原形動詞 know があるため置けません。",
+          "C": "【不正解】主格代名詞。let の目的語として主格は置けません。",
+          "D": "【不正解】再帰代名詞。文全体の主語は「Please」に対する相手（you）であり、us を再帰代名詞にする理由がありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "collaborate",
+          "B": "collaborating",
+          "C": "collaborated",
+          "D": "collaborates"
+        },
+        "correct_answer": "A",
+        "explanation": "be eager to（〜することを切望する）の後ろに置く、動詞の原形が必要です。後ろの前置詞 on と結びつき「〜において協力する、共同で取り組む」という意味になる自動詞(A) collaborate が適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。collaborate on / with はビジネスシーンで不可欠な表現です。",
+          "B": "//【不正解】現在分詞。不定詞の to の後ろには置けません。",
+          "C": "【不正解】過去分詞。不定詞の to の後ろには置けません。",
+          "D": "【不正解】動詞の三人称単数現在形。不定詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We are available for a follow-up call next week.",
+          "B": "The initial budget was processed yesterday afternoon.",
+          "C": "Our firm won several marketing awards last year.",
+          "D": "Please sign the lease agreement by Friday."
+        },
+        "correct_answer": "A",
+        "explanation": "デザイン提案書を送付し、返事を待つ段階での挨拶文であるため、「ご意見をお聞かせください、来週フォローアップのお電話で詳細をお話しできます」と繋げる(A)が最も実務的にスマートです。",
+        "options_explanations": {
+          "A": "【正解】「来週、フォローアップのお電話でお話しするお時間がございます」。提案書の送付後の次のステップとして最適です。",
+          "B": "【不正解】「初期予算は昨日の午後に処理されました」。まだ相手が提案書を確認する前の段階であり、予算の処理報告をするのは順序が合いません。",
+          "C": "【不正解】「当社は昨年いくつかのマーケティング賞を受賞しました」。唐突な実績自慢であり、提案書の確認依頼の文脈に合いません。",
+          "D": "【不正解】「金曜日までに賃貸借契約書に署名してください」。これはオフィスビルの契約であり、デザインプロジェクトの提案段階とは無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_007",
+    "target_level": 700,
+    "passage_text": "Dear User, \nThank you for contacting our technical support team. We have investigated the software issue you reported regarding your account access. Our engineers have successfully resolved ( --- 1 --- ), and you should now be able to log in without difficulty. To prevent this problem from ( --- 2 --- ) again, we have updated your security settings. Please let us know if ( --- 3 --- ) experience any further errors. ( --- 4 --- ). Thank you for your patience during this process. \nSincerely, \nIT Support",
+    "passage_translation": "ユーザー様 \nテクニカルサポートチームにご連絡いただきありがとうございます。お客様のアカウントアクセスに関して報告されたソフトウェアの問題を調査いたしました。当社の技術者が（それを）無事に解決いたしましたので、現在は問題なくログインできるはずです。この問題が再び（発生する）のを防ぐため、セキュリティ設定を更新いたしました。もしこれ以上のエラーが（発生した場合は：お客様が経験した場合は）、当社にお知らせください。（安全のため、パスワードを再設定することをお勧めします。）このプロセスにおける忍耐に感謝いたします。 \n敬具 \nITサポート",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "B": "them",
+          "C": "they",
+          "D": "its"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 resolved の目的語として、前文の単数名詞「the software issue（ソフトウェアの問題）」を指す代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（単数目的格）。単数名詞 the software issue を正しく受けます。",
+          "B": "【不正解】代名詞（複数目的格）。指す対象が単数であるため不適格です。",
+          "C": "//【不正解】主格代名詞。動詞の目的格として置けません。",
+          "D": "【不正解】所有格代名詞。「それのもの」または所有格の意味となり、文法的に合いません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "occurring",
+          "B": "occur",
+          "C": "occurred",
+          "D": "occurs"
+        },
+        "correct_answer": "A",
+        "explanation": "prevent A from B（AがBするのを防ぐ）の重要熟語です。前置詞 from の後ろに置く、動名詞(A) occurring が適切です。",
+        "options_explanations": {
+          "A": "【正解】動名詞。prevent ... from doing の構文に合致する唯一の選択肢です。",
+          "B": "【不正解】動詞の原形。前置詞 from の後ろには置けません。",
+          "C": "【不正解】過去分詞。前置詞の後ろで動名詞と同じ役割を果たすことはできません。",
+          "D": "【不正解】動詞の三人称単数現在形。前置詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "if 節の中で動詞 experience の主語となる、主格代名詞(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】主格代名詞。節の主語として適切に機能します。",
+          "B": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "C": "【不正解】所有代名詞。「あなたのもの」という意味になり主語に合いません。",
+          "D": "【不正解】再帰代名詞。主語を特別に強調する用途ではないため不適格です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We recommend resetting your password for security.",
+          "B": "The website is currently undergoing planned maintenance.",
+          "C": "Our office hours are from nine to five.",
+          "D": "We offer a fifteen percent discount on software upgrades."
+        },
+        "correct_answer": "A",
+        "explanation": "アカウントアクセス関連のセキュリティ設定を更新した、と前文で説明しているため、「セキュリティ上の観点から、パスワードをリセット（再設定）することをお勧めします」とセキュリティ上の追加アドバイスを与える(A)が最も自然で親切です。",
+        "options_explanations": {
+          "A": "【正解】「セキュリティのため、パスワードを再設定することをお勧めします」。セキュリティ更新という前文の対応を受けて完璧な助言です。",
+          "B": "【不正解】「ウェブサイトは現在、計画メンテナンス中です」。今問題が解決して「ログインできるはずです」と伝えた直後にメンテナンス中とするのは矛盾します。",
+          "C": "【不正解】「オフィスの営業時間は9時から5時までです」。ITシステムの障害対応・設定案内の文脈において不要な一般事務連絡です。",
+          "D": "【不正解】「ソフトウェアアップグレードについて15％割引を提供しています」。今回のシステムトラブルに対する解決報告メールに割引プロモーションを強引に挟むのは不自然です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_008",
+    "target_level": 700,
+    "passage_text": "Notice to All Staff, \nThe annual Workplace Safety Workshop will be held on Wednesday afternoon. All employees must participate, as ( --- 1 --- ) is a mandatory requirement for our safety certification. The workshop will focus on identifying potential hazards and ( --- 2 --- ) accidents. Please confirm your attendance with your department supervisor today. ( --- 3 --- ) who complete the session will receive a certificate. ( --- 4 --- ). Thank you for your commitment to safety. \nManagement",
+    "passage_translation": "全スタッフへ \n毎年恒例の職場安全ワークショップが、水曜日の午後に開催されます。当社の安全認証には（それ：ワークショップへの参加）が必須の要件であるため、全従業員が参加しなければなりません。ワークショップでは、潜在的な危険の特定と、事故の（防止）に焦点を当てます。本日、各部門のスーパーバイザーに出席を確認（返答）してください。セッションを修了した（人たち）は、証明書を受け取ることができます。（イベントの前に、休憩室で軽いランチが提供されます。）安全に対する皆様の尽力に感謝いたします。 \n経営陣",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "|B": "they",
+          "C": "its",
+          "D": "itself"
+        },
+        "correct_answer": "A",
+        "explanation": "as（〜なので）が導く理由の節の主語として、前文の「participate（参加すること：単数の事柄）」または「Safety Workshop」を指す代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（単数主格）。前述の workshop への参加という概念を指して主語になります。",
+          "B": "【不正解】代名詞（複数主格）。指す事柄が複数形ではないため不適切です。",
+          "C": "【不正解】所有格代名詞。後ろに名詞を伴う必要がありますが、is という動詞があるため置けません。",
+          "D": "【不正解】再帰代名詞。主語を強調する役割ですが、ここでは単に「それ」という主格を表すべきところです。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "preventing",
+          "B": "prevent",
+          "C": "prevented",
+          "D": "prevents"
+        },
+        "correct_answer": "A",
+        "explanation": "and の前後で等位接続される形（並行構造）に注目します。前置詞 on の目的語である「identifying potential hazards」と並ぶため、同じく動名詞(A) preventing が適切です。「危険の特定と事故の防止」という意味になります。",
+        "options_explanations": {
+          "A": "【正解】動名詞。identifying と並立関係（and で接続）になり、前置詞 on に支配される正しい構造です。",
+          "B": "【不正解】動詞の原形。動名詞と並立できないため不適格です。",
+          "C": "【不正解】過去分詞。並行構造のルールから不適切です。",
+          "D": "【不正解】動詞の三人称単数現在形。並行構造から外れるため不適格です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "Those",
+          "B": "That",
+          "C": "This",
+          "D": "These"
+        },
+        "correct_answer": "A",
+        "explanation": "Those who do で「〜する人々、〜する人たち」という定番の重要代名詞表現です。後ろに who complete とあるため、(A) Those（人々）が適切です。",
+        "options_explanations": {
+          "A": "【正解】指示代名詞。「Those who + 動詞」で「〜する人々」という普遍の定番用法です。",
+          "B": "【不正解】指示代名詞（単数）。whoの後ろが複数動詞に対応していませんし、「That who」という慣用句は存在しません。",
+          "C": "【不正解】指示代名詞（単数）。「This who」とする用法はありません。",
+          "D": "【不正解】指示代名詞（複数）。these who とする表現は一般的ではなく、those who が正しい代名詞です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A light lunch will be served in the breakroom before the event.",
+          "B": "The safety equipment was purchased last month.",
+          "C": "Please wear comfortable athletic clothes to the session.",
+          "D": "Our building was constructed in June 2005."
+        },
+        "correct_answer": "A",
+        "explanation": "水曜午後の安全講習会の案内と出席確認、修了証の付与に言及した上で、参加意欲を高めたり実務的に役立つ付帯事項として「イベントの前に休憩室で軽い昼食が提供されます」という情報を伝える(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「イベントの前に、休憩室で軽いランチが提供されます」。ワークショップ参加への案内として最も自然な補足です。",
+          "B": "【不正解】「安全設備は先月購入されました」。安全講習の受講を促すメモの中で、設備の購入時期を伝えるのは関係が薄いです。",
+          "C": "【不正解】「セッションには快適なスポーツウェアを着用してください」。職場における一般的な安全講習（ハザード特定や座学など）であり、スポーツ用の服装を指定する理由はありません。",
+          "D": "【不正解】「当ビルは2005年6月に建設されました」。ビルの建設年は、今回の講習会の実施案内とは無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_009",
+    "target_level": 700,
+    "passage_text": "Dear Ms. Vance, \nWe are pleased to offer you the position of Senior Account Manager at Apex Solutions. We were highly impressed by your qualifications and believe ( --- 1 --- ) will make a great addition to our team. Your primary responsibility will be ( --- 2 --- ) our sales strategies. The details of our benefits package are attached. Please review ( --- 3 --- ) and return a signed copy by Friday. ( --- 4 --- ). We hope to welcome you to our company soon. \nSincerely, \nDavid Morrison \nDirector of Human Resources",
+    "passage_translation": "ヴァンス様 \nアペックス・ソリューションズ社のシニアアカウントマネージャーの職を提示できることを大変嬉しく思います。お客様の資格と経験に非常に感銘を受け、（あなた：ヴァンス様）が当社のチームへの素晴らしい一員になると信じております。主な職務は、当社の販売戦略を（調整・管理する）ことになります。福利厚生パッケージの詳細は添付されています。それらを確認し、金曜日までに署名した写しをご返送ください。（あなたの正式な勤務開始日は8月1日に予定されています。）近いうちにお客様を当社にお迎えできることを願っております。 \n敬具 \nデビッド・モリソン \n人事部長",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "and believe の後ろに省略された接続詞 that の節が置かれています。その that 節の動詞 will make の主語となるべき主格の代名詞(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】主格代名詞。節の主語として適切に機能します。",
+          "B": "【不正解】所有格代名詞。後ろに名詞を伴わなければ主語にできません。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり文脈が通りません。",
+          "D": "【不正解】再帰代名詞。主語を強調するものではなく、主語そのものを表す主格が必要です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "coordinating",
+          "B": "coordinate",
+          "C": "coordinated",
+          "D": "coordinates"
+        },
+        "correct_answer": "A",
+        "explanation": "be動詞 will be の後ろで補語の役割を果たし、「〜を調整すること（職務内容）」という名詞的役割を持つ動名詞(A) coordinating が適切です。",
+        "options_explanations": {
+          "A": "【正解】動名詞。「（仕事内容が）〜を管理・調整すること」となり、補語の役割を正しく果たします。",
+          "B": "【不正解】動詞の原形。be動詞の後ろに直接置くことはできません。",
+          "C": "【不正解】過去分詞。受動態（調整される）になると、後ろに「our sales strategies」という目的語を伴うことができません。",
+          "D": "【不正解】動詞の三人称単数現在形。be動詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "them",
+          "B": "they",
+          "C": "their",
+          "D": "themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 review の目的語として、前文の「The details of our benefits package（複数扱いの詳細、または benefits packages）」を指す、または文脈的に添付書類やパッケージの内容物（複数）を指す代名詞の目的格(A) them が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（複数目的格）。前文の「The details...」を指す適切な形です。",
+          "B": "【不正解】主格代名詞。動詞の目的語には置けません。",
+          "C": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "D": "【不正解】再帰代名詞。主語(Pleaseに対するyou)と一致しないため不適格です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Your official start date is scheduled for August 1.",
+          "B": "The interview panel was comprised of five managers.",
+          "C": "Our sales team exceeded their annual targets.",
+          "D": "The office is located in downtown Seattle."
+        },
+        "correct_answer": "A",
+        "explanation": "内定通知書（オファーレター）の文脈であり、署名書類の返送期限を求めた後に「あなたの正式な勤務開始日は8月1日を予定しています」と伝える(A)が最も完璧な採用手続きのステップに合致します。",
+        "options_explanations": {
+          "A": "【正解】「あなたの正式な勤務開始日は8月1日に予定されています」。内定オファーレターにおける必須の補足情報です。",
+          "B": "【不正解】「面接官は5名のマネージャーで構成されていました」。すでに内定を出している段階において、過去の面接官構成を振り返る必要はありません。",
+          "C": "【不正解】「当社の営業チームは年間目標を達成しました」。会社の実績自慢であり、採用通知の手続き指示の間に挟むには不自然です。",
+          "D": "【不正解】「オフィスはシアトルの中心部にあります」。オフィスの立地情報は内定以前の応募・面接段階で分かっていることが多く、署名と勤務開始の文脈と直接繋がりません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_010",
+    "target_level": 700,
+    "passage_text": "Dear Customer, \nWe are writing to inform you that your recent order has been delayed due to severe weather. Our logistics team is working hard to resolve ( --- 1 --- ) as quickly as possible. We expect your package to ship by Thursday. We will email ( --- 2 --- ) a tracking number once it is with the carrier. We sincerely apologize for ( --- 3 --- ) inconvenience this delay may cause to your business. ( --- 4 --- ). Thank you for your patience and understanding. \nSincerely, \nApex Logistics Team",
+    "passage_translation": "お客様へ \n悪天候のため、最近のご注文の発送が遅れていることをお知らせいたします。当社の物流チームは、できるだけ早く（それを）解決するために懸命に努力しております。お荷物は木曜日までに発送される予定です。運送業者に渡り次第、追跡番号を（お客様に）メールでお送りします。この遅延がお客様のビジネスに引き起こす（いかなる）ご不便に対しても、心よりお詫び申し上げます。（遅延の補填として、配送料を免除いたしました。）これまでの忍耐とご理解に感謝いたします。 \n敬具 \nアペックス・ロジスティクス・チーム",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "B": "them",
+          "C": "they",
+          "D": "its"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 resolve の目的語として、前述の「your recent order has been delayed（注文が遅れている状況、または遅延そのもの）」を指す単数代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（単数目的格）。遅延トラブルという単数の状況を指します。",
+          "B": "【不正解】代名詞（複数目的格）。トラブルが複数形ではないため不適切です。",
+          "C": "【不正解】主格代名詞。目的語には置けません。",
+          "D": "【不正解】所有格代名詞。「それのもの」となり、文脈的に合いません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "S + will email + 間接目的語(you) + 直接目的語(a tracking number) という二重目的語の文脈です。「あなたに」を意味する目的格代名詞(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。emailの後に間接目的語として置くのに完璧です。",
+          "B": "【不正解】所有格代名詞。後ろに名詞を伴う必要があり不適格です。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり文脈が通りません。",
+          "D": "【不正解】再帰代名詞。主語は We（当社）であり、目的語に yourself を置く理由はありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "any",
+          "B": "some",
+          "C": "many",
+          "D": "much"
+        },
+        "correct_answer": "A",
+        "explanation": "お詫び文での定番「apologize for any inconvenience B may cause（Bが生じるかもしれないいかなるご不便に対してもお詫びする）」の形です。譲歩・仮定の「いかなる〜でも」を意味する(A) any が適切です。",
+        "options_explanations": {
+          "A": "【正解】形容詞。「どのような不都合・ご不便でも」というお詫び表現の極めて標準的なコロケーションです。",
+          "B": "【不正解】形容詞。「いくつかの不便」となり、お詫びの表現としては限定的で不自然です。",
+          "C": "【不正解】形容詞。可算名詞の複数形を修飾するため、不可算名詞の inconvenience（ここでは不快や不都合を表す抽象名詞）と合いません。",
+          "D": "【不正解】形容詞。much inconvenience も文法上あり得ますが、これから起こる不確定なトラブルへのお詫びには any の方が慣用的に圧倒的に好まれます。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We have waived your shipping fee to compensate for the delay.",
+          "B": "The retail store is open from ten to six daily.",
+          "C": "Our online system is currently undergoing an upgrade.",
+          "D": "We offer a wide range of organic products."
+        },
+        "correct_answer": "A",
+        "explanation": "遅延に対する丁寧なお詫びの文脈において、お詫びと感謝の間に「遅延を補填するため、配送料を免除いたしました」という顧客対応上の決定事項を挿入する(A)が、ビジネスレターの構成として最も適切かつ説得力があります。",
+        "options_explanations": {
+          "A": "【正解】「遅延の補填として、配送料を免除いたしました」。お詫びの一環としての対応として、この遅延案内メールの中で最も必要とされる具体的な情報です。",
+          "B": "【不正解】「小売店は毎日10時から6時まで営業しています」。今回のオンライン（または物流倉庫経由の）配送遅延トラブルとは無関係です。",
+          "C": "【不正解】「オンラインシステムは現在アップグレード中です」。悪天候による配送遅延の話をしているところにシステムアップグレードの話を入れるのは文脈の破綻です。",
+          "D": "【不正解】「有機製品を幅広く提供しています」。お詫びのメールの中で唐突に商品の種類をアピールするのは失礼であり、不自然です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_011",
+    "target_level": 700,
+    "passage_text": "Notice to Users, \nOn Sunday night, we will perform a major upgrade on our mobile banking application. During this time, users may experience temporary issues when trying to access ( --- 1 --- ) accounts. We recommend ( --- 2 --- ) any urgent transactions before Sunday evening. This upgrade will bring new security features and enhance transaction speeds. We are confident ( --- 3 --- ) will improve your digital banking experience. ( --- 4 --- ). Thank you for banking with us. \nApex Bank Management",
+    "passage_translation": "ユーザーの皆様へ \n日曜日の夜、モバイルバンキングアプリの主要なアップグレードを実施いたします。この時間帯、ユーザーは（各自の）アカウントにアクセスしようとする際に、一時的な問題が発生する可能性がございます。日曜日の夕方までに、緊急の取引を（完了させておくこと）をお勧めいたします。このアップグレードにより、新しいセキュリティ機能が導入され、取引速度が向上します。（それ：アップグレード）が皆様のデジタルバンキング体験を向上させると確信しております。（月曜日の朝までには、通常のサービスが完全に復旧する予定です。）当行をご利用いただきありがとうございます。 \nアペックス銀行 経営陣",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "their",
+          "B": "they",
+          "C": "them",
+          "D": "theirs"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「accounts」を修飾する、複数名詞「users」に対応する所有格代名詞(A) their が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。複数名詞 accounts を修飾し、「各自のアカウント」という意味を正しく作ります。",
+          "B": "【不正解】主格代名詞。名詞の前に主格は置けません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置くことはできません。",
+          "D": "【不正解】所有代名詞。「彼らのもの」という意味になり名詞を修飾できません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "completing",
+          "B": "complete",
+          "C": "completed",
+          "D": "completes"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 recommend は動名詞を直接目的語に取る動詞です（recommend doing）。したがって、(A) completing が適切です。",
+        "options_explanations": {
+          "A": "【正解】動名詞。recommend の目的語として正しい形です。",
+          "B": "【不正解】動詞の原形。recommend の後ろに直接原形を置くことはできません（recommend that you complete なら可）。",
+          "C": "【不正解】過去分詞。recommend の目的語（能動関係）として機能しません。",
+          "D": "【不正解】動詞の三人称単数現在形。動詞を重ねて置くことはできません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "B": "they",
+          "C": "its",
+          "D": "itself"
+        },
+        "correct_answer": "A",
+        "explanation": "that 節（confident の後ろに that が省略されている）の中で will improve の主語となる、前述の「This upgrade（単数）」を指す代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（単数主格）。単数の名詞 upgrade を指し、will improve の主語として正しく機能します。",
+          "B": "【不正解】代名詞（複数主格）。指す対象が単数のため不適切です。",
+          "C": "【不正解】所有格代名詞。名詞を伴わなければ主語にできません。",
+          "D": "【不正解】再帰代名詞。主語の位置にそのまま置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Normal service will be fully restored by Monday morning.",
+          "B": "The interest rates on savings accounts will increase next month.",
+          "C": "Please visit our local branch to apply for a credit card.",
+          "D": "Our customer support desk is closed on national holidays."
+        },
+        "correct_answer": "A",
+        "explanation": "日曜夜のシステムアップグレードに伴う一時的なアクセス制限の告知なので、案内を締めくくるにあたり「月曜日の朝までに通常のサービスが完全に復旧します」と利用者に安心感を与える(A)を挿入するのが最適です。",
+        "options_explanations": {
+          "A": "【正解】「月曜日の朝までには、通常のサービスが完全に復旧する予定です」。一時的なダウンタイムを説明する上で最も重要かつ不可欠な情報です。",
+          "B": "【不正解】「普通預金の金利が来月引き上げられます」。システムメンテナンスのお知らせの中に、無関係な預金金利改定を入れるのは不自然です。",
+          "C": "【不正解】「クレジットカードのお申し込みは、お近くの店舗までお越しください」。システムメンテナンスの注意を促すメールの締めくくりにクレジットカードの勧誘を入れるのは不適当です。",
+          "D": "【不正解】「カスタマーサポートは祝日はお休みをいただいております」。日曜夜のシステム一時不通の案内において、突然の祝日のサポート休業案内は無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_012",
+    "target_level": 700,
+    "passage_text": "Dear Customer, \nThis is a friendly reminder that payment for invoice #9872 is now past due. The outstanding balance of $350 was due on June 15. Please remit your payment as soon as possible to avoid ( --- 1 --- ) late fees. If you have already sent your payment, please disregard ( --- 2 --- ) notice. You can view and pay your invoice online through our secure portal. If you need help, please contact ( --- 3 --- ) billing department. ( --- 4 --- ). Thank you for your prompt attention. \nSincerely, \nAccounts Receivable Department",
+    "passage_translation": "お客様へ \n請求書#9872のお支払期日が過ぎておりますことを、念のためお知らせいたします。未払残高350ドルは6月15日が期日となっておりました。遅延損害金を（被る：発生させる）ことを避けるため、できるだけ早くお支払いをご送金ください。すでに支払いを済まされている場合は、この通知はご容赦（無視）ください。セキュリティの確保されたポータルからオンラインで請求書の閲覧とお支払いが可能です。ご不明な点がございましたら、（当社の）請求部門までお問い合わせください。（平素よりお引き立てをいただき、協力的な関係を維持していただいていることに感謝いたします。）迅速なご対応をお願いいたします。 \n敬具 \n売掛金管理部門",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "incurring",
+          "B": "incur",
+          "C": "incurred",
+          "D": "incurs"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 avoid は動名詞のみを目的語に取る他動詞です（avoid doing）。したがって、「遅延損害金を被ることを避ける」という意味になる(A) incurring が適切です。",
+        "options_explanations": {
+          "A": "【正解】動名詞。avoid の後ろに置く目的語として文法的に機能します。",
+          "B": "【不正解】動詞の原形。avoid の直後に原形は置けません。",
+          "C": "【不正解】過去分詞。受動の意味になり、後ろに名詞句 late fees を目的語に取ることができません。",
+          "D": "【不正解】動詞の三人称単数現在形。avoid の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "this",
+          "B": "these",
+          "C": "those",
+          "D": "them"
+        },
+        "correct_answer": "A",
+        "explanation": "単数名詞「notice」を修飾する、近接の事物を指す指示形容詞(A) this（この）が適切です。",
+        "options_explanations": {
+          "A": "【正解】指示形容詞（単数）。単数名詞 notice を正しく修飾します。",
+          "B": "【不正解】指示形容詞（複数）。名詞が単数形のため不適格です。",
+          "C": "【不正解】指示形容詞（複数・遠称）。複数名詞を修飾するため不適切です。",
+          "D": "【不正解】代名詞（複数目的格）。名詞 notice の前に直接置いて修飾することはできません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "our",
+          "B": "ours",
+          "C": "us",
+          "D": "ourselves"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞句「billing department」を修飾する、所有格代名詞(A) our（私たちの）が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 billing department を修飾し、「当社の請求部門」と表現するのに適切です。",
+          "B": "【不正解】所有代名詞。「私たちのもの」となり、名詞を修飾できません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾する役割はありません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We appreciate your business and cooperative relationship.",
+          "B": "Our physical stores are closed for renovations.",
+          "C": "The refund has been credited to your credit card.",
+          "D": "We recently launched our new product line."
+        },
+        "correct_answer": "A",
+        "explanation": "支払期日超過を督促するデリケートな通知文であるため、最後は顧客への最低限の敬意と良好な関係維持のため、「平素からのご利用およびご協力関係に感謝申し上げます」と和らげる一文(A)を入れるのが最も洗練されたビジネス上のマナーです。",
+        "options_explanations": {
+          "A": "【正解】「平素のご愛顧とご協力関係に感謝いたします」。厳しい督促を和らげるビジネス定番の結びの一句です。",
+          "B": "【不正解】「実店舗は改装のため閉鎖されています」。支払督促のメールであり、実店舗の改装閉鎖の案内をするのは脈絡がありません。",
+          "C": "【不正解】「返金はクレジットカードへ適用されました」。支払いを督促している（まだお金を回収していない）状態であり、返金を適用したという一文は矛盾します。",
+          "D": "【不正解】「最近、新製品ラインを立ち上げました」。未払残高の督促の中で自社製品の宣伝をねじ込むのはマナー違反です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_013",
+    "target_level": 700,
+    "passage_text": "Dear Partner, \nWe are writing to inform you of an upcoming price adjustment for our wholesale products. Due to rising raw material costs, we must increase ( --- 1 --- ) prices by five percent, effective September 1. We have made every effort to delay this decision, but we must ( --- 2 --- ) it to maintain our high product quality. A revised price list is attached to this email. Please review ( --- 3 --- ) to prepare for future orders. ( --- 4 --- ). Thank you for your continued partnership. \nSincerely, \nWholesale Distribution Team",
+    "passage_translation": "パートナー企業様 \n当社の卸売製品の価格改定についてお知らせいたします。原材料費の高騰に伴い、9月1日より価格を5％引き上げざるをえなくなりました。当社はこの決定を先延ばしにするようあらゆる努力をしてまいりましたが、高い製品品質を維持するためには、（それを：改定）を（採用：実施）しなければなりません。改定後の価格表を本メールに添付しております。今後の注文に備えて、内容をご確認ください。（この価格改定について、何卒ご理解賜りますようお願い申し上げます。）引き続きのパートナーシップに感謝いたします。 \n敬具 \n卸売流通チーム",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "our",
+          "B": "ours",
+          "C": "us",
+          "D": "ourselves"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「prices」を修飾する、所有格代名詞(A) our が適切です。「当社の価格を」という意味になります。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 prices を適切に修飾します。",
+          "B": "【不正解】所有代名詞。名詞の前に置くことはできません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾する役割はありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "adopt",
+          "B": "adopting",
+          "C": "adopted",
+          "D": "adopts"
+        },
+        "correct_answer": "A",
+        "explanation": "助動詞 must の後ろに置く動詞の原形が必要です。「（手段や方針を）採用する、実施する」という意味の動詞(A) adopt が適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。must の後ろで「（苦渋の決断として、価格引き上げを）採用・実施する」という意味で正しく機能します。",
+          "B": "【不正解】現在分詞。助動詞 must の後ろに直接置けません。",
+          "C": "【不正解】過去分詞。助動詞の後ろで能動態を形成できません。",
+          "D": "【不正解】動詞の三人称単数現在形。助動詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "B": "they",
+          "C": "them",
+          "D": "its"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 review の目的語として、前文の「A revised price list（改定価格表：単数名詞）」を指す代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（単数目的格）。単数名詞 price list を受けます。",
+          "B": "【不正解】主格代名詞。動詞の目的語には置けません。",
+          "C": "【不正解】目的格代名詞（複数）。対象が単数のため不適切です。",
+          "D": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We appreciate your understanding regarding this adjustment.",
+          "B": "The marketing campaign was highly successful last quarter.",
+          "C": "Our factory will be closed for annual maintenance in August.",
+          "D": "Please contact our customer service to return any damaged goods."
+        },
+        "correct_answer": "A",
+        "explanation": "原材料費高騰に伴う「卸売価格の値上げ（価格改定）」を通知するデリケートな連絡なので、末尾でお詫びと協力関係の継続を求めつつ「この改定（adjustment）に関するご理解に感謝いたします」と述べる(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「この価格改定について、何卒ご理解賜りますようお願い申し上げます」。値上げ通知の結びの文章として非常に丁寧で完璧な文脈です。",
+          "B": "【不正解】「マーケティングキャンペーンは前四半期に大成功を収めました」。値上げを取引先に通告するメールの最後で、自社の営業成果の自慢をするのは極めて不適切です。",
+          "C": "【不正解】「当社の工場は8月に年次メンテナンスのため閉鎖されます」。値上げ通知であり、工場の特定月の一時休止は関係ありません。",
+          "D": "【不正解】「破損した商品を返品する場合はカスタマーサービスまでご連絡ください」。今回の主題は製品の一括値上げであり、破損品の個別返品対応の指示は文脈に合致しません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_014",
+    "target_level": 700,
+    "passage_text": "Notice to Tenants, \nLandscaping crews will perform annual tree trimming on the property this Thursday. They will work from 8:00 a.m. to 4:00 p.m. ( --- 1 --- ) will need access to the parking spaces near the trees during this time. Residents are asked to move ( --- 2 --- ) vehicles to the street on Wednesday evening. This project is necessary to prevent branches from ( --- 3 --- ) property during storms. ( --- 4 --- ). Thank you for your cooperation in keeping our community safe. \nBuilding Management Office",
+    "passage_translation": "入居者の皆様へ \n造園作業員が、今週の木曜日に敷地内の年次樹木伐採（トリミング）を実施いたします。作業は午前8時から午後4時まで行われます。（彼ら：作業員たち）は、この時間帯に樹木の近くの駐車スペースに立ち入る必要がございます。住民の皆様は、水曜日の夜に（各自の）車両を通りに移動していただくようお願いいたします。この作業は、嵐の際に枝が建物を（損傷させる）のを防ぐために不可欠です。（作業スペースに残された車両は、所有者の費用負担でレッカー移動される場合がございます。）コミュニティの安全維持に対するご協力に感謝いたします。 \nビル管理事務所",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "They",
+          "B": "Them",
+          "C": "Their",
+          "D": "Themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "空欄の後ろにある will need の主語となる、前述の「Landscaping crews（複数名詞）」を指す主格の代名詞(A) They が適切です。",
+        "options_explanations": {
+          "A": "【正解】主格代名詞（複数）。文の主語として正しく機能します。",
+          "B": "【不正解】目的格代名詞。主語の位置に置くことはできません。",
+          "C": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "D": "【不正解】再帰代名詞。主語を特別に強調する構造ではないため、そのまま主格の They を使います。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "their",
+          "|B": "they",
+          "C": "them",
+          "D": "theirs"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「vehicles」を修飾する、複数住民（Residents）を指す所有格代名詞(A) their（彼らの）が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 vehicles を修飾して「各自の車」と表すのに最適です。",
+          "B": "【不正解】主格代名詞。名詞の前に置けません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置くことはできません。",
+          "D": "【不正解】所有代名詞。「彼らのもの」という意味になり名詞を修飾できません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "damaging",
+          "B": "damage",
+          "C": "damaged",
+          "D": "damages"
+        },
+        "correct_answer": "A",
+        "explanation": "prevent A from B（AがBするのを防ぐ）の構文です。前置詞 from の目的語として動名詞(A) damaging が適切です。「枝が建物を損傷させるのを防ぐ」という意味になります。",
+        "options_explanations": {
+          "A": "【正解】動名詞。prevent branches from damaging property で文法・意味ともに完璧に合致します。",
+          "B": "【不正解】動詞の原形、または名詞。前置詞 from の後ろに直接原形は置けません。また名詞を置く場合、直後の property との接続が破綻します。",
+          "C": "【不正解】過去分詞。受動態の分詞は from の目的語として適しません。",
+          "D": "【不正解】動詞の三人称単数現在形。前置詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Vehicles left in the work zone may be towed at the owner's expense.",
+          "B": "The main office will be closed on Friday for a staff meeting.",
+          "C": "We plan to paint the exterior of the building next spring.",
+          "D": "Please report any maintenance issues to the landlord."
+        },
+        "correct_answer": "A",
+        "explanation": "水曜夜までに駐車中の車両を路街へ移動するように要請しているため、それに従わなかった場合の警告として「作業区域に残された車両は、所有者の負担でレッカー移動される場合があります」と実務上の注意点を追加する(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「作業区域に残された車両は、所有者の費用負担でレッカー移動される場合があります」。駐車禁止と車移動を要請するビルの案内として極めて実用的な注意喚起です。",
+          "B": "【不正解】「本社は金曜日にスタッフ会議のため閉鎖されます」。アパートの樹木剪定作業の案内の中で、突然本社オフィスの休業案内を挿入するのは無関係です。",
+          "C": "【不正解】「来年の春にビルの外装塗装を予定しています」。剪定作業のすぐ後に、はるか未来の別の塗装プロジェクトに言及するのは流れに合いません。",
+          "D": "【不正解】「メンテナンス問題は大家に報告してください」。車両移動の指示が本題であり、一般的な設備不具合の報告窓口の案内は不要です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_015",
+    "target_level": 700,
+    "passage_text": "Dear Resident, \nYour current lease agreement is scheduled to expire on September 30. We hope you have enjoyed ( --- 1 --- ) stay at Oakwood Apartments. We would love to offer ( --- 2 --- ) a lease renewal for another year. To show our appreciation, we will keep your rent rate unchanged for the next term if you sign by August 15. Please visit the leasing office to discuss ( --- 3 --- ) options. ( --- 4 --- ). We look forward to having you as a resident for another year. \nSincerely, \nOakwood Apartments Management",
+    "passage_translation": "入居者様 \n現在のご契約は9月30日に満了する予定です。オークウッド・アパートメントでの（ご滞在）を気に入っていただけたなら幸いです。さらに1年間の契約更新を（あなた：入居者様）に提示したく存じます。日頃の感謝を表して、8月15日までに署名していただいた場合、次の期間も家賃を変更なしに維持いたします。賃貸管理事務所までお越しいただき、（あなたの：各自の）選択肢をご検討ください。（代わりに退去を予定されている場合は、当社にご連絡ください。）引き続きもう1年、住民としてお迎えできることを楽しみにしております。 \n敬具 \nオークウッド・アパートメント 管理事務所",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "your",
+          "B": "you",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「stay（滞在、滞在期間：ここでは名詞）」を修飾する、所有格代名詞(A) your が適切です。enjoy your stay で「ご滞在を楽しんでいただく、快適に過ごしていただく」という決まり文句です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 stay を適切に修飾します。",
+          "B": "【不正解】目的格代名詞。後ろに名詞があるため目的格をそのまま置くのは不適切です（stayが動詞の原形であればenjoy you to stayなどの形もあり得ますが、ここでは名詞なので不適格です）。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり名詞を修飾できません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾する役割はありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "offer + 人(you) + 物(a lease renewal) の二重目的語を伴う動詞の構成です。人を指す目的格の(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。offer の間接目的語として完璧です。",
+          "B": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり文脈が破綻します。",
+          "D": "【不正解】再帰代名詞。主語は We（当社）であり、目的語に yourself を置く必然性がありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "your",
+          "B": "you",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「options（選択肢）」を修飾する、所有格代名詞(A) your が適切です。「各自の選択肢を話し合う」という意味になります。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 options を修飾し、「あなたの選択肢」というまとまりを作ります。",
+          "B": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり、名詞を修飾できません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾できません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please contact us if you plan to move out instead.",
+          "B": "The swimming pool will remain open until September.",
+          "C": "We have completed repairs on the laundry room equipment.",
+          "D": "Our community garden was featured in a local newspaper."
+        },
+        "correct_answer": "A",
+        "explanation": "家賃据え置きでの契約更新（renew）を提案し、事務所に相談に来るよう促しているため、「（更新する代わりに）もし退去されるご予定でしたら、当社にご連絡ください」と、契約満了時のもう1つの選択肢（退去）について実務的に言及している(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「代わりに退去を予定されている場合は、当社にご連絡ください」。契約満了時の手続き案内として非常に現実的で不可欠なフォローアップ文言です。",
+          "B": "【不正解】「プールは9月まで開いています」。契約更新手続きの交渉の中に、プールの営業期間を入れるのは話題がズレています。",
+          "C": "【不正解】「ランドリールームの設備の修理を完了しました」。契約更新手続きを促す文書の中で個別設備の修理完了報告は関係ありません。",
+          "D": "【不正解】「私たちのコミュニティガーデンが地元の新聞で紹介されました」。アパートの広報的な雑談であり、契約手続きの案内文には不適切です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_016",
+    "target_level": 700,
+    "passage_text": "Dear Client, \nThank you for choosing Apex Consulting for your recent project. We hope our team was able to ( --- 1 --- ) your expectations and deliver great results. To help us improve, we would appreciate ( --- 2 --- ) feedback on your experience. Please take a few minutes to complete our online satisfaction survey. Your response will help ( --- 3 --- ) design better services for the future. ( --- 4 --- ). Thank you for your time and business. \nSincerely, \nApex Consulting Management",
+    "passage_translation": "クライアント様 \n最近のプロジェクトにおいて、アペックス・コンサルティング社をお選びいただき誠にありがとうございます。当社のチームがお客様の期待を（超え）、素晴らしい成果を上げることができたなら幸いでございます。今後の改善に役立てるため、お客様のご体験に関する（フィードバック）をいただけますと幸いです。オンライン満足度アンケートの完了に、2、3分ほどお時間を割いていただきますようお願いいたします。お客様からの回答は、（当社が）将来に向けてより良いサービスを設計するのに役立ちます。（アンケートの参加者全員が、ギフトカードの抽選に自動的にエントリーされます。）お時間とこれまでのご愛顧に感謝いたします。 \n敬具 \nアペックス・コンサルティング 経営陣",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "exceed",
+          "B": "exceeding",
+          "C": "exceeded",
+          "D": "exceeds"
+        },
+        "correct_answer": "A",
+        "explanation": "助動詞 was able to の後ろに置く動詞の原形が必要です。「（期待や基準などを）超える、上回る」という意味の動詞(A) exceed が適切です。exceed expectations（期待を上回る）はビジネスの超重要コロケーションです。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。was able to の後ろで「期待を超える」という適切なビジネス表現を形成します。",
+          "B": "【不正解】現在分詞。助動詞の後ろに置くことはできません。",
+          "C": "【不正解】過去形、または過去分詞。助動詞 was able to の後ろには原形を置く必要があります。",
+          "D": "【不正解】動詞の三人称単数現在形。助動詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "your",
+          "B": "you",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「feedback（意見、フィードバック）」を修飾する、所有格代名詞(A) your が適切です。would appreciate your feedback で「ご意見をいただければ幸いです」というビジネスの決まり文句になります。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 feedback を修飾するのに最適です。",
+          "B": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり名詞を修飾できません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾する役割はありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "us",
+          "B": "our",
+          "C": "we",
+          "D": "ourselves"
+        },
+        "correct_answer": "A",
+        "explanation": "help + 目的語(us) + 原形不定詞(design)（〜が…するのを助ける）の使役的な構文です。目的格の代名詞(A) us が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。「help us do」の形で「私たちが〜するのを助ける」という正しい構文を完成させます。",
+          "B": "【不正解】所有格代名詞。後ろに名詞を伴う必要がありますが、動詞 design があるため不適切です。",
+          "C": "【不正解】主格代名詞。help の目的格に主格を置くことはできません。",
+          "D": "【不正解】再帰代名詞。主語は Your response であり、動作が自分自身（応答自身）に向かうわけではないため不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Participants will be entered into a raffle for a gift card.",
+          "B": "The consultant team has more than ten years of experience.",
+          "C": "Our headquarters will move to a new location in December.",
+          "D": "We have sent a copy of the final project report to your office."
+        },
+        "correct_answer": "A",
+        "explanation": "オンライン満足度アンケートの協力を要請する文脈であるため、回答を促す特典として「アンケートの参加者はギフトカードの抽選（ラッフル）にエントリーされます」と特典に言及する(A)が最も自然で強力な誘引剤となります。",
+        "options_explanations": {
+          "A": "【正解】「アンケートの参加者は、ギフトカードの抽選に自動的に登録されます」。アンケートの協力を促す直後の文章として完璧な繋がりです。",
+          "B": "【不正解】「コンサルタントチームは10年以上の経験を持っています」。プロジェクト完了後のアンケート依頼メールで、いまさらチームの経歴をアピールするのは脈絡がありません。",
+          "C": "【不正解】「本社は12月に新しい場所に移転します」。アンケート要請とは無関係な会社の広報連絡です。",
+          "D": "【不正解】「最終プロジェクト報告書のコピーを貴社オフィスに送付しました」。プロジェクト完了の報告書類の送付はすでに済んでいるか、別の契約実務の話であり、アンケート協力の理由とは繋がりません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_017",
+    "target_level": 700,
+    "passage_text": "Notice to Attendees, \nWe are pleased to announce the schedule for the upcoming Regional Tech Conference. More than twenty speakers will share ( --- 1 --- ) ideas on industry trends. To make the most of your time, we suggest ( --- 2 --- ) your personal schedule using our mobile app. The app allows you to view details for each presentation. Please download ( --- 3 --- ) before arriving at the venue on Friday morning. ( --- 4 --- ). We look forward to an exciting and educational event. \nConference Organizing Committee",
+    "passage_translation": "参加者の皆様へ \n近々開催される地域テックカンファレンスのスケジュールを発表できることを嬉しく思います。20名以上のスピーカーが、業界のトレンドに関する（彼らの）アイデアを共有します。時間を最大限に活用するために、当社のモバイルアプリを使用して個人のスケジュールを（計画すること）をお勧めします。このアプリでは、各プレゼンテーションの詳細を確認できます。金曜日の朝に会場に到着する前に、ダウンロードして（おいてください）。（登録受付は、メインロビーにて午前8時に開始いたします。）エキサイティングでためになるイベントになることを楽しみにしております。 \nカンファレンス組織委員会",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "their",
+          "B": "they",
+          "C": "them",
+          "D": "theirs"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「ideas」を修飾する、複数名詞「speakers」に対応する所有格代名詞(A) their が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。複数名詞 ideas を適切に修飾し、「彼らの考え」という意味を作ります。",
+          "B": "【不正解】主格代名詞。名詞の前に置けません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "D": "【不正解】所有代名詞。「彼らのもの」となり名詞を修飾できません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "planning",
+          "B": "plan",
+          "C": "planned",
+          "D": "plans"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 suggest は後ろに動名詞を直接目的語として取ることができます（suggest doing）。「〜を計画することをお勧めする」という意味の(A) planning が適切です。",
+        "options_explanations": {
+          "A": "【正解】動名詞。suggest の目的語として正しい文法的機能を果たします。",
+          "B": "【不正解】動詞の原形。suggest の後ろに直接原形動詞を目的語として置くことはできません（suggest that you plan のように that 節にすれば可能）。",
+          "C": "【不正解】過去分詞。suggest の目的語（能動関係）として機能しません。",
+          "D": "【不正解】動詞の三人称単数現在形。suggest の目的語としては置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "B": "they",
+          "C": "them",
+          "D": "its"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 download の目的語として、前述の単数名詞「our mobile app（または The app）」を指す代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（単数目的格）。単数名詞 app を指す適切な形です。",
+          "B": "【不正解】主格代名詞。動詞の目的語には置けません。",
+          "C": "【不正解】代名詞（複数目的格）。対象が単数のため不適切です。",
+          "D": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Registration will open at 8:00 a.m. in the main lobby.",
+          "B": "The conference has been held in Chicago for five years.",
+          "C": "Our corporate offices are closed during the weekend.",
+          "D": "We offer discounts on early registration fees."
+        },
+        "correct_answer": "A",
+        "explanation": "カンファレンスの開催を控え、参加者向けにアプリのダウンロードと会場到着前の準備を求めているため、到着直後の次のアクションである「登録受付はメインロビーにて午前8時に開始します（金曜日の朝）」というイベント当日の実務連絡(A)を挿入するのが完璧に自然です。",
+        "options_explanations": {
+          "A": "【正解】「登録受付は午前8時にメインロビーで開始いたします」。到着時に関する重要なロジスティクス案内として最適です。",
+          "B": "【不正解】「このカンファレンスはシカゴで5年間開催されています」。歴史についての補足ですが、開催直前の直前案内の中で突然実績について述べるのは優先度が低く不自然です。",
+          "C": "【不正解】「本社は週末の間は閉まっています」。イベント自体は金曜日の開催（venue on Friday morning）であり、本社の週末閉館は関係ありません。",
+          "D": "【不正解】「早期登録料金の割引を行っています」。すでに登録が完了して参加を目前に控えているAttendees（参加者）への案内であるため、早期割引の宣伝を今する意味がありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_018",
+    "target_level": 700,
+    "passage_text": "Dear Mr. Vance, \nWe have received your warranty claim for your model 500 blender. Our technicians inspected ( --- 1 --- ) and found a defect in the motor assembly. To resolve this issue, we will send ( --- 2 --- ) a brand-new replacement unit at no cost. Your new appliance ( --- 3 --- ) and should reach your home by Wednesday. ( --- 4 --- ). We appreciate your business and hope you continue to enjoy our products. \nSincerely, \nApex Customer Service",
+    "passage_translation": "ヴァンス様 \nお使いのモデル500ミキサーに関する保証請求を受領いたしました。当社の技術者が（それを：ミキサーを）検査したところ、モーターアセンブリに欠陥が見つかりました。この問題を解決するため、無償で新品の代替品を（あなたに：ヴァンス様に）お送りいたします。新しい家電製品は（すでに発送されており）、水曜日までにご自宅に到着する予定です。（発送が完了いたしましたら、メールで追跡番号をお知らせいたします。）これまでのご愛顧に感謝し、引き続き当社の製品をお楽しみいただけることを願っております。 \n敬具 \nアペックス・カスタマーサービス",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "B": "them",
+          "C": "they",
+          "D": "its"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 inspected の目的語として、前述の「your model 500 blender（ミキサー：単数名詞）」を指す代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（単数目的格）。単数名詞 blender を指す適切な形です。",
+          "B": "【不正解】代名詞（複数目的格）。対象が単数のため不適切です。",
+          "C": "【不正解】主格代名詞。目的格として置けません。",
+          "D": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "send + 人(you) + 物(a brand-new replacement unit) という二重目的語の文脈です。人を表す目的格代名詞(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。send の間接目的語として完璧です。",
+          "B": "【不正解】所有格代名詞。後ろに名詞が置かれていないため不適切です。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり文脈が通りません。",
+          "D": "【不正解】再帰代名詞。主語は We（当社）であり、相手に対して yourself とする文法・意味的理由がありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "has been shipped",
+          "B": "is shipping",
+          "C": "shipped",
+          "D": "ship"
+        },
+        "correct_answer": "A",
+        "explanation": "主語である「Your new appliance」が発送される（受動）ため受動態が必要です。また「現在発送が完了し、完了した状態で今ある」ことを示す現在完了受動態の(A) has been shipped が適切です。and should reach...（水曜までに到着する予定）という未来の予測へ自然に繋がります。",
+        "options_explanations": {
+          "A": "【正解】現在完了受動態。製品がすでに発送手配を終えている状態（現在完了）を正しく表します。",
+          "B": "【不正解】現在進行形。「新製品は自ら発送している」という能動になり不自然です（製品は自ら発送できません）。",
+          "C": "【不正解】過去形、または過去分詞。過去形にすると能動態（製品が何かを発送した）になり意味が破綻します。過去分詞を単独で will / is なしに述語として置くことはできません。",
+          "D": "【不正解】動詞の原形。三人称単数の主語に対して原形を直接置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We will email you a tracking number once it leaves our warehouse.",
+          "B": "Our physical stores are closed on national holidays.",
+          "C": "The model 500 blender was first introduced in 2018.",
+          "D": "Please leave a review on our website if you are satisfied."
+        },
+        "correct_answer": "A",
+        "explanation": "代替品の発送手続きを終え、「水曜日までにご自宅に届く予定です」と述べた後、購入者の不安を解消するために「倉庫から発送されましたら、メールで追跡番号をお知らせいたします」と手続きを補足する(A)が最も自然なサービス対応です。",
+        "options_explanations": {
+          "A": "【正解】「製品が倉庫から発送されましたら、メールで追跡番号をお知らせいたします」。発送状況のトラッキングに関する有益なサービス案内です。",
+          "B": "【不正解】「当社の実店舗は祝祭日は休業しております」。保証請求を個別にやり取りしている段階で、実店舗の祝日休業を伝えるのは関連性が低いです。",
+          "C": "【不正解】「モデル500ミキサーは2018年に初めて導入されました」。保証対応を受けている最中の購入者に対して、その製品の販売開始年を伝えるのは不自然です。",
+          "D": "【不正解】「満足いただけましたらウェブサイトにレビューを投稿してください」。不具合対応の真っ最中（まだ代替品も届いていない段階）で満足度レビューを要請するのは不適切で早急すぎます。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_019",
+    "target_level": 700,
+    "passage_text": "To: Sales Associates \nFrom: Training Manager \nSubject: New Software \nWe are hosting a mandatory training session to introduce our new sales software next Tuesday. The session is designed to help ( --- 1 --- ) learn the new interface quickly. To get the most benefit, please download the software before attending. It is important to ( --- 2 --- ) with your team members during the practice exercises. We believe this tool will greatly ( --- 3 --- ) our sales tracking process. ( --- 4 --- ). Thank you for your participation. \nTraining Office",
+    "passage_translation": "営業スタッフの皆様へ \nトレーニングマネージャーより \n件名：新しいソフトウェア \n来週の火曜日に、新しい営業用ソフトウェアを導入するための必須トレーニングセッションを開催いたします。このセッションは、（皆様が：営業スタッフが）新しいインターフェースを素早く習得できるように設計されています。最大限の効果を得るために、参加する前にソフトウェアをダウンロードしておいてください。演習中は、チームメンバーと（協力し合う）ことが重要です。このツールが、当社の販売追跡プロセスを大幅に（円滑にする：促進する）と信じております。（セッションは午後2時にコンピュータールームで行われます。）ご参加をよろしくお願いいたします。 \nトレーニング室",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "help + 目的語(you) + 原形不定詞(learn)（あなたが学ぶのを助ける）の使役表現です。「you（あなた：営業スタッフ）」を目的格で置く(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。help you learn の形で正しく文法的に機能します。",
+          "B": "【不正解】所有格代名詞。後ろに名詞を伴う必要があり不適格です。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり文脈が通りません。",
+          "D": "【不正解】再帰代名詞。主語は The session（セッション）であり、目的語に yourself を置く一貫性がありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "collaborate",
+          "B": "collaborating",
+          "C": "collaborated",
+          "D": "collaborates"
+        },
+        "correct_answer": "A",
+        "explanation": "to不定詞の to の後ろに置く動詞の原形が必要です。「〜と協力する、共同作業する」という意味で、後ろの前置詞 with と結びつきやすい自動詞(A) collaborate が適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。collaborate with ... で「〜と協力する」という必須表現を作ります。",
+          "B": "【不正解】現在分詞。to不定詞の後ろには置けません。",
+          "C": "【不正解】過去分詞。to不定詞の後ろには置けません。",
+          "D": "【不正解】動詞の三人称単数現在形。不定詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "facilitate",
+          "B": "facilitating",
+          "C": "facilitated",
+          "D": "facilitates"
+        },
+        "correct_answer": "A",
+        "explanation": "助動詞 will の後ろに置く動詞の原形が必要です。「（作業やプロセスを）容易にする、円滑にする、促進する」という意味の他動詞(A) facilitate が適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。will の後ろで「〜を円滑・容易にする」という意味を正しく添えます。",
+          "B": "【不正解】現在分詞。助動詞 will の後ろに直接置けません。",
+          "C": "【不正解】過去分詞。助動詞 will の後ろに置いて能動関係を構築できません。",
+          "D": "【不正解】動詞の三人称単数現在形。助動詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The session will take place in the computer lab at 2:00 p.m.",
+          "B": "The software was developed by our engineering team last year.",
+          "C": "We will have a short break for lunch at noon.",
+          "D": "Please report any computer issues to the IT helpdesk."
+        },
+        "correct_answer": "A",
+        "explanation": "来週火曜日のソフトウェア講習会の案内をしているため、具体的な場所や開始時間を「セッションは午後2時にコンピュータールームで行われます」と案内する(A)が最も実務的かつタイムリーに不可欠な詳細情報です。",
+        "options_explanations": {
+          "A": "【正解】「セッションは午後2時にコンピュータールームで行われます」。参加者がどこに行けばよいのか、場所と時間の追加連絡として完璧です。",
+          "B": "【不正解】「ソフトウェアは、昨年当社の技術チームによって開発されました」。ソフトウェアの背景についての説明ですが、来週受講する予定のトレーニング告知メールとしては、場所と時間の詳細の方がはるかに優先度が高く、自然です。",
+          "C": "【不正解】「正午に短い昼食休憩をとります」。午後2時から始まる講習の案内をしている文脈において、正午の昼食休憩に言及するのは流れに合いません。",
+          "D": "【不正解】「コンピューターに問題がある場合は、ITヘルプデスクに報告してください」。一般的なITサポートの定型案内であり、今回の特定のソフトウェア講習会のイベント案内とは切り離されます。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_020",
+    "target_level": 700,
+    "passage_text": "Notice to Employees, \nThe main entrance of our office building will be closed for renovations starting next Monday. Construction workers will update ( --- 1 --- ) doors and security systems to improve access control. During this period, employees are asked to use the side entrance. Security guards will be stationed there to help ( --- 2 --- ) navigate the detour. We expect the work ( --- 3 --- ) completed within two weeks. ( --- 4 --- ). Thank you for your patience during this improvement project. \nOffice Operations Team",
+    "passage_translation": "従業員の皆様へ \n来週の月曜日より、改装工事のためオフィスビルの正面玄関が閉鎖されます。工事作業員は、アクセス制御を向上させるために（その）ドアとセキュリティシステムを更新します。この期間中、従業員の皆様は横の入口（通用口）をご利用いただくようお願いいたします。警備員がそこに配置され、（皆様が）回り道を案内するのを助けます。工事は2週間以内に（完了する）見込みです。（皆様を案内するために、建物の周りに標識が設置されます。）この改善プロジェクト期間中のご理解に感謝いたします。 \nオフィス運営チーム",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "the",
+          "B": "an",
+          "C": "a",
+          "D": "no article"
+        },
+        "correct_answer": "A",
+        "explanation": "前述した「the main entrance of our office building」に関連する特定のドア（the doors）を指すため、定冠詞(A) the が適切です。",
+        "options_explanations": {
+          "A": "【正解】定冠詞。文脈から「その正面玄関の（特定の）ドア」を特定できるため適切です。",
+          "B": "【不正解】不定冠詞。修飾する名詞 doors が複数形であるため、単数用の an は置けません。",
+          "C": "【不正解】不定冠詞。修飾する名詞が複数形のため置けません。",
+          "D": "【不正解】無冠詞。特定の正面玄関のドアを指すため、限定のない無冠詞では不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "help + 目的語(you) + 原形不定詞(navigate)（あなたが〜するのを助ける）の使役的な構文です。目的格代名詞の(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。help you navigate の形で「皆様が迂回路を進むのを助ける」という意味になります。",
+          "B": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり文脈が通りません。",
+          "D": "【不正解】再帰代名詞。主語は Security guards（警備員）であり、目的語に yourself を置く一貫性がありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "to be",
+          "B": "being",
+          "C": "been",
+          "D": "was"
+        },
+        "correct_answer": "A",
+        "explanation": "expect + 目的語 + to do（目的語が〜するのを期待する・予定する）の重要構文の受動態「expect + 名詞 + to be done（名詞が〜されると見込む）」です。名詞 the work の後ろに(A) to be が置かれることで、expect the work to be completed（工事が完了することを見込む）という正しい構文になります。",
+        "options_explanations": {
+          "A": "【正解】不定詞。expect sth to be done の構文を完成させる正しい選択肢です。",
+          "B": "【不正解】動名詞。expect の補語（目的格補語）として being は置けません。",
+          "C": "【不正解】過去分詞。to なしに直接 been を補語の位置に置くことはできません。",
+          "D": "【不正解】動詞の過去形。補語の位置に述語動詞の過去形を置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Signs will be posted around the building to guide you.",
+          "B": "The construction firm has won several architectural awards.",
+          "C": "Our offices are closed on major national holidays.",
+          "D": "We plan to paint the interior of the offices next year."
+        },
+        "correct_answer": "A",
+        "explanation": "正面玄関閉鎖に伴う通用口利用と警備員の誘導配置について述べた後、利用者のさらなる便宜のために「皆様を案内（誘導）するために、建物の周囲に案内看板（Signs）が設置されます」と有益な案内補足を追加する(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「皆様をご案内するために、建物の周りに標識が設置されます」。迂回経路の案内情報として完璧です。",
+          "B": "【不正解】「その建設会社はいくつかの建築賞を受賞しています」。工事を施工する会社の経歴は、利用者の迂回移動にとってどうでもよい情報です。",
+          "C": "【不正解】「当社のオフィスは主要な祝日は休みです」。来週月曜からの2週間の正面玄関工事に伴う通用口案内であり、オフィス全体の祝日休みの案内は無関係です。",
+          "D": "【不正解】「来年、オフィス内部の塗装工事を計画しています」。今回の正面玄関工事に関する直近2週間の迂回注意情報の中に、来年の無関係な内部塗装の話を入れるのはズレています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_021",
+    "target_level": 700,
+    "passage_text": "Dear Colleagues, \nWe are thrilled to announce our new corporate partnership with Apex Technologies. This collaboration ( --- 1 --- ) us to combine our expertise and deliver better solutions to our clients. To make this partnership successful, we must ( --- 2 --- ) our sales and marketing efforts. Representatives from Apex will visit our office next Wednesday. Please make sure to welcome ( --- 3 --- ) warmly when they arrive. ( --- 4 --- ). This partnership marks a major step forward for our company. \nSincerely, \nExecutive Board",
+    "passage_translation": "同僚の皆様へ \nアペックス・テクノロジーズ社との新しい業務提携を発表できることを大変嬉しく思います。このコラボレーションにより、私たちは専門知識を組み合わせ、クライアントにより優れたソリューションを（提供することが可能になります）。このパートナーシップを成功させるために、私たちは販売とマーケティングの取り組みを（調整し）なければなりません。アペックス社の代表者が来週の水曜日に当社のオフィスを訪問します。彼らが到着した際には、温かく歓迎して（ください）。（合同会議はメインホールにて午前10時に予定されています。）このパートナーシップは、当社にとって大きな一歩を意味します。 \n敬具 \n役員会",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "enables",
+          "B": "enabling",
+          "C": "enabled",
+          "D": "enable"
+        },
+        "correct_answer": "A",
+        "explanation": "文の主語「This collaboration（単数名詞）」に対応する、三人称単数現在の動詞(A) enables が適切です。enable A to do で「Aが〜するのを可能にする」という定番構文です。",
+        "options_explanations": {
+          "A": "【正解】動詞（三人称単数現在形）。単数主語 This collaboration に正しく対応します。",
+          "B": "【不正解】現在分詞。文の述語動詞として単独で置くことはできません。",
+          "C": "【不正解】過去形、または過去分詞。現在明らかになった一般的な提携の効果について述べているため、過去形ではなく現在時制が最も自然です。",
+          "D": "【不正解】動詞（原形、または複数対応現在形）。単数主語に一致しません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "coordinate",
+          "B": "coordinate with",
+          "C": "coordinated",
+          "D": "coordinates"
+        },
+        "correct_answer": "A",
+        "explanation": "助動詞 must の後ろに置く動詞の原形が必要です。後ろに目的語「our sales and marketing efforts（複数名詞句）」を直接伴う他動詞(A) coordinate（〜を調整する）が適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。他動詞として「取り組みを調整する」という意味を正しく添えます。",
+          "B": "【不正解】動詞句。coordinate with は「〜と調整・協力する」という自動詞表現であり、後ろに人や組織を置く場合に適しますが、ここでは直接の施策「our efforts」が目的語としてあるため、前置詞 with が邪魔になります。",
+          "C": "【不正解】過去形、または過去分詞。助動詞 must の後ろに能動態として置けません。",
+          "D": "【不正解】動詞の三人称単数現在形。助動詞 must の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "them",
+          "B": "they",
+          "C": "their",
+          "D": "themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 welcome の目的語として、前述の複数名詞「Representatives from Apex（アペックス社の代表者たち）」を指す代名詞の目的格(A) them が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（複数目的格）。複数名詞 Representatives を指す目的語として正しく機能します。",
+          "B": "【不正解】主格代名詞。目的格として置くことはできません。",
+          "C": "【不正解】所有格代名詞。後ろに修飾する名詞がないため不適切です。",
+          "D": "【不正解】再帰代名詞。主語は命令文の you であり、目的語は Representatives であるため、自分自身（yourselves）ではないため不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A joint meeting has been scheduled for 10:00 a.m. in the main hall.",
+          "B": "The contract was signed in Chicago last month.",
+          "C": "We have completed repairs on the main server.",
+          "D": "Please submit your vacation requests by Friday."
+        },
+        "correct_answer": "A",
+        "explanation": "アペックス社の代表者たちが来週水曜日にオフィスを訪問すること、そして温かく迎えるよう依頼した直後の文章であるため、具体的な当日の予定として「合同会議がメインホールにて午前10時に予定されています」と伝える(A)が最も文脈に一致します。",
+        "options_explanations": {
+          "A": "【正解】「合同会議はメインホールにて午前10時に予定されています」。代表者来訪時の当日の重要なスケジュールを補足します。",
+          "B": "【不正解】「契約は先月シカゴで締結されました」。過去の契約調印の話は、来週予定されている代表者来訪の具体的アクションの間に挿入するには唐突です。",
+          "C": "【不正解】「メインサーバーの修理が完了しました」。業務提携の代表者訪問の案内の最中であり、サーバー修復の完了報告は全く関係がありません。",
+          "D": "【不正解】「休暇の申請は金曜日までに提出してください」。業務提携に関する重要発表において、個人の有休申請期限を混入させるのはマナー違反です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_022",
+    "target_level": 700,
+    "passage_text": "To: Department Managers \nFrom: Finance Director \nSubject: Budget Adjustment \nWe are writing to notify you of an adjustment to the third-quarter departmental budgets. Due to a decrease in raw material costs, we ( --- 1 --- ) some of your allocated funds to other priority projects. This decision was made to maximize our company's operational ( --- 2 --- ). Managers must review the updated budget spreadsheets sent to ( --- 3 --- ) this morning. ( --- 4 --- ). We appreciate your understanding and cooperation on this adjustment. \nFinance Department",
+    "passage_translation": "各部門長へ \n財務ディレクターより \n件名：予算調整 \n第3四半期の部門予算の調整についてお知らせいたします。原材料費の低下に伴い、皆様に割り当てられた資金の一部を他の優先プロジェクトに（移管いたします）。この決定は、当社の業務（効率）を最大化するために下されました。マネージャーの皆様は、今朝（彼ら：各マネージャー）に送付された更新版の予算スプレッドシートをご確認ください。（変更に関する質問がございましたら、当事務所までお寄せください。）今回の調整に対するご理解とご協力に感謝いたします。 \n財務部",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "are transferring",
+          "B": "transferred",
+          "C": "transfers",
+          "D": "transfer"
+        },
+        "correct_answer": "A",
+        "explanation": "現在発表されている予算配分の変更手続きを行っている（現在進行形、または未来の確定スケジュールを表す進行形）のため、(A) are transferring が最も適切です。これから実施する、または現に進めている会社の行動を表します。",
+        "options_explanations": {
+          "A": "【正解】現在進行形（未来予定も表す）。資金を他に移管・移動させている現在のアクション、またはまもなく実行される決定を正しく表現します。",
+          "B": "【不正解】過去形。これからの変更対応としてこれからシートを確認するように指示しているため、過去に移管を完了したと表現するのは文脈上早すぎます（シートをまさに今確認させているため）。",
+          "C": "//【不正解】動詞の三人称単数現在形。主語 we（複数）に対応していません。",
+          "D": "【不正解】動詞の原形、または複数現在形。are transferring の方が、今まさにその調整が行われている最中であることを説明するビジネスレターのトーンに合致します。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "efficiency",
+          "B": "efficient",
+          "C": "efficiently",
+          "D": "more efficient"
+        },
+        "correct_answer": "A",
+        "explanation": "形容詞 our company's operational（当社の業務上の）に修飾される名詞が必要です。「業務効率を最大化する」という意味を完成させる(A) efficiency が適切です。",
+        "options_explanations": {
+          "A": "【正解】名詞。「効率」という意味で、maximize と結びつき「効率を最大化する」という重要表現になります。",
+          "B": "【不正解】形容詞。operational も形容詞であり、名詞がないため文が終了できません。",
+          "C": "【不正解】副詞。名詞の役割を果たせないため置けません。",
+          "D": "【不正解】形容詞の比較級。名詞句を形成できないため不適格です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "them",
+          "B": "they",
+          "C": "their",
+          "D": "themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "前置詞 to の目的語として、前述の「Managers（複数名詞）」を指す代名詞の目的格(A) them が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（複数目的格）。前文の Managers（複数形）を指す適切な目的語です。",
+          "B": "【不正解】主格代名詞。前置詞の後ろには置けません。",
+          "C": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "D": "【不正解】再帰代名詞。主語（更新された予算シートsent to...）の動作の受け手が動作主体自身ではないため不適格です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please submit any questions regarding the changes to my office.",
+          "B": "The marketing campaign was highly successful last quarter.",
+          "C": "We plan to hire five new sales associates next month.",
+          "D": "The office cafeteria will begin serving breakfast next week."
+        },
+        "correct_answer": "A",
+        "explanation": "予算の調整と、更新されたスプレッドシートの確認を部門長へ指示した直後であり、その作業に関する問い合わせ先として「変更に関するご質問は、当事務所（財務ディレクター室）までお寄せください」と案内する(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「変更に関するご質問は、私のオフィスまでお寄せください」。確認を求めた直後の実務的窓口として完璧です。",
+          "B": "【不正解】「マーケティングキャンペーンは前四半期に非常に成功しました」。予算削減・再配分を要請している財務メモにおいて、特定の過去の実績自慢は不自然です。",
+          "C": "【不正解】「来月5名の新しい営業担当を採用する計画です」。予算の切り詰めを行っているメモにおいて、追加人員採用の計画を唐突に挟むのは辻褄が合いません。",
+          "D": "【不正解】「オフィス食堂は来週から朝食提供を開始します」。予算調整の指示メモに、食堂の朝食メニュー変更を混ぜるのは文脈が完全に破綻しています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_023",
+    "target_level": 700,
+    "passage_text": "Notice to All Staff, \nWe are launching a new recycling program in our office next Monday. Under this policy, employees must sort ( --- 1 --- ) waste into the designated bins in the breakroom. To encourage compliance, the green team will hold a short information session on Friday. ( --- 2 --- ) will explain the rules and show us what items can be recycled. We believe this initiative will significantly ( --- 3 --- ) our environmental impact. ( --- 4 --- ). Thank you for your support in keeping our office green. \nGreen Committee Office",
+    "passage_translation": "全スタッフへ \n来週の月曜日より、オフィス内で新しいリサイクルプログラムを開始いたします。このポリシーのもと、従業員の皆様は（各自の：彼らの）ゴミを休憩室の指定の箱に分別しなければなりません。順守を促すため、環境チーム（グリーンチーム）が金曜日に短い説明会を開催いたします。（彼ら：環境チームのメンバー）がルールを説明し、どのアイテムがリサイクル可能かを示します。この取り組みにより、当社の環境負荷が大幅に（削減される）と信じております。（掲示板に掲示されているリサイクルのガイドラインをご確認ください。）オフィスを緑（クリーン）に保つためのご協力に感謝いたします。 \n環境委員会事務局",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "their",
+          "B": "they",
+          "C": "them",
+          "D": "theirs"
+        },
+        "correct_answer": "A",
+        "explanation": "不可算名詞「waste（ゴミ、廃棄物）」を修飾する、複数従業員（employees）に対応する所有格代名詞(A) their が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 waste を修飾し、「各自のゴミ、彼らのゴミ」という意味を正しく作ります。",
+          "B": "【不正解】主格代名詞。名詞の前に置くことはできません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "D": "【不正解】所有代名詞。「彼らのもの」となり名詞を修飾できません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "They",
+          "B": "Them",
+          "C": "Their",
+          "D": "Themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "後ろの動詞 will explain の主語となる、前述の「the green team（集合名詞またはそのメンバーたち：ここでは複数として代名詞 They で受ける）」を指す主格の代名詞(A) They が適切です。",
+        "options_explanations": {
+          "A": "【正解】主格代名詞（複数）。環境チームのメンバーたちを指して、主語として適切に機能します。",
+          "B": "【不正解】目的格代名詞。主語の位置に置けません。",
+          "C": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "D": "【不正解】再帰代名詞。主語を特別に強調する構造ではないため不適切です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "reduce",
+          "B": "reducing",
+          "C": "reduced",
+          "D": "reduces"
+        },
+        "correct_answer": "A",
+        "explanation": "助動詞 will の後ろに置く動詞の原形が必要です。「（環境負荷などを）減らす、削減する」という意味の他動詞(A) reduce が適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。will の後ろで「環境負荷を大幅に削減する」という正しいビジネス英語を構成します。",
+          "B": "【不正解】現在分詞。助動詞 will の後ろに直接置けません。",
+          "C": "【不正解】過去分詞。助動詞 will の後ろに能動態として直接置けません。",
+          "D": "【不正解】動詞の三人称単数現在形。助動詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please read the recycling guidelines posted on the bulletin board.",
+          "B": "The company picnic has been scheduled for next Saturday.",
+          "C": "Our offices are closed on major national holidays.",
+          "D": "We purchased new office chairs last month."
+        },
+        "correct_answer": "A",
+        "explanation": "オフィス内のゴミ分別プログラムを開始するにあたり、ルールの徹底を求めているため、実務的な補足として「掲示板に掲示されているリサイクルのガイドラインをご確認ください」と具体的な行動を促す(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「掲示板に掲示されているリサイクルのガイドラインをご確認ください」。リサイクルの分別ルールに直接関連する完璧な補足です。",
+          "B": "【不正解】「会社ピクニックは来週の土曜日に予定されています」。環境プログラムと分別案内のメモにおいて、突然ピクニックの日程をねじ込むのは不自然です。",
+          "C": "【不正解】「当社のオフィスは主要な国民の祝日は休業いたします」。リサイクルゴミ分別の案内の中に、突然会社の祝日休みを入れる必要はありません。",
+          "D": "【不正解】「先月新しいオフィスチェアを購入しました」。椅子購入の事実報告は、このリサイクル分別の案内とは無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_024",
+    "target_level": 700,
+    "passage_text": "Dear Partners, \nWe are pleased to invite you to our annual Charity Gala on Saturday, November 12. This year, all proceeds from the event will be ( --- 1 --- ) to the Local Youth Foundation. The gala will feature a dinner and a silent auction. To ensure we can ( --- 2 --- ) all guests, please register your attendance by October 15. We would love to have ( --- 3 --- ) join us for this special evening. ( --- 4 --- ). Thank you for your continued support and generosity. \nSincerely, \nEvent Organizing Committee",
+    "passage_translation": "パートナーの皆様へ \n11月12日（土）に開催される毎年恒例のチャリティ・ガラ（祝賀会）に皆様をご招待できることを嬉しく思います。今年、このイベントのすべての収益は地元ユース財団に（寄付されます）。ガラではディナーとサイレントオークションが開催されます。すべてのゲストを確実に（収容する・対応する）ため、10月15日までに出席をご登録ください。この特別な夜に、（皆様に）ご参加いただけることを心より願っております。（来週、駐車場などの詳細が記載された正式な招待状をお送りいたします。）引き続きのご支援と寛大さに感謝いたします。 \n敬具 \nイベント組織委員会",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "donated",
+          "B": "donate",
+          "C": "donating",
+          "D": "donates"
+        },
+        "correct_answer": "A",
+        "explanation": "主語である「all proceeds from the event（イベントのすべての収益）」が寄付される（受動）ため、be動詞 will be の後ろには過去分詞が必要です。「〜に寄付される」という意味の(A) donated が適切です。",
+        "options_explanations": {
+          "A": "【正解】過去分詞。will be donated で受動態となり、「収益はすべて寄付される」という文法的に正しい構造を作ります。",
+          "B": "【不正解】動詞の原形。be動詞の後ろに直接原形は置けません。",
+          "C": "【不正解】現在分詞。能動態になり「収益が自ら何かを寄付している」ことになり不自然です。",
+          "D": "【不正解】動詞の三人称単数現在形。be動詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "accommodate",
+          "B": "accommodating",
+          "C": "accommodated",
+          "D": "accommodates"
+        },
+        "correct_answer": "A",
+        "explanation": "助動詞 can の後ろに置く動詞の原形が必要です。「（顧客の要望に）対応する、（宿泊や着席などのための）スペースを提供する、収容する」という意味の動詞(A) accommodate が適切です。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。「（出席者数を把握して）すべてのゲストをもてなし、対応する、収容する」という文脈に完璧な単語です。",
+          "B": "【不正解】現在分詞。助動詞 can の後ろに置けません。",
+          "C": "【不正解】過去分詞。助動詞 can の後ろに能動関係として置けません。",
+          "D": "【不正解】動詞の三人称単数現在形。助動詞の後ろには置けません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "have + 目的語(you) + 原形不定詞(join)（あなたが参加するよう手配する、参加していただく）の使役表現です。目的格代名詞の(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。have you join us で「皆様にご参加いただく」という自然で丁寧な表現になります。",
+          "B": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり文脈が通りません。",
+          "D": "【不正解】再帰代名詞。主語は We（当社）であり、目的語に yourself を置く一貫性がありません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A formal invitation with parking details will be sent next week.",
+          "B": "The Foundation was established in June 2005.",
+          "C": "Our office is closed on weekends and major holidays.",
+          "D": "Please contact our customer support for registration issues."
+        },
+        "correct_answer": "A",
+        "explanation": "チャリティガラの出席登録を求めた直後で感謝を伝える前文であるため、参加を検討しているパートナー企業向けに「来週、駐車場の詳細などを記載した正式な招待状をお送りします」と今後の流れを説明する(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「来週、駐車場の詳細が記載された正式な招待状が送付されます」。今後の流れを案内する文として極めて自然です。",
+          "B": "【不正解】「ユース財団は2005年6月に設立されました」。寄付先の財団の歴史について、この招待状の主文に直接挿入するのは不要です。",
+          "C": "【不正解】「当社のオフィスは週末と祝日は休業いたします」。土曜日（Saturday, November 12）に開催されるイベントの招待であり、社内オフィスの一般的な平日営業日程を知らせるのは関係がありません。",
+          "D": "【不正解】「登録に問題がある場合は、カスタマーサポートまでご連絡ください」。イベントの登録用窓口を個別サポートとして紹介するより、今後の招待状送付の流れを伝える(A)の方が全体のトーンとして前向きで自然です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_025",
+    "target_level": 700,
+    "passage_text": "Notice to Our Customers, \nOn Saturday, July 18, our official website will undergo scheduled maintenance. The work will begin at midnight and is expected ( --- 1 --- ) four hours. During this period, users will not be able to log in to ( --- 2 --- ) online accounts or make purchases. Our technical support team is working to make ( --- 3 --- ) downtime as short as possible. ( --- 4 --- ). We apologize for any inconvenience this temporary interruption may cause. \nIT Operations Team",
+    "passage_translation": "お客様へ \n7月18日（土）、当社の公式ウェブサイトは定期メンテナンスを実施いたします。作業は真夜中に開始され、4時間（かかる）見込みです。この期間中、ユーザーの皆様はオンラインアカウントへのログインやご購入ができなくなります。当社の技術サポートチームは、システムが（その：メンテナンスの）不通時間（ダウンタイム）をできるだけ短くするよう努めております。（通常のサービスは、日曜日午前4時までに完全に復旧いたします。）一時的な中断により生じるご不便をおかけすることをお詫び申し上げます。 \nIT運用チーム",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "to take",
+          "B": "taking",
+          "C": "take",
+          "D": "taken"
+        },
+        "correct_answer": "A",
+        "explanation": "be expected + to不定詞（〜する予定である、見込まれる）の形を取ります。時間がかかるという意味の動詞 take を不定詞にして、(A) to take が適切です。",
+        "options_explanations": {
+          "A": "【正解】不定詞。is expected to take で「（4時間）かかると見込まれる」という正しい受動の構文を作ります。",
+          "B": "【不正解】動名詞。expectの後ろの補語として受動態の後ろに直接置くことはできません。",
+          "C": "【不正解】動詞の原形。to なしに直接原形動詞を補語として置くことはできません。",
+          "D": "【不正解】過去分詞。expect の後ろに重ねて過去分詞を置くことはできません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "their",
+          "B": "they",
+          "C": "them",
+          "D": "theirs"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「online accounts（複数）」を修飾する、複数名詞「users」に対応する所有格代名詞(A) their が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 online accounts を適切に修飾します。",
+          "B": "【不正解】主格代名詞。名詞の前に置けません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "D": "【不正解】所有代名詞。「彼らのもの」となり名詞を修飾できません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "the",
+          "B": "a",
+          "C": "an",
+          "D": "no article"
+        },
+        "correct_answer": "A",
+        "explanation": "前述したメンテナンス期間に伴う「特定の不通時間（ダウンタイム）」を指すため、定冠詞(A) the が適切です。",
+        "options_explanations": {
+          "A": "【正解】定冠詞。文脈から今回のメンテナンスによる特定の downtime を指すため適切です。",
+          "B": "【不正解】不定冠詞。一般的な不特定のダウンタイムを指すものではないため不自然です。",
+          "C": "//【不正解】不定冠詞。downtimeは子音(d)で始まる名詞であるため an は置けません。",
+          "D": "【不正解】無冠詞。限定された特定のダウンタイムを指すため、定冠詞を伴うべきです。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Normal service will be fully restored by 4:00 a.m. on Sunday.",
+          "B": "Our physical stores are open from ten to six daily.",
+          "C": "We recently launched our new summer collection.",
+          "D": "Please contact our billing office for payment issues."
+        },
+        "correct_answer": "A",
+        "explanation": "土曜日深夜から4時間のメンテナンスを行い、ダウンタイムの最小化に努めているという文脈の直後であるため、「日曜日午前4時までには、通常のサービスが完全に復旧いたします」と具体的な復旧完了目安を提示する(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「通常のサービスは、日曜日午前4時までに完全に復旧いたします」。復旧完了の見込み時間を伝える、メンテナンス案内で最も重要とされる実務情報です。",
+          "B": "【不正解】「当社の実店舗は、毎日午前10時から午後6時まで営業しています」。ウェブサイトメンテナンスの案内の中に、突然実店舗の営業時間を挟むのは不自然です。",
+          "C": "【不正解】「最近、新しいサマーコレクションを発売しました」。購入が一時的にできなくなる不具合告知の中に、サマーコレクションの宣伝をねじ込むのは不適切です。",
+          "D": "//【不正解】「お支払いに関する問題は、請求窓口までお問い合わせください」。ウェブサイト自体が一時的に止まるメンテナンスの案内であり、個別の請求・支払いトラブルの問い合わせ先は不要です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_026",
+    "target_level": 700,
+    "passage_text": "Attention All Employees, \nTo ensure a safe working environment, we are updating our building security protocols. Starting next month, all employees must display ( --- 1 --- ) ID badges at all times. Security guards will monitor the entrances and ( --- 2 --- ) access to unauthorized visitors. If you lose your badge, please report ( --- 3 --- ) to the security office immediately. ( --- 4 --- ). Thank you for your cooperation in keeping our workplace secure. \nSecurity Department",
+    "passage_translation": "従業員の皆様へ \n安全な職場環境を確保するため、ビルセキュリティプロトコル（防犯規定）を更新いたします。来月から、すべての従業員は常に（各自の）IDバッジを着用（提示）しなければなりません。警備員が入口を監視し、権限のない訪問者の立ち入りを（制限します）。もしバッジを紛失した場合は、ただちにセキュリティオフィスに（それを）報告してください。（新しいバッジは、フロントデスクにて24時間以内に発行可能です。）職場の安全維持に対するご協力に感謝いたします。 \nセキュリティ部",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "their",
+          "B": "they",
+          "C": "them",
+          "D": "theirs"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「ID badges」を修飾する、複数従業員（all employees）に対応する所有格代名詞(A) their が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 ID badges を修飾し、「各自のIDバッジ」という意味を作ります。",
+          "B": "【不正解】主格代名詞。名詞の前に置けません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "D": "【不正解】所有代名詞。「彼らのもの」となり名詞を修飾できません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "restrict",
+          "B": "restricting",
+          "C": "restricted",
+          "D": "restricts"
+        },
+        "correct_answer": "A",
+        "explanation": "等位接続詞 and の前後での並行構造に注目します。助動詞 will の後ろにある「monitor the entrances」と結びつき、同じく動詞の原形となる(A) restrict（制限する）が適切です。「入口を監視し、立ち入りを制限する」という意味になります。",
+        "options_explanations": {
+          "A": "【正解】動詞の原形。will の後ろで monitor と並立し、「立ち入りを制限する」という適切な表現になります。",
+          "B": "【不正解】現在分詞。will の後ろで monitor と並立できません。",
+          "C": "【不正解】過去分詞。will の後ろに直接置くことはできません。",
+          "D": "【不正解】動詞の三人称単数現在形。willの後ろに置くことはできません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "it",
+          "B": "them",
+          "C": "they",
+          "D": "its"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 report の目的語として、前述の単数名詞「your badge（あなたのバッジ）」を指す代名詞(A) it が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（単数目的格）。単数名詞 your badge を受けます。",
+          "B": "【不正解】代名詞（複数目的格）。対象が単数のため不適切です。",
+          "C": "【不正解】主格代名詞。目的語には置けません。",
+          "D": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "New badges can be issued at the front desk within twenty-four hours.",
+          "B": "The security gate was repaired last Tuesday afternoon.",
+          "C": "We will install new security cameras in the parking lot next week.",
+          "D": "Our building was constructed in June 1995."
+        },
+        "correct_answer": "A",
+        "explanation": "バッジを紛失した場合は、ただちにセキュリティオフィスに報告するよう指示した直後であり、紛失時の救済手続きとして「新しいバッジは、フロントデスクにて24時間以内に発行することができます」と実務手順を補足する(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「新しいバッジは、フロントデスクにて24時間以内に発行可能です」。紛失時のリカバリー手続きとして完璧な文脈です。",
+          "B": "【不正解】「セキュリティゲートは先週火曜日の午後に修理されました」。過去の設備の修理報告であり、来月からのバッジ常時着用ルールとは関係が薄いです。",
+          "C": "【不正解】「来週、駐車場に新しい防犯カメラを設置します」。これは駐車場の防犯強化の連絡であり、建物内のIDバッジ着用および紛失対応の手続きの流れから外れます。",
+          "D": "【不正解】「当ビルは1995年6月に建設されました」。ビルの建設時期は、バッジ紛失時の対応とは全く無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_027",
+    "target_level": 700,
+    "passage_text": "Dear Mr. Vance, \nTo thank you for your business over the past year, we have sent a small gift to your office. We hope you and ( --- 1 --- ) team enjoy it. Our partnership has been highly beneficial, and we appreciate ( --- 2 --- ) trust in our services. We are committed to ( --- 3 --- ) the highest level of client satisfaction. ( --- 4 --- ). We look forward to working with you on future projects. \nSincerely, \nSarah Jenkins \nClient Relations Manager",
+    "passage_translation": "ヴァンス様 \nこの1年間のご愛顧に感謝を込めて、貴社オフィスにささやかな贈り物を送付いたしました。ヴァンス様と（そちらの：あなたの）チームに気に入っていただければ幸いでございます。当社のパートナーシップは非常に有益であり、当社のサービスに寄せていただいた（お客様の）信頼に感謝いたします。当社は、最高水準のクライアント満足度を（お届けすること）をお約束いたします。（荷物が無事に到着したかどうか、お知らせいただけますと幸いです。）今後も将来のプロジェクトでご一緒できることを楽しみにしております。 \n敬具 \nサラ・ジェンキンス \nクライアント関係マネージャー",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "your",
+          "B": "you",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「team」を修飾する、所有格代名詞(A) your が適切です。you and your team（あなたとあなたのチーム）は非常に一般的な表現です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 team を適切に修飾し、相手のチームを指します。",
+          "B": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり名詞を修飾できません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾できません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "your",
+          "B": "you",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「trust（信頼：ここでは名詞）」を修飾する、所有格代名詞(A) your が適切です。we appreciate your trust B で「Bに対するご信頼に感謝いたします」となります。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 trust を適切に修飾します。",
+          "B": "【不正解】目的格代名詞。名詞の前に置けません（appreciate you trust... とすると、trust が動詞だとしても、全体の文法構造が崩れます）。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり、名詞を修飾できません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾する役割はありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "delivering",
+          "B": "deliver",
+          "C": "delivered",
+          "D": "delivers"
+        },
+        "correct_answer": "A",
+        "explanation": "be committed to の to は前置詞です。前置詞の後ろに置く、動名詞(A) delivering（〜を届けること、提供すること）が適切です。",
+        "options_explanations": {
+          "A": "【正解】動名詞。前置詞 to の目的語として正しい機能を発揮し、「満足を提供することに尽力する」となります。",
+          "B": "【不正解】動詞の原形。toを不定詞と誤認させる典型的なひっかけですが、前置詞なので原形は置けません。",
+          "C": "【不正解】過去分詞。前置詞の後ろに置くことはできません。",
+          "D": "【不正解】動詞の三人称単数現在形。前置詞の後ろに置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Please let us know if your package has arrived safely.",
+          "B": "Our physical stores are closed on weekends.",
+          "C": "We recently opened a new branch in Chicago.",
+          "D": "The annual report will be published next week."
+        },
+        "correct_answer": "A",
+        "explanation": "感謝を込めてオフィスにささやかな贈り物を発送した、と冒頭で述べているため、お詫びや挨拶の間に「お荷物が無事に到着したかどうか、お知らせください」と確認を促す一文(A)を入れるのが、気配りのあるビジネスの文脈に最も合致し、自然な関係を維持させます。",
+        "options_explanations": {
+          "A": "【正解】「お荷物が無事に到着したかどうか、お知らせいただけますと幸いです」。贈り物を発送したという前文を受けて完璧な繋がりを見せます。",
+          "B": "【不正解】「当社の実店舗は週末は休業しております」。B2Bのクライアントへのお礼メールであり、一般店舗の週末閉鎖案内は不要です。",
+          "C": "【不正解】「最近、シカゴに新店舗を開設しました」。会社自体の発展は喜ばしいですが、個別の顧客への感謝と贈り物到着の確認の間に割り込ませるには優先度が低く不自然です。",
+          "D": "【不正解】「年次報告書は来週発行されます」。財務や投資家向けの連絡であり、通常の顧客リレーション活動のメールには不適切です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_028",
+    "target_level": 700,
+    "passage_text": "To: All Department Staff \nFrom: HR Management \nSubject: Performance Reviews \nNext month, we ( --- 1 --- ) our annual employee performance reviews. This process is designed to evaluate your achievements and set goals for the next year. Managers will meet with ( --- 2 --- ) team members individually. Please prepare your self-assessment forms and submit ( --- 3 --- ) to your manager before your scheduled meeting. ( --- 4 --- ). We look forward to a productive and constructive review process. \nHR Department",
+    "passage_translation": "各部門スタッフへ \n人事管理部より \n件名：人事考課（パフォーマンス評価） \n来月、毎年恒例の従業員パフォーマンス評価（人事考課）を（実施いたします）。このプロセスは、皆様の実績を評価し、来年の目標を設定するために設計されています。マネージャーは（各自の：彼らの）チームメンバーと個別に面談を行います。自己評価シートを作成し、面談の予定日前にマネージャーに（それらを：シートを）提出してください。（面談日時の詳細なスケジュールは、金曜日に送付されます。）生産的で建設的な評価プロセスになることを楽しみにしております。 \n人事部",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "will conduct",
+          "B": "conducted",
+          "C": "conducts",
+          "D": "conducting"
+        },
+        "correct_answer": "A",
+        "explanation": "文頭の「Next month（来月）」という未来を示す副詞句に注目します。したがって、未来の意志・予定を表す(A) will conduct が適切です。",
+        "options_explanations": {
+          "A": "【正解】助動詞 + 動詞の原形。未来の行動を指す「will conduct」が「来月」に最適です。",
+          "B": "【不正解】動詞の過去形。過去の事柄を指すため、未来を示す Next month と矛盾します。",
+          "C": "【不正解】動詞の三人称単数現在形。主語 we（複数）に対応せず、未来の事実予定を説明する文脈にも適しません。",
+          "D": "【不正解】現在分詞。助動詞 will や be 動詞なしに直接述語にすることはできません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "their",
+          "B": "they",
+          "C": "them",
+          "D": "theirs"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「team members（複数）」を修飾する、複数マネージャー（Managers）に対応する所有格代名詞(A) their（彼らの）が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 team members を修飾して「各自のチームメンバー」という意味を作ります。",
+          "B": "【不正解】主格代名詞。名詞の前に置けません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "D": "【不正解】所有代名詞。「彼らのもの」となり名詞を修飾できません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "them",
+          "B": "they",
+          "C": "their",
+          "D": "themselves"
+        },
+        "correct_answer": "A",
+        "explanation": "動詞 submit の目的語として、前文の「self-assessment forms（自己評価シート：複数名詞）」を指す代名詞の目的格(A) them が適切です。",
+        "options_explanations": {
+          "A": "【正解】代名詞（複数目的格）。複数名詞 self-assessment forms を受けます。",
+          "B": "【不正解】主格代名詞。目的格として動詞の後ろに置けません。",
+          "C": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "D": "【不正解】再帰代名詞。主語（Pleaseに対するyou）と一致しないため不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A detailed schedule of review times will be sent on Friday.",
+          "B": "The HR office is located on the second floor of the building.",
+          "C": "We hired five new sales associates last week.",
+          "D": "Our company picnic was a great success."
+        },
+        "correct_answer": "A",
+        "explanation": "面談実施の予告と、自己評価シートの事前提出を指示した直後であるため、具体的な次のステップ情報として「面談日時の詳細なスケジュールは、金曜日に送付されます」と告知する(A)が極めて実務的に最適です。",
+        "options_explanations": {
+          "A": "【正解】「面談日時の詳細なスケジュールは、金曜日に送付されます」。評価実施における最大の関心事（いつやるのか）を補足する最も自然な流れです。",
+          "B": "【不正解】「人事部はビルの2階にあります」。一般的なオフィスの位置情報ですが、面談スケジュール自体の詳細を通知する流れの方が重要で自然です。",
+          "C": "【不正解】「先週5名の新しい営業担当を採用しました」。新規採用の報告は、既存スタッフ全員に対する人事評価の実施案内とは関係が薄いです。",
+          "D": "【不正解】「社内ピクニックは大成功を収めました」。ピクニックの報告であり、ビジネスの人事考課という真面目なトーンの案内文には一切不釣り合いです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_029",
+    "target_level": 700,
+    "passage_text": "Notice to Employees, \nThe main parking garage will be closed for repaving starting next Friday. Contractors will work through the weekend to complete ( --- 1 --- ) repairs. During this time, please park your cars in the auxiliary lot. Security guards will be there to assist ( --- 2 --- ) in finding a space. We expect the garage ( --- 3 --- ) reopened by Monday morning. ( --- 4 --- ). Thank you for your cooperation during this project. \nFacilities Management Office",
+    "passage_translation": "従業員の皆様へ \n来週の金曜日より、再舗装工事のため立体（メイン）駐車場が閉鎖されます。請負業者が週末にかけて作業を行い、（その）修理を完了させます。この期間中、予備（臨時）駐車場に車を停めていただくようお願いいたします。警備員が配置され、（皆様が）スペースを見つけるのをサポートします。駐車場は月曜日の朝までに再開される（見込みです）。（金曜日に駐車場に残された車両は、レッカー移動される場合がございます。）このプロジェクト期間中のご協力に感謝いたします。 \n設備管理事務所",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "the",
+          "B": "an",
+          "C": "a",
+          "D": "no article"
+        },
+        "correct_answer": "A",
+        "explanation": "前文に「repaving（再舗装）」と言及されているため、その再舗装に伴う「特定の修理・修復（repairs）」を指す定冠詞(A) the が適切です。",
+        "options_explanations": {
+          "A": "【正解】定冠詞。文脈から工事（repaving）に伴う特定の修理（repairs）を特定できるため適切です。",
+          "B": "【不正解】不定冠詞。名詞 repairs が複数形であるため、単数用の an は置けません。",
+          "C": "【不正解】不定冠詞。複数名詞を修飾できないため置けません。",
+          "D": "【不正解】無冠詞。特定の駐車場再舗装に伴う修復工事を特定するため、定冠詞を伴うべきです。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "you",
+          "B": "your",
+          "C": "yours",
+          "D": "yourself"
+        },
+        "correct_answer": "A",
+        "explanation": "assist + 目的語(you) + in doing（あなたが〜するのを支援する）の重要熟語です。目的格代名詞の(A) you が適切です。",
+        "options_explanations": {
+          "A": "【正解】目的格代名詞。「assist you in finding a space」で「皆様が駐車スペースを見つけるのをサポートする」という意味になります。",
+          "B": "【不正解】所有格代名詞。後ろに名詞がないため不適切です。",
+          "C": "【不正解】所有代名詞。「あなたのもの」となり文脈が通りません。",
+          "D": "【不正解】再帰代名詞。主語は Security guards であり、目的語に yourself を置く一貫性がありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "to be",
+          "B": "being",
+          "C": "been",
+          "D": "was"
+        },
+        "correct_answer": "A",
+        "explanation": "expect + 名詞 + to be done（名詞が〜されると見込む）の重要構文です。名詞 the garage の後ろに(A) to be を置き、garage to be reopened とすることで「駐車場が再開される見込みである」という受動の不定詞構造が正しく完成します。",
+        "options_explanations": {
+          "A": "【正解】不定詞。expect sth to be done の構文を作る正しい形です。",
+          "B": "【不正解】動名詞。expect の目的格補語として being は置けません。",
+          "C": "【不正解】過去分詞。to なしに直接 been を補語の位置に置くことはできません。",
+          "D": "【不正解】動詞の過去形。補語の位置に述語動詞の過去形を置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Vehicles left in the garage on Friday may be towed.",
+          "B": "The main office will be closed on Friday for a staff meeting.",
+          "C": "We plan to paint the interior of the offices next spring.",
+          "D": "Please report any maintenance issues to the landlord."
+        },
+        "correct_answer": "A",
+        "explanation": "金曜から駐車場が閉鎖されること、週末に工事が行われることを説明したため、実務的な警告・禁止事項として「金曜日に駐車場内に残された車両は、レッカー移動（towed）される場合があります」と注意を促す(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「金曜日に駐車場に残された車両は、レッカー移動される場合があります」。工事開始時の車両残留に対する重要な警告です。",
+          "B": "【不正解】「本社は金曜日にスタッフ会議のため閉鎖されます」。駐車場工事の案内において、本社ビルの閉鎖は関係がありません。",
+          "C": "【不正解】「来年、オフィス内部の塗装を行う予定です」。駐車場の舗装工事の警告案内の中に、はるか未来のビル塗装工事の予定を混ぜるのは不自然です。",
+          "D": "【不正解】「メンテナンス問題は大家に報告してください」。車両移動の指示が本題であり、大家への不具合報告窓口は関係が薄いです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_700_030",
+    "target_level": 700,
+    "passage_text": "Dear Customer, \nThank you for purchasing an Apex home appliance. We are pleased to inform you that we ( --- 1 --- ) the warranty on your product for an additional year at no extra cost. This extension demonstrates our confidence in ( --- 2 --- ) product durability. You do not need to take any action to activate ( --- 3 --- ) benefit; it has been applied to your account. ( --- 4 --- ). Thank you for choosing Apex for your home needs. \nSincerely, \nApex Customer Care",
+    "passage_translation": "お客様へ \nアペックスの家電製品をご購入いただきありがとうございます。追加費用なしで、お客様の製品の保証期間をさらに1年間（延長いたします）ことをお知らせいたします。この延長は、当社の製品の耐久性に対する自信を示すものです。この特典を有効化するために、お客様が手続きを行う必要は（ございません）。お客様のアカウントに自動的に適用されております。（確認のレターが、お客様のデジタルプロフィールに保存されております。）ご家庭のニーズにアペックスをお選びいただきありがとうございます。 \n敬具 \nアペックス・カスタマーケア",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "are extending",
+          "B": "extended",
+          "C": "extends",
+          "D": "extend"
+        },
+        "correct_answer": "A",
+        "explanation": "現在またはごく最近決定され、今行われている製品保証の延長手続き（現在進行形、または実務上の決定を目の前の顧客に伝える進行形表現）のため、(A) are extending が最適です。we are pleased to inform you that we are extending... で「延長することをお知らせいたします」と自然に繋がります。",
+        "options_explanations": {
+          "A": "【正解】現在進行形。「私たちは（今、お客様の）保証を延長いたします」と目の前のアクションを丁寧に表現する進行形で、ビジネスの重要案内として完璧です。",
+          "B": "【不正解】過去形。過去に勝手に延長を完了したと報告するより、are extending を使って「今、延長手続きを行っている最中・ご提供している」と伝える方が顧客レターとしてより自然で臨場感があります。",
+          "C": "【不正解】動詞の三人称単数現在形。主語 we に対応しません。",
+          "D": "【不正解】動詞の原形、または複数現在形。are extending の方が、今行われている好意的なサービス展開をアピールするレターのトーンに優れています。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "grammar",
+        "options": {
+          "A": "our",
+          "B": "ours",
+          "C": "us",
+          "D": "ourselves"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞「product durability（製品の耐久性）」を修飾する、所有格代名詞(A) our（当社の）が適切です。",
+        "options_explanations": {
+          "A": "【正解】所有格代名詞。名詞 product durability を適切に修飾し、「当社の製品耐久性」と表現します。",
+          "B": "【不正解】所有代名詞。「私たちのもの」となり名詞を修飾できません。",
+          "C": "【不正解】目的格代名詞。名詞の前に置けません。",
+          "D": "【不正解】再帰代名詞。名詞を直接修飾できません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "this",
+          "B": "these",
+          "C": "those",
+          "D": "them"
+        },
+        "correct_answer": "A",
+        "explanation": "単数名詞「benefit（特典、利益：ここでは単数名詞）」を修飾する、指示形容詞(A) this（この）が適切です。前文で説明した保証延長（benefit）を指します。",
+        "options_explanations": {
+          "A": "【正解】指示形容詞（単数）。単数名詞 benefit を正しく修飾します。",
+          "B": "【不正解】指示形容詞（複数）。名詞が単数形のため置けません。",
+          "C": "【不正解】指示形容詞（複数・遠称）。複数名詞を修飾するため不適切です。",
+          "D": "【不正解】代名詞（複数目的格）。名詞 benefit の前に置いて直接修飾できません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A confirmation letter has been saved to your digital profile.",
+          "B": "Our physical stores are closed on national holidays.",
+          "C": "The appliance was manufactured in our Chicago facility.",
+          "D": "Please leave a product review on our website if you are satisfied."
+        },
+        "correct_answer": "A",
+        "explanation": "手続きの有効化のためのアクションは不要であり、すでにアカウントに適用済みと述べた後、その裏付け（確証）情報として「確認レター（確認書）がお客様のデジタルプロフィールに保存されております（のでそちらでご確認いただけます）」と手続きの証明方法を案内する(A)が実務的に最も親切で完璧です。",
+        "options_explanations": {
+          "A": "【正解】「確認のレターが、お客様のデジタルプロフィールに保存されております」。自動適用された特典の確認証明手段を提供する完璧な実務案内です。",
+          "B": "【不正解】「当社の実店舗は祝祭日は休業しております」。保証期間が無償延長された顧客に喜ばしいお礼案内を伝える中で、突然の実店舗休業日は無関係です。",
+          "C": "【不正解】「その家電製品は、当社のシカゴ工場で製造されました」。製品の製造工場の場所は、今回の保証期間無償延長という顧客サービスの決定案内の文脈とは関係ありません。",
+          "D": "【不正解】「満足いただけましたらウェブサイトにレビューを投稿してください」。満足度レビューの要請は一般的ですが、(A)の確認方法に関する案内の方が、契約・保証の自動適用手続きという一連の流れの完了として圧倒的に優先度が高く、自然です。"
+        }
+      }
+    ]
+  }
+]

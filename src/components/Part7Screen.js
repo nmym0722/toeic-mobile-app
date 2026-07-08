@@ -9,66 +9,187 @@ import {
   Platform,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import rawPart7Data from '../data/toeic_part7.json';
+import level500Data from '../data/toeic_reading_part7_level500.json';
+import level700Data from '../data/toeic_reading_part7_level700.json';
+import level900Data from '../data/toeic_reading_part7_level900.json';
 import NeoButton from './NeoButton';
 import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
 import ErrorReportModal from './ErrorReportModal';
+import { getBookmarks, addBookmark, removeBookmark } from '../services/bookmarkService';
+
+// 難易度データのマッピング
+const LEVEL_DATA = {
+  500: level500Data,
+  700: level700Data,
+  900: level900Data,
+};
+
+const LEVELS = [
+  { key: 500, label: '500点レベル', count: level500Data.length },
+  { key: 700, label: '700点レベル', count: level700Data.length },
+  { key: 900, label: '900点レベル', count: level900Data.length },
+];
+
+// パッセージテキストを [Document X: ... ] のパターンで分割するヘルパー関数
+const parsePassageText = (text) => {
+  if (!text) return [];
+  const regex = /(\[Document \d+:[^\]]+\])/g;
+  const parts = text.split(regex);
+  
+  const docs = [];
+  let currentLabel = 'Document 1';
+  
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i].trim();
+    if (!part) continue;
+    
+    if (part.match(/^\[Document \d+:/)) {
+      currentLabel = part.replace(/[\[\]]/g, '');
+    } else {
+      docs.push({
+        label: currentLabel,
+        content: part
+      });
+    }
+  }
+  
+  if (docs.length === 0) {
+    docs.push({
+      label: 'Document 1',
+      content: text
+    });
+  }
+  
+  return docs;
+};
 
 export default function Part7Screen({ onBackPortal }) {
   const quizStartTimeRef = useRef(null);
+  const scrollViewRef = useRef(null);
+  
+  const [passages, setPassages] = useState([]);
+  const [currentPassageIndex, setCurrentPassageIndex] = useState(0);
   const [passage, setPassage] = useState(null);
-  const [phase, setPhase] = useState('quiz'); // quiz | result
   const [currentQIndex, setCurrentQIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState(null); // 'A', 'B', 'C', 'D' が入る
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [quizResults, setQuizResults] = useState([]);
+  const [phase, setPhase] = useState('select_level'); // select_level | select_count | quiz | result
+  const [selectedLevel, setSelectedLevel] = useState(500);
+  const [selectedCount, setSelectedCount] = useState(1); // デフォルト1文書
+  const [quizResults, setQuizResults] = useState([]); // [{ questionId, correct, selected, answer }]
+
+  // スワイプタブ用ステート
+  const [activeTabIdx, setActiveTabIdx] = useState(0);
+  const [layoutWidth, setLayoutWidth] = useState(0);
+
+  // ブックマーク管理用ステート
+  const [bookmarkedIds, setBookmarkedIds] = useState(new Set());
 
   // 問題報告用ステート
   const [reportModalVisible, setReportModalVisible] = useState(false);
   const [reportData, setReportData] = useState(null);
 
-  const loadPassage = () => {
-    const randomPassage = rawPart7Data[Math.floor(Math.random() * rawPart7Data.length)];
-    setPassage(randomPassage);
+  // 初回ロード時にブックマーク一覧を取得
+  useEffect(() => {
+    const loadBookmarks = async () => {
+      try {
+        const list = await getBookmarks();
+        setBookmarkedIds(new Set(list.map(b => b.id)));
+      } catch (e) {
+        console.error('Failed to load bookmarks:', e);
+      }
+    };
+    loadBookmarks();
+  }, []);
+
+  // ブックマークの追加・削除トグル
+  const handleToggleBookmark = async (qNumber) => {
+    if (!passage) return;
+    const targetQ = passage.questions.find(q => Number(q.question_number) === Number(qNumber));
+    if (!targetQ) return;
+
+    const bookmarkId = `${passage.passage_id}_${qNumber}`;
+    const isBookmarked = bookmarkedIds.has(bookmarkId);
+    let updatedList;
+
+    if (isBookmarked) {
+      updatedList = await removeBookmark(bookmarkId);
+    } else {
+      const bookmarkQuestion = {
+        id: bookmarkId,
+        sentence: passage.passage_text, // 本文全体
+        options: targetQ.options,
+        correct_answer: targetQ.correct_answer,
+        meaning: passage.passage_translation, // 全訳
+        explanation: targetQ.explanation,
+        options_explanations: targetQ.options_explanations
+      };
+      updatedList = await addBookmark(bookmarkQuestion, 7, selectedLevel);
+    }
+    setBookmarkedIds(new Set(updatedList.map(b => b.id)));
+  };
+
+  const setupPassage = (p) => {
+    setPassage(p);
     setCurrentQIndex(0);
     setSelectedOption(null);
     setIsSubmitted(false);
-    setQuizResults([]);
-    setPhase('quiz');
-    quizStartTimeRef.current = Date.now();
+    setActiveTabIdx(0);
+    setTimeout(() => {
+      scrollViewRef.current?.scrollTo({ x: 0, animated: false });
+    }, 50);
   };
 
+  // 指定されたレベルと問題数（文書数）でランダム抽出
   useEffect(() => {
-    loadPassage();
-  }, []);
+    if (phase === 'quiz') {
+      const rawData = LEVEL_DATA[selectedLevel] || [];
+      const shuffled = [...rawData].sort(() => 0.5 - Math.random());
+      const actualCount = Math.min(selectedCount, shuffled.length);
+      const selectedPassages = shuffled.slice(0, actualCount);
 
-  const handleSelectOption = (opt) => {
+      setPassages(selectedPassages);
+      setCurrentPassageIndex(0);
+      setQuizResults([]);
+
+      if (selectedPassages.length > 0) {
+        setupPassage(selectedPassages[0]);
+      }
+      quizStartTimeRef.current = Date.now();
+    }
+  }, [phase, selectedLevel, selectedCount]);
+
+  const handleSelectOption = (optKey) => {
     if (isSubmitted) return;
-    setSelectedOption(opt);
+    setSelectedOption(optKey);
     setIsSubmitted(true);
 
     const currentQuestion = passage.questions[currentQIndex];
-    const isCorrect = opt === currentQuestion.answer;
+    const isCorrect = optKey === currentQuestion.correct_answer;
 
     setQuizResults((prev) => [
       ...prev,
       {
-        questionNum: currentQuestion.id,
+        questionId: `${passage.passage_id}_q_${currentQuestion.question_number}`,
+        passageId: passage.passage_id,
+        questionNumber: currentQuestion.question_number,
         correct: isCorrect,
-        selected: opt,
-        answer: currentQuestion.answer,
+        selected: optKey,
+        answer: currentQuestion.correct_answer,
+        explanation: currentQuestion.explanation,
+        options_explanations: currentQuestion.options_explanations,
       },
     ]);
   };
 
   const savePart7Results = async (results) => {
-    if (!passage) return;
     try {
+      const totalCount = results.length;
       const correctCount = results.filter((r) => r.correct).length;
       const elapsedSec = quizStartTimeRef.current ? Math.round((Date.now() - quizStartTimeRef.current) / 1000) : 0;
       const stats = await loadUserStats();
-      const testName = `Part 7 長文読解 (${passage.passage_type || 'シングル'} ${results.length}問)`;
-      const updated = updatePartStats(stats, 'part7', correctCount, results.length, elapsedSec, testName);
+      const testName = `Part 7 (${selectedLevel}点レベル ${totalCount}問)`;
+      const updated = updatePartStats(stats, 'part7', correctCount, totalCount, elapsedSec, testName);
       await saveUserStats(updated);
     } catch (e) {
       console.error('Failed to save Part 7 stats:', e);
@@ -77,14 +198,129 @@ export default function Part7Screen({ onBackPortal }) {
 
   const handleNextQuestion = () => {
     if (currentQIndex + 1 >= passage.questions.length) {
-      savePart7Results(quizResults);
-      setPhase('result');
+      // 現在のパッセージの最後の設問だった場合
+      goToNextPassageOrResult();
     } else {
       setCurrentQIndex((prev) => prev + 1);
       setSelectedOption(null);
       setIsSubmitted(false);
     }
   };
+
+  const goToNextPassageOrResult = () => {
+    const nextIndex = currentPassageIndex + 1;
+    if (nextIndex < passages.length) {
+      setCurrentPassageIndex(nextIndex);
+      setupPassage(passages[nextIndex]);
+    } else {
+      savePart7Results(quizResults);
+      setPhase('result');
+    }
+  };
+
+  // ドキュメントタイプのアイコン名を取得する（Ionicons対応）
+  const getDocIconName = (type) => {
+    const t = (type || '').toLowerCase();
+    if (t.includes('email') || t.includes('letter')) return 'mail-outline';
+    if (t.includes('article') || t.includes('report')) return 'document-text-outline';
+    if (t.includes('ad') || t.includes('advertisement')) return 'megaphone-outline';
+    if (t.includes('chat') || t.includes('message')) return 'chatbubble-ellipses-outline';
+    if (t.includes('invoice') || t.includes('bill')) return 'receipt-outline';
+    return 'reader-outline';
+  };
+
+  /* ==========================================
+     1. レベル選択画面 (select_level)
+     ========================================== */
+  if (phase === 'select_level') {
+    return (
+      <View style={styles.container}>
+        <ScrollView contentContainerStyle={styles.scrollContent}>
+          <View style={styles.selectHeader}>
+            <Text style={styles.selectWelcome}>Part 7 ・ Reading Comprehension</Text>
+            <Text style={styles.selectTitle}>レベルを選択</Text>
+          </View>
+
+          <View style={styles.typeListContainer}>
+            {LEVELS.map((level) => (
+              <NeoButton
+                key={level.key}
+                onPress={() => {
+                  setSelectedLevel(level.key);
+                  setPhase('select_count');
+                }}
+                btnStyle={styles.typeBtn}
+              >
+                <View style={styles.typeBtnContent}>
+                  <Text style={styles.typeBtnLabel}>{level.label}</Text>
+                  <Text style={styles.typeBtnCount}>{level.count}文書</Text>
+                </View>
+              </NeoButton>
+            ))}
+          </View>
+        </ScrollView>
+        <View style={styles.footer}>
+          <NeoButton
+            onPress={onBackPortal}
+            btnStyle={styles.backBtn}
+          >
+            <Text style={styles.backBtnText}>ダッシュボードに戻る</Text>
+          </NeoButton>
+        </View>
+      </View>
+    );
+  }
+
+  /* ==========================================
+     2. 問題数選択画面 (select_count)
+     ========================================== */
+  if (phase === 'select_count') {
+    const total = LEVEL_DATA[selectedLevel]?.length || 0;
+    const levelLabel = LEVELS.find(l => l.key === selectedLevel)?.label || `${selectedLevel}点レベル`;
+
+    const countOptions = [
+      { value: 1, label: '1文書' },
+      { value: 2, label: '2文書' },
+      { value: 3, label: '3文書' },
+    ];
+
+    return (
+      <View style={styles.container}>
+        <ScrollView contentContainerStyle={styles.scrollContent}>
+          <View style={styles.selectHeader}>
+            <Text style={styles.selectWelcome}>Part 7 ・ Reading Comprehension</Text>
+            <Text style={styles.selectTitle}>問題数（文書数）を選択</Text>
+            <Text style={styles.selectSubtitle}>
+              レベル: {levelLabel} ({total}文書中)
+            </Text>
+          </View>
+
+          <View style={styles.countList}>
+            {countOptions.map((option, index) => (
+              <NeoButton
+                key={index}
+                onPress={() => {
+                  setSelectedCount(option.value);
+                  setPhase('quiz');
+                }}
+                btnStyle={styles.countBtn}
+              >
+                <Text style={styles.countBtnText}>{option.label}</Text>
+              </NeoButton>
+            ))}
+          </View>
+        </ScrollView>
+        <View style={styles.footer}>
+          <NeoButton
+            onPress={() => setPhase('select_level')}
+            btnStyle={styles.backBtn}
+          >
+            <Text style={styles.backBtnText}>レベル選択に戻る</Text>
+          </NeoButton>
+        </View>
+      </View>
+    );
+  }
 
   if (!passage) {
     return (
@@ -96,54 +332,65 @@ export default function Part7Screen({ onBackPortal }) {
   }
 
   const currentQuestion = passage.questions[currentQIndex];
-  const isCorrect = selectedOption === currentQuestion.answer;
+  const isCorrect = selectedOption === currentQuestion.correct_answer;
   const totalQuestions = passage.questions.length;
   const progress = Math.round(((currentQIndex + 1) / totalQuestions) * 100);
 
-  // 文書タイプアイコン取得
-  const getDocIcon = (type) => {
-    const t = (type || '').toLowerCase();
-    if (t.includes('email') || t.includes('letter')) return '✉️';
-    if (t.includes('article') || t.includes('report')) return '📄';
-    if (t.includes('ad') || t.includes('advertisement')) return '📢';
-    if (t.includes('chat') || t.includes('message')) return '💬';
-    return '📝';
-  };
+  // パッセージをパースして分割したドキュメントの配列
+  const docs = parsePassageText(passage.passage_text);
 
   /* ==========================================
      A. Quiz Screen (quiz)
      ========================================== */
   if (phase === 'quiz') {
+    const bookmarkId = `${passage.passage_id}_${currentQuestion.question_number}`;
+
     return (
       <View style={styles.container}>
         <ScrollView contentContainerStyle={styles.scrollContent}>
           {/* Header */}
           <View style={styles.header}>
             <TouchableOpacity
-              onPress={onBackPortal}
+              onPress={() => setPhase('select_level')}
               style={styles.backButton}
             >
               <Text style={styles.backButtonText}>← Menu</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity
-              onPress={() => {
-                setReportData({
-                  questionId: `${passage.id}_q_${currentQuestion.id}`,
-                  questionType: 'Part 7',
-                  questionText: `【タイトル】: ${passage.title || 'No Title'}\n【設問】: ${currentQuestion.question_text || 'N/A'}\n【長文本文】: ${passage.passages?.map(p => p.content)?.join('\n')}`,
-                });
-                setReportModalVisible(true);
-              }}
-              style={styles.reportIconButton}
-            >
-              <Ionicons name="alert-circle-outline" size={24} color="#CC2534" />
-            </TouchableOpacity>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+              {/* Bookmark Button */}
+              <TouchableOpacity
+                onPress={() => handleToggleBookmark(currentQuestion.question_number)}
+                style={styles.reportIconButton}
+              >
+                <Ionicons
+                  name={bookmarkedIds.has(bookmarkId) ? 'bookmark' : 'bookmark-outline'}
+                  size={22}
+                  color="#378F8F"
+                />
+              </TouchableOpacity>
+
+              {/* Report Button */}
+              <TouchableOpacity
+                onPress={() => {
+                  setReportData({
+                    questionId: `${passage.passage_id}_q_${currentQuestion.question_number}`,
+                    questionType: 'Part 7',
+                    questionText: `【タイトル】: ${passage.title || 'No Title'}\n【設問】: ${currentQuestion.question_text || 'N/A'}\n【本文】: ${passage.passage_text}`,
+                  });
+                  setReportModalVisible(true);
+                }}
+                style={styles.reportIconButton}
+              >
+                <Ionicons name="alert-circle-outline" size={24} color="#CC2534" />
+              </TouchableOpacity>
+            </View>
 
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
-              <View style={styles.headerBadgeContainer}>
-                <Text style={styles.headerBadge}>
-                  {getDocIcon(passage.document_type)} {passage.document_type || 'Reading'}
+              <View style={styles.headerBadgeWrapper}>
+                <Ionicons name={getDocIconName(passage.document_type)} size={14} color="#7C756B" style={{ marginRight: 4 }} />
+                <Text style={styles.headerBadgeText}>
+                  {passage.document_type || 'Reading'}
                 </Text>
               </View>
               <Text style={styles.progressText}>
@@ -157,28 +404,74 @@ export default function Part7Screen({ onBackPortal }) {
             <View style={[styles.progressBarFill, { width: `${progress}%` }]} />
           </View>
 
-          {/* Passage Card */}
-          <View style={styles.passageCard}>
+          {/* Document Status Header (Passage Count) */}
+          <Text style={styles.passageCountLabel}>
+            パッセージ {currentPassageIndex + 1} / {passages.length}
+          </Text>
+
+          {/* Passage Card with Tab Switching / Swipe */}
+          <View
+            style={styles.passageCard}
+            onLayout={(e) => {
+              setLayoutWidth(e.nativeEvent.layout.width - 40); // 左右padding 20px分の計40pxを引く
+            }}
+          >
             <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
               <Text style={styles.passageTitle}>{passage.title || 'Reading Comprehension'}</Text>
-              <Text style={styles.idBadge}>長文ID: {passage.id}</Text>
+              <Text style={styles.idBadge}>長文ID: {passage.passage_id}</Text>
             </View>
-            {passage.source && (
-              <Text style={styles.passageSource}>
-                {passage.source} {passage.date ? `· ${passage.date}` : ''}
-              </Text>
-            )}
             <View style={styles.passageDivider} />
 
+            {/* ダブル/トリプルパッセージの場合のタブヘッダー */}
+            {docs.length > 1 && (
+              <View style={styles.tabHeaderContainer}>
+                {docs.map((doc, idx) => (
+                  <TouchableOpacity
+                    key={idx}
+                    onPress={() => {
+                      setActiveTabIdx(idx);
+                      scrollViewRef.current?.scrollTo({ x: idx * layoutWidth, animated: true });
+                    }}
+                    style={[styles.tabButton, activeTabIdx === idx && styles.tabButtonActive]}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={[styles.tabButtonText, activeTabIdx === idx && styles.tabButtonTextActive]}>
+                      文書 {idx + 1}
+                    </Text>
+                  </TouchableOpacity>
+                ))}
+              </View>
+            )}
+
             <View style={styles.passagesContainer}>
-              {passage.passages.map((doc, idx) => (
-                <View key={idx} style={styles.docParagraph}>
-                  {doc.label && <Text style={styles.docLabel}>{doc.label}</Text>}
-                  <Text style={styles.docContentText}>
-                    {doc.content.replace(/\\n/g, '\n')}
-                  </Text>
-                </View>
-              ))}
+              {layoutWidth > 0 ? (
+                <ScrollView
+                  ref={scrollViewRef}
+                  horizontal
+                  pagingEnabled
+                  showsHorizontalScrollIndicator={false}
+                  onMomentumScrollEnd={(e) => {
+                    const contentOffset = e.nativeEvent.contentOffset.x;
+                    const index = Math.round(contentOffset / layoutWidth);
+                    if (index !== activeTabIdx && index >= 0 && index < docs.length) {
+                      setActiveTabIdx(index);
+                    }
+                  }}
+                  contentContainerStyle={{ width: layoutWidth * docs.length }}
+                >
+                  {docs.map((doc, idx) => (
+                    <View key={idx} style={{ width: layoutWidth, paddingRight: 8 }}>
+                      <Text style={styles.docLabelText}>{doc.label}</Text>
+                      <View style={styles.passageDivider} />
+                      <Text style={styles.docContentText}>
+                        {doc.content.replace(/\\n/g, '\n')}
+                      </Text>
+                    </View>
+                  ))}
+                </ScrollView>
+              ) : (
+                <ActivityIndicator size="small" color="#93C1C1" />
+              )}
             </View>
           </View>
 
@@ -186,32 +479,40 @@ export default function Part7Screen({ onBackPortal }) {
           <View style={styles.questionCard}>
             <View style={styles.questionHeader}>
               <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginBottom: 6 }}>
-                <Text style={styles.questionLabel}>Question {currentQIndex + 1}</Text>
-                <Text style={styles.idBadge}>設問ID: {passage.id}_q_{currentQuestion.id}</Text>
+                <Text style={styles.questionLabel}>Question {currentQuestion.question_number}</Text>
+                <Text style={styles.idBadge}>設問ID: {passage.passage_id}_q_{currentQuestion.question_number}</Text>
               </View>
               <Text style={styles.questionText}>{currentQuestion.question_text}</Text>
               
               {isSubmitted && (
-                <Text
-                  style={[
-                    styles.resultBadge,
-                    isCorrect ? styles.resultBadgeCorrect : styles.resultBadgeWrong,
-                  ]}
-                >
-                  {isCorrect ? 'Correct ✓' : 'Incorrect ✗'}
-                </Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 4 }}>
+                  <Ionicons
+                    name={isCorrect ? 'checkmark-circle' : 'close-circle'}
+                    size={16}
+                    color={isCorrect ? '#378F8F' : '#CC2534'}
+                  />
+                  <Text
+                    style={[
+                      styles.resultBadge,
+                      isCorrect ? styles.resultBadgeCorrect : styles.resultBadgeWrong,
+                    ]}
+                  >
+                    {isCorrect ? 'Correct' : 'Incorrect'}
+                  </Text>
+                </View>
               )}
             </View>
 
             {/* Options List */}
             <View style={styles.optionsContainer}>
-              {currentQuestion.options.map((opt, idx) => {
-                const isOptSelected = selectedOption === opt;
-                const isOptCorrect = opt === currentQuestion.answer;
+              {['A', 'B', 'C', 'D'].map((optKey, idx) => {
+                const optText = currentQuestion.options[optKey];
+                const isOptSelected = selectedOption === optKey;
+                const isOptCorrect = optKey === currentQuestion.correct_answer;
 
                 let btnStyle = styles.optButton;
                 let labelStyle = styles.optLabelBg;
-                let labelContent = String.fromCharCode(65 + idx);
+                let labelContent = optKey;
                 let optTextStyle = styles.optText;
                 let shadowColor = '#1C1C1E';
 
@@ -232,7 +533,7 @@ export default function Part7Screen({ onBackPortal }) {
                     btnStyle = [styles.optButton, styles.optDisabled];
                     labelStyle = [styles.optLabelBg, styles.labelDisabled];
                     optTextStyle = [styles.optText, styles.optTextDisabled];
-                    labelContent = String.fromCharCode(65 + idx);
+                    labelContent = optKey;
                   }
                 } else if (isOptSelected) {
                   btnStyle = [styles.optButton, styles.optSelected];
@@ -243,7 +544,7 @@ export default function Part7Screen({ onBackPortal }) {
                 return (
                   <NeoButton
                     key={idx}
-                    onPress={() => handleSelectOption(opt)}
+                    onPress={() => handleSelectOption(optKey)}
                     disabled={isSubmitted}
                     btnStyle={btnStyle}
                     shadowColor={shadowColor}
@@ -252,7 +553,7 @@ export default function Part7Screen({ onBackPortal }) {
                       <View style={labelStyle}>
                         <Text style={styles.optLabelText}>{labelContent}</Text>
                       </View>
-                      <Text style={optTextStyle}>{opt}</Text>
+                      <Text style={optTextStyle}>{optText}</Text>
                     </View>
                   </NeoButton>
                 );
@@ -264,6 +565,20 @@ export default function Part7Screen({ onBackPortal }) {
               <View style={styles.explanationBox}>
                 <Text style={styles.expHeader}>Explanation</Text>
                 <Text style={styles.expText}>{currentQuestion.explanation}</Text>
+                
+                {currentQuestion.options_explanations && (
+                  <View style={{ marginTop: 12, gap: 6 }}>
+                    {['A', 'B', 'C', 'D'].map((key) => {
+                      const exp = currentQuestion.options_explanations[key];
+                      if (!exp) return null;
+                      return (
+                        <Text key={key} style={styles.optExpText}>
+                          <Text style={{ fontWeight: 'bold' }}>{key}:</Text> {exp}
+                        </Text>
+                      );
+                    })}
+                  </View>
+                )}
               </View>
             )}
           </View>
@@ -277,7 +592,11 @@ export default function Part7Screen({ onBackPortal }) {
               btnStyle={styles.actionBtn}
             >
               <Text style={styles.actionBtnText}>
-                {currentQIndex + 1 >= totalQuestions ? 'Show Results' : 'Next'}
+                {currentQIndex + 1 >= totalQuestions && currentPassageIndex + 1 >= passages.length
+                  ? 'Show Results'
+                  : currentQIndex + 1 >= totalQuestions
+                  ? 'Next Passage'
+                  : 'Next'}
               </Text>
             </NeoButton>
           )}
@@ -294,8 +613,8 @@ export default function Part7Screen({ onBackPortal }) {
   /* ==========================================
      B. Results Screen (result)
      ========================================== */
-  const correctCount = quizResults.filter((r) => r.correct).length;
-  const scorePercent = Math.round((correctCount / totalQuestions) * 100);
+  const totalCorrect = quizResults.filter((r) => r.correct).length;
+  const scorePercent = Math.round((totalCorrect / quizResults.length) * 100) || 0;
 
   return (
     <View style={styles.container}>
@@ -311,45 +630,76 @@ export default function Part7Screen({ onBackPortal }) {
             {scorePercent === 100 ? 'PERFECT!' : scorePercent >= 66 ? 'GREAT JOB!' : 'KEEP GOING!'}
           </Text>
           <Text style={styles.evaluationSub}>
-            Correct: {correctCount} / {totalQuestions} Questions
+            Correct: {totalCorrect} / {quizResults.length} Questions
           </Text>
         </View>
 
         {/* Review List (Keep explanations in Japanese) */}
         <Text style={styles.reviewHeader}>Explanations & Review</Text>
         <View style={styles.reviewList}>
-          {passage.questions.map((q, idx) => {
-            const res = quizResults.find((r) => r.questionNum === q.id);
-            const isCorrect = res && res.correct;
+          {quizResults.map((res, idx) => {
+            const isCorrect = res.correct;
+            const bookmarkId = `${res.passageId}_${res.questionNumber}`;
 
             return (
               <View key={idx} style={styles.reviewCard}>
                 <View style={styles.reviewCardHeader}>
-                  <Text
-                    style={[
-                      styles.resultBadge,
-                      isCorrect ? styles.resultBadgeCorrect : styles.resultBadgeWrong,
-                    ]}
+                  <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                    <Ionicons
+                      name={isCorrect ? 'checkmark-circle' : 'close-circle'}
+                      size={16}
+                      color={isCorrect ? '#378F8F' : '#CC2534'}
+                    />
+                    <Text
+                      style={[
+                        styles.resultBadge,
+                        isCorrect ? styles.resultBadgeCorrect : styles.resultBadgeWrong,
+                      ]}
+                    >
+                      {isCorrect ? 'Correct' : 'Incorrect'}
+                    </Text>
+                  </View>
+                  <Text style={styles.reviewTypeBadge}>Question {res.questionNumber}</Text>
+                  
+                  {/* Bookmark Button in Review */}
+                  <TouchableOpacity
+                    onPress={() => handleToggleBookmark(res.questionNumber)}
+                    style={{ marginLeft: 'auto', padding: 4 }}
                   >
-                    {isCorrect ? 'Correct ✓' : 'Incorrect ✗'}
-                  </Text>
-                  <Text style={styles.reviewTypeBadge}>Question {q.id}</Text>
+                    <Ionicons
+                      name={bookmarkedIds.has(bookmarkId) ? 'bookmark' : 'bookmark-outline'}
+                      size={20}
+                      color="#378F8F"
+                    />
+                  </TouchableOpacity>
                 </View>
-
-                <Text style={styles.reviewQuestionText}>{q.question_text}</Text>
 
                 <View style={styles.reviewAnswersContainer}>
                   <Text style={styles.answerRowText}>
-                    Your Answer: <Text style={isCorrect ? styles.textCorrect : styles.textWrong}>{res?.selected || 'Unanswered'}</Text>
+                    Your Answer: <Text style={isCorrect ? styles.textCorrect : styles.textWrong}>{res.selected}</Text>
                   </Text>
                   {!isCorrect && (
                     <Text style={styles.answerRowText}>
-                      Correct Answer: <Text style={styles.textCorrect}>{q.answer}</Text>
+                      Correct Answer: <Text style={styles.textCorrect}>{res.answer}</Text>
                     </Text>
                   )}
                   <View style={styles.reviewDivider} />
                   <Text style={styles.reviewExpTextHeader}>Explanation</Text>
-                  <Text style={styles.reviewExpText}>{q.explanation}</Text>
+                  <Text style={styles.reviewExpText}>{res.explanation}</Text>
+                  
+                  {res.options_explanations && (
+                    <View style={{ marginTop: 8, gap: 4 }}>
+                      {['A', 'B', 'C', 'D'].map((key) => {
+                        const exp = res.options_explanations[key];
+                        if (!exp) return null;
+                        return (
+                          <Text key={key} style={styles.optExpTextSmall}>
+                            <Text style={{ fontWeight: 'bold' }}>{key}:</Text> {exp}
+                          </Text>
+                        );
+                      })}
+                    </View>
+                  )}
                 </View>
               </View>
             );
@@ -359,10 +709,10 @@ export default function Part7Screen({ onBackPortal }) {
         {/* Action Buttons */}
         <View style={styles.resultActions}>
           <NeoButton
-            onPress={loadPassage}
+            onPress={() => setPhase('select_level')}
             btnStyle={styles.primaryActionBtn}
           >
-            <Text style={styles.primaryActionBtnText}>Next Passage</Text>
+            <Text style={styles.primaryActionBtnText}>レベル選択に戻る</Text>
           </NeoButton>
         </View>
       </ScrollView>
@@ -400,17 +750,18 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === 'ios' ? 24 : 16, // リーディング基準の上部安全余白に統一
     marginBottom: 8,
   },
-  headerBadgeContainer: {
-    alignSelf: 'flex-start',
-  },
-  headerBadge: {
-    fontSize: 10,
-    fontWeight: 'bold',
+  headerBadgeWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
     backgroundColor: '#DFD8CC',
-    color: '#7C756B',
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 8,
+  },
+  headerBadgeText: {
+    fontSize: 10,
+    fontWeight: 'bold',
+    color: '#7C756B',
     textTransform: 'uppercase',
     fontFamily: 'DMSans-Bold',
   },
@@ -433,6 +784,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#93C1C1',
     borderRadius: 3,
   },
+  passageCountLabel: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: '#7C756B',
+    marginBottom: 6,
+    fontFamily: 'MonaSans-Bold',
+  },
   /* Passage Card */
   passageCard: {
     backgroundColor: '#FFFFFF',
@@ -448,12 +806,7 @@ const styles = StyleSheet.create({
     color: '#1C1C1E',
     lineHeight: 24,
     fontFamily: 'MonaSans-Bold',
-  },
-  passageSource: {
-    fontSize: 11,
-    color: '#7C756B',
-    marginTop: 4,
-    fontFamily: 'DMSans-Regular',
+    flex: 1,
   },
   passageDivider: {
     height: 0.5,
@@ -465,15 +818,6 @@ const styles = StyleSheet.create({
   },
   docParagraph: {
     gap: 6,
-  },
-  docLabel: {
-    fontSize: 11,
-    fontWeight: 'bold',
-    color: '#7C756B',
-    borderBottomWidth: 0.5,
-    borderBottomColor: '#DFD8CC',
-    paddingBottom: 4,
-    fontFamily: 'MonaSans-Bold',
   },
   docContentText: {
     fontSize: 14,
@@ -515,23 +859,15 @@ const styles = StyleSheet.create({
     fontFamily: 'DMSans-Regular',
   },
   resultBadge: {
-    fontSize: 9,
+    fontSize: 10,
     fontWeight: 'bold',
-    paddingHorizontal: 8,
-    paddingVertical: 3,
-    borderRadius: 6,
-    overflow: 'hidden',
-    alignSelf: 'flex-start',
-    marginTop: 4,
     fontFamily: 'DMSans-Bold',
   },
   resultBadgeCorrect: {
-    backgroundColor: '#378F8F',
-    color: '#FFFFFF',
+    color: '#378F8F',
   },
   resultBadgeWrong: {
-    backgroundColor: '#CC2534',
-    color: '#FFFFFF',
+    color: '#CC2534',
   },
   optionsContainer: {
     gap: 12,
@@ -548,6 +884,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 12,
     width: '100%',
+    padding: 10,
   },
   optText: {
     fontSize: 14,
@@ -631,6 +968,18 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#1C1C1E',
     lineHeight: 18,
+    fontFamily: 'DMSans-Regular',
+  },
+  optExpText: {
+    fontSize: 11,
+    color: '#7C756B',
+    lineHeight: 16,
+    fontFamily: 'DMSans-Regular',
+  },
+  optExpTextSmall: {
+    fontSize: 11,
+    color: '#7C756B',
+    lineHeight: 15,
     fontFamily: 'DMSans-Regular',
   },
   footer: {
@@ -731,17 +1080,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 12,
   },
-  badgeWrong: {
-    fontSize: 9,
-    fontWeight: 'bold',
-    backgroundColor: '#CC2534',
-    color: '#FFFFFF',
-    paddingHorizontal: 8,
-    paddingVertical: 3,
-    borderRadius: 6,
-    overflow: 'hidden',
-    fontFamily: 'DMSans-Bold',
-  },
   reviewTypeBadge: {
     fontSize: 9,
     fontWeight: 'bold',
@@ -752,14 +1090,6 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     overflow: 'hidden',
     fontFamily: 'DMSans-Bold',
-  },
-  reviewQuestionText: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    color: '#1C1C1E',
-    lineHeight: 20,
-    marginBottom: 12,
-    fontFamily: 'DMSans-Regular',
   },
   reviewAnswersContainer: {
     backgroundColor: '#F3EFE6',
@@ -817,18 +1147,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontFamily: 'MonaSans-Bold',
   },
-  secondaryActionBtn: {
-    backgroundColor: '#EBE5D8',
-    borderWidth: 2,
-    borderColor: '#1C1C1E',
-    width: '100%',
-  },
-  secondaryActionBtnText: {
-    color: '#7C756B',
-    fontSize: 15,
-    fontWeight: 'bold',
-    fontFamily: 'MonaSans-Bold',
-  },
   backButton: {
     paddingVertical: 6,
   },
@@ -857,5 +1175,133 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     overflow: 'hidden',
     fontFamily: 'DMSans-Bold',
+  },
+  /* Select Screen Styles */
+  selectHeader: {
+    paddingHorizontal: 8,
+    paddingTop: Platform.OS === 'ios' ? 24 : 16,
+    paddingBottom: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: '#DFD8CC',
+    marginBottom: 20,
+  },
+  selectWelcome: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: '#7C756B',
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+    fontFamily: 'MonaSans-Bold',
+  },
+  selectTitle: {
+    fontSize: 22,
+    fontWeight: '900',
+    color: '#1C1C1E',
+    marginTop: 4,
+    fontFamily: 'MonaSans-Bold',
+  },
+  selectSubtitle: {
+    fontSize: 14,
+    color: '#7C756B',
+    marginTop: 6,
+    fontWeight: '600',
+    fontFamily: 'DMSans-Regular',
+  },
+  typeListContainer: {
+    gap: 14,
+    paddingBottom: 20,
+  },
+  typeBtn: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    padding: 18,
+    width: '100%',
+  },
+  typeBtnContent: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: '100%',
+  },
+  typeBtnLabel: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
+  },
+  typeBtnCount: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    backgroundColor: '#93C1C1',
+    color: '#FFFFFF',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 8,
+    overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
+  },
+  countList: {
+    gap: 16,
+    paddingBottom: 20,
+  },
+  countBtn: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    paddingVertical: 18,
+    width: '100%',
+  },
+  countBtnText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#1C1C1E',
+    textAlign: 'center',
+    fontFamily: 'MonaSans-Bold',
+  },
+  backBtn: {
+    backgroundColor: '#EBE5D8',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    width: '100%',
+  },
+  backBtnText: {
+    color: '#7C756B',
+    fontSize: 15,
+    fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
+  },
+  /* Tab and Multi-Passage Styles */
+  tabHeaderContainer: {
+    flexDirection: 'row',
+    borderBottomWidth: 1,
+    borderBottomColor: '#DFD8CC',
+    marginBottom: 12,
+    gap: 8,
+  },
+  tabButton: {
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderBottomWidth: 3,
+    borderBottomColor: 'transparent',
+  },
+  tabButtonActive: {
+    borderBottomColor: '#93C1C1',
+  },
+  tabButtonText: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
+  },
+  tabButtonTextActive: {
+    color: '#378F8F',
+  },
+  docLabelText: {
+    fontSize: 11,
+    fontWeight: 'bold',
+    color: '#7C756B',
+    fontFamily: 'MonaSans-Bold',
+    marginBottom: 4,
   },
 });

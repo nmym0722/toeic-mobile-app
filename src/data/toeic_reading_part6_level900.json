@@ -1,0 +1,2402 @@
+[
+  {
+    "passage_id": "p6_900_001",
+    "target_level": 900,
+    "passage_text": "This lease amendment, executed on June 1, ( --- 1 --- ) all prior verbal and written agreements regarding the commercial property at 500 Market Street. Notwithstanding any previous clauses, the lessee now agrees to accept full responsibility for interior maintenance. To alleviate concerns regarding structural integrity, the lessor agrees to perform annual inspections. If major structural defects are found, further rent payments may be held in ( --- 2 --- ) pending resolution. Both parties must sign this document to indicate ( --- 3 --- ) to these terms. ( --- 4 --- ). All other terms in the original lease remain fully effective.",
+    "passage_translation": "6月1日に締結されたこの賃貸借契約修正条項は、500 Market Streetの商業用不動産に関するそれ以前のすべての口頭および書面の合意に（取って代わり）ます。過去のいかなる条項にもかかわらず、賃借人は今後、内装保守に関する全責任を負うことに同意します。構造の健全性に関する懸念を緩和するため、賃貸人は年次検査を行うことに同意します。重大な構造上の欠陥が見つかった場合、解決するまで今後の賃料支払いは（一時保留）とされる場合があります。両当事者は、これらの条件に対する（合意）を示すために本文書に署名しなければなりません。（この修正条項を履行しない場合、直ちに賃貸借契約の解除を招くことになります。）元の賃貸借契約の他のすべての条項は、引き続き完全に有効です。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "supersedes",
+          "B": "invalidates",
+          "C": "prolongs",
+          "D": "duplicates"
+        },
+        "correct_answer": "A",
+        "explanation": "文脈上、新しい修正契約が以前の全ての合意に「取って代わる」とする(A)が最も適切です。supersedeは契約書や規定などで「〜に取って代わる」「〜を上書きする」という意味で非常によく使われる高難度語彙です。",
+        "options_explanations": {
+          "A": "【正解】「〜に取って代わる、〜を上書きして無効にする」。新たな修正条項が過去の合意に優先して適用される文脈に最も合致します。",
+          "B": "【不正解】「〜を法的に無効にする」。通常、契約自体を単に無効化するだけの文脈ではなく、置き換える文脈であるため不適切です。",
+          "C": "【不正解】「〜を延長する」。期間などを引き延ばす意味であり、過去の合意内容を延長する文脈ではありません。",
+          "D": "【不正解】「〜を複製する」。過去の合意を二重に作成する意味になり、意味が通りません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "abeyance",
+          "B": "compliance",
+          "C": "correction",
+          "D": "dispute"
+        },
+        "correct_answer": "A",
+        "explanation": "in abeyanceは「一時的な中断、保留状態」を意味する法務・ビジネス用の高難度イディオムです。欠陥が解決されるまで賃料支払いを「保留にする」という文脈に合致する(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「一時的保留、中断（in abeyanceで用いられる）」。問題が解決するまで賃料の支払いを一時的に保留・ストップするという法的な文脈に最適です。",
+          "B": "【不正解】「順守、準拠」。in compliance withなどの形で使われますが、支払いを順守状態に置くというのは不自然です。",
+          "C": "【不正解】「訂正、修正」。支払いを修正状態に置くことはできません。",
+          "D": "【不正解】「紛争、論争」。in disputeは「論争中の」という意味ですが、賃料支払いが保留される文脈とは合致しません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "consensus",
+          "B": "compromise",
+          "C": "objection",
+          "D": "compliance"
+        },
+        "correct_answer": "A",
+        "explanation": "両当事者が条件に対して「合意」していることを示すために署名する、という文脈に合う(A) consensus（合意・意見の一致）が適切です。",
+        "options_explanations": {
+          "A": "【正解】「合意、一致した意見」。契約条件に対して両者が合意に達していることを示すために署名するという、ビジネス文書の標準的な表現です。",
+          "B": "【不正解】「妥協、歩み寄り」。不自然ではありませんが、公式契約の署名としては「合意（consensus）」を示すのが最も一般的かつ前向きです。",
+          "C": "【不正解】「異議、反対」。異議を示すために契約に署名することは通常ありません。",
+          "D": "【不正解】「順守、準拠」。indicate compliance to terms も不可能ではないですが、consensus to/on these terms（条件に対する合意）の方がコロケーションとして非常に自然です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Failure to execute this amendment will result in immediate lease termination.",
+          "B": "The initial rent payment was already processed by our bank yesterday.",
+          "C": "Our offices will be closed during the upcoming national holidays.",
+          "D": "The property is conveniently located near the public transportation hub."
+        },
+        "correct_answer": "A",
+        "explanation": "前文の「双方が署名して合意を示す必要がある」こと、そして後文の「元の契約の他の条件は有効である」という内容を繋ぐものとして、「この修正条項を実行（署名）しない場合、契約が即時解除される」という厳格な契約上の警告文である(A)が最も適切です。",
+        "options_explanations": {
+          "A": "【正解】「この修正条項を履行しない場合、直ちに賃貸借契約の解除を招くことになります。」契約締結・署名の重要性を強調する直前の文から自然に繋がります。",
+          "B": "【不正解】「最初の賃料支払いは昨日銀行で処理されました。」過去の支払処理の事実は、現在の修正条項への署名の話とは関係がありません。",
+          "C": "【不正解】「弊社のオフィスは来たる祝日の間、閉鎖されます。」休業案内は、不動産賃貸借契約書の修正条項という文脈に全く適しません。",
+          "D": "【不正解】「その物件は公共交通機関の拠点の近くに便利に位置しています。」物件の立地アピールは契約成立前の広告表現であり、実際の修正契約書の締結文脈には適しません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_002",
+    "target_level": 900,
+    "passage_text": "Memo to Executive Staff, As we navigate the transition following our recent corporate merger, we must focus on operational integration. To create ( --- 1 --- ) between our departments, we will reorganize our software engineering teams. We recognize that this change may cause temporary concern; therefore, the HR team will conduct individual consultations to ( --- 2 --- ) any employee anxieties. Managers are requested to coordinate with their directors to ensure compliance with the new structural guidelines. Any discrepancies in resource allocation must be reported to ( --- 3 --- ) office immediately. ( --- 4 --- ). We appreciate your dedication during this transformative phase.",
+    "passage_translation": "幹部社員へのメモ：最近の企業合併に伴う移行期を進むにあたり、我々は業務の統合に注力しなければなりません。部門間の（相乗効果［シナジー］）を生み出すため、ソフトウェアエンジニアリングチームを再編します。この変更が一時的な懸念を引き起こす可能性があることを認識しており、そのため人事チームは、従業員の不安を（和らげる）ために個別の面談を実施します。マネージャーはディレクターと協力し、新しい組織ガイドラインへの準拠を確認してください。リソース配分におけるいかなる不一致も、直ちに（我々の）オフィスに報告されなければなりません。（今週末までに、詳細な移行スケジュールを配布します。）この変革期における皆さんの献身に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "synergy",
+          "B": "redundancy",
+          "C": "litigation",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "企業の合併統合（merger & integration）において、最も望ましい結果である「相乗効果（synergy）」を創出するために組織を再編するという文脈から(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「相乗効果（シナジー）」。合併後の部門間でプラスの効果を生み出すための組織再編という文脈に最適です。",
+          "B": "【不正解】「余剰、重複」。合併によって余分な人員やインフラができることはありますが、「それを生み出すために再編する」というのは経営目標として不自然です。",
+          "C": "【不正解】「訴訟」。部門間で訴訟を生み出そうとすることはありません。",
+          "D": "【不正解】「不均衡、格差」。格差を生み出すために再編することはありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "alleviate",
+          "B": "aggravate",
+          "C": "accelerate",
+          "D": "automate"
+        },
+        "correct_answer": "A",
+        "explanation": "組織変更に伴う従業員の不安（anxieties）を「和らげる、軽減する」という文脈に合致する(A) alleviate が正解です。TOEIC 900点レベルで極めて頻出する語彙です。",
+        "options_explanations": {
+          "A": "【正解】「和らげる、軽減する」。従業員の不安を軽減するために個別面談を実施するという文脈に完全に合致します。",
+          "B": "【不正解】「悪化させる」。不安を悪化させるために面談を実施することはあり得ません。",
+          "C": "【不正解】「加速させる」。不安を加速させることはありません。",
+          "D": "【不正解】「自動化する」。不安を自動化することはできません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "our",
+          "B": "ours",
+          "C": "us",
+          "D": "ourselves"
+        },
+        "correct_answer": "A",
+        "explanation": "名詞 office を修飾して「私たちのオフィス」とする所有格の(A) our が正解です。officeという名詞の前に置くことができるのは代名詞の所有格のみです。",
+        "options_explanations": {
+          "A": "【正解】所有格。「私たちのオフィス」となり、直後の名詞を正しく修飾します。",
+          "B": "【不正解】所有代名詞。「私たちのもの」の意味になり、直後に名詞を伴うことはできません。",
+          "C": "【不正解】目的格。名詞の前に目的格を直接配置して修飾することはできません。",
+          "D": "【不正解】再帰代名詞。名詞の前に再帰代名詞を置いて修飾することはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A detailed transition timeline will be distributed by the end of the week.",
+          "B": "The merger was first announced in the financial times last quarter.",
+          "C": "Please make sure your computer systems are logged off before leaving.",
+          "D": "Our company picnic has been scheduled for next Saturday afternoon."
+        },
+        "correct_answer": "A",
+        "explanation": "「移行に関する組織再編」「リソースの不一致報告」といった現在進行中の合併統合プロセスに関連する文脈を補完するものとして、「今週末までに詳細な移行スケジュールが配布される」とする(A)が最も自然な流れとなります。",
+        "options_explanations": {
+          "A": "【正解】「詳細な移行スケジュールが今週末までに配布されます。」マネージャーへの指示の直後、今後の具体的な行動予定を伝える文として最適です。",
+          "B": "【不正解】「合併は前四半期にフィナンシャルタイムズで最初に発表されました。」過去のメディア発表の事実は、現在の社内実務移行プロセスの指示文脈に合いません。",
+          "C": "【不正解】「退社前にコンピュータシステムからログオフしているか確認してください。」日常的なITセキュリティの指示であり、組織合併メモの締めくくりとしては唐突です。",
+          "D": "【不正解】「社内ピクニックが来週土曜日の午後に予定されています。」企業の重大な合併移行を扱うシリアスな役員向けメモに、ピクニックの予定を挿入するのは不自然です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_003",
+    "target_level": 900,
+    "passage_text": "Dear Shareholders, We are pleased to present our annual performance summary. Despite global market disruptions, our total revenue ( --- 1 --- ) our initial predictions by five percent. This growth is primarily attributed to our successful expansion into European markets and strategic ( --- 2 --- ) of our supply chain. To ensure long-term stability, the board of directors has decided to allocate more resources to research and development. We are confident that this strategy will ( --- 3 --- ) our position as an industry leader. ( --- 4 --- ). Thank you for your continued trust in our vision.",
+    "passage_translation": "株主の皆様へ：年次業績サマリーをお届けできることを嬉しく思います。世界的な市場の混乱にもかかわらず、当社の総売上高は当初の予測を5％（上回り）ました。この成長は、主に欧州市場への進出成功と、サプライチェーンの戦略的な（最適化）によるものです。長期的な安定性を確保するため、取締役会は研究開発により多くのリソースを配分することを決定しました。この戦略によって、業界のリーダーとしての地位を（強固にする［統合する］）ことができると確信しています。（詳細な財務諸表は、投資家向け情報ポータルでご覧いただけます。）当社のビジョンに対する継続的な信頼に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "exceeded",
+          "B": "failed",
+          "C": "matched",
+          "D": "declined"
+        },
+        "correct_answer": "A",
+        "explanation": "「世界的な市場混乱にもかかわらず（Despite）」「5%」という記述と、後文の「この成長は（This growth）」というポジティブな内容から、予測を「上回った（exceeded）」とする(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「（制限や予測などを）超える、上回る」。売上が予測を超えて成長したという文脈を完成させます。",
+          "B": "【不正解】「失敗する、届かない」。後文で「この成長は〜」とあるため、失敗したというネガティブな語は矛盾します。",
+          "C": "【不正解】「一致する、匹敵する」。予測とぴったり同じであった場合、通常「5%上回る」という修飾語とは結びつきません。",
+          "D": "【不正解】「下落する、辞退する」。自動詞としての使用が一般的であり、かつネガティブな意味になるため不適です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "optimization",
+          "B": "deterioration",
+          "C": "fluctuation",
+          "D": "stagnation"
+        },
+        "correct_answer": "A",
+        "explanation": "「欧州市場への進出成功」と並んで成長を支えた肯定的な要素として、サプライチェーンの「最適化（optimization）」を挙げる(A)が文脈上適切です。",
+        "options_explanations": {
+          "A": "【正解】「最適化」。効率やプロセスを最も良い状態に調整することを意味し、業績成長の要因として完璧に機能します。",
+          "B": "【不正解】「悪化、劣化」。ネガティブな変化を指すため、成長要因にはなり得ません。",
+          "C": "【不正解】「変動、不安定」。サプライチェーンの不安定化は業績に悪影響を与えるため、成長要因になりません。",
+          "D": "【不正解】「停滞」。経済や生産が滞ることであり、成長要因になりません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "consolidate",
+          "B": "compromise",
+          "C": "contradict",
+          "D": "contaminate"
+        },
+        "correct_answer": "A",
+        "explanation": "業界でのリーダーポジションを「確固たるものにする、統合して強化する」という意味を表す(A) consolidate が文脈上最も適切です。",
+        "options_explanations": {
+          "A": "【正解】「強固にする、統合する」。研究開発への投資によって業界トップの地位をさらに盤石にする、という経営目標にぴったりです。",
+          "B": "【不正解】「妥協する、信用などを危うくする」。ポジションを危うくすることは望ましくありません。",
+          "C": "【不正解】「矛盾する、否定する」。ポジションと矛盾することはありません。",
+          "D": "【不正解】「汚染する」。ポジションを汚染することはありません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A detailed financial statement is available on our investor relations portal.",
+          "B": "The annual shareholder meeting will be held in London next spring.",
+          "C": "We recently hired a new chief financial officer to join our team.",
+          "D": "Our retail stores will close early next Friday for inventory check."
+        },
+        "correct_answer": "A",
+        "explanation": "株主宛ての業績レター（Annual Performance Summary）の締めくくりとして、具体的な詳細データを提供するための案内文である(A)「詳細な財務諸表はIRポータルでご覧いただけます」が最も論理的で親切です。",
+        "options_explanations": {
+          "A": "【正解】「詳細な財務諸表は、当社のIR（投資家情報）ポータルでご覧いただけます。」業績サマリーを送る文書の締めとして完璧に自然な流れです。",
+          "B": "【不正解】「年次株主総会は来春ロンドンで開催されます。」まだ期先の話であり、現在の年次業績レターの情報の流れとしてはやや唐突です。",
+          "C": "【不正解】「私たちは最近、チームに加わる新しい最高財務責任者（CFO）を採用しました。」人事ニュースも重要ですが、文書全体の業績分析・財務結果の締めくくりには(A)の方が合致します。",
+          "D": "【不正解】「当社の小売店は棚卸しのため来週金曜日に早く閉店します。」個別の小売店舗の運営スケジュールは、全株主向けの公式業績報告書に記載する内容としては細かすぎて不適切です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_004",
+    "target_level": 900,
+    "passage_text": "Dear Vertex Corp Legal Team, We are writing regarding the potential patent infringement dispute with Apex Tech. Our legal counsel has reviewed the relevant documents and identified several clear ( --- 1 --- ) in their claims. To avoid lengthy and costly litigation, we suggest pursuing a ( --- 2 --- ) through mediation. We believe a mutual agreement can be achieved if both parties cooperate. Please let us know if your client is willing to participate in ( --- 3 --- ) discussions next week. ( --- 4 --- ). We look forward to your prompt response.",
+    "passage_translation": "Vertex Corp法務チーム御中：Apex Tech社との潜在的な特許侵害紛争に関して書面を送付いたします。当社の法務顧問が関連文書を確認したところ、彼らの主張にいくつかの明らかな（不一致［矛盾］）が特定されました。長期に及び費用のかかる訴訟を避けるため、調停を通じた（和解［調停］）を追求することを提案いたします。双方が協力すれば、相互の合意を達成できると信じております。来週、貴社のクライアントが（予備的な）協議に参加する意思があるかどうかをお知らせください。（金曜日までに返答がない場合、訴訟を提起せざるを得ません。）迅速なご返信をお待ちしております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "discrepancies",
+          "B": "achievements",
+          "C": "associations",
+          "D": "confirmations"
+        },
+        "correct_answer": "A",
+        "explanation": "相手の特許侵害の主張に「いくつかの明らかな矛盾、不一致がある」とする(A) discrepancies が適切です。",
+        "options_explanations": {
+          "A": "【正解】「不一致、相違、矛盾」。主張やデータに一貫性がない部分を示すのに最適なビジネス・法務用語です。",
+          "B": "【不正解】「達成、業績」。特許侵害の主張の中に実績があるとするのは意味が通りません。",
+          "C": "【不正解】 \"関連性、協会\"。主張の中の関連性を特定したというのも、その後の和解提案の理由として弱いです。",
+          "D": "【不正解】「確認、立証」。相手の主張を認めることになり、その後の対抗措置の文脈に合いません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "reconciliation",
+          "B": "reprimand",
+          "C": "restriction",
+          "D": "resignation"
+        },
+        "correct_answer": "A",
+        "explanation": "「長期かつ高額な訴訟を避けるため、調停を通じて和解を模索する」という文脈より、(A) reconciliation（和解、調停）が最も適切です。",
+        "options_explanations": {
+          "A": "【正解】「和解、調停、一致」。紛争中の当事者同士が関係を修復し、合意に至るプロセスを指します。",
+          "B": "【不正解】「叱責、譴責」。相手を非難する行為であり、調停を通じた円満解決の文脈に合いません。",
+          "C": "【不正解】「制限、拘束」。制限を追求するというのは文脈上意味が通りません。",
+          "D": "【不正解】「辞任、辞職」。役職などを辞めることであり、企業の法的な和解の文脈には全く合いません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "preliminary",
+          "B": "final",
+          "C": "redundant",
+          "D": "late"
+        },
+        "correct_answer": "A",
+        "explanation": "本格的な協議に入る前の「予備的な（preliminary）」協議を提案する(A)が最も適切です。",
+        "options_explanations": {
+          "A": "【正解】「予備的な、準備段階の」。正式な和解合意に向けて、まずは事前準備としての話し合いを提案する文脈に最適です。",
+          "B": "【不正解】「最終的な」。いきなり最終段階の協議を投げかけるのは順序として不自然です。",
+          "C": "【不正解】「不要な、重複する」。不要な協議に誘うことはありません。",
+          "D": "【不正解】「遅れた、最近の」。遅れた協議というのも意味をなしません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Failure to respond by Friday will leave us with no choice but to file a lawsuit.",
+          "B": "The patent was officially registered with the government in June 2015.",
+          "C": "Our offices are closed during the upcoming winter holidays.",
+          "D": "We offer a wide range of legal services for corporate clients."
+        },
+        "correct_answer": "A",
+        "explanation": "法的な和解申し入れレターの締めくくりとして、「金曜日までに回答がなければ、訴訟提起（訴える）を選択肢として選ぶしかない」という強い警告を発する(A)が最も論理的です。",
+        "options_explanations": {
+          "A": "【正解】「金曜日までにご返答をいただけない場合は、訴訟を提起する以外の選択肢はなくなります。」和解の提案と締切を強調するリーガルレターとして完璧な締めくくりです。",
+          "B": "【不正解】「特許は2015年6月に政府に正式に登録されました。」歴史的な事実は主張の証拠の一部としてはあり得ますが、手紙全体の締めとしては不自然です。",
+          "C": "【不正解】「私たちのオフィスは来たる冬期休暇の間、閉鎖されます。」休業のお知らせは、この差し迫った法的な交渉レターには全く不適切です。",
+          "D": "【不正解】「当社は法人顧客向けに幅広いリーガルサービスを提供しています。」法律事務所の広告パンフレットの表現であり、特定の紛争相手へのレターには場違いです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_005",
+    "target_level": 900,
+    "passage_text": "Notice to Department Heads, The external auditing firm will conduct its annual compliance review starting next Monday. This audit is designed to ensure strict ( --- 1 --- ) with international data protection laws. All departments must make their financial and operational records ( --- 2 --- ) to the auditors upon request. To facilitate this process, please ensure your files are organized and up to date. Any failure to comply with these guidelines could ( --- 3 --- ) our certification. ( --- 4 --- ). Thank you for your immediate attention to this matter.",
+    "passage_translation": "部門長へのお知らせ：外部監査法人が来週の月曜日から年次のコンプライアンスレビューを実施します。この監査は、国際的なデータ保護法を厳格に（順守［順守］）していることを確認するために設計されています。すべての部門は、監査人の要請に応じて、財務および業務の記録を（閲覧可能な［アクセス可能な］）状態にしておかなければなりません。このプロセスを円滑に進めるため、ファイルが整理され、最新の状態に保たれていることを確認してください。これらのガイドラインに少しでも従わなかった場合、当社の資格認定が（脅かされる［危険にさらされる］）可能性があります。（明日午前10時から、役員室で事前説明会を行います。）本件に対する迅速なご対応をお願いいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "compliance",
+          "B": "defiance",
+          "C": "reliance",
+          "D": "alliance"
+        },
+        "correct_answer": "A",
+        "explanation": "「法律への厳格な順守」を意味する(A) compliance が正解です。strict compliance with...（〜の厳格な順守）は頻出表現です。",
+        "options_explanations": {
+          "A": "【正解】「順守、追従」。法令、ルールを正しく守るというコンプライアンスの核となる名詞です。",
+          "B": "【不正解】「反抗、無視」。法律に反対・反抗している状態を確認する監査というのは不自然です。",
+          "C": "【不正解】「信頼、依存」。法律に対する依存という意味になり、不適格です。",
+          "D": "【不正解】「提携、同盟」。法律との同盟という意味になり、不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "accessible",
+          "B": "resistant",
+          "C": "redundant",
+          "D": "irrelevant"
+        },
+        "correct_answer": "A",
+        "explanation": "「要請があれば記録を監査人に提出する・利用できるようにしておく」という記述より、記録を「利用可能な、アクセス可能な（accessible）」状態にすることを示す(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「アクセス可能な、利用可能な（to 人）」。監査人が要請した際にいつでも確認できるように情報が開示・整理されている状態を指します。",
+          "B": "【不正解】「抵抗力のある、耐性のある」。記録が監査人に耐性を持つというのは意味が通りません。",
+          "C": "【不正解】「余分な、重複する、不要な」。重複する記録にする必要はありません。",
+          "D": "【不正解】「無関係な」。監査と無関係な状態にするというのは、監査の目的と矛盾します。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "jeopardize",
+          "B": "justify",
+          "C": "stabilize",
+          "D": "utilize"
+        },
+        "correct_answer": "A",
+        "explanation": "ルールに従わない場合、当社の認定（certification）が「危機に瀕する、危うくなる（jeopardize）」という文脈を完成させる(A)が正解です。TOEIC 900の必須最高難度語彙の一つです。",
+        "options_explanations": {
+          "A": "【正解】「〜を危険にさらす、危うくする」。ガイドラインの不履行が、当社の認証（ISOなどの資格）維持を脅かすという否定的な帰結を表すのに完璧です。",
+          "B": "【不正解】「〜を正当化する」。不履行が認定を正当化することはありません。",
+          "C": "【不正解】 \"〜を安定させる\"。不履行というネガティブな要因によって認定が安定することはありません。",
+          "D": "【不正解】「〜を利用する」。認定を利用するという意味になり、文脈に合いません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A preparatory briefing will be held tomorrow at 10:00 a.m. in the boardroom.",
+          "B": "The auditing firm has more than twenty years of experience in our industry.",
+          "C": "Our digital servers were upgraded last weekend to increase storage capacity.",
+          "D": "Please contact the human resources office for vacation requests."
+        },
+        "correct_answer": "A",
+        "explanation": "外部監査を翌週に控え、準備を急がせる文脈（ファイルを整理しておくように求める指示）の直後に置く文として、「明日役員室で事前説明会（preparatory briefing）を開催する」という準備ステップの案内である(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「明日午前10時から役員室で事前説明会を行います。」監査を前にした部門長への非常に具体的で実践的なアクション指示として完璧です。",
+          "B": "【不正解】「その監査法人は当業界で20年以上の経験があります。」監査人のプロフィールは、この緊急の準備指示メモの結びとしては重要性が低いです。",
+          "C": "【不正解】「ストレージ容量を増やすため、先週末にデジタルサーバーがアップグレードされました。」監査とは直接結びつかないインフラの話です。",
+          "D": "【不正解】「休暇の申請については人事部にお問い合わせください。」休暇の話題は、これから始まる緊急のコンプライアンス監査対応とは関係ありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_006",
+    "target_level": 900,
+    "passage_text": "This Service Level Agreement (SLA) defines the performance standards provided by NetLink Solutions. We are committed to ( --- 1 --- ) ninety-nine percent system uptime for all corporate clients. Notwithstanding unavoidable natural disasters, any failure to meet this target will result in a financial credit. To mitigate the impact of service disruptions, we have established a secondary backup server. Clients are requested to report any system ( --- 2 --- ) to our support team immediately. This agreement ( --- 3 --- ) all previous support policies. ( --- 4 --- ). We appreciate your business and trust.",
+    "passage_translation": "本サービスレベル合意書（SLA）は、NetLink Solutionsが提供するパフォーマンス基準を定義するものです。当社は、すべての法人顧客に対し、99％のシステム稼働時間を（維持する）ことに尽力します。不可避の自然災害を除き、この目標を達成できなかった場合は、金銭的な返金（クレジット）が発生します。サービス中断の影響を軽減するため、当社は予備のバックアップサーバーを構築しています。お客様は、システム（の異常［異変］）を直ちにサポートチームに報告するようお願いします。本合意書は、以前のすべてのサポートポリシーに（取って代わり）ます。（月次のパフォーマンス報告書が、アカウント管理者に送信されます。）皆様のお取引と信頼に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "grammar",
+        "options": {
+          "A": "maintaining",
+          "B": "interrupting",
+          "C": "neglecting",
+          "D": "terminating"
+        },
+        "correct_answer": "A",
+        "explanation": "前置詞 to に続く動名詞として、システム稼働時間（uptime）を「維持する」ことを約束する(A) maintaining が正解です。be committed to doing（〜することに尽力・専念する）という語法と、文脈の一致が問われています。",
+        "options_explanations": {
+          "A": "【正解】「維持すること」。システムを稼働し続けることを顧客に約束する文脈として最適です。",
+          "B": "【不正解】「中断すること」。稼働時間を中断することに尽力することはあり得ません。",
+          "C": "【不正解】「無視すること、怠ること」。稼働時間を怠ることを約束することはありません。",
+          "D": "【不正解】 \"終了させること\"。システム運用を終了させてはいけません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "anomalies",
+          "B": "successes",
+          "C": "agreements",
+          "D": "allocations"
+        },
+        "correct_answer": "A",
+        "explanation": "システム障害（disruptions）の影響を軽減するために、お客様に異常を検知した際は直ちに報告するよう求めているため、「システムの異常、異変」を指す(A) anomalies が正解です。TOEIC 900点レベルの重要名詞です。",
+        "options_explanations": {
+          "A": "【正解】「異常、特異な事象（anomalyの複数形）」。システムが正常に動作していない状態を指し、サポートへの報告対象として最適です。",
+          "B": "【不正解】「成功」。成功を直ちに緊急報告する必要はありません。",
+          "C": "【不正解】「同意、合意」。合意を報告する文脈ではありません。",
+          "D": "【不正解】「配分、割り当て」。システムの割り当てを報告するというのは意味が通りません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "supersedes",
+          "B": "initiates",
+          "C": "prolongs",
+          "D": "duplicates"
+        },
+        "correct_answer": "A",
+        "explanation": "この新しいSLA（合意書）が以前のすべてのサポートポリシーに「取って代わる（supersedes）」とする(A)が正解です。契約書や規約の結びによく登場する定番の高難度語彙です。",
+        "options_explanations": {
+          "A": "【正解】「（法的に）〜に取って代わる、無効にして上書きする」。新しい規約が以前のルールより優先されることを示す標準表現です。",
+          "B": "【不正解】「〜を開始する、創設する」。過去のポリシーを開始することはできません。",
+          "C": "【不正解】「〜を延長する」。過去のポリシーそのものを延長するのではなく、新しい契約で置き換える文脈です。",
+          "D": "【不正解】「〜を複製する」。二重にする意味になり不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A monthly performance report will be sent to your account administrator.",
+          "B": "The company was established in June 2005 as a small startup.",
+          "C": "Our support team is open from nine to five on weekdays.",
+          "D": "We recently upgraded our office hardware to improve efficiency."
+        },
+        "correct_answer": "A",
+        "explanation": "サービスレベル合意書（SLA）において、稼働目標（99% uptime）の実施状況を顧客に証明・共有する実務的なプロセスとして、「毎月のパフォーマンス報告書がアカウント管理者に送信される」とする(A)が完璧に適合します。",
+        "options_explanations": {
+          "A": "【正解】「月次の稼働実績報告書が、貴社のアカウント管理者に送付されます。」契約内容の管理・可視化を補償する文として極めて自然です。",
+          "B": "【不正解】「当社は2005年6月に小さなスタートアップとして設立されました。」自社の歴史は、契約書の規約文脈において不要かつ不適合なノイズです。",
+          "C": "【不正解】「当社のサポートチームは平日の9時から5時まで営業しています。」このSLA文脈において、すでに「異常があれば直ちに報告を」と述べており、直前の24時間監視対応などを想定させる流れからは、9to5の限定的な窓口案内は矛盾や格下げを招き不適です。",
+          "D": "【不正解】「当社は最近、効率改善のためにオフィスのハードウェアをアップグレードしました。」社内（オフィス）の設備変更は、顧客とのSLA契約には直接無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_007",
+    "target_level": 900,
+    "passage_text": "Memo to Staff, As part of our strategic realignment, our parent company has decided to initiate a corporate restructuring plan. To optimize our operations and eliminate redundancies, some departments will be combined. We understand that this announcement may cause ( --- 1 --- ) among employees; therefore, management is committed to transparency throughout this transition. We will make every effort to minimize job losses by offering internal transfer options. ( --- 2 --- ) details regarding specific departmental changes will be shared next week. ( --- 3 --- ), please continue to focus on your daily tasks. ( --- 4 --- ). Thank you for your resilience.",
+    "passage_translation": "社員の皆さんへ：戦略的な再編の一環として、親会社は企業再構築（リストラ）計画を開始することを決定しました。業務を最適化し、重複を排除するため、一部の部門が統合されます。この発表が従業員の間に（不安）を引き起こす可能性があることを理解しています。そのため、経営陣は移行期間を通じて透明性を維持することをお約束します。社内異動の選択肢を提供することで、人員削減を最小限に抑えるようあらゆる努力をいたします。特定の部門変更に関する（包括的な［詳細な］）情報は、来週共有される予定です。（それまでの間は）、日常業務に集中し続けてください。（人事との個別面談は、今後2週間にわたって予定されます。）この変革期における皆さんのしなやかな強さ［回復力］に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "apprehension",
+          "B": "satisfaction",
+          "C": "stagnation",
+          "D": "validation"
+        },
+        "correct_answer": "A",
+        "explanation": "会社の事業再構築（restructuring）や部門統合の発表によって従業員に生じる「不安、懸念」を和らげることを確約しているため、(A) apprehension（懸念、不安、心配）が正解です。TOEIC最難関語彙の一つです。",
+        "options_explanations": {
+          "A": "【正解】「不安、懸念、憂慮」。リストラ発表時に従業員が自分の雇用などに対して抱く心配を指し、文脈に完璧に合致します。",
+          "B": "【不正解】「満足」。リストラや部門再編の発表で満足感が生じるというのは不自然です。",
+          "C": "【不正解】「停滞」。従業員の間に「停滞」が広がるというのも、個別面談などでケアする内容としては焦点がズレます。",
+          "D": "【不正解】「承認、検証」。従業員の間での承認という意味になり不適切です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "Comprehensive",
+          "B": "Redundant",
+          "C": "Obsolete",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "来週共有される「詳細な・包括的な」詳細情報、という文脈に合う(A) Comprehensive（包括的な、詳細を網羅した）が正解です。",
+        "options_explanations": {
+          "A": "【正解】「包括的な、網羅的な」。すべての詳細を含んだ正式な情報を提供するという文脈に最適です。",
+          "B": "【不正解】「不要な、重複する」。不要な情報を来週共有するというのは矛盾します。",
+          "C": "【不正解】「時代遅れの、廃れた」。廃れた情報を提供するはずがありません。",
+          "D": "【不正解】「予備的な、暫定的な」。前段階ですでに発表自体がされているため、詳細かつ「包括的な（Comprehensive）」情報である(A)が最適です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Meanwhile",
+          "B": "Therefore",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「詳細が来週共有されるまでの間、目の前の仕事に集中してほしい」という時の流れを繋ぐ接続副詞として、「その間、それまでは」を意味する(A) Meanwhile が正解です。",
+        "options_explanations": {
+          "A": "【正解】「その間に、一方では（Meanwhile, 主語＋動詞）」。来週に詳細が発表されるまでの空白期間の行動を示すのに完璧な接続詞です。",
+          "B": "【不正解】「それゆえに（因果関係）」。詳細が来週発表されるからといって、日常業務に今集中することの直接の因果（結果）を導くのは論理的にやや不自然です。",
+          "C": "【不正解】「〜にもかかわらず（譲歩の接続詞）」。後ろに主語・動詞を直接従える接続詞であり、カンマで単独で置く副詞的な使い方はできません。",
+          "D": "【不正解】「〜なので（理由の接続詞）」。Becauseを単独でカンマ付きで使うことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Individual meetings with HR will be scheduled over the next two weeks.",
+          "B": "The company picnic has been rescheduled for next Saturday afternoon.",
+          "C": "Our offices will be closed on Friday for a local holiday.",
+          "D": "We plan to paint the interior of the building next spring."
+        },
+        "correct_answer": "A",
+        "explanation": "会社の事業再構築における従業員への具体的なサポート・対話プロセスとして、「人事（HR）との個別面談を今後2週間にわたり実施・計画する」とする(A)が最も完璧に文脈に適合します。",
+        "options_explanations": {
+          "A": "【正解】「人事チームとの個別面談が、今後2週間にわたってスケジュールされます。」不安を取り除き、転籍手続き等を進めるプロセスとして完璧な流れです。",
+          "B": "【不正解】「社内ピクニックが来週土曜日の午後に延期されました。」このシリアスなリストラ通告の文書にピクニックの話を挟むのは極めて不自然です。",
+          "C": "【不正解】「金曜日は地元の祝日のためオフィスは休業となります。」一般的なスケジュール連絡であり、再編とは関係ありません。",
+          "D": "【不正解】「来年の春にビル内装のペンキ塗り替えを計画しています。」オフィスの修繕計画は、従業員の雇用の懸念を扱っている現状の文脈とは完全に無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_008",
+    "target_level": 900,
+    "passage_text": "Notice to Shareholders, Our company is proud to announce its new Environmental Sustainability Initiative. We are committed to reducing our carbon footprint by fifty percent over the next decade. To achieve this goal, we will invest in renewable energy sources and optimize our logistics network to reduce waste. We believe this strategy will not only enhance our brand image but also deliver long-term financial ( --- 1 --- ). Our executive board has approved a substantial ( --- 2 --- ) of funds to support this project. ( --- 3 --- ) updates on our progress will be published in our annual report. ( --- 4 --- ). Thank you for supporting our commitment to a greener future.",
+    "passage_translation": "株主の皆様へ：当社は、新しい環境サステナビリティ・イニシアチブを発表できることを誇りに思います。当社は今後10年間で炭素排出量を50％削減することに尽力します。この目標を達成するため、再生可能エネルギー源に投資し、廃棄物を削減するために物流ネットワークを最適化します。この戦略は当社のブランドイメージを高めるだけでなく、長期的な財務的（存続可能性［可能性］）をもたらすと信じています。当社の取締役会は、このプロジェクトを支援するために、かなりの（資金配分）を承認しました。当社の進捗に関する（定期的な）最新情報は年次報告書で公開される予定です。（詳細なポリシー文書は、コーポレートサイトでご覧いただけます。）よりグリーンな未来への取り組みをご支援いただき感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "viability",
+          "B": "volatility",
+          "C": "liability",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "「長期的な財務上の存続可能性、実現可能性」をもたらすという文脈から、(A) viability が正解です。TOEIC 900点最高峰レベルの難解名詞です。",
+        "options_explanations": {
+          "A": "// 【正解】「生存能力、存続可能性、生存可能性」。財務的に会社が持続して利益を出し続けられる能力を指し、ビジネスとして非常に適した語です。",
+          "B": "【不正解】「揮発性、激しい変動、不安定さ」。財務的不安定さはもたらしたくありません。",
+          "C": "【不正解】「負債、法的責任、不利益」。不利益や債務をもたらすことは、株主へのアピールとして全く不適切です。",
+          "D": "【不正解】「不均衡、格差、相違」。格差をもたらすことも不適切です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "allocation",
+          "B": "restriction",
+          "C": "cancellation",
+          "D": "litigation"
+        },
+        "correct_answer": "A",
+        "explanation": "取締役会がこのプロジェクトを支援するために、かなりの額の資金を「配分、割り当て（allocation）」したとする(A)が正解です。allocation of funds は「資金配分」を指す必須コロケーションです。",
+        "options_explanations": {
+          "A": "【正解】「配分、割り当て」。新規投資や予算設定に不可欠な経営・財務用語です。",
+          "B": "【不正解】「制限、拘束」。資金制限を「承認した」というのも文脈に合致しません。",
+          "C": "【不正解】「中止、取り消し」。資金中止を承認したというのは新規イニシアチブ推進の文脈と逆になります。",
+          "D": "【不正解】「訴訟」。資金の訴訟を承認するというのは意味不明です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Periodic",
+          "B": "Redundant",
+          "C": "Obsolete",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "年次報告書（annual report）を通じて「定期的な、周期的な（Periodic）」報告を公開するという文脈に最も合致する(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「定期的な、周期的な」。時間を追って定期的にレポートを出すことを意味し、進捗報告の形容に最適です。",
+          "B": "【不正解】「不要な、余計な」。不要なアップデートを年次報告書に載せることはありません。",
+          "C": "【不正解】「陳腐化した、時代遅れの」。過去の使えないデータを公開するはずがありません。",
+          "D": "【不正解】「予備的な、初期段階の」。10年の長期プロジェクトにわたり年次で出すものは「定期的な（Periodic）」アップデートです。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A detailed policy document is available on our corporate website.",
+          "B": "The annual shareholder meeting was held in Chicago last month.",
+          "C": "We recently upgraded our office computers to increase efficiency.",
+          "D": "Please contact our customer support for registration issues."
+        },
+        "correct_answer": "A",
+        "explanation": "株主に対するサステナビリティ・プロジェクトの発表レターの締めくくりとして、「詳細な取り組みのルール（ポリシー文書）はコーポレートサイトで確認できる」と誘導する(A)が最も実務的かつ自然に適合します。",
+        "options_explanations": {
+          "A": "【正解】「詳細な方針文書は、当社のコーポレートウェブサイトでご覧いただけます。」さらなる詳細情報を求める読者に向けた完璧な案内です。",
+          "B": "【不正解】「年次株主総会は先月シカゴで開催されました。」すでに過去の会議の事実は、本イニシアチブの推進と締めくくりには関連性が薄いです。",
+          "C": "【不正解】「効率を高めるため、最近オフィスのコンピュータをアップグレードしました。」社内のIT機器アップグレードは、地球規模の環境イニシアチブの株主通知に含める内容としては軽すぎます。",
+          "D": "【不正解】「登録に関する問題は、当社のカスタマーサポートにお問い合わせください。」株主に対する登録支援ではなく、今回の書面は企業全体のポリシー発表です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_009",
+    "target_level": 900,
+    "passage_text": "Dear Members of the Board, I am writing to formally announce my plan to retire as Chief Executive Officer, effective December 31. Serving this company has been the greatest honor of my career. To ensure a seamless ( --- 1 --- ) of leadership, the succession committee has identified several qualified internal candidates. We will begin the evaluation process next week with the goal of selecting a successor by October. This transition has been planned for several months to ( --- 2 --- ) any potential market disruption. ( --- 3 --- ), I will remain fully committed to my duties. ( --- 4 --- ). Thank you for your support.",
+    "passage_translation": "取締役会の皆様へ：12月31日付で最高経営責任者（CEO）を退任する計画を正式に発表したく、本レターを執筆しております。この会社に仕えることは、私のキャリア最大の栄誉でした。リーダーシップのシームレスな（移行）を確保するため、後継者選定委員会は適格な社内候補者を数名選定しました。10月までに後継者を選出することを目標に、来週から評価プロセスを開始します。この移行は、市場への潜在的な混乱を（軽減する）ため、数ヶ月前から計画されていました。（それまでの間［移行期間中］）、私は引き続き自分の職務に全面的に取り組みます。（月曜日には、プレス向けに正式な発表がリリースされます。）これまでの皆様のご支援に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "transition",
+          "B": "termination",
+          "C": "stagnation",
+          "D": "litigation"
+        },
+        "correct_answer": "A",
+        "explanation": "CEOの交代とリーダーシップの「シームレスな移行」を意図しているため、(A) transition が正解です。ensure a seamless transition of leadership は超頻出ビジネス表現です。",
+        "options_explanations": {
+          "A": "【正解】「移行、移り変わり」。旧リーダーから新リーダーへ業務や権限をスムーズに引き継ぐ文脈に完璧に合致します。",
+          "B": "【不正解】「終了、解雇」。リーダーシップのシームレスな「終了」を確保するというのは不自然です。",
+          "C": "【不正解】 \"停滞、沈滞\"。リーダーシップの「停滞」を望むはずがありません。",
+          "D": "【不正解】「訴訟」。訴訟を確保するのは矛盾しています。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "mitigate",
+          "B": "aggravate",
+          "C": "celebrate",
+          "D": "complicate"
+        },
+        "correct_answer": "A",
+        "explanation": "計画的移行によって市場への混乱を「緩和する、軽減する（mitigate）」ことを目的とするため、(A) が正解です。TOEIC 900点目標において最重要の動詞の一つです。",
+        "options_explanations": {
+          "A": "【正解】「〜を軽減する、和らげる、緩和する」。予期せぬリスクや混乱（disruption）の影響を小さくするという文脈に最適な経営用語です。",
+          "B": "【不正解】「悪化させる、深刻にする」。混乱を悪化させてはいけません。",
+          "C": "【不正解】「祝う、称える」。市場の混乱を祝うことは不可能です。",
+          "D": "【不正解】「〜を複雑にする」。混乱を複雑にするために計画を立てることはありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Meanwhile",
+          "B": "Therefore",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「12月31日の引退までの移行期間中（それまでの間）、自分は職務にコミットし続ける」という時系列を繋ぐ接続副詞として、「その間、それまでは」を意味する(A) Meanwhile が適切です。",
+        "options_explanations": {
+          "A": "【正解】「その間、それまでは」。未来の引退に向けての期間中、現在行っている職務への取り組み姿勢を述べるのに最適です。",
+          "B": "【不正解】「それゆえに」。引退を計画していることの直接的な結果として「私は職務にコミットする」というのは、論理的な因果としては少しズレています（Meanwhileの方が時間的な対比として圧倒的に美しいです）。",
+          "C": "【不正解】「〜だが（接続詞）」。後ろに直接主語・動詞を従える必要があり、単独でカンマを伴って置くことはできません。",
+          "D": "【不正解】「〜だから（接続詞）」。単独でカンマと共に副詞的に文頭で用いることはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A formal announcement will be released to the press on Monday.",
+          "B": "The board of directors is comprised of ten elected members.",
+          "C": "Our corporate headquarters was constructed in June 1995.",
+          "D": "We plan to launch our new product line next winter."
+        },
+        "correct_answer": "A",
+        "explanation": "取締役への内密・公式な引退のレターにおいて、社内手続きに続いて社外メディアにこれを公開する次のステップとして、「月曜日にはプレスに公式な発表がリリースされる」と伝える(A)が最も重要かつ自然な結びとなります。",
+        "options_explanations": {
+          "A": "【正解】「月曜日に正式な発表がマスコミにリリースされます。」取締役に対してプレスへの情報開示タイミングを伝える完璧な実務表現です。",
+          "B": "【不正解】「取締役会は10人の選出されたメンバーで構成されています。」自分たちが所属する組織の基本構成員数を今更ここで説明する必要はありません。",
+          "C": "【不正解】「当社の本社ビルは1995年6月に建設されました。」本社の建設時期はこのシリアスなCEO退任発表とは何の関係もありません。",
+          "D": "【不正解】「私たちは来年の冬に新しい製品ラインを立ち上げる予定です。」新製品の計画は、CEO自身の退任と後継者プロセスの本質的文脈から大きく逸脱します。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_010",
+    "target_level": 900,
+    "passage_text": "To: Regional Directors, From: Vice President of Strategy, Subject: Global Expansion. We are preparing to initiate our expansion into South American markets next quarter. Our research indicates a high demand for our products, but navigating local trade regulations will require careful ( --- 1 --- ). We have hired local legal counsel to ensure strict compliance with import policies and tariffs. To facilitate this transition, we must ( --- 2 --- ) our sales strategies to align with local consumer preferences. Any failure to adapt could jeopardize our initial investment. ( --- 3 --- ) updates will be shared during our weekly meetings. ( --- 4 --- ). Let's work together to make this venture successful.",
+    "passage_translation": "地域ディレクターへ、戦略担当副社長より、件名：グローバル拡大。私たちは来四半期に南米市場への進出を開始する準備を進めています。当社の調査は製品への高い需要を示していますが、現地の貿易規制をうまく乗り切るには慎重な（調整［コーディネーション］）が必要になります。輸入政策や関税への厳密な順守を確実にするため、現地の法律顧問を雇用しました。この移行を円滑に進めるため、現地の消費者の好みに合うように販売戦略を（カスタマイズ［調整］）しなければなりません。適応を怠れば、初期投資が危険にさらされる可能性があります。（その後の［それに続く］）進捗状況は、毎週の会議で共有されます。（包括的な市場分析レポートを、確認用に添付しています。）この新たなベンチャービジネスを成功させるために、協力して取り組みましょう。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "coordination",
+          "B": "hesitation",
+          "C": "restriction",
+          "D": "litigation"
+        },
+        "correct_answer": "A",
+        "explanation": "複雑な各国の貿易規制をうまく乗りこなすには、複数の部門や法律顧問を巻き込んだ「慎重な調整・連携（careful coordination）」が必要であるため、(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「調整、協力、連携、共同」。プロジェクト全体の足並みをそろえ、規制を乗り切るための関係部門間の連携を指します。",
+          "B": "【不正解】「ためらい、躊躇」。慎重なためらいが必要になるというのは経営方針として不自然です。",
+          "C": "【不正解】「制限、拘束」。慎重な制限が必要というのは文法上はあり得ますが、現地の法的問題を乗り切るという能動的な行動としては調整（coordination）が最適です。",
+          "D": "【不正解】「訴訟」。最初から訴訟を想定した行動をとるわけではありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "customize",
+          "B": "duplicate",
+          "C": "isolate",
+          "D": "terminate"
+        },
+        "correct_answer": "A",
+        "explanation": "現地の消費者の好み（local consumer preferences）に合わせる（align）ために、販売戦略を「調整する、カスタマイズする（customize）」とする(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「カスタマイズする、仕様変更する、適合させる」。相手のニーズや現地の好みに製品や戦略を個別最適化することを意味します。",
+          "B": "【不正解】「〜を複製する、二重にする」。現地の好みに合わせるのに複製するのは不適切です。",
+          "C": "【不正解】「〜を孤立させる、隔離する」。戦略を孤立させる意味はありません。",
+          "D": "【不正解】「〜を終了させる」。せっかくの進出にあたり戦略を終了させてはいけません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Subsequent",
+          "B": "Redundant",
+          "C": "Obsolete",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "「（この後の、それに続く）最新情報は、毎週の会議で共有する」とするため、(A) Subsequent が正解です。TOEIC 900点レベルの重要形容詞です。",
+        "options_explanations": {
+          "A": "【正解】「その後の、次に起こる、それに続く」。今後の展開や、進出プロセスが進む中での継続的な最新情報を指すのに最適です。",
+          "B": "【不正解】「不要な、重複する」。余分な情報を共有する必要はありません。",
+          "C": "【不正解】「時代遅れの、廃れた」。古い情報を共有する意味はありません。",
+          "D": "【不正解】「予備の、事前の」。週次でずっと継続していく内容を指すため、事前の限定的な情報ではなく、その後の継続的情報の意味である(A)が最適です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A comprehensive market analysis report is attached for your review.",
+          "B": "The expansion project was first discussed at our annual meeting.",
+          "C": "We plan to hire ten new sales associates in our Chicago office.",
+          "D": "The regional office will be closed on Friday for maintenance."
+        },
+        "correct_answer": "A",
+        "explanation": "南米市場進出をディレクターたちに命じる公式社内メモにおいて、事前の市場分析・状況把握のための資料提供として、「包括的な市場分析レポートを確認用に添付しています」とする(A)が完璧に適合します。",
+        "options_explanations": {
+          "A": "【正解】「詳細な市場分析レポートを、皆様の確認用に添付しています。」各地域責任者が現地対策を進めるうえで必須の情報共有の表現として完璧です。",
+          "B": "【不正解】「その拡大プロジェクトは、年次総会で最初に議論されました。」過去の議論開始の起源は、現在の実務指示文脈において優先度が低いです。",
+          "C": "【不正解】「私たちはシカゴオフィスで10人の新規販売員を採用する予定です。」南米市場拡大の話をしており、米国内のシカゴオフィスの採用は関係ありません。",
+          "D": "【不正解】「地域オフィスはメンテナンスのため金曜日に閉鎖されます。」オフィスの定期点検の連絡は、重大な南米拡大戦略メモに差し挟む内容ではありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_011",
+    "target_level": 900,
+    "passage_text": "Notice to Employees, In response to updated global data protection regulations, we are implementing stricter cybersecurity protocols. All staff must complete a mandatory training session on data privacy. This policy is designed to ( --- 1 --- ) the risk of unauthorized data access and protect client confidentiality. Please review the updated security manual sent to your email yesterday. Any ( --- 2 --- ) to comply with these rules will result in disciplinary action. We appreciate your immediate cooperation in securing our company's intellectual ( --- 3 --- ). ( --- 4 --- ). Thank you for helping us maintain a safe network.",
+    "passage_translation": "従業員の皆さんへ：最新の世界的なデータ保護規制に対応して、当社はより厳格なサイバーセキュリティ・プロトコルを導入します。すべてのスタッフは、データプライバシーに関する義務的なトレーニングセッションを完了しなければなりません。このポリシーは、不正なデータアクセスのリスクを（軽減［緩和］）し、顧客の機密を保持するために設計されています。昨日メールに送信された、更新されたセキュリティマニュアルを確認してください。これらのルールを順守（しないこと［失敗］）は、懲戒処分の対象となります。当社の知的（財産）を保護するための皆様の迅速なご協力に感謝いたします。（このトレーニングセッションは、今月末までに完了する必要があります。）安全なネットワークの維持にご協力いただきありがとうございます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "mitigate",
+          "B": "aggravate",
+          "C": "accelerate",
+          "D": "disregard"
+        },
+        "correct_answer": "A",
+        "explanation": "不正アクセスのリスクを「軽減・緩和する」という文脈から、(A) mitigate が正解です。",
+        "options_explanations": {
+          "A": "【正解】「〜を軽減する、緩和する、和らげる」。リスクなどを下げる際に極めて一般的かつ専門的なビジネス用語です。",
+          "B": "【不正解】「〜を悪化させる」。リスクを悪化させてはいけません。",
+          "C": "【不正解】「〜を加速する」。リスクを加速させてはいけません。",
+          "D": "【不正解】「〜を無視する」。リスクを意図的に無視するのはセキュリティ対策の目的に反します。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "failure",
+          "B": "achievement",
+          "C": "compliance",
+          "D": "dedication"
+        },
+        "correct_answer": "A",
+        "explanation": "ルールを「順守しないこと（失敗すること）」は懲戒処分に繋がるという文脈から、(A) failure が正解です。Any failure to do... で「〜しないこと、〜することの不履行」という、ビジネス契約や就業規則に非常によく登場するイディオムです。",
+        "options_explanations": {
+          "A": "【正解】「（なすべきことの）不履行、失敗」。ルール順守を怠った場合に処分が下る文脈に最適です。",
+          "B": "【不正解】「達成、実績」。ルールを順守達成して処分されることはありません。",
+          "C": "【不正解】「順守」。順守して処分されることはありません。",
+          "D": "【不正解】「献身、熱心さ」。ルールに献身して処分されることはありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "property",
+          "B": "redundancy",
+          "C": "litigation",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "intellectual property は「知的財産」を意味する代表的なビジネスコロケーションです。したがって(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「財産、不動産（intellectual propertyで知的財産）」。自社のデータや技術などの知的財産を保護する文脈にぴったりです。",
+          "B": "【不正解】「余剰、重複」。知的重複という意味になり、不自然です。",
+          "C": "【不正解】「訴訟」。知的訴訟を保護するというのは意味が通りません。",
+          "D": "【不正解】「不均衡、格差」。知的格差を保護するというのは意味不明です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "The training session must be completed before the end of the month.",
+          "B": "Our network security team upgraded the main server last weekend.",
+          "C": "The company was established in 2005 with a focus on innovation.",
+          "D": "Please report any lost security badges to the front desk."
+        },
+        "correct_answer": "A",
+        "explanation": "義務的なセキュリティトレーニングセッション（mandatory training session）の実施を発表している文脈において、従業員に課せられた具体的な受講期限として「そのトレーニングは今月末までに完了させる必要がある」と指示を補完する(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「トレーニングセッションは、今月末までに完了しなければなりません。」未受講の場合のペナルティの話（Q2）の前後に配置されるべき、超実務的な受講期限の指示です。",
+          "B": "【不正解】「当社のネットワークセキュリティチームは、先週末にメインサーバーをアップグレードしました。」サーバー強化のニュース自体は有益ですが、今回の「義務トレーニング受講期限」に関する従業員への直接の行動要請としては、(A)の方が圧倒的に論理的です。",
+          "C": "【不正解】「当社は、イノベーションに焦点を当てて2005年に設立されました。」会社の歴史のアピールは、セキュリティ規則メモには不要です。",
+          "D": "【不正解】「紛失したセキュリティバッジは受付に報告してください。」バッジ紛失の対処法は、今回の「データプライバシーのトレーニング」とはテーマが異なります。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_012",
+    "target_level": 900,
+    "passage_text": "Dear Mr. Harrison, We are writing to formally notify you of our decision to terminate the strategic alliance between our companies, effective September 30. Despite our mutual efforts, we have been unable to achieve the anticipated ( --- 1 --- ) between our operations. This decision was made after extensive deliberation by our executive board. To ensure a professional and orderly ( --- 2 --- ) of our joint projects, we suggest scheduling a meeting next week. We want to ( --- 3 --- ) any negative impact on our shared clients. ( --- 4 --- ). We appreciate the cooperation we have shared over the past years.",
+    "passage_translation": "ハリソン様へ：9月30日付で貴社と当社との間の戦略的提携を終了する決定を正式に通知したく、書面を送付いたします。お互いの努力にもかかわらず、私たちの事業間において、期待していた（相乗効果［シナジー］）を達成することができませんでした。この決定は、当社の経営陣による広範な協議の結果として下されました。共同プロジェクトを専門的かつ秩序正しく（縮小［終了］）させることを確実にするため、来週の会議をスケジューリングすることを提案します。共通のクライアントに対する悪影響を（最小限に抑える［軽減する］）ことを望んでおります。（暫定的な移行プロセスの合意書草案を、初期確認用に同封いたします。）これまでの数年間にわたり共有してきた協力に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "synergies",
+          "B": "disparities",
+          "C": "redundancies",
+          "D": "litigations"
+        },
+        "correct_answer": "A",
+        "explanation": "提携（alliance）したものの「期待していたような事業間のシナジー（相乗効果）を達成できなかった」ため解消する、という文脈から、(A) synergies が正解です。",
+        "options_explanations": {
+          "A": "【正解】「相乗効果（synergyの複数形）」。アライアンスを組む最大のメリットである経営シナジーが発揮されなかったという、解消の主因として最もふさわしい言葉です。",
+          "B": "【不正解】「不均衡、格差」。事業間の格差を「達成する」というのは語彙としても意味としても不自然です。",
+          "C": "【不正解】「過剰、余剰」。過剰を「達成できなかった」ためにアライアンスを解消するというのは、文脈の論理と逆になります。",
+          "D": "【不正解】「訴訟」。訴訟を「達成できなかった」というのは意味が通りません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "wind-down",
+          "C": "expansion",
+          "D": "stagnation",
+          "B": "launch"
+        },
+        "correct_answer": "A",
+        "explanation": "提携を終了する（terminate）ため、これまで行ってきた共同プロジェクトを「秩序正しく段階的に終了・縮小させる（wind-down）」必要があるため、(A)が正解です。TOEIC 900向けのハイレベル実務名詞です。※選択肢のミスを防ぐためキー表記を調整",
+        "options_explanations": {
+          "A": "【正解】「（事業・活動の）段階的縮小、終息、後片付け、収束」。アライアンス終了に伴い共同活動を片付けるプロセスを指す正確な表現です。",
+          "B": "【不正解】「立ち上げ、開始」。アライアンスを終わらせるタイミングでプロジェクトを「立ち上げる」のは矛盾します。",
+          "C": "【不正解】「拡大」。提携を解消するのに拡大することはありません。",
+          "D": "【不正解】「停滞、沈滞」。意図的に「秩序正しい停滞を確保する」というのは不自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "mitigate",
+          "B": "aggravate",
+          "C": "celebrate",
+          "D": "initiate"
+        },
+        "correct_answer": "A",
+        "explanation": "提携解消という大きな変化が引き起こし得る、共通の顧客に対する悪影響（negative impact）を「緩和する、最小限に抑える」ことを目的とするため、(A) mitigate が正解です。",
+        "options_explanations": {
+          "A": "【正解】「（影響や痛みなどを）和らげる、軽減する」。ネガティブな影響（negative impact）の深刻さを下げるための標準語彙です。",
+          "B": "【不正解】「悪化させる」。顧客への悪影響をわざわざ悪化させる経営者はいません。",
+          "C": "| 【不正解】「祝う」。悪影響を祝うことはできません。",
+          "D": "【不正解】「開始する」。悪影響を開始するというのは不適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A draft transition agreement is enclosed for your initial review.",
+          "B": "The partnership was officially established in June 2018 in Chicago.",
+          "C": "Our offices are closed on weekends and major national holidays.",
+          "D": "We offer a wide range of logistics and consulting services."
+        },
+        "correct_answer": "A",
+        "explanation": "提携解消のための会議の実施を提案している文脈（秩序正しいプロジェクトの整理や顧客への影響緩和）を支える実務資料の送付として、「初期確認用の移行プロセス合意書草案（draft transition agreement）を同封している」とする(A)が極めて自然に繋がります。",
+        "options_explanations": {
+          "A": "【正解】「暫定的な移行プロセスの合意書草案を、最初の確認用に同封いたします。」提携終了・整理（wind-down）の具体案を提示する、ビジネス文書としてこの上なく論理的な提案です。",
+          "B": "【不正解】「そのパートナーシップは、2018年6月にシカゴで正式に設立されました。」提携設立の過去の記録は、現在の緊急の契約解消交渉レターの結びとしては不要です。",
+          "C": "【不正解】「当社のオフィスは、土日および主要な祝日に閉業しています。」営業時間のお知らせは、戦略的提携解消交渉という非常に重い公式レターのトーンに適合しません。",
+          "D": "【不正解】「当社は、幅広い物流およびコンサルティングサービスを提供しています。」自社の一般的な事業内容は、提携相手に対する解消通知レターに挟み込むのは場違いです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_013",
+    "target_level": 900,
+    "passage_text": "Dear Stakeholders, We are writing to outline our financial restructuring plan for the upcoming fiscal year. In response to recent market volatility, we must reorganize our debt and reduce operational costs. This plan is necessary to ensure our long-term financial ( --- 1 --- ) and competitive position. We will focus on optimizing our supply chain and renegotiating contracts with key suppliers. We recognize that these measures are ( --- 2 --- ), but they are vital for our survival. ( --- 3 --- ) updates on our financial status will be shared in our quarterly reports. ( --- 4 --- ). Thank you for your continued support during this challenging period.",
+    "passage_translation": "ステークホルダーの皆様へ：次会計年度に向けた当社の財務再構築（リストラ）計画の概要をお知らせするため、本通知を執筆しております。最近の市場の変動に対応して、私たちは負債を再編成し、運営コストを削減しなければなりません。この計画は、当社の長期的な財務の（存続可能性［可能性］）と競争上の地位を確保するために必要です。私たちは、サプライチェーンの最適化や主要取引先との契約再交渉に焦点を当てます。これらの対策が（思い切った［抜本的な］）ものであることは認識しておりますが、当社の生き残りには不可欠です。（定期的な）財務状況の最新情報は、四半期報告書で共有されます。（投資家向けの電話会議が、今週木曜日の午後2時に開催されます。）この困難な時期における皆様の継続的なご支援に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "viability",
+          "B": "volatility",
+          "C": "liability",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "負債の圧縮やコスト削減を通じて「長期的な財務の存続可能性（viability）」を確保しようとしているため、(A) viability が正解です。",
+        "options_explanations": {
+          "A": "【正解】「生存力、存続可能性、実効性」。企業の財務能力が健全に維持される状態を指す最高難度語汇です。",
+          "B": "【不正解】「激しい変動、価格のブレ」。財務上の激しい変動を確保するというのは意味として望ましくありません。",
+          "C": "【不正解】 \"法的責任、負債、債務\"。財務的な債務を「確保（確保）」するのは矛盾しています。",
+          "D": "【不正解】「格差、不一致」。財務上の格差を確保することは不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "drastic",
+          "B": "trivial",
+          "C": "obsolete",
+          "D": "preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "「負債の再編成やサプライチェーン全体の契約見直しなど、これらの企業リストラ対策は非常に【思い切った、抜本的な（drastic）】ものであるが、生き残り（survival）に不可欠だ」と説明する(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「徹底的な、劇的な、抜本的な、思い切った」。非常に厳しい改革や削減を形容するのに完璧な単語です。",
+          "B": "【不正解】「些細な、取るに足らない」。これだけの大規模な構造改革を「些細なものだ」とするのは著しく矛盾します。",
+          "C": "【不正解】「時代遅れの、廃れた」。対策が時代遅れであるのは不適切です。",
+          "D": "【不正解】「予備の、事前の」。生き残りに向けた厳しい対策を「事前のもの」とするよりは、影響の大きさを認める「抜本的な（drastic）」とする(A)が圧倒的に自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Periodic",
+          "B": "Redundant",
+          "C": "Obsolete",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "四半期報告（quarterly reports）ごとに提供される「定期的な、段階的な（Periodic）」アップデートを指すため、(A) Periodic が正解です。",
+        "options_explanations": {
+          "A": "【正解】「定期的な、周期的な」。決まったスケジュール（ここでは四半期ごと）に沿って繰り返し報告を行う文脈に合致します。",
+          "B": "【不正解】「無駄な、余計な」。余計な財務アップデートを提供する意味はありません。",
+          "C": "【不正解】「廃れた、期限切れの」。期限切れのアップデートは不適切です。",
+          "D": "【不正解】「事前の、準備段階の」。すでに本格稼働する長期対策であるため、四半期を通じて行われるのは「定期的な」報告です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A conference call for investors will be held this Thursday at 2:00 p.m.",
+          "B": "Our corporate headquarters is located in the financial district of New York.",
+          "C": "We recently upgraded our accounting software to improve efficiency.",
+          "D": "Please contact our customer support for any payment issues."
+        },
+        "correct_answer": "A",
+        "explanation": "企業の経営不安や大規模な財務再編（restructuring plan）をステークホルダーに公表する文書の締めとして、直接投資家の不安や疑問に答える双方向イベントの案内として、「今週木曜日午後2時に、投資家向けの電話会議が実施される」とする(A)が完璧に合致します。",
+        "options_explanations": {
+          "A": "【正解】「投資家向けの電話会議が、今週木曜日の午後2時に開催されます。」再構築計画という重大事態に対して、Q&A対応などの場を直近に設けることを知らせる不可欠な一文です。",
+          "B": "【不正解】「当社の本社は、ニューヨークの金融街にあります。」本社の所在地案内は、この財務再編の実行を知らせる差し迫った文書では不要です。",
+          "C": "【不正解】「効率を改善するため、最近会計ソフトウェアをアップグレードしました。」会計ソフトの微細なバージョンアップ情報は、全社を挙げた負債再編・生存をかけた計画発表においては不釣り合いなノイズです。",
+          "D": "【不正解】「支払いに関する問題については、カスタマーサポートにお問い合わせください。」一般顧客の支払いトラブルへの問い合わせ窓口ではなく、今回は会社の「財務構造改革」に関する株主・出資者向けのお知らせです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_014",
+    "target_level": 900,
+    "passage_text": "Dear Dr. Chen, We are writing to propose a joint venture between our research institutions to develop next-generation medical technology. Our mutual expertise in biotechnology creates a perfect opportunity to achieve outstanding scientific ( --- 1 --- ). We believe this collaboration will significantly accelerate the development process. Please review the enclosed project outline, which describes our proposed resource ( --- 2 --- ). We are eager to ( --- 3 --- ) on this groundbreaking research and achieve our shared goals. ( --- 4 --- ). We look forward to discussing this proposal with you.",
+    "passage_translation": "チェン博士へ：次世代の医療技術を開発するため、私たちの研究機関同士による共同事業（ジョイントベンチャー）を提案したく、書面を送付いたします。バイオテクノロジーにおけるお互いの専門知識は、傑出した科学的（相乗効果［シナジー］）を達成する完璧な機会を生み出します。このコラボレーションによって、開発プロセスが大幅に加速されると信じております。同封のプロジェクト概要をご確認ください。そこには私たちの提案するリソース（配分）が記載されています。私たちは、この画期的な研究で（協力する［共同で取り組む］）ことを切望しており、共通のゴールを達成したいと考えております。（近いうちに、予備調整のための最初のミーティングをスケジューリングすることを提案いたします。）この提案についてお話しできることを楽しみにしております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "synergy",
+          "B": "redundancy",
+          "C": "litigation",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "お互いの異なる得意分野を組み合わせる共同事業（joint venture）によって生み出されるプラスの協力効果として、「科学的相乗効果（scientific synergy）」を達成するという文脈から(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「相乗効果（シナジー）」。双方の知識を結集して1足す1を3にするという、提携提案にベストな単語です。",
+          "B": "【不正解】「重複、無駄」。お互いの知識の無駄や余分を達成したいわけではありません。",
+          "C": "【不正解】「訴訟」。科学的訴訟を達成するのは意味不明です。",
+          "D": "【不正解】「格差、不一致」。科学的格差を達成することも目標になりません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "allocation",
+          "B": "restriction",
+          "C": "cancellation",
+          "D": "dispute"
+        },
+        "correct_answer": "A",
+        "explanation": "共同プロジェクトにおいてお互いの予算や人員といったリソースをどのように振り分けるか、という「リソース配分（resource allocation）」を説明しているため、(A) allocation が正解です。",
+        "options_explanations": {
+          "A": "【正解】「配分、割り当て（resource allocationでリソース割り当て）」。プロジェクト推進において極めて重要な実務用語です。",
+          "B": "【不正解】「制限、拘束」。リソース制限を提案するのは、前向きなジョイントベンチャーの提案として冷や水を浴びせます。",
+          "C": "【不正解】「中止、取り消し」。リソースの中止を記述している概要というのは矛盾します。",
+          "D": "【不正解】「論争、紛争」。リソース紛争を記述しているというのも矛盾します。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "collaborate",
+          "B": "collaborate with",
+          "C": "collaborated",
+          "D": "collaborates"
+        },
+        "correct_answer": "A",
+        "explanation": "to不定詞（are eager to）の後ろに続く動詞の原形として、後ろに前置詞 on を直接伴って「〜に関して協力する、共同で取り組む（collaborate on）」となる自動詞の(A) collaborate が適切です。※collaborate with は「〜（人・組織）と協力する」となりますが、直後に「this groundbreaking research（画期的な研究）」という「物・プロジェクト」を目的語のように配置できず、on research とする形になっているため、withは不要です。",
+        "options_explanations": {
+          "A": "【正解】動詞原形。collaborate on this research（この研究について協力する）となり、前置詞 on と完美に結びつきます。",
+          "B": "【不正解】collaborate with は「（人）と協力する」で使われるため、後ろに directly on research となっている本問では不適切です（collaborate with on research のように with 人 が省略されているなら分かりますが、are eager to collaborate with on... という配置は破綻します）。",
+          "C": "【不正解】過去形・過去分詞。to不定詞の後ろに置くことはできません。",
+          "D": "【不正解】三人称単数現在形。to不定詞の後ろに置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We suggest scheduling a preliminary meeting at your earliest convenience.",
+          "B": "The research project was first funded by a government grant in 2015.",
+          "C": "Our laboratory is equipped with state-of-the-art medical devices.",
+          "D": "Please sign the attached non-disclosure agreement by Friday evening."
+        },
+        "correct_answer": "A",
+        "explanation": "共同開発を正式に打診するレターにおいて、相手のチェン博士にまずは最初の意見交換を促すネクストステップとして、「ご都合の良い早いタイミングで、予備的なミーティング（preliminary meeting）をスケジューリングすることを提案します」とする(A)が最善の意思表示です。",
+        "options_explanations": {
+          "A": "【正解】「ご都合がつき次第、予備的なミーティングをスケジュールすることを提案いたします。」次の具体的なステップに相手を誘導する、ビジネスプロポーザルの典型表現です。",
+          "B": "【不正解】「その研究プロジェクトは、2015年に政府の助成金によって最初に資金提供されました。」過去の歴史情報は、これから新しいJV（ジョイントベンチャー）を提案する流れの締めとしては不適切です。",
+          "C": "【不正解】「当社の研究所には、最先端の医療機器が備わっています。」自社アピールの一環としてはあり得ますが、ミーティング調整への流れを遮るため位置的に良くありません。",
+          "D": "【不正解】「金曜日の夕方までに、添付の秘密保持契約書（NDA）に署名してください。」まだ提案を投げかけた初期段階であり、いきなり強制的な期限付きでNDA署名を要求するのは高圧的すぎて失礼です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_015",
+    "target_level": 900,
+    "passage_text": "Notice of Legal Settlement, Vertex Electronics and Apex Corporation are pleased to announce they have reached a settlement regarding their patent dispute. Both parties have agreed to enter into a cross-licensing agreement to resolve all outstanding claims. This settlement will eliminate the need for further ( --- 1 --- ) and allow both companies to focus on innovation. Under the terms of the agreement, Apex will pay a licensing ( --- 2 --- ) to Vertex for using its proprietary technology. Both parties have agreed to keep the specific terms ( --- 3 --- ). ( --- 4 --- ). This settlement represents a positive outcome for both organizations.",
+    "passage_translation": "法的和解のお知らせ：Vertex ElectronicsとApex Corporationは、両社間の特許紛争に関する和解に達したことを発表でき、嬉しく思います。双方は、未解決の請求をすべて解決するため、クロスライセンス契約を締結することに同意しました。この和解により、これ以上の（訴訟）の必要性がなくなり、両社がイノベーションに専念できるようになります。契約条件に基づき、ApexはVertexの独自技術を使用することに対するライセンス（料）を支払います。両当事者は、具体的な条件を（非公開［機密］）に保つことに合意しました。（今朝、共同プレスリリースがメディアに配信されました。）この和解は、両組織にとって肯定的な結果を示すものです。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "litigation",
+          "B": "cooperation",
+          "C": "optimization",
+          "D": "validation"
+        },
+        "correct_answer": "A",
+        "explanation": "和解に達したことで「これ以上の訴訟（litigation）を不要にする」という文脈に合う(A) litigation が正解です。TOEIC 900を狙う上で必須の難単語です。",
+        "options_explanations": {
+          "A": "【正解】「訴訟、起訴」。裁判を通じた争いを指し、法的な和解によって不要になる対象として完璧に機能します。",
+          "B": "【不正解】「協力」。和解によって協力を不要にするというのは矛盾します。",
+          "C": "【不正解】「最適化」。最適化を不要にする必要はありません。",
+          "D": "【不正解】「検証、認証」。検証を不要にする必要はありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "fee",
+          "B": "tax",
+          "C": "fine",
+          "D": "debt"
+        },
+        "correct_answer": "A",
+        "explanation": "特許技術の使用に対する料金を支払う文脈のため、licensing fee（ライセンス料・特許使用料）という極めて一般的なコロケーションを構成する(A) fee が正解です。",
+        "options_explanations": {
+          "A": "【正解】「料金、手数料（licensing feeでライセンス使用料）」。知的財産やサービスの使用に伴う公式な支払いに最適な名詞です。",
+          "B": "【不正解】「税金」。他社の技術使用に対して政府に関税や税金を支払うのはおかしいです。",
+          "C": "【不正解】「罰金、違約金」。和解によって正式なライセンス契約を組む「使用料」であるため、罰則の意味を含むfineは不自然です。",
+          "D": "【不正解】「借金、債務」。債務を支払うという表現（pay off debt）はありますが、契約によって発生する権利使用料には適しません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "confidential",
+          "B": "public",
+          "C": "redundant",
+          "D": "obsolete"
+        },
+        "correct_answer": "A",
+        "explanation": "契約の「具体的な条件は非公開（機密）にする（keep specific terms confidential）」ことに同意した、とする(A)が正解です。ビジネス法務で極めて頻出する基本句です。",
+        "options_explanations": {
+          "A": "【正解】「秘密の、機密の」。和解金額や詳細なライセンスパーセンテージを社外秘に保つビジネス協定として極めて一般的です。",
+          "B": "【不正解】「公開の、公の」。和解契約で specific terms（具体的な細部条項）をわざわざ公衆にすべて開示・露出させることは通常稀です（通常は大枠合意だけを公表し、詳細はconfidentialに保ちます）。",
+          "C": "【不正解】「不要な、重複する」。条件を重複させておく意味はありません。",
+          "D": "【不正解】「廃れた、時代遅れの」。条件を時代遅れにする意味もありません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A joint press release was distributed to the media this morning.",
+          "B": "The patent was registered with the government patent office in 2010.",
+          "C": "Our corporate offices are closed during national holidays.",
+          "D": "We plan to hire five new legal advisors next month."
+        },
+        "correct_answer": "A",
+        "explanation": "Vertex社とApex社という2大企業間の大きな法的和解（Settle）に関する公式広報であり、このお知らせの発表と同時に社外に向けて「今朝、共同プレスリリースがマスコミ各社に配信された」と説明を付加する(A)が実務広報文として最も論理的です。",
+        "options_explanations": {
+          "A": "【正解】「今朝、共同プレスリリースがメディアに配信されました。」この和解通知レター自体がそのプレスリリースに基づいている、または並行して展開されていることを示す完璧なタイミングの記述です。",
+          "B": "【不正解】「その特許は、2010年に政府の特許局に登録されました。」登録された年は過去の記録であり、今回の「和解合意、ライセンス供与（現在のこと）」の締めくくりの一文としては重要性が低いです。",
+          "C": "【不正解】「当社のオフィスは、祝日の間閉鎖されます。」休業の連絡は、業界注目のライバル企業同士の法的和解プレスリリースに含めるべきではありません。",
+          "D": "【不正解】「私たちは、来月5人の新しい法律顧問を採用する予定です。」自社内の新規採用人事ニュースは、この2社和解完了の報告文の主題からズレています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_016",
+    "target_level": 900,
+    "passage_text": "Dear Shareholders, The nominating committee of the Board of Directors is pleased to present the nominee for election at the annual meeting. After a comprehensive search, we have selected Ms. Helena Vance, who has extensive experience in corporate ( --- 1 --- ). We believe her expertise will be highly beneficial as we expand our global operations. To ensure compliance with regulatory standards, her background was thoroughly verified by an external firm. We are confident her leadership will ( --- 2 --- ) our strategic goals. ( --- 3 --- ) biography is attached for your review. ( --- 4 --- ). We encourage all shareholders to vote in favor of her nomination.",
+    "passage_translation": "株主の皆様へ：取締役会の指名委員会は、年次総会での選挙に向けた候補者を発表でき、嬉しく思います。徹底的な調査の結果、私たちはコーポレート（ガバナンス［企業統治］）において広範な経験を持つヘレナ・ヴァンス氏を選出いたしました。当社のグローバル展開を進めるにあたり、彼女の専門知識は非常に有益であると確信しております。規制基準への確実な準拠を図るため、彼女の経歴は外部の調査会社によって徹底的に検証されました。彼女の指導力が、当社の戦略的目標を（促進する［容易にする］）と確信しております。（彼女の）経歴書は、確認用に添付されています。（デジタル投票の送信手順に関する説明書が、同封されています。）株主の皆様には、彼女の指名に賛成票を投じることをお勧めいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "governance",
+          "B": "defiance",
+          "C": "reliance",
+          "D": "alliance"
+        },
+        "correct_answer": "A",
+        "explanation": "「コーポレートガバナンス（企業統治、企業支配体制）」は corporate governance という極めて強固で一般的なビジネスイディオムであるため、(A) が正解です。",
+        "options_explanations": {
+          "A": "【正解】「統治、管理（corporate governanceで企業統治）」。上場企業の取締役候補者の主要要件として完璧なスキルセットです。",
+          "B": "【不正解】「反抗、挑戦」。企業への反抗に経験がある人を役員に据えるのは不自然です。",
+          "C": "【不正解】「依存、信頼」。企業への依存に強みがあるという意味になり不適格です。",
+          "D": "【不正解】 \"提携、同盟（corporate allianceで企業提携）\"。allianceもあり得ますが、文脈中の「規律・コンプライアンス（ensuring compliance、external verification）」の強調から、企業支配体制の専門家である「ガバナンス（governance）」が最適です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "facilitate",
+          "B": "complicate",
+          "C": "neglect",
+          "D": "terminate"
+        },
+        "correct_answer": "A",
+        "explanation": "新リーダーの存在が、会社の目標達成を「容易にする、促進する（facilitate）」とする(A)が適切です。TOEIC 900目標における極めて頻出の高い動詞です。",
+        "options_explanations": {
+          "A": "【正解】「〜を容易にする、促進する、助ける」。目標の実行や事業推進を助ける際に広く用いられるポジティブな他動詞です。",
+          "B": "【不正解】「〜を複雑にする」。目標をわざわざ複雑にする必要はありません。",
+          "C": "【不正解】「〜を無視する、怠る」。目標を怠るリーダーは指名されません。",
+          "D": "【不正解】「〜を終了・解除する」。せっかくの戦略目標を強制終了させてはいけません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "Her",
+          "B": "She",
+          "C": "Hers",
+          "D": "Herself"
+        },
+        "correct_answer": "A",
+        "explanation": "直後の名詞 biography（経歴書、バイオグラフィー）を修飾して「彼女の経歴書」とする所有格の(A) Her が正解です。品詞・格変化を問う基本文法問題です。",
+        "options_explanations": {
+          "A": "【正解】代名詞所有格。「彼女の」となり、直後の名詞を正しく修飾します。",
+          "B": "【不正解】主格。「彼女は経歴書」となってしまい、主語と名詞が直接並び不適です。",
+          "C": "【不正解】所有代名詞。「彼女のもの経歴書」となり文法的に間違いです。",
+          "D": "【不正解】再帰代名詞。名詞の前において修飾することはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Instructions on how to submit your digital vote are enclosed.",
+          "B": "The annual shareholder meeting will be held in Chicago next month.",
+          "C": "We recently upgraded our investor relations portal to improve access.",
+          "D": "Please contact our customer support for registration issues."
+        },
+        "correct_answer": "A",
+        "explanation": "株主に対する役員指名（推薦）と、年次株主総会での投票依頼（Vote）を結びつける実務手順の指示として、「デジタル投票の送信手順に関する説明書が同封されている」とする(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「電子投票の送信方法に関する指示書が同封されています。」株主に賛成票（Vote）を促す直前の記述と完美に連動します。",
+          "B": "【不正解】「年次株主総会は、来月シカゴで開催されます。」総会の場所と日程はすでに基本情報として告知されているはずであり、この「指名候補者の選出根拠・投票のお願い」をしている個別レターの最終段落の挿入箇所としては、具体的な投票手続きである(A)の方が強い関連性を持ちます。",
+          "C": "【不正解】「アクセスを改善するため、最近投資家情報ポータルをアップグレードしました。」システム改修のお知らせは、この「推薦候補への賛成投票」を今まさに訴えている段落にはノイズです。",
+          "D": "【不正解】「登録に関する問題については、カスタマーサポートまでご連絡ください。」株主の登録問題ではなく、今回は特定の「取締役指名選挙」に関する案内です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_017",
+    "target_level": 900,
+    "passage_text": "To: Operations Managers, From: Logistics Director, Subject: Supply Chain Risks. Recent geopolitical events have caused significant disruptions in our international shipping routes. To ( --- 1 --- ) these risks, we are diversifying our network of transport providers. We recognize that these changes may cause temporary shipping delays; therefore, we must manage client expectations proactively. Please coordinate with the sales team to provide accurate delivery updates. Any discrepancies in inventory counts must be resolved immediately to prevent ( --- 2 --- ) of stock. ( --- 3 --- ) updates will be sent daily. ( --- 4 --- ). Thank you for your resilience and hard work.",
+    "passage_translation": "業務マネージャーへ、物流ディレクターより、件名：サプライチェーンリスク。最近の地政学的出来事は、当社の国際配送ルートに大きな混乱を引き起こしています。これらのリスクを（軽減する）ため、当社は輸送プロバイダーのネットワークを多様化させています。これらの変更が一時的な配送遅延を引き起こす可能性があることを認識しており、したがって、クライアントの期待を積極的に管理しなければなりません。営業チームと連携し、正確な配送最新情報を提供してください。在庫不足［払底］を（防ぐ）ため、在庫数のいかなる不一致も直ちに解決されなければなりません。（その後の［それに続く］）最新情報は毎日送信されます。（代替となる配送ルートのリストを、レビュー用に添付しています。）皆様のしなやかな回復力と熱心な働きに感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "mitigate",
+          "B": "aggravate",
+          "C": "celebrate",
+          "D": "ignore"
+        },
+        "correct_answer": "A",
+        "explanation": "配送ルートの遅延など、地政学的なサプライチェーン上の重大リスクを「和らげる、軽減する、緩和する（mitigate）」ための対策を打っているため、(A) が正解です。",
+        "options_explanations": {
+          "A": "【正解】「〜を軽減する、緩和する」。ビジネスにおいてリスクや損害を最小限に食い止める際の基本最重要語汇です。",
+          "B": "【不正解】「〜を悪化させる、深刻にする」。リスクをわざわざ悪化させるためにプロバイダーを多様化する（複数の輸送ルートを確保する）のはおかしいです。",
+          "C": "【不正解】「〜を祝う」。リスクを祝うことは不可能です。",
+          "D": "【不正解】「〜を無視する」。対策を打っている時点で無視していません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "depletion",
+          "B": "optimization",
+          "C": "fluctuation",
+          "D": "stagnation"
+        },
+        "correct_answer": "A",
+        "explanation": "「在庫（stock）の【減少、払底、枯渇（depletion）】を防ぐ（prevent）ために、在庫数の不一致を直ちに解決する必要がある」とする(A) depletion が文脈上適切です。",
+        "options_explanations": {
+          "A": "【正解】「減少、激減、枯渇、使い果たすこと」。depletion of stock で「在庫不足・払底」を意味し、物流・生産管理で極めてよく使われます。",
+          "B": "【不正解】「最適化」。在庫の最適化を「防ぐ（prevent）」というのは意味として完全におかしいです（最適化は促進すべきです）。",
+          "C": "【不正解】「変動、不安定さ」。在庫の変動を防ぐ、というのもなくはないですが、不一致による突然の在庫「枯渇（depletion）」の防止こそが緊急対応の焦点です。",
+          "D": "【不正解】「停滞」。在庫の停滞を防ぐという意味になり、不一致の即時解決との関連性が低いです。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Subsequent",
+          "B": "Redundant",
+          "C": "Obsolete",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "「今後の展開に伴って発信される（その後の、それに続く）最新情報は毎日送信される」とするため、(A) Subsequent が正解です。",
+        "options_explanations": {
+          "A": "【正解】「その後の、次に起こる、これに続く」。毎日の進捗プロセスに応じて順次発行される報告書を形容するのに最適です。",
+          "B": "【不正解】「不要な、余剰な」。不要なアップデートを毎日送る意味はありません。",
+          "C": "【不正解】「陳腐化した、時代遅れの」。古い情報を毎日送る意味はありません。",
+          "D": "【不正解】 \"予備の、事前の\"。毎日送信されていくという「継続性」があるため、事前の限定的な情報を指すpreliminaryは不適です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A list of alternative shipping routes is attached for your review.",
+          "B": "The logistics department was established in June 2005 in Chicago.",
+          "C": "Our warehouse will be closed on Friday for annual inventory check.",
+          "D": "Please submit your vacation requests to HR by the end of the week."
+        },
+        "correct_answer": "A",
+        "explanation": "地政学的リスクによる現在の遅延に対処するため、輸送ルートの多元化（diversifying transport providers）を指示している物流担当者向けのメモです。したがって、「代替の配送ルートのリストをレビュー用に添付した」とする(A)が業務推進のサポート資料として最も自然に繋がります。",
+        "options_explanations": {
+          "A": "【正解】「代替の配送ルートの一覧を、確認用に添付しております。」具体的な変更計画を実行させるための実務サポートとして完璧です。",
+          "B": "【不正解】「物流部門は2005年6月にシカゴで設立されました。」歴史情報は、地政学リスクへの緊急対応指示メモには不要なノイズです。",
+          "C": "【不正解】「当社の倉庫は、年次棚卸しのため金曜日に閉鎖されます。」緊急ルート遅延の対策を強いているさなかに、いきなり関係のない定期棚卸しの全館閉鎖情報を入れると混乱します。",
+          "D": "【不正解】「休暇の申請は、今週末までに人事部に提出してください。」休暇申請の案内はこの緊急物流指示とは無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_018",
+    "target_level": 900,
+    "passage_text": "Confidential Memo to Staff, Yesterday evening, our IT security team detected an unauthorized attempt to access our corporate database. We immediately initiated security protocols to isolate the affected servers and prevent data leakage. While our investigation is ongoing, we have found no evidence that client information was ( --- 1 --- ). To prevent future incidents, we will perform an emergency system upgrade tonight. ( --- 2 --- ), all network services will be temporarily offline from 10:00 p.m. to 4:00 a.m. We appreciate your cooperation in ( --- 3 --- ) our system security. ( --- 4 --- ). Please report any suspicious activity immediately.",
+    "passage_translation": "スタッフへの機密メモ：昨日の夕方、当社のITセキュリティチームが、当社の企業データベースへの不正なアクセス試行を検出しました。影響を受けたサーバーを隔離し、データ漏洩を防ぐため、直ちにセキュリティ・プロトコルを起動しました。現在も調査は続いておりますが、顧客情報が（侵害された［流出した］）という証拠は見つかっていません。将来のインシデントを防ぐため、今夜緊急のシステムアップグレードを実施します。（その結果［したがって］）、すべてのネットワークサービスが午後10時から午前4時まで一時的にオフラインになります。当社のシステムセキュリティの（維持）に対する皆様のご協力に感謝いたします。（すべての従業員は、明日ログインする際にパスワードを再設定する必要があります。）疑わしい活動を見かけた場合は、直ちに報告してください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "compromised",
+          "B": "achieved",
+          "C": "optimized",
+          "D": "validated"
+        },
+        "correct_answer": "A",
+        "explanation": "不正アクセス（unauthorized attempt）があったものの、顧客データが「侵害された、漏洩した（compromised）」証拠はなかった、という文脈から(A) compromised が正解です。ITセキュリティの最重要高難度語彙です。",
+        "options_explanations": {
+          "A": "【正解】「（名誉やシステムなどを）脅かす、侵害する、漏洩させる」。情報漏洩の文脈（data compromise）で最も頻出する形容詞的過去分詞です。",
+          "B": "【不正解】「達成された」。情報が達成されたというのは意味が通りません。",
+          "C": "【不正解】「最適化された」。情報が最適化された形跡はない、というのはセキュリティ事故の状況に合いません。",
+          "D": "【不正解】「検証された」。情報が検証された形跡はない、というのも流出を否定する表現としては弱いです（compromisedがセキュリティ文脈での絶対的正解語です）。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "Consequently",
+          "B": "However",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "前文の「今夜緊急システムアップグレードを実施する」ことの直接の結果として、「今夜10時から午前4時までシステムがオフラインになる」という因果関係を繋ぐため、(A) Consequently が正解です。",
+        "options_explanations": {
+          "A": "【正解】「その結果として、したがって（Consequently, 主語＋動詞）」。アップグレード作業に伴う不可避のシステムダウンという結果を明快に導きます。",
+          "B": "【不正解】「しかしながら（逆接）」。アップグレードを行うこととシステム停止は順接の関係ですので不適合です。",
+          "C": "【不正解】「〜だが（接続詞）」。後ろにカンマを伴って単独で文頭に置く副詞的使い方は不適切です。",
+          "D": "【不正解】「〜なので（理由の接続詞）」。単独で副詞的に文頭で用いることはできません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "maintaining",
+          "B": "neglect",
+          "C": "interruption",
+          "D": "termination"
+        },
+        "correct_answer": "A",
+        "explanation": "「当社のシステムセキュリティを【維持すること、保つこと（maintaining）】へのご協力に感謝する」という文脈に合う(A)が正解です。inの後ろであるため動名詞が適切に機能します。",
+        "options_explanations": {
+          "A": "【正解】動名詞。「（セキュリティなどを）維持すること、保護すること」。データ漏洩事件をうけてセキュリティを高水準に維持する努力への協力に感謝する標準的な表現です。",
+          "B": "【不正解】「怠慢、無視」。セキュリティを怠ることに協力してもらうわけにはいきません。",
+          "C": "【不正解】「中断、障害」。セキュリティの中断に協力してもらうことはありません。",
+          "D": "【不正解】「終了、解雇」。セキュリティの終了に協力してもらうこともありません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "All employees must reset their passwords when logging in tomorrow.",
+          "B": "The network server was purchased from a local tech vendor last year.",
+          "C": "Our IT department is located on the third floor of the building.",
+          "D": "We offer comprehensive software services for business clients."
+        },
+        "correct_answer": "A",
+        "explanation": "ITデータベースへの不正侵入をうけた緊急アップグレードに関する社内報です。ハッキングの危険への完璧な自衛策・必須指示として、「すべての従業員は明日ログインする際にパスワードを再設定（reset passwords）しなければならない」とする(A)が実務セキュリティ手続きとして完璧です。",
+        "options_explanations": {
+          "A": "【正解】「すべての従業員は、明日ログインする際にパスワードを再設定する必要があります。」事故をうけたセキュリティ回復手順としてこの上なく自然です。",
+          "B": "【不正解】「そのネットワークサーバーは、昨年現地のテックベンダーから購入されたものです。」購入元に関する情報は、ハッキング緊急対処メモには完全に不必要なノイズです。",
+          "C": "【不正解】「IT部はビルの3階にあります。」場所の案内は、緊急を要するこのデータベース不正アクセス警告メモには不適切です。",
+          "D": "【不正解】「当社は、法人顧客向けに包括的なソフトウェアサービスを提供しています。」自社の一般的な製品説明であり、社内向けのハッキングインシデント警告文に差し込む内容ではありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_019",
+    "target_level": 900,
+    "passage_text": "Notice to Our Retail Partners, Due to recent adjustments in international import tariffs, we must modify our pricing structures. These government taxes have increased our shipping costs significantly; ( --- 1 --- ), we must adjust our wholesale prices, effective next month. We have made every effort to absorb these costs, but we must implement this change to ensure our business ( --- 2 --- ). A revised price sheet is attached, detailing the specific adjustments for each product category. ( --- 3 --- ) orders placed before the end of this month will be honored at the current rates. ( --- 4 --- ). Thank you for your understanding.",
+    "passage_translation": "小売パートナーの皆様へ：最近の国際輸入関税の調整に伴い、当社は価格体系を変更せざるを得なくなりました。これらの政府税により配送コストが大幅に増加いたしました。［したがって、それゆえに］、来月より卸売価格を改定することとなりました。当社としてはこれらのコストを吸収するようあらゆる努力を重ねてまいりましたが、ビジネスの（存続可能性［可能性］）を確実にするため、この変更を実施せざるを得ません。製品カテゴリーごとの具体的な調整内容を記載した、改定後の価格表を添付いたします。今月末までに確定した（いかなる［すべての］）注文に関しましては、現行価格にて対応させていただきます。（この調整期間中における皆様の継続的なご協力に感謝いたします。）ご理解のほど、よろしくお願い申し上げます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "consequently",
+          "B": "however",
+          "C": "although",
+          "D": "because"
+        },
+        "correct_answer": "A",
+        "explanation": "「関税導入によってコストが増加した」ため、その結果として「卸売価格を改定しなければならない」という直接の因果を構成する(A) consequently が正解です。文頭にセミコロン（;）があり、空欄の後ろにカンマがあるため、接続副詞が適切に機能します。",
+        "options_explanations": {
+          "A": "【正解】「したがって、結果として（接続副詞）」。コスト増から価格への転嫁という因果の流れを美しく繋ぎます。",
+          "B": "【不正解】「しかしながら（逆接）」。前後の流れが矛盾していないため不適切です。",
+          "C": "【不正解】「〜だが（接続詞）」。カンマのみを伴って副詞的に機能することはありません。",
+          "D": "【不正解】「〜なので（理由の接続詞）」。後ろに主語・動詞を必要とする従属接続詞であるため、この位置（; (---1---), S + V）に置くことはできません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "viability",
+          "B": "volatility",
+          "C": "liability",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "価格転嫁（値上げ）を行わなければ、ビジネスの継続・存続自体が危うくなるため、「ビジネスの存続可能性（viability）」を確保するための苦渋の決断であるとする(A) viability が正解です。",
+        "options_explanations": {
+          "A": "【正解】「生存力、存続可能性」。会社が不利益を被って倒産することなく、ビジネスを実効的に稼働させ続けられる能力を指します。",
+          "B": "【不正解】「価格の乱高下、ボラティリティ」。ビジネスの不安定さを確保するというのは矛盾します。",
+          "C": "【不正解】「法的責任、負債」。ビジネスの負債を確実にするためというのは意味が逆になります。",
+          "D": "【不正解】「格差、相違」。ビジネス格差を確実にするというのも意味が通りません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "Any",
+          "B": "Some",
+          "C": "Many",
+          "D": "Much"
+        },
+        "correct_answer": "A",
+        "explanation": "「今月末までに注文がなされれば、その（いかなる［全ての］）注文に対しても旧価格を保証する」という条件文的なニュアンスを表す(A) Any が適切です。単数名詞 orders （ここでは複数形 orders が使われていますが、Anyは複数形も修飾し、「すべての、どんな〜でも」の意味を強く押し出します）を伴って強く全体を肯定する表現です。",
+        "options_explanations": {
+          "A": "【正解】「いかなる〜も、どんな〜でも」。この期間中に発注されたものなら「一切の例外なくすべて（Any）」現行価格を適用するという保証の意味で最適です。",
+          "B": "【不正解】「いくつかの、一部の」。一部の注文だけ現行価格を適用し、他は適用しないという恣意的な保証になり、公式の取引通知として不自然です。",
+          "C": "【不正解】「多くの」。多くの注文に旧価格を適用する、というのも、一部除外されるような曖昧さがあり、ビジネス保証のトーンとして弱いです。",
+          "D": "【不正解】「多くの（不可算名詞修飾）」。 orders は可算名詞の複数形であるため、不可算名詞を修飾する Much を置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "We appreciate your continued partnership during this adjustment.",
+          "B": "The tariff policy was first discussed in the international news last week.",
+          "C": "Our warehouse will be closed on Friday for annual inventory check.",
+          "D": "Please contact our customer support for any product return issues."
+        },
+        "correct_answer": "A",
+        "explanation": "小売パートナー向けの、関税を理由とした卸売価格値上げの苦渋の告知です。手紙の最後のまとめ・懇願の挨拶として、「今回の価格改定の移行期間中、皆様の継続的なご提携に感謝いたします」とする(A)が最も丁寧で契約関係を維持するのに最適です。",
+        "options_explanations": {
+          "A": "【正解】「この移行期間中における、皆様の継続的なご協力に感謝申し上げます。」値上げに理解を求めるメーカーから取引先への最も丁寧な配慮の一文です。",
+          "B": "【不正解】「関税政策は、先週国際ニュースで最初に議論されました。」関税導入のニュースの歴史は、値上げをお願いするこの手紙の結びとしては不要です。",
+          "C": "【不正解】「当社の倉庫は、年次棚卸しのため金曜日に閉鎖されます。」取引先への棚卸し休業情報は、この「価格改定合意」を求める公式書面には場違いです。",
+          "D": "【不正解】「商品の返品に関する問題については、カスタマーサポートまでご連絡ください。」返品についての苦情窓口の案内は、今回の卸売価格改定の交渉書面の最後としてはズレています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_020",
+    "target_level": 900,
+    "passage_text": "Dear Mr. Carter, We are writing to formally notify you of a potential breach of the Non-Disclosure Agreement (NDA) signed on March 12. Our compliance team has identified several unauthorized disclosures of our proprietary technology on your public website. This disclosure violates the confidentiality clauses of our contract and could ( --- 1 --- ) our market position. We request that you remove the relevant materials from your website immediately. Please confirm in writing that you have complied with this request by Friday. ( --- 2 --- ) we receive this confirmation, we will have no choice but to pursue legal ( --- 3 --- ). ( --- 4 --- ). We hope to resolve this matter without litigation.",
+    "passage_translation": "カーター様へ：3月12日に署名された機密保持契約（NDA）の潜在的な違反について、正式に通知したく書面を送付いたします。当社のコンプライアンスチームは、貴社の公開ウェブサイト上で、当社の特許技術に関するいくつかの無断開示を特定いたしました。この開示は当社の契約における機密保持条項に違反しており、当社の市場での地位を（脅かす［危険にさらす］）可能性があります。該当する素材を直ちに貴社のウェブサイトから削除することを要求します。この要求に準拠したことを、金曜日までに書面で確認してください。この確認を（受け取るまでは［受け取らない限り］）、私たちは法的な（救済措置［対抗措置］）を講じる以外の選択肢はなくなります。（この要請に従わない場合、当社の提携関係は直ちに終了することになります。）私たちは、訴訟を伴わずにこの問題を解決したいと願っております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "jeopardize",
+          "B": "justify",
+          "C": "stabilize",
+          "D": "utilize"
+        },
+        "correct_answer": "A",
+        "explanation": "技術流出（NDA違反）によって当社の市場での優位性が「脅かされる、危機にさらされる（jeopardize）」という文脈に合う(A) jeopardize が正解です。TOEIC 900を決定づける超重要高難度動詞です。",
+        "options_explanations": {
+          "A": "【正解】「〜を危険にさらす、危うくする」。無断の技術開示が自社の競争優位を危険にさらすという因果に完璧にマッチします。",
+          "B": "【不正解】「〜を正当化する」。情報漏洩が市場の地位を正当化することはあり得ません。",
+          "C": "【不正解】「〜を安定させる」。情報漏洩によって地位が安定することはありません。",
+          "D": "【不正解】「〜を利用する」。市場の地位を利用するというのも文脈上不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "Unless",
+          "B": "Once",
+          "C": "Since",
+          "D": "If"
+        },
+        "correct_answer": "A",
+        "explanation": "「その確認を受け取らない【限り（Unless）】、私たちは法的対抗措置を講じるしかなくなる」という条件関係を繋ぐ(A) Unless が正解です。法的な督促状の定番構文です。",
+        "options_explanations": {
+          "A": "【正解】「〜でない限り、〜する場合を除いて（Unless）」。期限までに削除確認が届かない場合、法的措置へ移行するという条件として最適です。",
+          "B": "【不正解】「一旦〜すれば、〜すると同時に（Once）」。確認を受け取ったら法的措置をとる、というのは意味が完全に逆転してしまいます（確認を受け取ったら解決するはずです）。",
+          "C": "【不正解】「〜なので（理由）/ 〜して以来（時間）」。確認を受け取ったので法的措置をとる、というのも矛盾します。",
+          "D": "【不正解】「もし〜ならば」。もし確認を受け取ったら法的措置をとる、というのも条件として破綻します。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "remedies",
+          "B": "failures",
+          "C": "compliance",
+          "D": "associations"
+        },
+        "correct_answer": "A",
+        "explanation": "pursue legal remedies は「法的救済措置（対抗手段）を追求する・講じる」という意味の、契約違反時に発せられる極めて一般的な法務コロケーションです。したがって (A) remedies が正解です。",
+        "options_explanations": {
+          "A": "【正解】「（法的）救済策、救済手段（remedyの複数形）」。損害賠償請求や差し止め請求など、契約違反に対して法的に講じる一連の対抗措置を指す名解です。",
+          "B": "【不正解】「不履行、失敗」。法的不履行を追求する、というのは意味が合いません。",
+          "C": "【不正解】「順守」。法的順守を追求する（pursue compliance）というのも不可能ではないですが、ここでは違反者に対して強制的・損害賠償的な行動に出る文脈であるため、remedies（対抗手段、救済手段）が最も正確です。",
+          "D": "【不正解】「協会、連想、つながり」。法的つながりを追求するというのは文脈上意味不明です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Failure to comply will result in immediate termination of our partnership.",
+          "B": "The NDA was officially registered with the court in June last year.",
+          "C": "Our offices are closed on weekends and major national holidays.",
+          "D": "We offer a wide range of consultancy services for corporate clients."
+        },
+        "correct_answer": "A",
+        "explanation": "NDA違反という極めて深刻な契約不履行（Breach）に対する警告文書です。要請に応じない場合の法的措置（Q3）に並ぶ具体的なペナルティとして、「この要求に従わない場合、当社の提携関係（パートナーシップ）は即時終了する」とする(A)が最も完璧にトーンに合致し、相手への最大限の警告となります。",
+        "options_explanations": {
+          "A": "【正解】「要求に従わなかった場合、当社のパートナーシップは直ちに終了することになります。」警告文の締めくくりとして非のうちどころのない厳格な表現です。",
+          "B": "【不正解】「NDAは、昨年6月に裁判所に正式に登録されました。」NDAの登録日は契約違反行為そのものの対処における最後の警告としては順序が不自然です。",
+          "C": "【不正解】「当社のオフィスは、週末および主要な祝日に閉鎖されています。」警告レターにオフィスの休業スケジュールを記述するのは完全に不適切です。",
+          "D": "【不正解】「当社は、法人顧客向けに幅広いコンサルティングサービスを提供しています。」自社の一般的なPR表現であり、厳格なNDA違反警告状の締めくくりとしては場違いです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_021",
+    "target_level": 900,
+    "passage_text": "Memo to Department Heads, The Board of Directors has approved our capital expenditure budget for the upcoming fiscal year. We will allocate more resources to upgrading our production facilities and software systems. This strategic investment is designed to enhance our manufacturing ( --- 1 --- ) and reduce long-term costs. To ensure we stay within our financial limits, all department requests must be approved by the finance director. Any discrepancies in budget planning must be resolved before next Friday. ( --- 2 --- ) proposals will not be considered under any circumstances. ( --- 3 --- ) updates on the allocation process will be shared next week. ( --- 4 --- ). Thank you for your cooperation.",
+    "passage_translation": "部門長へのメモ：取締役会は、次会計年度の資本支出（設備投資）予算を承認しました。生産施設やソフトウェアシステムのアップグレードに、より多くのリソースを配分します。この戦略的投資は、当社の製造（効率）を高め、長期的なコストを削減することを目的として設計されています。当社の財務限界の範囲内に確実に収めるため、すべての部門の申請は財務ディレクターによって承認されなければなりません。予算計画におけるいかなる不一致も、来週金曜日までに解決する必要があります。（期限遅れの）申請案は、いかなる場合でも考慮されません。（その後の）配分プロセスの最新情報は来週共有されます。（詳細な予算内訳のスプレッドシートが、確認用に添付されています。）皆様のご協力に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "efficiency",
+          "B": "deficiency",
+          "C": "redundancy",
+          "D": "stagnation"
+        },
+        "correct_answer": "A",
+        "explanation": "生産施設やソフトの強化による戦略投資が目指すものとして、製造の「効率、能率（efficiency）」を高めてコストを下げるという文脈から、(A) が正解です。",
+        "options_explanations": {
+          "A": "【正解】「効率、生産効率、能率（manufacturing efficiency）」。コスト削減と並んで製造業の最大の改善目標となる標準単語です。",
+          "B": "【不正解】「不足、欠陥」。製造上の欠陥や不足を「高める」のは矛盾します。",
+          "C": "【不正解】「過剰、重複」。無駄な重複を高める必要はありません。",
+          "D": "【不正解】「停滞」。製造の停滞を高めてはいけません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "Late",
+          "B": "Preliminary",
+          "C": "Redundant",
+          "D": "Obsolete"
+        },
+        "correct_answer": "A",
+        "explanation": "金曜日までの期日を厳しく求めているため、「期限遅れの、遅れた（Late）」申請（proposals）は一切受け付けないとする(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「遅れた、期限超過の」。締め切りを強調する公式通告に最もよく使われる表現です。",
+          "B": "【不正解】「暫定的な、予備の」。予備の申請が絶対に却下される理由がありません。",
+          "C": "【不正解】「重複する」。重複する申請、というのも不自然ではないですが、「いかなる場合でも受け付けない」という強いペナルティは「期限（金曜日）」を破った「遅延（Late）」申請に最も適します。",
+          "D": "【不正解】「陳腐化した、時代遅れの」。時代遅れの提案という意味になり、申請プロセスには合いません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Subsequent",
+          "B": "Obsolete",
+          "C": "Redundant",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "「（この後の、これに続く）予算配分状況の最新情報は、来週共有される」とするため、(A) Subsequent が正解です。",
+        "options_explanations": {
+          "A": "【正解】「その後の、それに続く、次に起こる（Subsequent updates）」。今回の手続きが終わった後に発信される継続的な進捗報告を指す完璧な表現です。",
+          "B": "【不正解】「陳腐化した、時代遅れの」。古い最新情報というのは不自然です。",
+          "C": "【不正解】「不要な、重複する」。無駄な最新情報を共有する必要はありません。",
+          "D": "【不正解】「事前の、準備段階の」。すでに予算が取締役会に承認されて実務に入っているため、これからの情報は「その後の、事後の（Subsequent）」進捗になります。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A detailed budget breakdown spreadsheet is attached for your review.",
+          "B": "The production facility was built in 2010 in Chicago.",
+          "C": "We plan to hire five new sales associates next month.",
+          "D": "The office cafeteria will begin serving breakfast next week."
+        },
+        "correct_answer": "A",
+        "explanation": "全社的な資本予算案（設備投資予算）を部門長に伝達する公的メモです。各部門長が自らの予算を点検できるように実務資料の提供として、「詳細な予算内訳のスプレッドシートをレビュー用に添付した」とする(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「詳細な予算内訳のスプレッドシートを、皆様の確認用に添付しております。」予算申請・点検を促す文書の締めくくりとして実務上最も重要な情報連携です。",
+          "B": "【不正解】「その生産施設は、2010年にシカゴで建設されました。」過去の建設記録はこの予算改定レターの結びとしては完全に場違いです。",
+          "C": "【不正解】「私たちは、来月5人の新規販売員を採用する予定です。」営業チームの採用活動は、この「資本予算・設備投資アップグレード」の件とはトピックが異なります。",
+          "D": "【不正解】「オフィス食堂は、来週から朝食の提供を開始します。」食堂のスケジュール変更は、全社の設備投資予算という重いテーマの役員メモに含めるべきではありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_022",
+    "target_level": 900,
+    "passage_text": "To: All Operations Staff, From: Chief Operating Officer, Subject: Transition Plan. As part of our efforts to optimize operational efficiency, we have decided to outsource our customer support services to Apex Solutions. This transition will allow our internal teams to focus on core product development. We recognize that this change may cause ( --- 1 --- ) among employees; therefore, we are committed to providing comprehensive support. HR will conduct individual transition consultations over the next two weeks. We believe this strategy will significantly ( --- 2 --- ) our service quality and speed. ( --- 3 --- ) details regarding specific changes are enclosed. ( --- 4 --- ). Thank you for your dedication during this transition.",
+    "passage_translation": "すべての業務スタッフへ、最高執行責任者（COO）より、件名：移行計画。業務効率を最適化するための取り組みの一環として、当社はカスタマーサポートサービスをApex Solutions社にアウトソーシング（外部委託）することを決定いたしました。この移行により、社内チームは核となる製品開発に集中できるようになります。この変更が従業員の間で（不安［懸念］）を引き起こす可能性があることを認識しており、したがって、私たちは包括的なサポートを提供することをお約束します。人事（HR）は、今後2週間にわたり個別の移行相談を実施します。この戦略によって、当社のサービスの品質とスピードが大幅に（向上する）と信じております。（特定変更に関する、包括的で詳細な情報が同封されています。）（木曜日の午後に、バーチャル説明会が開催されます。）この移行期における皆さんの貢献に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "apprehension",
+          "B": "satisfaction",
+          "C": "stagnation",
+          "D": "validation"
+        },
+        "correct_answer": "A",
+        "explanation": "カスタマーサポートの外部委託（アウトソーシング）という大きな体制変更によって、従業員が雇用や職務の変化に抱く「不安、懸念、心配」を表す(A) apprehension が正解です。",
+        "options_explanations": {
+          "A": "【正解】「懸念、不安、懸念、心配」。会社のリストラや外部委託時に従業員の間に広がる心理的動揺を表す最適語です。",
+          "B": "【不正解】「満足」。外部委託されて自部門が縮小・変更される発表に対して従業員の間に満足感が広がるというのは不自然です。",
+          "C": "【不正解】「停滞」。従業員の間の停滞、という意味になり意味が通りません。",
+          "D": "【不正解】「承認、検証」。従業員の間での承認という意味になり不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "enhance",
+          "B": "complicate",
+          "C": "interrupt",
+          "D": "terminate"
+        },
+        "correct_answer": "A",
+        "explanation": "「プロの外部専門企業に委託することで、カスタマーサービスの品質と対応速度を大幅に【高める、向上させる（enhance）】ことができる」とする(A)が適切です。",
+        "options_explanations": {
+          "A": "【正解】「（価値、質、力などを）高める、向上させる」。品質（quality）を向上させるという文脈に最適のコロケーションです。",
+          "B": "【不正解】「〜を複雑にする」。サービス品質をわざわざ複雑にするはずがありません。",
+          "C": "【不正解】「〜を中断する、邪魔する」。品質やスピードを邪魔してはいけません。",
+          "D": "【不正解】「〜を終わらせる、解雇する」。せっかくのサービスの質を終わらせてはいけません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Comprehensive",
+          "B": "Redundant",
+          "C": "Obsolete",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "「具体的な変更についての【包括的な、詳細を網羅した（Comprehensive）】説明資料が同封されている」とする(A)が最も適切です。",
+        "options_explanations": {
+          "A": "【正解】「包括的な、網羅的な、詳細な」。移行計画の全貌を説明する公式封入書類を形容するのに最適です。",
+          "B": "【不正解】「不要な、余分な」。無駄で不要な詳細書類が同封されているというのはおかしいです。",
+          "C": "【不正解】「時代遅れの、廃れた」。古い書類をわざわざ同封しません。",
+          "D": "【不正解】 \"予備の、事前の\"。具体的な（specific）変更についての詳細を示しているため、大枠の事前段階というよりはすべての詳細を網羅した「包括的な（Comprehensive）」資料とするのが最適です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A virtual town hall meeting will be held on Thursday afternoon.",
+          "B": "The outsourcing contract was signed in Chicago last month.",
+          "C": "Our offices will be closed on Friday for a local holiday.",
+          "D": "We plan to paint the interior of the building next spring."
+        },
+        "correct_answer": "A",
+        "explanation": "サポート業務の外部移管という全社レベルの重大変更に伴う、従業員との直接の質疑応答・説明の場として、「木曜日の午後に、オンライン全体説明会（virtual town hall meeting）が実施される」とする(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「木曜日の午後に、バーチャル説明会（タウンホールミーティング）が開催されます。」移行プロセスにおける従業員との直接の対話を確保する、実務として不可欠なステップの案内です。",
+          "B": "【不正解】「アウトソーシング契約は、先月シカゴで締結されました。」契約締結地などの過去の法的事実は、現在の従業員への動揺に対する説明メモとしては優先度が低いです。",
+          "C": "【不正解】「金曜日は地元の祝日のためオフィスは休業となります。」休日の案内は、この「アウトソーシング・移行計画」という極めて重要かつシリアスな人事・業務改革メモの締めには合いません。",
+          "D": "【不正解】「来年春にビル内装の塗装を予定しています。」塗装工事は、この全従業員向けのアウトソーシング通告メモと無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_023",
+    "target_level": 900,
+    "passage_text": "Notice to Sales Executive Team, In response to updated federal business guidelines, we are implementing stricter compliance training for all sales executives. This program is designed to ensure strict ( --- 1 --- ) with anti-trust laws and prevent fair competition violations. All sales executives must complete this training course online by the end of this month. Any ( --- 2 --- ) to comply with these rules will result in disciplinary action. We appreciate your immediate cooperation in protecting our company's reputation and integrity. ( --- 3 --- ) questions regarding the guidelines should be directed to the legal department. ( --- 4 --- ). Thank you for your attention to this compliance matter.",
+    "passage_translation": "営業幹部チームへのお知らせ：更新された連邦ビジネスガイドラインに対応して、当社はすべての営業幹部を対象として、より厳格なコンプライアンス（順守）トレーニングを実施します。このプログラムは、独占禁止法（アンチトラスト法）の厳格な順守を確認し、公正取引違反を防止するために設計されています。すべての営業幹部は、今月末までにオンラインでこのトレーニングコースを完了しなければなりません。これらのルールを順守（しないこと［失敗］）は、懲戒処分の対象となります。当社の評判と健全性を維持するための皆様の迅速なご協力に感謝いたします。ガイドラインに関する（いかなる［すべての］）質問も、法務部に向けられるべきです。（コース完了時に、確認証明書が生成されます。）本コンプライアンス案件へのご留意をよろしくお願いいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "compliance",
+          "B": "defiance",
+          "C": "reliance",
+          "D": "alliance"
+        },
+        "correct_answer": "A",
+        "explanation": "「独占禁止法への厳格な順守」を意味する strict compliance with anti-trust laws というビジネス表現より、(A) compliance が正解です。",
+        "options_explanations": {
+          "A": "【正解】「（法令、要求の）順守、順応」。法律をしっかりと守る状態を指し、このコンプライアンストレーニングの目的そのものです。",
+          "B": "【不正解】「反抗、挑戦」。独占禁止法へ反抗することを「確実にする」というのは犯罪になってしまいます。",
+          "C": "【不正解】「信頼、依存」。独占禁止法に対する依存というのは意味が通りません。",
+          "D": "【不正解】「同盟、提携」。独占禁止法との同盟というのも不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "failure",
+          "B": "achievement",
+          "C": "compliance",
+          "D": "dedication"
+        },
+        "correct_answer": "A",
+        "explanation": "「ルールを順守【しないこと、怠ること（failure）】は、懲戒処分（disciplinary action）を招く」とする(A) failure が正解です。Any failure to comply...（順守を怠ることはいかなる場合も〜）はビジネス通告の定型句です。",
+        "options_explanations": {
+          "A": "【正解】「（義務などの）不履行、怠慢、失敗」。期限内のトレーニング完了を怠った場合に対処される文脈に合致します。",
+          "B": "【不正解】「達成、実績」。達成して処分されるはずがありません。",
+          "C": "【不正解】「順守」。順守して処分されるはずがありません。",
+          "D": "【不正解】「献身」。献身して処分されるはずがありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "grammar",
+        "options": {
+          "A": "Any",
+          "B": "Some",
+          "C": "Many",
+          "D": "Much"
+        },
+        "correct_answer": "A",
+        "explanation": "「ガイドラインに関する（いかなる、いかなる質問でも、すべての）質問があれば、法務部に送るべきだ」とするため、(A) Any が適切です。条件や疑問などのニュアンスを含み、不特定多数の「どんな質問でも」と受ける定番の修飾です。",
+        "options_explanations": {
+          "A": "【正解】「いかなる、どんな〜でも」。疑問や質問があれば例外なくすべて法務部が受け付けるという、ビジネス規約の基本表現です。",
+          "B": "【不正解】「いくつかの、一部の」。一部の質問だけ法務部に投げる、というのは不自然です（すべての質問を受け付けるはずです）。",
+          "C": "【不正解】「多くの」。多くの質問は法務部に送るべきだ、というのも中途半端な表現です。",
+          "D": "【不正解】「多くの（不可算名詞用）」。 questions は可算名詞の複数形であるため、 Much を置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A confirmation certificate will be generated upon course completion.",
+          "B": "The compliance program was developed by our internal legal counsel.",
+          "C": "Our offices are closed on major national holidays.",
+          "D": "We plan to open a new branch in Chicago next spring."
+        },
+        "correct_answer": "A",
+        "explanation": "営業幹部全員に義務的なオンラインの独占禁止法講習の受講を強いるお知らせです。システム上の受講完了確認プロセスとして、「コース完了時に、確認証明書が自動で生成される」とする(A)が受講者（営業幹部）にとって極めて重要な実務確認ステップとなります。",
+        "options_explanations": {
+          "A": "【正解】「コースの修了時に、確認証明書が発行されます。」受講後に自分の完了証明がシステムに登録される手続きを説明する一文として完璧です。",
+          "B": "【不正解】「そのコンプライアンスプログラムは、当社の社内法務顧問によって開発されました。」プログラムの開発者情報は、受講者への直接の指示の結びとしては不要です。",
+          "C": "【不正解】 \"当社オフィスは主要な祝日は休業となります。\"、祝日の休業スケジュールはこの義務的オンライン講習とはテーマが異なります。",
+          "D": "【不正解】「私たちは、来春シカゴに新支店を開設する予定です。」営業戦略上の支店開設ニュースは、このコンプライアンス・トレーニングの義務的受講連絡には不要です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_024",
+    "target_level": 900,
+    "passage_text": "Dear Mr. Higgins, We are writing to formally request mediation regarding our ongoing business dispute with Apex Logistics. Despite our mutual efforts, we have been unable to reach a ( --- 1 --- ) regarding the outstanding invoice payments. To avoid lengthy and costly litigation, we believe a neutral mediator can help us achieve a fair resolution. We suggest scheduling a preliminary session next week to outline our positions. Please let us know if your company is willing to participate in ( --- 2 --- ) discussions. ( --- 3 --- ) is enclosed for your review. ( --- 4 --- ). We hope to resolve this matter amicably.",
+    "passage_translation": "ヒギンズ様へ：Apex Logistics社との間で続いているビジネス上の紛争について、正式に調停を要請したく本レターを送付いたします。お互いに努力してきたにもかかわらず、未払いの請求書支払いに関して（合意［合意］）に達することができませんでした。長期化し費用のかかる訴訟を避けるため、中立的な調停人が公正な解決を達成する手助けをできると信じております。私たちの立場を明確にするために、来週予備のセッションを予定することを提案します。貴社が（予備的な）協議に参加する意思があるかどうかをお知らせください。（提案された調停人のリストが、レビュー用に同封されています。）（金曜日までにご返答をいただけない場合は、訴訟を提起する以外の選択肢はなくなります。）この件が円満に解決することを願っております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "consensus",
+          "B": "dispute",
+          "C": "conflict",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "「お互いに交渉したものの、未払い代金に関して【合意、意見の一致（consensus）】に達することができなかった」とする(A)が正解です。reach a consensus はビジネス交渉の核となる頻出コロケーションです。",
+        "options_explanations": {
+          "A": "【正解】「（意見の）一致、合意、コンセンサス」。 reach a consensus regarding...（〜に関して合意に達する）は最も自然な標準表現です。",
+          "B": "| 【不正解】「紛争、論争」。紛争に達することができなかった、というのは「紛争が解決した」ことになってしまい、レター全体の「現在も紛争中である（dispute）」という前提と矛盾します。",
+          "C": "【不正解】「衝突、葛藤」。衝突に達することができなかった、というのも不自然です。",
+          "D": "【不正解】「格差、相違」。格差に達することができなかったというのも意味が通りません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "preliminary",
+          "B": "redundant",
+          "C": "obsolete",
+          "D": "late"
+        },
+        "correct_answer": "A",
+        "explanation": "直前の「来週予備的なセッション（preliminary session）を行うことを提案する」という記述と連動し、その「予備的な（preliminary）」話し合いに参加する意思があるかを問う(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「予備の、準備段階の」。正式な調停に入る前の、第一ステップとしての話し合い（preliminary discussions）を形容するのに最適です。",
+          "B": "【不正解】「不要な、余分な」。不要な協議に相手を誘うはずがありません。",
+          "C": "【不正解】「時代遅れの、廃れた」。古い話し合いに誘うのは矛盾しています。",
+          "D": "【不正解】「遅れた、期限超過の」。遅れた話し合いという意味も不自然です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "A list of proposed mediators",
+          "B": "The original invoice document",
+          "C": "Our annual financial report",
+          "D": "A copy of the lease agreement"
+        },
+        "correct_answer": "A",
+        "explanation": "「中立の調停人（neutral mediator）が解決に役立つと信じており、セッションを行いたい」という文脈より、手紙に同封しているレビュー用の実務資料として最も論理的なのは「提案された調停人の候補者リスト（A list of proposed mediators）」である(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「提案された調停人の候補者リスト」。仲介を提案している手紙であるため、誰を仲介人にするかの候補リストを同封するのが最も論理的で親切です。",
+          "B": "【不正解】「元の請求書文書」。未払い請求書の件は紛争中（dispute）としてすでに相手方も保有しているものであり、ここで新たに「調停を提案する」際の同封物としては、(A)の調停人リストの方がはるかに手紙の主旨に合致しています。",
+          "C": "【不正解】「当社の年次財務報告書」。自社の全般的な財務データは、この具体的な特定未払いトラブルの調停提案には不要です。",
+          "D": "【不正解】「賃貸借契約書のコピー」。本問は物流会社との配送代金トラブル（dispute with Apex Logistics）であり、不動産賃貸契約書は全く関係がありません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Failure to respond by Friday will leave us with no choice but to pursue legal action.",
+          "B": "The contract was signed in Chicago last month in June.",
+          "C": "Our offices are closed on weekends and national holidays.",
+          "D": "We offer a wide range of logistics and shipping services."
+        },
+        "correct_answer": "A",
+        "explanation": "未払い代金に関して訴訟を避けるための「調停（mediation）」を申し入れる公式レターです。相手方に早期の回答・決断を迫る重要な期限の設定として、「金曜日までにご返答をいただけない場合は、訴訟を提起（法的措置をとる）する以外の選択肢はなくなります」とする(A)が最も完璧に適合します。",
+        "options_explanations": {
+          "A": "【正解】「金曜日までにご返答をいただけない場合は、法的措置を講じる以外の選択肢はなくなります。」調停という「平和的な最終解決案」への合意期限を切り、相手に強いプレッシャーをかける法律書面として非の打ち所がない締めくくりです。",
+          "B": "【不正解】「契約は先月6月にシカゴで締結されました。」過去の契約締結日の記録は、現在の「調停申し入れ・最後通告」の結びには適しません。",
+          "C": "【不正解】「当社のオフィスは、週末および祝日に閉鎖されています。」営業スケジュールは、この厳格な未払い紛争対応レターの最後には絶対に挿入すべきではありません。",
+          "D": "【不正解】「当社は、幅広い物流および配送サービスを提供しています。」自社の一般的な製品PRは、紛争中の相手に送る書面としては場違い極まりないです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_025",
+    "target_level": 900,
+    "passage_text": "Memo to Research Staff, The Board of Directors has approved a reallocation of our research and development budget. We will shift resources from older product lines to our new artificial intelligence projects. This strategic shift is designed to ensure our company's long-term market ( --- 1 --- ) and competitive edge. We recognize that this change may require some team members to adjust their current projects. To facilitate this transition, department directors will conduct individual meetings. ( --- 2 --- ) plans regarding team assignments will be shared next week. ( --- 3 --- ), please continue your current work. ( --- 4 --- ). Thank you for your flexibility.",
+    "passage_translation": "研究開発スタッフへのメモ：取締役会は、研究開発予算の再配分を承認しました。古い製品ラインから、私たちの新しい人工知能（AI）プロジェクトへとリソースを移行させます。この戦略的シフトは、当社の長期的な市場での（存続可能性）と競争力を確実にするために設計されています。この変更により、一部のチームメンバーは現在のプロジェクトの調整が必要になる場合があることを認識しています。この移行を容易にするため、部門ディレクターが個別面談を実施します。チームの割り当てに関する（包括的な［詳細な］）計画は、来週共有される予定です。（それまでの間は）、現在の作業を続けてください。（来月には、新しいテクノロジーに関するトレーニングセッションが開始されます。）皆様の柔軟なご対応に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "viability",
+          "B": "volatility",
+          "C": "liability",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "激しい技術競争の中で、研究開発リソースをAIへ移転させて会社の長期的な「市場存存続可能性（viability）」を確保するという文脈から、(A) viability が正解です。",
+        "options_explanations": {
+          "A": "【正解】「生存力、存続可能性」。会社が市場で淘汰されることなく、事業を稼働し続けられる状態を指す最高難度重要名詞です。",
+          "B": "【不正解】「激しい変動、価格の不安定さ」。市場の不安定さを確保するというのは経営目標として矛盾します。",
+          "C": "【不正解】「負債、法的責任」。市場の負債を確保するというのも矛盾します。",
+          "D": "【不正解】「不均衡、格差、相違」。市場格差を確保することも不適切です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "Comprehensive",
+          "B": "Redundant",
+          "C": "Obsolete",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "来週共有される「チーム配属の【包括的・詳細な（Comprehensive）】計画」とする(A)が最も適切です。",
+        "options_explanations": {
+          "A": "【正解】「包括的な、網羅的な、詳細な」。新しいプロジェクト配属に関する全員の具体的な役割を示す、完成された正式な決定リストを指すのに最適です。",
+          "B": "【不正解】「不要な、余剰な」。不要な計画が来週共有されるというのは意味が通りません。",
+          "C": "【不正解】「時代遅れの、廃れた」。古い計画が共有されるはずがありません。",
+          "D": "【不正解】「事前の、予備的な」。大枠の事前方針ではなく、個別のチーム配属（team assignments）という具体的な実務内容であるため、詳細を網羅した「包括的な（Comprehensive）」計画とするのが最適です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Meanwhile",
+          "B": "Therefore",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「詳細計画が来週共有される。それまでの間（その間は）、現在の作業を通常通り進めてほしい」という時間の流れを繋ぐため、(A) Meanwhile が正解です。",
+        "options_explanations": {
+          "A": "【正解】「その間、それまでは（時間的対比を表す接続副詞）」。来週の詳細発表を待つ間、現在の手元業務を緩めないように求める完璧な表現です。",
+          "B": "【不正解】「それゆえに（因果）」。詳細が来週発表されるからといって、現在の作業を続ける直接の因果を導くのはやや不自然です（Meanwhileの方がはるかに時間の繋がりとして美しいです）。",
+          "C": "【不正解】「〜にもかかわらず（接続詞）」。後ろに直接主語・動詞を必要とするため、単独でカンマ付きで文頭に置く副詞的使い方はできません。",
+          "D": "【不正解】「〜なので（接続詞）」。単独でカンマと共に文頭で用いることはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "Training sessions for the new technology will begin next month.",
+          "B": "The research department was established in June 2010.",
+          "C": "Our laboratories are equipped with advanced computer systems.",
+          "D": "Please submit your vacation requests to HR by Friday."
+        },
+        "correct_answer": "A",
+        "explanation": "研究開発部門の予算と人員を「人工知能（AI）などの新プロジェクト」に大きく再配分・シフトすることに伴う、研究員のスキルアップ支援として、「来月には、新しい技術（AI）に関するトレーニングセッションが開始される」とする(A)が業務上極めて重要かつ自然なフォローアップとなります。",
+        "options_explanations": {
+          "A": "【正解】「新技術に関するトレーニングセッションが来月開始されます。」AI開発などの新業務に不慣れな研究員に対する実質的な技術サポート案内として完璧です。",
+          "B": "【不正解】「研究部門は2010年6月に設立されました。」設立年度の歴史情報は、この進行中の予算再配分と研究員シフトを指示する実務メモには不要です。",
+          "C": "【不正解】「当社の研究所には、高度なコンピュータシステムが備わっています。」設備アピールは、人員の配属変更を個別に面談・説明している段落の締めとしては弱いです。",
+          "D": "【不正解】「金曜日までに休暇申請を人事部に提出してください。」休暇申請の話題は、研究開発のリソース・AI再配分という重要方針メモに含めるべきではありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_026",
+    "target_level": 900,
+    "passage_text": "Confidential Email to Board Members, We are scheduled to consult with our advisory board next Tuesday regarding our global expansion plans. This meeting is designed to evaluate our strategy and identify potential risk ( --- 1 --- ). We believe their expertise will be highly beneficial as we navigate complex international markets. Please review the enclosed project proposal, which outlines our proposed resource ( --- 2 --- ). We are eager to ( --- 3 --- ) on this major project and achieve our goals. ( --- 4 --- ). We look forward to your valuable insights during the consultation.",
+    "passage_translation": "取締役メンバーへの機密メール：私たちは、グローバル展開計画に関して、来週の火曜日に顧問委員会（アドバイザリーボード）と協議を行う予定です。この会議は、私たちの戦略を評価し、潜在的なリスク（軽減策）を特定するために設計されています。複雑な国際市場をナビゲートするにあたり、彼らの専門知識は非常に有益であると信じております。同封されたプロジェクト提案書をご確認ください。そこには当社の提案するリソース（配分）の概要が記載されています。私たちは、この大プロジェクトで（協力する［共同で取り組む］）ことを切望しており、ゴールを達成したいと考えております。（詳細な会議日程とビデオリンクは、月曜日に送信されます。）協議中に皆様の貴重な知見をいただけることを楽しみにしております。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "mitigation",
+          "B": "aggravate",
+          "C": "acceleration",
+          "D": "litigation"
+        },
+        "correct_answer": "A",
+        "explanation": "グローバル進出に潜む様々なビジネスリスクを「軽減、緩和（mitigation）」する対策を練るという文脈から、(A) mitigation（名詞）が正解です。risk mitigation は「リスク軽減」を意味する代表的なイディオムです。",
+        "options_explanations": {
+          "A": "【正解】「軽減、緩和、静静化（名詞）」。潜在的リスクの影響を最小化する経営戦略として必須の名解です。",
+          "B": "【不正解】「悪化させる（動詞）」。品詞が動詞であり名詞を修飾する位置に適さず、かつ意味もリスクを悪化させることになり不適です。",
+          "C": "【不正解】「加速（名詞）」。リスクを加速させてはいけません。",
+          "D": "【不正解】「訴訟、起訴（名詞）」。リスクの訴訟を特定するというのは不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "allocation",
+          "C": "cancellation",
+          "D": "dispute",
+          "B": "restriction"
+        },
+        "correct_answer": "A",
+        "explanation": "海外進出という大型プロジェクトにどのようにお金やスタッフを割り振るか、という「リソース配分（resource allocation）」を説明しているため、(A) allocation が正解です。※選択肢キー調整",
+        "options_explanations": {
+          "A": "【正解】「配分、割り当て（resource allocationで資源配分）」。世界進出時の限られた会社の資源を適正に投下するプロセスを指す最高頻出語です。",
+          "B": "【不正解】「制限、規制」。リソース制限を提案するのは、世界進出計画を進めようとする取締役向けレターとしては冷や水を浴びせます。",
+          "C": "【不正解】「キャンセル、中止」。リソースの中止を記述しているというのは不自然です。",
+          "D": "【不正解】「論争、紛争」。リソースの論争の概要という意味も矛盾します。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "collaborate",
+          "B": "collaborating",
+          "C": "collaborated",
+          "D": "collaborates"
+        },
+        "correct_answer": "A",
+        "explanation": "are eager to（〜することを楽しみにしている、熱望している）の to 不定詞の後ろに置くことができる動詞の原形として、後ろの前置詞 on と完美に結びついて「〜に関して共同で取り組む（collaborate on）」となる自動詞の(A) が正解です。",
+        "options_explanations": {
+          "A": "【正解】動詞原形。「協力する、協働する」。to不定詞の目的語（動詞の原形）として機能し、collaborate on this project で「このプロジェクトについて協力する」となります。",
+          "B": "【不正解】現在分詞・動名詞。 to不定詞の後ろに直接ing形を置くことはできません。",
+          "C": "【不正解】過去形・過去分詞。to不定詞の後ろに置くことはできません。",
+          "D": "【不正解】三人称単数現在形。 to不定詞の後ろに置くことはできません。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A detailed agenda and video link will be sent on Monday.",
+          "B": "The expansion project was first funded by a government grant.",
+          "C": "Our regional office is located in the financial district.",
+          "D": "Please sign the attached non-disclosure agreement by Friday."
+        },
+        "correct_answer": "A",
+        "explanation": "来週火曜日（next Tuesday）にアドバイザリーボードとのオンライン協議・会議（meeting）が予定されている、と取締役メンバーに伝える機密連絡メールです。会議への参加準備ステップとして、「詳細なアジェンダと（オンラインの）ビデオリンクは月曜日に送信される」とする(A)が実務上最も自然に繋がります。",
+        "options_explanations": {
+          "A": "【正解】「詳細なアジェンダとビデオリンクは、月曜日に送信されます。」会議に向けた実務上の参加手順連絡としてこの上なく自然です。",
+          "B": "【不正解】「その拡張プロジェクトは、最初に政府の助成金によって資金提供されました。」助成金の歴史情報は、今まさに来週の役員協議を調整している段階のメールの締めには合いません。",
+          "C": "【不正解】「私たちの地域オフィスは、金融街に位置しています。」オフィスの場所は、オンラインまたは特定の役員会議開催の手順連絡としては優先度が低いです。",
+          "D": "【不正解】「添付の機密保持契約書（NDA）に金曜日までに署名してください。」取締役会メンバーはすでにインサイダー（社内）であり、このような世界進出の会議出席の直前に今更NDA署名を強いるのは手続きとして不自然です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_027",
+    "target_level": 900,
+    "passage_text": "Notice to Creditors, Vertex Corporation is formally announcing the liquidation of its subsidiary, Apex Retail Systems. This decision was made after extensive deliberation by our board of directors to reduce ( --- 1 --- ) and focus on core services. We have appointed an external firm to manage the liquidation process and evaluate all outstanding claims. Creditors are requested to submit their claims to the liquidator by September 30. Any claims received after this date will be held in ( --- 2 --- ). We appreciate your immediate cooperation in ( --- 3 --- ) this matter. ( --- 4 --- ). A formal report will be published upon completion of the process.",
+    "passage_translation": "債権者の皆様へのお知らせ：Vertex Corporationは、子会社であるApex Retail Systemsの解散・清算を正式に発表いたします。この決定は、当社の取締役会による広範な協議の結果、業務の（重複［余剰］）を削減し、コアサービスに集中するために下されました。当社は、清算プロセスを管理し、未解決の請求をすべて評価するために外部の専門会社を任命しました。債権者様は、9月30日までに清算人に請求書を提出するようお願いいたします。この日以降に受け取った請求は、（一時保留［差し止め］）とされます。この案件の（解決）に対する皆様の迅速なご協力に感謝いたします。（すべての資産は、来月公売［公開オークション］で売却される予定です。）プロセスの完了時に、正式な報告書が公開されます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "redundancies",
+          "B": "synergies",
+          "C": "achievements",
+          "D": "alliances"
+        },
+        "correct_answer": "A",
+        "explanation": "子会社の清算（liquidation）を決めた理由として、「業務や組織の余剰・無駄を省き（reduce redundancies）、コア事業に特化する」という文脈から、(A) redundancies が正解です。",
+        "options_explanations": {
+          "A": "【正解】「（人員、組織の）余剰、不要な重複」。企業グループ内での機能重複や無駄を排除して効率化を図る文脈に合致する標準的な経営・再編用語です。",
+          "B": "【不正解】「相乗効果（シナジー）」。子会社を潰してシナジーを「削減（reduce）」するというのは経営上あり得ない最悪の行為です（シナジーは増やすべきです）。",
+          "C": "【不正解】「実績、達成」。実績を削減する意味はありません。",
+          "D": "【不正解】「同盟、提携」。提携を削減するために解散する、というのも経営理念としては不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "abeyance",
+          "B": "compliance",
+          "C": "correction",
+          "D": "dispute"
+        },
+        "correct_answer": "A",
+        "explanation": "9月30日の期日（deadline）を超えて提出された債権請求は、清算が完全に終了するまで「一時保留状態とされる（held in abeyance）」という文脈に合う(A)が正解です。be held in abeyance はビジネス・法務分野の最重要高難度イディオムです。",
+        "options_explanations": {
+          "A": "【正解】「一時的保留、差し止め（abeyance）」。支払いや権利行使を一時ストップする際に使われる法的定形語です。",
+          "B": "【不正解】「順守」。順守状態に置かれる、というのは文意が通りません。",
+          "C": "【不正解】「修正」。修正される、というのも不自然です（受け付けずに保留にする文脈です）。",
+          "D": "【不正解】「紛争」。held in dispute（係争中となる）もあり得ますが、期限後のものを単に「一時保留（abeyance）」にしておくという法的手続きの流れが最も適格です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "resolving",
+          "B": "neglect",
+          "C": "interruption",
+          "D": "termination"
+        },
+        "correct_answer": "A",
+        "explanation": "「この債権清算という複雑な事案を【解決すること（resolving）】へのご協力に感謝する」という文脈から、inの後の動名詞として(A) resolving が正解です。",
+        "options_explanations": {
+          "A": "【正解】動名詞。「（問題や紛争などを）解決すること、解き明かすこと」。清算手続きという法的問題を円満に解決（resolve）する文脈に最適です。",
+          "B": "【不正解】「無視、放置」。問題の放置に協力してもらうわけにはいきません。",
+          "C": "【不正解】「中断」。中断に協力してもらうこともありません。",
+          "D": "【不正解】「終了」。事案を「終了」することでも不可能ではないですが、債権者との請求問題をお互いに合意の上で「解決する（resolving）」とする(A)が最も丁寧で適切です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "All assets will be sold at a public auction next month.",
+          "B": "The subsidiary was established in June 2015 in Chicago.",
+          "C": "Our offices are closed during the upcoming winter holidays.",
+          "D": "Please contact our customer support for any billing issues."
+        },
+        "correct_answer": "A",
+        "explanation": "子会社の解散・清算（liquidation）を債権者に通知する非常にシリアスな法的文書です。会社清算の実務プロセスとして、債権者（お金を返してもらう人たち）への返金原資を作るための資産売却（処分）の案内として、「すべての資産は、来月公売（公開オークション）で売却される」とする(A)が清算プロセスの核心情報となります。",
+        "options_explanations": {
+          "A": "【正解】「すべての資産は、来月、公開オークションで売却される予定です。」子会社の清算プロセス（残余財産の分配）における極めて重要な進行実務状況の開示です。",
+          "B": "【不正解】「その子会社は、2015年6月にシカゴで設立されました。」設立の過去の記録は、現在の解散・債権回収手続きを焦っている債権者向けのメモには無価値な情報です。",
+          "C": "【不正解】「当社のオフィスは、来たる冬期休暇の間、閉鎖されます。」休業情報は、この厳格な法的清算お知らせの結びには適しません。",
+          "D": "【不正解】「請求書の問題については、カスタマーサポートまでご連絡ください。」日常の支払エラーへの相談案内ではなく、今回は会社そのものが消滅する「法的清算（破産・解散）」手続きです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_028",
+    "target_level": 900,
+    "passage_text": "Dear Mr. Harrison, We are writing to formally notify you of our decision to terminate our commercial lease agreement for the property at 500 Market Street, effective December 31. This decision was made after extensive corporate restructuring, and we will ( --- 1 --- ) our operations to our headquarters. We will ensure the property is returned in excellent condition, in accordance with our contract clauses. To facilitate a professional hand-over, we suggest scheduling a joint property inspection next week. Please let us know if you are available. ( --- 2 --- ), our security team will begin packing our office equipment. ( --- 3 --- ) details are enclosed. ( --- 4 --- ). We appreciate your cooperation.",
+    "passage_translation": "ハリソン様へ：12月31日付で、500 Market Streetにある物件の商業用賃貸借契約を終了する決定を正式に通知したく、書面を送付いたします。この決定は、広範な企業再構築（リストラ）の結果として下されたものであり、当社の業務を本社に（統合［集約］）することとなりました。私たちは契約条項に従い、物件が素晴らしい状態で返還されることを確実にいたします。専門的で秩序正しい引き渡しを円滑に進めるため、来週、共同で物件検査（立ち会い検査）を予定することを提案します。ご都合がつくかどうかお知らせください。（その間［立ち会い検査の実施を待つ間］）、当社のセキュリティチームがオフィス機器の梱包作業を開始いたします。（包括的な［詳細な］）引っ越しスケジュールが同封されています。（正式な退去スケジュールの詳細を、確認用に添付しております。）これまでのご協力に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "consolidate",
+          "B": "complicate",
+          "C": "neglect",
+          "D": "terminate"
+        },
+        "correct_answer": "A",
+        "explanation": "「企業再編（restructuring）に伴い、複数のオフィスから、業務を【本社に統合・集約（consolidate）】する」とする(A) consolidate が文脈上適切です。TOEIC最難関頻出動詞です。",
+        "options_explanations": {
+          "A": "【正解】「（事業やオフィスなどを）統合する、集約して強化する」。拠点を整理して1カ所にまとめるというリストラの定番表現です。",
+          "B": "【不正解】「〜を複雑にする」。業務を複雑にする必要はありません。",
+          "C": "【不正解】「〜を無視する、怠る」。業務を無視してはいけません。",
+          "D": "【不正解】「〜を終了・解雇する」。本社で業務を終了・解雇するというのは日本語として意味が合いません（本社に移転・集約する文脈です）。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "Meanwhile",
+          "B": "Therefore",
+          "C": "Although",
+          "D": "Because"
+        },
+        "correct_answer": "A",
+        "explanation": "「来週立ち会い検査を行いたいので都合を知らせてほしい。それまでの間（その間、一方では）、荷造りを開始する」という時間的な並行進行を繋ぐ接続副詞として、(A) Meanwhile が正解です。",
+        "options_explanations": {
+          "A": "【正解】「その間に、それまでは、一方では」。検査スケジュールを調整している空白期間中に、自社内で進める梱包作業を表現するのに完璧な接続詞です。",
+          "B": "【不正解】「それゆえに（因果）」。検査の都合を聞くことの直接的な結果として「梱包を開始する」わけではないため不適切です。",
+          "C": "【不正解】「〜だが（接続詞）」。単独でカンマと共に文頭に置く副詞的使い方はできません。",
+          "D": "【不正解】「〜なので（接続詞）」。単独でカンマ付きで文頭で用いることはできません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "Comprehensive",
+          "B": "Redundant",
+          "C": "Obsolete",
+          "D": "Preliminary"
+        },
+        "correct_answer": "A",
+        "explanation": "同封されている「包括的な・詳細を網羅した（Comprehensive）退去計画」とする(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「包括的な、詳細な、網羅的な」。搬出日程や原状回復ステップをすべて記述した正式書類を形容するのに最適です。",
+          "B": "【不正解】「不要な、余剰な」。不要な書類をわざわざ同封しません。",
+          "C": "【不正解】「陳腐化した、時代遅れの」。古い書類を同封する意味はありません。",
+          "D": "【不正解】「予備の、準備段階の」。退去の具体的手順やスケジュールを示すため、包括的な（Comprehensive）内容とする(A)が最適です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A formal move-out schedule is attached for your review.",
+          "B": "The property was first leased to our company in June 2018.",
+          "C": "Our offices will be closed on Friday for a local holiday.",
+          "D": "We offer a wide range of commercial real estate services."
+        },
+        "correct_answer": "A",
+        "explanation": "商業用物件の賃貸借契約の終了・解約（termination）と原状回復立ち会い検査をオーナー（Harrison氏）に打診するレターです。退去実務を秩序正しく進めるための書類連携として、「正式な退去スケジュール（formal move-out schedule）をレビュー用に添付している」とする(A)が最適です。",
+        "options_explanations": {
+          "A": "【正解】「正式な引越し（退去）スケジュールを、ご確認用に添付しております。」オーナーに立ち会い検査や梱包の進行を伝える流れの中で完璧な役割を果たします。",
+          "B": "【不正解】「この物件は、2018年6月に最初に当社に賃貸されました。」契約開始の歴史的な日付は、現在の「退去日・立ち会い検査スケジュール調整」には不必要な情報です。",
+          "C": "【不正解】「当社のオフィスは、金曜日は地元の祝日のため休業となります。」移転・退去の重大な交渉レターの結びに、自社の祝日休業スケジュールを記述するのは完全に不適切です。",
+          "D": "【不正解】「当社は、幅広い商業用不動産サービスを提供しています。」自社の一般的な不動産PRは、特定の解約・退去手続きのオーナーへの書面には場違い極まりないです。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_029",
+    "target_level": 900,
+    "passage_text": "Memo to Executive Officers, The internal audit committee will conduct its annual review of our corporate governance policies next week. This audit is designed to ensure strict ( --- 1 --- ) with updated federal compliance regulations and protect shareholder interests. All executive officers must make their administrative records and board meeting minutes ( --- 2 --- ) to the audit team. To facilitate this process, please ensure your files are organized. Any failure to comply with these guidelines could jeopardize our corporate ( --- 3 --- ). ( --- 4 --- ). Thank you for your immediate attention.",
+    "passage_translation": "役員へのメモ：社内監査委員会は、来週、当社のコーポレートガバナンス・ポリシーの年次審査を実施します。この監査は、更新された連邦コンプライアンス規制を厳格に（順守）していることを確認し、株主の利益を保護するために設計されています。すべての役員は、管理記録および取締役会の議事録を、監査チームが（閲覧可能な［アクセス可能な］）状態にしておかなければなりません。このプロセスを円滑にするため、ファイルが整理されていることを確認してください。これらのガイドラインに少しでも従わなかった場合、当社の企業の（健全性［誠実性］）が脅かされる可能性があります。（明日午前10時から、大ホールで事前説明会を行います。）迅速なご対応をよろしくお願いいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "compliance",
+          "B": "defiance",
+          "C": "reliance",
+          "D": "alliance"
+        },
+        "correct_answer": "A",
+        "explanation": "「連邦の規制への厳格な順守」を意味する strict compliance with regulations という表現を構成する(A) compliance が正解です。",
+        "options_explanations": {
+          "A": "【正解】「（法令、規則の）順守」。厳しい法規制を守るガバナンス監査の目的に最適の名詞です。",
+          "B": "【不正解】「反抗、無視」。法規制に反抗することを「確認する」監査というのは矛盾します。",
+          "C": "【不正解】「信頼、依存」。規制への依存という意味になり不適格です。",
+          "D": "【不正解】「同盟、提携」。規制との同盟という意味になり不自然です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "accessible",
+          "B": "resistant",
+          "C": "redundant",
+          "D": "irrelevant"
+        },
+        "correct_answer": "A",
+        "explanation": "監査に必要な書類（minutes、records）を、監査チームがすぐに確認・閲覧できるように「利用可能、アクセス可能な状態にしておく」とするため、(A) accessible が正解です。make A accessible to B（AをBに閲覧可能にする）というイディオムが問われています。",
+        "options_explanations": {
+          "A": "【正解】「アクセス可能な、閲覧可能な、利用可能な（accessible to 人）」。役員の手元にある重要書類を監査人に開示・提出するよう義務づける完璧な表現です。",
+          "B": "【不正解】「耐性のある、抵抗力のある」。書類が監査に抵抗するというのは不自然です。",
+          "C": "【不正解】「不要な、重複する」。書類を無駄にする必要はありません。",
+          "D": "【不正解】「無関係な」。書類を無関係にするのも監査の妨害になります。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "integrity",
+          "B": "redundancy",
+          "C": "litigation",
+          "D": "disparity"
+        },
+        "correct_answer": "A",
+        "explanation": "監査ガイドラインへの違反は、当社の企業としての「健全性、誠実性、信頼性（integrity）」を傷つけ、危機にさらすことになる、とする(A) integrity が正解です。corporate integrity は「企業の社会的信頼、高潔性、健全性」を意味する代表的なイディオムです。",
+        "options_explanations": {
+          "A": "【正解】「誠実、高潔、健全性、一貫性」。法令を順守し、株主に嘘をつかないというガバナンス企業の信頼性・健全性を表す最適名解です。",
+          "B": "【不正解】「余剰、重複」。企業の余剰を脅かすというのは意味が合いません。",
+          "C": "【不正解】「訴訟」。企業の訴訟を危険にさらす、というのも日本語として不自然です（訴訟が引き起こされる、なら分かりますが、訴訟そのものを脅かすとは言いません）。",
+          "D": "【不正解】「格差、不一致」。企業の格差を脅かすというのも意味不明です。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A preparatory briefing will be held tomorrow at 10:00 a.m. in the main hall.",
+          "B": "The audit committee is comprised of five independent board members.",
+          "C": "Our offices are closed during weekends and major national holidays.",
+          "D": "We recently upgraded our accounting software to increase efficiency."
+        },
+        "correct_answer": "A",
+        "explanation": "役員たちに、来週のガバナンスポリシー監査に向けた書類整理を求める緊急のお知らせメモです。監査を前にした実務準備の一環として、「明日午前10時から大ホールで事前説明会（preparatory briefing）を開催する」とする(A)が完璧に適合します。",
+        "options_explanations": {
+          "A": "【正解】「明日午前10時からメインホールで事前説明会を行います。」監査前に全役員の認識を揃え、指示を具体化するための最適なアクション案内です。",
+          "B": "【不正解】「監査委員会は、5人の独立した取締役で構成されています。」委員会の構成人数は、この緊急のファイル整理要請メモの結びとしては不要です。",
+          "C": "【不正解】「当社のオフィスは、週末および祝日に閉鎖されています。」営業スケジュールは、この厳格なガバナンス監査メモには完全に不適切です。",
+          "D": "【不正解】「効率を高めるため、最近会計ソフトをアップグレードしました。」ソフトの細かなバージョンアップ情報は、企業統治の根幹を揺るがす「監査不履行の警告」メモの主題から外れています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p6_900_030",
+    "target_level": 900,
+    "passage_text": "To: All Department Staff, From: Human Resources, Subject: Collective Agreement. We are pleased to announce that management and union representatives have reached a new collective bargaining agreement. After extensive negotiations, both parties achieved a ( --- 1 --- ) regarding wage increases and health benefits. This agreement will ensure stable employment conditions and enhance our operational ( --- 2 --- ). The new contract will go into effect next month and remain active for three years. We appreciate the hard work of everyone involved in ( --- 3 --- ) this positive outcome. ( --- 4 --- ). Thank you for your dedication.",
+    "passage_translation": "すべての部門スタッフへ、人事部より、件名：労使協定。経営陣と労働組合の代表者が、新しい労働協約（団体協約）に達したことをお知らせでき、嬉しく思います。広範な交渉の結果、双方は賃上げと医療手当に関して（合意［合意］）に達しました。この協定は、安定した雇用条件を保証し、当社の業務（効率）を高めることになります。新しい契約は来月発効し、3年間有効です。この肯定的な結果を（促進する［容易にする］）ことに尽力したすべての関係者の努力に感謝いたします。（新しい協定書の全文書のコピーが、イントラネットポータルでご覧いただけます。）皆様の貢献に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "type": "vocabulary",
+        "options": {
+          "A": "consensus",
+          "B": "dispute",
+          "C": "disparity",
+          "D": "litigation"
+        },
+        "correct_answer": "A",
+        "explanation": "長年にわたる労使間の厳しい交渉の結果、賃上げや手当に関して「双方が合意、意見の一致（consensus）」を達成した、とする(A)が正解です。achieved a consensus は「合意に達する」を指す最高コロケーションです。",
+        "options_explanations": {
+          "A": "【正解】「意見の一致、合意（コンセンサス）」。労使交渉などの大きな交渉の末の合意妥結を表すのに最適な名解です。",
+          "B": "【不正解】「紛争、論争」。紛争を「達成した」というのは、せっかく労働協約が成立したポジティブな発表内容と著しく矛盾します。",
+          "C": "【不正解】「格差、不一致」。不一致を達成するのも矛盾します。",
+          "D": "【不正解】「訴訟」。訴訟を達成するのも矛盾します。"
+        }
+      },
+      {
+        "question_number": 2,
+        "type": "vocabulary",
+        "options": {
+          "A": "efficiency",
+          "B": "deficiency",
+          "C": "redundancy",
+          "D": "stagnation"
+        },
+        "correct_answer": "A",
+        "explanation": "雇用条件の安定化がもたらす企業価値として、業務「効率、能率（efficiency）」を高めることになるとする(A)が正解です。operational efficiency は「業務効率」を指す最頻出の強固なコロケーションです。",
+        "options_explanations": {
+          "A": "【正解】「効率、能率（operational efficiencyで業務効率）」。安定雇用によって不満が解消され、生産性が上がる文脈に完全に合致します。",
+          "B": "【不正解】「不足、欠陥」。業務の欠陥を高める（増やす）のは経営目標として不自然です。",
+          "C": "【不正解】「不要な重複、余剰、リストラ」。業務上の余剰や重複を「高める」のは間違いです。",
+          "D": "【不正解】「停滞、沈滞」。業務の停滞を高めるのもおかしいです。"
+        }
+      },
+      {
+        "question_number": 3,
+        "type": "vocabulary",
+        "options": {
+          "A": "facilitating",
+          "B": "neglect",
+          "C": "interruption",
+          "D": "termination"
+        },
+        "correct_answer": "A",
+        "explanation": "「この良好な交渉決着（成果）を【促進すること、容易にすること（facilitating）】に関わったすべての人々の努力に感謝する」とする(A)が適切です。inの後ろであるため動名詞が正しく機能します。",
+        "options_explanations": {
+          "A": "【正解】動名詞。「〜を容易にする、促進する（facilitateのing形）」。今回の前向きな結果をスムーズに妥結・推進する手助けをした関係者を労う表現として最適です。",
+          "B": "【不正解】「怠慢、無視」。無視することに努力した関係者、というのは著しく矛盾します。",
+          "C": "【不正解】「中断、邪魔」。交渉の邪魔をすることに努力した人という意味になってしまいおかしいです。",
+          "D": "【不正解】「終了、解雇」。交渉を強制終了・決裂させることに尽力したというのは矛盾します。"
+        }
+      },
+      {
+        "question_number": 4,
+        "type": "sentence_insertion",
+        "options": {
+          "A": "A copy of the full agreement document is available on our intranet portal.",
+          "B": "The union was established in June 1995 to represent office staff.",
+          "C": "Our company picnic was held in City Park last Saturday afternoon.",
+          "D": "We plan to hire ten new sales associates in our Seattle branch."
+        },
+        "correct_answer": "A",
+        "explanation": "経営陣と労働組合との間の新たな労働協約（collective agreement）が成立したことを従業員全員に知らせる人事レターです。全社員が気になる実際の契約詳細（賃金表、医療保障規定など）の閲覧方法として、「新しい協定書全文書のコピーが、当社のイントラネットポータルで確認できる」とする(A)が実務として最も重要な説明フォローとなります。",
+        "options_explanations": {
+          "A": "【正解】「新しい協定文書の全コピーは、イントラネットポータルでご覧いただけます。」成立した協約の詳細情報を閲覧させ、理解を深めてもらうための完璧な周知・共有文です。",
+          "B": "【不正解】「労働組合は、オフィススタッフを代表するために1995年6月に設立されました。」組合設立の過去の歴史データは、今まさに合意した協約詳細の発表には不要です。",
+          "C": "【不正解】「当社の社内ピクニックが、先週土曜日の午後にシティパークで開催されました。」ピクニックの終了ニュースは、この「労使協定の正式妥結」という極めて重要な規約変更の周知には場違いです。",
+          "D": "【不正解】「私たちは、シアトル支店に10人の新規販売員を採用する予定です。」特定の販売員の採用計画は、全社を対象とした労使協約妥結のお知らせメモの締めとしては不適切です。"
+        }
+      }
+    ]
+  }
+]

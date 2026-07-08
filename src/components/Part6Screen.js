@@ -9,56 +9,146 @@ import {
   Platform,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import rawPart6Data from '../data/toeic_part6.json';
+import level500Data from '../data/toeic_reading_part6_level500.json';
+import level700Data from '../data/toeic_reading_part6_level700.json';
+import level900Data from '../data/toeic_reading_part6_level900.json';
 import NeoButton from './NeoButton';
 import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
 import ErrorReportModal from './ErrorReportModal';
+import { getBookmarks, addBookmark, removeBookmark } from '../services/bookmarkService';
+
+// 難易度データのマッピング
+const LEVEL_DATA = {
+  500: level500Data,
+  700: level700Data,
+  900: level900Data,
+};
+
+const LEVELS = [
+  { key: 500, label: '500点レベル', count: level500Data.length },
+  { key: 700, label: '700点レベル', count: level700Data.length },
+  { key: 900, label: '900点レベル', count: level900Data.length },
+];
 
 export default function Part6Screen({ onBackPortal }) {
   const quizStartTimeRef = useRef(null);
+  const [passages, setPassages] = useState([]);
+  const [currentPassageIndex, setCurrentPassageIndex] = useState(0);
   const [passage, setPassage] = useState(null);
   const [activeBlank, setActiveBlank] = useState('1'); // 現在アクティブな空所ID ("1"〜"4")
-  const [answers, setAnswers] = useState({}); // { "1": "選択肢", ... }
+  const [answers, setAnswers] = useState({}); // { "1": "C", ... }
   const [submittedBlanks, setSubmittedBlanks] = useState({}); // { "1": true, ... }
-  const [phase, setPhase] = useState('quiz'); // quiz | result
+  const [phase, setPhase] = useState('select_level'); // select_level | select_count | quiz | result
+  const [selectedLevel, setSelectedLevel] = useState(500);
+  const [selectedCount, setSelectedCount] = useState(1); // デフォルト1文書
+  const [quizResults, setQuizResults] = useState([]); // [{ passageId, questionNumber, correct, selected, answer }]
+  
+  // ブックマーク管理用ステート
+  const [bookmarkedIds, setBookmarkedIds] = useState(new Set());
 
   // 問題報告用ステート
   const [reportModalVisible, setReportModalVisible] = useState(false);
   const [reportData, setReportData] = useState(null);
 
-  const loadPassage = () => {
-    const randomPassage = rawPart6Data[Math.floor(Math.random() * rawPart6Data.length)];
-    setPassage(randomPassage);
+  // 初回ロード時にブックマーク一覧を取得
+  useEffect(() => {
+    const loadBookmarks = async () => {
+      try {
+        const list = await getBookmarks();
+        setBookmarkedIds(new Set(list.map(b => b.id)));
+      } catch (e) {
+        console.error('Failed to load bookmarks:', e);
+      }
+    };
+    loadBookmarks();
+  }, []);
+
+  // ブックマークの追加・削除トグル
+  const handleToggleBookmark = async (qNumber) => {
+    if (!passage) return;
+    const targetQ = passage.questions.find(q => Number(q.question_number) === Number(qNumber));
+    if (!targetQ) return;
+
+    const bookmarkId = `${passage.passage_id}_${qNumber}`;
+    const isBookmarked = bookmarkedIds.has(bookmarkId);
+    let updatedList;
+    
+    if (isBookmarked) {
+      updatedList = await removeBookmark(bookmarkId);
+    } else {
+      // bookmarks.tsx で Part 5 と同様に表示できるようにマッピングして保存
+      const bookmarkQuestion = {
+        id: bookmarkId,
+        sentence: passage.passage_text, // 本文全体
+        options: targetQ.options,
+        correct_answer: targetQ.correct_answer,
+        meaning: passage.passage_translation, // 全訳
+        explanation: targetQ.explanation,
+        options_explanations: targetQ.options_explanations
+      };
+      updatedList = await addBookmark(bookmarkQuestion, 6, selectedLevel);
+    }
+    setBookmarkedIds(new Set(updatedList.map(b => b.id)));
+  };
+
+  const setupPassage = (p) => {
+    setPassage(p);
     setActiveBlank('1');
     setAnswers({});
     setSubmittedBlanks({});
-    setPhase('quiz');
-    quizStartTimeRef.current = Date.now();
   };
 
+  // 指定されたレベルと問題数でランダム抽出 (新データ形式をそのまま使用)
   useEffect(() => {
-    loadPassage();
-  }, []);
+    if (phase === 'quiz') {
+      const rawData = LEVEL_DATA[selectedLevel] || [];
+      const shuffled = [...rawData].sort(() => 0.5 - Math.random());
+      const actualCount = Math.min(selectedCount, shuffled.length);
+      const selectedPassages = shuffled.slice(0, actualCount);
+      
+      setPassages(selectedPassages);
+      setCurrentPassageIndex(0);
+      setQuizResults([]);
+      
+      if (selectedPassages.length > 0) {
+        setupPassage(selectedPassages[0]);
+      }
+      quizStartTimeRef.current = Date.now();
+    }
+  }, [phase, selectedLevel, selectedCount]);
 
-  const handleSelectOption = (option) => {
+  const handleSelectOption = (optKey) => {
     if (submittedBlanks[activeBlank]) return;
-    setAnswers((prev) => ({ ...prev, [activeBlank]: option }));
+    setAnswers((prev) => ({ ...prev, [activeBlank]: optKey }));
     setSubmittedBlanks((prev) => ({ ...prev, [activeBlank]: true }));
+
+    const activeQuestion = passage.questions.find(
+      (q) => Number(q.question_number) === Number(activeBlank)
+    );
+    const isCorrect = optKey === activeQuestion.correct_answer;
+
+    setQuizResults((prev) => [
+      ...prev,
+      {
+        passageId: passage.passage_id,
+        questionNumber: activeQuestion.question_number,
+        correct: isCorrect,
+        selected: optKey,
+        answer: activeQuestion.correct_answer,
+        explanation: activeQuestion.explanation,
+        options_explanations: activeQuestion.options_explanations,
+      },
+    ]);
   };
 
-  const savePart6Results = async () => {
-    if (!passage) return;
+  const savePart6Results = async (results) => {
     try {
-      let correctCount = 0;
-      passage.questions.forEach((q) => {
-        if (answers[q.id] === q.answer) {
-          correctCount++;
-        }
-      });
+      const totalCount = results.length;
+      const correctCount = results.filter((r) => r.correct).length;
       const elapsedSec = quizStartTimeRef.current ? Math.round((Date.now() - quizStartTimeRef.current) / 1000) : 0;
       const stats = await loadUserStats();
-      const testName = `Part 6 長文穴埋め (${passage.questions.length}問)`;
-      const updated = updatePartStats(stats, 'part6', correctCount, passage.questions.length, elapsedSec, testName);
+      const testName = `Part 6 (${selectedLevel}点レベル ${totalCount}問)`;
+      const updated = updatePartStats(stats, 'part6', correctCount, totalCount, elapsedSec, testName);
       await saveUserStats(updated);
     } catch (e) {
       console.error('Failed to save Part 6 stats:', e);
@@ -70,49 +160,48 @@ export default function Part6Screen({ onBackPortal }) {
     if (Number(nextId) <= passage.questions.length) {
       setActiveBlank(nextId);
     } else {
-      const allDone = passage.questions.every((q) => submittedBlanks[String(q.id)]);
+      // 現在の大問が完了したかどうかをチェック
+      const allDone = passage.questions.every((q) => submittedBlanks[String(q.question_number)]);
       if (allDone) {
-        savePart6Results();
-        setPhase('result');
+        goToNextPassageOrResult();
       } else {
-        const uncompleted = passage.questions.find((q) => !submittedBlanks[String(q.id)]);
+        const uncompleted = passage.questions.find((q) => !submittedBlanks[String(q.question_number)]);
         if (uncompleted) {
-          setActiveBlank(String(uncompleted.id));
+          setActiveBlank(String(uncompleted.question_number));
         } else {
-          savePart6Results();
-          setPhase('result');
+          goToNextPassageOrResult();
         }
       }
     }
   };
 
-  // 本文をパースし、空欄部分 [1]〜[4] をReact Nativeのインタラクティブなインラインボタンに変換
+  const goToNextPassageOrResult = () => {
+    const nextIndex = currentPassageIndex + 1;
+    if (nextIndex < passages.length) {
+      setCurrentPassageIndex(nextIndex);
+      setupPassage(passages[nextIndex]);
+    } else {
+      savePart6Results(quizResults);
+      setPhase('result');
+    }
+  };
+
+  // 本文をパースし、空欄部分 ( --- 1 --- ) をReact Nativeのインタラクティブなインラインボタンに変換
   const renderPassage = () => {
     if (!passage) return null;
 
-    let cleanTemplate = passage.passage_template.replace(/<[^>]*>/g, '');
-    
-    // プレースホルダーの補完
-    passage.questions.forEach((q) => {
-      const idPattern = new RegExp(`\\[${q.id}\\]|___${q.id}___|__${q.id}__`);
-      if (!idPattern.test(cleanTemplate)) {
-        cleanTemplate += ` [${q.id}]`;
-      }
-    });
-
-    const parts = cleanTemplate.split(/(\\n|\[\d+\]|___\[\d+\]___|__\[\d+\]__)/g);
+    // 空所プレースホルダー ( --- 1 --- ) などでテキストを分割
+    const parts = passage.passage_text.split(/(\(\s*---\s*\d+\s*---\s*\))/g);
 
     return (
       <Text style={styles.passageText}>
         {parts.map((part, idx) => {
-          if (part === '\\n') {
-            return '\n\n';
-          }
-
-          const blankMatch = part.match(/\[(\d+)\]/);
+          const blankMatch = part.match(/\(\s*---\s*(\d+)\s*---\s*\)/);
           if (blankMatch) {
             const qId = blankMatch[1];
-            const q = passage.questions.find((item) => Number(item.id) === Number(qId));
+            const q = passage.questions.find((item) => Number(item.question_number) === Number(qId));
+            if (!q) return part; // 安全対策
+
             const selected = answers[qId];
             const isBlankSubmitted = submittedBlanks[qId];
 
@@ -120,7 +209,7 @@ export default function Part6Screen({ onBackPortal }) {
             let btnTextStyle = styles.blankButtonText;
 
             if (isBlankSubmitted) {
-              const isCorrect = selected === q.answer;
+              const isCorrect = selected === q.correct_answer;
               btnStyle = [styles.blankButton, isCorrect ? styles.blankCorrect : styles.blankWrong];
               btnTextStyle = [styles.blankButtonText, styles.blankTextWhite];
             } else if (activeBlank === qId) {
@@ -152,6 +241,99 @@ export default function Part6Screen({ onBackPortal }) {
     );
   };
 
+  /* ==========================================
+     1. レベル選択画面 (select_level)
+     ========================================== */
+  if (phase === 'select_level') {
+    return (
+      <View style={styles.container}>
+        <ScrollView contentContainerStyle={styles.scrollContent}>
+          <View style={styles.selectHeader}>
+            <Text style={styles.selectWelcome}>Part 6 ・ Text Completion</Text>
+            <Text style={styles.selectTitle}>レベルを選択</Text>
+          </View>
+          
+          <View style={styles.typeListContainer}>
+            {LEVELS.map((level) => (
+              <NeoButton
+                key={level.key}
+                onPress={() => {
+                  setSelectedLevel(level.key);
+                  setPhase('select_count');
+                }}
+                btnStyle={styles.typeBtn}
+              >
+                <View style={styles.typeBtnContent}>
+                  <Text style={styles.typeBtnLabel}>{level.label}</Text>
+                  <Text style={styles.typeBtnCount}>{level.count}文書</Text>
+                </View>
+              </NeoButton>
+            ))}
+          </View>
+        </ScrollView>
+        <View style={styles.footer}>
+          <NeoButton
+            onPress={onBackPortal}
+            btnStyle={styles.backBtn}
+          >
+            <Text style={styles.backBtnText}>ダッシュボードに戻る</Text>
+          </NeoButton>
+        </View>
+      </View>
+    );
+  }
+
+  /* ==========================================
+     2. 問題数選択画面 (select_count)
+     ========================================== */
+  if (phase === 'select_count') {
+    const total = LEVEL_DATA[selectedLevel]?.length || 0;
+    const levelLabel = LEVELS.find(l => l.key === selectedLevel)?.label || `${selectedLevel}点レベル`;
+    
+    const countOptions = [
+      { value: 1, label: '1文書 (4問)' },
+      { value: 2, label: '2文書 (8問)' },
+      { value: 4, label: '4文書 (16問)' },
+    ];
+
+    return (
+      <View style={styles.container}>
+        <ScrollView contentContainerStyle={styles.scrollContent}>
+          <View style={styles.selectHeader}>
+            <Text style={styles.selectWelcome}>Part 6 ・ Text Completion</Text>
+            <Text style={styles.selectTitle}>問題数を選択</Text>
+            <Text style={styles.selectSubtitle}>
+              レベル: {levelLabel} ({total}文書中)
+            </Text>
+          </View>
+
+          <View style={styles.countList}>
+            {countOptions.map((option, index) => (
+              <NeoButton
+                key={index}
+                onPress={() => {
+                  setSelectedCount(option.value);
+                  setPhase('quiz');
+                }}
+                btnStyle={styles.countBtn}
+              >
+                <Text style={styles.countBtnText}>{option.label}</Text>
+              </NeoButton>
+            ))}
+          </View>
+        </ScrollView>
+        <View style={styles.footer}>
+          <NeoButton
+            onPress={() => setPhase('select_level')}
+            btnStyle={styles.backBtn}
+          >
+            <Text style={styles.backBtnText}>レベル選択に戻る</Text>
+          </NeoButton>
+        </View>
+      </View>
+    );
+  }
+
   if (!passage) {
     return (
       <View style={styles.containerCentered}>
@@ -162,7 +344,7 @@ export default function Part6Screen({ onBackPortal }) {
   }
 
   const activeQuestion = passage.questions.find(
-    (q) => Number(q.id) === Number(activeBlank)
+    (q) => Number(q.question_number) === Number(activeBlank)
   );
 
   const totalBlanks = passage.questions.length;
@@ -172,7 +354,7 @@ export default function Part6Screen({ onBackPortal }) {
      ========================================== */
   if (phase === 'quiz') {
     const currentSelected = answers[activeBlank];
-    const isCorrect = currentSelected === activeQuestion.answer;
+    const isCorrect = currentSelected === activeQuestion.correct_answer;
     const isCurrentBlankSubmitted = submittedBlanks[activeBlank];
 
     return (
@@ -182,29 +364,44 @@ export default function Part6Screen({ onBackPortal }) {
           <View style={styles.header}>
             <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginBottom: 6 }}>
               <TouchableOpacity
-                onPress={onBackPortal}
+                onPress={() => setPhase('select_level')}
                 style={styles.backButton}
               >
                 <Text style={styles.backButtonText}>← Menu</Text>
               </TouchableOpacity>
 
-              <TouchableOpacity
-                onPress={() => {
-                  setReportData({
-                    questionId: `${passage.id}_blank_${activeBlank}`,
-                    questionType: 'Part 6',
-                    questionText: `【本文タイトル】: ${passage.title || 'No Title'}\n【空所番号】: [${activeBlank}]\n【問題文】: ${activeQuestion.question || 'N/A'}`,
-                  });
-                  setReportModalVisible(true);
-                }}
-                style={styles.reportIconButton}
-              >
-                <Ionicons name="alert-circle-outline" size={24} color="#CC2534" />
-              </TouchableOpacity>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                {/* Bookmark Button */}
+                <TouchableOpacity
+                  onPress={() => handleToggleBookmark(activeBlank)}
+                  style={styles.reportIconButton}
+                >
+                  <Ionicons
+                    name={bookmarkedIds.has(`${passage.passage_id}_${activeBlank}`) ? 'bookmark' : 'bookmark-outline'}
+                    size={22}
+                    color="#378F8F"
+                  />
+                </TouchableOpacity>
+
+                {/* Report Button */}
+                <TouchableOpacity
+                  onPress={() => {
+                    setReportData({
+                      questionId: `${passage.passage_id}_blank_${activeBlank}`,
+                      questionType: 'Part 6',
+                      questionText: `【ジャンル】: ${passage.genre || 'No Genre'}\n【空所番号】: [${activeBlank}]\n【本文】: ${passage.passage_text}`,
+                    });
+                    setReportModalVisible(true);
+                  }}
+                  style={styles.reportIconButton}
+                >
+                  <Ionicons name="alert-circle-outline" size={24} color="#CC2534" />
+                </TouchableOpacity>
+              </View>
 
               <Text style={styles.headerBadge}>Part 6 ・ Text Completion</Text>
             </View>
-            <Text style={styles.headerTitle}>{passage.title || 'Passage'}</Text>
+            <Text style={styles.headerTitle}>{passage.genre || 'Passage'}</Text>
           </View>
 
           {/* Passage Card */}
@@ -215,8 +412,8 @@ export default function Part6Screen({ onBackPortal }) {
               </Text>
             </View>
             <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-              <Text style={styles.idBadge}>長文ID: {passage.id}</Text>
-              <Text style={styles.idBadge}>設問ID: {passage.id}_blank_{activeBlank}</Text>
+              <Text style={styles.idBadge}>長文ID: {passage.passage_id}</Text>
+              <Text style={styles.idBadge}>設問ID: {passage.passage_id}_blank_{activeBlank}</Text>
             </View>
             <View style={styles.passageDivider} />
             {renderPassage()}
@@ -243,13 +440,14 @@ export default function Part6Screen({ onBackPortal }) {
 
             {/* Options List */}
             <View style={styles.optionsContainer}>
-              {activeQuestion.options.map((opt, idx) => {
-                const isOptSelected = currentSelected === opt;
-                const isOptCorrect = opt === activeQuestion.answer;
+              {['A', 'B', 'C', 'D'].map((key, idx) => {
+                const optText = activeQuestion.options[key];
+                const isOptSelected = currentSelected === key;
+                const isOptCorrect = key === activeQuestion.correct_answer;
 
                 let btnStyle = styles.optButton;
                 let labelStyle = styles.optLabelBg;
-                let labelContent = String.fromCharCode(65 + idx);
+                let labelContent = key;
                 let optTextStyle = styles.optText;
                 let shadowColor = '#1C1C1E';
 
@@ -281,7 +479,7 @@ export default function Part6Screen({ onBackPortal }) {
                 return (
                   <NeoButton
                     key={idx}
-                    onPress={() => handleSelectOption(opt)}
+                    onPress={() => handleSelectOption(key)}
                     disabled={isCurrentBlankSubmitted}
                     btnStyle={btnStyle}
                     shadowColor={shadowColor}
@@ -290,7 +488,7 @@ export default function Part6Screen({ onBackPortal }) {
                       <View style={labelStyle}>
                         <Text style={styles.optLabelText}>{labelContent}</Text>
                       </View>
-                      <Text style={optTextStyle}>{opt}</Text>
+                      <Text style={optTextStyle}>{optText}</Text>
                     </View>
                   </NeoButton>
                 );
@@ -315,7 +513,9 @@ export default function Part6Screen({ onBackPortal }) {
               btnStyle={styles.actionBtn}
             >
               <Text style={styles.actionBtnText}>
-                {Number(activeBlank) >= totalBlanks ? 'Show Results' : 'Next Blank'}
+                {Number(activeBlank) >= totalBlanks
+                  ? (currentPassageIndex + 1 < passages.length ? 'Next Passage' : 'Show Results')
+                  : 'Next Blank'}
               </Text>
             </NeoButton>
           </View>
@@ -332,10 +532,9 @@ export default function Part6Screen({ onBackPortal }) {
   /* ==========================================
      B. Results Screen (result)
      ========================================== */
-  const correctCount = passage.questions.filter(
-    (q) => answers[String(q.id)] === q.answer
-  ).length;
-  const scorePercent = Math.round((correctCount / totalBlanks) * 100);
+  const totalCount = quizResults.length;
+  const correctCount = quizResults.filter((r) => r.correct).length;
+  const scorePercent = totalCount > 0 ? Math.round((correctCount / totalCount) * 100) : 0;
 
   return (
     <View style={styles.container}>
@@ -351,57 +550,112 @@ export default function Part6Screen({ onBackPortal }) {
             {scorePercent === 100 ? 'PERFECT!' : scorePercent >= 75 ? 'GREAT JOB!' : 'KEEP GOING!'}
           </Text>
           <Text style={styles.evaluationSub}>
-            Correct: {correctCount} / {totalBlanks} Blanks
+            Correct: {correctCount} / {totalCount} Blanks
           </Text>
         </View>
 
         {/* Review List (Keep explanations in Japanese) */}
         <Text style={styles.reviewHeader}>Explanations & Review</Text>
         <View style={styles.reviewList}>
-          {passage.questions.map((q) => {
-            const qId = String(q.id);
-            const userAns = answers[qId];
-            const isCorrect = userAns === q.answer;
-
-            return (
-              <View key={qId} style={styles.reviewCard}>
-                <View style={styles.reviewCardHeader}>
-                  <Text
-                    style={[
-                      styles.resultBadge,
-                      isCorrect ? styles.resultBadgeCorrect : styles.resultBadgeWrong,
-                    ]}
-                  >
-                    {isCorrect ? 'Correct ✓' : 'Incorrect ✗'}
-                  </Text>
-                  <Text style={styles.reviewTypeBadge}>Blank [{qId}]</Text>
-                </View>
-
-                <View style={styles.reviewAnswersContainer}>
-                  <Text style={styles.answerRowText}>
-                    Your Answer: <Text style={isCorrect ? styles.textCorrect : styles.textWrong}>{userAns || 'Unanswered'}</Text>
-                  </Text>
-                  {!isCorrect && (
-                    <Text style={styles.answerRowText}>
-                      Correct Answer: <Text style={styles.textCorrect}>{q.answer}</Text>
-                    </Text>
-                  )}
-                  <View style={styles.reviewDivider} />
-                  <Text style={styles.reviewExpTextHeader}>Explanation</Text>
-                  <Text style={styles.reviewExpText}>{q.explanation}</Text>
-                </View>
+          {passages.map((p, pIdx) => (
+            <View key={p.passage_id || pIdx} style={[styles.reviewCard, { marginBottom: 20 }]}>
+              <Text style={[styles.reviewHeader, { marginTop: 0, fontSize: 15 }]}>
+                文書 {pIdx + 1}: {p.genre} (ID: {p.passage_id})
+              </Text>
+              
+              {/* 本文表示 */}
+              <View style={[styles.explanationBox, { marginTop: 8, marginBottom: 12, backgroundColor: '#FFFFFF' }]}>
+                <Text style={styles.expHeader}>本文 (Passage)</Text>
+                <Text style={[styles.reviewExpText, { fontSize: 13, lineHeight: 22, color: '#1C1C1E' }]}>
+                  {p.passage_text}
+                </Text>
+                <View style={styles.reviewDivider} />
+                <Text style={styles.expHeader}>和訳 (Translation)</Text>
+                <Text style={[styles.reviewExpText, { fontSize: 12, lineHeight: 20 }]}>
+                  {p.passage_translation}
+                </Text>
               </View>
-            );
-          })}
+
+              {/* 各小問の解説 */}
+              <View style={{ gap: 12 }}>
+                {p.questions.map((q) => {
+                  const res = quizResults.find(
+                    (r) => r.passageId === p.passage_id && Number(r.questionNumber) === Number(q.question_number)
+                  );
+                  const isCorrect = res ? res.correct : false;
+                  const userAns = res ? res.selected : '未解答';
+
+                  return (
+                    <View key={q.question_number} style={styles.reviewAnswersContainer}>
+                      <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                          <Text
+                            style={[
+                              styles.resultBadge,
+                              isCorrect ? styles.resultBadgeCorrect : styles.resultBadgeWrong,
+                            ]}
+                          >
+                            {isCorrect ? 'Correct ✓' : 'Incorrect ✗'}
+                          </Text>
+                          <Text style={styles.reviewTypeBadge}>Blank [{q.question_number}]</Text>
+                        </View>
+
+                        {/* Bookmark Button in Review */}
+                        <TouchableOpacity
+                          onPress={() => handleToggleBookmark(q.question_number)}
+                          style={{ padding: 4 }}
+                        >
+                          <Ionicons
+                            name={bookmarkedIds.has(`${p.passage_id}_${q.question_number}`) ? 'bookmark' : 'bookmark-outline'}
+                            size={18}
+                            color="#378F8F"
+                          />
+                        </TouchableOpacity>
+                      </View>
+
+                      <Text style={styles.answerRowText}>
+                        Your Answer: <Text style={isCorrect ? styles.textCorrect : styles.textWrong}>{userAns}</Text>
+                      </Text>
+                      <Text style={styles.answerRowText}>
+                        Correct Answer: <Text style={styles.textCorrect}>{q.correct_answer} ({q.options[q.correct_answer]})</Text>
+                      </Text>
+
+                      <View style={styles.reviewDivider} />
+                      <Text style={styles.reviewExpTextHeader}>Explanation</Text>
+                      <Text style={styles.reviewExpText}>{q.explanation}</Text>
+
+                      {q.options_explanations && (
+                        <>
+                          <View style={styles.reviewDivider} />
+                          <Text style={styles.reviewExpTextHeader}>選択肢の解説</Text>
+                          {['A', 'B', 'C', 'D'].map((optKey) => (
+                            <Text key={optKey} style={[styles.reviewExpText, { fontSize: 11, marginTop: 2 }]}>
+                              <Text style={{ fontWeight: 'bold' }}>{optKey}:</Text> {q.options_explanations[optKey]}
+                            </Text>
+                          ))}
+                        </>
+                      )}
+                    </View>
+                  );
+                })}
+              </View>
+            </View>
+          ))}
         </View>
 
         {/* Action Buttons */}
         <View style={styles.resultActions}>
           <NeoButton
-            onPress={loadPassage}
+            onPress={() => setPhase('select_level')}
             btnStyle={styles.primaryActionBtn}
           >
-            <Text style={styles.primaryActionBtnText}>Next Passage</Text>
+            <Text style={styles.primaryActionBtnText}>もう一度解く</Text>
+          </NeoButton>
+          <NeoButton
+            onPress={onBackPortal}
+            btnStyle={styles.secondaryActionBtn}
+          >
+            <Text style={styles.secondaryActionBtnText}>ダッシュボードに戻る</Text>
           </NeoButton>
         </View>
       </ScrollView>
@@ -896,5 +1150,100 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     overflow: 'hidden',
     fontFamily: 'DMSans-Bold',
+  },
+  /* Select Screen Styles */
+  selectHeader: {
+    paddingHorizontal: 8,
+    paddingTop: Platform.OS === 'ios' ? 24 : 16,
+    paddingBottom: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: '#DFD8CC',
+    marginBottom: 20,
+  },
+  selectWelcome: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: '#7C756B',
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+    fontFamily: 'MonaSans-Bold',
+  },
+  selectTitle: {
+    fontSize: 22,
+    fontWeight: '900',
+    color: '#1C1C1E',
+    marginTop: 4,
+    fontFamily: 'MonaSans-Bold',
+  },
+  selectSubtitle: {
+    fontSize: 14,
+    color: '#7C756B',
+    marginTop: 6,
+    fontWeight: '600',
+    fontFamily: 'DMSans-Regular',
+  },
+  typeListContainer: {
+    gap: 14,
+    paddingBottom: 20,
+  },
+  typeBtn: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    padding: 18,
+    width: '100%',
+  },
+  typeBtnContent: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: '100%',
+  },
+  typeBtnLabel: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#1C1C1E',
+    fontFamily: 'MonaSans-Bold',
+  },
+  typeBtnCount: {
+    fontSize: 12,
+    fontWeight: 'bold',
+    backgroundColor: '#93C1C1',
+    color: '#FFFFFF',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 8,
+    overflow: 'hidden',
+    fontFamily: 'DMSans-Bold',
+  },
+  countList: {
+    gap: 16,
+    paddingBottom: 20,
+  },
+  countBtn: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    paddingVertical: 18,
+    width: '100%',
+  },
+  countBtnText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#1C1C1E',
+    textAlign: 'center',
+    fontFamily: 'MonaSans-Bold',
+  },
+  backBtn: {
+    backgroundColor: '#EBE5D8',
+    borderWidth: 2,
+    borderColor: '#1C1C1E',
+    width: '100%',
+  },
+  backBtnText: {
+    color: '#7C756B',
+    fontSize: 15,
+    fontWeight: 'bold',
+    fontFamily: 'MonaSans-Bold',
   },
 });

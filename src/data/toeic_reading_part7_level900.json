@@ -1,0 +1,672 @@
+[
+  {
+    "passage_id": "p7_900_001",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Zenith Manufacturing Announces Local Expansion",
+    "passage_text": "[Document 1: News Article]\nTitle: Zenith Manufacturing Announces Local Expansion\n\nZenith Manufacturing has officially announced plans to construct a state-of-the-art production facility in Oakville. The project, which is scheduled to commence on May 10, represents a significant capital investment in the region. Due to environmental and logistical considerations, the municipal board has mandated a series of public town hall meetings to address community feedback before construction permits are finalized. Zenith executives have expressed their commitment to transparency and sustainable development.\n\n[Document 2: Public Notice]\nTitle: Oakville Town Hall Schedule\n\nThe Oakville Municipal Board will host three community feedback sessions regarding the proposed Zenith Manufacturing facility. Local residents are invited to attend and express their views on regional zoning and environmental impact.\n* Meeting A: April 5 at 7:00 P.M. — North Hall (Zoning discussion)\n* Meeting B: April 12 at 7:00 P.M. — South Hall (Environmental impact)\n* Meeting C: April 19 at 7:00 P.M. — East Library (Traffic and logistics)\n\n[Document 3: Internal Email]\nTo: Mark Vance <m.vance@zenithmfg.com>\nFrom: Laura Jenkins <l.jenkins@zenithmfg.com>\nDate: April 13\nSubject: Feedback from Public Session\n\nDear Mark,\n\nI attended yesterday's community feedback session in Oakville as the corporate representative. There was a strong local turnout, and several neighborhood representatives voiced serious concerns regarding noise levels and air filtration systems. I reassured the attendees that our advanced engineering plans incorporate superior noise-muffling structures that exceed local compliance standards. To build consensus, I believe we should prepare a detailed presentation showing these specifications for the final municipal review next week.\n\nSincerely,\nLaura Jenkins",
+    "passage_translation": "[文書1：ニュース記事]\nタイトル：ゼニス・マニュファクチュアリング社が地方拡張を発表\n\nゼニス・マニュファクチュアリング社は、オークビルに最先端の生産施設の建設を計画していることを公式に発表した。5月10日に開始される予定のこのプロジェクトは、地域における重大な資本投資を意味している。環境および物流への配慮から、市議会は建設許可が最終決定される前に、コミュニティからのフィードバックに対処するため、一連の住民説明会（タウンホールミーティング）を開催することを義務付けた。ゼニスの幹部は、透明性と持続可能な開発へのコミットメントを表明している。\n\n[文書2：一般公示]\nタイトル：オークビル住民説明会スケジュール\n\nオークビル地方自治体委員会は、提案されているゼニス社の生産施設に関する3回のコミュニティフィードバックセッションを開催します。地元住民の皆様におかれましては、地域の用途地域指定（ゾーニング）や環境への影響についてご意見を表明いただくため、ぜひご参加ください。\n* 説明会A：4月5日 午後7時 — 北ホール (ゾーニングの議論)\n* 説明会B：4月12日 午後7時 — 南ホール (環境への影響)\n* 説明会C：4月19日 午後7時 — 東図書室 (交通および物流)\n\n[文書3：社内メール]\n宛先：マーク・ヴァンス <m.vance@zenithmfg.com>\n差出人：ローラ・ジェンキンス <l.jenkins@zenithmfg.com>\n日付：4月13日\n件名：住民説明会からのフィードバック\n\nマークへ、\n\n私は企業代表として、昨日オークビルで開催されたコミュニティフィードバックセッションに参加しました。地元の参加者が多く、いくつかの近隣代表者から騒音レベルや空気ろ過システムに関する深刻な懸念が提起されました。私は参加者に対し、当社の高度なエンジニアリング計画には、地元のコンプライアンス基準を超える優れた消音構造が組み込まれていることを説明して安心させました。合意（consensus）を形成するため、来週の最終的な地方自治体の審査に向けて、これらの仕様を示す詳細なプレゼンテーションを準備すべきだと考えています。\n\n敬具\nローラ・ジェンキンス",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Which hall did Laura Jenkins attend on her visit to Oakville?",
+        "question_translation": "ローラ・ジェンキンス氏がオークビルを訪れた際、どこのホールに出席しましたか？",
+        "options": {
+          "A": "North Hall",
+          "B": "South Hall",
+          "C": "East Library",
+          "D": "Main Training Hall"
+        },
+        "correct_answer": "B",
+        "explanation": "文書3の電子メールの日付は「4月13日」であり、メール本文で「yesterday's community feedback session（昨日のコミュニティフィードバックセッション）」と述べていることから、彼女が出席した会議は「4月12日」のセッションです。文書2のスケジュール表で4月12日の説明会Bを確認すると、場所は「South Hall（南ホール）」であるため、(B)が正解です。これが高度なクロスリファレンス問題です。",
+        "options_explanations": {
+          "A": "【不正解】North Hallは4月5日の「説明会A」の会場です。",
+          "B": "【正解】4月13日のメールにおける「昨日（4月12日）」のセッションをスケジュールから特定すると、「South Hall」で行われた環境説明会になります。",
+          "C": "【不正解】East Libraryは4月19日の「説明会C」の会場です。",
+          "D": "【不正解】Main Training Hallは別のパッセージ（研修セミナー）の会場です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "According to Document 3, what major concerns were raised by the attendees?",
+        "question_translation": "文書3によると、参加者から提起された主な懸念事項は何ですか？",
+        "options": {
+          "A": "The construction delay of the West Lot parking",
+          "B": "Noise levels and air filtration systems",
+          "C": "The lease rates of the physical office properties",
+          "D": "The delivery schedule of raw materials"
+        },
+        "correct_answer": "B",
+        "explanation": "文書3において「neighborhood representatives voiced serious concerns regarding noise levels and air filtration systems.（近隣の代表者たちが、騒音レベルや空気ろ過システムに関して深刻な懸念を表明した）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】駐車場の工事遅延（別パッセージの内容）は無関係です。",
+          "B": "【正解】本文に「noise levels and air filtration systems」と言及されている通りです。",
+          "C": "【不正解】不動産の賃貸料（別パッセージの内容）は関係ありません。",
+          "D": "【不正解】原材料の配達スケジュール（別パッセージの内容）は関係ありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "In Document 3, the word 'consensus' in paragraph 2 is closest in meaning to",
+        "question_translation": "文書3の第2段落にある 'consensus' という単語に最も意味が近いのはどれですか？",
+        "options": {
+          "A": "agreement",
+          "B": "deferral",
+          "C": "assessment",
+          "D": "oversight"
+        },
+        "correct_answer": "A",
+        "explanation": "文書3において「To build consensus（コンセンサスを構築するために）」は「合意を形成するために」という意味です。したがって、(A)「agreement（合意、意見の一致）」が最も近い意味になります。これは900点レベルの重要語彙と言い換えです。",
+        "options_explanations": {
+          "A": "【正解】consensusは集団の意見の一致、合意を表すため、agreementが最適です。",
+          "B": "【不正解】deferralは「延期」を意味します。",
+          "C": "【不正解】assessmentは「評価」「査定」を意味します。",
+          "D": "【不正解】oversightは「見落とし、過失」または「監視」を意味します。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_002",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Crestview Resort Corporate Events",
+    "passage_text": "[Document 1: Retreat Packages Guide]\nTitle: Crestview Resort Corporate Events\n\nCrestview Resort offers premier packages for corporate retreats:\n* Executive Silver ($150 per guest): Includes conference room rental, lunch, and standard AV equipment.\n* Executive Gold ($220 per guest): Includes all Silver services, plus dinner and a team-building workshop.\n* Corporate Platinum ($300 per guest): Includes all Gold services, plus a guided golf session on our championship course.\n\n[Document 2: Internal Memo]\nTo: Board of Directors\nFrom: HR Department\nDate: September 5\nSubject: Selection of Annual Retreat Package\n\nDear Directors,\n\nWe have finalized the guest list for our upcoming annual retreat, which will include exactly fifteen executives. After reviewing our third-quarter financial limits, we must establish strict cost controls. While several members expressed interest in the outdoor sports activities, we have decided to defer any luxury options—specifically golf—to respect our current fiscal policies. However, to ensure a valuable experience, we reached a consensus to select the highest-tier package that does not feature these luxury additions.\n\n[Document 3: Billing Invoice]\nTitle: Crestview Resort Final Billing\n\nInvoice Number: CR-99420\nBill To: Meridian Dynamics\nRetreat Date: October 12\nNumber of Guests: 15\nPackage Rate: $220.00 per guest\nTotal Charge: $3,300.00\nPayment Status: Paid (Check #4051)\n\nThank you for choosing Crestview Resort for your corporate event.",
+    "passage_translation": "[文書1：リトリートパッケージ案内]\nタイトル：クレストビュー・リゾート・コーポレートイベント\n\nクレストビュー・リゾートでは、社内研修旅行（コーポレート・リトリート）向けに以下の優良プランを提供しています：\n* エグゼクティブ・シルバー（ゲスト1人あたり150ドル）：会議室のレンタル、ランチ、標準音響・映像機器を含む。\n* エグゼクティブ・ゴールド（ゲスト1人あたり220ドル）：シルバーの全サービスに加え、ディナー、チームビルディング・ワークショップを含む。\n* コーポレート・プラチナ（ゲスト1人あたり300ドル）：ゴールドの全サービスに加え、当リゾートの選手権コースでのガイド付きゴルフセッションを含む。\n\n[文書2：社内メモ]\n宛先：取締役会\n差出人：人事部\n日付：9月5日\n件名：年次リトリートパッケージの選択について\n\nディレクターの皆様へ、\n\n今度の年次リトリートのゲストリストが確定し、出席する役員はちょうど15名となりました。第3四半期の財務制限を再考した結果、厳格なコスト管理を確立しなければなりません。数名のメンバーが野外スポーツ活動に関心を示していましたが、現在の会計ポリシーを尊重し、贅沢なオプション、具体的にはゴルフの実施を延期（defer）することに決定しました。しかし、有意義な体験を確保するため、これらの贅沢な追加項目（ゴルフ）を含まない、最上位のプランを選択することで合意（consensus）に達しました。\n\n[文書3：請求明細書]\nタイトル：クレストビュー・リゾート最終請求書\n\n請求書番号：CR-99420\n請求先：メリディアン・ダイナミクス\nリトリート日程：10月12日\nゲスト数：15名\nパッケージ料金：ゲスト1人あたり220.00ドル\n請求総額：$3,300.00\n支払い状況：支払済 (小切手 #4051)\n\n企業イベントにクレストビュー・リゾートをお選びいただきありがとうございました。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Which retreat package did Meridian Dynamics select?",
+        "question_translation": "メリディアン・ダイナミクス社はどのリトリートパッケージを選択しましたか？",
+        "options": {
+          "A": "Executive Silver",
+          "B": "Executive Gold",
+          "C": "Corporate Platinum",
+          "D": "Deluxe Luncheon Package"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において、HR部は「golf（ゴルフ）」が含まれるプランを除外した中で「highest-tier package（最も高いプラン）」を選択したと述べています。プラン案内（文書1）を見ると、ゴルフ（luxury option）が含まれるのは「Corporate Platinum」であり、ゴルフを含まない最も高いプランは「Executive Gold（1人$220）」です。また、文書3の実際の請求書でも1人あたりの料金が $220.00 となっているため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】シルバーの価格は1人$150であり、選択されていません。",
+          "B": "【正解】ゴルフを含まないパッケージの中で最高価格の「Executive Gold」（1人$220）が選ばれました。請求書の価格も一致します。",
+          "C": "【不正解】プラチナにはゴルフが含まれており、取締役会の制限（ゴルフを除外する）により見送られました。",
+          "D": "【不正解】Deluxe Luncheon Packageはケータリングの別パッセージの名称です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "In Document 2, the word 'defer' in paragraph 2 is closest in meaning to",
+        "question_translation": "文書2の第2段落にある 'defer' という単語に最も意味が近いのはどれですか？",
+        "options": {
+          "A": "postpone",
+          "B": "implement",
+          "C": "adjust",
+          "D": "replicate"
+        },
+        "correct_answer": "A",
+        "explanation": "文書2における「defer any luxury options（贅沢なオプションを延期・見送る）」の 'defer' は「延期する、先送りにする」という意味です。したがって、(A)「postpone（延期する）」が最も近い意味になります。これは900点レベルの最重要語彙の1つです。",
+        "options_explanations": {
+          "A": "【正解】deferとpostponeはビジネスシーンにおいて計画や支払いを延期する際の重要な同義語です。",
+          "B": "【不正解】implementは「実行する」を意味し、逆になります。",
+          "C": "【不正解】adjustは「調整する」を意味します。",
+          "D": "【不正解】replicateは「再現する、複製する」を意味します。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What is indicated about the retreat payment?",
+        "question_translation": "リトリートの支払いについて、何が示されていますか？",
+        "options": {
+          "A": "A deposit of $300.00 is still due on the day of the event.",
+          "B": "The total amount of $3,300.00 was settled using a paper check.",
+          "C": "Meridian Dynamics was charged a late fee of $20.00.",
+          "D": "The CFO applied a 10% contract discount to the final invoice."
+        },
+        "correct_answer": "B",
+        "explanation": "文書3のBilling Invoiceにおいて、「Total Charge: $3,300.00」および「Payment Status: Paid (Check #4051)」と書かれているため、(B)「3,300ドルの総額が紙の小切手によって決済された」が正解です。",
+        "options_explanations": {
+          "A": "【不正解】デポジットの規定や未払い残高（別パッセージのケータリング情報）は関係ありません。すでに「Paid」となっています。",
+          "B": "【正解】「Paid (Check #4051)」は、小切手（paper check）によって支払われたことを示しています。",
+          "C": "【不正解】遅延金（請求書の別パッセージ）は加算されていません。",
+          "D": "【不正解】10%割引（Suite 30賃貸契約の別パッセージ）は適用されていません。額面通り15人×$220=$3300が支払われています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_003",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Next-Gen Software Rollout Plan",
+    "passage_text": "[Document 1: Product Release Schedule]\nTitle: Next-Gen Software Rollout Plan\n\nThe release schedule for the SyncPro database software is outlined below:\n* Region A (Europe): October 1\n* Region B (Asia-Pacific): November 15\n* Region C (Americas): December 5\nStandard deployment begins at midnight local time for each designated region.\n\n[Document 2: Press Release]\nTitle: Software Release Delay Announcement\n\nVanguard Software Systems regrets to announce a slight adjustment to our upcoming release timeline. Due to an inadvertent programming oversight discovered during final quality testing, our technical team requires additional time to refine security protocols. Consequently, the software launch in the region originally scheduled to receive the update in mid-November has been deferred by exactly two weeks. We apologize to our corporate clients for this temporary inconvenience.\n\n[Document 3: Email]\nTo: Regional Directors\nFrom: Harold Vance <h.vance@vanguardsoft.com>\nDate: November 20\nSubject: Updated Asia-Pacific Launch Operations\n\nDear Directors,\n\nFollowing our recent press announcement, our engineering team has successfully resolved the security vulnerability in the system. The revised deployment date for our regional clients is now set, and we are preparing marketing assets for the launch in Asia-Pacific, which will officially begin next week. We must coordinate closely with local distributors to ensure that this deferred schedule does not impact our first-quarter projections.\n\nSincerely,\nHarold Vance",
+    "passage_translation": "[文書1：製品リリーススケジュール]\nタイトル：次世代ソフトウェアロールアウト計画\n\nSyncProデータベースソフトウェアのリリーススケジュールは以下の通りです：\n* 地域A（ヨーロッパ）：10月1日\n* 地域B（アジア太平洋）：11月15日\n* 地域C（アメリカ）：12月5日\n標準展開（デプロイメント）は、各指定地域の現地時間真夜中（午前0時）に開始されます。\n\n[文書2：プレスリリース]\nタイトル：ソフトウェアリリース遅延の発表\n\nヴァンガード・ソフトウェア・システムズは、今度のリリーススケジュールを少し調整（adjustment）することを残念ながらお知らせいたします。最終品質テスト中に予期せぬプログラミングの見落とし（inadvertent programming oversight）が発見されたため、当社の技術チームはセキュリティプロトコルを改良するために追加の時間を必要としています。その結果、11月中旬にアップデートが予定されていた地域でのソフトウェアローンチは、正確に2週間延期（deferred）されました。企業クライアントの皆様には、この一時的なご不便を深くお詫び申し上げます。\n\n[文書3：電子メール]\n宛先：地域責任者様\n差出人：ハロルド・ヴァンス <h.vance@vanguardsoft.com>\n日付：11月20日\n件名：アップデートされたアジア太平洋地域ローンチ業務について\n\n責任者の皆様へ、\n\n最近のプレスリリース（press announcement）に続き、当社のエンジニアリングチームはシステム内のセキュリティの脆弱性を解決することに成功しました。地域クライアント向けの改定された展開（デプロイメント）日が設定され、アジア太平洋でのローンチに向けたマーケティング素材を準備しています。ローンチは来週公式に開始されます。この延期スケジュールが第1四半期の予測に影響を与えないよう、現地の代理店（distributors）と緊密に調整（coordinate）しなければなりません。\n\n敬具\nハロルド・ヴァンス",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What was the finalized release date of SyncPro in the Asia-Pacific region?",
+        "question_translation": "アジア太平洋地域におけるSyncProの最終決定されたリリース日はいつですか？",
+        "options": {
+          "A": "November 15",
+          "B": "November 20",
+          "C": "November 29",
+          "D": "December 5"
+        },
+        "correct_answer": "C",
+        "explanation": "文書1の計画では、アジア太平洋（Region B）のリリース日は「November 15（11月15日）」でした。しかし、文書2のプレスリリースによると、11月中旬（mid-November）にローンチ予定だったアジア太平洋が「deferred by exactly two weeks（正確に2週間延期された）」とあります。11月15日＋14日 ＝「November 29（11月29日）」です。また、文書3のメール（11月20日日付）において「officially begin next week（来週公式に開始される）」と述べられており、11月20日の翌週の火曜日・水曜日周辺＝11月29日は「来週」にあたり、計算と完全に合致するため、(C)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】11月15日は当初の予定日であり、遅延前の日付です。",
+          "B": "【不正解】11月20日はHaroldの電子メールが送信された日付です。",
+          "C": "【正解】当初の11月15日に2週間（14日間）の延期を加算すると、最終的な日付は11月29日になります。",
+          "D": "【不正解】12月5日はアメリカ地域（Region C）の当初のリリース予定日です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "In Document 2, the word 'oversight' in line 3 is closest in meaning to",
+        "question_translation": "文書2の第3行目にある 'oversight' という単語に最も意味が近いのはどれですか？",
+        "options": {
+          "A": "consensus",
+          "B": "mistake",
+          "C": "assessment",
+          "D": "promotion"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において、遅延の原因となった「inadvertent programming oversight（不注意なプログラミングの見落とし）」の 'oversight' は、ここでは「見落とし、過失、誤り」を意味します。したがって、(B)「mistake（誤り）」が最も近い意味になります。なお、oversightには「監視、監督」という意味もありますが、文脈上「見落とし」です。",
+        "options_explanations": {
+          "A": "【不正解】consensusは「合意」です。",
+          "B": "【正解】プログラミングの見落としや設計ミス（oversight）は、プログラムのミス（mistake）と言い換えられます。",
+          "C": "【不正解】assessmentは「評価」です。",
+          "D": "【不正解】promotionは「促進、プロモーション」です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "According to Document 3, what are the directors currently preparing?",
+        "question_translation": "文書3によると、責任者たちは現在何を準備していますか？",
+        "options": {
+          "A": "A revised billing invoice for early contract cancellation",
+          "B": "A detailed layout of Room 101 presentation setup",
+          "C": "Marketing materials for the upcoming product launch",
+          "D": "A feedback report on the software programming error"
+        },
+        "correct_answer": "C",
+        "explanation": "文書3の「we are preparing marketing assets for the launch in Asia-Pacific（アジア太平洋でのローンチに向けたマーケティング資産を準備している）」という記述から、(C)「今度の製品ローンチ用のマーケティング資料」が正解です。「assets」が「materials」と言い換えられています。",
+        "options_explanations": {
+          "A": "【不正解】中途解約用の改訂請求書（別パッセージ）ではありません。",
+          "B": "【不正解】Room 101のプレゼンテーション準備（別パッセージ）ではありません。",
+          "C": "【正解】「marketing assets for the launch」が「Marketing materials for the upcoming product launch」に一致します。",
+          "D": "【不正解】プログラミングエラーの報告書ではありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_004",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Executive Professional Development Series",
+    "passage_text": "[Document 1: Training Schedule]\nTitle: Executive Professional Development Series\n\nThe upcoming leadership seminar series will take place in the Main Training Hall:\n* Seminar 1 (Strategic Planning): September 10 — Instructor: Mr. Robert Chen\n* Seminar 2 (Conflict Resolution): September 17 — Instructor: Mr. Robert Chen\n* Seminar 3 (Financial Analysis): September 24 — Instructor: Dr. Susan Miller\n\n[Document 2: Email]\nTo: All Registered Participants\nFrom: Training Coordinator\nDate: September 12\nSubject: Urgent Instructor Substitution\n\nDear Colleagues,\n\nPlease be advised that due to an unexpected family medical emergency, Mr. Robert Chen will be unable to conduct the next seminar in our series. Fortunately, Dr. Susan Miller has agreed to step in and lead this session. Please note that the date, time, and location of the session remain entirely unchanged. We apologize for this late notice and are highly appreciative of Dr. Miller's willingness to assist on short notice.\n\n[Document 3: Participant Evaluation Form]\nTitle: Seminar Feedback Form\n\nSeminar Date: September 17\nInstructor: Dr. Susan Miller\nParticipant Comments:\n\"I found the presentation extremely helpful. The practical frameworks for resolving interpersonal disputes within teams will be highly applicable to my daily work as a project manager. The speaker was engaging and answered all our questions thoroughly.\"",
+    "passage_translation": "[文書1：研修スケジュール]\nタイトル：エグゼクティブ・プロフェッショナル開発シリーズ\n\n近く開催されるリーダーシップセミナーシリーズは、本館研修ホール（Main Training Hall）にて実施されます：\n* セミナー1（戦略計画）：9月10日 — 講師：ロバート・チェン氏\n* セミナー2（紛争解決）：9月17日 — 講師：ロバート・チェン氏\n* セミナー3（財務分析）：9月24日 — 講師：スーザン・ミラー博士\n\n[文書2：電子メール]\n宛先：すべての登録済みの参加者様\n差出人：研修コーディネーター\n日付：9月12日\n件名：緊急の講師交代（代役）について\n\n同僚の皆様へ、\n\n予期せぬ家族の医療緊急事態により、ロバート・チェン氏が当シリーズの「次のセミナー」を行えなくなりましたのでお知らせいたします。幸いにも、スーザン・ミラー博士がこのセッションを引き受けて指導することに合意してください急病のチェン氏の代わりに（step in）引き受けてくれました。セッションの日付、時間、場所は完全に変更ありません。直前の通知となりましたことをお詫び申し上げますとともに、急な依頼にもかかわらずご協力いただいたミラー博士に大変感謝いたします。\n\n[文書3：参加者評価フォーム]\nタイトル：セミナーフィードバックフォーム\n\nセミナー日：9月17日\n講師：スーザン・ミラー博士\n参加者コメント：\n「プレゼンテーションは非常に役立つものでした。チーム内での対人紛争（interpersonal disputes）を解決するための実践的なフレームワークは、プロジェクトマネージャーとしての私の日々の業務に大いに適用可能であると感じました。講師は魅力的で、私たちのすべての質問に徹底的に答えてくれました。」",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Which seminar did Dr. Susan Miller teach as a substitute?",
+        "question_translation": "スーザン・ミラー博士は代役としてどのセミナーを教えましたか？",
+        "options": {
+          "A": "Strategic Planning",
+          "B": "Conflict Resolution",
+          "C": "Financial Analysis",
+          "D": "Marketing Brand Strategy"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2のメール（9月12日日付）に、チェン氏の代わりに「next seminar in our series（シリーズの次のセミナー）」をミラー博士が担当するとあります。9月12日の時点で「次のセミナー」をスケジュール表（文書1）から見つけると、9月17日の「Seminar 2 (Conflict Resolution)」です。また、文書3のフィードバック評価（9月17日、ミラー博士宛）で「resolving interpersonal disputes（人間関係の紛争解決）」について述べているため、セミナーは(B)「Conflict Resolution」であることが確認できます。これが3つの文書を紐付けるクロスリファレンスです。",
+        "options_explanations": {
+          "A": "【不正解】Strategic Planning（9月10日）はすでに終わっています。",
+          "B": "【正解】9月12日のメールで「次のセッション」である9月17日の「Conflict Resolution」の担当が急病でミラー博士に交代となりました。評価コメントの内容も合致しています。",
+          "C": "【不正解】Financial Analysis（9月24日）は、代役ではなく、スケジュール当初からミラー博士が担当する予定でした。",
+          "D": "【不正解】ブランド戦略（別パッセージの求人広告内容）は関係ありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Why did Mr. Robert Chen cancel his session?",
+        "question_translation": "ロバート・チェン氏はなぜ自身のセッションをキャンセルしたのですか？",
+        "options": {
+          "A": "He was scheduled for a dental operation in Chicago.",
+          "B": "He experienced an unexpected family health issue.",
+          "C": "His contract was modified by HR Operations.",
+          "D": "He accepted a new Sales Director position at Zenith."
+        },
+        "correct_answer": "B",
+        "explanation": "文書2に「due to an unexpected family medical emergency, Mr. Robert Chen will be unable...（予期せぬ家族の医療上の緊急事態のため）」とあるため、(B)が正解です。「medical emergency」が「health issue」に言い換えられています。",
+        "options_explanations": {
+          "A": "【不正解】歯の手術についての具体的な記述はありません。",
+          "B": "【正解】家族の「medical emergency」が「family health issue」に適切に言い換えられています。",
+          "C": "【不正解】人事による契約の変更（別パッセージ）ではありません。",
+          "D": "【不正解】新役職（別パッセージのRobert Greenの転職話）との混同です。名前はRobertですが、こちらはChen氏です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What is indicated about the participant who submitted the feedback form?",
+        "question_translation": "フィードバックフォームを提出した参加者について、何が示されていますか？",
+        "options": {
+          "A": "She was late for the opening speech because of heavy fog.",
+          "B": "She has been working as a sales director in Boston.",
+          "C": "She works as a manager who coordinates projects.",
+          "D": "She wanted to learn about rental equipment costs."
+        },
+        "correct_answer": "C",
+        "explanation": "文書3の参加者コメントに「highly applicable to my daily work as a project manager（プロジェクトマネージャーとしての私の日常業務に非常に役立つ）」とあるため、(C)が正解です。「project manager」が「manager who coordinates projects」に言い換えられています。",
+        "options_explanations": {
+          "A": "【不正解】濃霧による遅延（GA-204便の別パッセージの内容）は無関係です。",
+          "B": "【不正解】ボストンの販売取締役（別パッセージRobert Greenやボストン支店開設）は関係ありません。",
+          "C": "【正解】本人がプロジェクトマネージャー（project manager）であることをコメントしており、適切です。",
+          "D": "【不正解】レンタル機器コスト（別パッセージ）は無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_005",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Orion Office Solutions: Printer Models",
+    "passage_text": "[Document 1: Product Specifications]\nTitle: Orion Office Solutions: Printer Models\n\nOrion Office Solutions offers three robust laser printing systems:\n* Orion Alpha: Print Speed 30 ppm | Paper Capacity 250 sheets | Monthly Lease $100\n* Orion Beta: Print Speed 45 ppm | Paper Capacity 500 sheets | Monthly Lease $160\n* Orion Gamma: Print Speed 60 ppm | Paper Capacity 1,000 sheets | Monthly Lease $250\nAll active lease contracts are subject to a standard 10% early termination penalty calculated from the remaining months in the annual contract.\n\n[Document 2: Office Procurement Email]\nTo: Purchasing Committee\nFrom: Helen Reynolds <hreynolds@oriontech.com>\nDate: January 4\nSubject: Selection of New Printing Unit\n\nDear Committee,\n\nOur current printing volume has increased significantly over the past quarter. Our staff frequently complains about waiting for documents to print on our legacy unit. To address this, I propose we secure an annual lease on Orion's mid-tier printing system starting this month. While the high-end option is attractive, our budget limits do not justify the monthly cost of $250. The mid-tier model strikes the perfect balance between processing speed and fiscal responsibility.\n\n[Document 3: Lease Cancellation Request]\nTo: Orion Office Solutions <service@orionoffice.com>\nFrom: Helen Reynolds <hreynolds@oriontech.com>\nDate: September 10\nSubject: Early Contract Termination: Customer ID #8841\n\nDear Orion Office,\n\nPlease accept this email as formal notice that we will terminate our printer lease agreement at the end of this month. We leased the unit in January and had planned to maintain the agreement for a full year. However, due to an impending relocation to a fully furnished co-working space, we no longer require the hardware. Please calculate the standard early termination penalty for the remaining three months of our contract and send us the final bill.",
+    "passage_translation": "[文書1：製品仕様書]\nタイトル：オリオン・オフィス・ソリューションズ：プリンターモデル\n\nオリオン・オフィス・ソリューションズは、3つの堅牢なレーザー印刷システムを提供しています：\n* Orion Alpha：印刷速度 30 ppm | 用紙容量 250枚 | 月額リース料 100ドル\n* Orion Beta：印刷速度 45 ppm | 用紙容量 500枚 | 月額リース料 160ドル\n* Orion Gamma：印刷速度 60 ppm | 用紙容量 1,000枚 | 月額リース料 250ドル\nすべての有効なリース契約は、年間契約の「残りの月数」から計算される「標準10%の早期解約違約金」の対象となります。\n\n[Document 2: 社内オフィス調達メール]\n宛先：購買委員会\n差出人：ヘレン・レイノルズ <hreynolds@oriontech.com>\n日付：1月4日\n件名：新しい印刷装置の選択について\n\n委員会様、\n\n当社の現在の印刷量は前四半期に大幅に増加しました。スタッフは、従来の機器（legacy unit）で文書が印刷されるのを待つことについて頻繁に不満を漏らしています。これに対処するため、今月からオリオン社の「中位レベルの印刷システム（mid-tier printing system）」の年間リースを確保することを提案します。ハイエンドの選択肢（250ドル）は魅力的ですが、当社の予算制限では月額250ドルのコストを正当化できません。中位モデルは、処理速度と財務上の責任との完璧なバランスをとっています。\n\n[文書3：リース解約申請]\n宛先：オリオン・オフィス・ソリューションズ <service@orionoffice.com>\n差出人：ヘレン・レイノルズ <hreynolds@oriontech.com>\n日付：9月10日\n件名：契約早期解約：顧客ID #8841\n\nオリオン・オフィス様、\n\n今月末（the end of this month）をもってプリンターのリース契約を終了することをお知らせする正式な通知として、この電子メールを受理してください。私たちは1月に機器をリースし、1年間丸ごと契約を維持する計画でした。しかし、家具付きのコワーキングスペースへの移転（relocation）が間近に迫っているため、ハードウェアが不要になりました。当社の契約の残りの3ヶ月間に対する「標準早期解約違約金」を計算し、最終請求書をお送りください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Which printer model did Ms. Reynolds lease in January?",
+        "question_translation": "レイノルズ氏が1月にリースしたプリンターモデルはどれですか？",
+        "options": {
+          "A": "Orion Alpha",
+          "B": "Orion Beta",
+          "C": "Orion Gamma",
+          "D": "UltraView 24"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において、ヘレンは「Orion's mid-tier printing system（オリオン社の中位レベルの印刷システム）」をリースすることを提案しており、予算的に月$250（Gamma）は無理だと述べています。仕様書（文書1）を確認すると、中位（mid-tier）モデルは「Orion Beta（月額$160）」ですので、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】Alpha（月$100）は最下位モデルです。",
+          "B": "【正解】mid-tier（中位）＝「Orion Beta」であることが仕様書から読み取れます。",
+          "C": "【不正解】Gamma（月$250）は予算外とされて選択されませんでした。",
+          "D": "【不正解】UltraView 24は別のパッセージに登場するオフィス用モニターの名称です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "How much will the early termination penalty be for Ms. Reynolds' company?",
+        "question_translation": "レイノルズ氏の会社の早期解約違約金はいくらになりますか？",
+        "options": {
+          "A": "$16.00",
+          "B": "$30.00",
+          "C": "$48.00",
+          "D": "$75.00"
+        },
+        "correct_answer": "C",
+        "explanation": "文書1によると、早期解約金は「残りの月数のリースの10%」です。文書3によると、リースしていたモデルは中位機種（Orion Beta、月額$160）であり、解約による契約残存期間は「3ヶ月（remaining three months）」です。計算は以下の通りです：\n残存リース総額：$160 × 3ヶ月 ＝ $480\nペナルティ（10%）：$480 × 0.10 ＝ $48.00\nしたがって、(C)「$48.00」が正解です。これは高度なクロスリファレンス計算タスクです。",
+        "options_explanations": {
+          "A": "【不正解】$16.00は1ヶ月分（$160）の10%であり、残りの3ヶ月分が考慮されていません。",
+          "B": "【不正解】$30.00はAlphaを基準に誤計算した金額です。",
+          "C": "【正解】Betaモデル（$160）× 3ヶ月 ＝ $480、その10%は「$48.00」となります。3つの文書を統合して初めて算出できます。",
+          "D": "【不正解】$75.00はGamma（$250）を基準に3ヶ月分で誤計算した金額です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "Why is Ms. Reynolds cancelling the contract early?",
+        "question_translation": "レイノルズ氏はなぜ契約を早期解約するのですか？",
+        "options": {
+          "A": "The printer was defective and flickering constantly.",
+          "B": "The company is moving to a workspace that is already furnished.",
+          "C": "The local municipal board canceled their construction permits.",
+          "D": "The budget was reduced by 10% after Q3 financial review."
+        },
+        "correct_answer": "B",
+        "explanation": "文書3に「due to an impending relocation to a fully furnished co-working space, we no longer require the hardware.（家具付きコワーキングスペースへの移転が差し迫っており、機器が不要になったため）」とあるため、(B)が正解です。「fully furnished co-working space」が「workspace that is already furnished」に適切に言い換えられています。",
+        "options_explanations": {
+          "A": "【不正解】モニターのチラつき不具合（別パッセージのライト氏の苦情）と混同しています。",
+          "B": "【正解】家具がすでに設置されている（already furnished）場所への引っ越しが理由です。",
+          "C": "【不正解】建設許可の中止（別パッセージのオークビル市の説明会）は無関係です。",
+          "D": "【不正解】予算削減によるゴルフの延期（別パッセージのHR社内メモ）は無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_006",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Global Tech Summit Room Directory",
+    "passage_text": "[Document 1: Conference Program and Venue Plan]\nTitle: Global Tech Summit Room Directory\n\nThe session locations for the upcoming Global Tech Summit at the Metro Center are detailed below:\n* Session A (Cloud Security): Room 101 — 10:00 A.M.\n* Session B (Artificial Intelligence): Room 202 — 11:30 A.M.\n* Session C (Data Analytics): Room 303 — 1:30 P.M.\n\n[Document 2: Email]\nTo: Dr. Alan Stern <a.stern@techsummit.org>\nFrom: Event Logistics Coordinator\nDate: October 12\nSubject: Crucial Room Reassignment for Session B\n\nDear Dr. Stern,\n\nWe are writing to notify you of an inadvertent double-booking error regarding the room assignment for your artificial intelligence lecture on October 15. To resolve this conflict, we have relocated your presentation to the space originally scheduled for the Cloud Security session. The session time remains unchanged. We have already modified the digital signs outside the rooms, but we wanted to inform you directly to avoid any confusion on the day of the event.\n\n[Document 3: Participant Blog Entry]\nTitle: Thoughts from the Global Tech Summit\nDate: October 16\nAuthor: TechEnthusiast Blog\n\n\"I spent yesterday attending several fantastic sessions at the Global Tech Summit. The highlight of my morning was definitely Dr. Alan Stern’s presentation on machine learning and the future of automated decision systems. Surprisingly, despite the printed schedule directing attendees to Room 202, I had to walk to Room 101 to hear his talk. The room was packed, but the quality of his slides and research made the short navigation delay completely negligible.\"",
+    "passage_translation": "[文書1：会議プログラムおよび会場案内]\nタイトル：グローバル・テック・サミット・ルームディレクトリ\n\nメトロセンターで開催される近くのグローバル・テック・サミットのセッション場所は以下の通りです：\n* セッションA（クラウドセキュリティ）：Room 101 — 午前10:00\n* セッションB（人工知能）：Room 202 — 午前11:30\n* セッションC（データ分析）：Room 303 — 午後1:30\n\n[文書2：電子メール]\n宛先：アラン・スターン博士 <a.stern@techsummit.org>\n差出人：イベント物流（ロジスティクス）コーディネーター\n日付：10月12日\n件名：セッションBの部屋変更に関する極めて重要なお知らせ\n\nアラン・スターン博士へ、\n\n10月15日に予定されている人工知能講義の部屋割りについて、予期せぬダブルブッキングの誤り（inadvertent double-booking error）が発生しましたのでお知らせいたします。この競合を解決するため、博士のプレゼンテーションの場所を、当初「クラウドセキュリティセッション」に予定されていたスペースに変更（relocate）いたしました。セッション時間は変更ありません。すでに部屋の外のデジタルサインは修正（modify）いたしましたが、当日の混乱を避けるために直接お知らせいたします。\n\n[文書3：参加者のブログ記事]\nタイトル：グローバル・テック・サミットへの所感\n日付：10月16日\n著者：TechEnthusiastブログ\n\n「私は昨日、グローバル・テック・サミットでいくつかの素晴らしいセッションに参加して過ごしました。午前中の私のハイライトは間違いなく、アラン・スターン博士によるマシーンラーニング（機械学習）と自動意思決定システムの未来に関するプレゼンテーションでした。驚いたことに、印刷されたスケジュールでは Room 202 と指示されていたにもかかわらず、博士の講義を聴くために Room 101 まで歩かなければなりませんでした。部屋は満員でしたが、スライドと研究の質が高く、移動の遅れは完全に無視できるほどでした。」",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "In which room was Dr. Alan Stern's lecture actually held?",
+        "question_translation": "アラン・スターン博士の講義は実際にはどの部屋で開催されましたか？",
+        "options": {
+          "A": "Room 101",
+          "B": "Room 202",
+          "C": "Room 303",
+          "D": "South Hall"
+        },
+        "correct_answer": "A",
+        "explanation": "文書2において、アラン・スターン博士の「Session B (Artificial Intelligence)」は、本来「Session A (Cloud Security)」のために用意されていた部屋に変更されたと書かれています。案内（文書1）を確認すると、Session Aの部屋は「Room 101」です。さらに文書3のブログ（参加者の実体験）でも、「Room 202の予定が、Room 101まで歩かなければならなかった」と述べられているため、実際の開催部屋は(A)「Room 101」です。これがクロスリファレンスの論理です。",
+        "options_explanations": {
+          "A": "【正解】当初Room 202の予定から、Session A（Cloud Security）の部屋である「Room 101」に変更され、そこで実施されました。",
+          "B": "【不正解】Room 202は、当初印刷されたスケジュールに書かれていた部屋で、変更前です。",
+          "C": "【不正解】Room 303は、午後1:30のデータ分析（Session C）の部屋です。",
+          "D": "【不正解】South Hallは別パッセージのオークビル市の説明会会場です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What subject did Dr. Stern discuss during his morning lecture?",
+        "question_translation": "スターン博士は午前の講義でどのようなテーマについて話しましたか？",
+        "options": {
+          "A": "Cloud Security architecture",
+          "B": "Machine learning and automated decision systems",
+          "C": "Early contract termination strategies",
+          "D": "Voluntary product recall serialization"
+        },
+        "correct_answer": "B",
+        "explanation": "文書3のブログ記事において、スターン博士のプレゼンテーションは「machine learning and the future of automated decision systems（機械学習と自動意思決定システムの未来）」に関するものであったと言及されているため、(B)が正解です。文書1には単に「Artificial Intelligence」とありますが、より詳細なテーマがブログで述べられています。",
+        "options_explanations": {
+          "A": "【不正解】Cloud Securityは部屋割りの変更元となった別のセッションのトピックです。",
+          "B": "【正解】「machine learning and the future of automated decision systems」が博士の講義の具体的な議題です。",
+          "C": "【不正解】早期契約解約（別パッセージのプリンターリース解約）は関係ありません。",
+          "D": "【不正解】自主回収（別パッセージのスマートウォッチ製品回収）は関係ありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "On what date did Dr. Stern deliver his presentation?",
+        "question_translation": "スターン博士がプレゼンテーションを行ったのは何日ですか？",
+        "options": {
+          "A": "October 12",
+          "B": "October 15",
+          "C": "October 16",
+          "D": "November 1"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2のメールにおいて「artificial intelligence lecture on October 15（10月15日の人工知能講義）」と書かれています。また、10月16日に書かれたブログ（文書3）において「I spent yesterday...（昨日を過ごした）」と述べられており、昨日は「10月15日」となるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】10月12日はロジスティクスコーディネーターがメールを送信した日付です。",
+          "B": "【正解】メール日付の変更案内やブログの「昨日（16日比）」から、講義日は10月15日であることが確認できます。",
+          "C": "【不正解】10月16日はブログ記事が投稿された日付です。",
+          "D": "【不正解】11月1日は別パッセージのシステム移行予定日です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_007",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Oakwood Commercial Spaces",
+    "passage_text": "[Document 1: Commercial Property Listings]\nTitle: Oakwood Commercial Spaces\n\nOakwood Realty offers the following corporate facilities in the downtown commercial district:\n* Office Suite 10 (1,000 sq ft): $2,000 per month\n* Office Suite 20 (2,000 sq ft): $3,500 per month\n* Office Suite 30 (3,000 sq ft): $5,000 per month\nAll properties require a minimum 24-month lease commitment.\n\n[Document 2: Board Meeting Minutes]\nTitle: Apex Solutions: Minutes of Executive Meeting\nDate: April 12\nAttendees: Marcus Vance (CEO), Sarah Jenkins (CFO), Laura Green (COO)\n\nDuring the meeting, the executive board discussed the urgent need for a new administrative headquarters. To accommodate our growing local workforce and expanding paper archives, the board reached a consensus to lease the largest commercial space available in the downtown Oakwood portfolio. The CFO noted that while the initial list price is high, we should negotiate for a 10% discount based on a three-year contract term, which would bring our monthly rental expenditure down significantly.\n\n[Document 3: Executed Lease Agreement Summary]\nTitle: Lease Agreement: Apex Solutions & Oakwood Realty\n\nContract Reference: OS-30-2026\nTenant: Apex Solutions\nProperty Leased: Office Suite 30\nCommencement Date: June 1\nLease Duration: 36 months\nMonthly Rent: $4,500.00\nDeposit: $9,000.00\n\nThis document confirms that both parties have agreed to the revised pricing terms.",
+    "passage_translation": "[文書1：商業用物件リスト]\nタイトル：オークウッド商業用物件\n\nオークウッド不動産（Oakwood Realty）は、ダウンタウン商業地区で以下の企業向け施設を提供しています：\n* オフィス・スイート 10 (1,000平方フィート)：月額 2,000ドル\n* オフィス・スイート 20 (2,000平方フィート)：月額 3,500ドル\n* オフィス・スイート 30 (3,000平方フィート)：月額 5,000ドル\nすべての物件で最低24ヶ月のリース契約期間が必要です。\n\n[文書2：取締役会の議事録]\nタイトル：エイペックス・ソリューションズ：役員会議事録\n日付：4月12日\n出席者：マーカス・ヴァンス（CEO）、サラ・ジェンキンス（CFO）、ローラ・グリーン（COO）\n\n会議中、執行役員会は新しい管理本部の差し迫った必要性について議論しました。増加する現地の労働力と拡張する紙の保管アーカイブ（paper archives）を収容するため、役員会はオークウッドのポートフォリオにおいて「最大の商業スペース（largest commercial space）」をリースすることで合意（consensus）に達しました。CFOは、最初の提示価格（list price）は高いものの、3年間の契約期間に基づいて「10%の割引」を交渉すべきであり、これによって月額賃料の支出を大幅に下げることができると指摘しました。\n\n[文書3：署名済みの賃貸契約書要約]\nタイトル：賃賃契約書：エイペックス・ソリューションズ ＆ オークウッド不動産\n\n契約参照番号：OS-30-2026\n借主：エイペックス・ソリューションズ\nリース物件：オフィス・スイート 30\n開始日：6月1日\nリース期間：36ヶ月\n月額家賃：4,500.00ドル\n保証金：9,000.00ドル\n\nこの文書は、双方が改訂された価格設定条件に合意したことを確認するものです。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Which property did Apex Solutions select for their new headquarters?",
+        "question_translation": "エイペックス・ソリューションズは新しい本部にどの物件を選びましたか？",
+        "options": {
+          "A": "Office Suite 10",
+          "B": "Office Suite 20",
+          "C": "Office Suite 30",
+          "D": "Lakeside Convention Suite"
+        },
+        "correct_answer": "C",
+        "explanation": "文書2において、役員会は「largest commercial space available in the downtown Oakwood portfolio（オークウッドの最大の商業スペース）」をリースすることで合意しています。リスト（文書1）を見ると、最大の広さを持つ物件は「Office Suite 30（3,000 sq ft）」です。また、文書3の実際の契約書にも「Property Leased: Office Suite 30」と明記されているため、(C)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】Suite 10（1,000 sq ft）は最小の物件です。",
+          "B": "【不正解】Suite 20（2,000 sq ft）は中位の広さの物件です。",
+          "C": "【正解】「largest commercial space available」であり、契約書でリースされたと記録されている「Office Suite 30」が正解です。",
+          "D": "【不正解】Lakesideは別パッセージのコンベンションセンターの名称です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What is the discounted monthly rent agreed upon by Apex Solutions?",
+        "question_translation": "エイペックス・ソリューションズが合意した、割引後の月額家賃はいくらですか？",
+        "options": {
+          "A": "$2,000.00",
+          "B": "$3,500.00",
+          "C": "$4,500.00",
+          "D": "$5,000.00"
+        },
+        "correct_answer": "C",
+        "explanation": "文書1において、Office Suite 30の通常価格（list price）は月額 $5,000 です。文書2で、CFOが3年契約（36ヶ月）を条件に「10%の割引（10% discount）」を交渉すると述べています。計算は以下の通りです：\n$5,000 × (1 - 0.10) ＝ $4,500\nこれは、文書3（実際の契約書）に記載されている「Monthly Rent: $4,500.00」と一致するため、(C)が正解です。これも3つの文書にまたがる要素の突き合わせ問題です。",
+        "options_explanations": {
+          "A": "【不正解】Suite 10の通常賃料です。",
+          "B": "【不正解】Suite 20の通常賃料です。",
+          "C": "【正解】通常価格$5,000に対し、3年契約（36ヶ月）を条件にした10%引きを反映した家賃「$4,500.00」が適用されています。",
+          "D": "【不正解】Suite 30の割引前の通常価格です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "For how many years is the final lease contract committed?",
+        "question_translation": "最終的な賃貸契約は何年間コミットされていますか？",
+        "options": {
+          "A": "Two years",
+          "B": "Three years",
+          "C": "Five years",
+          "D": "Six years"
+        },
+        "correct_answer": "B",
+        "explanation": "文書3の契約書において、「Lease Duration: 36 months（36ヶ月＝3年間）」とあるため、(B)「3年間」が正解です。文書2でCFOが「three-year contract term」と予測していた内容がそのまま契約となっています。",
+        "options_explanations": {
+          "A": "【不正解】2年間（24ヶ月）は、文書1に記載された最低契約要件期間です。",
+          "B": "【正解】36ヶ月は「3年間（three years）」に相当します。",
+          "C": "【不正解】5年間ではありません。",
+          "D": "【不正解】6年間（別パッセージの「モリソン氏の6年間の管理経験」）は無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_008",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Enterprise Development Fund Categories",
+    "passage_text": "[Document 1: Corporate Innovation Grant Guidelines]\nTitle: Enterprise Development Fund Categories\n\nThe Enterprise Development Fund provides financial support under three distinct categories:\n* Category Alpha (Up to $100,000): For projects with a timeline of up to 12 months.\n* Category Beta ($100,001 to $250,000): For projects with a timeline of up to 24 months.\n* Category Gamma (Over $250,000): For multi-year research initiatives.\n\n[Document 2: Grant Proposal Abstract]\nTitle: Project Bio-Plastics Application\nPrincipal Investigator: Dr. Aris Thorne, Zenith Lab Group\nRequested Funding: $110,000\nProject Duration: 18 months\n\nAbstract: This initiative focuses on developing highly durable bio-polymers using agricultural waste. The research will take place over 18 months and aims to create an eco-friendly packaging alternative for consumer retail companies.\n\n[Document 3: Award Notification Letter]\nTo: Dr. Aris Thorne <a.thorne@zenithlabs.com>\nFrom: Grant Review Committee\nDate: June 18\nSubject: Decision on Project Bio-Plastics\n\nDear Dr. Thorne,\n\nWe are pleased to inform you that your grant application has been approved. However, due to unexpected fiscal constraints in our annual budget, we are unable to award the full amount requested in your initial abstract. The committee has authorized funding at exactly 90% of your requested amount. This adjustment successfully shifts your project from its original funding bracket into our entry-level grant category. Please submit a modified budget plan reflecting this new total by next week.",
+    "passage_translation": "[文書1：企業イノベーション助成金ガイドライン]\nタイトル：企業開発基金カテゴリー\n\n企業開発基金（Enterprise Development Fund）は、以下の3つの異なるカテゴリーで財政支援を行っています：\n* カテゴリー・アルファ（最大 100,000ドルまで）：最大12ヶ月のスケジュール（タイムライン）のプロジェクト向け。\n* カテゴリー・ベータ（100,001ドル 〜 250,000ドル）：最大24ヶ月のスケジュールのプロジェクト向け。\n* カテゴリー・ガンマ（250,000ドル超）：複数年にわたる研究イニシアチブ向け。\n\n[文書2：助成金提案抄録]\nタイトル：プロジェクト・バイオプラスチックの応用\n主任研究員：アリス・ソーン博士（ゼニス研究グループ）\n申請助成金額：110,000ドル\nプロジェクト期間：18ヶ月\n\n抄録：本イニシアチブは、農業廃棄物を利用して耐久性の高いバイオポリマーを開発することに焦点を当てています。研究は18ヶ月にわたって実施され、一般小売企業向けの環境に優しい包装代替品の作成を目指します。\n\n[文書3：採択通知書]\n宛先：アリス・ソーン博士 <a.thorne@zenithlabs.com>\n差出人：助成金審査委員会\n日付：6月18日\n件名：プロジェクト・バイオプラスチックに関する決定通知\n\nソーン博士へ、\n\n貴殿の助成金申請が承認されましたことを喜んでお知らせいたします。しかしながら、当基金の年間予算における予期せぬ財政的制約（fiscal constraints）のため、当初の抄録で申請された全額を支給することはできません。委員会は、申請金額の「正確に90%」での資金提供を承認しました。この調整（adjustment）により、貴殿のプロジェクトは当初の資金区分（funding bracket）から当基金の「エントリーレベル（入門級）助成金カテゴリー」に移行します。この新しい合計額を反映した修正予算案を来週までに提出してください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is the new total grant amount awarded to Dr. Thorne's project?",
+        "question_translation": "ソーン博士のプロジェクトに授与される、新しい総助成金額はいくらですか？",
+        "options": {
+          "A": "$90,000",
+          "B": "$99,000",
+          "C": "$100,000",
+          "D": "$110,000"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2によると、ソーン博士の申請額（Requested Funding）は「$110,000」です。しかし、文書3で審査委員会は「exactly 90% of your requested amount（申請額の正確に90%）」のみ資金提供すると通知しています。計算は以下の通りです：\n$110,000 × 0.90 ＝ $99,000\nしたがって、(B)が正解です。これは複数文書の情報を突き合わせる計算問題です。",
+        "options_explanations": {
+          "A": "【不正解】$90,000ではありません。割合（90%）と数値を誤認した引っ掛けです。",
+          "B": "【正解】申請額$110,000の90%である「$99,000」が正式な支給額となります。",
+          "C": "【不正解】$100,000はカテゴリー・アルファの上限額であり、実際の授与額ではありません。",
+          "D": "【不正解】$110,000は当初の申請額であり、減額前です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Into which grant category has Dr. Thorne's project shifted?",
+        "question_translation": "ソーン博士のプロジェクトは、どの助成金カテゴリーに移行しましたか？",
+        "options": {
+          "A": "Category Alpha",
+          "B": "Category Beta",
+          "C": "Category Gamma",
+          "D": "Executive Silver Category"
+        },
+        "correct_answer": "A",
+        "explanation": "当初のプロジェクト期間（18ヶ月）と金額（$110,000）に基づくと、当初のカテゴリーは「Category Beta（$100,001〜$250,000）」でした。しかし、90%に減額された新金額「$99,000」は「$100,000以下」に該当します。ガイドライン（文書1）を見ると、10万ドル以下のプロジェクトは「Category Alpha」です。また、文書3で「shifts your project... into our entry-level grant category（エントリーレベル＝最小枠のAlphaに移行した）」と説明されているため、(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】減額後の金額（$99,000）がガイドラインのCategory Alpha（最大$100,000まで）に収まるため、このカテゴリーにスライド（移行）しました。",
+          "B": "【不正解】Category Betaは、当初の申請額（$110,000）の時のカテゴリで、移行前です。",
+          "C": "【不正解】Category Gammaは25万ドルを超える大型枠です。",
+          "D": "【不正解】Silverは別パッセージのリトリートプランの名称です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What must Dr. Thorne do by next week?",
+        "question_translation": "ソーン博士は来週までに何をしなければなりませんか？",
+        "options": {
+          "A": "Complete the bio-polymer agricultural waste research",
+          "B": "Send a formal contract lease termination to Orion Office",
+          "C": "Submit an updated budget plan showing the new total",
+          "D": "Negotiate a 10% discount for a three-year term"
+        },
+        "correct_answer": "C",
+        "explanation": "文書3の最後に「Please submit a modified budget plan reflecting this new total by next week.（この新しい合計額を反映した修正予算案を来週までに提出してください）」とあるため、(C)が正解です。「modified budget plan」が「updated budget plan」と言い換えられています。",
+        "options_explanations": {
+          "A": "【不正解】研究自体を来週までに完了させるのは不可能です。期間は18ヶ月です。",
+          "B": "【不正解】リース解約手続き（別パッセージのプリンターリースの話）は無関係です。",
+          "C": "【正解】減額合意に伴う「modified budget plan」の提出が義務付けられています。",
+          "D": "【不正解】10%家賃割引交渉（別パッセージのSuite 30の賃貸借契約）は無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_009",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Recall Notice: FitPro Smartwatch Batches",
+    "passage_text": "[Document 1: Product Safety Recall Notice]\nTitle: Recall Notice: FitPro Smartwatch Batches\n\nFitPro Technologies is issuing a voluntary recall on specific production runs of our Model FP-5 smartwatch due to an inadvertent assembly error that causes battery overheating.\n* Batch A (Serial Numbers 1000 to 1999) — Manufactured at Munich Facility\n* Batch B (Serial Numbers 2000 to 2999) — Manufactured at Seoul Facility\n* Batch C (Serial Numbers 3000 to 3999) — Manufactured at Munich Facility\n\n[Document 2: Retailer Shipping Invoice]\nTitle: Shipping Invoice: Seoul Logistics Hub\n\nInvoice Number: SL-99401\nShip To: Prime Electronics (Boston Store)\nProduct: FitPro Smartwatch (Model FP-5)\nQuantity: 100 units\nSerial Numbers: 2400 to 2499\nDate of Dispatch: July 12\nOrigin: Seoul Manufacturing Plant\n\n[Document 3: Customer Service Correspondence]\nTo: Customer Support <support@fitpro.com>\nFrom: David Vance <dvance@webmail.com>\nDate: August 5\nSubject: Overheating issue on Model FP-5\n\nDear Customer Support,\n\nI purchased a FitPro Smartwatch from the Prime Electronics store in Boston last month. Recently, the device has become extremely hot during charging, which is a major safety concern. I looked up my device information, and the serial number is 2450. Since I bought this watch very recently, I would like to confirm if my specific unit is included in the voluntary recall, and what steps I must take to receive a complete refund.\n\nSincerely,\nDavid Vance",
+    "passage_translation": "[文書1：製品安全回収（リコール）に関するお知らせ]\nタイトル：リコール告示：フィットプロ・スマートウォッチ製造ロット\n\nフィットプロ・テクノロジーズ（FitPro Technologies）は、バッテリー過熱の原因となる予期せぬ組み立て上の誤り（inadvertent assembly error）のため、当社製スマートウォッチ「モデル FP-5」の特定の生産ロットについて自主回収を行っています。\n* ロットA（シリアル番号 1000 〜 1999）：ミュンヘン工場で製造\n* ロットB（シリアル番号 2000 〜 2999）：ソウル工場で製造\n* ロットC（シリアル番号 3000 〜 3999）：ミュンヘン工場で製造\n\n[文書2：販売店用配送インボイス]\nタイトル：出荷送り状：ソウル物流拠点\n\n請求書番号：SL-99401\n配送先：プライム・エレクトロニクス（ボストン店）\n製品：FitPro スマートウォッチ（モデル FP-5）\n数量：100台\nシリアル番号：2400 〜 2499\n発送日：7月12日\n原産地（製造元）：ソウル製造工場（Seoul Manufacturing Plant）\n\n[文書3：カスタマーサポートメールの往復]\n宛先：カスタマーサポート <support@fitpro.com>\n差出人：デヴィッド・ヴァンス <dvance@webmail.com>\n日付：8月5日\n件名：モデル FP-5 の過熱問題について\n\nカスタマーサポート担当者様、\n\n先月、ボストンのプライム・エレクトロニクス店（Prime Electronics）で「FitPro スマートウォッチ」を購入しました。最近、充電中にデバイスが非常に熱くなり、重大な安全上の懸念となっています。自分のデバイスの情報を確認したところ、シリアル番号は「2450」でした。非常に最近このウォッチを購入したため、私の特定の個体が自主リコールに含まれているかどうかを確認し、全額返金（complete refund）を受けるためにどのような手順を踏むべきか教えてください。\n\n敬具\nデヴィッド・ヴァンス",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Is David Vance's smartwatch eligible for a refund under the recall?",
+        "question_translation": "デヴィッド・ヴァンス氏のスマートウォッチは、リコールに基づく返金の対象となりますか？",
+        "options": {
+          "A": "No, because his watch was manufactured at the Munich Facility.",
+          "B": "No, because his serial number falls under Batch C.",
+          "C": "Yes, because his watch is in Batch B and has a defect.",
+          "D": "Yes, because all Model FP-5 watches are recalled regardless of serial numbers."
+        },
+        "correct_answer": "C",
+        "explanation": "文書1の自主回収リストによると、リコール対象は「Batch A (1000-1999)」「Batch B (2000-2999)」「Batch C (3000-3999)」です。デヴィッド・ヴァンス氏（文書3）のシリアル番号は「2450」であり、これはBatch B（2000〜2999）の範囲に属します。また、彼の購入店であるボストン店には、文書2のインボイスに従ってシリアル番号「2400〜2499（Batch Bに合致）」がソウル工場から納品されていたことが確認できます。したがって、彼の個体はリコールに合致し、返金対象となるため、(C)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】ミュンヘン工場ではなく、彼の個体の製造番号からソウル工場（Batch B）で製造されたことがインボイスより特定できます。Batch Bもリコール対象です。",
+          "B": "【不正解】彼のシリアルは2450なので、Batch C（3000-3999）ではありません。",
+          "C": "【正解】シリアル2450は、リコール対象の「Batch B（2000〜2999）」の範囲内にあり、不具合を報告しているため返金対象になります。",
+          "D": "【不正解】すべてのFP-5が対象ではなく、「特定ロット（Specific production runs）」、つまりBatch A, B, Cのみが回収対象です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Where was Mr. Vance's specific smartwatch manufactured?",
+        "question_translation": "ヴァンス氏の特定のスマートウォッチはどこで製造されましたか？",
+        "options": {
+          "A": "Munich Facility",
+          "B": "Seoul Facility",
+          "C": "Boston Office",
+          "D": "Oakville Plant"
+        },
+        "correct_answer": "B",
+        "explanation": "ヴァンス氏のシリアル番号「2450」はBatch Bに該当します。リコール告示（文書1）において「Batch B — Manufactured at Seoul Facility（ソウル工場）」とあり、またインボイス（文書2、シリアル2400-2499）の発送元も「Seoul Manufacturing Plant」とあるため、製造地は(B)「Seoul Facility（ソウル工場）」です。",
+        "options_explanations": {
+          "A": "【不正解】ミュンヘン工場はBatch AおよびCの製造地です。",
+          "B": "【正解】シリアル番号が2000〜2999のBatch Bに属しており、製造地はソウル（Seoul）です。",
+          "C": "【不正解】ボストンは購入した店舗（Prime Electronics）の所在地であり、製造地ではありません。",
+          "D": "【不正解】オークビルは別パッセージのゼニス社の新工場建設予定地です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What is the primary technical issue described by Mr. Vance?",
+        "question_translation": "ヴァンス氏が説明している主な技術的問題は何ですか？",
+        "options": {
+          "A": "The screen of the smartwatch flickers constantly.",
+          "B": "The battery becomes extremely hot when charging.",
+          "C": "The glass turntable does not rotate during use.",
+          "D": "The device cannot connect to the company's internal server."
+        },
+        "correct_answer": "B",
+        "explanation": "文書3において、ヴァンス氏は「Recently, the device has become extremely hot during charging（最近、充電中にデバイスが非常に熱くなる）」と報告しており、これは文書1のリコール理由「battery overheating」と一致するため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】モニターのチラつき（別パッセージのライト氏の不満）と混同しています。",
+          "B": "【正解】スマートウォッチの「過熱（overheating）」が、安全上の最大の問題として指摘されています。",
+          "C": "【不正解】ターンテーブルが回転しない（別パッセージの電子レンジ修理依頼）と混同しています。",
+          "D": "【不正解】サーバー接続不可（別パッセージの在宅勤務問題）と混同しています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_900_010",
+    "target_level": 900,
+    "document_type": "Reading",
+    "title": "Global Logistics Transit Rates",
+    "passage_text": "[Document 1: Freight Shipping Cost Matrix]\nTitle: Global Logistics Transit Rates\n\nGlobal Logistics offers three shipping modes for cargo transport from Chicago to Toronto:\n* Ocean Freight: Cost $1.00 per kg | Transit Time 20 days\n* Rail Freight: Cost $2.50 per kg | Transit Time 10 days\n* Air Freight: Cost $5.00 per kg | Transit Time 3 days\nAll options are subject to a standard fuel surcharge depending on current oil prices.\n\n[Document 2: Logistics Coordinator's Memorandum]\nTo: Operations Team\nFrom: Helen Miller\nDate: October 5\nSubject: Transport of Raw Materials (Order #RM-401)\n\nDear Team,\n\nWe must arrange the transport of 4,000 kilograms of specialized raw materials from our Chicago warehouse to the Toronto facility. Due to our tight production schedule, the shipment must arrive in Toronto within exactly twelve days. However, to keep our operational costs low, we cannot exceed a total shipping budget of $11,000. Please select the most economical shipping option that complies with these time restrictions.\n\n[Document 3: Delivery Manifest and Confirmation]\nTitle: Global Logistics Delivery Manifest\n\nManifest ID: GL-401-RM\nCarrier: National Rail Corp\nDate of Departure: October 7\nDate of Arrival: October 17\nCargo Weight: 4,000 kg\nBase Shipping Fee: $10,000.00\nFuel Surcharge: $500.00\nTotal Invoiced Cost: $10,500.00\n\nDelivery Status: Completed Successfully (Signed by J. Sterling)",
+    "passage_translation": "[文書1：貨物運送料金マトリックス]\nタイトル：グローバル・ロジスティクス輸送レート\n\nグローバル・ロジスティクスは、シカゴからトロントへの貨物輸送において、以下の3つの配送方法を提供しています：\n* 海上貨物（Ocean Freight）：費用 1.00ドル / kg | 輸送時間 20日\n* 鉄道貨物（Rail Freight）：費用 2.50ドル / kg | 輸送時間 10日\n* 航空貨物（Air Freight）：費用 5.00ドル / kg | 輸送時間 3日\nすべてのオプションは、現在の原油価格に応じた標準燃料サーチャージの対象となります。\n\n[文書2：物流担当者からの社内メモ]\n宛先：業務運用チーム\n差出人：ヘレン・ミラー\n日付：10月5日\n件名：原材料の輸送（注文番号 #RM-401）について\n\nチームの皆様へ、\n\nシカゴの倉庫からトロントの施設まで、4,000キログラムの特殊な原材料の輸送を手配しなければなりません。厳しい生産スケジュールのために、貨物は正確に12日以内（within exactly twelve days）にトロントに到着する必要があります。しかし、運用コストを低く抑えるため、運送総予算11,000ドルを超えることはできません。これらの時間制限を遵守する、最も経済的な（most economical）配送方法を選択してください。\n\n[文書3：配達マニフェスト兼完了確認書]\nタイトル：グローバル・ロジスティクス配達マニフェスト\n\n積荷目録ID：GL-401-RM\n運送会社：ナショナル鉄道（National Rail Corp）\n出発日：10月7日\n到着日：10月17日\n貨物重量：4,000 kg\n基本配送料金：10,000.00ドル\n燃料サーチャージ：500.00ドル\n請求総額：10,500.00ドル\n\n配達状況：完了（J.スターリングによる署名）",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Which freight shipping mode was selected for Order #RM-401?",
+        "question_translation": "注文番号 #RM-401 に選択された貨物輸送方法（モード）はどれですか？",
+        "options": {
+          "A": "Ocean Freight",
+          "B": "Rail Freight",
+          "C": "Air Freight",
+          "D": "Express Standard Truck"
+        },
+        "correct_answer": "B",
+        "explanation": "ヘレン（文書2）は、4,000 kgの原材料を「12日以内」かつ「予算$11,000以内」で運ぶ最も経済的な方法を選択するよう指示しています。コストを比較（文書1）します：\n1. Ocean: $1.00 × 4000 ＝ $4000 / 20日 $\rightarrow$ 12日以内という期限を満たせず不可。\n2. Rail: $2.50 × 4000 ＝ $10,000 / 10日 $\rightarrow$ 期限内（10日）かつ予算内（$10,000は$11,000未満）でクリア。\n3. Air: $5.00 × 4000 ＝ $20,000 / 3日 $\rightarrow$ 予算超過で不可。\nしたがって、「Rail Freight（鉄道貨物）」が選ばれ、文書3の実際の配達マニフェストでも「Carrier: National Rail Corp（ナショナル鉄道）」および総額「$10,500（基本$10000＋サーチャージ$500）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】Oceanは輸送に20日かかり、12日の納期制限に間に合いません。",
+          "B": "【正解】12日以内、予算1万1千ドル以下の条件を満たす唯一かつ最安の輸送手段が「Rail Freight」です。",
+          "C": "【不正解】Airは費用が2万ドルに達し、1万1千ドルの予算制限を超過します。",
+          "D": "【不正解】Express Truckは選択肢としてリストにありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "According to Document 3, what is the total cost invoiced to the company?",
+        "question_translation": "文書3によると、会社に請求された総運送費用はいくらですか？",
+        "options": {
+          "A": "$4,000.00",
+          "B": "$10,000.00",
+          "C": "$10,500.00",
+          "D": "$11,000.00"
+        },
+        "correct_answer": "C",
+        "explanation": "文書3の配達マニフェスト（最終請求）において、「Total Invoiced Cost: $10,500.00」（基本料金 $10,000.00 ＋ 燃料サーチャージ $500.00）と明記されているため、(C)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】$4,000.00はOceanを適用した場合の基本配送料金です（選択されていません）。",
+          "B": "【不正解】$10,000.00はRailの基本料金であり、サーチャージが含まれていない部分料金です。",
+          "C": "【正解】基本配送料$10,000に燃料サーチャージ$500を加えた「$10,500.00」が最終請求総額です。",
+          "D": "【不正解】$11,000.00は設定された予算の上限金額です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "How many days did the actual transit of the raw materials take?",
+        "question_translation": "原材料の実際の輸送には何日かかりましたか？",
+        "options": {
+          "A": "3 days",
+          "B": "10 days",
+          "C": "12 days",
+          "D": "20 days"
+        },
+        "correct_answer": "B",
+        "explanation": "文書3の「Date of Departure: October 7（10月7日出発）」および「Date of Arrival: October 17（10月17日到着）」という記録から、17 - 7 ＝ 10日間（10 days）かかったことがわかり、これは文書1におけるRailの予定輸送日数「10 days」と完全に一致するため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】3日間はAir Freight（航空便）を利用した場合の予定日数です。",
+          "B": "【正解】10月7日発〜10月17日着であり、実際の輸送期間は「10日間」でした。",
+          "C": "【不正解】12日間は許容されていた最大の納期期限です。",
+          "D": "【不正解】20日間はOcean Freight（船便）を利用した場合の予定日数です。"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,673 @@
+[
+  {
+    "passage_id": "p7_700_001",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Reading Comprehension",
+    "passage_text": "[Document 1: Customer Complaint Email]\nTo: Customer Support <support@vanguardtech.com>\nFrom: Thomas Wright <twright@netlink.com>\nDate: January 14\nSubject: Defective Office Monitor (Order #VT-773)\n\nDear Customer Support,\n\nI am writing to report an issue with the UltraView 24 monitor that I purchased from your website last month. The item was delivered to my office on December 18. Although the device worked perfectly initially, the screen has recently started to flicker constantly, making it impossible to use for my daily tasks. I have already tried replacing the video cables, but this has not resolved the problem. Since the product is still covered by your one-year warranty, I would like to request a replacement. I hope we can coordinate a quick exchange, as I rely heavily on this monitor for my work.\n\nSincerely,\nThomas Wright\n\n[Document 2: Customer Support Reply]\nTo: Thomas Wright <twright@netlink.com>\nFrom: support@vanguardtech.com\nDate: January 15\nSubject: Re: Defective Office Monitor (Order #VT-773)\n\nDear Mr. Wright,\n\nThank you for contacting Vanguard Tech. We sincerely apologize for the inconvenience this defective monitor has caused you. We have already processed your request for a replacement unit, which will be shipped to your address today. Our delivery team will also coordinate the pickup of your defective monitor at no extra charge. Please place the original monitor in its packaging for the courier. Please note that we have modified our return policy slightly; you will receive a prepaid shipping label via email, which must be attached to the box. We appreciate your patience.\n\nBest regards,\nVanguard Support Team",
+    "passage_translation": "[文書1：顧客からの苦情メール]\n宛先：カスタマーサポート <support@vanguardtech.com>\n差出人：トーマス・ライト <twright@netlink.com>\n日付：1月14日\n件名：欠陥のあるオフィス用モニター（注文番号 #VT-773）\n\nカスタマーサポート担当者様、\n\n先月貴社のウェブサイトで購入した「UltraView 24」モニターの問題について報告するためにメールを書いています。商品は12月18日に私のオフィスに届きました。最初は完全に動作していましたが、最近画面が絶えずちらつくようになり、日々の業務に使用できなくなりました。すでにビデオケーブルの交換を試みましたが、問題は解決しませんでした。製品はまだ1年間の保証期間内ですので、代替品の交換を依頼したく存じます。仕事でこのモニターに大きく依存しているため、迅速な交換を調整（coordinate）できることを願っています。\n\n敬具\nトーマス・ライト\n\n[文書2：カスタマーサポートからの返信]\n宛先：トーマス・ライト <twright@netlink.com>\n差出人：support@vanguardtech.com\n日付：1月15日\n件名：返信：欠陥のあるオフィス用モニター（注文番号 #VT-773）\n\nライト様、\n\nヴァンガード・テックにお問い合わせいただきありがとうございます。このたびは、欠陥モニターによってご不便をおかけしましたことを心よりお詫び申し上げます。すでに代替品のご要望を処理させていただき、本日お客様のご住所に向けて発送いたします。また、当社の配送チームが、不具合のあるモニターの引き取りを無料で調整（coordinate）いたします。元のモニターを宅配便業者のために梱包材に入れておいてください。返品ポリシーを少し変更（modify）いたしましたのでご注意ください。Eメールでプリペイド式の配送ラベルをお送りしますので、それを箱に貼り付けていただく必要があります。ご理解に感謝いたします。\n\n敬具\nヴァンガード・サポートチーム",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Why did Mr. Wright write to Vanguard Tech?",
+        "question_translation": "ライト氏はなぜヴァンガード・テックにメールを書いたのですか？",
+        "options": {
+          "A": "To request a copy of his sales invoice",
+          "B": "To report a problem with a recent purchase",
+          "C": "To cancel an online order before dispatch",
+          "D": "To ask for assistance in installing video cables"
+        },
+        "correct_answer": "B",
+        "explanation": "ライト氏は「UltraView 24 monitor」について「the screen has recently started to flicker constantly, making it impossible to use（画面が絶えずちらつき、使用できない）」と述べており、故障を報告しているため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】請求書のコピーを請求する内容ではありません。",
+          "B": "【正解】最近購入したモニターの画面不具合（problem）を報告（report）することが主目的です。",
+          "C": "【不正解】発送前の注文キャンセルではなく、すでに届いた商品の不具合対応を求めています。",
+          "D": "【不正解】すでに自分でケーブル交換を試みたと書いてありますが、ケーブル接続のサポートを求めているわけではありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "In Document 2, the word 'modified' in line 7 is closest in meaning to",
+        "question_translation": "文書2の第7行目にある 'modified' という単語に最も意味が近いのはどれですか？",
+        "options": {
+          "A": "canceled",
+          "B": "monitored",
+          "C": "changed",
+          "D": "replicated"
+        },
+        "correct_answer": "C",
+        "explanation": "文書2において「modified our return policy slightly」は「返品ポリシーを少し変更した」という意味です。したがって、(C)「changed（変更した）」が最も近い意味になります。これは700点レベルの標準的な言い換え（Paraphrasing）パターンです。",
+        "options_explanations": {
+          "A": "【不正解】canceledは「中止した」という意味になり、変更とは異なります。",
+          "B": "【不正解】monitoredは「監視した」という意味で、不適切です。",
+          "C": "【正解】modifyとchangeは、TOEIC Part 7における王道の類義語言い換えペアです。",
+          "D": "【不正解】replicatedは「複製した」「再現した」という意味で、無関係です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What is indicated about the return process for Mr. Wright?",
+        "question_translation": "ライト氏の返品手続きについて、何が示されていますか？",
+        "options": {
+          "A": "He must pay a courier fee for shipping the unit.",
+          "B": "He must print and attach a prepaid shipping label.",
+          "C": "He has to wait for a service desk call next Tuesday.",
+          "D": "He needs to request a new warranty card first."
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において「you will receive a prepaid shipping label via email, which must be attached to the box（電子メールでプリペイド式の配送ラベルを受け取り、それを箱に貼り付ける必要がある）」と説明されており、さらに引き取りは無料（at no extra charge）と書かれているため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】引き取りは「at no extra charge（無料）」と明記されています。",
+          "B": "【正解】メールで届く「prepaid shipping label」を印刷して貼り付ける（attach）必要があります。",
+          "C": "【不正解】来週火曜日にサポートデスクから電話を待つような指示はありません。",
+          "D": "【不正解】新しい保証書の請求手続きは不要です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_002",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Senior Marketing Coordinator Wanted",
+    "passage_text": "[Document 1: Job Advertisement]\nTitle: Senior Marketing Coordinator Wanted\n\nStellar Media Group is seeking a highly qualified professional to join our promotional team in Boston. The successful candidate will coordinate digital marketing campaigns, analyze consumer data, and implement brand strategies. A minimum of five years of experience in a similar role is required. Candidates must possess a university degree in marketing or communications. Strong communication skills and the ability to work under tight deadlines are essential. We offer a competitive salary, comprehensive health benefits, and flexible working hours. To apply, please submit your resume to recruitment@stellarmedia.com before April 30.\n\n[Document 2: Cover Letter Email]\nTo: Stellar Media Recruitment <recruitment@stellarmedia.com>\nFrom: Angela Morrison <a.morrison@webmail.com>\nDate: April 20\nSubject: Application: Senior Marketing Coordinator\n\nDear Hiring Manager,\n\nI am writing to express my interest in the Senior Marketing Coordinator position advertised on your website. I have spent the last six years managing promotional initiatives at a regional retail corporation. During my tenure there, I successfully implemented several online advertising campaigns that increased digital sales by twenty percent. I hold a bachelor’s degree in public relations and believe my experience makes me highly qualified for this role. I have enclosed my resume for your assessment. I look forward to the opportunity to discuss how my skills can benefit your team.\n\nSincerely,\nAngela Morrison",
+    "passage_translation": "[文書1：求人広告]\nタイトル：シニア・マーケティングコーディネーター募集\n\nステラ・メディア・グループでは、ボストンのプロモーションチームに参加していただける、優秀で適格な（qualified）専門職を求めています。採用された候補者は、デジタルマーケティングキャンペーンの調整（coordinate）、消費者データの分析、ブランド戦略の実行（implement）を担当します。同様の職務において最低5年の経験が必要です。マーケティングまたはコミュニケーション分野での大卒学位が必須です。優れたコミュニケーション能力と、厳しい締め切りの下で働く能力が求められます。魅力的な給与、包括的な健康支援制度、およびフレックスタイム制を提供します。応募するには、4月30日までに履歴書を recruitment@stellarmedia.com まで提出してください。\n\n[文書2：カバーレターのメール]\n宛先：ステラ・メディア採用担当 <recruitment@stellarmedia.com>\n差出人：アンジェラ・モリソン <a.morrison@webmail.com>\n日付：4月20日\n件名：応募：シニア・マーケティングコーディネーター\n\n採用マネージャー様、\n\n貴社のウェブサイトで宣伝されていたシニア・マーケティングコーディネーター職への応募に関し、私の強い関心を伝えるためにメールを書いています。私は地方の小売企業で、プロモーション活動の管理を過去6年間担当してきました。在職中、いくつかのオンライン広告キャンペーンを成功裏に実行（implement）し、デジタル売上を20%増加させました。私は広報（public relations）の学士号を取得しており、自分の経験からこの職務に非常に適格である（qualified）と確信しています。検討（assessment）のために履歴書を添付いたしました。私のスキルが貴社チームにどのように貢献できるか話し合う機会を楽しみにしています。\n\n敬具\nアンジェラ・モリソン",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What requirement for the position does Ms. Morrison satisfy?",
+        "question_translation": "モリソン氏は、この職種のどの要件を満たしていますか？",
+        "options": {
+          "A": "Having a degree in public relations",
+          "B": "Over five years of experience in promotional management",
+          "C": "Ability to move to Chicago next month",
+          "D": "Experience in running a local retail boutique"
+        },
+        "correct_answer": "B",
+        "explanation": "求人広告（文書1）では「A minimum of five years of experience in a similar role is required.」とあり、モリソン氏はカバーレター（文書2）で「I have spent the last six years managing promotional initiatives（プロモーション活動の管理を過去6年間担当してきた）」と述べているため、(B)「5年以上のプロモーション管理の経験」という要件を満たしています。",
+        "options_explanations": {
+          "A": "【不正解】広告で求められている学位は「marketing or communications」であり、「public relations」そのものは広告に指定されていないため、厳密な「満たしている広告要件」としては(B)が極めて正確です。",
+          "B": "【正解】広告の「最低5年」に対し、モリソン氏は「6年間」の経験があり、要件を満たしています。",
+          "C": "【不正解】シカゴへの移転要件や言及はありません。",
+          "D": "【不正解】小売店の「経営」ではなく、プロモーションの「管理（managing）」です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "In Document 1, the word 'qualified' is closest in meaning to",
+        "question_translation": "文書1の 'qualified' という単語に最も意味が近いのはどれですか？",
+        "options": {
+          "A": "ambitious",
+          "B": "certified",
+          "C": "eligible",
+          "D": "disciplined"
+        },
+        "correct_answer": "C",
+        "explanation": "求人広告において「highly qualified professional（非常に適格な専門職）」とは、条件を満たして資格や能力があることを意味します。したがって、(C)「eligible（資格のある、適格な）」が最も近い意味を持ちます。",
+        "options_explanations": {
+          "A": "【不正解】ambitiousは「野心的な」という意味で、適格とは異なります。",
+          "B": "【不正解】certifiedは「証明された」「資格を公的に認定された」という意味ですが、qualified（資質がある、適した）に比べると範囲が狭まります。",
+          "C": "【正解】qualifiedとeligibleは、TOEIC Part 7において条件適合を示す代表的な言い換えです。",
+          "D": "【不正解】disciplinedは「規律正しい」という意味で、無関係です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "How did Ms. Morrison submit her application?",
+        "question_translation": "モリソン氏はどのようにして応募書類を提出しましたか？",
+        "options": {
+          "A": "By calling the hiring office directly",
+          "B": "By sending an email with a resume attached",
+          "C": "By filling out an online form on Stellar Media's website",
+          "D": "By posting a paper copy of her cover letter via standard mail"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2はカバーレターの電子メール（Email）であり、「I have enclosed my resume for your assessment.（検討のために履歴書を同封/添付しました）」と述べていることから、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】電話での応募ではありません。",
+          "B": "【正解】メールに履歴書を添付（enclose/attach）して送信しています。",
+          "C": "【不正解】ウェブサイト上の入力フォームによる提出ではありません。",
+          "D": "【不正解】郵送での提出ではありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_003",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Reading Comprehension",
+    "passage_text": "[Document 1: Policy Memo]\nTo: All Department Heads\nFrom: HR Operations\nDate: May 12\nSubject: Implementation of Remote Work Guidelines\n\nPlease be advised that the new remote work policy will be implemented starting June 1. Under these guidelines, employees may work from home up to two days per week, provided that their tasks can be completed remotely and their weekly schedules are approved by their supervisors. Each department head must coordinate schedule rosters to ensure that office operations are not disrupted. We believe this option will improve employee satisfaction and productivity. Detailed training sessions regarding remote collaboration tools will be conducted next week to facilitate this transition.\n\n[Document 2: Inquiry Email]\nTo: HR Operations <hr.ops@company.com>\nFrom: James Sterling <j.sterling@company.com>\nDate: May 13\nSubject: Question Regarding Remote Work Policy\n\nDear HR Operations,\n\nThank you for the detailed memo regarding the upcoming remote work policy. I believe this initiative will be highly beneficial for our department. However, I would like to clarify one point. My design team currently utilizes a highly specialized server that can only be accessed from our physical office building. Is it possible for us to modify our schedules so that we work remotely only on days that do not require server access? Additionally, I would like to know if we can schedule a separate training session specifically for our team's native software tools.\n\nSincerely,\nJames Sterling",
+    "passage_translation": "[文書1：ポリシーに関する社内メモ]\n宛先：全部門長\n差出人：人事運営部\n日付：5月12日\n件名：在宅勤務ガイドラインの導入について\n\n新しい在宅勤務ポリシーが6月1日より実施（implement）されますのでお知らせいたします。このガイドラインに基づき、業務がリモートで完了でき、週ごとのスケジュールが上司によって承認されることを条件に、従業員は週に最大2日間まで自宅から勤務することができます。各部門長は、オフィス業務が滞らないよう、勤務予定表（roster）を調整（coordinate）しなければなりません。この選択肢により、従業員の満足度と生産性が向上すると信じています。この移行を円滑にするため、リモートコラボレーションツールに関する詳細なトレーニングセッションが来週実施されます。\n\n[文書2：問い合わせのメール]\n宛先：人事運営部 <hr.ops@company.com>\n差出人：ジェームズ・スターリング <j.sterling@company.com>\n日付：5月13日\n件名：在宅勤務ポリシーに関する質問\n\n人事運営部様、\n\n近く導入される在宅勤務ポリシーに関する詳細な社内メモをありがとうございました。この取り組みは当部門にとって非常に有益であると確信しています。しかし、1点確認させてください。現在、私のデザインチームは、実際のオフィスビルからしかアクセスできない非常に特殊なサーバーを使用しています。サーバーへのアクセスを必要としない日にのみリモートワークを行うように、私たちのスケジュールを変更（modify）することは可能でしょうか？また、私たちのチームの独自のソフトウェアツールに特化した別のトレーニングセッションをスケジュールすることは可能でしょうか？\n\n敬具\nジェームズ・スターリング",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is department heads required to do under the new policy?",
+        "question_translation": "新しいポリシーの下で、部門長は何をすることが求められていますか？",
+        "options": {
+          "A": "Train employees in hardware server setup",
+          "B": "Coordinate schedules to prevent business disruption",
+          "C": "Increase physical office space for designers",
+          "D": "Perform monthly salary evaluations"
+        },
+        "correct_answer": "B",
+        "explanation": "文書1において「Each department head must coordinate schedule rosters to ensure that office operations are not disrupted.（オフィス業務が滞らないよう、部門長が勤務予定表を調整しなければならない）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】サーバーのセットアップ研修は部門長の要件ではありません。",
+          "B": "【正解】本文の「coordinate schedule rosters to ensure... not disrupted」がそのまま言い換えられています。",
+          "C": "【不正解】オフィススペースの拡張については述べられていません。",
+          "D": "【不正解】月次の給与評価については言及されていません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What concern does Mr. Sterling raise about his team?",
+        "question_translation": "スターリング氏は、自身のチームに関してどのような懸念を提起していますか？",
+        "options": {
+          "A": "They do not know how to log out of their computers.",
+          "B": "They cannot access their specialized server from home.",
+          "C": "They are unavailable for training next week.",
+          "D": "They prefer to work five days a week remotely."
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において「My design team currently utilizes a highly specialized server that can only be accessed from our physical office building.（デザインチームの特殊サーバーは物理オフィスからしかアクセスできない）」と述べているため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】ログアウト方法がわからないという懸念ではありません（別の500レベルのパッセージの連想引っ掛け）。",
+          "B": "【正解】サーバーがオフィスからしかアクセスできない（cannot access... from home）という物理的な制限を指摘しています。",
+          "C": "【不正解】来週のトレーニングに参加できないとは言っておらず、特定のソフト向け個別セッションを追加希望しています。",
+          "D": "【不正解】週5日リモートを希望しているわけではありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "When will the remote work guidelines go into effect?",
+        "question_translation": "在宅勤務ガイドラインはいつから有効になりますか？",
+        "options": {
+          "A": "On May 12",
+          "B": "On May 13",
+          "C": "On June 1",
+          "D": "Next week"
+        },
+        "correct_answer": "C",
+        "explanation": "文書1に「the new remote work policy will be implemented starting June 1.（新しいリモートワークポリシーは6月1日から実施される）」とあるため、(C)が正解です。May 12はメモの発行日であり、来週はトレーニングの開始時期です。",
+        "options_explanations": {
+          "A": "【不正解】5月12日は社内メモが書かれた日付です。",
+          "B": "【不正解】5月13日は問い合わせメールが書かれた日付です。",
+          "C": "【正解】ポリシーが実際に導入・発効する日（go into effect）として「June 1」が示されています。",
+          "D": "【不正解】「来週」行われるのは移行を促進するための「トレーニング」です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_004",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Apex Appliance Warranty Terms",
+    "passage_text": "[Document 1: Product Warranty Notice]\nTitle: Apex Appliance Warranty Terms\n\nApex Appliances guarantees that all kitchen products are free from defects in materials and workmanship under normal domestic use. This warranty is valid for two years from the date of original purchase. If a defect arises and a valid claim is received within the warranty period, Apex will either repair the appliance or replace it with a new product. Please note that this warranty does not cover damages caused by accidents, neglect, or unauthorized modifications. To obtain service, customers must present the original purchase receipt to verify the purchase date.\n\n[Document 2: Service Request Email]\nTo: Customer Care <care@apexappliances.com>\nFrom: Patricia Vance <pvance@email.com>\nDate: July 19\nSubject: Repair Request for Microwave (Model AP-300)\n\nDear Customer Care,\n\nI am writing to request a repair service for my Apex microwave, which I purchased on October 15 of last year. Recently, the glass turntable has stopped rotating during operation. I have kept the original sales receipt, which clearly verifies that the purchase was made within the active warranty duration. I have not attempted any modifications to the device myself. Since this problem appears to be a manufacturing defect, I expect the repair to be covered fully by Apex. Please let me know how to proceed with shipping the microwave to your center.\n\nSincerely,\nPatricia Vance",
+    "passage_translation": "[文書1：製品保証に関するお知らせ]\nタイトル：エイペックス製品保証規定\n\nエイペックス・アプライアンスは、すべてのキッチン製品について、通常の家庭内使用において材料および製造上の欠陥がないことを保証します。この保証は、最初の購入日から2年間有効です。保証期間内に欠陥が生じ、有効な請求が受理された場合、エイペックスは製品を修理するか、または新しい製品と交換します。事故、過失、または無許可の改造（modification）によって生じた損傷は、この保証の対象外となりますのでご注意ください。サービスを受けるには、購入日を証明（verify）するために、購入時の領収書の原本を提示する必要があります。\n\n[文書2：サービス依頼メール]\n宛先：カスタマーケア <care@apexappliances.com>\n差出人：パトリシア・ヴァンス <pvance@email.com>\n日付：7月19日\n件名：電子レンジ（モデル AP-300）の修理依頼\n\nカスタマーケア担当者様、\n\n昨年10月15日に購入したエイペックス製電子レンジの修理サービスを依頼したく、メールを書いております。最近、運転中にガラス製ターンテーブルが回転しなくなりました。購入が有効な保証期間内（active warranty duration）に行われたことを明確に証明（verify）する、領収書の原本を保管しております。私自身で装置に一切の改造を行っておりません。この問題は製造上の欠陥であると思われるため、修理費用は完全にエイペックスによってカバーされると期待しています。電子レンジを貴社のセンターに発送する手順についてお知らせください。\n\n敬具\nパトリシア・ヴァンス",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What requirement must be met to get free repair service?",
+        "question_translation": "無料の修理サービスを受けるためには、どの要件を満たす必要がありますか？",
+        "options": {
+          "A": "Registering the product within ten days of purchase",
+          "B": "Showing the original receipt to confirm the purchase date",
+          "C": "Paying a standard service fee online",
+          "D": "Returning the item to the local retail store"
+        },
+        "correct_answer": "B",
+        "explanation": "文書1において「To obtain service, customers must present the original purchase receipt to verify the purchase date.（サービスを受けるには、購入日を証明するために領収書の原本を提示しなければならない）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】購入後10日以内の登録義務はどこにも記載されていません。",
+          "B": "【正解】本文の「present the original purchase receipt to verify...」が「Showing the original receipt to confirm...」と言い換えられています。",
+          "C": "【不正解】保証期間内であれば無料であり、サービス料をオンラインで支払う必要はありません。",
+          "D": "【不正解】修理センターへ発送する手順を聞いており、小売店への返品指示はありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What is indicated about Ms. Vance's microwave warranty?",
+        "question_translation": "ヴァンス氏の電子レンジの保証について、何が示されていますか？",
+        "options": {
+          "A": "It has already expired.",
+          "B": "It is valid because the purchase was made within two years.",
+          "C": "It is void because she attempted unauthorized repairs.",
+          "D": "It only covers the glass turntable but not the motor."
+        },
+        "correct_answer": "B",
+        "explanation": "文書1で保証期間は「2年間（two years）」とされており、文書2でヴァンス氏は「purchased on October 15 of last year（去年の10月15日＝1年未満）」と述べているため、保証期間内であり、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】購入からまだ1年未満なので期限切れ（expired）ではありません。",
+          "B": "【正解】保証期間は2年であり、購入が「last year」のため、明らかに有効期間内です。",
+          "C": "【不正解】彼女は「I have not attempted any modifications（改造は試みていない）」と述べているため、保証は無効（void）になっていません。",
+          "D": "【不正解】部品ごとの適用対象の除外については書かれていません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "In Document 2, the word 'verifies' in line 6 is closest in meaning to",
+        "question_translation": "文書2の第6行目にある 'verifies' という単語に最も意味が近いのはどれですか？",
+        "options": {
+          "A": "denies",
+          "B": "confirms",
+          "C": "cancels",
+          "D": "estimates"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において「verifies that the purchase was made」は「購入が行われたことを証明・確認する」という意味です。したがって、(B)「confirms（確認する、証明する）」が最も近い意味になります。これは500〜700点レベルの重要言い換えペアです。",
+        "options_explanations": {
+          "A": "【不正解】deniesは「否定する」という意味で、逆の意味になります。",
+          "B": "【正解】verifyとconfirmは、「事実を確認・立証する」という文脈で非常によく言い換えられます。",
+          "C": "【不正解】cancelsは「取り消す」という意味で、不適切です。",
+          "D": "【不正解】estimatesは「見積もる」「予測する」という意味で、無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_005",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Annual Regional Business Summit",
+    "passage_text": "[Document 1: Event Announcement]\nTitle: Annual Regional Business Summit\n\nThe Metro Chamber of Commerce is pleased to host the Annual Regional Business Summit on September 15 at the Grand Plaza Hotel. This event brings together local leaders, innovators, and entrepreneurs to discuss economic growth. We have invited several prominent speakers to share their perspectives on global market trends. The main sessions will focus on sustainable business models and digital transformation. Registration is mandatory for all attendees and must be completed online by September 1. A light lunch will be provided for those who register for the full-day package.\n\n[Document 2: Schedule Update Email]\nTo: All Registered Attendees\nFrom: Summit Organizing Committee <info@metrochamber.org>\nDate: September 5\nSubject: Urgent Venue and Schedule Modification\n\nDear Attendees,\n\nWe are writing to inform you that we have modified the schedule for the upcoming Regional Business Summit. Due to an unexpected construction issue at the Grand Plaza Hotel, the venue has been shifted to the Lakeside Convention Center. The date of the event remains September 15. However, because the new venue is larger, we can now accommodate fifty additional participants. The opening speech will also be deferred by thirty minutes, starting at 9:30 A.M. instead of 9:00 A.M. We apologize for this adjustment and appreciate your understanding.",
+    "passage_translation": "[文書1：イベントのお知らせ]\n件名：年次地方ビジネスサミット\n\nメトロ商業会議所は、9月15日にグランドプラザホテルにて「年次地方ビジネスサミット」を開催できることを嬉しく思います。このイベントは、地方のリーダー、イノベーター、起業家が集まり、経済成長について議論するものです。世界的な市場トレンドに関する見解を共有するため、数名の著名な講演者を招待しています。メインセッションは、持続可能なビジネスモデルとデジタルトランスフォーメーションに焦点を当てます。参加者は全員登録が必須であり、9月1日までにオンラインで完了する必要があります。終日パッケージに登録した方には、軽いランチが提供されます。\n\n[文書2：スケジュール更新のメール]\n宛先：すべての登録済みの参加者様\n差出人：サミット組織委員会 <info@metrochamber.org>\n日付：9月5日\n件名：緊急：会場およびスケジュールの変更（modification）について\n\n参加者の皆様へ、\n\n今度の地方ビジネスサミットのスケジュールを変更（modify）しましたのでお知らせいたします。グランドプラザホテルでの予期せぬ工事問題により、会場はレイクサイド・コンベンションセンターに変更（shift）されました。イベントの開催日は9月15日のままです。しかし、新しい会場の方が広いため、さらに50名の参加者を受け入れることが可能になりました。また、開始の挨拶は30分延期（defer）され、午前9時ではなく午前9時30分から開始されます。この調整についてお詫び申し上げますとともに、皆様のご理解に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What was the original location of the summit?",
+        "question_translation": "サミットの元々の開催場所はどこでしたか？",
+        "options": {
+          "A": "Lakeside Convention Center",
+          "B": "Grand Plaza Hotel",
+          "C": "Apex Business Room",
+          "D": "Metro Chamber Auditorium"
+        },
+        "correct_answer": "B",
+        "explanation": "文書1において「Annual Regional Business Summit on September 15 at the Grand Plaza Hotel.（9月15日にグランドプラザホテルでサミットを開催する）」とあり、これが当初計画されていた場所なので、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】Lakeside Convention Centerは、文書2で変更された後の新しい会場です。",
+          "B": "【正解】当初の予定場所として「Grand Plaza Hotel」が明記されています。",
+          "C": "【不正解】Apex Business Roomは架空の場所です。",
+          "D": "【不正解】主催団体ですが、開催地ではありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "According to Document 2, why was the summit venue changed?",
+        "question_translation": "文書2によると、サミットの会場が変更された理由は何ですか？",
+        "options": {
+          "A": "The organizers wanted to accept more people.",
+          "B": "There was an unexpected construction issue at the hotel.",
+          "C": "A prominent speaker requested a different location.",
+          "D": "The original date had to be rescheduled to October."
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において「Due to an unexpected construction issue at the Grand Plaza Hotel, the venue has been shifted...（グランドプラザホテルでの予期せぬ工事問題のため、会場が変更された）」と説明されているため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】会場変更の結果として「より多くの参加者（50名追加）を受け入れられるようになった」とありますが、それが「変更された原因」そのものではありません。",
+          "B": "【正解】「unexpected construction issue」が直接的な変更理由として述べられています。",
+          "C": "【不正解】講演者からの要請ではありません。",
+          "D": "【不正解】開催日（September 15）は変更されていません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What is indicated about the opening speech?",
+        "question_translation": "開始の挨拶について、何が示されていますか？",
+        "options": {
+          "A": "It will start at 9:30 A.M.",
+          "B": "It will be delivered by James Sterling.",
+          "C": "It has been completely canceled.",
+          "D": "It will focus on corporate catering packages."
+        },
+        "correct_answer": "A",
+        "explanation": "文書2の最後に「The opening speech will also be deferred by thirty minutes, starting at 9:30 A.M. instead of 9:00 A.M.（開始の挨拶は30分延期され、午前9時ではなく午前9時30分開始となる）」とあるため、(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】延期後の開始時間が「9:30 A.M.」であることが明確に示されています。",
+          "B": "【不正解】スピーカーがジェームズ・スターリング（別のパッセージの登場人物）であるとは述べられていません。",
+          "C": "【不正解】延期されただけで、中止（canceled）ではありません。",
+          "D": "【不正解】ケータリング（別のパッセージの情報）については無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_006",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Reading Comprehension",
+    "passage_text": "[Document 1: Office Relocation Memo]\nTo: All Staff Members\nFrom: Logistics Committee\nDate: October 10\nSubject: Upcoming Office Renovation and Move\n\nAs part of our commitment to modernizing our workspace, the third-floor offices will undergo comprehensive renovations starting next month. To minimize disruption, the relocation has been divided into two phases. The Sales and Marketing teams will move to the temporary offices on the first floor on November 1. The Accounting and HR departments will remain in their current spaces until November 15, after which they will occupy the newly renovated second floor. We have coordinated with a professional moving firm to assist in transferring all desktop computers and files safely.\n\n[Document 2: Feedback Email]\nTo: Logistics Committee <logistics@office.com>\nFrom: Helen Reynolds <hreynolds@office.com>\nDate: October 12\nSubject: Question Regarding Relocation Schedule\n\nDear Logistics Committee,\n\nThank you for the detailed information regarding the upcoming office renovation. Our marketing team is looking forward to the newly designed space. However, I would like to request a slight adjustment to our moving date. We have scheduled an important client presentation for November 1, and preparing our materials while moving offices simultaneously will be extremely difficult. Would it be possible to modify our shift so that we move on November 3 instead? This delay would greatly help us ensure a successful presentation for our clients.\n\nBest regards,\nHelen Reynolds",
+    "passage_translation": "[文書1：オフィスの移転に関する社内メモ]\n宛先：全スタッフの皆様へ\n差出人：ロジスティクス委員会\n日付：10月10日\n件名：近く行われるオフィスの改修および移転について\n\nワークスペースの近代化への取り組みの一環として、来月から3階オフィスで全面的な改修工事が行われます。混乱を最小限に抑えるため、移転は2つのフェーズに分割されています。営業チームとマーケティングチームは、11月1日に1階の仮設オフィスに移転します。経理部と人事部は11月15日まで現在のスペースに留まり、その後、新しく改修された2階に移ります。すべてのデスクトップコンピュータとファイルを安全に運ぶため、専門の引っ越し業者と調整（coordinate）を行いました。\n\n[文書2：フィードバックメール]\n宛先：ロジスティクス委員会 <logistics@office.com>\n差出人：ヘレン・レイノルズ <hreynolds@office.com>\n日付：10月12日\n件名：移転スケジュールに関する質問\n\nロジスティクス委員会様、\n\n近く行われるオフィス改修に関する詳細な情報をありがとうございました。私たちのマーケティングチームは、新しく設計されたスペースを楽しみにしています。しかし、移動日を少し調整（adjustment）していただくよう依頼したく存じます。私たちは11月1日に重要なクライアントプレゼンテーションを予定しており、オフィス移転と同時に資料を準備することは非常に困難です。移動（shift）を11月3日に変更（modify）することは可能でしょうか？この延期（delay）により、クライアント向けのプレゼンテーションを確実に成功させることができます。\n\n敬具\nヘレン・レイノルズ",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Which departments are scheduled to relocate on November 15?",
+        "question_translation": "11月15日に移転が予定されている部門はどれですか？",
+        "options": {
+          "A": "Sales and Marketing",
+          "B": "Accounting and HR",
+          "C": "Logistics and Support",
+          "D": "IT and Security"
+        },
+        "correct_answer": "B",
+        "explanation": "文書1の「The Accounting and HR departments will remain... until November 15, after which they will occupy...（経理部と人事部は11月15日まで留まり、その後移転する）」という記述から、(B)が正解です。11月1日に移転するのは「Sales and Marketing」です。",
+        "options_explanations": {
+          "A": "【不正解】営業（Sales）とマーケティング（Marketing）の移転日は11月1日です。",
+          "B": "【正解】本文のスケジュール記載と完全に合致しています。",
+          "C": "【不正解】ロジスティクスとサポート部門の記述はありません。",
+          "D": "【不正解】ITとセキュリティ部門は言及されていません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What request does Ms. Reynolds make in her email?",
+        "question_translation": "レイノルズ氏はメールの中でどのような依頼をしていますか？",
+        "options": {
+          "A": "To reschedule a client presentation",
+          "B": "To hire a different moving firm",
+          "C": "To change the temporary office to the second floor",
+          "D": "To change the moving date for her team"
+        },
+        "correct_answer": "D",
+        "explanation": "文書2においてレイノルズ氏は「Would it be possible to modify our shift so that we move on November 3 instead?（私たちの移動を11月3日に変更することは可能でしょうか）」と依頼しているため、(D)「チームの引っ越し日を変更すること」が正解です。",
+        "options_explanations": {
+          "A": "【不正解】クライアントのプレゼンテーションは重要であるため延期したくないと考えており、移動日の方を変更しようとしています。",
+          "B": "【不正解】引っ越し業者の変更要求ではありません。",
+          "C": "【不正解】仮設オフィスの階数（1階）の変更要求ではありません。",
+          "D": "【正解】「modify our shift [moving date]」が「change the moving date」と言い換えられており、適切です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "Why does Ms. Reynolds request the date change?",
+        "question_translation": "レイノルズ氏はなぜ日付の変更を求めているのですか？",
+        "options": {
+          "A": "Her team has a critical client meeting on November 1.",
+          "B": "The first floor temporary office is still under construction.",
+          "C": "A local construction firm blocked the West Lot.",
+          "D": "The Sales department has not finished their packing."
+        },
+        "correct_answer": "A",
+        "explanation": "文書2に「We have scheduled an important client presentation for November 1...（11月1日に重要なクライアントプレゼンテーションが予定されているため）」とあることから、(A)が正解です。「presentation」が「client meeting」に言い換えられています。",
+        "options_explanations": {
+          "A": "【正解】11月1日の重要な顧客向けイベントが、移動日を避けたい直接の理由です。",
+          "B": "【不正解】仮設オフィスの工事遅延については述べられていません。",
+          "C": "【不正解】駐車場の工事（別パッセージの内容）は無関係です。",
+          "D": "【不正解】営業部門の荷造り遅れについては述べられていません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_007",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Transition to New Project Management Software",
+    "passage_text": "[Document 1: IT Department Notice]\nTitle: Transition to New Project Management Software\n\nOn November 1, all employees will transition from our legacy planning tool to the new SyncTask platform. This software has been chosen to improve project collaboration and reporting efficiency across all international offices. Training materials and video tutorials have already been uploaded to the internal corporate portal. While the basic functions are highly intuitive, we strongly encourage all team members to review these resources. Please note that the old system will be deactivated permanently on October 31, meaning that all active files must be transferred before that date.\n\n[Document 2: Employee Support Ticket]\nTo: IT Support Desk <itsupport@company.com>\nFrom: Marcus Vance <mvance@company.com>\nDate: October 28\nSubject: Difficulty with SyncTask Data Migration\n\nDear IT Support,\n\nI have been trying to transfer our team’s active client folders to the new SyncTask platform as instructed in your recent notice. However, I have encountered an error message repeatedly when uploading files larger than 50 megabytes. This issue is preventing us from completing our data migration before the October 31 deadline. Could you please check if our account storage limit can be modified temporarily, or if there is an alternative method to import these files? We need to resolve this issue quickly to avoid losing our project histories.\n\nSincerely,\nMarcus Vance",
+    "passage_translation": "[文書1：IT部門からのお知らせ]\nタイトル：新しいプロジェクト管理ソフトウェアへの移行について\n\n11月1日より、全従業員は従来の計画ツール（legacy planning tool）から新しい「SyncTask」プラットフォームに移行します。このソフトウェアは、すべての海外オフィスにおけるプロジェクトの共同作業と報告効率を向上させるために選択されました。トレーニング資料とビデオチュートリアルは、すでに社内ポータルにアップロードされています。基本機能は非常に直感的ですが、すべてのチームメンバーがこれらの資料を確認することを強くお勧めします。古いシステムは10月31日に完全に停止（deactivated permanently）されるため、すべての有効なファイルをその前に移行する必要があることにご注意ください。\n\n[文書2：従業員からのサポートチケット（問い合わせ）]\n宛先：ITサポートデスク <itsupport@company.com>\n差出人：マーカス・ヴァンス <mvance@company.com>\n日付：10月28日\n件名：SyncTaskへのデータ移行の不具合について\n\nITサポート担当者様、\n\n最近のお知らせの指示通り、私たちのチームの有効なクライアントフォルダを新しい「SyncTask」プラットフォームに移行しようと試みています。しかし、50メガバイトを超えるファイルをアップロードする際、エラーメッセージが繰り返し表示されます。この問題により、10月31日の期限までにデータ移行を完了させることができません。アカウントのストレージ容量制限を一時的に変更（modify）できるか、あるいはこれらのファイルをインポートする代替方法があるかどうか確認していただけないでしょうか？プロジェクトの履歴が失われるのを防ぐため、この問題を迅速に解決する必要があります。\n\n敬具\nマーカス・ヴァンス",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is indicated about the legacy planning tool?",
+        "question_translation": "従来の計画ツールについて、何が示されていますか？",
+        "options": {
+          "A": "It will be upgraded with new virus security.",
+          "B": "It will stop working permanently on October 31.",
+          "C": "It is developed by Zenith Products in Chicago.",
+          "D": "It can only be accessed from the first floor.",
+          "E": "It will remain active until November 15."
+        },
+        "correct_answer": "B",
+        "explanation": "文書1において「the old system [legacy tool] will be deactivated permanently on October 31（古いシステムは10月31日に完全に停止される）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】メールシステムのアップグレード（別パッセージ）との混同です。",
+          "B": "【正解】「deactivated permanently on October 31」が「stop working permanently on October 31」と言い換えられています。",
+          "C": "【不正解】シカゴのゼニス社（別パッセージ）とは関係ありません。",
+          "D": "【不正解】オフィスの階数制限（別パッセージ）とは関係ありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What is the specific problem Mr. Vance is experiencing?",
+        "question_translation": "ヴァンス氏が直面している具体的な問題は何ですか？",
+        "options": {
+          "A": "He does not understand the video tutorials.",
+          "B": "He cannot upload files over a certain size limit.",
+          "C": "He lost his company email password.",
+          "D": "He is unable to access the internal corporate portal."
+        },
+        "correct_answer": "B",
+        "explanation": "文書2においてヴァンス氏は「encountered an error message repeatedly when uploading files larger than 50 megabytes.（50MBを超えるファイルをアップロードすると繰り返しエラーになる）」と述べているため、(B)「一定のサイズ制限を超えるファイルをアップロードできない」が正解です。",
+        "options_explanations": {
+          "A": "【不正解】動画チュートリアルが理解できないわけではありません。システム上のエラーです。",
+          "B": "【正解】50MBという「certain size limit」を超える大きなファイルの転送エラーを指しています。",
+          "C": "【不正解】パスワード紛失については言及されていません。",
+          "D": "【不正解】社内ポータルへのアクセスはできている前提です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What action does Mr. Vance want the IT Support Desk to take?",
+        "question_translation": "ヴァンス氏はITサポートデスクにどのような対応を求めていますか？",
+        "options": {
+          "A": "To purchase additional external hard drives",
+          "B": "To temporarily adjust the account storage capacity",
+          "C": "To extend the final migration deadline to November 15",
+          "D": "To install SyncTask on thirty office computers"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において「Could you please check if our account storage limit can be modified temporarily...（アカウントのストレージ制限を一時的に変更できるか確認してほしい）」と求めているため、(B)が正解です。modifyがadjustに、storage limitがstorage capacityに言い換えられています。",
+        "options_explanations": {
+          "A": "【不正解】外付けハードドライブの購入要請ではありません。",
+          "B": "【正解】「storage limit can be modified temporarily」が「temporarily adjust the account storage capacity」に言い換えられています。",
+          "C": "【不正解】移行期限（10月31日）そのものの延長ではなく、容量制限の変更や代替のインポート方法を求めています。",
+          "D": "【不正解】PC30台へのインストール（別パッセージの「30人の従業員用」からの連想）ではありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_008",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Delish Catering Event Details",
+    "passage_text": "[Document 1: Booking Confirmation Invoice]\nTitle: Delish Catering Event Details\n\nInvoice Number: DC-4992\nDate: August 5\nCustomer: Vanguard Financial\nEvent Date: August 25\n\nMenu Selected: Deluxe Luncheon Package\nEstimated Guests: 50\nCost per Guest: $25.00\nSubtotal: $1,250.00\nService Charge (10%): $125.00\nTotal Amount: $1,375.00\n\nNotes:\nA deposit of $300.00 has been paid. The remaining balance of $1,075.00 is due on the day of the event. Cancellations or changes to the guest count must be submitted at least five business days prior to the event.\n\n[Document 2: Adjustment Email]\nTo: Delish Catering <events@delishcatering.com>\nFrom: Sarah Jenkins <s.jenkins@vanguard.com>\nDate: August 18\nSubject: Order Adjustment for August 25 Event\n\nDear Delish Catering,\n\nI am writing to request a modification to our catering order for the upcoming luncheon on August 25. Due to an unexpected change in our corporate schedule, ten of our staff members will be unable to attend. Therefore, I would like to reduce our guest count from fifty to forty. Since this request is being submitted seven days before the event, I assume this adjustment complies with your booking policy and that our final invoice will be modified accordingly. Please send us a revised invoice showing the new total.\n\nSincerely,\nSarah Jenkins",
+    "passage_translation": "[文書1：予約確認書兼請求書]\nタイトル：デリッシュ・ケータリング・イベント詳細\n\n請求書番号：DC-4992\n日付：8月5日\n顧客：ヴァンガード・フィナンシャル\nイベント日：8月25日\n\n選択メニュー：デラックス・ランチ・パッケージ\n予定ゲスト数：50名\nゲスト1人あたりの費用：$25.00\n小計：$1,250.00\nサービス料 (10%)：$125.00\n合計金額：$1,375.00\n\n備考：\nデポジット（手付金）300.00ドルが支払われました。残額の1,075.00ドルはイベント当日に支払う必要があります。キャンセルまたはゲスト数の変更（change）は、イベントの少なくとも5営業日前までに提出する必要があります。\n\n[文書2：調整のメール]\n宛先：デリッシュ・ケータリング <events@delishcatering.com>\n差出人：サラ・ジェンキンス <s.jenkins@vanguard.com>\n日付：8月18日\n件名：8月25日のイベントに関する注文調整について\n\nデリッシュ・ケータリング様、\n\n8月25日のランチイベントのケータリング注文の変更（modification）を依頼するためにメールを書いています。当社の急なスケジュール変更により、10名のスタッフが出席できなくなりました。そのため、ゲスト数を50名から40名に減らしたく存じます。この依頼はイベントの7日前に提出されていますので、この調整（adjustment）は予約ポリシーに準拠しており、最終的な請求書がそれに応じて変更（modify）されるものと想定しております。新しい合計金額を示した改訂版の請求書をお送りください。\n\n敬具\nサラ・ジェンキンス",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "How much was the original deposit paid by Vanguard Financial?",
+        "question_translation": "ヴァンガード・フィナンシャルが支払った当初のデポジット額はいくらですか？",
+        "options": {
+          "A": "$25.00",
+          "B": "$125.00",
+          "C": "$300.00",
+          "D": "$1,075.00"
+        },
+        "correct_answer": "C",
+        "explanation": "文書1のNotesに「A deposit of $300.00 has been paid.（300ドルのデポジットが支払われた）」とあるため、(C)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】$25.00はゲスト1人あたりの費用です。",
+          "B": "【不正解】$125.00は10%のサービス料です。",
+          "C": "【正解】「deposit of $300.00」と文書に直接明記されています。",
+          "D": "【不正解】$1,075.00は当初のイベント当日の支払い残額です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Why does Ms. Jenkins want to reduce the guest count?",
+        "question_translation": "ジェンキンス氏はなぜゲスト数を減らしたいと考えているのですか？",
+        "options": {
+          "A": "The budget was modified by the board of directors.",
+          "B": "Some staff members can no longer attend the event.",
+          "C": "The hotel shifted the venue to a smaller library.",
+          "D": "Delish Catering increased the cost per guest."
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において「Due to an unexpected change in our corporate schedule, ten of our staff members will be unable to attend.（会社の急なスケジュール変更により、10名のスタッフが出席できなくなった）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】予算変更（別パッセージ）ではなく、スタッフの出席不可が理由です。",
+          "B": "【正解】「ten of our staff members... unable to attend」が「Some staff members can no longer attend」に言い換えられています。",
+          "C": "【不正解】会場の縮小（別パッセージの「会場シフト」との混同）ではありません。",
+          "D": "【不正解】1人あたりの単価が引き上げられたわけではありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What is indicated about Ms. Jenkins' request for adjustment?",
+        "question_translation": "ジェンキンス氏の調整依頼について、何が示されていますか？",
+        "options": {
+          "A": "It violates the booking policy because it is too late.",
+          "B": "It complies with the terms because it was submitted 7 days in advance.",
+          "C": "It requires the payment of an additional $20.00 fee.",
+          "D": "It will change the menu from luncheon to dinner."
+        },
+        "correct_answer": "B",
+        "explanation": "文書1において、変更期日は「at least five business days prior to the event（イベントの少なくとも5営業日前）」と定められています。ジェンキンス氏は文書2で「submitted seven days before the event（7日前に提出している）」と述べているため、規約に適合しており、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】7日前は、規定の「5日前」より前であるため違反（violate）していません。",
+          "B": "【正解】5営業日前ルールに対し、7日前に提出（submit）しているためポリシーを満たしています（complies with the terms）。",
+          "C": "【不正解】遅延金20ドル（請求書の別パッセージ）は関係ありません。",
+          "D": "【不正解】メニュー（luncheon）の変更は求めていません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_009",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Global Airways Booking Confirmation",
+    "passage_text": "[Document 1: Business Travel Itinerary]\nTitle: Global Airways Booking Confirmation\n\nPassenger Name: Robert Miller\nBooking Reference: RM-99401\nDate of Travel: October 15\n\n* Flight GA-204: Depart Chicago (ORD) at 8:00 A.M. | Arrive New York (LGA) at 11:15 A.M.\n* Flight GA-508 (Connecting Flight): Depart New York (LGA) at 1:30 P.M. | Arrive London (LHR) at 1:15 A.M. (Next Day)\n\nPlease note that checking in online is highly recommended. Passengers must arrive at the airport gate at least forty-five minutes before the departure time. Baggage fees are not included in this ticket price.\n\n[Document 2: Delay Notification Email]\nTo: Robert Miller <rmiller@techsolutions.com>\nFrom: Global Airways Customer Service <alerts@globalair.com>\nDate: October 15, 6:30 A.M.\nSubject: Crucial Update: Flight GA-204 Delay\n\nDear Passenger,\n\nWe regret to inform you that flight GA-204 from Chicago to New York has been delayed due to dense fog at Chicago O'Hare International Airport. The flight is now scheduled to depart at 9:45 A.M. Our ground control teams are working to minimize further delays. Because of this schedule modification, your arrival in New York is now estimated for 1:00 P.M. Since this delay may cause you to miss your connecting flight to London, please proceed immediately to our service desk upon arrival in New York to coordinate an alternative routing.\n\nSincerely,\nGlobal Airways",
+    "passage_translation": "[文書1：出張日程表]\nタイトル：グローバル航空 予約確認書\n\n乗客名：ロバート・ミラー\n予約番号：RM-99401\n旅行日：10月15日\n\n* GA-204便：シカゴ（ORD）を午前8時に出発 | ニューヨーク（LGA）に午前11時15分に到着\n* GA-508便（接続便）：ニューヨーク（LGA）を午後1時30分に出発 | ロンドン（LHR）に午前1時15分に到着（翌日）\n\nオンラインでのチェックインを強くお勧めします。乗客は出発時刻の少なくとも45分前には空港の搭乗口に到着している必要があります。手荷物料金はこのチケット価格に含まれていません。\n\n[文書2：遅延通知のメール]\n宛先：ロバート・ミラー <rmiller@techsolutions.com>\n差出人：グローバル航空カスタマーサービス <alerts@globalair.com>\n日付：10月15日 午前6時30分\n件名：極めて重要な更新：GA-204便の遅延について\n\n乗客の皆様へ、\n\nシカゴからニューヨークへのGA-204便が、シカゴ・オヘア国際空港の濃霧のため遅延しましたことを残念ながらお知らせいたします。このフライトは現在、午前9時45分に出発する予定です。当社の地上管理チームが、さらなる遅延を最小限に抑えるために取り組んでいます。このスケジュール変更（modification）により、ニューヨークへの到着は現在午後1時と予想（estimate）されています。この遅延によりロンドンへの乗り継ぎ便に乗り遅れる可能性があるため、ニューヨーク到着後はすぐにサービスデスクへ向かい、代替ルートの調整（coordinate）を行ってください。\n\n敬具\nグローバル航空",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is the original departure time for Flight GA-204?",
+        "question_translation": "GA-204便の元の出発時間はいつでしたか？",
+        "options": {
+          "A": "6:30 A.M.",
+          "B": "8:00 A.M.",
+          "C": "9:45 A.M.",
+          "D": "11:15 A.M."
+        },
+        "correct_answer": "B",
+        "explanation": "文書1に「Flight GA-204: Depart Chicago (ORD) at 8:00 A.M.」とあるため、(B)が正解です。6:30 A.M.は通知メールの送信時刻、9:45 A.M.は遅延後の出発時刻です。",
+        "options_explanations": {
+          "A": "【不正解】6:30 A.M.は遅延メールの送信時間です。",
+          "B": "【正解】本来予定されていた出発時間（original departure time）として「8:00 A.M.」が明記されています。",
+          "C": "【不正解】9:45 A.M.は遅延後の改訂出発時刻です。",
+          "D": "【不正解】11:15 A.M.は本来のニューヨーク到着予定時刻です。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Why was the flight from Chicago delayed?",
+        "question_translation": "シカゴからのフライトはなぜ遅れたのですか？",
+        "options": {
+          "A": "Because of a technical malfunction in the elevator",
+          "B": "Because of severe fog at the departure airport",
+          "C": "Because the pilot was unavailable on short notice",
+          "D": "Because of road construction near the West Lot"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2に「delayed due to dense fog at Chicago O'Hare International Airport.（シカゴ・オヘア空港の濃霧のため遅延した）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】エレベーターの故障（別パッセージ）は関係ありません。",
+          "B": "【正解】「dense fog」が「severe fog」と言い換えられています。",
+          "C": "【不正解】パイロットの欠勤（別パッセージの「急病」の混同）は書かれていません。",
+          "D": "【不正解】駐車場の道路工事（別パッセージ）は関係ありません。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What is Mr. Miller instructed to do in New York?",
+        "question_translation": "ミラー氏はニューヨークで何をするよう指示されていますか？",
+        "options": {
+          "A": "Pay an additional baggage fee at the gate",
+          "B": "Find an alternative flight at the service counter",
+          "C": "Verify his booking code online before boarding",
+          "D": "Log out of his company laptop computer"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2の最後に「proceed immediately to our service desk upon arrival in New York to coordinate an alternative routing.（ニューヨーク到着後すぐにサービスデスクに行き、代替ルートの調整をしてほしい）」とあるため、(B)が正解です。「service desk」が「service counter」、「alternative routing」が「alternative flight」に言い換えられています。",
+        "options_explanations": {
+          "A": "【不正解】搭乗口での手荷物料金支払い指示はありません。",
+          "B": "【正解】「proceed to our service desk... coordinate alternative routing」が「Find an alternative flight at the service counter」に言い換えられています。",
+          "C": "【不正解】オンラインでの予約確認指示はありません。",
+          "D": "【不正解】パソコンのログアウト（ITアップグレードの別パッセージ）は関係ありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_700_010",
+    "target_level": 700,
+    "document_type": "Reading",
+    "title": "Prime Office Warehouse: Special Spring Sale",
+    "passage_text": "[Document 1: Retail Promo Flyer]\nTitle: Prime Office Warehouse: Special Spring Sale\n\nFrom May 1 to May 10, Prime Office Warehouse is offering a special promotion across all retail locations. Customers who purchase any executive office desk will receive a fifty percent discount on any high-back office chair. This promotion is designed to help local businesses upgrade their workspaces affordably. To take advantage of this special offer, customers must present this flyer at the checkout counter. Please note that this deal is limited to three transactions per customer and cannot be combined with other store coupons or clearance items.\n\n[Document 2: Customer Promotion Inquiry]\nTo: Prime Office Support <support@primeoffice.com>\nFrom: Timothy Reynolds <tim.reynolds@designco.com>\nDate: May 3\nSubject: Inquiry About Spring Sale Eligibility\n\nDear Customer Support,\n\nI recently received your promotional flyer regarding the Special Spring Sale and am highly interested in purchasing several desks and chairs for our startup's new premises. However, since we require five sets in total, I would like to know if we can modify the transaction limit stated in the terms. Since your flyer mentions that the promotion is limited to three deals per customer, would it be possible for us to execute the purchases over two separate days, or is the limit strictly enforced per business entity?\n\nSincerely,\nTimothy Reynolds",
+    "passage_translation": "[文書1：店舗プロモーション用フライヤー]\nタイトル：プライム・オフィス・ウェアハウス：特別春のセール\n\n5月1日から5月10日まで、プライム・オフィス・ウェアハウスでは、すべての小売店舗において特別プロモーションを実施しています。エグゼクティブ・オフィス・デスク（机）をご購入いただいたお客様は、ハイバック・オフィス・チェア（椅子）を50%割引でご購入いただけます。このプロモーションは、地元の企業が手頃な価格でワークスペースをアップグレードできるように設計されています。この特別オファーを利用（take advantage of）するには、お会計の際（checkout counter）にこのフライヤーを提示する必要があります。この特典は、顧客1人あたり3回の取引（transaction）に制限されており、他のストアクーポンやクリアランス商品と併用することはできませんのでご注意ください。\n\n[文書2：顧客からのプロモーション問い合わせ]\n宛先：プライム・オフィス・サポート <support@primeoffice.com>\n差出人：ティモシー・レイノルズ <tim.reynolds@designco.com>\n日付：5月3日\n件名：春のセールの適用資格に関する問い合わせ\n\nカスタマーサポート担当者様、\n\n最近、特別春のセールに関するプロモーション用フライヤーを受け取り、当社のスタートアップの新しいオフィス（premises）用にいくつかの机と椅子を購入することに非常に興味を持っています。しかし、合計で5セット必要であるため、規約に記載されている取引制限を変更（modify）できるかどうか知りたいです。フライヤーにはプロモーションが「顧客1人につき3回」に制限されていると記載されていますが、購入を2日間に分けて実行することは可能でしょうか、それとも制限は法人（business entity）単位で厳密に適用されますでしょうか？\n\n敬具\nティモシー・レイノルズ",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What must customers do to receive the special discount?",
+        "question_translation": "特別な割引を受けるために、顧客は何をしなければなりませんか？",
+        "options": {
+          "A": "Bring and show the promotional flyer during checkout",
+          "B": "Submit an online support ticket before visiting",
+          "C": "Purchase at least five executive desks",
+          "D": "Sign up for a two-year commercial store contract"
+        },
+        "correct_answer": "A",
+        "explanation": "文書1において「To take advantage of this special offer, customers must present this flyer at the checkout counter.（オファーを利用するには会計カウンターでこのフライヤーを提示しなければならない）」とあるため、(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】「present this flyer at the checkout counter」が「Bring and show the promotional flyer during checkout」と言い換えられています。",
+          "B": "【不正解】オンラインサポートのチケット提出は必要ありません（チケットは文書2の問い合わせ手段にすぎません）。",
+          "C": "【不正解】デスクの最低購入数は定められておらず、むしろ取引回数に上限があります。",
+          "D": "【不正解】店舗契約（別のパッセージの保証期間や賃貸契約）の要件はありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "In Document 2, the word 'premises' in line 3 is closest in meaning to",
+        "question_translation": "文書2の第3行目にある 'premises' という単語に最も意味が近いのはどれですか？",
+        "options": {
+          "A": "budgets",
+          "B": "documents",
+          "C": "properties",
+          "D": "products"
+        },
+        "correct_answer": "C",
+        "explanation": "文書2において「purchasing several desks and chairs for our startup's new premises」は「スタートアップの新しい社屋/敷地のために机と椅子を購入する」という意味です。ビジネス文書において 'premises' は「店舗や事務所の敷地・建物」を意味するため、(C)「properties（物件、所有敷地、建物）」が最も近い意味になります。",
+        "options_explanations": {
+          "A": "【不正解】budgetsは「予算」であり、不適切です。",
+          "B": "【不正解】documentsは「文書」であり、不適切です。",
+          "C": "【正解】premisesとproperties（商業用物件・ビル敷地など）は、ビジネス英語において場所や店舗を表す際によく使われる同義語表現です。",
+          "D": "【不正解】productsは「製品」であり、不適切です。"
+        }
+      },
+      {
+        "question_number": 3,
+        "question_text": "What is the primary constraint that Timothy Reynolds is asking about?",
+        "question_translation": "ティモシー・レイノルズ氏が主に尋ねている制限は何ですか？",
+        "options": {
+          "A": "The purchase date period from May 1 to May 10",
+          "B": "The limitation on the number of discount transactions",
+          "C": "The combination of the flyer with other store coupons",
+          "D": "The shipping charges for office furniture orders"
+        },
+        "correct_answer": "B",
+        "explanation": "文書2において「Since your flyer mentions that the promotion is limited to three deals per customer, would it be possible for us to...」と述べており、取引の上限数制限（three transactions limit）について質問しているため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】購入期間（5月1日〜5月10日）の制限ではなく、取引回数の上限について尋ねています。",
+          "B": "【正解】「limited to three transactions [deals]」が「limitation on the number of discount transactions」と言い換えられています。",
+          "C": "【不正解】他クーポンとの併用不可規約（combined with other store coupons）についてではなく、回数制限について聞いています。",
+          "D": "【不正解】配送料についての問い合わせではありません。"
+        }
+      }
+    ]
+  }
+]

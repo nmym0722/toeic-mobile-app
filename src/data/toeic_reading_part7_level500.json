@@ -1,0 +1,482 @@
+[
+  {
+    "passage_id": "p7_500_001",
+    "target_level": 500,
+    "document_type": "Notice",
+    "title": "Change of Daily Office Hours",
+    "passage_text": "Attention all staff members. Please note that our main office will change its daily operating hours starting next month. From October 1, our doors will open at 8:00 A.M. and close at 5:00 P.M. from Monday to Friday. Currently, our business hours are 9:00 A.M. to 6:00 P.M. We are making this change to match our hours with our main clients. Our business partners in Europe start working early. This change will help us communicate with them better. All staff must adjust their work schedules. Please speak with your direct supervisor if you have questions about your new shift. Thank you for your cooperation.",
+    "passage_translation": "文書の種類：お知らせ\n件名：毎日の営業時間変更について\n\n全職員の皆様へ。来月から当本社の毎日の営業時間が変更になりますのでご注意ください。10月1日より、月曜日から金曜日まで、営業時間は午前8時に開始し、午後5時に終了します。現在、当社の営業時間は午前9時から午後6時までです。この変更は、当社の主要取引先の営業時間に合わせるために行われます。ヨーロッパのビジネスパートナーは朝早くから仕事を始めます。この変更により、彼らとのコミュニケーションがより円滑になります。全職員は勤務スケジュールを調整する必要があります。新しい勤務時間帯について質問がある場合は、直属の上司に相談してください。ご協力ありがとうございます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is the purpose of the notice?",
+        "question_translation": "このお知らせの目的は何ですか？",
+        "options": {
+          "A": "To announce a change in company leadership",
+          "B": "To inform employees about new office hours",
+          "C": "To schedule a meeting with European clients",
+          "D": "To introduce a new shift scheduling software"
+        },
+        "correct_answer": "B",
+        "explanation": "本文の冒頭に「our main office will change its daily operating hours starting next month（来月から本社の営業時間が変更になる）」と述べられているため、(B)「営業時間の変更を従業員に知らせること」が正解です。",
+        "options_explanations": {
+          "A": "【不正解】会社指導部の変更については言及されていません。",
+          "B": "【正解】「営業時間の変更を知らせる」という内容が、本文の「change its daily operating hours」と一致します。",
+          "C": "【不正解】ヨーロッパの取引先とのコミュニケーションを良くするための変更ですが、ミーティングをスケジュールすることが目的ではありません。",
+          "D": "【不正解】ソフトウェアの導入については一切言及されていません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Why is the change being made?",
+        "question_translation": "なぜこの変更が行われるのですか？",
+        "options": {
+          "A": "To save electricity in the building",
+          "B": "To recruit employees from Europe",
+          "C": "To align working hours with European partners",
+          "D": "To allow staff to work fewer hours overall"
+        },
+        "correct_answer": "C",
+        "explanation": "本文中頃に「We are making this change to match our hours with our main clients. Our business partners in Europe start working early.（主要な取引先の時間に合わせるための変更であり、ヨーロッパのパートナーは始業が早い）」とあるため、(C)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】節電については一切述べられていません。",
+          "B": "【不正解】ヨーロッパからの採用活動については言及されていません。",
+          "C": "【正解】本文の「match our hours with... business partners in Europe」が「align working hours with European partners」と言い換えられています。",
+          "D": "【不正解】営業時間のスライドのみで、労働時間の短縮については言及されていません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_002",
+    "target_level": 500,
+    "document_type": "Email",
+    "title": "Reading Comprehension",
+    "passage_text": "To: All Staff <staff@apexcorp.com>\nFrom: Human Resources <hr@apexcorp.com>\nDate: March 12\nSubject: Important Parking Lot Notice\n\nDear Employees,\n\nWe want to inform you about a change to our parking policy. Starting next Monday, the main parking lot will be closed for three days. A local construction company will repair the road surface. During this time, all employees must park their cars in the West Lot. The West Lot is located behind the main office building. There is no cost to park there. You do not need a new parking pass. We expect the repairs to finish by Thursday morning. We will send another email when the main lot opens again. Thank you for your patience and support.",
+    "passage_translation": "文書の種類：電子メール\n宛先：全職員 <staff@apexcorp.com>\n差出人：人事部 <hr@apexcorp.com>\n日付：3月12日\n件名：駐車場に関する重要なお知らせ\n\n従業員の皆様へ、\n\n駐車ポリシーの変更についてお知らせいたします。来週の月曜日から3日間、メイン駐車場が閉鎖されます。地元の建設会社が路面補修を行います。この期間中、全従業員は西駐車場（West Lot）に車を停める必要があります。西駐車場は本社ビルの裏手にあります。駐車料金はかかりません。新しい駐車許可証も不要です。補修工事は木曜日の朝までに完了する予定です。メイン駐車場が再開した際には、改めてメールでお知らせします。皆様のご理解とご協力をお願いいたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is the reason for closing the main parking lot?",
+        "question_translation": "メイン駐車場を閉鎖する理由は何ですか？",
+        "options": {
+          "A": "A new building is being constructed.",
+          "B": "The road surface is being repaired.",
+          "C": "The company is hosting an outdoor event.",
+          "D": "A parking fee system is being installed."
+        },
+        "correct_answer": "B",
+        "explanation": "本文に「A local construction company will repair the road surface.（地元の建設会社が路面補修を行う）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】新ビルの建設については言及されていません。道路の補修（repair）のみです。",
+          "B": "【正解】本文の「repair the road surface」が選択肢の表現とそのまま一致します。",
+          "C": "【不正解】イベントの開催については書かれていません。",
+          "D": "【不正解】駐車料金システムの設置については言及されておらず、むしろ西駐車場は「no cost」と書かれています。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Where should employees park starting next Monday?",
+        "question_translation": "来週の月曜日から、従業員はどこに駐車すべきですか？",
+        "options": {
+          "A": "In the East Lot",
+          "B": "Behind the main office building",
+          "C": "On the street near the local construction site",
+          "D": "In a paid parking lot downtown"
+        },
+        "correct_answer": "B",
+        "explanation": "本文に「all employees must park their cars in the West Lot. The West Lot is located behind the main office building.（西駐車場に停める必要があり、それは本社ビルの裏手にある）」と述べられているため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】「East Lot」ではなく「West Lot」に駐車します。",
+          "B": "【正解】「West Lot」の場所（located behind the main office building）がそのまま表現されています。",
+          "C": "【不正解】路上駐車についての指示はありません。",
+          "D": "【不正解】有料駐車場に停める必要はなく、無料の西駐車場が用意されています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_003",
+    "target_level": 500,
+    "document_type": "Invoice",
+    "title": "CleanPro Services Invoice",
+    "passage_text": "Invoice Number: CP-8849\nDate of Issue: November 15\nDue Date: November 30\nCustomer: Bright Star Offices\n\nDescription of Services:\n* Office Cleaning (First Floor) - $250.00\n* Window Washing (All Floors) - $150.00\n* Trash Removal (Monthly Fee) - $50.00\nTotal Amount Due: $450.00\n\nPayment Details:\nPlease pay this bill before November 30. You can pay by credit card on our website. You can also send a paper check to our main office address. If you pay after the due date, we will add a late fee of $20.00. For questions about this invoice, please call our billing desk at 555-0192. We value your business.",
+    "passage_translation": "文書の種類：請求書\n件名：クリーンプロ・サービス 請求書\n\n請求書番号：CP-8849\n発行日：11月15日\n期日：11月30日\n顧客：ブライトスター・オフィス\n\nサービス内容：\n* オフィス清掃（1階）- $250.00\n* 窓拭き（全階）- $150.00\n* ゴミ回収（月額料金）- $50.00\n合計請求額：$450.00\n\n支払い詳細：\n11月30日までにこの請求書をお支払いください。当社ウェブサイトにてクレジットカードでお支払いいただけます。または、本社の住所に紙の小切手を送ることもできます。期日後にお支払いの場合、20.00ドルの遅延損害金が追加されます。この請求書に関するご質問は、請求担当窓口（555-0192）までお電話ください。ご利用いただきありがとうございます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Which service cost the most money?",
+        "question_translation": "どのサービスが最も費用がかかりましたか？",
+        "options": {
+          "A": "First-floor office cleaning",
+          "B": "Window washing on all floors",
+          "C": "Monthly trash removal fee",
+          "D": "Late payment processing fee"
+        },
+        "correct_answer": "A",
+        "explanation": "サービス内容の価格を比較すると、Office Cleaning (First Floor) が$250.00で最も高価であるため、(A)が正解です。",
+        "options_explanations": {
+          "A": "【正解】$250.00で、請求項目の中で最高額です。",
+          "B": "【不正解】窓拭き（Window Washing）は$150.00です。",
+          "C": "【不正解】ゴミ回収（Trash Removal）は$50.00です。",
+          "D": "【不正解】遅延料金は$20.00ですが、これは実際のサービスではなく遅延時に課されるものです。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What happens if the customer pays after November 30?",
+        "question_translation": "11月30日を過ぎて顧客が支払うとどうなりますか？",
+        "options": {
+          "A": "A discount is applied to the next invoice.",
+          "B": "An additional fee of $20.00 is charged.",
+          "C": "The window washing service is cancelled.",
+          "D": "The customer must pay only by check."
+        },
+        "correct_answer": "B",
+        "explanation": "本文の支払い詳細に「If you pay after the due date, we will add a late fee of $20.00.（期日後に支払う場合、遅延料20ドルを追加する）」とあり、Due Dateは11月30日とされているため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】割引ではなく、追加料金が発生します。",
+          "B": "【正解】本文の「add a late fee of $20.00」が「additional fee of $20.00 is charged」と言い換えられています。",
+          "C": "【不正解】サービス自体のキャンセルについては書かれていません。",
+          "D": "【不正解】支払い方法の限定ではなく、遅延金の問題が述べられています。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_004",
+    "target_level": 500,
+    "document_type": "Email",
+    "title": "Reading Comprehension",
+    "passage_text": "To: Mark Spencer <m.spencer@intertech.com>\nFrom: Sarah Jenkins <s.jenkins@intertech.com>\nDate: June 5\nSubject: Confirmation of Meeting\n\nDear Mark,\n\nI am writing to confirm our scheduled meeting on Friday, June 8. We will meet at 10:00 A.M. in Conference Room B. We plan to discuss the budget for our new project. I will bring the financial reports for this year. Please bring your team's design proposal. The meeting will last for about one hour. If you cannot attend this meeting, please let me know by Wednesday afternoon. We can easily find another time next week if you are busy. I look forward to talking with you on Friday.\n\nSincerely,\nSarah Jenkins",
+    "passage_translation": "文書の種類：電子メール\n宛先：マーク・スペンサー <m.spencer@intertech.com>\n差出人：サラ・ジェンキンス <s.jenkins@intertech.com>\n日付：6月5日\n件名：会議の確認について\n\nマークへ、\n\n6月8日金曜日の予定されている会議の確認のためにメールを書いています。午前10時に会議室Bで集まりましょう。新プロジェクトの予算について話し合う予定です。今年の財務報告書を持参します。あなたのチームのデザイン提案書を持ってきてください。会議時間は約1時間の予定です。もしこの会議に出席できない場合は、水曜日の午後までにお知らせください。お忙しいようでしたら、来週の別の時間を簡単に見つけることができます。金曜日にお話しできるのを楽しみにしています。\n\n敬具\nサラ・ジェンキンス",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is the primary topic of the upcoming meeting?",
+        "question_translation": "今度の会議の主な議題は何ですか？",
+        "options": {
+          "A": "A project design competition",
+          "B": "The budget for a new project",
+          "C": "The purchase of office furniture",
+          "D": "Weekly sales statistics"
+        },
+        "correct_answer": "B",
+        "explanation": "メール本文に「We plan to discuss the budget for our new project.（新プロジェクトの予算について話し合う予定です）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】デザイン提案書（design proposal）を持参するよう頼まれていますが、コンペ自体の話ではありません。",
+          "B": "【正解】本文の「discuss the budget for our new project」と一致します。",
+          "C": "【不正解】オフィスの家具購入については言及されていません。",
+          "D": "【不正解】週間売上データについては言及されていません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What is Mark asked to bring to the meeting?",
+        "question_translation": "マークは会議に何を持参するよう求められていますか？",
+        "options": {
+          "A": "The financial reports for this year",
+          "B": "A list of conference attendees",
+          "C": "His team's design proposal",
+          "D": "The current office budget"
+        },
+        "correct_answer": "C",
+        "explanation": "本文に「Please bring your team's design proposal.（あなたのチームのデザイン提案書を持ってきてください）」とあるため、(C)が正解です。(A)「financial reports」は、送信者のSarahが持参するものです。",
+        "options_explanations": {
+          "A": "【不正解】財務報告書（financial reports）は差出人（Sarah）が持参するものです。",
+          "B": "【不正解】出席者リストを持参する指示はありません。",
+          "C": "【正解】本文の「Please bring your team's design proposal.」をそのまま指しています。",
+          "D": "【不正解】予算が議題ですが、マークが持参するのはデザイン提案書です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_005",
+    "target_level": 500,
+    "document_type": "Notice",
+    "title": "Office Dress Code Policy",
+    "passage_text": "Starting on July 1, Apex Solutions will implement a new dress code policy. We want to create a professional and comfortable environment for everyone. Employees should wear business casual clothing from Monday to Thursday. This includes collared shirts, dress pants, and professional skirts. Please do not wear athletic clothing or beach shoes during these days. Fridays will remain casual dress days. On Fridays, employees can wear clean jeans and casual shirts. We expect all staff members to follow these simple rules. If you need more information, please read the employee handbook on our internal network. Thank you for your support.",
+    "passage_translation": "文書の種類：お知らせ\n件名：オフィスの服装規定（ドレスコード）ポリシー\n\n7月1日より、エイペックス・ソリューションズは新しい服装規定（ドレスコード）を導入します。私たちは、全員にとってプロフェッショナルで快適な環境を作りたいと考えています。従業員は、月曜日から木曜日までビジネスカジュアルの衣類を着用する必要があります。これには、襟付きシャツ、スラックス、プロフェッショナルなスカートが含まれます。これらの曜日は、運動着やビーチシューズの着用をご遠慮ください。金曜日は引き続きカジュアルな服装で勤務できる日とします。金曜日には、従業員は清潔なジーンズとカジュアルなシャツを着用できます。全スタッフがこれらのシンプルなルールに従うことを期待しています。詳細情報が必要な場合は、社内ネットワーク上の従業員ハンドブックをお読みください。皆様のご支援に感謝いたします。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is allowed to be worn on Fridays?",
+        "question_translation": "金曜日には何を着用することが許可されていますか？",
+        "options": {
+          "A": "Athletic clothing",
+          "B": "Beach shoes",
+          "C": "Clean jeans and casual shirts",
+          "D": "Formal evening wear"
+        },
+        "correct_answer": "C",
+        "explanation": "本文の後半に「Fridays will remain casual dress days. On Fridays, employees can wear clean jeans and casual shirts.（金曜日はカジュアルな日。清潔なジーンズとカジュアルシャツを着用できる）」とあるため、(C)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】運動着（athletic clothing）は月曜から木曜に着用しないよう求められており、金曜の許可衣類としても明記されていません。",
+          "B": "【不正解】ビーチシューズ（beach shoes）も同様に月曜から木曜はNGで、金曜のOKリストには入っていません。",
+          "C": "【正解】本文の「clean jeans and casual shirts」と完全に一致します。",
+          "D": "【不正解】イブニングドレスのようなフォーマルウェアの言及はありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Where can employees find more information about the policy?",
+        "question_translation": "従業員は、服装ポリシーについての詳細な情報をどこで見つけることができますか？",
+        "options": {
+          "A": "On the company website's public home page",
+          "B": "In the employee handbook on the internal network",
+          "C": "In an email sent by the Sales Director",
+          "D": "By contacting the local construction company"
+        },
+        "correct_answer": "B",
+        "explanation": "本文の最後に「If you need more information, please read the employee handbook on our internal network.（詳細情報は社内ネットワーク上の従業員ハンドブックをお読みください）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】一般に公開されている会社のホームページ（public home page）ではなく、社内ネットワーク（internal network）にあります。",
+          "B": "【正解】本文の「employee handbook on our internal network」を的確に説明しています。",
+          "C": "【不正解】営業部長からのメールについての言及はありません。",
+          "D": "【不正解】建設会社（別のパッセージの情報）は全く無関係です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_006",
+    "target_level": 500,
+    "document_type": "Memo",
+    "title": "Reading Comprehension",
+    "passage_text": "To: All Staff\nFrom: Management\nDate: August 22\nSubject: Welcome to Our New Sales Director\n\nWe are very happy to welcome Robert Green to our company. Robert will start working as our new Sales Director on September 1. He has over ten years of experience in business sales. Previously, he worked as a senior sales manager at Zenith Products in Chicago. In his new role here, Robert will lead our national sales team. He will also help us create new marketing plans. We will hold a small welcome lunch for Robert on his first day. It will take place in the main lunchroom at 12:30 P.M. Please join us to welcome him to the team.",
+    "passage_translation": "文書の種類：社内メモ\n宛先：全職員\n差出人：経営陣\n日付：8月22日\n件名：新販売ディレクターの歓迎について\n\nロバート・グリーン氏を当社に迎えることを非常に嬉しく思います。ロバート氏は9月1日に新しい販売ディレクター（Sales Director）として勤務を開始します。彼はビジネス営業において10年以上の経験を持っています。以前は、シカゴのゼニス・プロダクツ社でシニアセールスマネージャーとして働いていました。ここでの新しい役割として、ロバート氏は当社の全国販売チームを率います。また、新しいマーケティング計画の作成も手伝います。ロバート氏の初日に、小規模な歓迎ランチを開催します。本館食堂にて午後12時30分から行われます。彼をチームに歓迎するためにぜひご参加ください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "What is Robert Green's previous job location?",
+        "question_translation": "ロバート・グリーン氏の前職の勤務地はどこですか？",
+        "options": {
+          "A": "Boston",
+          "B": "Chicago",
+          "C": "New York",
+          "D": "London"
+        },
+        "correct_answer": "B",
+        "explanation": "本文に「Previously, he worked as a senior sales manager at Zenith Products in Chicago.（以前、彼はシカゴのゼニス・プロダクツ社でシニアセールスマネージャーを務めていた）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】ボストンは前職の場所ではありません。",
+          "B": "【正解】前職の勤務地として「Chicago」が明記されています。",
+          "C": "【不正解】ニューヨークは前職の場所ではありません。",
+          "D": "【不正解】ロンドンは前職の場所ではありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Where will the welcome lunch take place?",
+        "question_translation": "歓迎ランチはどこで開催されますか？",
+        "options": {
+          "A": "In Conference Room B",
+          "B": "In the main lunchroom",
+          "C": "At a restaurant in Chicago",
+          "D": "In the main lobby"
+        },
+        "correct_answer": "B",
+        "explanation": "本文の最後に「It will take place in the main lunchroom at 12:30 P.M.（歓迎ランチは本館食堂にて午後12時30分から開催される）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】「Conference Room B」は別のパッセージに登場する会議室です。",
+          "B": "【正解】本文の「main lunchroom」がそのまま記述されています。",
+          "C": "【不正解】シカゴは前職の場所であり、ランチの場所ではありません。",
+          "D": "【不正解】「main lobby」ではありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_007",
+    "target_level": 500,
+    "document_type": "Notice",
+    "title": "Facility Elevator Maintenance",
+    "passage_text": "Please be aware that the north elevator in the lobby will be out of service for regular maintenance next week. The service work will begin on Monday, April 10, at 8:00 A.M. It will end on Tuesday, April 11, at 5:00 P.M. During this period, employees must use the south elevator or the stairs to reach the upper floors. We perform this maintenance every six months to keep our building safe. We apologize for any problems this may cause for you. If you have to move heavy boxes next week, please contact the building manager.",
+    "passage_translation": "文書の種類：お知らせ\n件名：設備エレベーターのメンテナンスについて\n\n来週、ロビーの北側エレベーターが定期メンテナンスのため運転停止となりますのでご注意ください。サービス作業は4月10日（月）午前8時に開始し、4月11日（火）午後5時に終了します。この期間中、上の階へ行くためには、南側エレベーターまたは階段をご利用ください。当社では、ビルを安全に維持するために、このメンテナンスを6ヶ月ごとに行っています。ご不便をおかけすることをお詫び申し上げます。来週、重い箱を運ぶ必要がある場合は、ビル管理者に連絡してください。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "How long will the north elevator be out of service?",
+        "question_translation": "北側エレベーターはどのくらいの期間、運転停止となりますか？",
+        "options": {
+          "A": "For three days",
+          "B": "For less than one day",
+          "C": "For two days",
+          "D": "For the entire week"
+        },
+        "correct_answer": "C",
+        "explanation": "本文に「begin on Monday, April 10, at 8:00 A.M. It will end on Tuesday, April 11, at 5:00 P.M.（4月10日金曜午前8時から、4月11日火曜午後5時まで）」とあり、月曜と火曜の2日間にわたるため、(C)「2日間」が正解です。",
+        "options_explanations": {
+          "A": "【不正解】3日間ではありません。2日間（月曜朝〜火曜夕方）です。",
+          "B": "【不正解】1日未満（less than one day）ではありません。",
+          "C": "【正解】月曜日から火曜日の夕方までの実質2日間（two days）にわたる停止期間を適切に示しています。",
+          "D": "【不正解】一週間丸ごと（entire week）ではありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "Who should an employee contact to move heavy cargo during the maintenance?",
+        "question_translation": "メンテナンス中に重い荷物を移動させる場合、従業員は誰に連絡すべきですか？",
+        "options": {
+          "A": "The Sales Director",
+          "B": "The building manager",
+          "C": "The IT support desk",
+          "D": "The direct supervisor"
+        },
+        "correct_answer": "B",
+        "explanation": "本文の最後に「If you have to move heavy boxes next week, please contact the building manager.（来週重い箱を移動する必要がある場合は、ビル管理者に連絡してください）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】営業部長（Sales Director）はこの件に関係ありません。",
+          "B": "【正解】本文の「building manager」がそのまま正解の選択肢になっています。",
+          "C": "【不正解】ITサポートはこの件に関係ありません。",
+          "D": "【不正解】直属の上司（direct supervisor）は勤務時間の変更（別のパッセージ）の相談相手であり、荷物の移動に関してはビル管理者です。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_008",
+    "target_level": 500,
+    "document_type": "Email",
+    "title": "Reading Comprehension",
+    "passage_text": "To: David Lee <dlee@metrodesign.com>\nFrom: Support Team <support@fastship.com>\nDate: September 14\nSubject: Shipment Confirmation: Order #99201\n\nDear David Lee,\n\nThank you for your recent purchase from FastShip Supplies. We are happy to confirm that your order was shipped today, September 14. Your package is currently on its way to your office address. We sent the delivery using our standard shipping service. It should arrive at your office within three business days. The tracking number for your package is FS-88301. You can use this number on our website to see the delivery status of your items. Please contact our support team if you do not receive your package by next Tuesday.\n\nBest regards,\nFastShip Support",
+    "passage_translation": "文書の種類：電子メール\n宛先：デヴィッド・リー <dlee@metrodesign.com>\n差出人：サポートチーム <support@fastship.com>\n日付：9月14日\n件名：出荷確認：注文番号 #99201\n\nデヴィッド・リー様、\n\nファストシップ・サプライズ社から最近ご購入いただきありがとうございます。ご注文の商品が本日9月14日に出荷されたことを喜んで確認いたします。お荷物は現在、お客様のオフィスの住所へ向かっています。配送は当社の標準配送サービスを使用して発送されました。3営業日以内にお客様のオフィスに届く予定です。お荷物の追跡番号は FS-88301 です。当社のウェブサイトでこの番号を使用し、商品の配送状況を確認できます。もし来週の火曜日までにお荷物が届かない場合は、当社サポートチームまでご連絡ください。\n\n敬具\nファストシップ・サポート",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "When was the order shipped?",
+        "question_translation": "注文品はいつ発送されましたか？",
+        "options": {
+          "A": "On September 11",
+          "B": "On September 14",
+          "C": "On September 17",
+          "D": "On September 20"
+        },
+        "correct_answer": "B",
+        "explanation": "本文中に「your order was shipped today, September 14.（本日9月14日に出荷されました）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】9月11日ではありません。",
+          "B": "【正解】出荷日として「September 14」が明記されています。",
+          "C": "【不正解】9月17日は予定の3営業日後にあたりますが、発送日ではありません。",
+          "D": "【不正解】9月20日ではありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What is David Lee advised to do if the package is late?",
+        "question_translation": "荷物が遅れた場合、デヴィッド・リーはどうすることを勧められていますか？",
+        "options": {
+          "A": "Cancel his credit card payment",
+          "B": "Visit the local post office",
+          "C": "Get in touch with the support team",
+          "D": "Submit a new purchase invoice"
+        },
+        "correct_answer": "C",
+        "explanation": "本文の最後に「Please contact our support team if you do not receive your package by next Tuesday.（来週火曜までに荷物が届かない場合は、サポートチームに連絡してください）」とあるため、(C)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】クレジットカードの支払キャンセルについては言及されていません。",
+          "B": "【不正解】郵便局に行く指示はありません。",
+          "C": "【正解】「contact our support team」が「Get in touch with the support team」に言い換えられており、適切です。",
+          "D": "【不正解】新しい請求書を提出する指示はありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_009",
+    "target_level": 500,
+    "document_type": "Notice",
+    "title": "Software Upgrade Schedule",
+    "passage_text": "This weekend, our IT department will upgrade the company's email system. The work will start on Saturday at 10:00 P.M. It will finish on Sunday at 4:00 A.M. During these hours, you will not be able to send or receive emails from your company account. The internal network will also be down. We are doing this upgrade to make our email system faster and more secure against viruses. Please make sure to save all your important work and log out of your computer before you leave the office on Friday. Thank you for your cooperation.",
+    "passage_translation": "文書の種類：お知らせ\n件名：ソフトウェアのアップグレードスケジュールについて\n\n今週末、IT部門が会社の電子メールシステムのアップグレードを行います。作業は土曜日の午後10時に開始し、日曜日の午前4時に終了します。この時間帯は、会社のシステムでメールの送受信を行うことができません。社内ネットワークもダウンします。このアップグレードは、メールシステムをより高速にし、ウイルスに対してより安全にするために行われます。金曜日に退社する前に、重要な作業をすべて保存し、コンピュータからログアウトしてください。ご協力ありがとうございます。",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "During which period will the email system be unavailable?",
+        "question_translation": "電子メールシステムが利用できなくなる期間はいつですか？",
+        "options": {
+          "A": "From Friday afternoon to Monday morning",
+          "B": "From Saturday 10:00 P.M. to Sunday 4:00 A.M.",
+          "C": "Throughout the entire weekend",
+          "D": "On Friday before the staff leaves the office"
+        },
+        "correct_answer": "B",
+        "explanation": "本文に「start on Saturday at 10:00 P.M. It will finish on Sunday at 4:00 A.M. During these hours, you will not be able to...」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】金曜の午後や月曜の朝までは影響を受けません。",
+          "B": "【正解】アップグレードの具体的な停止時間帯がそのまま選択肢になっています。",
+          "C": "【不正解】週末全体にわたるわけではなく、土曜深夜から日曜未明にかけての6時間のみです。",
+          "D": "【不正解】金曜日の退社前はまだ稼働しています。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What are employees requested to do before leaving on Friday?",
+        "question_translation": "従業員は金曜日に退社する前にどうすることを求められていますか？",
+        "options": {
+          "A": "Install a new security virus protection tool",
+          "B": "Save their critical files and sign out",
+          "C": "Upgrade their personal computers",
+          "D": "Prepare a project schedule report"
+        },
+        "correct_answer": "B",
+        "explanation": "本文に「Please make sure to save all your important work and log out of your computer before you leave...（金曜日に退社する前に、重要な作業を保存し、ログアウトしてください）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】セキュリティツールのインストールは従業員の役割ではなく、IT部門がアップグレードを行います。",
+          "B": "【正解】「save all your important work and log out of your computer」が「Save their critical files and sign out」に言い換えられており適切です。",
+          "C": "【不正解】個人のPCをアップグレードする指示はありません。",
+          "D": "【不正解】プロジェクトスケジュールの作成指示はありません。"
+        }
+      }
+    ]
+  },
+  {
+    "passage_id": "p7_500_010",
+    "target_level": 500,
+    "document_type": "Email",
+    "title": "Reading Comprehension",
+    "passage_text": "To: Office Furniture Depot <orders@furnituredepot.com>\nFrom: Karen Carter <k.carter@globalcorp.com>\nDate: October 5\nSubject: Request for Price Catalog\n\nDear Sales Representative,\n\nMy name is Karen Carter, and I am the office manager for Global Corporation. We are preparing to open a new branch office in Boston next month. We need to buy new office furniture for thirty employees. Specifically, we want to purchase desks, chairs, and file cabinets. Could you please send us your current price catalog and shipping options? We want to know if you offer discounts for large orders. We hope to make our purchase decision by the end of this week. I look forward to receiving your catalog soon.\n\nSincerely,\nKaren Carter\nGlobal Corporation",
+    "passage_translation": "文書の種類：電子メール\n宛先：オフィス・ファニチャー・デポ <orders@furnituredepot.com>\n差出人：カレン・カーター <k.carter@globalcorp.com>\n日付：10月5日\n件名：価格カタログの請求について\n\n販売担当者様、\n\n私の名前はカレン・カーターで、グローバル・コーポレーションのオフィス責任者です。私たちは来月、ボストンに新しい支店を開設する準備をしています。30人の従業員のために新しいオフィス家具を購入する必要があります。具体的には、机、椅子、ファイルキャビネットを購入したいと考えています。最新の価格カタログと発送オプションを送っていただけないでしょうか？また、大量注文に対する割引を提供しているかどうかも知りたいです。今週末までに購入の決定を行いたいと考えています。カタログを早急に受け取ることを楽しみにしています。\n\n敬具\nカレン・カーター\nグローバル・コーポレーション",
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Why is Global Corporation purchasing furniture?",
+        "question_translation": "グローバル・コーポレーションはなぜ家具を購入しようとしているのですか？",
+        "options": {
+          "A": "To replace damaged chairs in Chicago",
+          "B": "To set up a new branch office in Boston",
+          "C": "To redecorate their main conference room",
+          "D": "To prepare for a welcome lunch event"
+        },
+        "correct_answer": "B",
+        "explanation": "本文に「We are preparing to open a new branch office in Boston next month. We need to buy new office furniture...（来月ボストンに新支店を開設する準備をしており、オフィス家具が必要だ）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】シカゴの破損した椅子の交換ではありません。",
+          "B": "【正解】本文の「open a new branch office in Boston」がそのまま家具購入の理由となっています。",
+          "C": "【不正解】会議室の模様替えではありません。",
+          "D": "【不正解】歓迎ランチの準備ではありません。"
+        }
+      },
+      {
+        "question_number": 2,
+        "question_text": "What specific inquiry is made in the email?",
+        "question_translation": "メールの中でどのような具体的な問い合わせが行われていますか？",
+        "options": {
+          "A": "If they have a branch office in Chicago",
+          "B": "If they offer a discount for bulk orders",
+          "C": "If they can deliver the furniture by Friday",
+          "D": "If they have customized wooden desks"
+        },
+        "correct_answer": "B",
+        "explanation": "本文中に「We want to know if you offer discounts for large orders.（大量注文に対する割引を提供しているか知りたい）」とあるため、(B)が正解です。",
+        "options_explanations": {
+          "A": "【不正解】Chicago支店についての問い合わせではありません。",
+          "B": "【正解】本文の「discounts for large orders」が「discount for bulk orders」と言い換えられており適切です。",
+          "C": "【不正解】金曜日までに配送できるかという問い合わせではなく、金曜日までに「購入の意思決定を行いたい」と書かれています。",
+          "D": "【不正解】特注の木製デスクについての問い合わせはありません。"
+        }
+      }
+    ]
+  }
+]

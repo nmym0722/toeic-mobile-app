@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "p5_900_101",
+    "target_level": 900,
+    "sentence": "Seldom (     ) the international market experienced such extreme volatility as was witnessed during the sudden restructuring of the global energy sector.",
+    "options": {
+      "A": "has",
+      "B": "had",
+      "C": "have",
+      "D": "having"
+    },
+    "correct_answer": "A",
+    "explanation": "否定の副詞「Seldom（めったに〜ない）」が文頭に置かれたことによる「否定副詞の倒置（Subject-Auxiliary Inversion）」の問題です。主語 the international market（三人称単数）と現在完了形を作る助動詞 has が倒置されて主語の前に配置されます。",
+    "options_explanations": {
+      "A": "正解。単数主語 the international market に呼応し、過去分詞 experienced と共に現在完了の倒置を作る助動詞 has です。",
+      "B": "had は過去完了を作る助動詞ですが、文全体の文脈（現在までの経験・状態）において過去完了にする明確な過去の基準時がないため不適切です。",
+      "C": "have は複数形の助動詞であり、単数主語である the international market には使えません。",
+      "D": "having は現在分詞・動名詞であり、倒置された節の助動詞として機能しません。"
+    },
+    "meaning": "世界のエネルギー部門の突然の再編中に目撃されたほど、国際市場が極端な変動を経験することはめったにありません。"
+  },
+  {
+    "id": "p5_900_102",
+    "target_level": 900,
+    "sentence": "The human resources director insisted that the newly appointed project manager (     ) a comprehensive safety seminar before initiating the manufacturing phase.",
+    "options": {
+      "A": "attends",
+      "B": "attend",
+      "C": "attended",
+      "D": "attending"
+    },
+    "correct_answer": "B",
+    "explanation": "主張・要求を表す動詞「insist」の後ろの that 節内では、主語に関わらず動詞の原形（仮定法現在 / Mandative Subjunctive）が用いられるという文法規則を問う問題です。",
+    "options_explanations": {
+      "A": "attends は三人称単数現在形ですが、insist that 節内では動詞の原形を用いるため不適切です。",
+      "B": "正解。提案・主張の that 節内で要求される動詞の原形（attend）です。",
+      "C": "attended は過去形であり、時制の一致を受けない仮定法現在のルールに反するため不適切です。",
+      "D": "attending は現在分詞であり、that 節内の述語動詞としての役割を果たせません。"
+    },
+    "meaning": "人事部長は、新しく任命されたプロジェクトマネージャーが、製造フェーズを開始する前に包括的な安全セミナーを受講することを強く要求しました。"
+  },
+  {
+    "id": "p5_900_103",
+    "target_level": 900,
+    "sentence": "The board approved all the proposed department budgets for the next fiscal year, (     ) those submitted by the underperforming regional offices.",
+    "options": {
+      "A": "exceptive",
+      "B": "exception of",
+      "C": "with the exception of",
+      "D": "exceptional"
+    },
+    "correct_answer": "C",
+    "explanation": "「〜を除いて」という除外を意味する正しい複合前置詞（with the exception of）を選ぶ問題です。文脈は、業績不振の地方オフィスが提出した予算案を除いて、すべての予算案を承認したという内容です。",
+    "options_explanations": {
+      "A": "exceptive は形容詞（「除外例のある」）であり、後ろに名詞句 those を直接続けることができないため不適切です。",
+      "B": "exception of は、前に前置詞 with や冠詞 the が欠落しているため、単体で前置詞句を構成できません。",
+      "C": "正解。「〜を除いて（except）」を意味する正しい複合前置詞（with the exception of）です。",
+      "D": "exceptional は形容詞（「例外的な、極めて優れた」）であり、後ろに直接名詞句を伴う前置詞として機能しません。"
+    },
+    "meaning": "取締役会は、業績不振の地方オフィスから提出されたものを除き、来年度の提案されたすべての部門予算を承認しました。"
+  },
+  {
+    "id": "p5_900_104",
+    "target_level": 900,
+    "sentence": "Only after the board of directors reviewed the comprehensive audit results (     ) they decide to initiate the structural reorganization of the corporation.",
+    "options": {
+      "A": "did",
+      "B": "do",
+      "C": "have",
+      "D": "had"
+    },
+    "correct_answer": "A",
+    "explanation": "「Only after（〜して初めて）」という制限を表す副詞節が文頭に出たことにより、主節で「助動詞 + 主語 + 動詞の原形（decide）」の倒置が発生する問題です。reviewed（過去形）という文全体の過去の時制に合わせる必要があります。",
+    "options_explanations": {
+      "A": "正解。過去の出来事に対する倒置を引き起こし、原形動詞 decide と対応する助動詞 did です。",
+      "B": "do は現在形助動詞であり、文全体の過去時制（reviewed）と一致しないため不適切です。",
+      "C": "have は現在完了の助動詞ですが、後ろの動詞が原形 decide であるため文法的に不適切です（decided なら可）。",
+      "D": "had は過去完了の助動詞ですが、後ろの動詞が原形 decide であるため不適切です（decided なら可）。"
+    },
+    "meaning": "取締役会が包括的な監査結果を検討した後に初めて、彼らは企業の構造改革を開始することを決定しました。"
+  },
+  {
+    "id": "p5_900_105",
+    "target_level": 900,
+    "sentence": "It is critical that the senior financial officer (     ) all operational expenses before the annual regulatory report is submitted to the government.",
+    "options": {
+      "A": "reviews",
+      "B": "review",
+      "C": "reviewed",
+      "D": "reviewing"
+    },
+    "correct_answer": "B",
+    "explanation": "「It is critical that（〜することが極めて重要である）」という必要性・重要性を示す形容詞に導かれる that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。",
+    "options_explanations": {
+      "A": "reviews は三人称単数現在形ですが、critical that の節内では原形が要求されるため不適切です。",
+      "B": "正解。重要性を表す that 節内で使われる動詞の原形（review）です。",
+      "C": "reviewed は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "reviewing は現在分詞・動名詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "年次報告書が政府に提出される前に、上級財務役員がすべての業務経費を検証することが極めて重要です。"
+  },
+  {
+    "id": "p5_900_106",
+    "target_level": 900,
+    "sentence": "The logistics department has developed a robust (     ) plan to ensure business continuity in the event of severe supply chain disruptions.",
+    "options": {
+      "A": "contingent",
+      "B": "contingency",
+      "C": "contingently",
+      "D": "contingencies"
+    },
+    "correct_answer": "B",
+    "explanation": "ビジネス英語で「不測の事態への備え、緊急時対応計画」を意味する複合名詞「contingency plan」を構築する問題です。名詞の前で形容詞のように働く名詞は原則として単数形になります。",
+    "options_explanations": {
+      "A": "contingent は形容詞（「〜に依存する、偶発的な」）であり、定型ビジネス表現「contingency plan」を構成できません。",
+      "B": "正解。名詞 plan の前に置かれ、「緊急時対応計画（contingency plan）」を構成する名詞です。",
+      "C": "contingently は副詞であり、名詞 plan を直接修飾して複合名詞を構成することはできません。",
+      "D": "contingencies は複数名詞であり、複合名詞の前の名詞は通常単数形にするという規則に反するため不適切です。"
+    },
+    "meaning": "物流部門は、深刻なサプライチェーンの混乱が発生した場合にビジネスの継続性を確保するための、強固な代替計画を策定しました。"
+  },
+  {
+    "id": "p5_900_107",
+    "target_level": 900,
+    "sentence": "Under no circumstances (     ) employees disclose confidential proprietary data to third-party consultants without obtaining written authorization from the executive board.",
+    "options": {
+      "A": "should",
+      "B": "are",
+      "C": "have",
+      "D": "did"
+    },
+    "correct_answer": "A",
+    "explanation": "「Under no circumstances（いかなる状況下でも〜ない）」という強い否定の副詞句が文頭にあるため、主節で倒置（助動詞 + 主語 + 動詞の原形 disclose）が起こります。強い禁止（〜すべきではない）を表す助動詞 should が文脈上適切です。",
+    "options_explanations": {
+      "A": "正解。否定の倒置構文を構成し、原形動詞 disclose を伴って強い禁止を表す助動詞 should（should employees disclose）です。",
+      "B": "are は be 動詞であり、後ろに動詞の原形 disclose を直接続けることができないため不適切です。",
+      "C": "have は完了形の助動詞ですが、後ろに動詞の原形 disclose があるため不適切です（disclosed なら可）。",
+      "D": "did は過去の事実の倒置に使う助動詞ですが、「開示すべきではない」という恒常的なルールを述べる文脈において意味上不自然です。"
+    },
+    "meaning": "取締役会からの書面による承認を得ることなしに、従業員がいかなる状況下でも機密の専有データを第三者のコンサルタントに開示することは決して許されません。"
+  },
+  {
+    "id": "p5_900_108",
+    "target_level": 900,
+    "sentence": "Obtaining a professional engineering certification is considered an essential (     ) for anyone applying for the senior research officer position.",
+    "options": {
+      "A": "prerequire",
+      "B": "prerequisite",
+      "C": "prerequisitely",
+      "D": "prerequired"
+    },
+    "correct_answer": "B",
+    "explanation": "不定冠詞 an と形容詞 essential の後に続くため、空欄には名詞が入ります。「（応募資格などの）必須要件、前提条件」を意味する名詞 prerequisite が正解です。",
+    "options_explanations": {
+      "A": "prerequire は動詞（「あらかじめ必要とする」）であるため、形容詞の後ろに名詞として配置することはできません。",
+      "B": "正解。「必須条件、前提条件」を意味するビジネス英語の重要な名詞（prerequisite）です。",
+      "C": "prerequisitely は副詞（「前提として」）であり、名詞が入るべきこの位置には不適切です。",
+      "D": "prerequired は過去分詞・形容詞形であり、すでに形容詞 essential があるため、名詞を置くべきこの位置には不適切です。"
+    },
+    "meaning": "プロフェッショナルエンジニアの資格を取得することは、シニア研究員職に応募する人にとって不可欠な前提条件とみなされています。"
+  },
+  {
+    "id": "p5_900_109",
+    "target_level": 900,
+    "sentence": "The research team recommended that the company (     ) its primary data storage facilities to prevent unauthorized access to sensitive information.",
+    "options": {
+      "A": "upgrades",
+      "B": "upgrade",
+      "C": "upgraded",
+      "D": "upgrading"
+    },
+    "correct_answer": "B",
+    "explanation": "提案を表す動詞「recommend」に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。主語 the company（単数）に引っ張られて upgrades としないよう注意が必要です。",
+    "options_explanations": {
+      "A": "upgrades は三人称単数現在形ですが、recommend that 節内の原形規則に反するため不適切です。",
+      "B": "正解。提案を表す that 節内で要求される動詞の原形（upgrade）です。",
+      "C": "upgraded は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "upgrading は現在分詞・動名詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "研究チームは、機密情報への不正アクセスを防ぐために、会社が主要なデータ保存施設を強化することを推奨しました。"
+  },
+  {
+    "id": "p5_900_110",
+    "target_level": 900,
+    "sentence": "(     ) had the new chief executive officer assumed office than she was forced to address the unexpected corporate budget deficit.",
+    "options": {
+      "A": "No sooner",
+      "B": "Hardly",
+      "C": "Scarcely",
+      "D": "Barely"
+    },
+    "correct_answer": "A",
+    "explanation": "後半の節にある接続詞「than」と呼応して、「〜するやいなや（No sooner ... than）」という相関表現を構成する問題です。文頭の No sooner により、had the new CEO assumed と倒置が起こっています。",
+    "options_explanations": {
+      "A": "正解。後半の than と相関して「〜するやいなや」の倒置構文を作る否定語（No sooner）です。",
+      "B": "Hardly も「〜するやいなや」を表しますが、接続詞は than ではなく when または before を伴うため不適切です。",
+      "C": "Scarcely も「〜するやいなや」を表しますが、接続詞 when / before を伴うため不適切です。",
+      "D": "Barely も「〜するやいなや」を表しますが、接続詞 when / before を伴うため不適切です。"
+    },
+    "meaning": "新しい最高経営責任者が就任するやいなや、彼女は予期せぬ企業の予算赤字への対処を余儀なくされました。"
+  },
+  {
+    "id": "p5_900_111",
+    "target_level": 900,
+    "sentence": "The legal representatives negotiated for hours, eventually agreeing to sign the contract (     ) several concessions from the major manufacturing partner.",
+    "options": {
+      "A": "in exchange for",
+      "B": "exchange for",
+      "C": "in exchange of",
+      "D": "by exchange to"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜と引き換えに、〜の代わりに」という意味を表す正しい複合前置詞（in exchange for）を選ぶ問題です。ビジネス交渉で譲歩（concessions）を得る代わりに契約に合意したという文脈です。",
+    "options_explanations": {
+      "A": "正解。「〜と引き換えに」を意味する定型の複合前置詞（in exchange for）です。",
+      "B": "exchange for は、前に前置詞 in が欠落しているため、名詞句を繋ぐ前置詞句として機能しません。",
+      "C": "in exchange of は、最後の前置詞が of になっており、イディオムとして誤りです。",
+      "D": "by exchange to は、不適切な前置詞の組み合わせであり、このような定型表現は存在しません。"
+    },
+    "meaning": "法的代表者たちは何時間も交渉し、主要な製造パートナーからいくつかの譲歩を引き出すことで、最終的に契約書に署名することに合意しました。"
+  },
+  {
+    "id": "p5_900_112",
+    "target_level": 900,
+    "sentence": "It is highly recommended that every marketing associate (     ) the upcoming regional convention to understand the shifting paradigms of digital advertising.",
+    "options": {
+      "A": "attends",
+      "B": "attend",
+      "C": "attended",
+      "D": "attending"
+    },
+    "correct_answer": "B",
+    "explanation": "提案・勧告を表す「recommended」が It is recommended that... の形式で使われており、that 節内では動詞の原形（仮定法現在）が使われます。主語 every marketing associate に対する三人称単数の s は不要です。",
+    "options_explanations": {
+      "A": "attends は三人称単数現在形ですが、recommended that 節内では原形が要求されるため不適切です。",
+      "B": "正解。提案・推奨の that 節内で用いられる動詞の原形（attend）です。",
+      "C": "attended は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "attending は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "すべてのマーケティングアソシエイトが、デジタル広告のシフトするパラダイムを理解するために、今度の地域大会に参加することが強く推奨されます。"
+  },
+  {
+    "id": "p5_900_113",
+    "target_level": 900,
+    "sentence": "The financial analysts reported that the quarterly net profits were (     ) ten million dollars, far exceeding the initial projections.",
+    "options": {
+      "A": "in excess of",
+      "B": "exceeding of",
+      "C": "in excess for",
+      "D": "with excess to"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜を超えて、〜を上回って」を意味する定型の複合前置詞（in excess of）を選ぶ問題です。far exceeding...（当初の予測を大幅に上回る）という後続の文脈とも完全に一致します。",
+    "options_explanations": {
+      "A": "正解。「〜を上回って、〜を超えて」を意味する正しい複合前置詞（in excess of）です。",
+      "B": "exceeding of は誤った語構成であり、このような前置詞句は存在しません（exceeding 単体なら現在分詞/前置詞として使えます）。",
+      "C": "in excess for は、後ろの前置詞が for になっており、イディオムとして誤りです。",
+      "D": "with excess to は、不適切な前置詞の組み合わせであり、定型表現として存在しません。"
+    },
+    "meaning": "財務アナリストは、四半期純利益が当初の予測を大幅に上回り、1,000万ドルに達したと報告しました。"
+  },
+  {
+    "id": "p5_900_114",
+    "target_level": 900,
+    "sentence": "Not only (     ) the engineering team complete the prototype ahead of schedule, but they also reduced production costs by fifteen percent.",
+    "options": {
+      "A": "did",
+      "B": "do",
+      "C": "does",
+      "D": "has"
+    },
+    "correct_answer": "A",
+    "explanation": "「Not only（〜だけでなく）」という準否定語が文頭に置かれたことによる、主節の「助動詞 + 主語 + 動詞の原形（complete）」の倒置問題です。後半の節が reduced と過去形であるため、過去の助動詞 did を選びます。",
+    "options_explanations": {
+      "A": "正解。過去の時制に合致し、倒置を引き起こして原形動詞 complete と対応する助動詞 did です。",
+      "B": "do は現在形の助動詞であり、後半の過去時制（reduced）と一致しないため不適切です。",
+      "C": "does は三人称単数現在の助動詞であり、時制が一致しないため不適切です。",
+      "D": "has は完了形の助動詞ですが、直後の動詞が原形の complete であるため文法的に不適切です（has ... completed なら可）。"
+    },
+    "meaning": "技術チームは試作品を予定より早く完成させただけでなく、生産コストを15%削減しました。"
+  },
+  {
+    "id": "p5_900_115",
+    "target_level": 900,
+    "sentence": "Possessing excellent communication skills is a vital (     ) for managing cross-functional teams across diverse international corporate branches.",
+    "options": {
+      "A": "prerequire",
+      "B": "prerequisite",
+      "C": "prerequisitely",
+      "D": "prerequired"
+    },
+    "correct_answer": "B",
+    "explanation": "不定冠詞 a と形容詞 vital の直後であるため、空欄には名詞が入ります。ビジネス文脈で「前提条件、必須条件」を意味する名詞 prerequisite が適切です。",
+    "options_explanations": {
+      "A": "prerequire は動詞（「あらかじめ必要とする」）であるため、形容詞の後に直接名詞として置くことはできません。",
+      "B": "正解。名詞で「前提条件、必須要件」を意味する単語（prerequisite）です。",
+      "C": "prerequisitely は副詞であり、名詞が入るべきこのスロットには不適切です。",
+      "D": "prerequired は過去分詞・形容詞形であり、名詞スロットを埋めることはできません。"
+    },
+    "meaning": "優れたコミュニケーションスキルを持つことは、多様な国際的支社にわたる部門横断型チームを管理するための極めて重要な必要条件です。"
+  },
+  {
+    "id": "p5_900_116",
+    "target_level": 900,
+    "sentence": "The chief financial officer requested that the budget department (     ) more funds for the implementation of the new cybersecurity protocols.",
+    "options": {
+      "A": "allocates",
+      "B": "allocate",
+      "C": "allocated",
+      "D": "allocating"
+    },
+    "correct_answer": "B",
+    "explanation": "要求を表す動詞「request」に導かれる that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。主語 the budget department が単数名詞であっても allocates とはなりません。",
+    "options_explanations": {
+      "A": "allocates は三人称単数現在形ですが、request that 節内の原形規則に反するため不適切です。",
+      "B": "正解。要求を表す that 節内で使われる動詞の原形（allocate）です。",
+      "C": "allocated は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "allocating は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "最高財務責任者は、予算部門に対し、新しいサイバーセキュリティプロトコルの導入のためにより多くの資金を割り当てるよう要求しました。"
+  },
+  {
+    "id": "p5_900_117",
+    "target_level": 900,
+    "sentence": "Hardly (     ) the regulatory committee approved the corporate merger when the compliance officers began auditing the corporate environmental protocols.",
+    "options": {
+      "A": "had",
+      "B": "did",
+      "C": "has",
+      "D": "was"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜するやいなや...した（Hardly had + 主語 + 過去分詞 ... when + 過去形節）」の構文です。文頭の否定語 Hardly により倒置が起きており、過去分詞 approved と繋がって過去完了形を作る助動詞 had が正解です。",
+    "options_explanations": {
+      "A": "正解。過去の相次ぐ出来事を表す過去完了の倒置を作る助動詞 had（Hardly had ... approved）です。",
+      "B": "did は過去形の助動詞ですが、後ろの動詞が過去分詞 approved であるため文法的に不適切です（approve なら可）。",
+      "C": "has は現在完了の助動詞であり、後半の過去形 began と時制が一致しないため不適切です。",
+      "D": "was は be 動詞であり、能動の意味を表す approved（委員会が〜を承認した）と直接組み合わせて能動完了を作ることはできません。"
+    },
+    "meaning": "規制委員会が企業の合併を承認するやいなや、コンプライアンス担当者は企業の環境プロトコルの監査を開始しました。"
+  },
+  {
+    "id": "p5_900_118",
+    "target_level": 900,
+    "sentence": "The executive board decided to implement the expensive structural reforms (     ) that the company must remain competitive in a changing market.",
+    "options": {
+      "A": "so",
+      "B": "such",
+      "C": "in order",
+      "D": "provided"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜するために、〜となるように」という目的を表す接続詞「so that」を完成させる問題です。that の前に副詞 so を置くことで、後ろの節（the company must remain...）を繋ぎます。",
+    "options_explanations": {
+      "A": "正解。that と組み合わせて「〜するために（so that）」という目的を表す接続詞を構成する so です。",
+      "B": "such は形容詞・代名詞であり、such that の形は通常「とても〜なので...」や「〜するようなものである」という別の意味になり、目的の文脈には合いません。",
+      "C": "in order は、that と組み合わせる場合は in order that の形（in order to do ではない）になりますが、in order 単体ではなく in order that とするべきであり、空欄には in order が入りきりません（空欄が単一の語であるため不適切）。",
+      "D": "provided は provided that（〜という条件で）という条件の接続詞を作りますが、文脈上「〜できるように改革を実施した」という目的が最適であるため不適切です。"
+    },
+    "meaning": "取締役会は、変化する市場で会社が競争力を維持しなければならないという条件で、高額な構造改革を実施することを決定しました。"
+  },
+  {
+    "id": "p5_900_119",
+    "target_level": 900,
+    "sentence": "To ensure compliance, the internal auditor demanded that the finance team (     ) all original receipts for verification purposes immediately.",
+    "options": {
+      "A": "submits",
+      "B": "submit",
+      "C": "submitted",
+      "D": "submitting"
+    },
+    "correct_answer": "B",
+    "explanation": "要求を表す動詞「demand」に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。主語 the finance team が単数であっても、s のつかない原形 submit が入ります。",
+    "options_explanations": {
+      "A": "submits は三人称単数現在形ですが、demand that 節内では原形が要求されるため不適切です。",
+      "B": "正解。要求・主張の that 節内で使用される動詞の原形（submit）です。",
+      "C": "submitted は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "submitting は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "コンプライアンスを確保するため、内部監査人は財務チームに対し、検証目的のためにすべてのオリジナルの領収書を直ちに提示するよう要求しました。"
+  },
+  {
+    "id": "p5_900_120",
+    "target_level": 900,
+    "sentence": "Under the current economic conditions, the executive committee has (     ) alternative but to consolidate several unprofitable regional branches.",
+    "options": {
+      "A": "no",
+      "B": "not",
+      "C": "none",
+      "D": "any"
+    },
+    "correct_answer": "A",
+    "explanation": "「have no alternative but to + 動詞の原形（〜するよりほかに選択肢がない、〜せざるを得ない）」という定型表現を問う問題です。空欄には名詞 alternative を修飾する否定形容詞 no が入ります。",
+    "options_explanations": {
+      "A": "正解。「have no alternative but to do」というイディオムを構成し、名詞 alternative を修飾する否定形容詞 no です。",
+      "B": "not は副詞であり、冠詞のない名詞 alternative を直接修飾して「have not alternative」とすることはできません。",
+      "C": "none は代名詞であり、後ろに名詞 alternative を直接伴うことができないため不適切です。",
+      "D": "any は「いくつかの、いかなる」を意味し、通常肯定文で「〜するより他にいかなる選択肢もある」となり、文脈が崩れるため不適切です。"
+    },
+    "meaning": "現在の経済状況下で、エグゼクティブ委員会はいくつかの不採算の地方支店を統合する以外に選択肢がありません。"
+  },
+  {
+    "id": "p5_900_121",
+    "target_level": 900,
+    "sentence": "At no time (     ) the marketing directors anticipate that the digital advertising campaign would generate such an overwhelming response from consumers.",
+    "options": {
+      "A": "did",
+      "B": "do",
+      "C": "have",
+      "D": "had"
+    },
+    "correct_answer": "A",
+    "explanation": "強い否定を表す副詞句「At no time（いかなる時も〜ない）」が文頭にあるため、主節で倒置（助動詞 + 主語 + 動詞の原形 anticipate）が起きます。that 節内が would と過去になっているため、過去の助動詞 did を選択します。",
+    "options_explanations": {
+      "A": "正解。過去の文脈で倒置を引き起こし、原形動詞 anticipate と対応する過去の助動詞 did（did the marketing directors anticipate）です。",
+      "B": "do は現在形の助動詞であり、時制が would と一致しないため不適切です。",
+      "C": "have は完了形の助動詞ですが、後ろの動詞が原形 anticipate であるため不適切です（anticipated なら可）。",
+      "D": "had は過去完了の助動詞ですが、後ろに原形 anticipate を直接置くことはできません（anticipated なら可）。"
+    },
+    "meaning": "マーケティングディレクターたちは、デジタル広告キャンペーンが消費者からこれほど圧倒的な反響を呼ぶとは全く予想していませんでした。"
+  },
+  {
+    "id": "p5_900_122",
+    "target_level": 900,
+    "sentence": "The CEO felt it was necessary to (     ) the company's commitment to reducing carbon emissions during her keynote address at the summit.",
+    "options": {
+      "A": "reiterate",
+      "B": "reiteration",
+      "C": "reiterated",
+      "D": "reiterating"
+    },
+    "correct_answer": "A",
+    "explanation": "不定詞 to の後ろに位置し、目的語 the company's commitment を伴う動詞の原形を選ぶ問題です。ビジネス英語で「（方針や意見を）繰り返し表明する」を意味する重要な動詞 reiterate（原形）が正解です。",
+    "options_explanations": {
+      "A": "正解。不定詞 to の後ろで目的語を伴い、「繰り返し表明する」という意味を作る動詞の原形（reiterate）です。",
+      "B": "reiteration は名詞（「繰り返し表明すること」）であり、to の後ろに置いて動詞句を作ることはできません。",
+      "C": "reiterated は過去形・過去分詞であり、to の後ろの原形規則に反するため不適切です。",
+      "D": "reiterating は現在分詞・動名詞であり、不定詞 to の後ろの原形規則に反するため不適切です。"
+    },
+    "meaning": "CEOは、サミットでの基調講演の中で、二酸化炭素排出量の削減に対する会社のコミットメントを強調することが必要であると感じました。"
+  },
+  {
+    "id": "p5_900_123",
+    "target_level": 900,
+    "sentence": "It is imperative that the database administrator (     ) the system backup procedures daily to prevent catastrophic losses of customer information.",
+    "options": {
+      "A": "verifies",
+      "B": "verify",
+      "C": "verified",
+      "D": "verifying"
+    },
+    "correct_answer": "B",
+    "explanation": "「It is imperative that（〜することは必須である）」という命令・緊急性を示す形容詞に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。三人称単数の s はつかないため、verify が正解です。",
+    "options_explanations": {
+      "A": "verifies は三人称単数現在形ですが、imperative that 節内の原形規則に反するため不適切です。",
+      "B": "正解。要求・命令の that 節内で使われる動詞の原形（verify）です。",
+      "C": "verified は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "verifying は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "顧客情報の壊滅的な損失を防ぐために、データベース管理者がシステムバックアップ手順を毎日実行することが不可欠です。"
+  },
+  {
+    "id": "p5_900_124",
+    "target_level": 900,
+    "sentence": "The proposed merger will be executed (     ) the guidelines established during the preliminary negotiations between the two executive boards.",
+    "options": {
+      "A": "in accordance with",
+      "B": "accord with",
+      "C": "accordance to",
+      "D": "in accordance of"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜に従って、〜に準拠して」を意味する、ビジネス英語で極めて重要かつ頻出の複合前置詞（in accordance with）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "正解。「〜に従って」を意味する正しい複合前置詞（in accordance with）です。",
+      "B": "accord with は動詞句（「〜と一致する」）であり、後ろの名詞句を修飾する前置詞句としては使えません。",
+      "C": "accordance to は、後ろの前置詞が to になっており、イディオムとして誤りです。",
+      "D": "in accordance of は、後ろの前置詞が of になっており、イディオムとして誤りです。"
+    },
+    "meaning": "提案された合併は、2つの取締役会間の予備交渉中に確立されたガイドラインに従って実行されます。"
+  },
+  {
+    "id": "p5_900_125",
+    "target_level": 900,
+    "sentence": "Little (     ) the development team know that their innovative software design would soon become the industry standard for database management.",
+    "options": {
+      "A": "did",
+      "B": "do",
+      "C": "does",
+      "D": "has"
+    },
+    "correct_answer": "A",
+    "explanation": "「Little（ほとんど〜ない）」という準否定の副詞が文頭に置かれたことによる、主節の倒置（助動詞 + 主語 + 動詞の原形 know）問題です。後半の従属節が would become と過去形であるため、過去の助動詞 did を選びます。",
+    "options_explanations": {
+      "A": "正解。過去の事実に関する倒置を引き起こし、原形動詞 know と対応する助動詞 did（Little did they know）です。",
+      "B": "do は現在形の助動詞であり、文全体の過去時制（would）と一致しないため不適切です。",
+      "C": "does は三人称単数現在形の助動詞であり、時制が一致しないため不適切です。",
+      "D": "has は完了形の助動詞ですが、直後の動詞が原形の know であるため文法的に不適切です（known なら完了形として成立します）。"
+    },
+    "meaning": "開発チームは、彼らの革新的なソフトウェアデザインがすぐにデータベース管理の業界標準になるとはほとんど知る由もありませんでした。"
+  },
+  {
+    "id": "p5_900_126",
+    "target_level": 900,
+    "sentence": "Having a comprehensive understanding of international trade laws is a critical (     ) for the position of global logistics director.",
+    "options": {
+      "A": "prerequisite",
+      "B": "prerequire",
+      "C": "prerequisitely",
+      "D": "prerequired"
+    },
+    "correct_answer": "A",
+    "explanation": "不定冠詞 a と形容詞 critical の後に続くため、名詞が入るべき位置です。「（役職などの）前提条件、必須条件」を意味する名詞 prerequisite が適切です。",
+    "options_explanations": {
+      "A": "正解。名詞で「必須要件、前提条件」を意味する単語（prerequisite）です。",
+      "B": "prerequire は動詞（「あらかじめ必要とする」）であるため、形容詞の後に名詞として置くことはできません。",
+      "C": "prerequisitely は副詞であり、名詞が入るべきこの位置には不適切です。",
+      "D": "prerequired は過去分詞・形容詞形であり、名詞スロットを埋めることはできません。"
+    },
+    "meaning": "国際貿易法に関する包括的な理解を持つことは、グローバル物流ディレクターの職務にとって極めて重要な必要条件です。"
+  },
+  {
+    "id": "p5_900_127",
+    "target_level": 900,
+    "sentence": "The chairperson insisted that the board members (     ) a vote on the proposed acquisition before the end of the meeting.",
+    "options": {
+      "A": "take",
+      "B": "takes",
+      "C": "took",
+      "D": "taking"
+    },
+    "correct_answer": "A",
+    "explanation": "提案・要求を表す動詞「insist」に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。定型表現「take a vote（投票を行う）」の動詞原形 take が正解です。",
+    "options_explanations": {
+      "A": "正解。要求の that 節内で使用される動詞の原形（take）です。",
+      "B": "takes は三人称単数現在形ですが、that 節内の原形規則および複数主語 members に反するため不適切です。",
+      "C": "took は過去形であり、時制の一致を受けない that 節内の原形規則に反するため不適切です。",
+      "D": "taking は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "議長は、取締役会メンバーが会議の終了前に提案された買収に関する採決を行うことを主張しました。"
+  },
+  {
+    "id": "p5_900_128",
+    "target_level": 900,
+    "sentence": "The company managed to sustain its market share (     ) the unprecedented challenges brought about by the global supply chain crisis.",
+    "options": {
+      "A": "despite",
+      "B": "although",
+      "C": "even though",
+      "D": "regardless"
+    },
+    "correct_answer": "A",
+    "explanation": "空欄の後ろに the unprecedented challenges... という名詞句（主語+動詞を含まない構造）が続いているため、空欄には前置詞が入ります。「〜にもかかわらず」という譲歩を表す前置詞 despite が正解です。",
+    "options_explanations": {
+      "A": "正解。「〜にもかかわらず」を意味する前置詞（despite）です。",
+      "B": "although は接続詞であり、後ろに節（主語 + 動詞）を伴う必要があるため名詞句を直接繋げず不適切です。",
+      "C": "even though は接続詞であり、後ろに節を伴う必要があるため不適切です。",
+      "D": "regardless は、単体では後ろに名詞を直接繋げず、regardless of の形にする必要があるため不適切です。"
+    },
+    "meaning": "会社は、グローバルなサプライチェーン危機によってもたらされた前例のない困難にもかかわらず、その市場シェアを維持することに成功しました。"
+  },
+  {
+    "id": "p5_900_129",
+    "target_level": 900,
+    "sentence": "Only by conducting thorough market research (     ) the startup hope to identify the highly lucrative niches in the competitive electronics industry.",
+    "options": {
+      "A": "can",
+      "B": "does",
+      "C": "did",
+      "D": "is"
+    },
+    "correct_answer": "A",
+    "explanation": "「Only by（〜することによってのみ）」という制限を表す副詞句が文頭に出たため、主節で倒置（助動詞 + 主語 + 動詞の原形 hope）が発生します。文脈上、「期待することができる」という可能の意味が自然なため can が入ります。",
+    "options_explanations": {
+      "A": "正解。制限の副詞句に伴う倒置構文において、可能を表し、原形動詞 hope を伴う助動詞 can（can the startup hope）です。",
+      "B": "does は現在形助動詞ですが、文脈上「〜することによってのみ、実際に期待する」よりも「〜によってのみ期待できる」という可能（can）の方が意味的に自然です。",
+      "C": "did は過去形助動詞ですが、一般的なスタートアップの可能性について述べている現在時制の文脈には合わないため不自然です。",
+      "D": "is は be 動詞であり、後ろに動詞の原形 hope を直接置くことはできないため不適切です（is hoping なら可能）。"
+    },
+    "meaning": "徹底的な市場調査を実施することによってのみ、スタートアップは競争の激しい電子機器業界で非常に収益性の高いニッチを特定することを期待できます。"
+  },
+  {
+    "id": "p5_900_130",
+    "target_level": 900,
+    "sentence": "The advisory panel strongly recommended that the corporation (     ) its investment portfolio to mitigate potential risks in the volatile energy market.",
+    "options": {
+      "A": "diversify",
+      "B": "diversifies",
+      "C": "diversified",
+      "D": "diversifying"
+    },
+    "correct_answer": "A",
+    "explanation": "提案・勧告を表す動詞「recommend」に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。「投資ポートフォリオを分散させる（diversify）」の原形が適切です。",
+    "options_explanations": {
+      "A": "正解。recommend that の後ろの節内で要求される動詞の原形（diversify）です。",
+      "B": "diversifies は三人称単数現在形ですが、that 節内の原形規則に反するため不適切です。",
+      "C": "diversified は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "diversifying は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "諮問パネルは、変動の激しいエネルギー市場における潜在的なリスクを軽減するために、企業が投資ポートフォリオを多様化することを強く推奨しました。"
+  },
+  {
+    "id": "p5_900_131",
+    "target_level": 900,
+    "sentence": "The legal team advised that the contract be finalized quickly lest the company (     ) future disputes regarding intellectual property rights.",
+    "options": {
+      "A": "faces",
+      "B": "face",
+      "C": "faced",
+      "D": "facing"
+    },
+    "correct_answer": "B",
+    "explanation": "「lest + 主語 + 動詞の原形（または should + 原形）」は、「〜しないように、〜することを恐れて」を表す高度な接続詞です。節内の動詞は原形（仮定法現在）にする必要があるため、単数主語 company に対しても face が正解です。",
+    "options_explanations": {
+      "A": "faces は三人称単数現在形ですが、lest 節内では動詞の原形が使われるため不適切です。",
+      "B": "正解。lest 節内で要求される動詞の原形（face）です。",
+      "C": "faced は過去形であり、lest 節内の原形規則に反するため不適切です。",
+      "D": "facing は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "法務チームは、知的財産権に関する将来の紛争を避けるために、契約を迅速に確定させるようアドバイスしました。"
+  },
+  {
+    "id": "p5_900_132",
+    "target_level": 900,
+    "sentence": "The regional director decided to restructure the sales team (     ) the recent decline in quarterly performance across all major product lines.",
+    "options": {
+      "A": "following",
+      "B": "although",
+      "C": "because",
+      "D": "regardless"
+    },
+    "correct_answer": "A",
+    "explanation": "「（業績の）低下【を受けて / の後に】」という前後関係や理由を示す正しい前置詞を選ぶ問題です。following は前置詞として「〜に続いて、〜を受けて」を意味し、ビジネス文脈で頻出します。",
+    "options_explanations": {
+      "A": "正解。「〜を受けて、〜の後に」を意味する前置詞（following）です。",
+      "B": "although は接続詞であり、後ろに名詞句ではなく節（主語+動詞）を伴う必要があるため不適切です。",
+      "C": "because は接続詞であり、後ろに節を伴う必要があるため不適切です（because of なら可能です）。",
+      "D": "regardless は、単体では後ろに名詞を直接修飾できず、regardless of の形にする必要があるため不適切です。"
+    },
+    "meaning": "地域ディレクターは、すべての主要製品ラインにわたる最近の四半期業績の低下を考慮して、販売チームを再編することを決定しました。"
+  },
+  {
+    "id": "p5_900_133",
+    "target_level": 900,
+    "sentence": "Not until the final audit was completed (     ) the chief financial officer realize the full extent of the accounting discrepancies.",
+    "options": {
+      "A": "did",
+      "B": "do",
+      "C": "does",
+      "D": "has"
+    },
+    "correct_answer": "A",
+    "explanation": "「Not until（〜して初めて）」という否定の副詞節が文頭に置かれたことによる、主節の「助動詞 + 主語 + 動詞の原形（realize）」の倒置問題です。文全体の時制が過去（was completed）なので、過去の助動詞 did を選びます。",
+    "options_explanations": {
+      "A": "正解。過去の時制に合致し、主節の倒置を構成する助動詞 did（did the CFO realize）です。",
+      "B": "do は現在形の助動詞であり、過去時制（was completed）と一致しないため不適切です。",
+      "C": "does は三人称単数現在形の助動詞であり、時制が一致しないため不適切です。",
+      "D": "has は完了形の助動詞ですが、後ろの動詞が原形の realize であるため不適切です（realized なら完了形として成立します）。"
+    },
+    "meaning": "最終的な監査が完了して初めて、最高財務責任者は会計上の不一致の全貌を認識しました。"
+  },
+  {
+    "id": "p5_900_134",
+    "target_level": 900,
+    "sentence": "The managing director urged that the lead engineer (     ) the technical feasibility of the proposed manufacturing process before next Tuesday.",
+    "options": {
+      "A": "assess",
+      "B": "assesses",
+      "C": "assessed",
+      "D": "assessing"
+    },
+    "correct_answer": "A",
+    "explanation": "催促・要求を表す動詞「urge」に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。「技術的実現可能性を評価する（assess）」の原形が適切です。",
+    "options_explanations": {
+      "A": "正解。urge that の後ろの節内で要求される動詞の原形（assess）です。",
+      "B": "assesses は三人称単数現在形ですが、that 節内の原形規則に反するため不適切です。",
+      "C": "assessed は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "assessing は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "常務取締役は、主任技術者に対し、来週の火曜日までに提案された製造プロセスの技術的実現可能性を検証するよう促しました。"
+  },
+  {
+    "id": "p5_900_135",
+    "target_level": 900,
+    "sentence": "The compensation package offered to the new executive was (     ) what the industry average currently dictates for similar roles.",
+    "options": {
+      "A": "in excess of",
+      "B": "exceeding of",
+      "C": "in excess for",
+      "D": "with excess to"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜を超えて、〜を上回って」を意味する正しい複合前置詞（in excess of）を選ぶ問題です。文脈は、新しい役員の給与パッケージが業界平均を上回るものであることを示しています。",
+    "options_explanations": {
+      "A": "正解。「〜を上回って、〜を超えて」を意味する定型の複合前置詞（in excess of）です。",
+      "B": "exceeding of は誤った構成の前置詞句であり、イディオムとして存在しません。",
+      "C": "in excess for は、後ろの前置詞が for になっており、イディオムとして誤りです。",
+      "D": "with excess to は、不適切な前置詞の組み合わせであり、定型表現として存在しません。"
+    },
+    "meaning": "新しい役員に提示された報酬パッケージは、同様の役割に対して業界平均が現在規定しているものを大幅に上回っていました。"
+  },
+  {
+    "id": "p5_900_136",
+    "target_level": 900,
+    "sentence": "Were the board to reject the proposed restructuring plan, the company (     ) face severe financial consequences in the upcoming fiscal year.",
+    "options": {
+      "A": "would",
+      "B": "will",
+      "C": "had",
+      "D": "does"
+    },
+    "correct_answer": "A",
+    "explanation": "If が省略され倒置が発生した、仮定法過去（If the board were to reject... -> Were the board to reject...）の文脈です。帰結節（主節）では「助動詞の過去形 would（または could/might）+ 動詞の原形（face）」を使用します。",
+    "options_explanations": {
+      "A": "正解。仮定法過去の帰結節で使用され、原形 face を伴って「〜するだろう」という推量・帰結を表す would です。",
+      "B": "will は直説法未来の助動詞であり、仮定法過去の文脈には適合しないため不適切です。",
+      "C": "had は過去完了の助動詞ですが、後ろに動詞の原形 face があるため文法的に不適切です（faced なら過去完了として成立します）。",
+      "D": "does は現在形の助動詞であり、仮定法過去の文脈には適合しないため不適切です。"
+    },
+    "meaning": "万が一取締役会が提案された構造改革計画を拒否した場合、会社は来年度に深刻な財務的結果に直面することになるでしょう。"
+  },
+  {
+    "id": "p5_900_137",
+    "target_level": 900,
+    "sentence": "The human resources department introduced several initiatives to improve (     ) among the employees working remotely across different time zones.",
+    "options": {
+      "A": "collaborate",
+      "B": "collaboration",
+      "C": "collaborative",
+      "D": "collaboratively"
+    },
+    "correct_answer": "B",
+    "explanation": "他動詞 improve の目的語となる名詞を選ぶ問題です。異なる時間帯のリモートワーク環境において、従業員同士の「共同作業、協働」を改善するという文脈から名詞 collaboration が適切です。",
+    "options_explanations": {
+      "A": "collaborate は動詞（「協力する、共同で行う」）であり、他動詞 improve の直接の目的語（名詞）として置くことはできません。",
+      "B": "正解。improve の目的語（名詞）として機能する「共同作業、協働」を意味する名詞（collaboration）です。",
+      "C": "collaborative は形容詞（「協力的な」）であり、目的語となる名詞の位置には置けません。",
+      "D": "collaboratively は副詞（「協力して」）であり、目的語となる名詞の位置には置けません。"
+    },
+    "meaning": "人事部門は、異なるタイムゾーンでリモートワークをしている従業員間の協調性を向上させるためのいくつかの取り組みを導入しました。"
+  },
+  {
+    "id": "p5_900_138",
+    "target_level": 900,
+    "sentence": "It is vital that the quality control team (     ) every batch of pharmaceuticals thoroughly to ensure absolute compliance with medical standards.",
+    "options": {
+      "A": "inspect",
+      "B": "inspects",
+      "C": "inspected",
+      "D": "inspecting"
+    },
+    "correct_answer": "A",
+    "explanation": "「It is vital that（〜することが不可欠である）」という必要性を示す形容詞に続く that 節内では、主語に関わらず動詞 of the 原形（仮定法現在）が使われます。三人称単数の s のつかない inspect が正解です。",
+    "options_explanations": {
+      "A": "正解。It is vital that の後ろの節内で要求される動詞の原形（inspect）です。",
+      "B": "inspects は三人称単数現在形ですが、that 節内の原形規則に反するため不適切です。",
+      "C": "inspected は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "inspecting は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "医薬品基準への絶対的な準拠を確保するために、品質管理チームが医薬品のすべてのバッチを徹底的に検査することが極めて重要です。"
+  },
+  {
+    "id": "p5_900_139",
+    "target_level": 900,
+    "sentence": "The research division decided to halt the experiment (     ) the unexpected results obtained during the preliminary trials last week.",
+    "options": {
+      "A": "owing to",
+      "B": "owing for",
+      "C": "because",
+      "D": "despite of"
+    },
+    "correct_answer": "A",
+    "explanation": "「予期せぬ結果【が原因で / のために】実験を中止した」という因果関係を表す正しい前置詞を選ぶ問題です。「〜のために、〜が原因で」を意味する正しい表現は owing to です。",
+    "options_explanations": {
+      "A": "正解。「〜が原因で、〜のために」を意味する定型の複合前置詞（owing to）です。",
+      "B": "owing for は不適切な表現であり、理由を表す前置詞句にはなりません。",
+      "C": "because は接続詞であり、後ろに名詞句（the unexpected results...）ではなく節（主語+動詞）を伴う必要があるため不適切です。",
+      "D": "despite of は、それ自体で前置詞として働く despite に余計な of を付け加えた誤った表現です（in spite of なら可能です）。"
+    },
+    "meaning": "研究部門は、先週の予備試験中に得られた予期せぬ結果により、実験を中止することを決定しました。"
+  },
+  {
+    "id": "p5_900_140",
+    "target_level": 900,
+    "sentence": "Should the shipping company fail to deliver the raw materials on time, the manufacturing plant must activate its (     ) plan.",
+    "options": {
+      "A": "contingent",
+      "B": "contingency",
+      "C": "contingently",
+      "D": "contingencies"
+    },
+    "correct_answer": "B",
+    "explanation": "ビジネス英語で「緊急時対応計画、不測の事態への備え」を意味する重要複合名詞「contingency plan」を構築する問題です。前置されて形容詞的に働く名詞は通常単数形になります。",
+    "options_explanations": {
+      "A": "contingent は形容詞であり、名詞 plan の前に置かれて「contingency plan」という特定の複合名詞イディオムを構成することはできません。",
+      "B": "正解。名詞 plan と組み合わさって「不測の事態への対応計画（contingency plan）」という複合名詞を作る名詞です。",
+      "C": "contingently は副詞であり、名詞 plan を直接修飾して複合名詞を構成することはできません。",
+      "D": "contingencies は複数名詞であり、複合名詞の前の名詞は単数形にするという文法規則に反するため不適切です。"
+    },
+    "meaning": "万が一配送会社が原材料を時間通りに配達できなかった場合、製造工場は代替計画を発動しなければなりません。"
+  },
+  {
+    "id": "p5_900_141",
+    "target_level": 900,
+    "sentence": "Only when the market research is fully complete (     ) the executive team make a final decision regarding the overseas expansion project.",
+    "options": {
+      "A": "will",
+      "B": "is",
+      "C": "does",
+      "D": "has"
+    },
+    "correct_answer": "A",
+    "explanation": "「Only when（〜するときになって初めて）」という制限を表す副詞節が文頭にあるため、主節で倒置（助動詞 + 主語 + 動詞の原形 make）が起きます。これから行う海外進出に関する決定を示すため、未来の意思・予定を表す助動詞 will が最も適切です。",
+    "options_explanations": {
+      "A": "正解。文頭の制限表現に対応し、主節の倒置を作って未来の決定を述べる助動詞 will（will the executive team make）です。",
+      "B": "is は be 動詞であり、後ろに動詞の原形 make を直接置くことはできないため不適切です。",
+      "C": "does は現在形助動詞ですが、文脈上すでに確定している現在の習慣などを示すため不自然であり、未来の具体的な決定には will が適切です。",
+      "D": "has は完了形の助動詞ですが、後ろの動詞が原形の make であるため不適切です（made なら完了形として成立します）。"
+    },
+    "meaning": "市場調査が完全に完了して初めて、エグゼクティブチームは海外展開プロジェクトに関する最終決定を下すことができます。"
+  },
+  {
+    "id": "p5_900_142",
+    "target_level": 900,
+    "sentence": "The executive board requested that the marketing director (     ) a revised promotional strategy that targets the millennial demographic more effectively.",
+    "options": {
+      "A": "develop",
+      "B": "develops",
+      "C": "developed",
+      "D": "developing"
+    },
+    "correct_answer": "A",
+    "explanation": "要求を表す動詞「request」に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。三人称単数形の s がつかない原形 develop が正解です。",
+    "options_explanations": {
+      "A": "正解。要求を表す that 節内で使われる動詞の原形（develop）です。",
+      "B": "develops は三人称単数現在形ですが、that 節内の原形規則に反するため不適切です。",
+      "C": "developed は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "developing は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "取締役会は、マーケティングディレクターに対し、ミレニアル世代をより効果的にターゲットにした修正プロモーション戦略を策定するよう要求しました。"
+  },
+  {
+    "id": "p5_900_143",
+    "target_level": 900,
+    "sentence": "The corporate legal counsel reviewed the proposed partnership agreement to ensure it was (     ) all local and federal business regulations.",
+    "options": {
+      "A": "in compliance with",
+      "B": "in compliant to",
+      "C": "compliance of",
+      "D": "with compliance of"
+    },
+    "correct_answer": "A",
+    "explanation": "「（規則や基準など）を遵守して、〜に従って」を意味する、ビジネス英語で極めて重要かつ頻出の複合前置詞（in compliance with）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "正解。「〜を遵守して、〜に準拠して」を意味する正しい複合前置詞（in compliance with）です。",
+      "B": "in compliant to は、compliant が形容詞であり、また前置詞 to も誤りであるため不適切です（compliant with であれば可能ですが、in compliant with という形は誤りです）。",
+      "C": "compliance of は前置詞 in が欠落しており、イディオムとして成立しません。",
+      "D": "with compliance of は、不適切な前置詞の組み合わせであり、このような定型表現は存在しません。"
+    },
+    "meaning": "企業の法務顧問は、提案されたパートナーシップ契約がすべての地方および連邦のビジネス規制に準拠していることを確認するためにレビューしました。"
+  },
+  {
+    "id": "p5_900_144",
+    "target_level": 900,
+    "sentence": "Had the company invested in modern cloud infrastructure earlier, the transition to remote operations (     ) been significantly smoother and less costly.",
+    "options": {
+      "A": "would have",
+      "B": "will have",
+      "C": "would",
+      "D": "had"
+    },
+    "correct_answer": "A",
+    "explanation": "If が省略されて倒置が発生した、仮定法過去完了（If the company had invested... -> Had the company invested...）の文脈です。主節（帰結節）では「would / could / might + have + 過去分詞（been）」の形が必要となるため、would have が正解です。",
+    "options_explanations": {
+      "A": "正解。仮定法過去完了の帰結節を構成し、have been と繋がって「〜だっただろう」という過去の反事実推量を示す would have です。",
+      "B": "will have は直説法未来完了の助動詞であり、仮定法過去完了の文脈には適合しないため不適切です。",
+      "C": "would 単体では、後ろに have がないため、過去分詞 been と直接繋がることができず不適切です（would been という文法構造は存在しません）。",
+      "D": "had は単なる過去完了の助動詞であり、仮定法の主節で単体で使用して過去の事実と反対の推量を表すことはできないため不適切です。"
+    },
+    "meaning": "会社がもっと早く最新のクラウドインフラストラクチャに投資していたら、リモート業務への移行は著しくスムーズで、かつコストもかからなかったでしょう。"
+  },
+  {
+    "id": "p5_900_145",
+    "target_level": 900,
+    "sentence": "The financial consultant emphasized that a solid business plan is a fundamental (     ) for securing long-term funding from venture capitalists.",
+    "options": {
+      "A": "prerequisite",
+      "B": "prerequire",
+      "C": "prerequisitely",
+      "D": "prerequired"
+    },
+    "correct_answer": "A",
+    "explanation": "不定冠詞 a と形容詞 fundamental の後に続くため、名詞が入るべき位置です。「前提条件、不可欠な要件」を意味する名詞 prerequisite が適切です。",
+    "options_explanations": {
+      "A": "正解。名詞で「前提条件、必須条件」を意味する単語（prerequisite）です。",
+      "B": "prerequire は動詞であり、形容詞の後に直接名詞として置くことはできません。",
+      "C": "prerequisitely は副詞であり、名詞が入るべきこの位置には不適切です。",
+      "D": "prerequired は過去分詞・形容詞形であり、名詞スロットを埋めることはできません。"
+    },
+    "meaning": "財務コンサルタントは、ベンチャーキャピタリストから長期的な資金調達を確保するためには、強固なビジネス計画が根本的な前提条件であると強調しました。"
+  },
+  {
+    "id": "p5_900_146",
+    "target_level": 900,
+    "sentence": "The laboratory manager requested that the safety inspector (     ) the facility immediately to verify compliance with the new environmental laws.",
+    "options": {
+      "A": "inspect",
+      "B": "inspects",
+      "C": "inspected",
+      "D": "inspecting"
+    },
+    "correct_answer": "A",
+    "explanation": "要求を表する動詞「request」に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。三人称単数の s がつかない原形 inspect が正解です。",
+    "options_explanations": {
+      "A": "正解。request that の後ろの節内で要求される動詞の原形（inspect）です。",
+      "B": "inspects は三人称単数現在形ですが、that 節内の原形規則に反するため不適切です。",
+      "C": "inspected は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "inspecting は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "研究所マネージャーは、安全検査官に対し、新しい環境法への準拠を確認するために直ちに施設を視察するよう要求しました。"
+  },
+  {
+    "id": "p5_900_147",
+    "target_level": 900,
+    "sentence": "The sudden surge in online orders occurred (     ) the successful launch of the highly anticipated summer promotional campaign yesterday afternoon.",
+    "options": {
+      "A": "following",
+      "B": "although",
+      "C": "because",
+      "D": "regardless"
+    },
+    "correct_answer": "A",
+    "explanation": "「プロモーションの開始【を受けて / に続いて】オンライン注文の急増が起こった」という文脈です。「〜を受けて、〜に続いて」を意味する正しい前置詞 following を選びます。",
+    "options_explanations": {
+      "A": "正解。「〜を受けて、〜に続いて」を意味する前置詞（following）です。",
+      "B": "although は接続詞であり、後ろに名詞句ではなく節（主語+動詞）を伴う必要があるため不適切です。",
+      "C": "because は接続詞であり、後ろに節を伴う必要があるため不適切です（because of なら可能です）。",
+      "D": "regardless は、単体では後ろに名詞を直接修飾できず、regardless of の形にする必要があるため不適切です。"
+    },
+    "meaning": "オンライン注文の急増は、昨日の午後に大いに期待されていた夏季プロモーションキャンペーンが成功裏に開始されたことに伴って発生しました。"
+  },
+  {
+    "id": "p5_900_148",
+    "target_level": 900,
+    "sentence": "Rarely (     ) a startup company achieve such rapid market penetration without substantial initial backing from prominent institutional investors.",
+    "options": {
+      "A": "does",
+      "B": "do",
+      "C": "did",
+      "D": "is"
+    },
+    "correct_answer": "A",
+    "explanation": "「Rarely（めったに〜ない）」という否定副詞が文頭に置かれたことによる、主節の「助動詞 + 主語 + 動詞の原形（achieve）」の倒置問題です。一般的な事実・傾向を述べているため、三人称単数の助動詞 does が適切です。",
+    "options_explanations": {
+      "A": "正解。単数主語 a startup company に対応し、倒置を引き起こす現在形助動詞 does です。",
+      "B": "do は複数主語に対応する助動詞であり、単数主語である a startup company には使用できません。",
+      "C": "did は過去形助動詞ですが、特定の過去の事実ではなく、スタートアップ一般についての現在の事実や性質を述べる文脈であるため不自然です。",
+      "D": "is は be 動詞であり、後ろに動詞の原形 achieve を直接置くことはできないため不適切です。"
+    },
+    "meaning": "スタートアップ企業が、著名な機関投資家からの多大な初期の支援なしに、これほど急速な市場浸透を達成することはめったにありません。"
+  },
+  {
+    "id": "p5_900_149",
+    "target_level": 900,
+    "sentence": "It is required that the security officer (     ) all visitor logs at the end of each shift to ensure site safety.",
+    "options": {
+      "A": "inspect",
+      "B": "inspects",
+      "C": "inspected",
+      "D": "inspecting"
+    },
+    "correct_answer": "A",
+    "explanation": "「It is required that（〜することが要求される）」という要求を表す表現に続く that 節内では、主語に関わらず動詞の原形（仮定法現在）が使われます。三人称単数の s は不要なので inspect が正解です。",
+    "options_explanations": {
+      "A": "正解。required that の後ろの節内で要求される動詞の原形（inspect）です。",
+      "B": "inspects は三人称単数現在形ですが、that 節内の原形規則に反するため不適切です。",
+      "C": "inspected は過去形であり、that 節内の原形規則に反するため不適切です。",
+      "D": "inspecting は現在分詞であり、節の述語動詞にはなれません。"
+    },
+    "meaning": "現場の安全を確保するために、セキュリティオフィサーは各シフトの終わりにすべての訪問者ログを確認することが求められます。"
+  },
+  {
+    "id": "p5_900_150",
+    "target_level": 900,
+    "sentence": "The joint venture was dissolved (     ) irreconcilable differences between the partners regarding the long-term direction of technological research.",
+    "options": {
+      "A": "due to",
+      "B": "due for",
+      "C": "because",
+      "D": "despite of"
+    },
+    "correct_answer": "A",
+    "explanation": "「（パートナー間の）和解しがたい意見の相違【が原因で / のために】合弁会社が解散された」という因果関係を完成させる正しい前置詞を選ぶ問題です。「〜のために、〜が原因で」を意味する due to が適切です。",
+    "options_explanations": {
+      "A": "正解。「〜のために、〜が原因で」を意味する前置詞（due to）です。",
+      "B": "due for は「〜を受ける予定である」といった意味になり、理由を導くことはできません。",
+      "C": "because は接続詞であり、後ろに名詞句（irreconcilable differences...）を直接伴うことができないため不適切です。",
+      "D": "despite of は、譲歩を意味する前置詞 despite に余計な of を付け加えた誤った表現です。"
+    },
+    "meaning": "技術研究の長期的な方向性に関するパートナー間の相容れない相違により、合弁事業は解消されました。"
+  }
+]

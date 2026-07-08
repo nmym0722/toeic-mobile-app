@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "p5_500_001",
+    "target_level": 500,
+    "sentence": "The new regional manager will arrive (     ) London next Tuesday morning.",
+    "options": {
+      "A": "at",
+      "B": "on",
+      "C": "in",
+      "D": "to"
+    },
+    "correct_answer": "C",
+    "explanation": "動詞 arrive と組み合わせて、都市名（London）の前に置く最も適切な「場所」の前置詞を選ぶ問題です。国や都市などの広い地域の前には in を使用します。",
+    "options_explanations": {
+      "A": "at は特定の地点や比較的狭い場所（駅や空港など）の前に使われるため、都市名 London には不適切です。",
+      "B": "on は通りや曜日、接触している面（テーブルの上など）の前に使われるため、都市名には不適切です。",
+      "C": "in は都市や国を指す広い場所の前に置かれるため、London と調和して「ロンドンに到着する」という正しい表現（arrive in）になります。",
+      "D": "arrive と目的地を繋ぐ場合、一般的に arrive to とは言わず、arrive in または arrive at を用いるのが標準的です。"
+    },
+    "meaning": "新しい地域マネージャーは来週の火曜日の朝にロンドンに到着します。"
+  },
+  {
+    "id": "p5_500_002",
+    "target_level": 500,
+    "sentence": "The marketing department must submit the annual report (     ) Friday afternoon.",
+    "options": {
+      "A": "by",
+      "B": "on",
+      "C": "in",
+      "D": "at"
+    },
+    "correct_answer": "A",
+    "explanation": "締め切りを表す「〜までに」の意味の前置詞 by を選ぶ問題です。",
+    "options_explanations": {
+      "A": "by は「〜までに」という期限を表し、金曜日の午後までに提出するという文脈に最適です。",
+      "B": "on は特定の曜日を指すことができますが、すでに afternoon という時間帯があり、かつ提出期限を示す「〜までに」の意味にならないため不適切です。",
+      "C": "in は「〜の中に」や月・年などに使われますが、具体的な曜日の午後までにという期限には使えません。",
+      "D": "at は特定の時刻などのピンポイントの時間に使われるため、金曜日の午後全体を指す言葉の前には使えません。"
+    },
+    "meaning": "マーケティング部門は金曜日の午後までに年次報告書を提出しなければなりません。"
+  },
+  {
+    "id": "p5_500_003",
+    "target_level": 500,
+    "sentence": "Ms. Carter works (     ) the accounting department on the third floor.",
+    "options": {
+      "A": "in",
+      "B": "on",
+      "C": "at",
+      "D": "of"
+    },
+    "correct_answer": "A",
+    "explanation": "部署（the accounting department）に所属して働いていることを示す適切な前置詞を選ぶ問題です。「〜の中で（所属して）」を意味する in が適切です。",
+    "options_explanations": {
+      "A": "in は部署や部門などの組織の中に所属していることを表すため正解です。",
+      "B": "on は接触（〜の上に）を表すため、部署に属するという文脈には適していません。",
+      "C": "at は特定の地点（施設や住所など）を表すのに使われますが、組織・部署への所属を示す場合は in がより自然です。",
+      "D": "of は「〜の」という所有や関連を表す前置詞であり、works of という形では「〜で働く」という意味になりません。"
+    },
+    "meaning": "カーターさんは3階にある経理部で働いています。"
+  },
+  {
+    "id": "p5_500_004",
+    "target_level": 500,
+    "sentence": "The weekly staff meeting always begins (     ) 10:00 a.m. sharp.",
+    "options": {
+      "A": "on",
+      "B": "at",
+      "C": "in",
+      "D": "for"
+    },
+    "correct_answer": "B",
+    "explanation": "具体的な時刻（10:00 a.m.）の前に置いて「〜時に」を意味する、最も適切な時間の前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "on は曜日や特定の日付（on Monday など）の前に使われるため、具体的な時刻の前には使えません。",
+      "B": "at は「〜時に」という特定の1点を示す時刻の前に使われるため、文法的に正解です。",
+      "C": "in は月、季節、年、または「午前・午後」といった比較的広い時間の枠（in October, in the morning など）の前に使われます。",
+      "D": "for は期間（for three hours など）を表す際に使われるため、特定の開始時刻を指す begins の後ろには不適切です。"
+    },
+    "meaning": "週次のスタッフミーティングはいつも午前10時ちょうどに始まります。"
+  },
+  {
+    "id": "p5_500_005",
+    "target_level": 500,
+    "sentence": "Please place the signed contract (     ) the manager's desk immediately.",
+    "options": {
+      "A": "on",
+      "B": "at",
+      "C": "in",
+      "D": "to"
+    },
+    "correct_answer": "A",
+    "explanation": "机の上という「〜の表面に」接触している場所を示す適切な前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "on は「〜の上に、接触して」を意味し、書類を机の上に置くという文脈に最適です。",
+      "B": "at は「特定の地点（の場所に）」を指しますが、机の上という具体的な平面に置く場合は on が最も適しています。",
+      "C": "in は「〜の中に（内部に）」を意味するため、机の引き出しの中などの文脈でない限り不適切です。",
+      "D": "to は「〜へ」という方向・目的地を示しますが、置く場所の指示には使えません。"
+    },
+    "meaning": "署名済みの契約書はすぐにマネージャーの机の上に置いてください。"
+  },
+  {
+    "id": "p5_500_006",
+    "target_level": 500,
+    "sentence": "Customers can buy company products directly (     ) the official website.",
+    "options": {
+      "A": "from",
+      "B": "to",
+      "C": "at",
+      "D": "by"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜から（購入元）」を表す適切な前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "from は「〜から、〜を起点として」を意味し、ウェブサイトから直接購入するという文脈に最適です。",
+      "B": "to は方向（〜へ）を表すため、購入元を示す文脈には不適切です。",
+      "C": "at は特定の地点を示しますが、購入の入手元を表す場合は from の方が自然です。",
+      "D": "by は手段（〜によって）を表すこともありますが、直接的な入手元を示す場合は from を使用します。"
+    },
+    "meaning": "顧客は公式ウェブサイトから直接、会社の製品を購入することができます。"
+  },
+  {
+    "id": "p5_500_007",
+    "target_level": 500,
+    "sentence": "The logistics company provides an (     ) service to all its clients.",
+    "options": {
+      "A": "excellent",
+      "B": "excellently",
+      "C": "excellence",
+      "D": "excel"
+    },
+    "correct_answer": "A",
+    "explanation": "冠詞 an と名詞 service の間に入り、名詞を修飾する最も適切な品詞（形容詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "excellent は形容詞（「優秀な、素晴らしい」）であり、名詞 service を修飾して「素晴らしいサービス」とするため正解です。",
+      "B": "excellently は副詞（「優秀に」）であり、名詞を修飾することはできません。",
+      "C": "excellence は名詞（「優秀さ」）であり、冠詞と名詞の間に別の単数名詞を直接置いて service を修飾するのは不自然です。",
+      "D": "excel は動詞（「優れている」）であり、名詞を修飾する位置に置くことはできません。"
+    },
+    "meaning": "その物流会社はすべてのクライアントに優れたサービスを提供しています。"
+  },
+  {
+    "id": "p5_500_008",
+    "target_level": 500,
+    "sentence": "The technician repaired the computer system very (     ) yesterday afternoon.",
+    "options": {
+      "A": "quick",
+      "B": "quickly",
+      "C": "quickness",
+      "D": "quicker"
+    },
+    "correct_answer": "B",
+    "explanation": "文の主要な要素（主語 + 動詞 + 目的語）がすべて揃った文脈で、動詞 repaired（修理した）の動作を修飾する最も適切な品詞（副詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "quick は形容詞（「速い」）であり、名詞を修飾する語なので、動詞 repaired を直接修飾することはできません。",
+      "B": "quickly は副詞（「素早く」）であり、動詞を修飾して「素早く修理した」という正しい文を作るため正解です。",
+      "C": "quickness は名詞（「迅速さ」）であり、動詞を修飾する位置に置くことはできません。",
+      "D": "quicker は形容詞または副詞の比較級（「より速い / 速く」）であり、直前に very があるため文法的に不自然です。"
+    },
+    "meaning": "技術者は昨日の午後、コンピュータシステムを非常に素早く修理しました。"
+  },
+  {
+    "id": "p5_500_009",
+    "target_level": 500,
+    "sentence": "All factory employees must wear their safety (     ) inside the warehouse.",
+    "options": {
+      "A": "gear",
+      "B": "geared",
+      "C": "gears",
+      "D": "gearing"
+    },
+    "correct_answer": "A",
+    "explanation": "所有格 their と名詞 safety の後に置く、文脈に合った最も適切な名詞（集合名詞・不可算名詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "gear は名詞（「用具、装備」）であり、safety gear（安全防護具）という複合名詞を形成するため正解です。",
+      "B": "geared は動詞 gear の過去形・過去分詞であり、名詞を置くべき位置に適していません。",
+      "C": "gears は gear の複数形ですが、安全用具を意味する safety gear は通常、不可算名詞として単数形で使われます。",
+      "D": "gearing は動名詞または名詞（「歯車装置」）であり、安全用具という意味にはなりません。"
+    },
+    "meaning": "すべての工場従業員は倉庫内では安全保護具を着用しなければなりません。"
+  },
+  {
+    "id": "p5_500_010",
+    "target_level": 500,
+    "sentence": "The marketing team will (     ) the new advertising campaign next month.",
+    "options": {
+      "A": "launch",
+      "B": "launching",
+      "C": "launched",
+      "D": "launches"
+    },
+    "correct_answer": "A",
+    "explanation": "助動詞 will の後ろに置く、適切な動詞の形（原形）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "launch は動詞の原形（「開始する、立ち上げる」）であり、助動詞 will の直後に置くため正解です。",
+      "B": "launching は現在分詞または動名詞であり、will の直後に直接置くことはできません。",
+      "C": "launched は動詞の過去形または過去分詞であり、will の直後には置けません。",
+      "D": "launches は三人称単数現在形であり、助動詞 will の後ろに置くことはできません。"
+    },
+    "meaning": "マーケティングチームは来月、新しい広告キャンペーンを開始します。"
+  },
+  {
+    "id": "p5_500_011",
+    "target_level": 500,
+    "sentence": "The proposed budget seems very (     ) for the upcoming project.",
+    "options": {
+      "A": "reasonably",
+      "B": "reason",
+      "C": "reasonable",
+      "D": "reasoning"
+    },
+    "correct_answer": "C",
+    "explanation": "不完全自動詞 seems（〜のように思われる）の後ろで、主語である budget の状態を説明する補語（C）となる形容詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "reasonably は副詞（「合理的に、かなり」）であり、主語の状態を説明する補語として動詞 seems の後ろに直接置くことはできません。",
+      "B": "reason は名詞（「理由」）または動詞（「論理的に考える」）であり、予算の性質を表す補語としては文脈上不適切です。",
+      "C": "reasonable は形容詞（「妥当な、手頃な」）であり、seems very の後に続いて「予算がとても妥当に思える」という正しい意味を作るため正解です。",
+      "D": "reasoning は名詞（「推論、論法」）であり、予算の状態を説明する形容詞の位置には適していません。"
+    },
+    "meaning": "提案された予算は、今度のプロジェクトにとって非常に妥当であるように思われます。"
+  },
+  {
+    "id": "p5_500_012",
+    "target_level": 500,
+    "sentence": "The company received several (     ) about the delivery delay this morning.",
+    "options": {
+      "A": "complain",
+      "B": "complaint",
+      "C": "complaints",
+      "D": "complaining"
+    },
+    "correct_answer": "C",
+    "explanation": "形容詞 several（いくつかの）の後ろに置く、適切な名詞の形（可算名詞の複数形）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "complain は動詞（「苦情を言う」）であり、形容詞 several の直後に置くことはできません。",
+      "B": "complaint は可算名詞の単数形ですが、several の後ろには必ず複数名詞を置く必要があるため不適切です。",
+      "C": "complaints は可算名詞の複数形（「苦情」）であり、several の後ろに続く名詞として文法的に正解です。",
+      "D": "complaining は動名詞または現在分詞（「不満を言うこと」）であり、複数の具体的な事柄（苦情）の数を示す several の直後には適していません。"
+    },
+    "meaning": "会社は今朝、配達の遅れに関するいくつかの苦情を受け取りました。"
+  },
+  {
+    "id": "p5_500_013",
+    "target_level": 500,
+    "sentence": "The regional sales office is located (     ) the main train station.",
+    "options": {
+      "A": "near",
+      "B": "nearly",
+      "C": "nearness",
+      "D": "nearing"
+    },
+    "correct_answer": "A",
+    "explanation": "名詞句 the main train station の前に置き、「〜の近くに」という場所を表す前置詞（あるいは前置詞的に使われる形容詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "near は前置詞として「〜の近くに」という意味を持ち、駅の近くに位置しているという文脈に最適です。",
+      "B": "nearly は副詞（「ほとんど、もう少しで」）であり、後ろに直接名詞をとって場所を表すことはできません。",
+      "C": "nearness は名詞（「近さ」）であり、後ろに直接名詞を置くことはできません。",
+      "D": "nearing は動詞 near の現在分詞（「近づいている」）であり、is located の後ろに続く前置詞としての役割は果たせません。"
+    },
+    "meaning": "地域営業所は主要な電車の駅の近くに位置しています。"
+  },
+  {
+    "id": "p5_500_014",
+    "target_level": 500,
+    "sentence": "Mr. Gomez answered the client's questions (     ) during the presentation.",
+    "options": {
+      "A": "confidently",
+      "B": "confident",
+      "C": "confidence",
+      "D": "confide"
+    },
+    "correct_answer": "A",
+    "explanation": "文の主要素が揃った文脈で、動詞 answered（答えた）を修飾する最も適切な品詞（副詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "confidently は副詞（「自信を持って」）であり、動詞 answered を「自信を持って答えた」と修飾するため正解です。",
+      "B": "confident は形容詞（「自信に満ちた」）であり、動詞を直接修飾することはできません。",
+      "C": "confidence は名詞（「自信」）であり、動詞の動作を説明する副詞の位置には適していません。",
+      "D": "confide は動詞（「打ち明ける、信頼する」）であり、すでに answered という動詞がある文脈でここに入ることはできません。"
+    },
+    "meaning": "ゴメスさんはプレゼンテーションの間、クライアントの質問に明確に答えました。"
+  },
+  {
+    "id": "p5_500_015",
+    "target_level": 500,
+    "sentence": "The supervisor approved the travel (     ) for the sales team.",
+    "options": {
+      "A": "request",
+      "B": "requesting",
+      "C": "requested",
+      "D": "requests"
+    },
+    "correct_answer": "A",
+    "explanation": "approved（承認した）の目的語となる名詞を、直前の名詞修飾語 travel（出張）の後ろに選ぶ問題です。travel request で「出張申請（単数）」となります。",
+    "options_explanations": {
+      "A": "request は名詞（「申請、依頼」）であり、travel request（出張申請）という複合名詞を形成するため正解です。",
+      "B": "requesting は動名詞または現在分詞であり、the travel の後ろに名詞として直接置くには不自然です。",
+      "C": "requested は動詞の過去形・過去分詞（形容詞）であり、目的語となる名詞としての役割を果たせません。",
+      "D": "requests は複数形の名詞ですが、直前に定冠詞 the があり、特定の単一の出張申請を指す文脈では単数形 request が最も自然です。"
+    },
+    "meaning": "管理者は販売チームの出張経費申請を承認しました。"
+  },
+  {
+    "id": "p5_500_016",
+    "target_level": 500,
+    "sentence": "Employees are encouraged to discuss their ideas (     ) during meetings.",
+    "options": {
+      "A": "freely",
+      "B": "free",
+      "C": "freedom",
+      "D": "freeing"
+    },
+    "correct_answer": "A",
+    "explanation": "動詞 discuss（議論する）を修飾する最も適切な品詞（副詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "freely は副詞（「自由に」）であり、discuss their ideas という動作を「自由に話し合う」と修飾するため正解です。",
+      "B": "free は形容詞（「自由な」）または動詞であり、discuss の動作を修飾することはできません。",
+      "C": "freedom は名詞（「自由」）であり、副詞的な位置に置くことはできません。",
+      "D": "freeing は動詞 free の現在分詞・動名詞（「解放すること」）であり、文法的に不自然な位置になります。"
+    },
+    "meaning": "従業員は会議中に自分たちのアイデアを自由に話し合うことが推奨されています。"
+  },
+  {
+    "id": "p5_500_017",
+    "target_level": 500,
+    "sentence": "The local branch will open a new office (     ) October.",
+    "options": {
+      "A": "in",
+      "B": "on",
+      "C": "at",
+      "D": "to"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜月に」という月を表す適切な前置詞を選ぶ問題です。月の前には in を用います。",
+    "options_explanations": {
+      "A": "in は月や年（in October など）を表す際に用いる前置詞であるため正解です。",
+      "B": "on は特定の曜日や日付（on Monday など）の前に使われるため、月単体には使えません。",
+      "C": "at は特定の時刻や時点（at noon など）に使われるため不適切です。",
+      "D": "to は方向や目的地（〜へ）を表すため、特定の月を指す時間の前置詞としては使えません。"
+    },
+    "meaning": "地元の支店は10月に新しいオフィスを開設します。"
+  },
+  {
+    "id": "p5_500_018",
+    "target_level": 500,
+    "sentence": "The design team created a highly (     ) brochure for the event.",
+    "options": {
+      "A": "attractive",
+      "B": "attract",
+      "C": "attraction",
+      "D": "attractively"
+    },
+    "correct_answer": "A",
+    "explanation": "冠詞 a と名詞 brochure の間にあり、副詞 highly（非常に）に修飾されつつ、名詞 brochure（パンフレット）を修飾する最も適切な品詞（形容詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "attractive は形容詞（「魅力的な」）であり、highly に修飾されて「非常に魅力的なパンフレット」を構成するため正解です。",
+      "B": "attract は動詞（「引きつける」）であり、名詞を修飾することはできません。",
+      "C": "attraction は名詞（「魅力」）であり、brochure の前に置いて形容詞のように修飾するのは不自然です。",
+      "D": "attractively は副詞（「魅力的に」）であり、直後の名詞 brochure を直接修飾することはできません。"
+    },
+    "meaning": "デザインチームはイベント用の非常に魅力的なパンフレットを作成しました。"
+  },
+  {
+    "id": "p5_500_019",
+    "target_level": 500,
+    "sentence": "Please send the final invoice (     ) the billing department today.",
+    "options": {
+      "A": "to",
+      "B": "at",
+      "C": "on",
+      "D": "for"
+    },
+    "correct_answer": "A",
+    "explanation": "動詞 send A (     ) B のパターンで、「AをBへ送る」という送付先・方向を表す適切な前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "to は「〜へ、〜に（到達点）」を意味し、送付先（請求部門）を示すために最も適しているため正解です。",
+      "B": "at は「〜で（特定の場所）」を意味しますが、送付先を表す方向の前置詞としては不適切です。",
+      "C": "on は「〜の上に」を表すため、部署へ送るという文脈には適していません。",
+      "D": "for は「〜のために（対象）」を表すこともありますが、宛先・送付先を示す場合は to が最も標準的です。"
+    },
+    "meaning": "最終的な請求書は今日、請求部門に送ってください。"
+  },
+  {
+    "id": "p5_500_020",
+    "target_level": 500,
+    "sentence": "The CEO spoke (     ) about the company's future growth strategy.",
+    "options": {
+      "A": "optimistically",
+      "B": "optimistic",
+      "C": "optimism",
+      "D": "optimize"
+    },
+    "correct_answer": "A",
+    "explanation": "自動詞 spoke（話した）を修飾する最も適切な品詞（副詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "optimistically は副詞（「楽観的に」）であり、動詞 spoke を「前向きに語った」と修飾するため正解です。",
+      "B": "optimistic は形容詞（「楽観的な」）であり、自動詞 spoke を直接後ろから修飾することはできません。",
+      "C": "optimism は名詞（「楽観主義」）であり、spoke の後ろに前置詞なしで直接置くことはできません。",
+      "D": "optimize は動詞（「最適化する」）であり、過去形の動詞 spoke の直後に置くことはできません。"
+    },
+    "meaning": "CEOは会社の将来の成長戦略について熱心に語りました。"
+  },
+  {
+    "id": "p5_500_021",
+    "target_level": 500,
+    "sentence": "The board needs a (     ) decision on this matter by tomorrow morning.",
+    "options": {
+      "A": "final",
+      "B": "finally",
+      "C": "finalize",
+      "D": "finality"
+    },
+    "correct_answer": "A",
+    "explanation": "冠詞 a と名詞 decision（決定）の間に置き、名詞を修飾する最も適切な品詞（形容詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "final は形容詞（「最終的な」）であり、名詞 decision を修飾して「最終決定」とするため正解です。",
+      "B": "finally は副詞（「ついに」）であり、名詞を直接修飾することはできません。",
+      "C": "finalize は動詞（「最終決定する」）であり、名詞の直前に置いて修飾することはできません。",
+      "D": "finality は名詞（「決定性」）であり、decision の前で形容詞的に用いるのは不自然です。"
+    },
+    "meaning": "取締役会は明日の朝までにこの件に関する迅速な決定を必要としています。"
+  },
+  {
+    "id": "p5_500_022",
+    "target_level": 500,
+    "sentence": "The training session will take place (     ) the main conference room.",
+    "options": {
+      "A": "in",
+      "B": "at",
+      "C": "on",
+      "D": "over"
+    },
+    "correct_answer": "A",
+    "explanation": "会議室のような「場所の内部（部屋の中）」を示すのに最も自然な前置詞を選ぶ問題です（take place in 〜 で「〜で開催される」）。",
+    "options_explanations": {
+      "A": "in は会議室のような囲まれた空間（the main conference room）の「中に」を指す最も自然な前置詞であるため正解です。",
+      "B": "at は特定の地点を表しますが、具体的な部屋の内部で行われる場合は in の方が一般的に好まれます。",
+      "C": "on は「〜の上に（表面）」を表すため、会議室という空間に対しては不適切です。",
+      "D": "over は「〜を越えて」を意味するため、開催場所を示す前置詞としては適していません。"
+    },
+    "meaning": "トレーニングセッションはメインの会議室で行われます。"
+  },
+  {
+    "id": "p5_500_023",
+    "target_level": 500,
+    "sentence": "The corporate goal is to (     ) monthly sales by ten percent.",
+    "options": {
+      "A": "increase",
+      "B": "increasing",
+      "C": "increased",
+      "D": "increases"
+    },
+    "correct_answer": "A",
+    "explanation": "to不定詞（to + 動詞の原形）を完成させ、主格補語となる名詞的用法を作るのに最も適切な動詞の形を選ぶ問題です。",
+    "options_explanations": {
+      "A": "increase は動詞の原形（「増加させる」）であり、to の後ろに続いて to不定詞を構成するため正解です。",
+      "B": "increasing は現在分詞または動名詞であり、to の直後に置いて不定詞を作ることはできません。",
+      "C": "increased は過去形または過去分詞であり、to の直後に置いて不定詞を構成することはできません。",
+      "D": "increases は三人称単数現在形であり、to の直後には置けません。"
+    },
+    "meaning": "会社の目標は、月間売上を10%増加させることです。"
+  },
+  {
+    "id": "p5_500_024",
+    "target_level": 500,
+    "sentence": "The reception desk is situated (     ) the first floor of the building.",
+    "options": {
+      "A": "on",
+      "B": "at",
+      "C": "in",
+      "D": "to"
+    },
+    "correct_answer": "A",
+    "explanation": "建物の階数（the first floor）の前に置いて「〜階に」を表す最も適切な前置詞を選ぶ問題です。階数には on を用います。",
+    "options_explanations": {
+      "A": "on は建物の階数（on the first floor）を指す際に決まって使われる前置詞であるため正解です。",
+      "B": "at は特定の番地や地点に使われるため、特定の階数を表すのには不適切です。",
+      "C": "in は「建物の中に」と言いたいときには使えますが、「1階に」という特定のフロアを示す際は通常 on が使われます。",
+      "D": "to は方向（〜へ）を表すため、位置を指す is situated（位置している）の後ろには適していません。"
+    },
+    "meaning": "受付デスクは建物の1階に位置しています。"
+  },
+  {
+    "id": "p5_500_025",
+    "target_level": 500,
+    "sentence": "Candidates must submit their resumes (     ) the online portal.",
+    "options": {
+      "A": "through",
+      "B": "across",
+      "C": "over",
+      "D": "into"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜を通じて、〜を経由して」という手段・媒体を表す最も適切な前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "through は手段・媒体を表し、オンラインポータルを経由して提出するという文脈に最適です。",
+      "B": "across は「〜を横切って」を意味し、提出の手段を表すのには不適切です。",
+      "C": "over は「〜を超えて、〜の上に」を意味し、オンラインシステムを経由する動作には不自然です。",
+      "D": "into は「〜の中へ」という内部への移動を表すため、提出ルートを指す言葉としては適していません。"
+    },
+    "meaning": "候補者はオンラインポータルを通じて履歴書を提出しなければなりません。"
+  },
+  {
+    "id": "p5_500_026",
+    "target_level": 500,
+    "sentence": "The company hopes to hire a (     ) administrative assistant soon.",
+    "options": {
+      "A": "qualified",
+      "B": "qualify",
+      "C": "qualification",
+      "D": "qualifying"
+    },
+    "correct_answer": "A",
+    "explanation": "冠詞 a と名詞句 administrative assistant の間に置き、後ろの名詞を修飾するのに最も適した形容詞（過去分詞形容詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "qualified は形容詞（「資格のある、適任の」）であり、アシスタントを修飾して「適任の（有能な）アシスタント」とするため正解です。",
+      "B": "qualify は動詞（「資格を与える」）であり、名詞の直前に置いて直接修飾することはできません。",
+      "C": "qualification は名詞（「資格」）であり、アシスタントの前に置いて複合名詞を構成するのは意味的に不自然です。",
+      "D": "qualifying は現在分詞であり、「（他人に）資格を与えるような」という意味になってしまい、アシスタント自身の適性を表す文脈には不自然です。"
+    },
+    "meaning": "会社は近いうちに有能な一般事務アシスタントを採用したいと考えています。"
+  },
+  {
+    "id": "p5_500_027",
+    "target_level": 500,
+    "sentence": "The director explained the new guidelines (     ) to the staff.",
+    "options": {
+      "A": "clearly",
+      "B": "clear",
+      "C": "clearness",
+      "D": "clarify"
+    },
+    "correct_answer": "A",
+    "explanation": "動詞 explained（説明した）の動作を修飾する最も適切な品詞（副詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "clearly は副詞（「明確に」）であり、動詞 explained を修飾して「ガイドラインを明確に説明した」とするため正解です。",
+      "B": "clear は形容詞（「明確な」）であり、動詞を直接修飾することはできません。",
+      "C": "clearness は名詞（「明瞭さ」）であり、文法的にも意味的にも不自然な位置になります。",
+      "D": "clarify は動詞（「明確にする」）であり、すでに explained という過去形動詞があるため不適切です。"
+    },
+    "meaning": "ディレクターは新しいガイドラインをスタッフに分かりやすく説明しました。"
+  },
+  {
+    "id": "p5_500_028",
+    "target_level": 500,
+    "sentence": "There is a brief (     ) scheduled for the afternoon tea break.",
+    "options": {
+      "A": "meeting",
+      "B": "meet",
+      "C": "meets",
+      "D": "met"
+    },
+    "correct_answer": "A",
+    "explanation": "冠詞 a と形容詞 brief（短い）の後に置く、主語となる適切な名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "meeting は名詞（「会議、打ち合わせ」）であり、brief meeting（短い会議）という正しい名詞句を作るため正解です。",
+      "B": "meet は動詞（「会う」）であり、冠詞と形容詞の直後に名詞として置くことはできません。",
+      "C": "meets は動詞の三人称単数現在形であり、名詞の位置には置けません。",
+      "D": "met は動詞 meet の過去形・過去分詞であり、名詞として主語の位置に置くことはできません。"
+    },
+    "meaning": "午後のティーブレイクのために短い休憩が予定されています。"
+  },
+  {
+    "id": "p5_500_029",
+    "target_level": 500,
+    "sentence": "All visitors must sign their names (     ) the guest book.",
+    "options": {
+      "A": "in",
+      "B": "on",
+      "C": "at",
+      "D": "to"
+    },
+    "correct_answer": "A",
+    "explanation": "芳名帳（the guest book）の「中に」名前を記入するという文脈に最も適した前置詞を選ぶ問題です（sign one's name in ~）。",
+    "options_explanations": {
+      "A": "in はノートや本などの「中に（記入する）」を表すため、guest book と組み合わせて最も自然な表現となり正解です。",
+      "B": "on は表面（on the page など）には使えますが、本・帳簿全体を指す the guest book の前には in がより一般的です。",
+      "C": "at は特定の場所や地点を指すため、本への記入を意味する文脈には不適切です。",
+      "D": "to は方向を表すため、名前を書き込む対象としての帳簿を指す前置詞としては不適切です。"
+    },
+    "meaning": "すべての訪問者はゲストブックに名前を署名しなければなりません。"
+  },
+  {
+    "id": "p5_500_030",
+    "target_level": 500,
+    "sentence": "The technical support team resolved the issue (     ) three hours.",
+    "options": {
+      "A": "within",
+      "B": "with",
+      "C": "without",
+      "D": "through"
+    },
+    "correct_answer": "A",
+    "explanation": "期間（three hours）の前に置き、「〜時間以内に」という時間の制限を表す最も適切な前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "within は「〜（時間）以内に」を意味し、3時間以内に問題を解決したという文脈に完全に合致するため正解です。",
+      "B": "with は共同や道具（〜と一緒に、〜を使って）を表すため、時間を表す表現としては不適切です。",
+      "C": "without は「〜なしで」を表すため、意味が通らなくなります。",
+      "D": "through は「〜を通じて（ずっと）」を意味することもありますが、特定の時間枠内に完了したことを示す場合は within が最適です。"
+    },
+    "meaning": "技術サポートチームは3時間以内に問題を解決しました。"
+  },
+  {
+    "id": "p5_500_031",
+    "target_level": 500,
+    "sentence": "The organizers will arrange a special dinner (     ) international guests.",
+    "options": {
+      "A": "for",
+      "B": "of",
+      "C": "to",
+      "D": "on"
+    },
+    "correct_answer": "A",
+    "explanation": "「〜のために、〜向けに」という受益者や目的を表す適切な前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "for は「〜のために、〜を対象として」を意味し、海外からのゲスト向けにディナーを手配するという文脈に最適です。",
+      "B": "of は所有や関連を表すため、「ゲストのディナー」という不自然な修飾関係になってしまいます。",
+      "C": "to は到達点や方向を示しますが、arrange a dinner の後ろで受益者を指す前置詞としては不適切です。",
+      "D": "on は接触や特定のテーマを表すため、対象者を指す前置詞としては使えません。"
+    },
+    "meaning": "主催者は海外からのゲストのために特別なディナーを準備する予定です。"
+  },
+  {
+    "id": "p5_500_032",
+    "target_level": 500,
+    "sentence": "The new software update will (     ) the overall system performance.",
+    "options": {
+      "A": "improve",
+      "B": "improvement",
+      "C": "improved",
+      "D": "improving"
+    },
+    "correct_answer": "A",
+    "explanation": "助動詞 will の後ろに置く、適切な動詞の形（原形）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "improve は動詞の原形（「改善する」）であり、助動詞 will の直後に置いて正しい動詞句を作るため正解です。",
+      "B": "improvement は名詞（「改善」）であり、will の直後に動詞として置くことはできません。",
+      "C": "improved は過去形・過去分詞であり、助動詞 will の直後には置けません。",
+      "D": "improving は現在分詞または動名詞であり、will の直後に直接置くことはできません。"
+    },
+    "meaning": "新しいソフトウェアアップデートはシステム全体のパフォーマンスを向上させます。"
+  },
+  {
+    "id": "p5_500_033",
+    "target_level": 500,
+    "sentence": "The laboratory requires all scientists to work with extreme (     ).",
+    "options": {
+      "A": "caution",
+      "B": "cautious",
+      "C": "cautiously",
+      "D": "cautioning"
+    },
+    "correct_answer": "A",
+    "explanation": "前置詞 with と形容詞 extreme（極度の）の後ろに置く、適切な名詞を選ぶ問題です。with extreme caution で「細心の注意を払って」を意味します。",
+    "options_explanations": {
+      "A": "caution は名詞（「注意、慎重さ」）であり、with extreme caution という表現を完成させるため正解です。",
+      "B": "cautious は形容詞（「慎重な」）であり、形容詞 extreme の直後に並べて置くことはできません。",
+      "C": "cautiously は副詞（「慎重に」）であり、形容詞の修飾を直接受ける名詞の位置に置くことはできません。",
+      "D": "cautioning は現在分詞または動名詞であり、「極度の警告をすること」という不自然な意味になってしまいます。"
+    },
+    "meaning": "研究室はすべての科学者に細心の注意を払って作業することを求めています。"
+  },
+  {
+    "id": "p5_500_034",
+    "target_level": 500,
+    "sentence": "The marketing manager believes that this is a (     ) plan.",
+    "options": {
+      "A": "successful",
+      "B": "success",
+      "C": "successfully",
+      "D": "succeed"
+    },
+    "correct_answer": "A",
+    "explanation": "冠詞 a と名詞 plan の間に置き、名詞を修飾する最も適切な品詞（形容詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "successful は形容詞（「成功した」）であり、名詞 plan を修飾して「成功する計画」とするため正解です。",
+      "B": "success は名詞（「成功」）であり、この位置で名詞をそのまま用いるのは不自然で、形容詞 successful が最も適切です。",
+      "C": "successfully は副詞（「うまく」）であり、名詞 plan を直接修飾することはできません。",
+      "D": "succeed は動詞（「成功する」）であり、名詞の前に直接置いて修飾することはできません。"
+    },
+    "meaning": "マーケティングマネージャーは、これが実行可能な計画であると信じています。"
+  },
+  {
+    "id": "p5_500_035",
+    "target_level": 500,
+    "sentence": "Passengers must show their boarding passes (     ) the gate agent.",
+    "options": {
+      "A": "to",
+      "B": "at",
+      "C": "on",
+      "D": "for"
+    },
+    "correct_answer": "A",
+    "explanation": "show A (     ) B のパターンで、「AをBに見せる（提示する）」という対象（〜に）を表す適切な前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "to は「〜に（相手・到達先）」を意味し、ゲートの係員に搭乗券を見せるという文脈に最適です。",
+      "B": "at は特定の場所を指しますが、提示する相手を直接指す前置詞としては不適切です。",
+      "C": "on は接触を表すため、人に対して用いるのは不適切です。",
+      "D": "for は「〜のために」を表しますが、提示の直接的な相手を指す場合は to が使われます。"
+    },
+    "meaning": "乗客は搭乗口の係員に搭乗券を見せなければなりません。"
+  },
+  {
+    "id": "p5_500_036",
+    "target_level": 500,
+    "sentence": "The retail store offers a wide (     ) of high-quality products.",
+    "options": {
+      "A": "selection",
+      "B": "select",
+      "C": "selective",
+      "D": "selectively"
+    },
+    "correct_answer": "A",
+    "explanation": "冠詞 a と形容詞 wide の後に置き、a wide selection of 〜（幅広い〜の品揃え）という表現を構成する名詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "selection は名詞（「品揃え」）であり、a wide selection of で「幅広い〜の品揃え」という定型表現を作るため正解です。",
+      "B": "select は動詞または形容詞であり、形容詞 wide の後ろの名詞位置には不適切です。",
+      "C": "selective は形容詞（「選択的な」）であり、この位置には適しません。",
+      "D": "selectively は副詞（「選択的に」）であり、名詞が置かれるべき位置に置くことはできません。"
+    },
+    "meaning": "その小売店は高品質な製品を幅広く提供しています。"
+  },
+  {
+    "id": "p5_500_037",
+    "target_level": 500,
+    "sentence": "The accounting office will review the financial (     ) next Monday.",
+    "options": {
+      "A": "statements",
+      "B": "state",
+      "C": "stated",
+      "D": "stating"
+    },
+    "correct_answer": "A",
+    "explanation": "形容詞 financial（財務の）の後ろに置き、動詞 review の目的語となる適切な名詞を選ぶ問題です。financial statements で「財務諸表」を意味します。",
+    "options_explanations": {
+      "A": "statements は名詞 statement（「計算書」）の複数形であり、financial statements（財務諸表）という正しい用語を形成するため正解です。",
+      "B": "state は名詞（「状態、州」）または動詞であり、financial と結びついて「財務諸表」という意味を形成しません。",
+      "C": "stated は動詞 state の過去形・過去分詞であり、目的語となる名詞の位置には不適切です。",
+      "D": "stating は現在分詞または動名詞であり、review の目的語としてふさわしくありません。"
+    },
+    "meaning": "会計事務所は来週の月曜日に財務報告書をレビューします。"
+  },
+  {
+    "id": "p5_500_038",
+    "target_level": 500,
+    "sentence": "The security system operates (     ) during all twenty-four hours of the day.",
+    "options": {
+      "A": "continuously",
+      "B": "continuous",
+      "C": "continuity",
+      "D": "continue"
+    },
+    "correct_answer": "A",
+    "explanation": "自動詞 operates（稼働する）を修飾する最も適切な品詞（副詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "continuously は副詞（「継続的に」）であり、動詞 operates を修飾して「24時間稼働する」とするため正解です。",
+      "B": "continuous は形容詞（「継続的な」）であり、動詞を直接修飾することはできません。",
+      "C": "continuity は名詞（「連続性」）であり、動詞の後ろで修飾語として機能することはできません。",
+      "D": "continue は動詞（「続ける」）であり、すでに operates という動詞がある文脈では置くことができません。"
+    },
+    "meaning": "セキュリティシステムは1日24時間を通じて継続的に作動しています。"
+  },
+  {
+    "id": "p5_500_039",
+    "target_level": 500,
+    "sentence": "The regional director will visit the facility (     ) Wednesday morning.",
+    "options": {
+      "A": "on",
+      "B": "at",
+      "C": "in",
+      "D": "for"
+    },
+    "correct_answer": "A",
+    "explanation": "特定の曜日（Wednesday morning）の前に置く、最も適切な時間の前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "on は特定の曜日や日付（on Wednesday morning）の前に置かれる前置詞であるため正解です。",
+      "B": "at は特定の時間（at 9:00 など）に使われるため、曜日を指す表現の前には使えません。",
+      "C": "in は月や年（in April など）に使われますが、曜日が指定されている場合は on を使用します。",
+      "D": "for は「〜の間」という期間を表すため、特定の予定日時を指す will visit の後ろの時点を示す表現としては適していません。"
+    },
+    "meaning": "地域ディレクターは水曜日の朝に施設を訪問します。"
+  },
+  {
+    "id": "p5_500_040",
+    "target_level": 500,
+    "sentence": "The human resources team handles all employee (     ) very carefully.",
+    "options": {
+      "A": "records",
+      "B": "record",
+      "C": "recorded",
+      "D": "recording"
+    },
+    "correct_answer": "A",
+    "explanation": "すべての社員情報を指す handles all employee (     ) の文脈で、employee の後に置く、複数形の名詞を選ぶ問題です（all employee records = すべての社員記録）。",
+    "options_explanations": {
+      "A": "records は名詞 record（「記録」）の複数形であり、all employee records（すべての社員情報・記録）として文法・意味共に正解です。",
+      "B": "record は単数名詞であり、all の修飾を受ける可算名詞としては通常複数形にする必要があるため不適切です。",
+      "C": "recorded は過去形または過去分詞であり、目的語となる名詞の位置には不適切です。",
+      "D": "recording は動名詞または名詞であり、「社員の個人情報・記録」を指す表現としては不自然です。"
+    },
+    "meaning": "人事チームはすべての従業員からの苦情を非常に慎重に処理します。"
+  },
+  {
+    "id": "p5_500_041",
+    "target_level": 500,
+    "sentence": "Please complete the customer survey form (     ) the earliest convenience.",
+    "options": {
+      "A": "at",
+      "B": "on",
+      "C": "in",
+      "D": "for"
+    },
+    "correct_answer": "A",
+    "explanation": "at your earliest convenience（都合のつき次第早く）という、ビジネスメールや依頼文書で非常によく使われる定番の慣用表現を完成させる問題です。",
+    "options_explanations": {
+      "A": "at は earliest convenience と結びついて「都合のつき次第最も早く」という定型句（at the earliest convenience）を作るため正解です。",
+      "B": "on はこの慣用表現には使用しないため不適切です。",
+      "C": "in はこの慣用表現には使用しないため不適切です。",
+      "D": "for もこの慣用表現には使用しないため不適切です。"
+    },
+    "meaning": "カスタマーアンケート用紙は、都合のつき次第できるだけ早く記入してください。"
+  },
+  {
+    "id": "p5_500_042",
+    "target_level": 500,
+    "sentence": "The main corporate laboratory is located (     ) the third floor.",
+    "options": {
+      "A": "on",
+      "B": "at",
+      "C": "in",
+      "D": "to"
+    },
+    "correct_answer": "A",
+    "explanation": "建物のフロア（the third floor）を示すのに最適な場所の前置詞を選ぶ問題です。階数には on を用います。",
+    "options_explanations": {
+      "A": "on は階数を表す表現（on the third floor）に決まって使われる前置詞であるため正解です。",
+      "B": "at は特定の住所や施設などを示す際に使われますが、フロア指定には適していません。",
+      "C": "in は「部屋の中」などの空間を指しますが、階数を指す場合は通常 on を用います。",
+      "D": "to は方向を表すため、位置を指す is located（位置している）の後ろには不自然です。"
+    },
+    "meaning": "主な企業研究所は3階に位置しています。"
+  },
+  {
+    "id": "p5_500_043",
+    "target_level": 500,
+    "sentence": "The executive board meets (     ) a month to discuss progress.",
+    "options": {
+      "A": "once",
+      "B": "one",
+      "C": "first",
+      "D": "only"
+    },
+    "correct_answer": "A",
+    "explanation": "「月に1回」という頻度を表すのに最も適切な副詞を選ぶ問題です（once a month = 月に1回）。",
+    "options_explanations": {
+      "A": "once は副詞で「1回」を意味し、once a month で「月に1回」という頻度を表す正しい表現になるため正解です。",
+      "B": "one は数詞（「1つの」）であり、one a month という形で直接頻度を表すことはできません。",
+      "C": "first は形容詞または副詞（「最初に」）であり、頻度を表す文脈には不適切です。",
+      "D": "only は副詞（「ただ〜だけ」）であり、meets only a month では意味が通らなくなります。"
+    },
+    "meaning": "執行役員会は進捗を議論するために月に1回集まります。"
+  },
+  {
+    "id": "p5_500_044",
+    "target_level": 500,
+    "sentence": "Online registration for the webinar is (     ) free of charge.",
+    "options": {
+      "A": "completely",
+      "B": "complete",
+      "C": "completeness",
+      "D": "completing"
+    },
+    "correct_answer": "A",
+    "explanation": "形容詞句 free of charge（無料の）を修飾する最も適切な品詞（副詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "completely は副詞（「完全に」）であり、形容詞 free を修飾して「完全に無料」という表現を作るため正解です。",
+      "B": "complete は形容詞（「完全な」）または動詞であり、形容詞 free を直接修飾することはできません。",
+      "C": "completeness は名詞（「完全さ」）であり、形容詞を修飾することはできません。",
+      "D": "completing は動詞 complete の現在分詞・動名詞であり、文法的に不適切です。"
+    },
+    "meaning": "ウェビナーへのオンライン登録は完全に無料です。"
+  },
+  {
+    "id": "p5_500_045",
+    "target_level": 500,
+    "sentence": "The legal department will draft the new agreement (     ) tomorrow.",
+    "options": {
+      "A": "by",
+      "B": "on",
+      "C": "at",
+      "D": "in"
+    },
+    "correct_answer": "A",
+    "explanation": "明日という期限（tomorrow）の前に置き、「明日までに」という締め切りを表すのに最も適した前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "by は「〜までに（期限）」を意味し、明日までに合意書を起草するという文脈に最適です。",
+      "B": "on は曜日や特定の日付の前に置かれますが、単独の tomorrow の前に置くと文法的に誤りとなります。",
+      "C": "at は特定の時間帯・時刻を指すため、tomorrow の前には置けません。",
+      "D": "in は月や年、または「〜時間後」を指すため、明日という期限を示す文脈には適していません。"
+    },
+    "meaning": "法務部門は明日までに新しい合意書の草案を作成します。"
+  },
+  {
+    "id": "p5_500_046",
+    "target_level": 500,
+    "sentence": "The team needs to find a (     ) solution to this conflict.",
+    "options": {
+      "A": "practical",
+      "B": "practically",
+      "C": "practice",
+      "D": "practicing"
+    },
+    "correct_answer": "A",
+    "explanation": "冠詞 a と名詞 solution（解決策）の間に置き、名詞を修飾する最も適切な品詞（形容詞）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "practical は形容詞（「現実的な」）であり、名詞 solution を修飾して「現実的な解決策」とするため正解です。",
+      "B": "practically は副詞（「実質的に」）であり、名詞を直接修飾することはできません。",
+      "C": "practice は名詞または動詞であり、名詞 solution の直前に置いて修飾するのは不自然です。",
+      "D": "practicing は形容詞として機能することもありますが、解決策を説明する語としては意味が不自然です。"
+    },
+    "meaning": "チームはこの紛争に対する平和的な解決策を見つける必要があります。"
+  },
+  {
+    "id": "p5_500_047",
+    "target_level": 500,
+    "sentence": "The supervisor always listens (     ) to suggestions from team members.",
+    "options": {
+      "A": "attentively",
+      "B": "attentive",
+      "C": "attention",
+      "D": "attentiveness"
+    },
+    "correct_answer": "A",
+    "explanation": "自動詞 listens（聴く）を修飾する最も適切な品詞（副詞）を選ぶ問題です（listens attentively to 〜 = 〜に注意深く耳を傾ける）。",
+    "options_explanations": {
+      "A": "attentively は副詞（「注意深く」）であり、自動詞 listens を「注意深く聴く」と修飾するため正解です。",
+      "B": "attentive は形容詞（「注意深い」）であり、自動詞を直接修飾することはできません。",
+      "C": "attention は名詞（「注意」）であり、listens の直後に置いて動作を修飾することはできません。",
+      "D": "attentiveness は名詞（「注意深さ」）であり、動詞の動作を修飾する位置には適していません。"
+    },
+    "meaning": "管理者はいつもチームメンバーからの提案に注意深く耳を傾けます。"
+  },
+  {
+    "id": "p5_500_048",
+    "target_level": 500,
+    "sentence": "The shipment of office furniture arrived (     ) perfect condition yesterday.",
+    "options": {
+      "A": "in",
+      "B": "on",
+      "C": "at",
+      "D": "with"
+    },
+    "correct_answer": "A",
+    "explanation": "物の状態を表す表現 perfect condition（完璧な状態）の前に置き、「〜の状態で」を意味する最も適切な前置詞を選ぶ問題です（arrived in perfect condition = 完璧な状態で届いた）。",
+    "options_explanations": {
+      "A": "in は状態や環境を表す前置詞であり、in perfect condition（完璧な状態で）という極めて一般的な定型表現を作るため正解です。",
+      "B": "on は表面への接触などを表すため、品物の状態を示すのには不適切です。",
+      "C": "at は特定の場所を指すため、状態を表す表現には使えません。",
+      "D": "with も「〜を伴って」の意味で使われることがありますが、状態を指す「in ... condition」の定型句には in が最も適切です。"
+    },
+    "meaning": "オフィス家具の発送品は昨日、完璧な状態で到着しました。"
+  },
+  {
+    "id": "p5_500_049",
+    "target_level": 500,
+    "sentence": "The sales representatives must contact ten potential (     ) every week.",
+    "options": {
+      "A": "clients",
+      "B": "client",
+      "C": "clientage",
+      "D": "clienting"
+    },
+    "correct_answer": "A",
+    "explanation": "複数を示す数詞 ten（10の）と形容詞 potential（見込みのある）の後に置く、適切な可算名詞（複数形）を選ぶ問題です。",
+    "options_explanations": {
+      "A": "clients は名詞 client（「顧客」）の複数形であり、ten の修飾を受けて「10人の見込み客」となるため正解です。",
+      "B": "client は単数形であり、複数を示す ten potential の後ろには文法的に置くことができません。",
+      "C": "clientage は名詞（「顧客全体」）ですが、具体的な「人」を数える文脈には不適です。",
+      "D": "clienting という単語は存在せず不適切です。"
+    },
+    "meaning": "販売代理店は毎週10人の潜在顧客に連絡しなければなりません。"
+  },
+  {
+    "id": "p5_500_050",
+    "target_level": 500,
+    "sentence": "Ms. Jackson will give a short presentation (     ) the conference.",
+    "options": {
+      "A": "at",
+      "B": "on",
+      "C": "in",
+      "D": "to"
+    },
+    "correct_answer": "A",
+    "explanation": "会議などの「イベントや催し物の場」を表す名詞 the conference の前に置き、「〜で」を意味する最も適切な前置詞を選ぶ問題です。",
+    "options_explanations": {
+      "A": "at は会議や催し物などの「イベントの場」を指すのに最も自然な前置詞（at the conference）であるため正解です。",
+      "B": "on は特定のテーマであれば give a presentation on ~ とできますが、その後に the conference という場所・イベント名が続いているため不適切です。",
+      "C": "in は囲まれた空間の中にいることを強調する場合には使えますが、イベントの場を指す場合は at が最も標準的です。",
+      "D": "to は方向を表すため、プレゼンを行う場を示す前置詞としては適していません。"
+    },
+    "meaning": "ジェクソンさんは会議で短いプレゼンテーションを行います。"
+  }
+]

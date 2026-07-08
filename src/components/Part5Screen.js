@@ -9,31 +9,35 @@ import {
   Platform,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import rawPart5Data from '../data/toeic_part5.json';
+import level500Data from '../data/toeic_part5_500level_50questions.json';
+import level700Data from '../data/toeic_part5_700level_50questions.json';
+import level900Data from '../data/toeic_part5_900level_50questions.json';
 import NeoButton from './NeoButton';
 import { loadUserStats, saveUserStats, updatePartStats } from '../utils/statsHandler';
 import ErrorReportModal from './ErrorReportModal';
+import { getBookmarks, addBookmark, removeBookmark } from '../services/bookmarkService';
 
-// 問題タイプの定義
-const QUESTION_TYPES = [
-  { key: 'all', label: 'すべて (All)', count: rawPart5Data.length },
-  { key: '語彙問題 (Vocabulary)', label: '語彙問題 (Vocabulary)', count: rawPart5Data.filter(q => q.question_type === '語彙問題 (Vocabulary)').length },
-  { key: '品詞問題 (Part of Speech)', label: '品詞問題 (Part of Speech)', count: rawPart5Data.filter(q => q.question_type === '品詞問題 (Part of Speech)').length },
-  { key: '動詞問題 (Verb - Tense/Voice)', label: '動詞・時制問題 (Verb / Tense)', count: rawPart5Data.filter(q => q.question_type === '動詞問題 (Verb - Tense/Voice)').length },
-  { key: '接続詞問題 (Conjunction)', label: '接続詞問題 (Conjunction)', count: rawPart5Data.filter(q => q.question_type === '接続詞問題 (Conjunction)').length },
-  { key: '前置詞問題 (Preposition)', label: '前置詞問題 (Preposition)', count: rawPart5Data.filter(q => q.question_type === '前置詞問題 (Preposition)').length },
-  { key: '副詞問題 (Adverb)', label: '副詞問題 (Adverb)', count: rawPart5Data.filter(q => q.question_type === '副詞問題 (Adverb)').length },
-  { key: '代名詞問題 (Pronoun - Case)', label: '代名詞問題 (Pronoun)', count: rawPart5Data.filter(q => q.question_type === '代名詞問題 (Pronoun - Case)').length },
+// 難易度データのマッピング
+const LEVEL_DATA = {
+  500: level500Data,
+  700: level700Data,
+  900: level900Data,
+};
+
+const LEVELS = [
+  { key: 500, label: '500点レベル', count: level500Data.length },
+  { key: 700, label: '700点レベル', count: level700Data.length },
+  { key: 900, label: '900点レベル', count: level900Data.length },
 ];
 
 export default function Part5Screen({ onBackPortal }) {
   const quizStartTimeRef = useRef(null);
   const [questions, setQuestions] = useState([]);
-  const [phase, setPhase] = useState('select_type'); // select_type | select_count | quiz | result
-  const [selectedType, setSelectedType] = useState('all');
+  const [phase, setPhase] = useState('select_level'); // select_level | select_count | quiz | result
+  const [selectedLevel, setSelectedLevel] = useState(500);
   const [selectedCount, setSelectedCount] = useState(10);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState(null); // 'A', 'B', 'C', 'D' が入る
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [quizResults, setQuizResults] = useState([]);
 
@@ -41,16 +45,36 @@ export default function Part5Screen({ onBackPortal }) {
   const [reportModalVisible, setReportModalVisible] = useState(false);
   const [reportData, setReportData] = useState(null);
 
-  // 問題数選択肢の動的取得
-  // 指定されたタイプと問題数でランダム抽出
+  // ブックマーク管理用ステート
+  const [bookmarkedIds, setBookmarkedIds] = useState(new Set());
+
+  // 初回ロード時にブックマーク一覧を取得
+  useEffect(() => {
+    const loadBookmarks = async () => {
+      const list = await getBookmarks();
+      setBookmarkedIds(new Set(list.map(b => b.id)));
+    };
+    loadBookmarks();
+  }, []);
+
+  // ブックマークの追加・削除トグル
+  const handleToggleBookmark = async (question) => {
+    const isBookmarked = bookmarkedIds.has(question.id);
+    let updatedList;
+    if (isBookmarked) {
+      updatedList = await removeBookmark(question.id);
+    } else {
+      updatedList = await addBookmark(question, 5, selectedLevel);
+    }
+    setBookmarkedIds(new Set(updatedList.map(b => b.id)));
+  };
+
+  // 指定されたレベルと問題数でランダム抽出 (新データ形式をそのまま使用)
   useEffect(() => {
     if (phase === 'quiz') {
-      let filtered = [...rawPart5Data];
-      if (selectedType !== 'all') {
-        filtered = rawPart5Data.filter((q) => q.question_type === selectedType);
-      }
-      const shuffled = filtered.sort(() => 0.5 - Math.random());
-      const actualCount = Math.min(selectedCount, filtered.length);
+      const rawData = LEVEL_DATA[selectedLevel] || [];
+      const shuffled = [...rawData].sort(() => 0.5 - Math.random());
+      const actualCount = Math.min(selectedCount, shuffled.length);
       setQuestions(shuffled.slice(0, actualCount));
       setCurrentIndex(0);
       setSelectedOption(null);
@@ -58,23 +82,23 @@ export default function Part5Screen({ onBackPortal }) {
       setQuizResults([]);
       quizStartTimeRef.current = Date.now();
     }
-  }, [phase, selectedType, selectedCount]);
+  }, [phase, selectedLevel, selectedCount]);
 
-  const handleSelectOption = (opt) => {
+  const handleSelectOption = (optKey) => {
     if (isSubmitted) return;
-    setSelectedOption(opt);
+    setSelectedOption(optKey);
     setIsSubmitted(true);
 
     const currentQuestion = questions[currentIndex];
-    const isCorrect = opt === currentQuestion.answer;
+    const isCorrect = optKey === currentQuestion.correct_answer;
 
     setQuizResults((prev) => [
       ...prev,
       {
         questionId: currentQuestion.id,
         correct: isCorrect,
-        selected: opt,
-        answer: currentQuestion.answer,
+        selected: optKey,
+        answer: currentQuestion.correct_answer,
       },
     ]);
   };
@@ -84,8 +108,7 @@ export default function Part5Screen({ onBackPortal }) {
       const correctCount = results.filter((r) => r.correct).length;
       const elapsedSec = quizStartTimeRef.current ? Math.round((Date.now() - quizStartTimeRef.current) / 1000) : 0;
       const stats = await loadUserStats();
-      const typeLabel = QUESTION_TYPES.find((t) => t.key === selectedType)?.label || 'すべて';
-      const testName = `Part 5 (${typeLabel} ${results.length}問)`;
+      const testName = `Part 5 (${selectedLevel}点レベル ${results.length}問)`;
       const updated = updatePartStats(stats, 'part5', correctCount, results.length, elapsedSec, testName);
       await saveUserStats(updated);
     } catch (e) {
@@ -105,30 +128,30 @@ export default function Part5Screen({ onBackPortal }) {
   };
 
   /* ==========================================
-     1. 問題タイプ選択画面 (select_type)
+     1. レベル選択画面 (select_level)
      ========================================== */
-  if (phase === 'select_type') {
+  if (phase === 'select_level') {
     return (
       <View style={styles.container}>
         <ScrollView contentContainerStyle={styles.scrollContent}>
           <View style={styles.selectHeader}>
             <Text style={styles.selectWelcome}>Part 5 ・ Sentence Completion</Text>
-            <Text style={styles.selectTitle}>問題タイプを選択</Text>
+            <Text style={styles.selectTitle}>レベルを選択</Text>
           </View>
           
           <View style={styles.typeListContainer}>
-            {QUESTION_TYPES.map((type) => (
+            {LEVELS.map((level) => (
               <NeoButton
-                key={type.key}
+                key={level.key}
                 onPress={() => {
-                  setSelectedType(type.key);
+                  setSelectedLevel(level.key);
                   setPhase('select_count');
                 }}
                 btnStyle={styles.typeBtn}
               >
                 <View style={styles.typeBtnContent}>
-                  <Text style={styles.typeBtnLabel}>{type.label}</Text>
-                  <Text style={styles.typeBtnCount}>{type.count}問</Text>
+                  <Text style={styles.typeBtnLabel}>{level.label}</Text>
+                  <Text style={styles.typeBtnCount}>{level.count}問</Text>
                 </View>
               </NeoButton>
             ))}
@@ -150,16 +173,13 @@ export default function Part5Screen({ onBackPortal }) {
      2. 問題数選択画面 (select_count)
      ========================================== */
   if (phase === 'select_count') {
-    const total = selectedType === 'all'
-      ? rawPart5Data.length
-      : rawPart5Data.filter((q) => q.question_type === selectedType).length;
-    const typeLabel = QUESTION_TYPES.find(t => t.key === selectedType)?.label || selectedType;
+    const total = LEVEL_DATA[selectedLevel]?.length || 0;
+    const levelLabel = LEVELS.find(l => l.key === selectedLevel)?.label || `${selectedLevel}点レベル`;
     
     const countOptions = [
       { value: 5, label: '5問' },
       { value: 10, label: '10問' },
       { value: 20, label: '20問' },
-      { value: total, label: `Custom (全${total}問)` },
     ];
 
     return (
@@ -169,7 +189,7 @@ export default function Part5Screen({ onBackPortal }) {
             <Text style={styles.selectWelcome}>Part 5 ・ Sentence Completion</Text>
             <Text style={styles.selectTitle}>問題数を選択</Text>
             <Text style={styles.selectSubtitle}>
-              タイプ: {typeLabel} ({total}問中)
+              レベル: {levelLabel} ({total}問中)
             </Text>
           </View>
 
@@ -190,10 +210,10 @@ export default function Part5Screen({ onBackPortal }) {
         </ScrollView>
         <View style={styles.footer}>
           <NeoButton
-            onPress={() => setPhase('select_type')}
+            onPress={() => setPhase('select_level')}
             btnStyle={styles.backBtn}
           >
-            <Text style={styles.backBtnText}>タイプ選択に戻る</Text>
+            <Text style={styles.backBtnText}>レベル選択に戻る</Text>
           </NeoButton>
         </View>
       </View>
@@ -217,7 +237,7 @@ export default function Part5Screen({ onBackPortal }) {
      ========================================== */
   if (phase === 'quiz') {
     const currentQuestion = questions[currentIndex];
-    const isCorrect = selectedOption === currentQuestion.answer;
+    const isCorrect = selectedOption === currentQuestion.correct_answer;
     const progress = Math.round(((currentIndex + 1) / questions.length) * 100);
 
     return (
@@ -226,7 +246,7 @@ export default function Part5Screen({ onBackPortal }) {
           {/* Header */}
           <View style={styles.header}>
             <TouchableOpacity
-              onPress={() => setPhase('select_type')}
+              onPress={() => setPhase('select_level')}
               style={styles.backButton}
             >
               <Text style={styles.backButtonText}>← Menu</Text>
@@ -237,7 +257,7 @@ export default function Part5Screen({ onBackPortal }) {
                 setReportData({
                   questionId: currentQuestion.id,
                   questionType: 'Part 5',
-                  questionText: currentQuestion.question,
+                  questionText: currentQuestion.sentence,
                 });
                 setReportModalVisible(true);
               }}
@@ -263,38 +283,49 @@ export default function Part5Screen({ onBackPortal }) {
           <View style={styles.questionCard}>
             <View style={styles.cardHeader}>
               <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
-                {currentQuestion.question_type && (
-                  <Text style={styles.typeBadge}>
-                    {currentQuestion.question_type}
-                  </Text>
-                )}
+                <Text style={styles.typeBadge}>
+                  {selectedLevel}点レベル
+                </Text>
                 <Text style={styles.idBadge}>
                   ID: {currentQuestion.id}
                 </Text>
               </View>
-              {isSubmitted && (
-                <Text
-                  style={[
-                    styles.resultBadge,
-                    isCorrect ? styles.resultBadgeCorrect : styles.resultBadgeWrong,
-                  ]}
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                <TouchableOpacity
+                  onPress={() => handleToggleBookmark(currentQuestion)}
+                  style={styles.bookmarkButton}
                 >
-                  {isCorrect ? 'Correct ✓' : 'Incorrect ✗'}
-                </Text>
-              )}
+                  <Ionicons
+                    name={bookmarkedIds.has(currentQuestion.id) ? "bookmark" : "bookmark-outline"}
+                    size={22}
+                    color="#378F8F"
+                  />
+                </TouchableOpacity>
+                {isSubmitted && (
+                  <Text
+                    style={[
+                      styles.resultBadge,
+                      isCorrect ? styles.resultBadgeCorrect : styles.resultBadgeWrong,
+                    ]}
+                  >
+                    {isCorrect ? 'Correct ✓' : 'Incorrect ✗'}
+                  </Text>
+                )}
+              </View>
             </View>
-            <Text style={styles.questionText}>{currentQuestion.question}</Text>
+            <Text style={styles.questionText}>{currentQuestion.sentence}</Text>
           </View>
 
           {/* Options List */}
           <View style={styles.optionsContainer}>
-            {currentQuestion.options.map((opt, idx) => {
-              const isOptSelected = selectedOption === opt;
-              const isOptCorrect = opt === currentQuestion.answer;
+            {['A', 'B', 'C', 'D'].map((optKey, idx) => {
+              const optText = currentQuestion.options[optKey];
+              const isOptSelected = selectedOption === optKey;
+              const isOptCorrect = optKey === currentQuestion.correct_answer;
 
               let btnStyle = styles.optButton;
               let labelStyle = styles.optLabelBg;
-              let labelContent = String.fromCharCode(65 + idx);
+              let labelContent = optKey;
               let optTextStyle = styles.optText;
               let shadowColor = '#1C1C1E';
 
@@ -326,7 +357,7 @@ export default function Part5Screen({ onBackPortal }) {
               return (
                 <NeoButton
                   key={idx}
-                  onPress={() => handleSelectOption(opt)}
+                  onPress={() => handleSelectOption(optKey)}
                   disabled={isSubmitted}
                   btnStyle={btnStyle}
                   shadowColor={shadowColor}
@@ -335,14 +366,14 @@ export default function Part5Screen({ onBackPortal }) {
                     <View style={labelStyle}>
                       <Text style={styles.optLabelText}>{labelContent}</Text>
                     </View>
-                    <Text style={optTextStyle}>{opt}</Text>
+                    <Text style={optTextStyle}>{optText}</Text>
                   </View>
                 </NeoButton>
               );
             })}
           </View>
 
-          {/* Explanations (Keep Japanese translations & explanations) */}
+          {/* Explanations (New direct structure style) */}
           {isSubmitted && (
             <View style={styles.explanationCard}>
               <View style={styles.expSection}>
@@ -350,10 +381,21 @@ export default function Part5Screen({ onBackPortal }) {
                 <Text style={styles.expText}>{currentQuestion.meaning}</Text>
               </View>
 
-              <View style={styles.expSectionLast}>
+              <View style={currentQuestion.options_explanations ? styles.expSection : styles.expSectionLast}>
                 <Text style={styles.expSectionHeader}>Explanation</Text>
                 <Text style={styles.expText}>{currentQuestion.explanation}</Text>
               </View>
+
+              {currentQuestion.options_explanations && (
+                <View style={styles.expSectionLast}>
+                  <Text style={styles.expSectionHeader}>Options Explanation</Text>
+                  {['A', 'B', 'C', 'D'].map((key) => (
+                    <Text key={key} style={[styles.expText, { marginTop: 6 }]}>
+                      <Text style={{ fontWeight: 'bold' }}>{key}:</Text> {currentQuestion.options_explanations[key]}
+                    </Text>
+                  ))}
+                </View>
+              )}
             </View>
           )}
         </ScrollView>
@@ -425,7 +467,7 @@ export default function Part5Screen({ onBackPortal }) {
           </View>
         </View>
 
-        {/* Review List (Keep explanations in Japanese) */}
+        {/* Review List */}
         <Text style={styles.reviewHeader}>Review Incorrect Questions</Text>
         {quizResults.some((r) => !r.correct) ? (
           <View style={styles.reviewList}>
@@ -436,24 +478,48 @@ export default function Part5Screen({ onBackPortal }) {
               return (
                 <View key={idx} style={styles.reviewCard}>
                   <View style={styles.reviewCardHeader}>
-                    <Text style={styles.badgeWrong}>Incorrect ✗</Text>
-                    {q.question_type && (
-                      <Text style={styles.reviewTypeBadge}>{q.question_type}</Text>
-                    )}
+                    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+                      <Text style={styles.badgeWrong}>Incorrect ✗</Text>
+                      <Text style={styles.reviewTypeBadge}>{selectedLevel}点レベル</Text>
+                    </View>
+                    <TouchableOpacity
+                      onPress={() => handleToggleBookmark(q)}
+                      style={styles.reviewBookmarkBtn}
+                    >
+                      <Ionicons
+                        name={bookmarkedIds.has(q.id) ? "bookmark" : "bookmark-outline"}
+                        size={22}
+                        color="#378F8F"
+                      />
+                    </TouchableOpacity>
                   </View>
 
-                  <Text style={styles.reviewQuestionText}>{q.question}</Text>
+                  <Text style={styles.reviewQuestionText}>{q.sentence}</Text>
 
                   <View style={styles.reviewAnswersContainer}>
                     <Text style={styles.answerRowText}>
-                      Your Answer: <Text style={styles.textWrong}>{res.selected}</Text>
+                      Your Answer: <Text style={styles.textWrong}>({res.selected}) {q.options[res.selected]}</Text>
                     </Text>
                     <Text style={styles.answerRowText}>
-                      Correct Answer: <Text style={styles.textCorrect}>{res.answer}</Text>
+                      Correct Answer: <Text style={styles.textCorrect}>({res.answer}) {q.options[res.answer]}</Text>
                     </Text>
+                    <View style={styles.reviewDivider} />
+                    <Text style={styles.reviewExpTextHeader}>Translation</Text>
+                    <Text style={styles.reviewExpText}>{q.meaning}</Text>
                     <View style={styles.reviewDivider} />
                     <Text style={styles.reviewExpTextHeader}>Explanation</Text>
                     <Text style={styles.reviewExpText}>{q.explanation}</Text>
+                    {q.options_explanations && (
+                      <>
+                        <View style={styles.reviewDivider} />
+                        <Text style={styles.reviewExpTextHeader}>Options Explanation</Text>
+                        {['A', 'B', 'C', 'D'].map((key) => (
+                          <Text key={key} style={[styles.reviewExpText, { marginTop: 4 }]}>
+                            <Text style={{ fontWeight: 'bold' }}>{key}:</Text> {q.options_explanations[key]}
+                          </Text>
+                        ))}
+                      </>
+                    )}
                   </View>
                 </View>
               );
@@ -475,10 +541,10 @@ export default function Part5Screen({ onBackPortal }) {
           </NeoButton>
 
           <NeoButton
-            onPress={() => setPhase('select_type')}
+            onPress={() => setPhase('select_level')}
             btnStyle={styles.secondaryActionBtn}
           >
-            <Text style={styles.secondaryActionBtnText}>別のタイプを選ぶ</Text>
+            <Text style={styles.secondaryActionBtnText}>別のレベルを選ぶ</Text>
           </NeoButton>
         </View>
       </ScrollView>
@@ -1073,5 +1139,15 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     overflow: 'hidden',
     fontFamily: 'DMSans-Bold',
+  },
+  bookmarkButton: {
+    padding: 2,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  reviewBookmarkBtn: {
+    padding: 2,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
